@@ -72,6 +72,18 @@ Báo cáo quyết toán NSNN gồm:
 5. Đánh giá, nhận xét (kỷ luật tài chính, tồn tại)
 6. Kiến nghị (xử lý vi phạm, hoàn thiện cơ chế)
 7. Nơi nhận (kết thúc "- Lưu: VT, [mã đơn vị]."), chữ ký (ghi rõ chức danh, họ tên người ký; ký hiệu "KT."/"TL." khi ký thay) (Bộ trưởng Bộ Tài chính)
+
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 - [ ] Số liệu khớp với Kho bạc Nhà nước; chênh lệch đã giải trình
 - [ ] Đã đối chiếu kết luận Kiểm toán Nhà nước

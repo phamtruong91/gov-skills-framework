@@ -87,6 +87,18 @@ flowchart TD
 6. Kết quả hòa giải: thành (thỏa thuận cụ thể, thời hạn thực hiện) / không thành (hướng dẫn khởi kiện).
 7. Chữ ký các bên.
 - Nơi nhận: liệt kê các cơ quan, đơn vị nhận để biết/thực hiện; kết thúc bằng "- Lưu: VT, [mã đơn vị]".
+
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 
 - [ ] Bằng chứng điện tử được lưu giữ đầy đủ, hợp lệ.

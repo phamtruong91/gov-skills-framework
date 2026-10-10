@@ -88,6 +88,16 @@ Khung báo cáo thẩm định (Sở Tư pháp), đúng thể thức NĐ 30/2020
 8. Chữ ký: Giám đốc Sở Tư pháp tỉnh A; đóng dấu.
 9. Nơi nhận: UBND tỉnh (cơ quan đề nghị thẩm định); cơ quan chủ trì soạn thảo dự thảo; Lưu: VT, Sở Tư pháp.
 
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
 
 ## 6. Checklist nghiệm thu
 - [ ] Hồ sơ đề nghị thẩm định đầy đủ thành phần trước khi thẩm định.

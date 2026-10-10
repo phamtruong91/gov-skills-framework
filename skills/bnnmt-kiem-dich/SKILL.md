@@ -78,6 +78,18 @@ flowchart TD
 3. Các biện pháp áp dụng (khoanh vùng, tiêu hủy, tiêm phòng, cấm vận chuyển).
 4. Kinh phí, hỗ trợ.
 5. Tổ chức thực hiện.
+
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 
 - [ ] Quy định kiểm dịch phù hợp chuẩn mực quốc tế, cam kết FTA.

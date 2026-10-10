@@ -78,6 +78,18 @@ flowchart TD
 3. Công tác quản lý nhà nước về BVMT.
 4. Đánh giá xu hướng.
 5. Giải pháp, kiến nghị.
+
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 
 - [ ] Chính sách có mục tiêu, lộ trình, nguồn lực rõ ràng.

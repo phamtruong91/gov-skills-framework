@@ -90,6 +90,17 @@ Khung Báo cáo thống kê hộ tịch (kỳ tháng/quý/năm) gồm các phầ
 6. Nơi nhận: UBND cấp trên (ghi cụ thể), lưu Văn phòng
 7. Chữ ký: "TM. ỦY BAN NHÂN DÂN / CHỦ TỊCH" (hoặc Phó Chủ tịch phụ trách ký thay) + chữ ký + họ tên, đóng dấu UBND xã
 
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 - [ ] Mọi việc hộ tịch phát sinh đều đã ghi trên sổ giấy ngay trong ngày, đúng loại sổ, đủ trường bắt buộc
 - [ ] 100% việc hộ tịch trên sổ giấy đã được nhập lên CSDL hộ tịch điện tử, không nhập dữ liệu chưa ghi sổ

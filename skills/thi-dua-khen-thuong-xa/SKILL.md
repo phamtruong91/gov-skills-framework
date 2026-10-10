@@ -87,6 +87,17 @@ Khung quyết định khen thưởng của UBND xã (theo NĐ 30/2020/NĐ-CP):
 7. Nơi nhận: các tập thể, cá nhân được khen thưởng; Hội đồng TĐKT xã; lưu VP.
 8. Chữ ký: "TM. ỦY BAN NHÂN DÂN / CHỦ TỊCH" + họ tên Nguyễn Văn A, đóng dấu.
 
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 - [ ] Hồ sơ đề nghị đủ thành phần: tờ trình, báo cáo thành tích, biên bản bình xét cơ sở.
 - [ ] Mỗi trường hợp đã được thẩm định, đối chiếu đúng tiêu chuẩn theo NĐ 152/2025/NĐ-CP.

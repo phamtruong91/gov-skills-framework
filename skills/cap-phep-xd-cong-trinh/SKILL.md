@@ -103,6 +103,18 @@ flowchart TD
 5. Căn cứ (Luật Xây dựng; văn bản về phân định thẩm quyền, phân quyền, phân cấp lĩnh vực xây dựng; hồ sơ thiết kế đã thẩm tra...);
 6. Thẩm quyền, chức vụ, họ tên người ký: GIÁM ĐỐC (hoặc PHÓ GIÁM ĐỐC được ủy quyền) — (chữ ký, họ tên), dấu của cơ quan.
 - Nơi nhận: liệt kê các cơ quan, đơn vị nhận để biết/thực hiện; kết thúc bằng "- Lưu: VT, [mã đơn vị]".
+
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 
 - [ ] Hồ sơ tiếp nhận đầy đủ thành phần, có giấy hẹn trả kết quả theo cơ chế một cửa;

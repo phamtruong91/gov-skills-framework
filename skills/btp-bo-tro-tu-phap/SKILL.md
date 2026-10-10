@@ -81,6 +81,18 @@ Quyết định xử phạt vi phạm hành chính gồm:
 5. Hình thức xử phạt; biện pháp khắc phục hậu quả
 6. Thời hạn, nơi nộp phạt; quyền khiếu nại
 7. Hiệu lực; nơi nhận (kết thúc "- Lưu: VT, [mã đơn vị]."); chữ ký (ghi rõ chức danh, họ tên người ký; ký hiệu "KT."/"TL." khi ký thay) người có thẩm quyền
+
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 - [ ] Căn cứ pháp lý đúng lĩnh vực (không lẫn luật giữa các lĩnh vực)
 - [ ] Điều kiện hành nghề rõ ràng, không rào cản bất hợp lý

@@ -90,6 +90,17 @@ Khung Báo cáo công tác xử lý vi phạm hành chính của tỉnh gồm c�
 5. Nơi nhận: Bộ Tư pháp, UBND tỉnh A, lưu Sở
 6. Chữ ký: "GIÁM ĐỐC" + chữ ký + họ tên Giám đốc Sở Tư pháp tỉnh A, đóng dấu Sở
 
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 - [ ] Đã thu thập đầy đủ báo cáo XLVPHC của sở, ngành, UBND cấp xã; số liệu được đối chiếu, làm rõ bất thường
 - [ ] Tài liệu tập huấn bám sát văn bản còn hiệu lực; có tình huống thực tế theo lĩnh vực trọng điểm của tỉnh

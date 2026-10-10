@@ -84,6 +84,18 @@ Báo cáo đánh giá tác động chính sách thuế gồm:
 6. Tác động đến môi trường đầu tư, sức cạnh tranh
 7. Tương thích cam kết quốc tế
 8. Kiến nghị phương án lựa chọn; chữ ký (ghi rõ chức danh, họ tên người ký; ký hiệu "KT."/"TL." khi ký thay)
+
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 - [ ] Đã mô phỏng tác động thu NSNN theo kịch bản
 - [ ] Đã đánh giá tương thích cam kết quốc tế

@@ -86,6 +86,17 @@ Khung giấy giới thiệu của UBND xã (theo NĐ 30/2020/NĐ-CP):
 6. Nơi nhận: Trung tâm TGPL tỉnh A; lưu VP.
 7. Chữ ký: "TM. ỦY BAN NHÂN DÂN / CHỦ TỊCH" + họ tên người ký, đóng dấu.
 
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 - [ ] Phiếu tiếp nhận ghi đúng, đủ thông tin người yêu cầu và tóm tắt vụ việc.
 - [ ] Đã xác minh và kết luận rõ người dân có/không thuộc diện được TGPL, có căn cứ.

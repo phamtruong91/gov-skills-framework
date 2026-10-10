@@ -90,6 +90,17 @@ Khung Kết luận kiểm tra tổ chức hành nghề bổ trợ tư pháp gồ
 5. Nơi nhận: tổ chức được kiểm tra, lưu Sở
 6. Chữ ký: "GIÁM ĐỐC" + chữ ký + họ tên Giám đốc Sở Tư pháp tỉnh A, đóng dấu Sở
 
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 - [ ] Hồ sơ đề nghị thành lập được thẩm định đúng điều kiện của từng loại hình theo quy định pháp luật chuyên ngành
 - [ ] Cấp phép đúng thẩm quyền, đúng thời hạn; danh sách tổ chức hành nghề được công khai

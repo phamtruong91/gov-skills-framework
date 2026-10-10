@@ -88,6 +88,18 @@ flowchart TD
 4. Định hướng phát triển lưới điện truyền tải.
 5. Danh mục dự án nguồn điện, lưới điện quan trọng.
 6. Giải pháp, tổ chức thực hiện (vốn, cơ chế, phân công).
+
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 
 - [ ] Dự báo phụ tải có cơ sở số liệu, nhiều kịch bản.

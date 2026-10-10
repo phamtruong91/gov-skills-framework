@@ -108,6 +108,17 @@ Tình trạng: Hoàn thành / Đang thực hiện / Chậm tiến độ / Chưa 
 
 **C. Bảng theo dõi thực hiện kết luận** (dùng liên tục giữa các kỳ): gồm các cột như bảng B, thêm cột "Kỳ họp giao việc" và "Ngày cập nhật".
 
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## Checklist nghiệm thu
 
 1. Chương trình họp đủ 7 phần theo Cấu trúc output chuẩn, nội dung sắp xếp đúng thứ tự ưu tiên.

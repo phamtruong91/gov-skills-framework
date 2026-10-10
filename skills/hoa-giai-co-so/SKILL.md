@@ -88,6 +88,16 @@ Khung Biên bản hòa giải gồm các phần theo đúng thứ tự, đúng t
 5. Chữ ký: các bên tham gia hòa giải (ký, ghi rõ họ tên); hòa giải viên (ký, ghi rõ họ tên); xác nhận của trưởng thôn/tổ trưởng dân phố
 6. Phân phối: mỗi bên tranh chấp 01 bản biên bản; Tổ hòa giải lưu 01 bản; UBND xã lưu hồ sơ.
 
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
 
 ## 6. Checklist nghiệm thu
 - [ ] Vụ việc đã ghi vào Sổ theo dõi hòa giải ngay khi tiếp nhận

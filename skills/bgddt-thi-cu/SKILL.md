@@ -73,6 +73,18 @@ flowchart TD
 (3) chuẩn bị tổ chức thi; (4) đăng ký dự thi; (5) in sao, vận chuyển đề thi;
 (6) coi thi; (7) chấm thi; (8) phúc khảo; (9) xét công nhận tốt nghiệp;
 (10) thanh tra, khen thưởng, xử lý vi phạm; (11) điều khoản thi hành; (12) nơi nhận (kết thúc "- Lưu: VT, [mã đơn vị].").
+
+> **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
+> 1. Quốc hiệu và Tiêu ngữ.
+> 2. Tên cơ quan, tổ chức ban hành văn bản.
+> 3. Số, ký hiệu của văn bản.
+> 4. Địa danh và thời gian ban hành văn bản.
+> 5. Tên loại và trích yếu nội dung văn bản.
+> 6. Nội dung văn bản.
+> 7. Chức vụ, họ tên và chữ ký của người có thẩm quyền.
+> 8. Dấu, chữ ký số của cơ quan, tổ chức.
+> 9. Nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 
 - [ ] Quy chế quy định rõ trách nhiệm Bộ – địa phương
