@@ -95,6 +95,9 @@ Khung Trích lục khai tử gồm các phần theo đúng thứ tự, đúng th
 8. Chữ ký: "TM. ỦY BAN NHÂN DÂN / CHỦ TỊCH" + chữ ký + họ tên Chủ tịch UBND xã, đóng dấu UBND xã
 9. Phân phối: Trích lục khai tử giao người đi đăng ký; lưu sổ đăng ký khai tử + cập nhật CSDL hộ tịch điện tử.
 
+> **Chuẩn tài liệu đầu ra** (thứ tự ưu tiên):
+> 1. Chuẩn riêng của ngành/cơ quan chủ quản — mẫu, biểu mẫu, quy chuẩn tại văn bản quy phạm chuyên ngành (xem mục "Căn cứ & lưu ý").
+> 2. Tài liệu không có quy chuẩn riêng — thể thức NĐ 30/2020/NĐ-CP: Quốc hiệu và Tiêu ngữ; tên cơ quan ban hành; số, ký hiệu; địa danh và thời gian; tên loại và trích yếu; nội dung; chức vụ, họ tên, chữ ký người có thẩm quyền; dấu, chữ ký số; nơi nhận (kèm Phụ lục nếu có).
 
 ## 6. Checklist nghiệm thu
 - [ ] Hồ sơ có đủ Tờ khai đăng ký khai tử + Giấy báo tử (hoặc giấy tờ chứng minh việc chết hợp lệ) + giấy tờ người đi khai

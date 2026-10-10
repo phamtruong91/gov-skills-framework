@@ -88,6 +88,10 @@ Khung Quyết định xử phạt vi phạm hành chính trong hoạt động b�
 7. Nơi nhận: Tổ chức/cá nhân bị xử phạt; Kho bạc Nhà nước; đơn vị liên quan; lưu hồ sơ.
 8. Chữ ký của người có thẩm quyền xử phạt + họ tên, đóng dấu.
 
+> **Chuẩn tài liệu đầu ra** (thứ tự ưu tiên):
+> 1. Chuẩn riêng của ngành/cơ quan chủ quản — mẫu, biểu mẫu, quy chuẩn tại văn bản quy phạm chuyên ngành (xem mục "Căn cứ & lưu ý").
+> 2. Tài liệu không có quy chuẩn riêng — thể thức NĐ 30/2020/NĐ-CP: Quốc hiệu và Tiêu ngữ; tên cơ quan ban hành; số, ký hiệu; địa danh và thời gian; tên loại và trích yếu; nội dung; chức vụ, họ tên, chữ ký người có thẩm quyền; dấu, chữ ký số; nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 - [ ] Kế hoạch kiểm tra bao quát báo chí, xuất bản, in, phát hành; ưu tiên đối tượng có dấu hiệu vi phạm.
 - [ ] Cấp phép đúng thẩm quyền phân cấp; hồ sơ không đủ điều kiện được trả lời bằng văn bản.

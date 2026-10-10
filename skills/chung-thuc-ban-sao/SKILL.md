@@ -91,6 +91,9 @@ Khung lời chứng chứng thực bản sao từ bản chính gồm các phần
 7. Chữ ký người thực hiện chứng thực (ghi rõ họ tên, chức vụ), đóng dấu UBND xã; dấu giáp lai các trang (nếu nhiều trang)
 8. Phân phối: bản chứng thực giao người yêu cầu; lưu sổ chứng thực và hồ sơ tại UBND xã.
 
+> **Chuẩn tài liệu đầu ra** (thứ tự ưu tiên):
+> 1. Chuẩn riêng của ngành/cơ quan chủ quản — mẫu, biểu mẫu, quy chuẩn tại văn bản quy phạm chuyên ngành (xem mục "Căn cứ & lưu ý").
+> 2. Tài liệu không có quy chuẩn riêng — thể thức NĐ 30/2020/NĐ-CP: Quốc hiệu và Tiêu ngữ; tên cơ quan ban hành; số, ký hiệu; địa danh và thời gian; tên loại và trích yếu; nội dung; chức vụ, họ tên, chữ ký người có thẩm quyền; dấu, chữ ký số; nơi nhận (kèm Phụ lục nếu có).
 
 ## 6. Checklist nghiệm thu
 - [ ] Bản chính đã được đối chiếu từng trang với bản sao; không có dấu hiệu tẩy xóa, sửa chữa

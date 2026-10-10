@@ -101,6 +101,10 @@ flowchart TD
 6. Nơi nhận;
 7. Thẩm quyền, chức vụ, họ tên người ký: GIÁM ĐỐC — (chữ ký, họ tên), dấu của cơ quan.
 
+> **Chuẩn tài liệu đầu ra** (thứ tự ưu tiên):
+> 1. Chuẩn riêng của ngành/cơ quan chủ quản — mẫu, biểu mẫu, quy chuẩn tại văn bản quy phạm chuyên ngành (xem mục "Căn cứ & lưu ý").
+> 2. Tài liệu không có quy chuẩn riêng — thể thức NĐ 30/2020/NĐ-CP: Quốc hiệu và Tiêu ngữ; tên cơ quan ban hành; số, ký hiệu; địa danh và thời gian; tên loại và trích yếu; nội dung; chức vụ, họ tên, chữ ký người có thẩm quyền; dấu, chữ ký số; nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 
 - [ ] Hồ sơ công bố tuyến đầy đủ, phù hợp quy hoạch mạng lưới vận tải;

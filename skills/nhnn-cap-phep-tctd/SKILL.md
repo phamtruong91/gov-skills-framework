@@ -77,6 +77,11 @@ flowchart TD
 4. Điều kiện, nghĩa vụ của TCTD được cấp phép.
 5. Hiệu lực; chữ ký (ghi rõ chức danh, họ tên người ký; ký hiệu "KT."/"TL." khi ký thay) Thống đốc NHNN, đóng dấu.
 6. Nơi nhận (kết thúc "- Lưu: VT, [mã đơn vị].").
+
+> **Chuẩn tài liệu đầu ra** (thứ tự ưu tiên):
+> 1. Chuẩn riêng của ngành/cơ quan chủ quản — mẫu, biểu mẫu, quy chuẩn tại văn bản quy phạm chuyên ngành (xem mục "Căn cứ & lưu ý").
+> 2. Tài liệu không có quy chuẩn riêng — thể thức NĐ 30/2020/NĐ-CP: Quốc hiệu và Tiêu ngữ; tên cơ quan ban hành; số, ký hiệu; địa danh và thời gian; tên loại và trích yếu; nội dung; chức vụ, họ tên, chữ ký người có thẩm quyền; dấu, chữ ký số; nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 
 - [ ] Hồ sơ đầy đủ, hợp lệ theo danh mục.

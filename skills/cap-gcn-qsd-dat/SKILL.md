@@ -109,6 +109,10 @@ flowchart TD
 7. Nơi nhận;
 8. Thẩm quyền, chức vụ, họ tên người ký: TM. PHÒNG KINH TẾ — TRƯỞNG PHÒNG — (chữ ký, họ tên), dấu của cơ quan (nếu có).
 
+> **Chuẩn tài liệu đầu ra** (thứ tự ưu tiên):
+> 1. Chuẩn riêng của ngành/cơ quan chủ quản — mẫu, biểu mẫu, quy chuẩn tại văn bản quy phạm chuyên ngành (xem mục "Căn cứ & lưu ý").
+> 2. Tài liệu không có quy chuẩn riêng — thể thức NĐ 30/2020/NĐ-CP: Quốc hiệu và Tiêu ngữ; tên cơ quan ban hành; số, ký hiệu; địa danh và thời gian; tên loại và trích yếu; nội dung; chức vụ, họ tên, chữ ký người có thẩm quyền; dấu, chữ ký số; nơi nhận (kèm Phụ lục nếu có).
+
 ## 6. Checklist nghiệm thu
 
 - [ ] Hồ sơ tiếp nhận đầy đủ thành phần, có giấy hẹn trả kết quả theo cơ chế một cửa;
