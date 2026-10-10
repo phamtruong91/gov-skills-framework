@@ -26,35 +26,35 @@ description: "Quản lý nhà nước về công chứng, đấu giá tài sản
 
 **Bước 1. Tiếp nhận, thẩm định hồ sơ đề nghị thành lập tổ chức hành nghề**
 - Làm gì: Tiếp nhận hồ sơ đề nghị thành lập Văn phòng công chứng / tổ chức đấu giá tài sản / tổ chức hành nghề luật sư; thẩm định điều kiện về nhân sự (công chứng viên, đấu giá viên, luật sư), trụ sở, tên gọi, phạm vi hoạt động theo quy định pháp luật chuyên ngành hiện hành.
-- Dùng input: `ho_so_de_nghi`, `loai_hinh`
+- Dùng input: `ho_so_de_nghi`, `loai_hinh`.
 - Vai trò: Chuyên viên Phòng Bổ trợ tư pháp (Sở Tư pháp tỉnh A) thẩm định hồ sơ. AI hỗ trợ lập checklist điều kiện thành lập theo từng loại hình, đối chiếu hồ sơ với điều kiện quy định ⏱ ~05 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Thẩm định đúng loại hình, đúng điều kiện pháp luật chuyên ngành; không đặt thêm điều kiện ngoài quy định; hồ sơ thiếu phải hướng dẫn bổ sung một lần bằng văn bản.
 - → Kết quả bước: Kết quả thẩm định hồ sơ (đủ điều kiện/chưa đủ điều kiện, nội dung cần bổ sung).
 
 **Bước 2. Tham mưu cấp phép hoạt động cho tổ chức hành nghề**
 - Làm gì: Đối với hồ sơ đủ điều kiện: dự thảo quyết định cho phép thành lập / giấy phép hoạt động; trình cấp có thẩm quyền ký; cập nhật danh sách tổ chức hành nghề; công khai thông tin tổ chức được cấp phép.
-- Dùng input: kết quả thẩm định Bước 1, `loai_hinh`
+- Dùng input: kết quả thẩm định Bước 1, `loai_hinh`.
 - Vai trò: Trưởng phòng Bổ trợ tư pháp kiểm tra hồ sơ trình; Giám đốc Sở Tư pháp ký văn bản trình UBND tỉnh (đối với trường hợp thuộc thẩm quyền Chủ tịch UBND tỉnh). AI hỗ trợ soạn dự thảo giấy phép/quyết định đúng mẫu, đúng thể thức ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Cấp phép đúng thẩm quyền, đúng thời hạn; công khai danh sách tổ chức hành nghề được cấp phép trên Cổng thông tin điện tử tỉnh để tổ chức, cá nhân tra cứu.
 - → Kết quả bước: Giấy phép thành lập / Giấy đăng ký hoạt động đã ký; danh sách tổ chức hành nghề được cập nhật, công khai.
 
 **Bước 3. Lập kế hoạch kiểm tra tổ chức hành nghề**
 - Làm gì: Lập kế hoạch kiểm tra định kỳ hằng năm và kiểm tra đột xuất (khi có dấu hiệu vi phạm, đơn phản ánh); xác định đối tượng, nội dung, thời gian kiểm tra đối với tổ chức hành nghề công chứng, đấu giá, luật sư.
-- Dùng input: `danh_sach_to_chuc`, `ke_hoach_kiem_tra`, đơn phản ánh (nếu có)
+- Dùng input: `danh_sach_to_chuc`, `ke_hoach_kiem_tra`, đơn phản ánh (nếu có).
 - Vai trò: Trưởng phòng Bổ trợ tư pháp lập kế hoạch; Phó Giám đốc Sở phụ trách phê duyệt. AI hỗ trợ lập kế hoạch kiểm tra, mẫu phiếu kiểm tra theo từng loại hình ⏱ ~02 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Kiểm tra có trọng tâm, không kiểm tra tràn lan gây phiền hà; nội dung kiểm tra: việc tuân thủ pháp luật về tổ chức, hoạt động hành nghề, chế độ báo cáo, niêm yết, lưu trữ hồ sơ.
 - → Kết quả bước: Kế hoạch kiểm tra tổ chức hành nghề bổ trợ tư pháp đã phê duyệt.
 
 **Bước 4. Tổ chức kiểm tra, xử lý kết quả kiểm tra**
 - Làm gì: Tổ chức đoàn kiểm tra theo kế hoạch; lập biên bản kiểm tra; ban hành kết luận kiểm tra; kiến nghị tổ chức chấn chỉnh tồn tại; chuyển cơ quan có thẩm quyền xử lý vi phạm (nếu phát hiện vi phạm).
-- Dùng input: `ket_qua_kiem_tra`
+- Dùng input: `ket_qua_kiem_tra`.
 - Vai trò: Trưởng phòng Bổ trợ tư pháp làm trưởng đoàn kiểm tra. AI hỗ trợ soạn biên bản, dự thảo kết luận kiểm tra và văn bản kiến nghị chấn chỉnh ⏱ ~05 ngày làm việc/đợt kiểm tra (ước tính).
 - Lưu ý nghiệp vụ: Kết luận kiểm tra phải căn cứ biên bản và hồ sơ thực tế; phân biệt tồn tại cần chấn chỉnh với hành vi vi phạm phải xử lý; theo dõi việc khắc phục sau kiểm tra.
 - → Kết quả bước: Biên bản, kết luận kiểm tra; văn bản kiến nghị chấn chỉnh / văn bản chuyển xử lý vi phạm (nếu có).
 
 **Bước 5. Tổng hợp báo cáo công tác quản lý bổ trợ tư pháp**
 - Làm gì: Tổng hợp tình hình tổ chức, hoạt động của các tổ chức hành nghề công chứng, đấu giá, luật sư trên địa bàn; kết quả cấp phép, kiểm tra, xử lý vi phạm; đánh giá khó khăn, kiến nghị.
-- Dùng input: `danh_sach_to_chuc`, kết quả cấp phép, `ket_qua_kiem_tra`
+- Dùng input: `danh_sach_to_chuc`, kết quả cấp phép, `ket_qua_kiem_tra`.
 - Vai trò: Chuyên viên Phòng Bổ trợ tư pháp tổng hợp, soạn báo cáo; Giám đốc Sở ký. AI hỗ trợ tổng hợp số liệu theo loại hình, phân tích xu hướng và soạn dự thảo báo cáo ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Số liệu đầy đủ theo từng loại hình; nêu rõ vi phạm điển hình (nếu có) và biện pháp chấn chỉnh; kiến nghị hoàn thiện cơ chế quản lý.
 - → Kết quả bước: Báo cáo công tác quản lý nhà nước về bổ trợ tư pháp của tỉnh đã ký, gửi Bộ Tư pháp và UBND tỉnh.

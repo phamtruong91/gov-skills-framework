@@ -26,8 +26,7 @@ công trình nghiêm trọng; hướng dẫn địa phương về quản lý ch�
 
 - Làm gì: Xác định công trình/nhóm công trình thuộc diện kiểm tra hoặc nội dung quy chuẩn cần ban hành; lập kế hoạch.
 - Dùng input: `nhiem_vu`, `doi_tuong_ct`.
-- Vai trò: Cục Giám định nhà nước về chất lượng công trình xây dựng chủ trì; AI hỗ trợ lập ⏱ ~2–3 ngày làm việc (ước tính).
-  kế hoạch kiểm tra, danh mục hồ sơ cần thu thập (1–2 giờ).
+- Vai trò: Cục Giám định nhà nước về chất lượng công trình xây dựng chủ trì; AI hỗ trợ lập kế hoạch kiểm tra, danh mục hồ sơ cần thu thập ⏱ ~2–3 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Ưu tiên công trình trọng điểm quốc gia, công trình có dấu hiệu mất an toàn.
 - → Kết quả bước: Kế hoạch kiểm tra / đề cương xây dựng quy chuẩn.
 
@@ -36,8 +35,7 @@ công trình nghiêm trọng; hướng dẫn địa phương về quản lý ch�
 - Làm gì: Tổ chức đoàn kiểm tra hiện trường; đánh giá hồ sơ quản lý chất lượng của chủ đầu tư,
   nhà thầu; lấy mẫu thí nghiệm khi cần.
 - Dùng input: `ho_so_ky_thuat`, `don_vi_phoi_hop`.
-- Vai trò: Đoàn kiểm tra của Cục thực hiện; AI hỗ trợ tổng hợp biên bản kiểm tra, lập bảng ⏱ ~3–5 ngày làm việc (ước tính).
-  tồn tại – kiến nghị (2–3 giờ).
+- Vai trò: Đoàn kiểm tra của Cục thực hiện; AI hỗ trợ tổng hợp biên bản kiểm tra, lập bảng tồn tại – kiến nghị ⏱ ~3–5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Kết luận kiểm tra phải dựa trên hồ sơ, số liệu thực tế; không suy đoán.
 - → Kết quả bước: Biên bản kiểm tra + báo cáo đánh giá chất lượng.
 
@@ -46,8 +44,7 @@ công trình nghiêm trọng; hướng dẫn địa phương về quản lý ch�
 - Làm gì: Ban hành thông báo kết luận kiểm tra; yêu cầu khắc phục; xử lý vi phạm theo thẩm quyền;
   đối với sự cố nghiêm trọng, tổ chức giám định nguyên nhân.
 - Dùng input: Báo cáo đánh giá chất lượng.
-- Vai trò: Cục trưởng ký thông báo kết luận; AI hỗ trợ dự thảo thông báo, văn bản yêu cầu ⏱ ~2–3 ngày làm việc (ước tính).
-  khắc phục (1–2 giờ).
+- Vai trò: Cục trưởng ký thông báo kết luận; AI hỗ trợ dự thảo thông báo, văn bản yêu cầu khắc phục ⏱ ~2–3 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Yêu cầu khắc phục phải có thời hạn cụ thể; theo dõi đến khi hoàn thành.
 - → Kết quả bước: Thông báo kết luận kiểm tra; quyết định xử lý (nếu có).
 
@@ -56,8 +53,7 @@ công trình nghiêm trọng; hướng dẫn địa phương về quản lý ch�
 - Làm gì: (Nếu nhiệm vụ là ban hành quy chuẩn) tổ chức soạn thảo QCVN, lấy ý kiến, thẩm định,
   trình ban hành; (nếu hướng dẫn) ban hành văn bản hướng dẫn địa phương.
 - Dùng input: Kết quả các bước trên.
-- Vai trò: Vụ Khoa học công nghệ và môi trường (Bộ Xây dựng) phối hợp; AI hỗ trợ dự thảo ⏱ ~5–7 ngày làm việc (ước tính).
-  quy chuẩn, văn bản hướng dẫn (2–4 giờ).
+- Vai trò: Vụ Khoa học công nghệ và môi trường (Bộ Xây dựng) phối hợp; AI hỗ trợ dự thảo quy chuẩn, văn bản hướng dẫn ⏱ ~5–7 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Quy chuẩn kỹ thuật quốc gia phải qua thẩm định theo quy định pháp luật
   về tiêu chuẩn, quy chuẩn kỹ thuật.
 - → Kết quả bước: Quy chuẩn/văn bản hướng dẫn được ban hành.

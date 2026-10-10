@@ -25,35 +25,35 @@ description: "Ghi sổ hộ tịch giấy, nhập liệu và đối chiếu đ�
 
 **Bước 1. Ghi sổ hộ tịch giấy sau mỗi việc hộ tịch**
 - Làm gì: Ghi đầy đủ, chính xác nội dung việc hộ tịch vào đúng loại sổ hộ tịch giấy (Sổ đăng ký khai sinh, Sổ đăng ký khai tử, Sổ đăng ký kết hôn...) ngay sau khi hoàn thành việc đăng ký.
-- Dùng input: `viec_ho_tich`, `thong_tin_dang_ky`
+- Dùng input: `viec_ho_tich`, `thong_tin_dang_ky`.
 - Vai trò: Công chức Tư pháp – Hộ tịch ghi sổ. AI hỗ trợ kiểm tra đã ghi đủ các trường bắt buộc của từng loại sổ và cảnh báo trường còn thiếu ⏱ ~15 phút/việc (ước tính).
 - Lưu ý nghiệp vụ: Ghi bằng mực bền, chữ rõ ràng; không tẩy xóa; viết sai thì gạch bỏ và ghi lại theo quy định. Mỗi việc hộ tịch chỉ ghi một lần, đúng số thứ tự liên tục.
 - → Kết quả bước: Sổ hộ tịch giấy đã ghi đầy đủ, đúng thứ tự số.
 
 **Bước 2. Nhập liệu lên CSDL hộ tịch điện tử**
 - Làm gì: Nhập toàn bộ nội dung đã ghi trên sổ giấy lên hệ thống CSDL hộ tịch điện tử; kiểm tra tính hợp lệ của dữ liệu nhập (định dạng ngày tháng, số định danh cá nhân...).
-- Dùng input: `thong_tin_dang_ky` (đã ghi trên sổ giấy ở Bước 1)
+- Dùng input: `thong_tin_dang_ky` (đã ghi trên sổ giấy ở Bước 1).
 - Vai trò: Công chức Tư pháp – Hộ tịch nhập liệu. AI hỗ trợ kiểm tra định dạng, cảnh báo trùng lặp số định danh cá nhân và đối chiếu nhanh với dữ liệu sổ giấy vừa ghi ⏱ ~15 phút/việc (ước tính).
 - Lưu ý nghiệp vụ: Nhập liệu ngay trong ngày phát sinh việc hộ tịch, không dồn nhiều ngày. Tuyệt đối không nhập dữ liệu chưa được ghi trên sổ giấy. Tài khoản đăng nhập hệ thống là tài khoản cá nhân, không chia sẻ.
 - → Kết quả bước: Dữ liệu việc hộ tịch đã có trên CSDL hộ tịch điện tử, khớp với sổ giấy.
 
 **Bước 3. Đối chiếu đồng bộ sổ giấy – CSDL định kỳ**
 - Làm gì: Định kỳ (hàng tuần/tháng) đối chiếu số lượng và nội dung các việc hộ tịch giữa sổ giấy và CSDL điện tử; lập biên bản đối chiếu; xử lý sai lệch phát hiện được.
-- Dùng input: `so_giay_hien_co` (số liệu hai nguồn)
+- Dùng input: `so_giay_hien_co` (số liệu hai nguồn).
 - Vai trò: Công chức Tư pháp – Hộ tịch đối chiếu. AI hỗ trợ so sánh số liệu hai nguồn, liệt kê các bản ghi lệch và gợi ý nguyên nhân (thiếu nhập liệu, nhập sai...) ⏱ ~1 giờ/lần đối chiếu tháng (ước tính).
 - Lưu ý nghiệp vụ: Mọi sai lệch đều phải làm rõ nguyên nhân và khắc phục, ghi vào biên bản đối chiếu. Không tự ý sửa CSDL mà không có căn cứ từ sổ giấy/hồ sơ gốc.
 - → Kết quả bước: Biên bản đối chiếu đồng bộ sổ giấy – CSDL; các sai lệch đã được xử lý, hai nguồn khớp nhau.
 
 **Bước 4. Sao lưu và bảo mật dữ liệu hộ tịch**
 - Làm gì: Thực hiện sao lưu dữ liệu hộ tịch điện tử định kỳ theo quy định; quản lý tài khoản, mật khẩu truy cập hệ thống; phát hiện và xử lý sự cố lộ lọt, mất dữ liệu.
-- Dùng input: `su_co_du_lieu` (nếu có)
+- Dùng input: `su_co_du_lieu` (nếu có).
 - Vai trò: Công chức Tư pháp – Hộ tịch thực hiện sao lưu, quản lý tài khoản. AI hỗ trợ lập lịch sao lưu, checklist kiểm tra an toàn dữ liệu và soạn báo cáo sự cố khi xảy ra ⏱ ~30 phút/lần sao lưu (ước tính).
 - Lưu ý nghiệp vụ: Dữ liệu hộ tịch là thông tin cá nhân, chỉ cung cấp cho cơ quan, tổ chức, cá nhân có thẩm quyền theo quy định. Mất, lộ dữ liệu phải báo cáo Chủ tịch UBND xã và cấp trên ngay.
 - → Kết quả bước: Bản sao lưu dữ liệu định kỳ; tài khoản được quản lý an toàn; sự cố (nếu có) đã được xử lý và báo cáo.
 
 **Bước 5. Lập báo cáo thống kê hộ tịch định kỳ**
 - Làm gì: Tổng hợp số liệu các việc hộ tịch trong kỳ (số khai sinh, khai tử, kết hôn, chứng thực...) từ sổ giấy và CSDL; lập báo cáo thống kê theo mẫu; trình lãnh đạo ký và gửi cấp trên đúng hạn.
-- Dùng input: `ky_bao_cao`, số liệu tổng hợp từ sổ giấy và CSDL
+- Dùng input: `ky_bao_cao`, số liệu tổng hợp từ sổ giấy và CSDL.
 - Vai trò: Công chức Tư pháp – Hộ tịch tổng hợp số liệu, soạn báo cáo. AI hỗ trợ tổng hợp số liệu tự động từ CSDL, đối chiếu với sổ giấy và soạn dự thảo báo cáo đúng mẫu ⏱ ~0,5 ngày làm việc/báo cáo quý (ước tính).
 - Lưu ý nghiệp vụ: Số liệu báo cáo phải khớp giữa sổ giấy và CSDL; số liệu kỳ này phải logic với số lũy kế. Gửi báo cáo đúng thời hạn quy định; lưu bản lưu tại Văn phòng.
 - → Kết quả bước: Báo cáo thống kê hộ tịch định kỳ đã được ký, gửi cấp trên đúng hạn và lưu hồ sơ.

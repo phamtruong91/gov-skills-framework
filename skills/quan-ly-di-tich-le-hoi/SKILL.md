@@ -30,7 +30,7 @@ description: "Lập danh mục, hồ sơ di tích lịch sử – văn hóa; ki�
 
 - Làm gì: Rà soát toàn bộ di tích trên địa bàn; lập/cập nhật danh mục (tên, loại, cấp xếp hạng, hiện trạng); bổ sung, hoàn thiện hồ sơ di tích còn thiếu (lý lịch, ảnh chụp, sơ đồ vị trí).
 - Dùng input: `danh_muc_di_tich`, `ho_so_di_tich`.
-- Vai trò: Công chức VH-XH phụ trách văn hóa (bà Trần Thị H) chủ trì rà soát thực địa, phối hợp người trông coi di tích và trưởng thôn. AI hỗ trợ: thiết kế biểu mẫu lý lịch di tích chuẩn, tổng hợp thành bảng danh mục, soạn dự thảo lý lịch di tích từ thông tin thu thập được. Thời gian ước tính: 5–7 ngày làm việc.
+- Vai trò: Công chức VH-XH phụ trách văn hóa (bà Trần Thị H) chủ trì rà soát thực địa, phối hợp người trông coi di tích và trưởng thôn. AI hỗ trợ: thiết kế biểu mẫu lý lịch di tích chuẩn, tổng hợp thành bảng danh mục, soạn dự thảo lý lịch di tích từ thông tin thu thập được. ⏱ 5–7 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Ghi đúng cấp xếp hạng di tích (cấp quốc gia/tỉnh do cấp có thẩm quyền xếp hạng; xã chỉ quản lý, bảo vệ); di tích chưa xếp hạng vẫn phải đưa vào danh mục theo dõi của xã.
 - → Kết quả bước: Bảng danh mục di tích toàn xã + hồ sơ (lý lịch) từng di tích.
 
@@ -38,15 +38,15 @@ description: "Lập danh mục, hồ sơ di tích lịch sử – văn hóa; ki�
 
 - Làm gì: Kiểm tra thực tế tình trạng di tích (kết cấu, hiện vật, cảnh quan, vệ sinh); ghi nhận hạng mục xuống cấp cần tu bổ; kiểm tra việc chấp hành quy định bảo vệ di tích của tổ chức, cá nhân được giao quản lý; lập biên bản kiểm tra.
 - Dùng input: Kết quả bước 1; `ke_hoach_tu_bo`.
-- Vai trò: Công chức VH-XH phụ trách văn hóa chủ trì, Trưởng phòng VH-XH (ông Vũ Văn E) tham gia kiểm tra các di tích xếp hạng. AI hỗ trợ: lập checklist kiểm tra bảo vệ di tích, tổng hợp hạng mục cần tu bổ thành danh mục ưu tiên, soạn dự thảo biên bản kiểm tra. Thời gian ước tính: 3–5 ngày làm việc.
+- Vai trò: Công chức VH-XH phụ trách văn hóa chủ trì, Trưởng phòng VH-XH (ông Vũ Văn E) tham gia kiểm tra các di tích xếp hạng. AI hỗ trợ: lập checklist kiểm tra bảo vệ di tích, tổng hợp hạng mục cần tu bổ thành danh mục ưu tiên, soạn dự thảo biên bản kiểm tra. ⏱ 3–5 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Mọi hoạt động tu bổ di tích xếp hạng phải tuân thủ quy định pháp luật về di sản, có ý kiến của cơ quan chuyên môn cấp tỉnh trước khi thực hiện; không tự ý sửa chữa làm thay đổi yếu tố gốc của di tích.
 - → Kết quả bước: Biên bản kiểm tra di tích + danh mục hạng mục cần tu bổ (có thứ tự ưu tiên).
 
 **Bước 3. Xây dựng kế hoạch tổ chức lễ hội hằng năm**
 
 - Làm gì: Dự thảo Kế hoạch quản lý, bảo vệ di tích và tổ chức lễ hội năm: nội dung phần lễ, phần hội; phương án bảo đảm an ninh trật tự, vệ sinh môi trường, phòng cháy chữa cháy, an toàn thực phẩm; quy chế quản lý, sử dụng tiền công đức, tài trợ; phân công nhiệm vụ các lực lượng (Công an xã, y tế, đoàn thể, thôn).
-- Dùng input: `nam_ke_hoach`, `danh_muc_le_hoi`, `du_toan_thu_chi`, kết quả bước 1–2.
-- Vai trò: Công chức VH-XH phụ trách văn hóa soạn dự thảo, phối hợp Công an xã về phương án ANTT. AI hỗ trợ: soạn dự thảo kế hoạch theo thể thức NĐ 30/2020/NĐ-CP, lập bảng phân công nhiệm vụ theo đầu mối/thời gian, lập bảng dự toán thu chi từ số liệu đầu vào. Thời gian ước tính: 3–4 ngày làm việc.
+- Dùng input: `nam_ke_hoach`, `danh_muc_le_hoi`, `du_toan_thu_chi`, kết quả bước 1–2, `thoi_han`.
+- Vai trò: Công chức VH-XH phụ trách văn hóa soạn dự thảo, phối hợp Công an xã về phương án ANTT. AI hỗ trợ: soạn dự thảo kế hoạch theo thể thức NĐ 30/2020/NĐ-CP, lập bảng phân công nhiệm vụ theo đầu mối/thời gian, lập bảng dự toán thu chi từ số liệu đầu vào. ⏱ 3–4 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Kế hoạch phải nêu rõ cơ chế quản lý thu chi công đức công khai, minh bạch; các hoạt động mê tín dị đoan, cờ bạc, chèo kéo du khách trong lễ hội phải có biện pháp ngăn chặn cụ thể; không tổ chức lễ hội vượt quy mô khi chưa được cấp có thẩm quyền cho phép.
 - → Kết quả bước: Dự thảo Kế hoạch quản lý, bảo vệ di tích và tổ chức lễ hội năm + phụ lục (danh mục di tích, lịch lễ hội, dự toán, phân công).
 
@@ -54,7 +54,7 @@ description: "Lập danh mục, hồ sơ di tích lịch sử – văn hóa; ki�
 
 - Làm gì: Trình dự thảo kế hoạch qua các nấc kiểm duyệt; ký ban hành; gửi kế hoạch đến các đơn vị phối hợp và niêm yết công khai tại di tích/trụ sở UBND xã.
 - Dùng input: Dự thảo kế hoạch ở bước 3.
-- Vai trò: Công chức VH-XH phụ trách văn hóa trình; Trưởng phòng VH-XH (ông Vũ Văn E) kiểm tra nội dung, thể thức; Chủ tịch UBND xã (ông Nguyễn Văn A) ký duyệt, ban hành. AI hỗ trợ: rà soát thể thức lần cuối, lập danh sách nơi nhận, lập phiếu trình ký. Thời gian ước tính: 1–2 ngày làm việc.
+- Vai trò: Công chức VH-XH phụ trách văn hóa trình; Trưởng phòng VH-XH (ông Vũ Văn E) kiểm tra nội dung, thể thức; Chủ tịch UBND xã (ông Nguyễn Văn A) ký duyệt, ban hành. AI hỗ trợ: rà soát thể thức lần cuối, lập danh sách nơi nhận, lập phiếu trình ký. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Kế hoạch tổ chức lễ hội lớn cần gửi Sở VHTTDL tỉnh A và Công an xã để phối hợp trước ngày tổ chức ít nhất 15 ngày; kế hoạch chỉ có hiệu lực sau khi Chủ tịch ký.
 - → Kết quả bước: Kế hoạch đã ký ban hành, gửi đúng nơi nhận, niêm yết công khai.
 
@@ -62,7 +62,7 @@ description: "Lập danh mục, hồ sơ di tích lịch sử – văn hóa; ki�
 
 - Làm gì: Theo dõi việc thực hiện kế hoạch trong mùa lễ hội (ANTT, VSMT, thu chi công đức); tổng hợp báo cáo kết quả tổ chức lễ hội và công tác quản lý di tích năm, công khai quyết toán thu chi.
 - Dùng input: Kế hoạch đã ban hành; số liệu thực tế thu chi, tình hình ANTT/VSMT trong lễ hội.
-- Vai trò: Công chức VH-XH phụ trách văn hóa tổng hợp, Trưởng phòng VH-XH kiểm tra trước khi trình Chủ tịch ký báo cáo. AI hỗ trợ: đối chiếu thu chi thực tế với dự toán, soạn dự thảo báo cáo kết quả, lập bảng công khai quyết toán. Thời gian ước tính: 3–5 ngày làm việc sau mỗi lễ hội lớn / cuối năm.
+- Vai trò: Công chức VH-XH phụ trách văn hóa tổng hợp, Trưởng phòng VH-XH kiểm tra trước khi trình Chủ tịch ký báo cáo. AI hỗ trợ: đối chiếu thu chi thực tế với dự toán, soạn dự thảo báo cáo kết quả, lập bảng công khai quyết toán. ⏱ 3–5 ngày (ước tính) làm việc sau mỗi lễ hội lớn / cuối năm.
 - Lưu ý nghiệp vụ: Quyết toán thu chi công đức phải công khai tại di tích và trụ sở UBND xã; mọi khoản thu chi phải có chứng từ hợp lệ.
 - → Kết quả bước: Báo cáo kết quả tổ chức lễ hội và quản lý di tích năm + bảng công khai quyết toán thu chi.
 

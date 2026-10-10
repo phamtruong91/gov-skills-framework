@@ -26,35 +26,35 @@ description: "Quản lý công tác xử lý vi phạm hành chính trên địa
 
 **Bước 1. Thu thập, tổng hợp báo cáo XLVPHC toàn tỉnh**
 - Làm gì: Ban hành văn bản đề nghị các sở, ngành, UBND cấp xã báo cáo công tác XLVPHC; thu thập, tổng hợp số liệu: số vụ vi phạm, thẩm quyền xử phạt, hình thức xử phạt chính, hình thức xử phạt bổ sung, biện pháp khắc phục hậu quả, số quyết định bị khiếu nại, khởi kiện.
-- Dùng input: `bao_cao_xlvphc`
+- Dùng input: `bao_cao_xlvphc`.
 - Vai trò: Chuyên viên Phòng Quản lý xử lý vi phạm hành chính (Sở Tư pháp tỉnh A) thu thập, tổng hợp. AI hỗ trợ tổng hợp số liệu từ báo cáo các đơn vị, lập bảng thống kê theo lĩnh vực, địa bàn, phát hiện số liệu bất thường cần làm rõ ⏱ ~05 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Số liệu tổng hợp phải có đối chiếu, làm rõ khi chênh lệch lớn giữa các kỳ; phân biệt xử phạt vi phạm hành chính với áp dụng biện pháp xử lý hành chính khác.
 - → Kết quả bước: Bảng tổng hợp số liệu XLVPHC toàn tỉnh theo lĩnh vực, địa bàn, kỳ báo cáo.
 
 **Bước 2. Rà soát văn bản mới, biên soạn tài liệu tập huấn**
 - Làm gì: Rà soát văn bản mới về XLVPHC; xác định nội dung tập huấn trọng tâm (thẩm quyền xử phạt, trình tự, thủ tục, mẫu biên bản, quyết định); biên soạn, cập nhật tài liệu tập huấn, bộ câu hỏi tình huống.
-- Dùng input: `van_ban_moi`, `tai_lieu_tap_huan`, tồn tại phát hiện qua kiểm tra các năm trước
+- Dùng input: `van_ban_moi`, `tai_lieu_tap_huan`, tồn tại phát hiện qua kiểm tra các năm trước.
 - Vai trò: Trưởng phòng Quản lý XLVPHC biên soạn tài liệu. AI hỗ trợ soạn đề cương tập huấn, bộ câu hỏi tình huống từ các tồn tại thực tế, cập nhật tài liệu theo văn bản mới ⏱ ~05 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Tài liệu bám sát văn bản còn hiệu lực; tình huống thực tế, gắn với lĩnh vực thường xảy ra vi phạm tại tỉnh (đất đai, xây dựng, giao thông, môi trường...); ngôn ngữ dễ hiểu với cán bộ cấp xã.
 - → Kết quả bước: Tài liệu tập huấn nghiệp vụ XLVPHC đã cập nhật + bộ câu hỏi tình huống.
 
 **Bước 3. Lập và tổ chức thực hiện kế hoạch kiểm tra công tác XLVPHC**
 - Làm gì: Lập kế hoạch kiểm tra định kỳ, kiểm tra theo chuyên đề tại sở, ngành, UBND cấp xã; xác định đối tượng, nội dung (thẩm quyền ban hành quyết định, trình tự thủ tục, thời hiệu, thời hạn, việc chấp hành quyết định xử phạt); tổ chức đoàn kiểm tra.
-- Dùng input: `ke_hoach_kiem_tra`, bảng tổng hợp số liệu Bước 1
+- Dùng input: `ke_hoach_kiem_tra`, bảng tổng hợp số liệu Bước 1.
 - Vai trò: Trưởng phòng Quản lý XLVPHC lập kế hoạch, làm trưởng đoàn kiểm tra; Phó Giám đốc Sở phê duyệt kế hoạch. AI hỗ trợ lập kế hoạch kiểm tra, mẫu phiếu kiểm tra hồ sơ xử phạt vi phạm hành chính ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Lựa chọn đơn vị kiểm tra có trọng tâm (đơn vị có số vụ xử phạt lớn, có đơn khiếu nại, số liệu bất thường); kiểm tra hồ sơ thực tế, đối chiếu quyết định xử phạt với biên bản vi phạm.
 - → Kết quả bước: Kế hoạch kiểm tra đã phê duyệt; biên bản kiểm tra tại từng đơn vị, địa phương.
 
 **Bước 4. Xử lý kết quả kiểm tra**
 - Làm gì: Ban hành kết luận kiểm tra: đánh giá ưu điểm, chỉ rõ tồn tại (sai thẩm quyền, sai trình tự, quá thời hiệu...); kiến nghị đơn vị chấn chỉnh, khắc phục, hủy bỏ/sửa đổi quyết định trái pháp luật; chuyển cơ quan có thẩm quyền xử lý vi phạm (nếu phát hiện vi phạm nghiêm trọng).
-- Dùng input: `ket_qua_kiem_tra`
+- Dùng input: `ket_qua_kiem_tra`.
 - Vai trò: Trưởng phòng Quản lý XLVPHC dự thảo kết luận; Giám đốc Sở ký ban hành. AI hỗ trợ soạn dự thảo kết luận kiểm tra, phân loại tồn tại theo nhóm lỗi và kiến nghị biện pháp khắc phục tương ứng ⏱ ~05 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Kết luận căn cứ hồ sơ, biên bản kiểm tra; kiến nghị cụ thể, có thời hạn khắc phục; theo dõi việc khắc phục sau kiểm tra; không thay cơ quan có thẩm quyền xử phạt quyết định xử lý vụ việc cụ thể.
 - → Kết quả bước: Kết luận kiểm tra + văn bản kiến nghị chấn chỉnh, khắc phục (chuyển xử lý vi phạm nếu có); kế hoạch theo dõi khắc phục.
 
 **Bước 5. Báo cáo UBND tỉnh, Bộ Tư pháp về công tác XLVPHC**
 - Làm gì: Tổng hợp toàn diện công tác XLVPHC của tỉnh: tình hình vi phạm, kết quả xử phạt, công tác kiểm tra, tập huấn; đánh giá tồn tại, nguyên nhân; kiến nghị hoàn thiện pháp luật và nâng cao hiệu quả quản lý.
-- Dùng input: kết quả các Bước 1–4
+- Dùng input: kết quả các Bước 1–4.
 - Vai trò: Chuyên viên Phòng Quản lý XLVPHC tổng hợp, soạn báo cáo; Giám đốc Sở ký. AI hỗ trợ tổng hợp số liệu, phân tích xu hướng vi phạm theo lĩnh vực và soạn dự thảo báo cáo ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Báo cáo trung thực, số liệu minh chứng; nêu rõ các quyết định xử phạt bị khiếu nại, khởi kiện và kết quả giải quyết; kiến nghị cụ thể, khả thi.
 - → Kết quả bước: Báo cáo công tác XLVPHC của tỉnh đã ký, gửi Bộ Tư pháp và UBND tỉnh đúng hạn.

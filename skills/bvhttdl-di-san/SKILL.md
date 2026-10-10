@@ -26,28 +26,28 @@ kiểm tra, hướng dẫn công tác bảo vệ và phát huy giá trị di s�
 **Bước 1. Tiếp nhận và kiểm tra hồ sơ địa phương**
 - Làm gì: Kiểm tra tính đầy đủ, hợp lệ của hồ sơ xếp hạng do tỉnh gửi; đối chiếu tiêu chí theo quy định.
 - Dùng input: `ho_so_dia_phuong`, `ten_di_san`, `loai_hinh`, `cap_de_nghi`.
-- Vai trò: Chuyên viên Cục Di sản văn hóa — AI hỗ trợ lập bảng kiểm thành phần hồ sơ, đối chiếu checklist tiêu chí (1 giờ).
+- Vai trò: Chuyên viên Cục Di sản văn hóa — AI hỗ trợ lập bảng kiểm thành phần hồ sơ, đối chiếu checklist tiêu chí (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Hồ sơ thiếu thì trả lại một lần, nêu rõ nội dung bổ sung; không kéo dài nhiều vòng.
 - → Kết quả bước: Biên bản kiểm tra hồ sơ (đạt / yêu cầu bổ sung).
 
 **Bước 2. Thẩm định giá trị di sản**
 - Làm gì: Tổ chức hội đồng khoa học thẩm định giá trị lịch sử, văn hóa, khoa học, thẩm mỹ của di sản; khảo sát thực địa khi cần.
 - Dùng input: `ho_so_dia_phuong`, `danh_gia_khoa_hoc`.
-- Vai trò: Cục trưởng Cục Di sản văn hóa (bà Vũ Thị FF) chủ trì hội đồng — AI hỗ trợ tổng hợp tài liệu khoa học, soạn biên bản thẩm định (2–3 giờ).
+- Vai trò: Cục trưởng Cục Di sản văn hóa (bà Vũ Thị FF) chủ trì hội đồng — AI hỗ trợ tổng hợp tài liệu khoa học, soạn biên bản thẩm định (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Thành viên hội đồng phải độc lập, không có lợi ích liên quan; biên bản ghi rõ ý kiến đa số/thiểu số.
 - → Kết quả bước: Biên bản thẩm định của hội đồng khoa học.
 
 **Bước 3. Lập tờ trình xếp hạng / hồ sơ UNESCO**
 - Làm gì: Soạn tờ trình Thủ tướng xếp hạng di tích quốc gia/đặc biệt; hoặc lập hồ sơ đề cử theo mẫu UNESCO (đối với di sản thế giới).
 - Dùng input: Kết quả thẩm định, toàn bộ hồ sơ.
-- Vai trò: Cục Di sản văn hóa soạn thảo — AI hỗ trợ soạn tờ trình, kiểm tra đầy đủ thành phần hồ sơ UNESCO (2 giờ).
+- Vai trò: Cục Di sản văn hóa soạn thảo — AI hỗ trợ soạn tờ trình, kiểm tra đầy đủ thành phần hồ sơ UNESCO (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Hồ sơ UNESCO phải dịch sang tiếng Anh/Pháp, tuân thủ đúng biểu mẫu và thời hạn nộp của UNESCO.
 - → Kết quả bước: Tờ trình + hồ sơ xếp hạng/đề cử hoàn chỉnh.
 
 **Bước 4. Trình ký và theo dõi**
 - Làm gì: Trình Lãnh đạo Bộ ký văn bản trình Thủ tướng; theo dõi tiến độ xét duyệt; công bố sau khi có quyết định.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Cục trưởng → Thứ trưởng (bà Phạm Thị DD) → Bộ trưởng (ông Lê Văn CC) ký trình — AI hỗ trợ theo dõi tiến độ, nhắc hạn (30 phút).
+- Vai trò: Cục trưởng → Thứ trưởng (bà Phạm Thị DD) → Bộ trưởng (ông Lê Văn CC) ký trình — AI hỗ trợ theo dõi tiến độ, nhắc hạn (⏱ 30 phút).
 - Lưu ý nghiệp vụ: Sau khi xếp hạng, hướng dẫn địa phương cắm mốc, khoanh vùng bảo vệ và lập quy hoạch bảo quản.
 - → Kết quả bước: Quyết định xếp hạng được ban hành; văn bản hướng dẫn địa phương.
 

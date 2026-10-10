@@ -27,8 +27,7 @@ chất thải phóng xạ; ứng phó sự cố bức xạ, hạt nhân.
 - Làm gì: Tiếp nhận, thẩm định hồ sơ đề nghị cấp giấy phép tiến hành công việc bức xạ
   (sử dụng nguồn phóng xạ, thiết bị bức xạ).
 - Dùng input: `co_so`, `ho_so_cap_phep`.
-- Vai trò: Cục An toàn bức xạ và hạt nhân (Bộ KH&CN) thẩm định; AI hỗ trợ kiểm tra tính đầy đủ ⏱ ~2–3 ngày làm việc (ước tính).
-  hồ sơ, đối chiếu điều kiện an toàn (1–2 giờ).
+- Vai trò: Cục An toàn bức xạ và hạt nhân (Bộ KH&CN) thẩm định; AI hỗ trợ kiểm tra tính đầy đủ hồ sơ, đối chiếu điều kiện an toàn ⏱ ~2–3 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: AI chỉ hỗ trợ kiểm tra hồ sơ — quyết định cấp phép do người có thẩm quyền
   quyết định; yêu cầu an toàn phải tuyệt đối tuân thủ.
 - → Kết quả bước: Kết quả thẩm định hồ sơ.
@@ -37,8 +36,7 @@ chất thải phóng xạ; ứng phó sự cố bức xạ, hạt nhân.
 
 - Làm gì: Cấp mới, gia hạn, sửa đổi, bổ sung, thu hồi giấy phép tiến hành công việc bức xạ.
 - Dùng input: Kết quả thẩm định.
-- Vai trò: Cục trưởng Cục An toàn bức xạ và hạt nhân ký (theo phân cấp); AI hỗ trợ dự thảo ⏱ ~2–3 ngày làm việc (ước tính).
-  giấy phép, theo dõi thời hạn (30 phút).
+- Vai trò: Cục trưởng Cục An toàn bức xạ và hạt nhân ký (theo phân cấp); AI hỗ trợ dự thảo giấy phép, theo dõi thời hạn ⏱ ~2–3 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Giấy phép có thời hạn; kiểm soát chặt nguồn phóng xạ có hoạt độ cao.
 - → Kết quả bước: Giấy phép được cấp/gia hạn/thu hồi.
 
@@ -47,7 +45,7 @@ chất thải phóng xạ; ứng phó sự cố bức xạ, hạt nhân.
 - Làm gì: Thanh tra, kiểm tra việc chấp hành quy định an toàn bức xạ tại các cơ sở;
   xử lý vi phạm.
 - Dùng input: `co_so`.
-- Vai trò: Đoàn thanh tra của Cục thực hiện; AI hỗ trợ tổng hợp biên bản, báo cáo (2 giờ).
+- Vai trò: Đoàn thanh tra của Cục thực hiện; AI hỗ trợ tổng hợp biên bản, báo cáo (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Vi phạm an toàn bức xạ xử lý nghiêm; đình chỉ hoạt động khi mất an toàn.
 - → Kết quả bước: Biên bản thanh tra; quyết định xử lý vi phạm (nếu có).
 
@@ -56,7 +54,7 @@ chất thải phóng xạ; ứng phó sự cố bức xạ, hạt nhân.
 - Làm gì: Xây dựng kế hoạch ứng phó sự cố bức xạ, hạt nhân; diễn tập; điều phối ứng phó
   khi xảy ra sự cố; xây dựng chính sách phát triển ứng dụng năng lượng nguyên tử vì mục đích hòa bình.
 - Dùng input: `thong_tin_su_co` (nếu có).
-- Vai trò: Cục An toàn bức xạ và hạt nhân chủ trì; AI hỗ trợ dự thảo kế hoạch, báo cáo (2 giờ).
+- Vai trò: Cục An toàn bức xạ và hạt nhân chủ trì; AI hỗ trợ dự thảo kế hoạch, báo cáo (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Phối hợp Bộ Quốc phòng, Bộ Công an, địa phương trong ứng phó sự cố;
   tuân thủ điều ước quốc tế về an toàn hạt nhân.
 - → Kết quả bước: Kế hoạch ứng phó được phê duyệt; báo cáo xử lý sự cố.
@@ -71,6 +69,8 @@ flowchart TD
     B2 --> B3["Bước 3: Thanh tra, kiểm tra an toàn bức xạ"]
     B3 --> B4["Bước 4: Ứng phó sự cố, xây dựng chính sách"]
 ```
+
+*Ghi chú: các bước là luồng công việc độc lập, lựa chọn theo loại việc (`loai_viec`); không nhất thiết thực hiện nối tiếp.*
 
 ## 5. Đầu ra (Output)
 

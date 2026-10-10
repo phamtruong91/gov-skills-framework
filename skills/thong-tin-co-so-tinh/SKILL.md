@@ -27,35 +27,35 @@ description: "Quản lý thông tin cơ sở và hoạt động thông tin đố
 
 **Bước 1. Rà soát mạng lưới thông tin cơ sở toàn tỉnh**
 - Làm gì: Rà soát đài truyền thanh xã, cụm loa truyền thanh, bảng tin, trang thông tin điện tử của xã; đánh giá tình trạng hoạt động (tốt/trung bình/kém/không hoạt động), nguyên nhân.
-- Dùng input: `mang_luoi_ttcs`, `danh_gia_hoat_dong`
+- Dùng input: `mang_luoi_ttcs`, `danh_gia_hoat_dong`.
 - Vai trò: Chuyên viên Phòng Thông tin – Báo chí – Xuất bản (hoặc phòng được giao) phối hợp UBND xã rà soát; AI hỗ trợ lập bảng rà soát, thống kê tỷ lệ hoạt động theo xã ⏱ ~10 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Rà soát phải đến từng xã, không báo cáo chung chung; phân biệt đài hoạt động thường xuyên với đài chỉ hoạt động khi có sự kiện.
 - → Kết quả bước: Bảng rà soát mạng lưới thông tin cơ sở toàn tỉnh.
 
 **Bước 2. Xây dựng đề cương, nội dung tuyên truyền trọng tâm**
 - Làm gì: Xây dựng đề cương tuyên truyền hằng quý/năm: chủ trương của Đảng, chính sách pháp luật, nhiệm vụ trọng tâm của tỉnh; biên tập tài liệu tuyên truyền gửi cơ sở.
-- Dùng input: `noi_dung_tuyen_truyen`, bảng rà soát ở Bước 1
+- Dùng input: `noi_dung_tuyen_truyen`, bảng rà soát ở Bước 1.
 - Vai trò: Chuyên viên biên soạn đề cương; Trưởng phòng kiểm tra; Phó Giám đốc Sở phê duyệt; AI hỗ trợ biên tập tài liệu tuyên truyền ngắn gọn, dễ hiểu cho cơ sở ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Nội dung phải phù hợp trình độ tiếp nhận của người dân cơ sở; đề cương ngắn gọn, có gợi ý cách tuyên truyền (phát thanh, bảng tin, họp dân).
 - → Kết quả bước: Đề cương tuyên truyền + tài liệu gửi hệ thống thông tin cơ sở.
 
 **Bước 3. Hướng dẫn nghiệp vụ cho cán bộ thông tin cơ sở cấp xã**
 - Làm gì: Tổ chức tập huấn, hướng dẫn nghiệp vụ cho cán bộ phụ trách đài truyền thanh, thông tin cơ sở xã: kỹ năng biên tập, phát thanh, quản lý thiết bị.
-- Dùng input: Bảng rà soát ở Bước 1 (xác định xã yếu cần hỗ trợ)
+- Dùng input: Bảng rà soát ở Bước 1 (xác định xã yếu cần hỗ trợ).
 - Vai trò: Chuyên viên Sở trực tiếp tập huấn; Trưởng phòng theo dõi; AI hỗ trợ soạn tài liệu tập huấn, bài kiểm tra đánh giá ⏱ ~3 ngày làm việc (chuẩn bị) (ước tính)
 - Lưu ý nghiệp vụ: Tập huấn phải thực hành trên thiết bị thật; ưu tiên xã có đài hoạt động kém, cán bộ mới.
 - → Kết quả bước: Kế hoạch + tài liệu tập huấn nghiệp vụ thông tin cơ sở.
 
 **Bước 4. Kiểm tra, đánh giá hoạt động đài truyền thanh cơ sở**
 - Làm gì: Kiểm tra hoạt động của đài truyền thanh xã (tần suất phát thanh, chất lượng nội dung, tình trạng thiết bị); đánh giá, xếp loại; đề xuất hỗ trợ thiết bị cho xã khó khăn.
-- Dùng input: `ke_hoach_ttcs`, `mang_luoi_ttcs`
+- Dùng input: `ke_hoach_ttcs`, `mang_luoi_ttcs`.
 - Vai trò: Đoàn kiểm tra của Sở thực hiện; chuyên viên lập biên bản, tổng hợp đánh giá; AI hỗ trợ lập bảng chấm điểm, tổng hợp kết quả ⏱ theo kế hoạch (ước tính)
 - Lưu ý nghiệp vụ: Đánh giá công bằng giữa các xã; kết quả là căn cứ đề xuất đầu tư, hỗ trợ thiết bị.
 - → Kết quả bước: Báo cáo kiểm tra, đánh giá hoạt động thông tin cơ sở.
 
 **Bước 5. Triển khai thông tin đối ngoại, tổng hợp báo cáo**
 - Làm gì: Triển khai thông tin đối ngoại của tỉnh (quảng bá hình ảnh, tiềm năng, thành tựu); phối hợp báo chí tuyên truyền; tổng hợp báo cáo công tác thông tin cơ sở năm.
-- Dùng input: `noi_dung_tuyen_truyen`, kết quả kiểm tra ở Bước 4
+- Dùng input: `noi_dung_tuyen_truyen`, kết quả kiểm tra ở Bước 4, `nguoi_ky`.
 - Vai trò: Phó Giám đốc Sở chỉ đạo; chuyên viên triển khai; AI hỗ trợ soạn tin bài quảng bá, tổng hợp báo cáo năm ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Thông tin đối ngoại phải chính xác, thống nhất với định hướng của tỉnh; không cung cấp thông tin chưa được kiểm chứng cho báo chí nước ngoài.
 - → Kết quả bước: Báo cáo công tác thông tin cơ sở, thông tin đối ngoại năm của tỉnh.

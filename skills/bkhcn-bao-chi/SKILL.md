@@ -27,8 +27,7 @@ cấp phép hoạt động báo chí, xuất bản; quản lý nội dung thông
 - Làm gì: Tiếp nhận, thẩm định hồ sơ đề nghị cấp giấy phép hoạt động báo chí, xuất bản,
   thiết lập trang thông tin điện tử tổng hợp, mạng xã hội.
 - Dùng input: `co_quan_bao_chi`, `ho_so_cap_phep`.
-- Vai trò: Cục Báo chí / Cục Xuất bản, In và Phát hành (Bộ KH&CN) thẩm định; AI hỗ trợ kiểm tra ⏱ ~1–2 ngày làm việc (ước tính).
-  tính đầy đủ hồ sơ (1–2 giờ).
+- Vai trò: Cục Báo chí / Cục Xuất bản, In và Phát hành (Bộ KH&CN) thẩm định; AI hỗ trợ kiểm tra tính đầy đủ hồ sơ ⏱ ~1–2 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: AI chỉ hỗ trợ kiểm tra hồ sơ — quyết định cấp phép do người có thẩm quyền
   quyết định.
 - → Kết quả bước: Kết quả thẩm định hồ sơ.
@@ -37,7 +36,7 @@ cấp phép hoạt động báo chí, xuất bản; quản lý nội dung thông
 
 - Làm gì: Cấp mới, gia hạn, sửa đổi, thu hồi giấy phép theo quy định.
 - Dùng input: Kết quả thẩm định.
-- Vai trò: Cục trưởng ký (theo phân cấp); AI hỗ trợ dự thảo giấy phép, theo dõi thời hạn (30 phút).
+- Vai trò: Cục trưởng ký (theo phân cấp); AI hỗ trợ dự thảo giấy phép, theo dõi thời hạn (⏱ 30 phút).
 - Lưu ý nghiệp vụ: Đúng thời hạn; công khai.
 - → Kết quả bước: Giấy phép được cấp/gia hạn/thu hồi.
 
@@ -46,7 +45,7 @@ cấp phép hoạt động báo chí, xuất bản; quản lý nội dung thông
 - Làm gì: Theo dõi nội dung thông tin báo chí, mạng xã hội; phát hiện, xử lý vi phạm
   (tin sai sự thật, nội dung cấm); định hướng thông tin.
 - Dùng input: `noi_dung_vi_pham`.
-- Vai trò: Cục chuyên ngành thực hiện; AI hỗ trợ tổng hợp vụ việc, dự thảo văn bản xử lý (2 giờ).
+- Vai trò: Cục chuyên ngành thực hiện; AI hỗ trợ tổng hợp vụ việc, dự thảo văn bản xử lý (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Xử lý vi phạm đúng trình tự, có căn cứ; bảo đảm quyền tự do báo chí theo
   quy định pháp luật.
 - → Kết quả bước: Quyết định xử lý vi phạm; văn bản định hướng thông tin.
@@ -56,7 +55,7 @@ cấp phép hoạt động báo chí, xuất bản; quản lý nội dung thông
 - Làm gì: Xây dựng quy hoạch, kế hoạch phát triển báo chí; định hướng tuyên truyền nhiệm vụ
   chính trị; hỗ trợ chuyển đổi số báo chí.
 - Dùng input: `nhiem_vu`.
-- Vai trò: Cục Báo chí chủ trì; AI hỗ trợ dự thảo văn bản định hướng (2 giờ).
+- Vai trò: Cục Báo chí chủ trì; AI hỗ trợ dự thảo văn bản định hướng (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Định hướng thông tin phải kịp thời, đúng chủ trương; hỗ trợ báo chí
   chuyển đổi số nhưng không can thiệp nội dung tác nghiệp báo chí.
 - → Kết quả bước: Văn bản quy hoạch, định hướng được ban hành.

@@ -23,35 +23,35 @@ description: "Tổ chức tuyển dụng công chức cấp tỉnh theo chỉ ti
 
 **Bước 1. Xây dựng và phê duyệt kế hoạch tuyển dụng**
 - Làm gì: Tổng hợp nhu cầu của các cơ quan, đơn vị; xây dựng kế hoạch (chỉ tiêu, vị trí, tiêu chuẩn, hình thức, kinh phí, tiến độ); trình UBND tỉnh phê duyệt.
-- Dùng input: `chi_tieu`, `tieu_chuan_vi_tri`, `hinh_thuc`
+- Dùng input: `chi_tieu`, `tieu_chuan_vi_tri`, `hinh_thuc`.
 - Vai trò: Chuyên viên Phòng Công chức, viên chức (Sở Nội vụ tỉnh A) tổng hợp; AI hỗ trợ lập bảng chỉ tiêu theo đơn vị ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Chỉ tiêu trong tổng biên chế được giao; tiêu chuẩn vị trí việc làm phải đã được phê duyệt.
 - → Kết quả bước: Kế hoạch tuyển dụng đã phê duyệt.
 
 **Bước 2. Thông báo tuyển dụng, tiếp nhận hồ sơ**
 - Làm gì: Đăng thông báo tuyển dụng (chỉ tiêu, điều kiện, hồ sơ, thời gian, địa điểm); tiếp nhận, kiểm tra hồ sơ đăng ký.
-- Dùng input: `ke_hoach_tuyen_dung`
+- Dùng input: `ke_hoach_tuyen_dung`.
 - Vai trò: Hội đồng tuyển dụng tiếp nhận; AI hỗ trợ soạn thông báo, lập danh sách thí sinh đủ điều kiện ⏱ ~10 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Thông báo công khai trên cổng thông tin; kiểm tra điều kiện dự tuyển chặt chẽ, công bằng.
 - → Kết quả bước: Danh sách thí sinh đủ điều kiện dự tuyển.
 
 **Bước 3. Tổ chức thi/xét tuyển**
 - Làm gì: Tổ chức thi (trắc nghiệm, viết, phỏng vấn) hoặc xét tuyển theo quy định; chấm thi, tổng hợp điểm; đảm bảo an toàn, nghiêm túc.
-- Dùng input: Danh sách thí sinh Bước 2
+- Dùng input: Danh sách thí sinh Bước 2.
 - Vai trò: Hội đồng tuyển dụng tổ chức; AI hỗ trợ tổng hợp điểm, xếp hạng (không chấm thay) ⏱ theo lịch thi (ước tính)
 - Lưu ý nghiệp vụ: Bảo mật đề thi; chấm thi khách quan; giải quyết khiếu nại về kết quả đúng quy định.
 - → Kết quả bước: Kết quả thi/xét tuyển.
 
 **Bước 4. Công nhận kết quả, tuyển dụng**
 - Làm gì: Trình người có thẩm quyền công nhận kết quả; thông báo trúng tuyển; ra quyết định tuyển dụng, phân công đơn vị công tác.
-- Dùng input: Kết quả Bước 3
+- Dùng input: Kết quả Bước 3.
 - Vai trò: Giám đốc Sở Nội vụ trình; Chủ tịch UBND tỉnh A quyết định công nhận; AI hỗ trợ soạn quyết định ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Lấy theo thứ tự điểm từ cao xuống thấp trong chỉ tiêu; công khai kết quả.
 - → Kết quả bước: Quyết định công nhận kết quả và quyết định tuyển dụng.
 
 **Bước 5. Tiếp nhận, phân công và theo dõi tập sự**
 - Làm gì: Đơn vị tiếp nhận, phân công công tác; theo dõi thời gian tập sự; đánh giá hết tập sự để bổ nhiệm ngạch.
-- Dùng input: Quyết định tuyển dụng
+- Dùng input: Quyết định tuyển dụng.
 - Vai trò: Thủ trưởng đơn vị tiếp nhận; AI hỗ trợ lập bảng theo dõi tập sự ⏱ theo thời gian tập sự (ước tính)
 - Lưu ý nghiệp vụ: Bố trí người hướng dẫn tập sự; đánh giá tập sự đúng quy định trước khi bổ nhiệm chính thức.
 - → Kết quả bước: Báo cáo kết quả tập sự; quyết định bổ nhiệm ngạch.

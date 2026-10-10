@@ -26,35 +26,35 @@ description: "Việt Nam đăng cai hoặc đồng đăng cai hội nghị, di�
 **Bước 1. Xây dựng đề án đăng cai, tổ chức**
 - Làm gì: Lập đề án đăng cai/tổ chức hội nghị: sự cần thiết, mục tiêu, quy mô, chương trình nghị sự dự kiến, phương án lễ tân, an ninh, tuyên truyền, dự toán kinh phí, phân công bộ, ngành, địa phương.
 - Dùng input: `ten_hoi_nghi`, `quy_mo`, `thoi_gian_dia_diem`, `chu_tri`, `noi_dung_chuong_trinh`, `du_toan`.
-- Vai trò: Chuyên viên Vụ Chính sách đối ngoại đa phương (đơn vị chủ trì) dự thảo (AI hỗ trợ lập khung đề án, gợi ý chương trình theo thông lệ hội nghị quốc tế tương tự, lập dự toán mẫu — 3–5 ngày) → Vụ trưởng kiểm tra.
+- Vai trò: Chuyên viên Vụ Chính sách đối ngoại đa phương (đơn vị chủ trì) dự thảo (AI hỗ trợ lập khung đề án, gợi ý chương trình theo thông lệ hội nghị quốc tế tương tự, lập dự toán mẫu ⏱ 3–5 ngày (ước tính)) → Vụ trưởng kiểm tra.
 - Lưu ý nghiệp vụ: Đề án phải đánh giá tác động đối ngoại và khả năng bảo đảm an ninh, lễ tân tương xứng cấp hội nghị.
 - → Kết quả bước: Đề án đăng cai, tổ chức hội nghị trình phê duyệt.
 
 **Bước 2. Xin chủ trương và thành lập Ban tổ chức**
 - Làm gì: Trình xin chủ trương đăng cai, tổ chức; sau khi được chấp thuận thì thành lập Ban tổ chức, các tiểu ban (nội dung, lễ tân, an ninh, tuyên truyền, hậu cần), ban hành quy chế hoạt động.
 - Dùng input: Đề án bước 1.
-- Vai trò: Vụ trưởng trình Thứ trưởng → Bộ trưởng ký tờ trình (AI hỗ trợ soạn tờ trình, dự thảo quyết định thành lập Ban tổ chức — 1–2 ngày); cấp có thẩm quyền quyết định.
+- Vai trò: Vụ trưởng trình Thứ trưởng → Bộ trưởng ký tờ trình (AI hỗ trợ soạn tờ trình, dự thảo quyết định thành lập Ban tổ chức ⏱ 1–2 ngày (ước tính)); cấp có thẩm quyền quyết định.
 - Lưu ý nghiệp vụ: Thành phần Ban tổ chức phải bao gồm đại diện các bộ, ngành, địa phương liên quan; phân công rõ trách nhiệm từng tiểu ban.
 - → Kết quả bước: Chủ trương được chấp thuận; Ban tổ chức và các tiểu ban được thành lập.
 
 **Bước 3. Chuẩn bị nội dung và lễ tân**
 - Làm gì: Chuẩn bị văn kiện, tuyên bố chung, chương trình nghị sự chi tiết; xây dựng phương án lễ tân (đón tiếp theo cấp, chỗ ở, phương tiện, phiên dịch); gửi thư mời qua kênh ngoại giao.
 - Dùng input: `noi_dung_chuong_trinh`, `quy_mo`.
-- Vai trò: Tiểu ban nội dung và Tiểu ban lễ tân thực hiện (AI hỗ trợ soạn dự thảo văn kiện, lịch đón tiếp theo cấp đoàn, danh sách kiểm tra lễ tân — 5–7 ngày) → Trưởng Ban tổ chức duyệt.
+- Vai trò: Tiểu ban nội dung và Tiểu ban lễ tân thực hiện (AI hỗ trợ soạn dự thảo văn kiện, lịch đón tiếp theo cấp đoàn, danh sách kiểm tra lễ tân ⏱ 5–7 ngày (ước tính)) → Trưởng Ban tổ chức duyệt.
 - Lưu ý nghiệp vụ: Lễ tân phải tương xứng cấp trưởng đoàn và thông lệ quốc tế; văn kiện phải được các bên liên quan thống nhất trước giờ khai mạc.
 - → Kết quả bước: Văn kiện, chương trình nghị sự hoàn chỉnh; phương án lễ tân được duyệt.
 
 **Bước 4. Bảo đảm an ninh, y tế, tuyên truyền**
 - Làm gì: Phối hợp lực lượng công an, y tế xây dựng phương án bảo đảm an ninh, an toàn, y tế cho đại biểu; xây dựng kế hoạch tuyên truyền trong nước và quốc tế; tổ chức trung tâm báo chí.
 - Dùng input: `quy_mo`, `thoi_gian_dia_diem`.
-- Vai trò: Tiểu ban an ninh, Tiểu ban tuyên truyền thực hiện (AI hỗ trợ lập kế hoạch tuyên truyền theo giai đoạn, bộ tài liệu báo chí — 3 ngày) → Trưởng Ban tổ chức duyệt; phối hợp Bộ Công an, Bộ Y tế.
+- Vai trò: Tiểu ban an ninh, Tiểu ban tuyên truyền thực hiện (AI hỗ trợ lập kế hoạch tuyên truyền theo giai đoạn, bộ tài liệu báo chí ⏱ 3 ngày (ước tính)) → Trưởng Ban tổ chức duyệt; phối hợp Bộ Công an, Bộ Y tế.
 - Lưu ý nghiệp vụ: Phương án an ninh phải bao quát từ sân bay, nơi ở đến địa điểm họp; thông tin tuyên truyền thống nhất, do người phát ngôn cung cấp.
 - → Kết quả bước: Phương án an ninh, y tế, tuyên truyền sẵn sàng.
 
 **Bước 5. Tổ chức hội nghị và tổng kết**
 - Làm gì: Điều hành hội nghị theo chương trình; xử lý tình huống phát sinh; thông qua văn kiện; tổ chức họp báo bế mạc; sau hội nghị thì tổng kết, đánh giá, quyết toán kinh phí, báo cáo cấp có thẩm quyền.
 - Dùng input: Toàn bộ hồ sơ chuẩn bị.
-- Vai trò: Trưởng Ban tổ chức điều hành (AI hỗ trợ kịch bản điều hành theo giờ, tổng hợp nhanh kết quả từng phiên — trong thời gian diễn ra); sau hội nghị chuyên viên tổng hợp (AI hỗ trợ lập báo cáo tổng kết, quyết toán — 3 ngày) → Trưởng Ban ký báo cáo.
+- Vai trò: Trưởng Ban tổ chức điều hành (AI hỗ trợ kịch bản điều hành theo giờ, tổng hợp nhanh kết quả từng phiên — trong thời gian diễn ra); sau hội nghị chuyên viên tổng hợp (AI hỗ trợ lập báo cáo tổng kết, quyết toán ⏱ 3 ngày (ước tính)) → Trưởng Ban ký báo cáo.
 - Lưu ý nghiệp vụ: Mọi thay đổi chương trình phải được Trưởng Ban tổ chức quyết định; văn kiện thông qua phải có bản chính được các bên xác nhận.
 - → Kết quả bước: Hội nghị thành công; văn kiện được thông qua; báo cáo tổng kết trình cấp có thẩm quyền.
 

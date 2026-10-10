@@ -26,8 +26,7 @@ hướng dẫn địa phương triển khai; đánh giá, công nhận đô th�
 - Làm gì: Rà soát hiện trạng ứng dụng công nghệ trong quản lý đô thị tại các địa phương;
   nghiên cứu mô hình đô thị thông minh trong nước và quốc tế.
 - Dùng input: `pham_vi`, `mo_hinh_tham_khao`.
-- Vai trò: Vụ Quy hoạch – Kiến trúc / Cục Phát triển đô thị (Bộ Xây dựng) chủ trì; AI hỗ trợ ⏱ ~3–5 ngày làm việc (ước tính).
-  tổng hợp tài liệu, lập bảng so sánh mô hình (2–3 giờ).
+- Vai trò: Vụ Quy hoạch – Kiến trúc / Cục Phát triển đô thị (Bộ Xây dựng) chủ trì; AI hỗ trợ tổng hợp tài liệu, lập bảng so sánh mô hình ⏱ ~3–5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Đánh giá theo bộ tiêu chí thống nhất; không áp đặt một mô hình cho mọi đô thị.
 - → Kết quả bước: Báo cáo đánh giá thực trạng.
 
@@ -36,7 +35,7 @@ hướng dẫn địa phương triển khai; đánh giá, công nhận đô th�
 - Làm gì: Xây dựng khung phát triển đô thị thông minh; bộ tiêu chí đánh giá, công nhận;
   cơ chế chính sách khuyến khích.
 - Dùng input: `linh_vuc_uu_tien`, báo cáo thực trạng.
-- Vai trò: Chuyên viên soạn thảo; AI hỗ trợ dự thảo khung chính sách, bộ tiêu chí (2–3 giờ).
+- Vai trò: Chuyên viên soạn thảo; AI hỗ trợ dự thảo khung chính sách, bộ tiêu chí (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Phối hợp Bộ Khoa học và Công nghệ (chuyển đổi số), Bộ Công an (dữ liệu, an ninh mạng);
   bảo đảm an toàn thông tin trong tiêu chí.
 - → Kết quả bước: Dự thảo khung chính sách + bộ tiêu chí.
@@ -45,7 +44,7 @@ hướng dẫn địa phương triển khai; đánh giá, công nhận đô th�
 
 - Làm gì: Lấy ý kiến bộ/ngành, địa phương, chuyên gia; lựa chọn đô thị thí điểm; tổng kết mô hình điểm.
 - Dùng input: Dự thảo khung chính sách.
-- Vai trò: Đơn vị chủ trì tổng hợp; AI hỗ trợ bảng tiếp thu ý kiến, báo cáo tổng kết thí điểm (2 giờ).
+- Vai trò: Đơn vị chủ trì tổng hợp; AI hỗ trợ bảng tiếp thu ý kiến, báo cáo tổng kết thí điểm (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Thí điểm có thời hạn, có đánh giá độc lập trước khi nhân rộng.
 - → Kết quả bước: Khung chính sách hoàn chỉnh + báo cáo tổng kết thí điểm.
 
@@ -54,8 +53,7 @@ hướng dẫn địa phương triển khai; đánh giá, công nhận đô th�
 - Làm gì: Trình Thủ tướng phê duyệt đề án / Bộ trưởng ban hành văn bản hướng dẫn; tập huấn
   địa phương; định kỳ đánh giá, xếp hạng đô thị thông minh.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Vụ trưởng/Cục trưởng kiểm tra; Thứ trưởng duyệt; AI hỗ trợ dự thảo văn bản hướng dẫn, ⏱ ~3–5 ngày làm việc (ước tính).
-  kế hoạch tập huấn (1–2 giờ).
+- Vai trò: Vụ trưởng/Cục trưởng kiểm tra; Thứ trưởng duyệt; AI hỗ trợ dự thảo văn bản hướng dẫn, kế hoạch tập huấn ⏱ ~3–5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Công khai bộ tiêu chí, kết quả đánh giá.
 - → Kết quả bước: Văn bản ban hành + kế hoạch triển khai, đánh giá định kỳ.
 

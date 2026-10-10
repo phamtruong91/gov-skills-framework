@@ -24,36 +24,36 @@ description: "Xây dựng chương trình tổng thể cải cách hành chính 
 
 **Bước 1. Đánh giá kết quả CCHC kỳ trước**
 - Làm gì: Tổng hợp kết quả thực hiện chương trình/kế hoạch CCHC kỳ trước; phân tích điểm PAR Index của bộ, ngành, địa phương; xác định tồn tại, nguyên nhân.
-- Dùng input: `ket_qua_danh_gia_truoc`, `du_lieu_bo_nganh_dia_phuong`.
-- Vai trò: Chuyên viên Vụ Cải cách hành chính tổng hợp (AI hỗ trợ phân tích số liệu, xếp hạng, so sánh biến động điểm PAR Index giữa các kỳ — 3–5 ngày) → Vụ trưởng kiểm tra.
+- Dùng input: `ket_qua_danh_gia_truoc`, `du_lieu_bo_nganh_dia_phuong`, `pham_vi_chuong_trinh`.
+- Vai trò: Chuyên viên Vụ Cải cách hành chính tổng hợp (AI hỗ trợ phân tích số liệu, xếp hạng, so sánh biến động điểm PAR Index giữa các kỳ ⏱ 3–5 ngày (ước tính)) → Vụ trưởng kiểm tra.
 - Lưu ý nghiệp vụ: Số liệu PAR Index phải từ kết quả đánh giá chính thức đã công bố; AI không tự chấm điểm thay hội đồng đánh giá.
 - → Kết quả bước: Báo cáo đánh giá kết quả CCHC kỳ trước.
 
 **Bước 2. Xây dựng dự thảo chương trình/kế hoạch, bộ chỉ số**
 - Làm gì: Soạn thảo mục tiêu, nhiệm vụ, giải pháp của chương trình tổng thể/kế hoạch năm; thiết kế tiêu chí, thang điểm PAR Index (nếu xây dựng/sửa đổi bộ chỉ số).
-- Dùng input: `muc_tieu_yeu_cau`, kết quả bước 1.
-- Vai trò: Chuyên viên Vụ Cải cách hành chính soạn thảo (AI hỗ trợ rà soát mục tiêu các kỳ trước, gợi ý tiêu chí đo lường được, kiểm tra tính nhất quán — 5–7 ngày) → Vụ trưởng rà soát.
+- Dùng input: `muc_tieu_yeu_cau`, kết quả bước 1, `can_cu_giao_nhiem_vu`.
+- Vai trò: Chuyên viên Vụ Cải cách hành chính soạn thảo (AI hỗ trợ rà soát mục tiêu các kỳ trước, gợi ý tiêu chí đo lường được, kiểm tra tính nhất quán ⏱ 5–7 ngày (ước tính)) → Vụ trưởng rà soát.
 - Lưu ý nghiệp vụ: Mục tiêu phải cụ thể, đo lường được; tiêu chí PAR Index phải phản ánh đúng 6–8 nội dung CCHC và phù hợp mô hình CQĐP 2 cấp.
 - → Kết quả bước: Dự thảo chương trình/kế hoạch, dự thảo bộ chỉ số PAR Index.
 
 **Bước 3. Lấy ý kiến bộ, ngành, địa phương**
 - Làm gì: Gửi dự thảo lấy ý kiến các bộ, cơ quan ngang bộ, UBND cấp tỉnh; tổ chức hội thảo (nếu cần); tổng hợp, tiếp thu/giải trình.
 - Dùng input: Dự thảo bước 2.
-- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ phân loại ý kiến theo nhóm nội dung, lập bảng tiếp thu/giải trình — 2–3 ngày) → Vụ trưởng ký văn bản xin ý kiến.
+- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ phân loại ý kiến theo nhóm nội dung, lập bảng tiếp thu/giải trình ⏱ 2–3 ngày (ước tính)) → Vụ trưởng ký văn bản xin ý kiến.
 - Lưu ý nghiệp vụ: Với bộ chỉ số PAR Index, ý kiến của địa phương về tính khả thi của tiêu chí phải được xem xét kỹ; ý kiến không tiếp thu phải giải trình.
 - → Kết quả bước: Dự thảo hoàn thiện sau tiếp thu ý kiến.
 
 **Bước 4. Thẩm định, trình phê duyệt**
 - Làm gì: Vụ Pháp chế thẩm định (nếu là VBQPPL); lập tờ trình trình Bộ trưởng xem xét, báo cáo Chính phủ/Thủ tướng phê duyệt chương trình, kế hoạch, bộ chỉ số.
 - Dùng input: Toàn bộ hồ sơ các bước trước.
-- Vai trò: Vụ trưởng ký tờ trình (AI hỗ trợ rà soát thể thức theo NĐ 30/2020/NĐ-CP — 0,5 ngày) → Thứ trưởng kiểm tra → Bộ trưởng quyết định trình Chính phủ/Thủ tướng.
+- Vai trò: Vụ trưởng ký tờ trình (AI hỗ trợ rà soát thể thức theo NĐ 30/2020/NĐ-CP ⏱ 0,5 ngày (ước tính)) → Thứ trưởng kiểm tra → Bộ trưởng quyết định trình Chính phủ/Thủ tướng.
 - Lưu ý nghiệp vụ: Hồ sơ trình đầy đủ: tờ trình, dự thảo, báo cáo đánh giá kỳ trước, bảng tổng hợp ý kiến.
 - → Kết quả bước: Chương trình/kế hoạch/bộ chỉ số được phê duyệt.
 
 **Bước 5. Đôn đốc, kiểm tra và công bố kết quả hằng năm**
 - Làm gì: Hướng dẫn bộ, ngành, địa phương triển khai; tổ chức đánh giá PAR Index hằng năm; công bố kết quả xếp hạng; đôn đốc đơn vị điểm thấp khắc phục.
-- Dùng input: Văn bản phê duyệt bước 4, số liệu báo cáo hằng năm.
-- Vai trò: Chuyên viên Vụ Cải cách hành chính theo dõi (AI hỗ trợ tổng hợp số liệu tự đánh giá, đối chiếu chéo, lập bảng xếp hạng dự kiến — 5–7 ngày) → Vụ trưởng báo cáo Bộ trưởng → trình Thủ tướng công bố.
+- Dùng input: Văn bản phê duyệt bước 4, `du_lieu_bo_nganh_dia_phuong`.
+- Vai trò: Chuyên viên Vụ Cải cách hành chính theo dõi (AI hỗ trợ tổng hợp số liệu tự đánh giá, đối chiếu chéo, lập bảng xếp hạng dự kiến ⏱ 5–7 ngày (ước tính)) → Vụ trưởng báo cáo Bộ trưởng → trình Thủ tướng công bố.
 - Lưu ý nghiệp vụ: Kết quả xếp hạng chỉ công bố sau khi được cấp có thẩm quyền phê duyệt; AI không tự công bố hoặc "dự đoán" điểm chính thức.
 - → Kết quả bước: Báo cáo kết quả CCHC và PAR Index hằng năm đã công bố; văn bản đôn đốc khắc phục.
 

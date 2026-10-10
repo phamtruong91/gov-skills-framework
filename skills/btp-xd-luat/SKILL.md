@@ -23,29 +23,29 @@ Khi Bộ Tư pháp được giao chủ trì soạn thảo dự án luật, pháp
 
 **Bước 1. Lập đề nghị xây dựng dự án luật**
 - Làm gì: Soạn Tờ trình đề nghị xây dựng + Báo cáo đánh giá tác động chính sách (RIA) sơ bộ.
-- Dùng input: `ten_du_an`, `co_so_chinh_tri`, `chuong_trinh_xd`.
-- Vai trò: Chuyên viên Vụ Pháp luật — AI hỗ trợ rà soát tính tương thích với hệ thống pháp luật hiện hành, tổng hợp kinh nghiệm quốc tế (2–3 ngày).
+- Dùng input: `ten_du_an`, `co_so_chinh_tri`, `chuong_trinh_xd`, `co_quan_chu_tri`.
+- Vai trò: Chuyên viên Vụ Pháp luật — AI hỗ trợ rà soát tính tương thích với hệ thống pháp luật hiện hành, tổng hợp kinh nghiệm quốc tế (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Phải chứng minh sự cần thiết ban hành; đánh giá tác động thủ tục hành chính, ngân sách.
 - → Kết quả bước: Hồ sơ đề nghị xây dựng dự án luật.
 
 **Bước 2. Soạn thảo dự thảo lần đầu**
 - Làm gì: Thành lập Ban soạn thảo/Tổ biên tập; xây dựng dự thảo 1 gồm tờ trình, dự thảo luật, thuyết minh chi tiết.
 - Dùng input: Hồ sơ đề nghị đã được chấp thuận; `du_thao_hien_hanh`.
-- Vai trò: Vụ trưởng Vụ Pháp luật chủ trì — AI hỗ trợ soạn khung điều khoản, kiểm tra kỹ thuật lập pháp (thuật ngữ, cấu trúc chương/điều) (5–7 ngày).
+- Vai trò: Vụ trưởng Vụ Pháp luật chủ trì — AI hỗ trợ soạn khung điều khoản, kiểm tra kỹ thuật lập pháp (thuật ngữ, cấu trúc chương/điều) (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Tuân thủ kỹ thuật soạn thảo VBQPPL; mỗi chính sách phải có điều khoản tương ứng.
 - → Kết quả bước: Dự thảo 1 kèm thuyết minh.
 
 **Bước 3. Lấy ý kiến rộng rãi**
 - Làm gì: Đăng tải lấy ý kiến trên Cổng TTĐT; gửi lấy ý kiến bộ, ngành, địa phương, đối tượng chịu tác động; tổ chức hội thảo.
 - Dùng input: Dự thảo 1.
-- Vai trò: Chuyên viên Vụ Pháp luật tổng hợp — AI hỗ trợ phân loại ý kiến theo điều khoản, lập bảng tổng hợp tiếp thu/giải trình (3–5 ngày).
+- Vai trò: Chuyên viên Vụ Pháp luật tổng hợp — AI hỗ trợ phân loại ý kiến theo điều khoản, lập bảng tổng hợp tiếp thu/giải trình (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Thời gian lấy ý kiến tối thiểu theo quy định; phải có báo cáo giải trình tiếp thu.
 - → Kết quả bước: Báo cáo tổng hợp, tiếp thu ý kiến.
 
 **Bước 4. Thẩm định (nếu Bộ Tư pháp là cơ quan thẩm định) hoặc hoàn thiện trình Chính phủ**
 - Làm gì: Tổ chức thẩm định độc lập (Hội đồng thẩm định) hoặc hoàn thiện hồ sơ trình Chính phủ cho ý kiến.
 - Dùng input: Dự thảo sau tiếp thu; báo cáo thẩm định (nếu có).
-- Vai trò: Thứ trưởng phụ trách ký Tờ trình — AI hỗ trợ kiểm tra lần cuối: thể thức, chính tả, dẫn chiếu điều khoản (1–2 ngày).
+- Vai trò: Thứ trưởng phụ trách ký Tờ trình — AI hỗ trợ kiểm tra lần cuối: thể thức, chính tả, dẫn chiếu điều khoản (⏱ 1–2 ngày).
 - Lưu ý nghiệp vụ: Hồ sơ trình Chính phủ gồm: Tờ trình, dự thảo, báo cáo đánh giá tác động, báo cáo tổng hợp ý kiến, báo cáo thẩm định.
 - → Kết quả bước: Hồ sơ dự án luật trình Chính phủ.
 

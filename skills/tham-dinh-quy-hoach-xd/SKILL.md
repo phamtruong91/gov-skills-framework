@@ -21,7 +21,7 @@ description: "Thẩm định quy hoạch xây dựng, quy hoạch đô thị, qu
 | `don_vi_lap` | Tổ chức lập quy hoạch / cơ quan đề nghị thẩm định (tên, tư cách pháp nhân) | Có |
 | `ho_so_thiet_ke` | Bản vẽ, thuyết minh, phụ lục, mô hình minh họa của đồ án | Có |
 | `van_ban_de_nghi` | Văn bản đề nghị thẩm định của cơ quan tổ chức lập quy hoạch | Có |
-| `y_kien_cong_dong` | Kết quả lấy ý kiến cộng đồng dân cư (nếu pháp luật yêu cầu) | Có (khi thuộc trường hợp bắt buộc) |
+| `y_kien_cong_dong` | Kết quả lấy ý kiến cộng đồng dân cư (nếu pháp luật yêu cầu). Lưu ý: khi thuộc trường hợp bắt buộc.| Có |
 | `y_kien_co_quan_lien_quan` | Ý kiến của các sở, ngành, UBND xã có liên quan | Không |
 | `quy_hoach_cap_tren` | Quy hoạch cấp trên, quy hoạch tỉnh làm căn cứ đối chiếu | Có |
 

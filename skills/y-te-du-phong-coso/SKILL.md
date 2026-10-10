@@ -29,35 +29,35 @@ description: "Lập kế hoạch tiêm chủng mở rộng, phối hợp Trạm 
 **Bước 1. Rà soát, lập danh sách đối tượng tiêm chủng**
 - Làm gì: Phối hợp Trạm Y tế xã rà soát từng thôn: trẻ em đến tuổi tiêm các mũi, trẻ tiêm thiếu mũi, phụ nữ có thai cần tiêm; lập danh sách theo thôn, đối chiếu sổ theo dõi của trạm.
 - Dùng input: `doi_tuong_tiem_chung`, `thon_xom`, `lich_tiem_chung`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực y tế phối hợp Trạm Y tế xã và cộng tác viên y tế thôn rà soát; AI hỗ trợ tổng hợp danh sách theo thôn, đánh dấu đối tượng tiêm thiếu mũi (~1 ngày).
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực y tế phối hợp Trạm Y tế xã và cộng tác viên y tế thôn rà soát; AI hỗ trợ tổng hợp danh sách theo thôn, đánh dấu đối tượng tiêm thiếu mũi (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Danh sách phải khớp với sổ quản lý của Trạm Y tế; không bỏ sót trẻ tạm trú; thông tin cá nhân của đối tượng chỉ dùng cho công tác tiêm chủng.
 - → Kết quả bước: Danh sách đối tượng tiêm chủng theo thôn (đủ mũi/thiếu mũi).
 
 **Bước 2. Lập kế hoạch tiêm chủng và phòng chống dịch bệnh**
 - Làm gì: Lập kế hoạch: mục tiêu (tỷ lệ tiêm chủng đầy đủ, số đợt tiêm vét); thời gian, địa điểm từng đợt tiêm; phân công (Trạm Y tế thực hiện chuyên môn, thôn vận động đối tượng, Phòng VH-XH tuyên truyền); nội dung phòng chống dịch (vệ sinh môi trường, diệt bọ gậy, giám sát ca bệnh); kinh phí.
 - Dùng input: Danh sách bước 1, `lich_tiem_chung`, `tinh_hinh_dich_benh`, `van_ban_chi_dao`, `ky_ke_hoach`.
-- Vai trò: Công chức văn hóa – xã hội soạn kế hoạch; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Phó Chủ tịch UBND xã (bà Trần Thị B) phê duyệt; AI hỗ trợ soạn thảo theo thể thức NĐ 30/2020/NĐ-CP (~1 ngày).
+- Vai trò: Công chức văn hóa – xã hội soạn kế hoạch; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Phó Chủ tịch UBND xã (bà Trần Thị B) phê duyệt; AI hỗ trợ soạn thảo theo thể thức NĐ 30/2020/NĐ-CP (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Kế hoạch bám lịch tiêm chủng của Trạm Y tế; có phương án tiêm vét cho đối tượng vắng mặt; nội dung phòng dịch phù hợp tình hình dịch tễ thực tế.
 - → Kết quả bước: Dự thảo Kế hoạch tiêm chủng mở rộng và phòng chống dịch bệnh (kỳ …).
 
 **Bước 3. Tổ chức tuyên truyền phòng dịch và vận động tiêm chủng**
 - Làm gì: Tuyên truyền trên đài truyền thanh cơ sở, họp thôn, nhóm Zalo: lịch tiêm chủng, lợi ích tiêm chủng đầy đủ; biện pháp phòng dịch theo mùa (diệt bọ gậy, vệ sinh ăn uống, đeo khẩu trang khi có dịch hô hấp); vận động gia đình đưa trẻ đi tiêm đúng lịch.
 - Dùng input: Kế hoạch bước 2, `tinh_hinh_dich_benh`, `thon_xom`.
-- Vai trò: Công chức văn hóa – xã hội biên tập nội dung tuyên truyền; trưởng thôn, cộng tác viên y tế thôn vận động trực tiếp; AI hỗ trợ soạn tin bài tuyên truyền ngắn gọn, dễ hiểu (~0,5 ngày, triển khai suốt kỳ).
+- Vai trò: Công chức văn hóa – xã hội biên tập nội dung tuyên truyền; trưởng thôn, cộng tác viên y tế thôn vận động trực tiếp; AI hỗ trợ soạn tin bài tuyên truyền ngắn gọn, dễ hiểu (⏱ ~0,5 ngày, triển khai suốt kỳ).
 - Lưu ý nghiệp vụ: Nội dung tuyên truyền phải đúng chuyên môn (theo hướng dẫn của Trạm Y tế); không gây hoang mang khi có ca bệnh; ưu tiên hộ có đối tượng tiêm chủng.
 - → Kết quả bước: Tin bài tuyên truyền + danh sách hộ đã vận động.
 
 **Bước 4. Giám sát, phát hiện sớm và báo cáo dịch bệnh**
 - Làm gì: Theo dõi tình hình qua cộng tác viên y tế thôn: phát hiện sớm ca bệnh nghi ngờ, ổ dịch nhỏ; báo ngay cho Trạm Y tế xã xử lý chuyên môn; tổng hợp số ca, diễn biến theo tuần/tháng.
 - Dùng input: `tinh_hinh_dich_benh`, `thon_xom`, `ky_ke_hoach`.
-- Vai trò: Cộng tác viên y tế thôn phát hiện, báo cáo; công chức văn hóa – xã hội tổng hợp; Trạm Y tế xã xử lý chuyên môn; AI hỗ trợ lập bảng theo dõi diễn biến ca bệnh theo thôn (~0,5 ngày, cập nhật suốt kỳ).
+- Vai trò: Cộng tác viên y tế thôn phát hiện, báo cáo; công chức văn hóa – xã hội tổng hợp; Trạm Y tế xã xử lý chuyên môn; AI hỗ trợ lập bảng theo dõi diễn biến ca bệnh theo thôn (⏱ ~0,5 ngày, cập nhật suốt kỳ).
 - Lưu ý nghiệp vụ: Phát hiện ca nghi ngờ phải báo ngay, không chờ tổng hợp định kỳ; việc chẩn đoán, xử lý ổ dịch do Trạm Y tế/cơ quan chuyên môn thực hiện — Phòng VH-XH chỉ phối hợp tuyên truyền, vận động.
 - → Kết quả bước: Bảng theo dõi diễn biến dịch bệnh + báo cáo nhanh khi có ca nghi ngờ/ổ dịch.
 
 **Bước 5. Tổng hợp, báo cáo kết quả tiêm chủng và phòng chống dịch**
 - Làm gì: Tổng hợp kết quả: số đối tượng đã tiêm/tổng số (tỷ lệ %), số đợt tiêm vét; kết quả phòng chống dịch (số ca, ổ dịch đã xử lý); khó khăn; đề xuất kỳ tới.
 - Dùng input: Danh sách bước 1, bảng theo dõi bước 4, `so_lieu_ky_truoc`, `ky_ke_hoach`.
-- Vai trò: Công chức văn hóa – xã hội soạn báo cáo; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Chủ tịch UBND xã (ông Nguyễn Văn A) ký gửi cấp trên; AI hỗ trợ tính tỷ lệ, soạn báo cáo theo thể thức NĐ 30/2020/NĐ-CP (~0,5 ngày).
+- Vai trò: Công chức văn hóa – xã hội soạn báo cáo; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Chủ tịch UBND xã (ông Nguyễn Văn A) ký gửi cấp trên; AI hỗ trợ tính tỷ lệ, soạn báo cáo theo thể thức NĐ 30/2020/NĐ-CP (⏱ ~0,5 ngày).
 - Lưu ý nghiệp vụ: Số liệu tiêm chủng lấy từ Trạm Y tế xã, phải khớp sổ sách; nêu rõ nguyên nhân đối tượng chưa tiêm (vắng mặt, chống chỉ định, từ chối) và giải pháp.
 - → Kết quả bước: Báo cáo kết quả tiêm chủng mở rộng và phòng chống dịch bệnh (kỳ …) trình ký.
 

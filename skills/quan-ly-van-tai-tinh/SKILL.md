@@ -16,12 +16,12 @@ description: "Quản lý hoạt động vận tải hành khách, hàng hóa tr�
 
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
-| `ho_so_cong_bo_tuyen` | Hồ sơ đề nghị công bố tuyến vận tải (đơn vị vận tải, hành trình, tần suất, phương tiện) | Có (công bố tuyến) |
+| `ho_so_cong_bo_tuyen` | Hồ sơ đề nghị công bố tuyến vận tải (đơn vị vận tải, hành trình, tần suất, phương tiện). Lưu ý: công bố tuyến.| Có |
 | `danh_sach_ben_xe` | Danh sách bến xe, điểm đón trả khách trên địa bàn (vị trí, hạng, đơn vị quản lý) | Có |
-| `ho_so_dv_van_tai` | Hồ sơ đơn vị kinh doanh vận tải (giấy phép, phương tiện, lái xe) | Có (kiểm tra) |
-| `phan_anh_vi_pham` | Phản ánh vi phạm trong hoạt động vận tải (xe dù, bến cóc, chèo kéo...) | Có (xử lý) |
+| `ho_so_dv_van_tai` | Hồ sơ đơn vị kinh doanh vận tải (giấy phép, phương tiện, lái xe). Lưu ý: kiểm tra.| Có |
+| `phan_anh_vi_pham` | Phản ánh vi phạm trong hoạt động vận tải (xe dù, bến cóc, chèo kéo...). Lưu ý: xử lý.| Có |
 | `so_lieu_luu_luong` | Số liệu lưu lượng hành khách, hàng hóa theo tuyến, địa bàn | Không |
-| `quy_hoach_van_tai` | Quy hoạch mạng lưới vận tải của tỉnh (nếu có) | Có (quy hoạch tuyến) |
+| `quy_hoach_van_tai` | Quy hoạch mạng lưới vận tải của tỉnh (nếu có). Lưu ý: quy hoạch tuyến.| Có |
 
 ## 4. Quy trình
 

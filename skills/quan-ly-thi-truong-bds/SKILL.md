@@ -16,11 +16,11 @@ description: "Quản lý thị trường bất động sản: sàn giao dịch, 
 
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
-| `ho_so_san_giao_dich` | Hồ sơ đăng ký/thông báo hoạt động của sàn giao dịch BĐS | Có (quản lý sàn) |
-| `ho_so_moi_gioi` | Danh sách cá nhân hành nghề môi giới, chứng chỉ môi giới BĐS | Có (quản lý môi giới) |
-| `ho_so_du_an_bds` | Hồ sơ dự án BĐS đề nghị xác nhận đủ điều kiện đưa vào kinh doanh | Có (thẩm tra dự án) |
-| `du_lieu_giao_dich` | Dữ liệu giao dịch BĐS: giá, số lượng, tồn kho do sàn, chủ đầu tư báo cáo | Có (công bố thị trường) |
-| `tin_bao_vi_pham` | Tin báo vi phạm trong kinh doanh BĐS (tên tổ chức/cá nhân, hành vi) | Có (xử lý vi phạm) |
+| `ho_so_san_giao_dich` | Hồ sơ đăng ký/thông báo hoạt động của sàn giao dịch BĐS. Lưu ý: quản lý sàn.| Có |
+| `ho_so_moi_gioi` | Danh sách cá nhân hành nghề môi giới, chứng chỉ môi giới BĐS. Lưu ý: quản lý môi giới.| Có |
+| `ho_so_du_an_bds` | Hồ sơ dự án BĐS đề nghị xác nhận đủ điều kiện đưa vào kinh doanh. Lưu ý: thẩm tra dự án.| Có |
+| `du_lieu_giao_dich` | Dữ liệu giao dịch BĐS: giá, số lượng, tồn kho do sàn, chủ đầu tư báo cáo. Lưu ý: công bố thị trường.| Có |
+| `tin_bao_vi_pham` | Tin báo vi phạm trong kinh doanh BĐS (tên tổ chức/cá nhân, hành vi). Lưu ý: xử lý vi phạm.| Có |
 | `ket_qua_kiem_tra` | Kết quả kiểm tra thực tế tại sàn, dự án | Không |
 
 ## 4. Quy trình

@@ -25,36 +25,36 @@ description: "Phối hợp quản lý đường biên giới trên đất liền
 
 **Bước 1. Thu thập, rà soát hồ sơ hiện trạng**
 - Làm gì: Thu thập hồ sơ mốc giới, bản đồ, điều ước quốc tế về biên giới đã ký với nước láng giềng; rà soát tình hình thực địa, các vụ việc tồn đọng trên tuyến.
-- Dùng input: `tuyen_bien_gioi`, `ho_so_hien_trang`, `doi_tac`.
-- Vai trò: Chuyên viên Ủy ban Biên giới quốc gia tổng hợp (AI hỗ trợ hệ thống hóa hồ sơ mốc giới theo tuyến, lập danh mục vụ việc tồn đọng — 2–3 ngày) → Lãnh đạo Ủy ban kiểm tra.
+- Dùng input: `tuyen_bien_gioi`, `ho_so_hien_trang`, `doi_tac`, `noi_dung_cong_viec`.
+- Vai trò: Chuyên viên Ủy ban Biên giới quốc gia tổng hợp (AI hỗ trợ hệ thống hóa hồ sơ mốc giới theo tuyến, lập danh mục vụ việc tồn đọng ⏱ 2–3 ngày (ước tính)) → Lãnh đạo Ủy ban kiểm tra.
 - Lưu ý nghiệp vụ: Hồ sơ biên giới có tính pháp lý cao; mọi số liệu tọa độ, mốc giới phải trích đúng văn kiện đã ký, không suy diễn.
 - → Kết quả bước: Hồ sơ hiện trạng tuyến biên giới được hệ thống hóa.
 
 **Bước 2. Xây dựng kế hoạch công tác (tuần tra, duy tu mốc giới, tuyên truyền)**
 - Làm gì: Lập kế hoạch tuần tra liên hợp, duy tu, tôn tạo mốc giới; kế hoạch tuyên truyền về biên giới, biển đảo trong năm; phân công lực lượng phối hợp (bộ đội biên phòng, chính quyền địa phương).
 - Dùng input: `ke_hoach_thoi_gian`, hồ sơ bước 1.
-- Vai trò: Chuyên viên Ủy ban Biên giới quốc gia dự thảo (AI hỗ trợ lập lịch tuần tra theo tuyến, khung kế hoạch tuyên truyền theo đối tượng — 2 ngày) → Chủ nhiệm Ủy ban Biên giới quốc gia duyệt.
+- Vai trò: Chuyên viên Ủy ban Biên giới quốc gia dự thảo (AI hỗ trợ lập lịch tuần tra theo tuyến, khung kế hoạch tuyên truyền theo đối tượng ⏱ 2 ngày (ước tính)) → Chủ nhiệm Ủy ban Biên giới quốc gia duyệt.
 - Lưu ý nghiệp vụ: Hoạt động trên thực địa phải phối hợp chặt với lực lượng quản lý, bảo vệ biên giới và chính quyền địa phương tuyến biên giới.
 - → Kết quả bước: Kế hoạch công tác biên giới năm được phê duyệt.
 
 **Bước 3. Chuẩn bị đàm phán phân định (khi có yêu cầu)**
 - Làm gì: Nghiên cứu cơ sở pháp lý, chuẩn bị phương án, lập trường đàm phán về phân định biên giới/cửa khẩu; xây dựng dự thảo điều ước; xin chủ trương đàm phán.
 - Dùng input: `doi_tac`, `ho_so_hien_trang`.
-- Vai trò: Tổ công tác Ủy ban Biên giới quốc gia chuẩn bị (AI hỗ trợ rà soát điều ước quốc tế tương tự, soạn dự thảo điều khoản kỹ thuật — 5–7 ngày) → Chủ nhiệm Ủy ban báo cáo → Thứ trưởng trình Bộ trưởng xin chủ trương.
+- Vai trò: Tổ công tác Ủy ban Biên giới quốc gia chuẩn bị (AI hỗ trợ rà soát điều ước quốc tế tương tự, soạn dự thảo điều khoản kỹ thuật ⏱ 5–7 ngày (ước tính)) → Chủ nhiệm Ủy ban báo cáo → Thứ trưởng trình Bộ trưởng xin chủ trương.
 - Lưu ý nghiệp vụ: Mọi phương án đàm phán về lãnh thổ phải được cấp có thẩm quyền phê duyệt chủ trương; không tiết lộ lập trường đàm phán.
 - → Kết quả bước: Phương án đàm phán và dự thảo điều ước trình xin chủ trương.
 
 **Bước 4. Phối hợp xử lý vụ việc biên giới phát sinh**
 - Làm gì: Tiếp nhận thông tin vụ việc (vi phạm quy chế biên giới, tranh chấp tại khu vực giáp biên); phối hợp lực lượng chức năng xác minh; trao đổi qua kênh ngoại giao với nước láng giềng để xử lý.
 - Dùng input: Thông tin vụ việc, `tuyen_bien_gioi`.
-- Vai trò: Chuyên viên Ủy ban Biên giới quốc gia xử lý thường xuyên (AI hỗ trợ lập phiếu theo dõi vụ việc, soạn công hàm trao đổi theo mẫu — 1 ngày/vụ việc) → Lãnh đạo Ủy ban chỉ đạo; vụ việc phức tạp báo cáo Thứ trưởng.
+- Vai trò: Chuyên viên Ủy ban Biên giới quốc gia xử lý thường xuyên (AI hỗ trợ lập phiếu theo dõi vụ việc, soạn công hàm trao đổi theo mẫu ⏱ 1 ngày (ước tính)/vụ việc) → Lãnh đạo Ủy ban chỉ đạo; vụ việc phức tạp báo cáo Thứ trưởng.
 - Lưu ý nghiệp vụ: Xử lý trên tinh thần hữu nghị, tôn trọng điều ước đã ký; không để vụ việc nhỏ leo thang.
 - → Kết quả bước: Vụ việc được xử lý, có văn bản trao đổi qua kênh ngoại giao.
 
 **Bước 5. Tuyên truyền và báo cáo định kỳ**
 - Làm gì: Tổ chức tuyên truyền về biên giới, biển đảo (tài liệu, hội nghị, truyền thông); tổng hợp báo cáo định kỳ tình hình biên giới, lãnh thổ trình Chính phủ.
 - Dùng input: Kết quả các bước trên.
-- Vai trò: Chuyên viên Ủy ban Biên giới quốc gia thực hiện (AI hỗ trợ biên soạn tài liệu tuyên truyền, lập báo cáo định kỳ theo mẫu — 2–3 ngày) → Chủ nhiệm Ủy ban ký báo cáo.
+- Vai trò: Chuyên viên Ủy ban Biên giới quốc gia thực hiện (AI hỗ trợ biên soạn tài liệu tuyên truyền, lập báo cáo định kỳ theo mẫu ⏱ 2–3 ngày (ước tính)) → Chủ nhiệm Ủy ban ký báo cáo.
 - Lưu ý nghiệp vụ: Nội dung tuyên truyền về chủ quyền, lãnh thổ phải thống nhất với quan điểm chính thức của Nhà nước; tài liệu đối ngoại phải được kiểm duyệt.
 - → Kết quả bước: Tài liệu tuyên truyền được phát hành; báo cáo định kỳ trình Chính phủ.
 

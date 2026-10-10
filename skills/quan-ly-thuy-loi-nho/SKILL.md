@@ -29,35 +29,35 @@ description: "Quản lý nhà nước về công trình thủy lợi nhỏ, đê
 **Bước 1. Kiểm kê, đánh giá hiện trạng công trình thủy lợi nhỏ, đê bao nội đồng**
 - Làm gì: Kiểm kê toàn bộ công trình: trạm bơm (công suất, tình trạng máy), kênh mương (chiều dài, đoạn sạt lở, bồi lắng), cống (hư hỏng, tắc nghẽn), đê bao nội đồng (đoạn xung yếu, sụt lún); đánh giá mức độ hư hỏng, phân loại cần sửa chữa ngay / duy tu định kỳ / còn tốt; chụp ảnh, lập biên bản hiện trạng.
 - Dùng input: `danh_muc_cong_trinh`, `to_thuy_nong`.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) chủ trì kiểm kê, phối hợp tổ thủy nông, trưởng các thôn; AI hỗ trợ lập bảng kiểm kê và mẫu biên bản đánh giá hiện trạng công trình (~3 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) chủ trì kiểm kê, phối hợp tổ thủy nông, trưởng các thôn; AI hỗ trợ lập bảng kiểm kê và mẫu biên bản đánh giá hiện trạng công trình (⏱ ~3 ngày).
 - Lưu ý nghiệp vụ: Kiểm tra thực tế từng công trình, không nghe báo cáo miệng; đặc biệt chú ý các đoạn đê bao xung yếu, cống tiêu trước mùa mưa; biên bản phải có chữ ký xác nhận của tổ thủy nông, trưởng thôn.
 - → Kết quả bước: Bảng kiểm kê + biên bản đánh giá hiện trạng công trình thủy lợi nhỏ, đê bao nội đồng.
 
 **Bước 2. Lập kế hoạch duy tu, sửa chữa và lịch phân phối nước tưới trong vụ**
 - Làm gì: Lập kế hoạch quản lý, vận hành, bảo dưỡng: hạng mục duy tu, sửa chữa (tên công trình, khối lượng, thời gian, kinh phí); xây dựng phương án phân phối nước tưới trong vụ theo lịch thời vụ: thứ tự ưu tiên vùng tưới, lịch mở cống/vận hành trạm bơm theo thôn, phân công người trực; dự toán kinh phí chi tiết (ngân sách xã + đóng góp).
 - Dùng input: Biên bản hiện trạng bước 1, `dien_tich_tuoi`, `lich_thoi_vu`, `kinh_phi`, `nam_ke_hoach`, `van_ban_chi_dao`.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) lập kế hoạch, dự toán; AI hỗ trợ soạn thảo theo thể thức NĐ 30/2020/NĐ-CP, lập bảng phân nước theo thôn và bảng dự toán (~2 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) lập kế hoạch, dự toán; AI hỗ trợ soạn thảo theo thể thức NĐ 30/2020/NĐ-CP, lập bảng phân nước theo thôn và bảng dự toán (⏱ ~2 ngày).
 - Lưu ý nghiệp vụ: Lịch phân nước phải công bằng giữa các thôn, ưu tiên vùng cuối kênh; hạng mục sửa chữa phải hoàn thành trước vụ sản xuất; mức đóng góp của dân phải được bàn bạc, thống nhất, đúng quy định.
 - → Kết quả bước: Dự thảo Kế hoạch quản lý, vận hành, bảo dưỡng công trình + Phương án phân phối nước tưới trong vụ kèm dự toán kinh phí.
 
 **Bước 3. Tổ chức thực hiện qua tổ thủy nông, thôn**
 - Làm gì: Triển khai kế hoạch sau phê duyệt: giao tổ thủy nông, thôn tổ chức duy tu, sửa chữa; vận hành trạm bơm, điều tiết cống theo lịch phân nước; thông báo lịch lấy nước đến từng hộ dân (niêm yết, loa truyền thanh); xử lý kịp thời sự cố (vỡ kênh, hỏng máy bơm).
 - Dùng input: Kế hoạch, phương án phân nước đã phê duyệt bước 2, `to_thuy_nong`.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) đôn đốc, phối hợp tổ thủy nông, trưởng thôn; AI hỗ trợ soạn thông báo lịch lấy nước và nhật ký vận hành trạm bơm (~0,5 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) đôn đốc, phối hợp tổ thủy nông, trưởng thôn; AI hỗ trợ soạn thông báo lịch lấy nước và nhật ký vận hành trạm bơm (⏱ ~0,5 ngày).
 - Lưu ý nghiệp vụ: Lịch lấy nước phải thông báo trước ít nhất 3 ngày để hộ dân chủ động; ghi nhật ký vận hành (giờ bơm, lượng dầu/điện) làm cơ sở quyết toán; sự cố phải xử lý ngay, không để mất nước kéo dài.
 - → Kết quả bước: Công trình được duy tu, sửa chữa; nước tưới được phân phối theo lịch; nhật ký vận hành.
 
 **Bước 4. Kiểm tra, nghiệm thu khối lượng duy tu, sửa chữa**
 - Làm gì: Tổ chức kiểm tra, nghiệm thu từng hạng mục duy tu, sửa chữa: đối chiếu khối lượng thực tế với kế hoạch, dự toán; đánh giá chất lượng (kênh thông thoáng, cống hoạt động, đê bao chắc chắn); lập biên bản nghiệm thu có chữ ký các bên (Phòng Kinh tế, tổ thủy nông, thôn, đơn vị thi công nếu thuê ngoài).
 - Dùng input: Kế hoạch bước 2, kết quả thực hiện bước 3.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) chủ trì nghiệm thu, mời Trưởng phòng Kinh tế (bà Hoàng Thị D) tham gia với hạng mục lớn; AI hỗ trợ lập mẫu biên bản nghiệm thu và bảng đối chiếu khối lượng (~1 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) chủ trì nghiệm thu, mời Trưởng phòng Kinh tế (bà Hoàng Thị D) tham gia với hạng mục lớn; AI hỗ trợ lập mẫu biên bản nghiệm thu và bảng đối chiếu khối lượng (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Nghiệm thu thực tế tại công trình; khối lượng không đạt không được nghiệm thu; biên bản là căn cứ bắt buộc để thanh, quyết toán.
 - → Kết quả bước: Biên bản nghiệm thu khối lượng duy tu, sửa chữa công trình.
 
 **Bước 5. Quyết toán kinh phí quản lý, vận hành**
 - Làm gì: Tổng hợp chi phí: duy tu, sửa chữa (theo biên bản nghiệm thu), chi phí vận hành (dầu, điện, công trực), chi phí quản lý; đối chiếu nguồn: ngân sách xã và đóng góp của người dân; lập báo cáo quyết toán trình Trưởng phòng Kinh tế kiểm tra, trình Chủ tịch UBND xã phê duyệt; công khai quyết toán tại thôn.
 - Dùng input: Biên bản nghiệm thu bước 4, nhật ký vận hành bước 3, `kinh_phi`.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) lập quyết toán; Trưởng phòng Kinh tế (bà Hoàng Thị D) kiểm tra; AI hỗ trợ lập bảng quyết toán chi tiết theo nguồn kinh phí (~1 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) lập quyết toán; Trưởng phòng Kinh tế (bà Hoàng Thị D) kiểm tra; AI hỗ trợ lập bảng quyết toán chi tiết theo nguồn kinh phí (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Quyết toán phải khớp chứng từ, hóa đơn; phần đóng góp của dân phải công khai minh bạch tại thôn; chênh lệch so với dự toán phải giải trình rõ lý do.
 - → Kết quả bước: Báo cáo quyết toán kinh phí quản lý, vận hành công trình thủy lợi đã phê duyệt, công khai.
 

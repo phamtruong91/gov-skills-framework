@@ -22,35 +22,35 @@ Khi xây dựng chính sách TGPL; khi kiện toàn hệ thống Trung tâm TGPL
 **Bước 1. Rà soát chính sách, pháp luật về TGPL**
 - Làm gì: Đánh giá thực trạng thi hành chính sách TGPL; xác định khoảng trống (đối tượng chưa được bao phủ, thủ tục còn rườm rà).
 - Dùng input: `noi_dung_chinh_sach`, `bao_cao_chat_luong`.
-- Vai trò: Chuyên viên Cục Trợ giúp pháp lý — AI hỗ trợ tổng hợp báo cáo 63 tỉnh/thành, phân tích khoảng trống chính sách (3–5 ngày).
+- Vai trò: Chuyên viên Cục Trợ giúp pháp lý — AI hỗ trợ tổng hợp báo cáo 63 tỉnh/thành, phân tích khoảng trống chính sách (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Đối chiếu với chuẩn mực quốc tế về tiếp cận công lý mà Việt Nam cam kết.
 - → Kết quả bước: Báo cáo rà soát chính sách TGPL.
 
 **Bước 2. Xây dựng dự thảo chính sách/văn bản**
 - Làm gì: Soạn dự thảo văn bản (thông tư, đề án) về TGPL: mở rộng đối tượng, đơn giản thủ tục, TGPL điện tử.
 - Dùng input: Kết quả bước 1; `doi_tuong_tgpl`.
-- Vai trò: Cục trưởng Cục Trợ giúp pháp lý chủ trì — AI hỗ trợ soạn dự thảo, kiểm tra kỹ thuật văn bản (3–5 ngày).
+- Vai trò: Cục trưởng Cục Trợ giúp pháp lý chủ trì — AI hỗ trợ soạn dự thảo, kiểm tra kỹ thuật văn bản (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Thủ tục yêu cầu TGPL phải đơn giản, có thể thực hiện trực tuyến; bảo đảm kinh phí chi trả cho người thực hiện TGPL.
 - → Kết quả bước: Dự thảo văn bản/đề án TGPL.
 
 **Bước 3. Hướng dẫn kiện toàn hệ thống tổ chức TGPL**
 - Làm gì: Hướng dẫn Sở Tư pháp kiện toàn Trung tâm TGPL nhà nước cấp tỉnh, chi nhánh; quản lý tổ chức đăng ký tham gia TGPL (văn phòng luật sư, tổ chức tư vấn).
 - Dùng input: `he_thong_hien_tai`.
-- Vai trò: Chuyên viên Cục Trợ giúp pháp lý — AI hỗ trợ soạn văn bản hướng dẫn, mẫu báo cáo của địa phương (2–3 ngày).
+- Vai trò: Chuyên viên Cục Trợ giúp pháp lý — AI hỗ trợ soạn văn bản hướng dẫn, mẫu báo cáo của địa phương (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Bảo đảm mỗi tỉnh có ít nhất một Trung tâm TGPL hoạt động hiệu quả; phát triển mạng lưới cộng tác viên.
 - → Kết quả bước: Văn bản hướng dẫn kiện toàn hệ thống.
 
 **Bước 4. Kiểm tra, đánh giá chất lượng vụ việc TGPL**
 - Làm gì: Kiểm tra định kỳ/chuyên đề tại các Trung tâm; đánh giá chất lượng vụ việc (hồ sơ, quy trình, sự hài lòng của người được TGPL).
 - Dùng input: `bao_cao_chat_luong`.
-- Vai trò: Đoàn kiểm tra của Cục — AI hỗ trợ lập bộ tiêu chí đánh giá, tổng hợp kết quả kiểm tra (3–5 ngày).
+- Vai trò: Đoàn kiểm tra của Cục — AI hỗ trợ lập bộ tiêu chí đánh giá, tổng hợp kết quả kiểm tra (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Kiểm tra thực chất hồ sơ vụ việc, phỏng vấn người được TGPL; xử lý vi phạm đạo đức nghề nghiệp.
 - → Kết quả bước: Báo cáo kiểm tra, đánh giá chất lượng.
 
 **Bước 5. Tổng hợp báo cáo Chính phủ, đề xuất chính sách mới**
 - Làm gì: Tổng hợp báo cáo công tác TGPL toàn quốc hằng năm; đề xuất sửa đổi chính sách.
 - Dùng input: Kết quả các bước trên.
-- Vai trò: Cục trưởng Cục Trợ giúp pháp lý ký báo cáo — AI hỗ trợ tổng hợp số liệu, soạn báo cáo (2–3 ngày).
+- Vai trò: Cục trưởng Cục Trợ giúp pháp lý ký báo cáo — AI hỗ trợ tổng hợp số liệu, soạn báo cáo (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Số liệu vụ việc TGPL phải phân loại theo đối tượng, lĩnh vực, hình thức thực hiện.
 - → Kết quả bước: Báo cáo công tác TGPL toàn quốc.
 

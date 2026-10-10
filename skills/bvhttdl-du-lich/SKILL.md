@@ -25,29 +25,29 @@ quản lý nhà nước về du lịch tại các địa phương.
 
 **Bước 1. Đánh giá hiện trạng và dự báo**
 - Làm gì: Tổng hợp số liệu khách du lịch, doanh thu, cơ sở lưu trú, nhân lực toàn quốc; phân tích điểm mạnh, yếu, cơ hội, thách thức; dự báo xu hướng.
-- Dùng input: `so_lieu_hien_trang`, `dinh_huong_cap_tren`.
-- Vai trò: Chuyên viên Cục Du lịch — AI hỗ trợ tổng hợp số liệu thành bảng, vẽ biểu đồ xu hướng, soạn phân tích SWOT (2–3 giờ).
+- Dùng input: `so_lieu_hien_trang`, `dinh_huong_cap_tren`, `ten_chien_luoc`.
+- Vai trò: Chuyên viên Cục Du lịch — AI hỗ trợ tổng hợp số liệu thành bảng, vẽ biểu đồ xu hướng, soạn phân tích SWOT (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Số liệu phải từ nguồn thống kê chính thức; ghi rõ năm, nguồn; không dùng số liệu ước đoán không có căn cứ.
 - → Kết quả bước: Báo cáo đánh giá hiện trạng + dự báo.
 
 **Bước 2. Xây dựng dự thảo chiến lược**
 - Làm gì: Xác định quan điểm, mục tiêu, nhiệm vụ, giải pháp, chương trình hành động; phân kỳ thực hiện; dự kiến nguồn lực.
 - Dùng input: `muc_tieu`, báo cáo hiện trạng, `dinh_huong_cap_tren`.
-- Vai trò: Tổ biên tập Cục Du lịch (Vụ trưởng chỉ đạo) — AI hỗ trợ soạn khung chiến lược, rà soát tính nhất quán giữa mục tiêu và giải pháp (3–4 giờ).
+- Vai trò: Tổ biên tập Cục Du lịch (Vụ trưởng chỉ đạo) — AI hỗ trợ soạn khung chiến lược, rà soát tính nhất quán giữa mục tiêu và giải pháp (⏱ 3–4 giờ).
 - Lưu ý nghiệp vụ: Mục tiêu phải đo lường được; giải pháp gắn với đầu mối thực hiện và lộ trình cụ thể.
 - → Kết quả bước: Dự thảo chiến lược (kèm phụ lục số liệu).
 
 **Bước 3. Lấy ý kiến và thẩm định**
 - Làm gì: Lấy ý kiến bộ, ngành, địa phương, hiệp hội du lịch, chuyên gia; tổng hợp tiếp thu; gửi thẩm định theo quy định.
 - Dùng input: Dự thảo chiến lược.
-- Vai trò: Cục Du lịch — AI hỗ trợ tổng hợp ý kiến thành bảng tiếp thu/giải trình (1–2 giờ).
+- Vai trò: Cục Du lịch — AI hỗ trợ tổng hợp ý kiến thành bảng tiếp thu/giải trình (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Đặc biệt lấy ý kiến các địa phương trọng điểm du lịch và cộng đồng doanh nghiệp.
 - → Kết quả bước: Dự thảo hoàn chỉnh + bảng tiếp thu ý kiến.
 
 **Bước 4. Trình phê duyệt và tổ chức thực hiện**
 - Làm gì: Lập tờ trình Thủ tướng/Chính phủ phê duyệt chiến lược; sau phê duyệt, hướng dẫn địa phương xây dựng kế hoạch triển khai; theo dõi, đánh giá định kỳ.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Cục trưởng → Thứ trưởng → Bộ trưởng ký trình — AI hỗ trợ soạn tờ trình, lập khung theo dõi chỉ tiêu (1 giờ).
+- Vai trò: Cục trưởng → Thứ trưởng → Bộ trưởng ký trình — AI hỗ trợ soạn tờ trình, lập khung theo dõi chỉ tiêu (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Chiến lược phải có cơ chế giám sát, đánh giá giữa kỳ và cuối kỳ rõ ràng.
 - → Kết quả bước: Chiến lược được phê duyệt + kế hoạch triển khai + khung giám sát.
 

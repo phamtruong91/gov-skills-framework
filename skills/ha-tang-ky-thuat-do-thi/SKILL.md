@@ -16,12 +16,12 @@ description: "Quản lý hạ tầng kỹ thuật đô thị: cấp thoát nư�
 
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
-| `ho_so_du_an_htkt` | Hồ sơ dự án/đồ án có nội dung hạ tầng kỹ thuật đề nghị thẩm định | Có (thẩm định) |
+| `ho_so_du_an_htkt` | Hồ sơ dự án/đồ án có nội dung hạ tầng kỹ thuật đề nghị thẩm định. Lưu ý: thẩm định.| Có |
 | `danh_muc_ct_htkt` | Danh mục công trình hạ tầng kỹ thuật đô thị trên địa bàn (tên, vị trí, đơn vị quản lý, hiện trạng) | Có |
 | `bao_cao_van_hanh` | Báo cáo của đơn vị quản lý, vận hành về tình hình hoạt động hệ thống | Không |
-| `tin_bao_su_co_htkt` | Tin báo sự cố hạ tầng kỹ thuật: loại sự cố, vị trí, mức độ ảnh hưởng | Có (xử lý sự cố) |
+| `tin_bao_su_co_htkt` | Tin báo sự cố hạ tầng kỹ thuật: loại sự cố, vị trí, mức độ ảnh hưởng. Lưu ý: xử lý sự cố.| Có |
 | `bao_cao_cap_xa` | Báo cáo của UBND xã về hiện trạng hạ tầng kỹ thuật trên địa bàn | Không |
-| `chi_tieu_quy_hoach` | Chỉ tiêu hạ tầng kỹ thuật theo quy hoạch được duyệt | Có (thẩm định) |
+| `chi_tieu_quy_hoach` | Chỉ tiêu hạ tầng kỹ thuật theo quy hoạch được duyệt. Lưu ý: thẩm định.| Có |
 
 ## 4. Quy trình
 

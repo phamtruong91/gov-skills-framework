@@ -21,7 +21,7 @@ Khi xây dựng hệ thống chỉ tiêu thống kê quốc gia; khi tổ chức
 **Bước 1. Xây dựng hệ thống chỉ tiêu, phương pháp thống kê**
 - Làm gì: Soạn hệ thống chỉ tiêu thống kê quốc gia; quy định phương pháp tính (GDP, GRDP, CPI...); ban hành chế độ báo cáo thống kê.
 - Dùng input: `noi_dung`.
-- Vai trò: Cục trưởng Cục Thống kê chủ trì — AI hỗ trợ soạn danh mục chỉ tiêu, đối chiếu chuẩn mực quốc tế (5–7 ngày).
+- Vai trò: Cục trưởng Cục Thống kê chủ trì — AI hỗ trợ soạn danh mục chỉ tiêu, đối chiếu chuẩn mực quốc tế (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Phương pháp tính phải tương thích chuẩn quốc tế (SNA); thay đổi phương pháp phải công bố, giải trình.
 - → Kết quả bước: Hệ thống chỉ tiêu, phương pháp thống kê.
 
@@ -35,21 +35,21 @@ Khi xây dựng hệ thống chỉ tiêu thống kê quốc gia; khi tổ chức
 **Bước 3. Xử lý, tổng hợp số liệu**
 - Làm gì: Làm sạch, xử lý số liệu; tính toán các chỉ tiêu tổng hợp (GDP, CPI, tỷ lệ thất nghiệp...).
 - Dùng input: `so_lieu_tho`.
-- Vai trò: Chuyên viên Cục Thống kê — AI hỗ trợ phát hiện ngoại lệ (outlier), đối chiếu nguồn độc lập (3–5 ngày).
+- Vai trò: Chuyên viên Cục Thống kê — AI hỗ trợ phát hiện ngoại lệ (outlier), đối chiếu nguồn độc lập (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Mọi điều chỉnh số liệu phải có căn cứ phương pháp luận, ghi chép đầy đủ; không "nắn" số liệu theo ý chí.
 - → Kết quả bước: Số liệu thống kê chính thức.
 
 **Bước 4. Công bố số liệu theo lịch**
 - Làm gì: Công bố số liệu kinh tế – xã hội hằng tháng/quý/năm theo lịch công bố đã ban hành; họp báo công bố GDP.
 - Dùng input: Số liệu chính thức.
-- Vai trò: Cục trưởng Cục Thống kê công bố — AI hỗ trợ soạn thông cáo báo chí, biểu đồ (1–2 ngày).
+- Vai trò: Cục trưởng Cục Thống kê công bố — AI hỗ trợ soạn thông cáo báo chí, biểu đồ (⏱ 1–2 ngày).
 - Lưu ý nghiệp vụ: Công bố đúng lịch, đồng thời cho mọi đối tượng; không rò rỉ số liệu trước giờ công bố.
 - → Kết quả bước: Thông cáo báo chí; niên giám thống kê.
 
 **Bước 5. Kiểm tra, xử lý vi phạm; báo cáo**
 - Làm gì: Kiểm tra việc chấp hành chế độ báo cáo thống kê; xử phạt hành vi báo cáo sai, chậm, từ chối cung cấp thông tin.
 - Dùng input: Kết quả kiểm tra.
-- Vai trò: Thanh tra Bộ — AI hỗ trợ lập kế hoạch kiểm tra (2–3 ngày).
+- Vai trò: Thanh tra Bộ — AI hỗ trợ lập kế hoạch kiểm tra (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Xử lý nghiêm hành vi làm sai lệch số liệu thống kê.
 - → Kết quả bước: Quyết định xử lý vi phạm; báo cáo công tác thống kê.
 

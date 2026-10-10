@@ -23,35 +23,35 @@ Khi xây dựng Chương trình PBGDPL giai đoạn hằng năm/5 năm; khi tri�
 **Bước 1. Đánh giá kết quả giai đoạn trước**
 - Làm gì: Tổng hợp báo cáo của bộ, ngành, địa phương; đánh giá chỉ tiêu đạt/chưa đạt; xác định bài học.
 - Dùng input: `bao_cao_dia_phuong`.
-- Vai trò: Chuyên viên Vụ PBGDPL — AI hỗ trợ tổng hợp số liệu 63 tỉnh/thành, vẽ biểu đồ so sánh (2–3 ngày).
+- Vai trò: Chuyên viên Vụ PBGDPL — AI hỗ trợ tổng hợp số liệu 63 tỉnh/thành, vẽ biểu đồ so sánh (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Số liệu do địa phương báo cáo — cần kiểm tra tính hợp lý, kiểm tra ngẫu nhiên đối chiếu.
 - → Kết quả bước: Báo cáo đánh giá giai đoạn trước.
 
 **Bước 2. Xây dựng dự thảo Chương trình PBGDPL giai đoạn mới**
 - Làm gì: Xác định mục tiêu, nhiệm vụ, giải pháp, phân công trách nhiệm bộ/ngành/địa phương; dự toán kinh phí.
 - Dùng input: `giai_doan`, `muc_tieu`, `doi_tuong_uu_tien`, kết quả bước 1.
-- Vai trò: Vụ trưởng Vụ PBGDPL chủ trì — AI hỗ trợ soạn khung chương trình, rà soát tính khả thi của chỉ tiêu (3–5 ngày).
+- Vai trò: Vụ trưởng Vụ PBGDPL chủ trì — AI hỗ trợ soạn khung chương trình, rà soát tính khả thi của chỉ tiêu (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Gắn với chuyển đổi số (PBGDPL trên môi trường điện tử, mạng xã hội); lồng ghép vào các chương trình MTQG.
 - → Kết quả bước: Dự thảo Chương trình PBGDPL.
 
 **Bước 3. Lấy ý kiến, hoàn thiện, trình ban hành**
 - Làm gì: Lấy ý kiến bộ, ngành, địa phương; hoàn thiện; trình Thủ tướng Chính phủ phê duyệt (đối với chương trình quốc gia).
 - Dùng input: Dự thảo chương trình.
-- Vai trò: Thứ trưởng phụ trách ký Tờ trình — AI hỗ trợ tổng hợp ý kiến, soạn báo cáo tiếp thu (2–3 ngày).
+- Vai trò: Thứ trưởng phụ trách ký Tờ trình — AI hỗ trợ tổng hợp ý kiến, soạn báo cáo tiếp thu (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Chương trình quốc gia do Thủ tướng phê duyệt; chương trình của Bộ do Bộ trưởng ban hành.
 - → Kết quả bước: Quyết định phê duyệt Chương trình PBGDPL.
 
 **Bước 4. Hướng dẫn, tổ chức Ngày Pháp luật và các đợt cao điểm**
 - Làm gì: Ban hành văn bản hướng dẫn triển khai; tổ chức Ngày Pháp luật Việt Nam 09/11; các đợt PBGDPL chuyên đề.
 - Dùng input: Chương trình đã phê duyệt.
-- Vai trò: Chuyên viên Vụ PBGDPL — AI hỗ trợ soạn tài liệu tuyên truyền mẫu, bộ câu hỏi thi tìm hiểu pháp luật (2–3 ngày).
+- Vai trò: Chuyên viên Vụ PBGDPL — AI hỗ trợ soạn tài liệu tuyên truyền mẫu, bộ câu hỏi thi tìm hiểu pháp luật (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Nội dung phải thiết thực, gắn với vấn đề người dân quan tâm (đất đai, hôn nhân gia đình, an toàn giao thông...).
 - → Kết quả bước: Kế hoạch Ngày Pháp luật + bộ tài liệu tuyên truyền.
 
 **Bước 5. Kiểm tra, sơ kết, tổng kết**
 - Làm gì: Kiểm tra việc thực hiện tại bộ, ngành, địa phương; sơ kết hằng năm, tổng kết giai đoạn; đề xuất khen thưởng.
 - Dùng input: Báo cáo thực hiện của các đơn vị.
-- Vai trò: Đoàn kiểm tra của Bộ — AI hỗ trợ lập đề cương kiểm tra, tổng hợp báo cáo sơ kết/tổng kết (3–5 ngày).
+- Vai trò: Đoàn kiểm tra của Bộ — AI hỗ trợ lập đề cương kiểm tra, tổng hợp báo cáo sơ kết/tổng kết (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Đánh giá thực chất, tránh hình thức; nhân rộng mô hình hay.
 - → Kết quả bước: Báo cáo sơ kết/tổng kết Chương trình.
 

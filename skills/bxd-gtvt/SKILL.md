@@ -26,8 +26,7 @@ chiến lược phát triển GTVT; quy hoạch mạng lưới giao thông quố
 
 - Làm gì: Tổng hợp hiện trạng kết cấu hạ tầng, nhu cầu vận tải; dự báo đến kỳ quy hoạch.
 - Dùng input: `linh_vuc_vt`, `so_lieu_hien_trang`.
-- Vai trò: Vụ Kế hoạch – Tài chính / cục chuyên ngành (Bộ Xây dựng) chủ trì; AI hỗ trợ tổng hợp ⏱ ~5–7 ngày làm việc (ước tính).
-  số liệu, lập bảng phân tích hiện trạng (3–4 giờ).
+- Vai trò: Vụ Kế hoạch – Tài chính / cục chuyên ngành (Bộ Xây dựng) chủ trì; AI hỗ trợ tổng hợp số liệu, lập bảng phân tích hiện trạng ⏱ ~5–7 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Số liệu từ nguồn chính thức (thống kê, báo cáo địa phương, đơn vị quản lý);
   dự báo có cơ sở khoa học.
 - → Kết quả bước: Báo cáo đánh giá hiện trạng và dự báo nhu cầu.
@@ -36,7 +35,7 @@ chiến lược phát triển GTVT; quy hoạch mạng lưới giao thông quố
 
 - Làm gì: Đề xuất quan điểm, mục tiêu, định hướng phát triển mạng lưới; danh mục dự án ưu tiên.
 - Dùng input: `dinh_huong`, báo cáo hiện trạng.
-- Vai trò: Chuyên viên vụ/cục soạn thảo; AI hỗ trợ dự thảo nội dung, so sánh phương án (2–3 giờ).
+- Vai trò: Chuyên viên vụ/cục soạn thảo; AI hỗ trợ dự thảo nội dung, so sánh phương án (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Phù hợp quy hoạch tổng thể quốc gia, quy hoạch vùng; gắn với mục tiêu phát triển
   kinh tế – xã hội.
 - → Kết quả bước: Dự thảo chiến lược/quy hoạch.
@@ -45,7 +44,7 @@ chiến lược phát triển GTVT; quy hoạch mạng lưới giao thông quố
 
 - Làm gì: Lấy ý kiến bộ/ngành, địa phương; tổ chức thẩm định theo quy định pháp luật về quy hoạch.
 - Dùng input: Dự thảo chiến lược/quy hoạch.
-- Vai trò: Đơn vị chủ trì tổng hợp; AI hỗ trợ phân loại ý kiến, lập báo cáo tiếp thu (2–3 giờ).
+- Vai trò: Đơn vị chủ trì tổng hợp; AI hỗ trợ phân loại ý kiến, lập báo cáo tiếp thu (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Quy hoạch mạng lưới GTVT quốc gia thuộc thẩm quyền phê duyệt của Thủ tướng.
 - → Kết quả bước: Dự thảo hoàn chỉnh + báo cáo thẩm định/tiếp thu.
 
@@ -54,7 +53,7 @@ chiến lược phát triển GTVT; quy hoạch mạng lưới giao thông quố
 - Làm gì: Trình Thủ tướng phê duyệt quy hoạch/chiến lược; ban hành kế hoạch thực hiện;
   hướng dẫn địa phương; theo dõi, sơ kết.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Vụ trưởng kiểm tra; Thứ trưởng duyệt; AI hỗ trợ checklist hồ sơ trình (1–2 giờ).
+- Vai trò: Vụ trưởng kiểm tra; Thứ trưởng duyệt; AI hỗ trợ checklist hồ sơ trình (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Công bố công khai sau phê duyệt; định kỳ rà soát, điều chỉnh.
 - → Kết quả bước: Quyết định phê duyệt + kế hoạch tổ chức thực hiện.
 

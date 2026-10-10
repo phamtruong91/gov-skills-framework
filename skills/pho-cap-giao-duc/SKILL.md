@@ -31,7 +31,7 @@ description: "Điều tra, rà soát đối tượng phổ cập giáo dục, x�
 
 - Làm gì: Tổ chức điều tra từng hộ gia đình trên địa bàn các thôn để lập danh sách đối tượng PCGD (trẻ 5 tuổi, trẻ 6–14 tuổi, người 15–18 tuổi) và đối tượng XMC (15–60 tuổi chưa biết chữ); đối chiếu với dữ liệu dân cư, dữ liệu trường học.
 - Dùng input: `doi_tuong_mn5t`, `doi_tuong_th`, `doi_tuong_thcs`, `doi_tuong_xmc`, `ban_chi_dao`.
-- Vai trò: Công chức VH-XH phụ trách giáo dục (ông Nguyễn Văn G) chủ trì, phối hợp trưởng thôn và cộng tác viên PCGD từng thôn đi điều tra thực tế. AI hỗ trợ: thiết kế phiếu điều tra theo độ tuổi, tổng hợp phiếu thành danh sách theo thôn, đối chiếu chéo để phát hiện trùng/sót đối tượng. Thời gian ước tính: 7–10 ngày làm việc.
+- Vai trò: Công chức VH-XH phụ trách giáo dục (ông Nguyễn Văn G) chủ trì, phối hợp trưởng thôn và cộng tác viên PCGD từng thôn đi điều tra thực tế. AI hỗ trợ: thiết kế phiếu điều tra theo độ tuổi, tổng hợp phiếu thành danh sách theo thôn, đối chiếu chéo để phát hiện trùng/sót đối tượng. ⏱ 7–10 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Danh sách phải có xác nhận của trưởng thôn; đối tượng phải phân đúng độ tuổi theo quy định PCGD-XMC, không gộp sai nhóm tuổi.
 - → Kết quả bước: Danh sách đối tượng PCGD-XMC toàn xã phân theo thôn, có xác nhận của trưởng thôn.
 
@@ -47,7 +47,7 @@ description: "Điều tra, rà soát đối tượng phổ cập giáo dục, x�
 
 - Làm gì: Ban Chỉ đạo PCGD-XMC xã tổ chức tự kiểm tra theo các tiêu chuẩn, tính tỷ lệ đạt chuẩn từng mức độ (PCGD mầm non 5 tuổi, PCGD tiểu học, PCGD THCS, XMC); lập biên bản tự kiểm tra.
 - Dùng input: Kết quả bước 1–2; `ban_chi_dao`, `nam_kiem_tra`.
-- Vai trò: Trưởng Ban Chỉ đạo PCGD-XMC xã (thường là Phó Chủ tịch UBND xã – bà Trần Thị B) chủ trì; công chức VH-XH phụ trách giáo dục chuẩn bị số liệu. AI hỗ trợ: tính toán tỷ lệ đạt chuẩn theo từng tiêu chí, lập bảng đánh giá đối chiếu chuẩn, soạn dự thảo biên bản tự kiểm tra. Thời gian ước tính: 3–5 ngày làm việc.
+- Vai trò: Trưởng Ban Chỉ đạo PCGD-XMC xã (thường là Phó Chủ tịch UBND xã – bà Trần Thị B) chủ trì; công chức VH-XH phụ trách giáo dục chuẩn bị số liệu. AI hỗ trợ: tính toán tỷ lệ đạt chuẩn theo từng tiêu chí, lập bảng đánh giá đối chiếu chuẩn, soạn dự thảo biên bản tự kiểm tra. ⏱ 3–5 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Số liệu tự kiểm tra phải dựa trên danh sách đối tượng đã điều tra (bước 1) và hồ sơ lớp XMC (bước 2), không lấy số liệu ước đoán; biên bản phải có chữ ký các thành viên Ban Chỉ đạo.
 - → Kết quả bước: Bảng đánh giá mức độ đạt chuẩn PCGD-XMC + biên bản tự kiểm tra của Ban Chỉ đạo xã.
 
@@ -55,7 +55,7 @@ description: "Điều tra, rà soát đối tượng phổ cập giáo dục, x�
 
 - Làm gì: Soạn thảo đầy đủ hồ sơ đề nghị công nhận đạt chuẩn gồm: tờ trình, báo cáo kết quả tự kiểm tra, biên bản kiểm tra, danh sách đối tượng và các minh chứng kèm theo, đúng thành phần hồ sơ theo quy định.
 - Dùng input: Kết quả bước 1–3; `thoi_han`.
-- Vai trò: Công chức VH-XH phụ trách giáo dục soạn hồ sơ. AI hỗ trợ: soạn dự thảo tờ trình và báo cáo tự kiểm tra theo thể thức NĐ 30/2020/NĐ-CP, lập danh mục thành phần hồ sơ (checklist) để đối chiếu không thiếu giấy tờ. Thời gian ước tính: 2–3 ngày làm việc.
+- Vai trò: Công chức VH-XH phụ trách giáo dục soạn hồ sơ. AI hỗ trợ: soạn dự thảo tờ trình và báo cáo tự kiểm tra theo thể thức NĐ 30/2020/NĐ-CP, lập danh mục thành phần hồ sơ (checklist) để đối chiếu không thiếu giấy tờ. ⏱ 2–3 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Hồ sơ gửi cấp có thẩm quyền công nhận; giữ 1 bộ hồ sơ gốc tại Phòng VH-XH để phục vụ kiểm tra, phúc tra sau này.
 - → Kết quả bước: Bộ hồ sơ đề nghị công nhận đạt chuẩn PCGD-XMC hoàn chỉnh (tờ trình + báo cáo + biên bản + danh sách + minh chứng).
 
@@ -63,7 +63,7 @@ description: "Điều tra, rà soát đối tượng phổ cập giáo dục, x�
 
 - Làm gì: Trình hồ sơ qua các nấc kiểm duyệt, ký ban hành tờ trình/báo cáo; nộp hồ sơ đến cơ quan có thẩm quyền; tổng hợp báo cáo kết quả PCGD-XMC năm gửi cấp trên.
 - Dùng input: Bộ hồ sơ ở bước 4.
-- Vai trò: Công chức VH-XH phụ trách giáo dục trình; Trưởng phòng VH-XH (ông Vũ Văn E) kiểm tra toàn bộ hồ sơ; Chủ tịch UBND xã (ông Nguyễn Văn A) ký tờ trình, báo cáo. AI hỗ trợ: kiểm tra lần cuối tính đầy đủ thành phần hồ sơ, lập phiếu trình ký. Thời gian ước tính: 1–2 ngày làm việc.
+- Vai trò: Công chức VH-XH phụ trách giáo dục trình; Trưởng phòng VH-XH (ông Vũ Văn E) kiểm tra toàn bộ hồ sơ; Chủ tịch UBND xã (ông Nguyễn Văn A) ký tờ trình, báo cáo. AI hỗ trợ: kiểm tra lần cuối tính đầy đủ thành phần hồ sơ, lập phiếu trình ký. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Nộp hồ sơ đúng thời hạn quy định; theo dõi tiến độ thẩm định, bổ sung hồ sơ khi cơ quan cấp trên yêu cầu.
 - → Kết quả bước: Hồ sơ đã ký, nộp đúng hạn + báo cáo kết quả PCGD-XMC năm.
 

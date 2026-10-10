@@ -24,28 +24,28 @@ description: "Hằng năm xây dựng kế hoạch phòng thủ dân sự: phòn
 **Bước 1. Xây dựng kế hoạch phòng thủ dân sự năm**
 - Làm gì: Xác định nhiệm vụ trọng tâm: kiện toàn ban chỉ huy các cấp, xây dựng kế hoạch ứng phó tình huống, chuẩn bị lực lượng, phương tiện tại chỗ.
 - Dùng input: `nam_ke_hoach`, `chi_dao_cua_tren`, `bao_cao_dia_phuong`.
-- Vai trò: Chuyên viên xây dựng kế hoạch (AI hỗ trợ tổng hợp báo cáo, lập khung kế hoạch — 2 ngày) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt.
+- Vai trò: Chuyên viên xây dựng kế hoạch (AI hỗ trợ tổng hợp báo cáo, lập khung kế hoạch ⏱ 2 ngày (ước tính)) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt.
 - Lưu ý nghiệp vụ: Kế hoạch ở mức hành chính công khai; phương châm "4 tại chỗ" (chỉ huy, lực lượng, phương tiện, hậu cần tại chỗ).
 - → Kết quả bước: Kế hoạch phòng thủ dân sự năm được phê duyệt.
 
 **Bước 2. Hướng dẫn địa phương xây dựng kế hoạch ứng phó**
 - Làm gì: Ban hành văn bản hướng dẫn địa phương: xây dựng kế hoạch ứng phó thiên tai, sự cố; tổ chức lực lượng xung kích; dự trữ phương tiện, vật tư.
 - Dùng input: `chi_dao_cua_tren`.
-- Vai trò: Chuyên viên soạn hướng dẫn (AI hỗ trợ rà soát văn bản hiện hành, chuẩn hóa — 2 ngày) → Cục trưởng ký ban hành.
+- Vai trò: Chuyên viên soạn hướng dẫn (AI hỗ trợ rà soát văn bản hiện hành, chuẩn hóa ⏱ 2 ngày (ước tính)) → Cục trưởng ký ban hành.
 - Lưu ý nghiệp vụ: Hướng dẫn cụ thể, khả thi, phù hợp điều kiện từng vùng (đồng bằng, miền núi, ven biển).
 - → Kết quả bước: Văn bản hướng dẫn gửi địa phương.
 
 **Bước 3. Tổ chức diễn tập phòng thủ dân sự**
 - Làm gì: Xây dựng kế hoạch, kịch bản diễn tập ở mức công khai (diễn tập chỉ huy — tham mưu, diễn tập thực binh ứng phó sự cố); tổ chức, đánh giá, rút kinh nghiệm.
 - Dùng input: `tinh_huong_gia_dinh`, `nam_ke_hoach`.
-- Vai trò: Cơ quan tham mưu chủ trì (AI hỗ trợ soạn kịch bản khung, lịch diễn tập, mẫu đánh giá — 3 ngày) → Cục trưởng trình Thứ trưởng phê duyệt.
+- Vai trò: Cơ quan tham mưu chủ trì (AI hỗ trợ soạn kịch bản khung, lịch diễn tập, mẫu đánh giá ⏱ 3 ngày (ước tính)) → Cục trưởng trình Thứ trưởng phê duyệt.
 - Lưu ý nghiệp vụ: Kịch bản diễn tập ở mức công khai (ứng phó bão lũ, cháy nổ, sự cố); không đưa nội dung tác chiến vào diễn tập phòng thủ dân sự.
 - → Kết quả bước: Kế hoạch, kịch bản và kết quả diễn tập.
 
 **Bước 4. Tổng kết, đánh giá**
 - Làm gì: Tổng hợp kết quả thực hiện toàn quốc; đánh giá, đề xuất nhiệm vụ năm sau.
 - Dùng input: Báo cáo của địa phương, đơn vị.
-- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ tổng hợp số liệu, dự thảo báo cáo — 2 ngày) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
+- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ tổng hợp số liệu, dự thảo báo cáo ⏱ 2 ngày (ước tính)) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
 - Lưu ý nghiệp vụ: Đánh giá thực chất hiệu quả ứng phó thực tế (nếu có thiên tai, sự cố trong năm).
 - → Kết quả bước: Báo cáo tổng kết công tác phòng thủ dân sự.
 

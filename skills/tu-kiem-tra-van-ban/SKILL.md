@@ -24,36 +24,36 @@ description: "Tự kiểm tra văn bản QPPL do HĐND, UBND cấp xã ban hành
 
 **Bước 1. Lập danh mục văn bản đưa vào kiểm tra**
 - Làm gì: Liệt kê toàn bộ văn bản QPPL do HĐND xã (nghị quyết) và UBND xã (quyết định) ban hành còn hiệu lực; loại trừ văn bản đã hết hiệu lực, đã bị bãi bỏ.
-- Dùng input: `danh_muc_van_ban`, `van_ban_goc`, `ket_qua_ky_truoc`
-- Vai trò: Công chức tư pháp – hộ tịch xã lập danh mục; AI hỗ trợ chuẩn hóa danh mục, đánh dấu văn bản đã xử lý kỳ trước — 0,5 ngày làm việc
+- Dùng input: `danh_muc_van_ban`, `van_ban_goc`, `ket_qua_ky_truoc`.
+- Vai trò: Công chức tư pháp – hộ tịch xã lập danh mục; AI hỗ trợ chuẩn hóa danh mục, đánh dấu văn bản đã xử lý kỳ trước ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Văn bản của cấp xã chủ yếu là nghị quyết của HĐND và quyết định của UBND; văn bản hành chính thông thường (công văn, thông báo) không thuộc diện kiểm tra này.
 - → Kết quả bước: Danh mục văn bản QPPL đưa vào tự kiểm tra, có phân loại.
 
 **Bước 2. Rà soát căn cứ pháp lý, thẩm quyền ban hành, nội dung, thể thức**
-- Làm gì: Kiểm tra từng văn bản theo 4 nội dung: căn cứ pháp lý có còn hiệu lực, đúng thẩm quyền ban hành, nội dung có trái văn bản cấp trên, thể thức đúng NĐ 30/2020/NĐ-CP.
-- Dùng input: `van_ban_goc`, `can_cu_moi`
-- Vai trò: Công chức tư pháp – hộ tịch xã rà soát, kết luận; AI hỗ trợ đối chiếu căn cứ pháp lý với danh sách văn bản còn hiệu lực, kiểm tra thể thức — 2 ngày làm việc
+- Làm gì: Kiểm tra từng văn bản theo 4 nội dung: căn cứ pháp lý có còn hiệu lực, đúng thẩm quyền ban hành, nội dung có trái văn bản cấp trên, thể thức đúng quy định của Luật Ban hành văn bản quy phạm pháp luật.
+- Dùng input: `van_ban_goc`, `can_cu_moi`.
+- Vai trò: Công chức tư pháp – hộ tịch xã rà soát, kết luận; AI hỗ trợ đối chiếu căn cứ pháp lý với danh sách văn bản còn hiệu lực, kiểm tra thể thức ⏱ 2 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Căn cứ pháp lý hết hiệu lực là lỗi phổ biến nhất; thẩm quyền: HĐND xã chỉ ban hành nghị quyết, UBND xã ban hành quyết định; nội dung không được trái luật, nghị quyết cấp trên.
 - → Kết quả bước: Phiếu kiểm tra từng văn bản, ghi rõ đạt/không đạt từng nội dung và lý do.
 
 **Bước 3. Lập báo cáo kết quả tự kiểm tra**
 - Làm gì: Tổng hợp kết quả: số văn bản kiểm tra, số văn bản đúng pháp luật, số văn bản có vi phạm (phân loại vi phạm); đề xuất hướng xử lý từng văn bản vi phạm.
-- Dùng input: Phiếu kiểm tra ở Bước 2, `danh_muc_van_ban`
-- Vai trò: Công chức tư pháp – hộ tịch xã tổng hợp; AI hỗ trợ lập bảng tổng hợp, soạn báo cáo — 0,5 ngày làm việc
+- Dùng input: Phiếu kiểm tra ở Bước 2, `danh_muc_van_ban`.
+- Vai trò: Công chức tư pháp – hộ tịch xã tổng hợp; AI hỗ trợ lập bảng tổng hợp, soạn báo cáo ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Báo cáo phải trung thực, không che giấu vi phạm; mỗi văn bản vi phạm phải nêu cụ thể điều, khoản trái và văn bản cấp trên bị trái.
 - → Kết quả bước: Báo cáo kết quả tự kiểm tra văn bản QPPL.
 
 **Bước 4. Xử lý văn bản trái pháp luật**
 - Làm gì: Theo kết luận kiểm tra, tham mưu xử lý: sửa đổi, bổ sung; bãi bỏ một phần/toàn bộ; ban hành văn bản thay thế; trình HĐND/UBND xã quyết định.
-- Dùng input: Báo cáo tự kiểm tra, văn bản vi phạm
-- Vai trò: Công chức tư pháp – hộ tịch tham mưu; Chánh Văn phòng HĐND và UBND thẩm định; HĐND/UBND xã quyết định xử lý; AI hỗ trợ soạn dự thảo quyết định xử lý — 3 ngày làm việc
+- Dùng input: Báo cáo tự kiểm tra, văn bản vi phạm.
+- Vai trò: Công chức tư pháp – hộ tịch tham mưu; Chánh Văn phòng HĐND và UBND thẩm định; HĐND/UBND xã quyết định xử lý; AI hỗ trợ soạn dự thảo quyết định xử lý ⏱ 3 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Thẩm quyền xử lý thuộc cơ quan ban hành văn bản (HĐND xử lý nghị quyết, UBND xử lý quyết định); văn bản xử lý cũng phải đúng thể thức.
 - → Kết quả bước: Quyết định xử lý văn bản trái pháp luật (sửa đổi/bãi bỏ/thay thế) đã được ban hành.
 
 **Bước 5. Báo cáo cấp trên và lưu hồ sơ**
 - Làm gì: Gửi báo cáo kết quả tự kiểm tra + quyết định xử lý (nếu có) về Phòng Tư pháp/Sở Tư pháp; lưu hồ sơ kiểm tra đầy đủ.
-- Dùng input: Báo cáo tự kiểm tra, quyết định xử lý, `can_bo_phu_trach`
-- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra hồ sơ; AI hỗ trợ lập danh mục hồ sơ lưu — 0,5 ngày làm việc
+- Dùng input: Báo cáo tự kiểm tra, quyết định xử lý, `can_bo_phu_trach`.
+- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra hồ sơ; AI hỗ trợ lập danh mục hồ sơ lưu ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Gửi đúng thời hạn cấp trên quy định; hồ sơ lưu gồm danh mục, phiếu kiểm tra, báo cáo, quyết định xử lý.
 - → Kết quả bước: Hồ sơ tự kiểm tra hoàn chỉnh, đã báo cáo cấp trên.
 

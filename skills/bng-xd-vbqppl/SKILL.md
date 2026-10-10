@@ -27,35 +27,35 @@ description: "Bộ Ngoại giao được giao chủ trì soạn thảo thông t�
 **Bước 1. Lập đề nghị xây dựng văn bản và kế hoạch soạn thảo**
 - Làm gì: Căn cứ chương trình xây dựng pháp luật và văn bản giao nhiệm vụ, lập đề nghị xây dựng văn bản: sự cần thiết, phạm vi điều chỉnh, nội dung chính, lộ trình; trình phê duyệt kế hoạch soạn thảo.
 - Dùng input: `ten_van_ban`, `loai_van_ban`, `can_cu_chu_truong`, `don_vi_chu_tri`.
-- Vai trò: Chuyên viên đơn vị chủ trì lập đề nghị (AI hỗ trợ rà soát văn bản giao nhiệm vụ, trích xuất yêu cầu, gợi ý khung đề cương — 1 ngày) → Vụ trưởng/Cục trưởng kiểm tra → Thứ trưởng phụ trách phê duyệt.
+- Vai trò: Chuyên viên đơn vị chủ trì lập đề nghị (AI hỗ trợ rà soát văn bản giao nhiệm vụ, trích xuất yêu cầu, gợi ý khung đề cương ⏱ 1 ngày (ước tính)) → Vụ trưởng/Cục trưởng kiểm tra → Thứ trưởng phụ trách phê duyệt.
 - Lưu ý nghiệp vụ: Nội dung phải phù hợp chủ trương, đường lối đối ngoại của Đảng và Nhà nước; không đưa nội dung vượt thẩm quyền Bộ vào văn bản.
 - → Kết quả bước: Đề nghị xây dựng văn bản được phê duyệt, kèm kế hoạch và phân công soạn thảo.
 
 **Bước 2. Soạn thảo dự thảo lần đầu**
 - Làm gì: Nghiên cứu, soạn thảo dự thảo theo đề cương đã duyệt; đối chiếu văn bản hiện hành, điều ước quốc tế liên quan và văn bản của bộ, ngành khác.
 - Dùng input: `du_thao_hien_tai`, `pham_vi_dieu_chinh`.
-- Vai trò: Tổ soạn thảo (chuyên viên đơn vị chủ trì + Vụ Pháp luật và Điều ước quốc tế) thực hiện (AI hỗ trợ tra cứu văn bản liên quan, kiểm tra trùng lặp, chuẩn hóa kỹ thuật soạn thảo — 3–5 ngày) → Vụ trưởng đơn vị chủ trì rà soát.
+- Vai trò: Tổ soạn thảo (chuyên viên đơn vị chủ trì + Vụ Pháp luật và Điều ước quốc tế) thực hiện (AI hỗ trợ tra cứu văn bản liên quan, kiểm tra trùng lặp, chuẩn hóa kỹ thuật soạn thảo ⏱ 3–5 ngày (ước tính)) → Vụ trưởng đơn vị chủ trì rà soát.
 - Lưu ý nghiệp vụ: Thuật ngữ đối ngoại, ngoại giao phải thống nhất; điều khoản phải bảo đảm tính khả thi khi triển khai qua hệ thống cơ quan đại diện ở nước ngoài.
 - → Kết quả bước: Dự thảo lần 1 kèm bản thuyết minh.
 
 **Bước 3. Lấy ý kiến cơ quan, tổ chức liên quan**
 - Làm gì: Gửi dự thảo lấy ý kiến các đơn vị trong Bộ, bộ, ngành liên quan, cơ quan đại diện ở nước ngoài (nếu cần) theo danh sách; tổng hợp, tiếp thu hoặc giải trình.
 - Dùng input: `danh_sach_lay_y_kien`, `du_thao_hien_tai`.
-- Vai trò: Chuyên viên đơn vị chủ trì tổng hợp (AI hỗ trợ phân loại ý kiến theo điều khoản, lập bảng tổng hợp tiếp thu/giải trình — 2–3 ngày) → Vụ trưởng ký văn bản xin ý kiến.
+- Vai trò: Chuyên viên đơn vị chủ trì tổng hợp (AI hỗ trợ phân loại ý kiến theo điều khoản, lập bảng tổng hợp tiếp thu/giải trình ⏱ 2–3 ngày (ước tính)) → Vụ trưởng ký văn bản xin ý kiến.
 - Lưu ý nghiệp vụ: Ý kiến của bộ, ngành liên quan không tiếp thu phải giải trình bằng văn bản; bảo đảm thời hạn lấy ý kiến theo quy định.
 - → Kết quả bước: Bảng tổng hợp ý kiến và dự thảo lần 2 đã tiếp thu.
 
 **Bước 4. Thẩm định và hoàn thiện dự thảo**
 - Làm gì: Vụ Pháp luật và Điều ước quốc tế thẩm định dự thảo (tính hợp hiến, hợp pháp, thống nhất với hệ thống pháp luật và điều ước quốc tế, tính khả thi, kỹ thuật soạn thảo); chỉnh sửa theo ý kiến thẩm định.
 - Dùng input: Toàn bộ hồ sơ các bước trước.
-- Vai trò: Vụ Pháp luật và Điều ước quốc tế thẩm định (AI hỗ trợ đối chiếu tính thống nhất với văn bản hiện hành — 2 ngày) → Tổ soạn thảo hoàn thiện → Vụ trưởng ký báo cáo thẩm định.
+- Vai trò: Vụ Pháp luật và Điều ước quốc tế thẩm định (AI hỗ trợ đối chiếu tính thống nhất với văn bản hiện hành ⏱ 2 ngày (ước tính)) → Tổ soạn thảo hoàn thiện → Vụ trưởng ký báo cáo thẩm định.
 - Lưu ý nghiệp vụ: Không trình ban hành khi còn ý kiến thẩm định chưa được tiếp thu/giải trình thỏa đáng.
 - → Kết quả bước: Báo cáo thẩm định và dự thảo hoàn thiện.
 
 **Bước 5. Trình ban hành và tổ chức thi hành**
 - Làm gì: Lập tờ trình, hoàn thiện hồ sơ trình Bộ trưởng ký ban hành (thông tư, quyết định) hoặc trình Chính phủ (dự thảo nghị định); sau ban hành thì đăng công báo, phổ biến đến các đơn vị và cơ quan đại diện.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Vụ trưởng ký tờ trình (AI hỗ trợ rà soát thể thức lần cuối theo NĐ 30/2020/NĐ-CP — 0,5 ngày) → Thứ trưởng kiểm tra → Bộ trưởng ký ban hành (hoặc trình Chính phủ đối với nghị định).
+- Vai trò: Vụ trưởng ký tờ trình (AI hỗ trợ rà soát thể thức lần cuối theo NĐ 30/2020/NĐ-CP ⏱ 0,5 ngày (ước tính)) → Thứ trưởng kiểm tra → Bộ trưởng ký ban hành (hoặc trình Chính phủ đối với nghị định).
 - Lưu ý nghiệp vụ: Hồ sơ trình đầy đủ: tờ trình, dự thảo, thuyết minh, báo cáo thẩm định, bảng tổng hợp ý kiến; đối với nghị định còn phải qua Bộ Tư pháp thẩm định trước khi trình Chính phủ.
 - → Kết quả bước: Văn bản được ký ban hành; kế hoạch phổ biến, triển khai.
 

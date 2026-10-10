@@ -108,7 +108,7 @@ Khung cố định của Quyết định giao đất / cho thuê đất / cho ph
 4. **Địa danh, ngày tháng năm ban hành** (canh phải): Xã A, ngày ... tháng ... năm ...
 5. **Tên loại và trích yếu** (canh giữa): QUYẾT ĐỊNH — Về việc giao đất (cho thuê đất / cho phép chuyển mục đích sử dụng đất) cho ông (bà) ...
 6. **Căn cứ**: Luật Đất đai; NĐ 151/2025/NĐ-CP; quy hoạch, kế hoạch sử dụng đất của xã; đơn đề nghị của ông (bà) ...; tờ trình của Phòng Kinh tế xã A.
-7. **Nội dung** (phần QUYẾT ĐỊNH): Điều 1. Giao (cho thuê / cho phép chuyển mục đích) ... m² đất tại ... cho ông (bà) ..., mục đích sử dụng ..., thời hạn sử dụng ...; Điều 2. Nghĩa vụ tài chính phải thực hiện; Điều 3. Trách nhiệm của Phòng Kinh tế, công chức địa chính và người được giao đất/cho thuê đất; Điều 4. Hiệu lực thi hành.
+7. **Nội dung** (phần QUYẾT ĐỊNH): Điều 1. Giao (cho thuê / cho phép chuyển mục đích) ... m² đất tại ... cho ông (bà) .., mục đích sử dụng .., thời hạn sử dụng ...; Điều 2. Nghĩa vụ tài chính phải thực hiện; Điều 3. Trách nhiệm của Phòng Kinh tế, công chức địa chính và người được giao đất/cho thuê đất; Điều 4. Hiệu lực thi hành.
 8. **Nơi nhận** (cuối văn bản, canh trái): người được giao đất/cho thuê đất; Phòng Kinh tế xã A; Trung tâm PVHCC xã A; Lưu: VT, ĐC.
 9. **Chữ ký, chức vụ người ký** (canh phải): "TM. ỦY BAN NHÂN DÂN" / CHỦ TỊCH / họ tên người ký; đóng dấu UBND xã.
 

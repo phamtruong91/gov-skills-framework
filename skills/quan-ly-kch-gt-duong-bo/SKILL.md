@@ -17,9 +17,9 @@ description: "Quản lý kết cấu hạ tầng giao thông đường bộ: duy
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
 | `danh_muc_duong_bo` | Danh mục tuyến đường thuộc phạm vi quản lý của tỉnh (tên tuyến, lý trình, cấp đường) | Có |
-| `ke_hoach_bao_tri` | Kế hoạch bảo trì đường bộ năm (hạng mục, kinh phí, tiến độ) | Có (bảo trì) |
+| `ke_hoach_bao_tri` | Kế hoạch bảo trì đường bộ năm (hạng mục, kinh phí, tiến độ). Lưu ý: bảo trì.| Có |
 | `bao_cao_hien_trang` | Báo cáo hiện trạng hư hỏng kết cấu hạ tầng đường bộ của đơn vị quản lý | Không |
-| `tin_bao_lan_chiem` | Tin báo lấn chiếm hành lang an toàn đường bộ (vị trí, hành vi, đối tượng) | Có (xử lý) |
+| `tin_bao_lan_chiem` | Tin báo lấn chiếm hành lang an toàn đường bộ (vị trí, hành vi, đối tượng). Lưu ý: xử lý.| Có |
 | `bien_ban_kiem_tra_hl` | Biên bản kiểm tra hành lang an toàn đường bộ | Không |
 | `bao_cao_cap_xa_hl` | Báo cáo của UBND xã về tình hình hành lang an toàn trên địa bàn | Không |
 

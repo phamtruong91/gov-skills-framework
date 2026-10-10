@@ -20,36 +20,36 @@ Khi xây dựng chính sách, văn bản QPPL về đăng ký doanh nghiệp, h�
 
 **Bước 1. Rà soát chính sách đăng ký kinh doanh**
 - Làm gì: Đánh giá thủ tục gia nhập thị trường (thời gian, chi phí, số thủ tục); so sánh với thông lệ quốc tế; tổng hợp vướng mắc.
-- Dùng input: `vuong_mac`, `so_lieu_dang_ky`.
-- Vai trò: Chuyên viên Cục Quản lý đăng ký kinh doanh — AI hỗ trợ phân tích chỉ số gia nhập thị trường, tổng hợp vướng mắc (3–5 ngày).
+- Dùng input: `vuong_mac`, `so_lieu_dang_ky`, `noi_dung`.
+- Vai trò: Chuyên viên Cục Quản lý đăng ký kinh doanh — AI hỗ trợ phân tích chỉ số gia nhập thị trường, tổng hợp vướng mắc (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Mục tiêu: giảm thời gian, chi phí gia nhập thị trường; cắt giảm điều kiện kinh doanh bất hợp lý.
 - → Kết quả bước: Báo cáo rà soát.
 
 **Bước 2. Xây dựng văn bản QPPL, quy trình đăng ký**
 - Làm gì: Soạn nghị định/thông tư về đăng ký doanh nghiệp: hồ sơ, trình tự, liên thông (đăng ký kinh doanh – thuế – bảo hiểm – lao động).
 - Dùng input: Kết quả bước 1.
-- Vai trò: Cục trưởng Cục Quản lý đăng ký kinh doanh chủ trì — AI hỗ trợ soạn dự thảo, vẽ sơ đồ quy trình liên thông (3–5 ngày).
+- Vai trò: Cục trưởng Cục Quản lý đăng ký kinh doanh chủ trì — AI hỗ trợ soạn dự thảo, vẽ sơ đồ quy trình liên thông (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Đẩy mạnh đăng ký trực tuyến toàn trình; liên thông dữ liệu, "một lần khai, dùng chung".
 - → Kết quả bước: Dự thảo văn bản/quy trình.
 
 **Bước 3. Vận hành Hệ thống thông tin quốc gia về đăng ký doanh nghiệp**
 - Làm gì: Vận hành Cổng thông tin quốc gia về đăng ký doanh nghiệp; cấp mã số doanh nghiệp; đồng bộ dữ liệu với thuế, bảo hiểm.
-- Dùng input: Dữ liệu đăng ký từ 63 tỉnh/thành.
-- Vai trò: Đơn vị vận hành hệ thống — AI hỗ trợ giám sát chất lượng dữ liệu, phát hiện hồ sơ bất thường ⏱ ~liên tục trong quá trình thực hiện (ước tính).
+- Dùng input: `so_lieu_dang_ky` (dữ liệu đăng ký từ 63 tỉnh/thành).
+- Vai trò: Đơn vị vận hành hệ thống — AI hỗ trợ giám sát chất lượng dữ liệu, phát hiện hồ sơ bất thường ⏱ vận hành liên tục; tổng hợp báo cáo định kỳ hằng tháng/quý.
 - Lưu ý nghiệp vụ: Bảo đảm hệ thống ổn định, an toàn thông tin; công khai thông tin doanh nghiệp theo quy định.
 - → Kết quả bước: Hệ thống vận hành ổn định; báo cáo chất lượng dữ liệu.
 
 **Bước 4. Hậu kiểm, xử lý vi phạm trong đăng ký kinh doanh**
 - Làm gì: Hướng dẫn cơ quan đăng ký kinh doanh địa phương hậu kiểm (kê khai không trung thực, kinh doanh ngành nghề có điều kiện...); xử lý vi phạm.
-- Dùng input: Kết quả hậu kiểm địa phương.
-- Vai trò: Thanh tra Bộ phối hợp Cục — AI hỗ trợ lập kế hoạch hậu kiểm theo rủi ro (2–3 ngày).
+- Dùng input: `vuong_mac` (vướng mắc, vi phạm phát hiện qua hậu kiểm địa phương).
+- Vai trò: Thanh tra Bộ phối hợp Cục — AI hỗ trợ lập kế hoạch hậu kiểm theo rủi ro (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Chuyển mạnh sang hậu kiểm thay vì tiền kiểm; không gây phiền hà cho doanh nghiệp chân chính.
 - → Kết quả bước: Báo cáo hậu kiểm; quyết định xử lý vi phạm.
 
 **Bước 5. Báo cáo tình hình đăng ký doanh nghiệp**
 - Làm gì: Tổng hợp số doanh nghiệp thành lập mới, giải thể, tạm ngừng; phân tích xu hướng; báo cáo Chính phủ.
 - Dùng input: `so_lieu_dang_ky`.
-- Vai trò: Cục trưởng ký báo cáo — AI hỗ trợ phân tích xu hướng, lập báo cáo định kỳ ⏱ ~thực hiện hằng tháng/quý (ước tính).
+- Vai trò: Cục trưởng ký báo cáo — AI hỗ trợ phân tích xu hướng, lập báo cáo định kỳ ⏱ 2–3 ngày/báo cáo định kỳ (ước tính).
 - Lưu ý nghiệp vụ: Số liệu phải từ hệ thống chính thức; phân tích theo vùng, ngành, quy mô.
 - → Kết quả bước: Báo cáo tình hình đăng ký doanh nghiệp.
 
@@ -64,6 +64,8 @@ flowchart TD
     B3 --> B4["Bước 4: Hậu kiểm, xử lý vi phạm trong đăng ký kinh doanh"]
     B4 --> B5["Bước 5: Báo cáo tình hình đăng ký doanh nghiệp"]
 ```
+
+*Ghi chú: các bước là luồng công việc độc lập, lựa chọn theo loại việc (`loai_viec`); không nhất thiết thực hiện nối tiếp.*
 
 ## 5. Đầu ra (Output)
 - Dự thảo văn bản QPPL/quy trình đăng ký kinh doanh

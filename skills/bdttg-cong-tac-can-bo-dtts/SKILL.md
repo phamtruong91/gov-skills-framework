@@ -25,7 +25,7 @@ theo dõi tỷ lệ cán bộ DTTS trong cơ quan nhà nước các cấp.
 
 - Làm gì: Tổng hợp số liệu cán bộ DTTS toàn quốc; so sánh với chỉ tiêu; xác định khâu yếu (quy hoạch, đào tạo, bố trí).
 - Dùng input: `so_lieu_can_bo`, `chi_tieu`.
-- Vai trò: Chuyên viên đơn vị cán bộ dân tộc phân tích (AI hỗ trợ lập bảng so sánh tỷ lệ cán bộ DTTS theo tỉnh, theo cấp — 3 giờ); Vụ trưởng (ông Hoàng Văn EE) duyệt báo cáo.
+- Vai trò: Chuyên viên đơn vị cán bộ dân tộc phân tích (AI hỗ trợ lập bảng so sánh tỷ lệ cán bộ DTTS theo tỉnh, theo cấp ⏱ 3 giờ (ước tính)); Vụ trưởng (ông Hoàng Văn EE) duyệt báo cáo.
 - Lưu ý nghiệp vụ: Số liệu chính xác, tách theo dân tộc, cấp, giới tính; đánh giá thực chất, không hình thức.
 - → Kết quả bước: Báo cáo thực trạng đội ngũ cán bộ DTTS.
 
@@ -33,7 +33,7 @@ theo dõi tỷ lệ cán bộ DTTS trong cơ quan nhà nước các cấp.
 
 - Làm gì: Lập quy hoạch cán bộ DTTS; kế hoạch đào tạo, bồi dưỡng (lý luận chính trị, quản lý nhà nước); chỉ tiêu cử tuyển học sinh DTTS vào đại học, trường nội trú.
 - Dùng input: `ke_hoach_dao_tao`, báo cáo thực trạng.
-- Vai trò: Đơn vị cán bộ dân tộc chủ trì, phối hợp Ban Tổ chức Trung ương, Bộ Nội vụ, Bộ Giáo dục và Đào tạo (AI hỗ trợ lập kế hoạch chỉ tiêu theo tỉnh — 3 giờ); Thứ trưởng (bà Phạm Thị DD) cho ý kiến.
+- Vai trò: Đơn vị cán bộ dân tộc chủ trì, phối hợp Ban Tổ chức Trung ương, Bộ Nội vụ, Bộ Giáo dục và Đào tạo (AI hỗ trợ lập kế hoạch chỉ tiêu theo tỉnh ⏱ 3 giờ (ước tính)); Thứ trưởng (bà Phạm Thị DD) cho ý kiến.
 - Lưu ý nghiệp vụ: Cử tuyển đúng đối tượng, công khai; đào tạo gắn với bố trí sử dụng sau đào tạo.
 - → Kết quả bước: Quy hoạch, kế hoạch đào tạo, bồi dưỡng, cử tuyển cán bộ DTTS.
 
@@ -41,7 +41,7 @@ theo dõi tỷ lệ cán bộ DTTS trong cơ quan nhà nước các cấp.
 
 - Làm gì: Theo dõi việc bố trí cán bộ DTTS sau đào tạo; đôn đốc địa phương bảo đảm tỷ lệ; phát hiện, bồi dưỡng cán bộ trẻ, cán bộ nữ DTTS.
 - Dùng input: `bao_cao_dia_phuong`.
-- Vai trò: Đơn vị cán bộ dân tộc theo dõi (AI hỗ trợ đối chiếu danh sách đào tạo/bố trí, cảnh báo trường hợp chưa bố trí — 2 giờ).
+- Vai trò: Đơn vị cán bộ dân tộc theo dõi (AI hỗ trợ đối chiếu danh sách đào tạo/bố trí, cảnh báo trường hợp chưa bố trí ⏱ 2 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Chống hình thức trong bố trí (có tên không có việc); quan tâm cán bộ nữ, cán bộ trẻ.
 - → Kết quả bước: Báo cáo theo dõi bố trí, sử dụng cán bộ DTTS.
 
@@ -49,7 +49,7 @@ theo dõi tỷ lệ cán bộ DTTS trong cơ quan nhà nước các cấp.
 
 - Làm gì: Sơ kết, tổng kết công tác cán bộ DTTS; báo cáo cấp có thẩm quyền.
 - Dùng input: Báo cáo các bước trên.
-- Vai trò: Đơn vị cán bộ dân tộc tổng hợp (AI hỗ trợ soạn báo cáo — 2 giờ); Bộ trưởng (ông Lê Văn CC) ký báo cáo.
+- Vai trò: Đơn vị cán bộ dân tộc tổng hợp (AI hỗ trợ soạn báo cáo ⏱ 2 giờ (ước tính)); Bộ trưởng (ông Lê Văn CC) ký báo cáo.
 - Lưu ý nghiệp vụ: Đánh giá thực chất tỷ lệ cán bộ DTTS so với chỉ tiêu; nêu rõ khâu yếu để có giải pháp.
 - → Kết quả bước: Báo cáo công tác cán bộ DTTS.
 

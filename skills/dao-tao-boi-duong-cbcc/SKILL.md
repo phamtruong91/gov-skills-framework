@@ -23,28 +23,28 @@ description: "Lập kế hoạch và tổ chức đào tạo, bồi dưỡng cá
 
 **Bước 1. Khảo sát nhu cầu đào tạo, bồi dưỡng**
 - Làm gì: Gửi văn bản đề nghị các cơ quan, đơn vị đăng ký nhu cầu (số lượng, đối tượng, nội dung); tổng hợp nhu cầu toàn tỉnh.
-- Dùng input: `nhu_cau_dao_tao`, `doi_tuong`
+- Dùng input: `nhu_cau_dao_tao`, `doi_tuong`.
 - Vai trò: Chuyên viên Phòng Đào tạo, bồi dưỡng (Sở Nội vụ tỉnh A) tổng hợp; AI hỗ trợ lập bảng tổng hợp nhu cầu ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Nhu cầu phải gắn với tiêu chuẩn ngạch, chức danh và yêu cầu vị trí việc làm; tránh đăng ký hình thức.
 - → Kết quả bước: Bảng tổng hợp nhu cầu đào tạo, bồi dưỡng toàn tỉnh.
 
 **Bước 2. Xây dựng kế hoạch năm**
 - Làm gì: Xây dựng kế hoạch: lớp bồi dưỡng, đối tượng, số lượng, thời gian, địa điểm, giảng viên, kinh phí; trình UBND tỉnh phê duyệt.
-- Dùng input: `nhu_cau_dao_tao`, `kinh_phi`, `noi_dung_chuong_trinh`
+- Dùng input: `nhu_cau_dao_tao`, `kinh_phi`, `noi_dung_chuong_trinh`, `nam_ke_hoach`.
 - Vai trò: Trưởng phòng Đào tạo, bồi dưỡng chủ trì; AI hỗ trợ lập kế hoạch chi tiết ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Ưu tiên bồi dưỡng theo tiêu chuẩn bắt buộc (ngạch, chức danh lãnh đạo); kinh phí trong dự toán được giao.
 - → Kết quả bước: Kế hoạch đào tạo, bồi dưỡng năm đã phê duyệt.
 
 **Bước 3. Tổ chức các lớp bồi dưỡng**
 - Làm gì: Phối hợp cơ sở đào tạo tổ chức lớp: chiêu sinh, quản lý lớp học, giảng viên, kiểm tra, đánh giá; cấp chứng chỉ.
-- Dùng input: ke_hoach nam
+- Dùng input: ke_hoach nam.
 - Vai trò: Đơn vị tổ chức thực hiện; AI hỗ trợ lập danh sách học viên, theo dõi điểm danh, tổng hợp kết quả ⏱ theo lịch lớp (ước tính)
 - Lưu ý nghiệp vụ: Đảm bảo chất lượng giảng dạy; kiểm tra, đánh giá nghiêm túc; chứng chỉ đúng mẫu quy định.
 - → Kết quả bước: Các lớp bồi dưỡng đã tổ chức; danh sách cấp chứng chỉ.
 
 **Bước 4. Đánh giá kết quả, báo cáo**
 - Làm gì: Đánh giá kết quả thực hiện kế hoạch (số lớp, số học viên, chất lượng); báo cáo UBND tỉnh, Bộ Nội vụ.
-- Dùng input: Kết quả các lớp Bước 3
+- Dùng input: Kết quả các lớp Bước 3.
 - Vai trò: Chuyên viên tổng hợp; Giám đốc Sở Nội vụ ký báo cáo; AI hỗ trợ lập báo cáo ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đánh giá gắn với hiệu quả công việc sau bồi dưỡng, không chỉ đếm số lượng.
 - → Kết quả bước: Báo cáo kết quả đào tạo, bồi dưỡng năm.

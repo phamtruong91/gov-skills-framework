@@ -22,7 +22,7 @@ description: "Cấp giấy phép xây dựng đối với công trình thuộc t
 | `loai_cap_cong_trinh` | Loại, cấp công trình | Có |
 | `ho_so_thiet_ke` | Hồ sơ thiết kế xây dựng triển khai sau thiết kế cơ sở | Có |
 | `giay_to_ve_dat` | Giấy tờ chứng minh quyền sử dụng đất/quyền sử dụng địa điểm xây dựng | Có |
-| `van_ban_chap_thuan` | Văn bản chấp thuận chủ trương đầu tư/quyết định phê duyệt dự án (nếu thuộc trường hợp) | Có (khi thuộc trường hợp) |
+| `van_ban_chap_thuan` | Văn bản chấp thuận chủ trương đầu tư/quyết định phê duyệt dự án (nếu thuộc trường hợp). Lưu ý: khi thuộc trường hợp.| Có |
 | `ket_qua_tham_dinh_tk` | Kết quả thẩm định thiết kế của cơ quan chuyên môn (nếu có) | Không |
 
 ## 4. Quy trình

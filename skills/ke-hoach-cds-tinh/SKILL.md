@@ -26,35 +26,35 @@ description: "Xây dựng và triển khai kế hoạch chuyển đổi số c�
 
 **Bước 1. Đánh giá hiện trạng chuyển đổi số của tỉnh**
 - Làm gì: Thu thập, đánh giá hiện trạng 3 trụ cột: chính quyền số (hạ tầng, DVC trực tuyến, dữ liệu), kinh tế số (doanh nghiệp công nghệ số, thương mại điện tử), xã hội số (người dân dùng dịch vụ số, kỹ năng số).
-- Dùng input: `hien_trang_cds`, `chi_tieu_trung_uong`, `nam_ke_hoach`
+- Dùng input: `hien_trang_cds`, `chi_tieu_trung_uong`, `nam_ke_hoach`.
 - Vai trò: Chuyên viên Phòng Chuyển đổi số (hoặc phòng CNTT) tổng hợp số liệu từ các sở, ngành, xã; AI hỗ trợ lập bảng đánh giá hiện trạng theo 3 trụ cột, so sánh với chỉ tiêu Trung ương ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Số liệu phải có nguồn rõ ràng (báo cáo sở ngành, hệ thống giám sát); đánh giá thẳng thắn tồn tại (vùng lõm sóng, tỷ lệ DVC toàn trình thấp...).
 - → Kết quả bước: Báo cáo đánh giá hiện trạng chuyển đổi số của tỉnh.
 
 **Bước 2. Xác định mục tiêu, chỉ tiêu 3 trụ cột**
 - Làm gì: Xác định mục tiêu tổng quát và chỉ tiêu cụ thể cho chính quyền số, kinh tế số, xã hội số (tỷ lệ DVC toàn trình, tỷ lệ hồ sơ trực tuyến, tỷ lệ dân số có kỹ năng số...).
-- Dùng input: Báo cáo hiện trạng ở Bước 1, `chi_tieu_trung_uong`
+- Dùng input: Báo cáo hiện trạng ở Bước 1, `chi_tieu_trung_uong`.
 - Vai trò: Trưởng phòng Chuyển đổi số đề xuất chỉ tiêu; Phó Giám đốc Sở xem xét; AI hỗ trợ rà soát tính khả thi của chỉ tiêu so với hiện trạng và nguồn lực ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Chỉ tiêu phải đo được, có cơ sở, không đặt quá cao so với nguồn lực; bám chỉ tiêu Trung ương giao nhưng phù hợp điều kiện tỉnh.
 - → Kết quả bước: Bảng mục tiêu, chỉ tiêu chuyển đổi số của tỉnh (3 trụ cột).
 
 **Bước 3. Xây dựng nhiệm vụ, giải pháp và phân công**
 - Làm gì: Xây dựng nhiệm vụ, giải pháp cụ thể cho từng trụ cột; phân công đơn vị chủ trì, phối hợp, thời gian hoàn thành, kinh phí từng nhiệm vụ.
-- Dùng input: `de_xuat_so_nganh`, `kinh_phi_du_kien`, bảng chỉ tiêu ở Bước 2
+- Dùng input: `de_xuat_so_nganh`, `kinh_phi_du_kien`, bảng chỉ tiêu ở Bước 2.
 - Vai trò: Chuyên viên soạn thảo; Trưởng phòng kiểm tra; AI hỗ trợ lập bảng phân công nhiệm vụ, dự toán kinh phí theo từng nhiệm vụ ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Mỗi chỉ tiêu phải có ít nhất một nhiệm vụ tương ứng; nhiệm vụ cụ thể, có đầu mối chịu trách nhiệm; kinh phí rõ nguồn.
 - → Kết quả bước: Dự thảo kế hoạch chuyển đổi số (nhiệm vụ, phân công, kinh phí).
 
 **Bước 4. Lấy ý kiến, hoàn thiện dự thảo**
 - Làm gì: Gửi dự thảo lấy ý kiến các sở, ban, ngành, UBND xã; tổng hợp, tiếp thu, giải trình ý kiến; hoàn thiện dự thảo kế hoạch.
-- Dùng input: Dự thảo kế hoạch ở Bước 3
+- Dùng input: Dự thảo kế hoạch ở Bước 3.
 - Vai trò: Chuyên viên tổng hợp ý kiến; Trưởng phòng rà soát tiếp thu; AI hỗ trợ tổng hợp ý kiến góp ý, soạn bảng tiếp thu – giải trình ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Ý kiến không tiếp thu phải giải trình rõ lý do; bảo đảm sự đồng thuận của các đơn vị được phân công nhiệm vụ.
 - → Kết quả bước: Dự thảo kế hoạch chuyển đổi số hoàn chỉnh + bảng tiếp thu ý kiến.
 
 **Bước 5. Trình ban hành, theo dõi và đánh giá**
 - Làm gì: Lập Tờ trình trình UBND tỉnh ban hành kế hoạch; theo dõi tiến độ hằng quý; cuối năm đánh giá kết quả, chấm điểm chỉ số CĐS; báo cáo Bộ KH&CN.
-- Dùng input: Dự thảo hoàn chỉnh, `nguoi_ky`
+- Dùng input: Dự thảo hoàn chỉnh, `nguoi_ky`.
 - Vai trò: Giám đốc Sở ký Tờ trình; Chủ tịch UBND tỉnh ký ban hành kế hoạch; chuyên viên theo dõi quý; AI hỗ trợ lập bảng theo dõi tiến độ, soạn báo cáo đánh giá năm ⏱ ~3 ngày làm việc (soạn trình) (ước tính)
 - Lưu ý nghiệp vụ: Kế hoạch CĐS là văn bản của UBND tỉnh, đúng thể thức NĐ 30/2020/NĐ-CP; theo dõi quý để kịp thời đôn đốc đơn vị chậm tiến độ.
 - → Kết quả bước: Kế hoạch chuyển đổi số của UBND tỉnh đã ban hành + báo cáo đánh giá kết quả năm.

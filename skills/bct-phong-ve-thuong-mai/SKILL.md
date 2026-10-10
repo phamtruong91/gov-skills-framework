@@ -19,7 +19,7 @@ description: "Khi hiệp hội/doanh nghiệp trong nước nộp hồ sơ yêu 
 | `loai_vu_viec` | chống bán phá giá / chống trợ cấp / tự vệ / rà soát | Có |
 | `san_pham` | Hàng hóa bị điều tra | Có |
 | `nuoc_xuat_khau` | Nước xuất khẩu hàng hóa liên quan | Có |
-| `ho_so_yeu_cau` | Hồ sơ yêu cầu điều tra của nguyên đơn | Có (trừ vụ tự khởi xướng) |
+| `ho_so_yeu_cau` | Hồ sơ yêu cầu điều tra của nguyên đơn. Lưu ý: trừ vụ tự khởi xướng.| Có |
 | `loai_viec` | điều tra trong nước / hỗ trợ DN bị điều tra ở nước ngoài | Có |
 
 ## 4. Quy trình
@@ -70,6 +70,8 @@ flowchart TD
     B3 --> B4["Bước 4: Rà soát, chấm dứt"]
     B4 --> B5["Bước 5: Hỗ trợ doanh nghiệp bị điều tra ở nước ngoài"]
 ```
+
+*Ghi chú: các bước là luồng công việc độc lập, lựa chọn theo loại việc (`loai_viec`); không nhất thiết thực hiện nối tiếp.*
 
 ## 5. Đầu ra (Output)
 

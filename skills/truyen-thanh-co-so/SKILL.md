@@ -29,35 +29,35 @@ description: "Quản lý đài truyền thanh cơ sở: xây dựng lịch phát
 **Bước 1. Rà soát hệ thống kỹ thuật đài truyền thanh cơ sở**
 - Làm gì: Kiểm tra toàn bộ thiết bị: máy phát, cụm loa các thôn, dây truyền thanh, nguồn điện dự phòng; lập biên bản tình trạng (tốt/kém/hỏng); đề xuất sửa chữa, thay thế.
 - Dùng input: `thon_xom`, `ky_han_ap_dung`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực thông tin thực hiện kiểm tra; AI hỗ trợ lập bảng kiểm kê thiết bị và mẫu biên bản tình trạng (~0,5 ngày).
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực thông tin thực hiện kiểm tra; AI hỗ trợ lập bảng kiểm kê thiết bị và mẫu biên bản tình trạng (⏱ ~0,5 ngày).
 - Lưu ý nghiệp vụ: Bảo đảm loa phủ sóng đến các thôn/xóm, đặc biệt khu dân cư tập trung; thiết bị hỏng phải báo cáo sửa chữa kịp thời trước kỳ phát thanh.
 - → Kết quả bước: Bảng kiểm kê thiết bị + biên bản tình trạng kỹ thuật hệ thống loa máy.
 
 **Bước 2. Thu thập, phân loại nội dung tuyên truyền**
 - Làm gì: Tổng hợp nội dung cần tuyên truyền: chủ trương, chính sách của Đảng và Nhà nước; nhiệm vụ trọng tâm của xã trong tuần; các sự kiện, ngày kỷ niệm; nội dung theo văn bản chỉ đạo cấp trên.
 - Dùng input: `van_ban_chi_dao`, `nhiem_vu_dia_phuong`, `ky_han_ap_dung`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực thông tin tổng hợp; AI hỗ trợ phân loại nội dung theo chủ đề, sắp xếp thứ tự ưu tiên, ước tính thời lượng (~0,5 ngày).
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực thông tin tổng hợp; AI hỗ trợ phân loại nội dung theo chủ đề, sắp xếp thứ tự ưu tiên, ước tính thời lượng (⏱ ~0,5 ngày).
 - Lưu ý nghiệp vụ: Nội dung phải chính xác, bám sát văn bản gốc; không đưa thông tin chưa được kiểm chứng; ưu tiên nội dung phục vụ trực tiếp người dân (lịch tiêm chủng, lịch thu hoạch, phòng chống thiên tai).
 - → Kết quả bước: Danh mục nội dung tuyên truyền theo chủ đề, đã phân loại ưu tiên.
 
 **Bước 3. Biên tập kịch bản phát thanh**
 - Làm gì: Soạn kịch bản phát thanh từng buổi (mở đầu, tin chính, tin địa phương, kết thúc); viết dạng văn nói, ngắn gọn, dễ hiểu; ghi rõ thời lượng từng mục.
 - Dùng input: Danh mục nội dung bước 2, `khung_gio_phat`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách biên tập; biên tập viên/phát thanh viên rà soát ngôn từ; AI hỗ trợ chuyển văn bản hành chính thành văn nói phát thanh, ước tính thời lượng (~1 ngày).
+- Vai trò: Công chức văn hóa – xã hội phụ trách biên tập; biên tập viên/phát thanh viên rà soát ngôn từ; AI hỗ trợ chuyển văn bản hành chính thành văn nói phát thanh, ước tính thời lượng (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Ngôn ngữ giản dị, câu ngắn; thuật ngữ hành chính phải giải thích dễ hiểu; thời lượng mỗi buổi phát không quá khung giờ quy định.
 - → Kết quả bước: Kịch bản phát thanh từng buổi trong tuần.
 
 **Bước 4. Xây dựng lịch phát thanh hằng tuần và kế hoạch tiếp sóng**
 - Làm gì: Lập lịch phát thanh hằng tuần: ngày, khung giờ, nội dung từng buổi, người phát, người vận hành; bố trí lịch tiếp sóng đài cấp trên xen kẽ chương trình địa phương.
 - Dùng input: `khung_gio_phat`, `lich_tiep_song`, kịch bản bước 3, `bien_tap_vien`, `ky_han_ap_dung`.
-- Vai trò: Công chức văn hóa – xã hội lập lịch; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Phó Chủ tịch UBND xã (bà Trần Thị B) phụ trách lĩnh vực phê duyệt; AI hỗ trợ ghép khung giờ – nội dung – nhân sự thành bảng lịch hoàn chỉnh (~0,5 ngày).
+- Vai trò: Công chức văn hóa – xã hội lập lịch; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Phó Chủ tịch UBND xã (bà Trần Thị B) phụ trách lĩnh vực phê duyệt; AI hỗ trợ ghép khung giờ – nội dung – nhân sự thành bảng lịch hoàn chỉnh (⏱ ~0,5 ngày).
 - Lưu ý nghiệp vụ: Không trùng giờ tiếp sóng đài cấp trên với giờ phát chương trình địa phương; bảo đảm mỗi thôn đều nghe được; có phương án phát lại khi thiết bị sự cố.
 - → Kết quả bước: Dự thảo Lịch phát thanh hằng tuần + kế hoạch tiếp sóng.
 
 **Bước 5. Soạn Quy chế hoạt động đài truyền thanh cơ sở**
 - Làm gì: Soạn Quy chế hoạt động đài: chức năng, nhiệm vụ; tổ chức bộ máy (người phụ trách, biên tập viên, phát thanh viên, kỹ thuật viên); chế độ phát thanh; quản lý tài chính, thiết bị; khen thưởng, kỷ luật.
 - Dùng input: Toàn bộ kết quả các bước trên, `thon_xom`, `bien_tap_vien`.
-- Vai trò: Công chức văn hóa – xã hội soạn; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Chủ tịch UBND xã (ông Nguyễn Văn A) ký ban hành quyết định; AI hỗ trợ soạn thảo theo thể thức văn bản hành chính NĐ 30/2020/NĐ-CP (~1 ngày).
+- Vai trò: Công chức văn hóa – xã hội soạn; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Chủ tịch UBND xã (ông Nguyễn Văn A) ký ban hành quyết định; AI hỗ trợ soạn thảo theo thể thức văn bản hành chính NĐ 30/2020/NĐ-CP (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Quy chế do Chủ tịch UBND xã ký ban hành dưới dạng quyết định; quy định rõ trách nhiệm bảo quản thiết bị và chế độ báo cáo định kỳ.
 - → Kết quả bước: Dự thảo Quy chế hoạt động đài truyền thanh cơ sở trình ký ban hành.
 

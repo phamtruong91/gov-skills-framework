@@ -27,7 +27,7 @@ description: "Khi Bộ Công Thương lập đề nghị xây dựng nghị đ�
 
 **Bước 1. Lập đề nghị xây dựng văn bản**
 - Làm gì: Đơn vị chủ trì lập đề nghị xây dựng văn bản: sự cần thiết, phạm vi điều chỉnh, đối tượng áp dụng, nội dung chính, dự kiến nguồn lực; đánh giá tác động thủ tục hành chính.
-- Dùng input: `loai_van_ban`, `ten_van_ban`, `noi_dung_chinh`, `doi_tuong_tac_dong`.
+- Dùng input: `loai_van_ban`, `ten_van_ban`, `noi_dung_chinh`, `doi_tuong_tac_dong`, `don_vi_chu_tri`.
 - Vai trò: Chuyên viên vụ/cục chủ trì dự thảo; AI hỗ trợ lập dàn ý đề nghị, tra cứu văn bản liên quan — ⏱ 10 ngày.
 - Lưu ý nghiệp vụ: Đề nghị xây dựng nghị định phải được Chính phủ chấp thuận đưa vào chương trình; thông tư do Bộ trưởng quyết định đưa vào kế hoạch.
 - → Kết quả bước: Đề nghị xây dựng văn bản được phê duyệt.

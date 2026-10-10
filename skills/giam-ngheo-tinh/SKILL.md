@@ -23,35 +23,35 @@ description: "Triển khai chương trình giảm nghèo của tỉnh: rà soát
 
 **Bước 1. Hướng dẫn rà soát hộ nghèo, cận nghèo**
 - Làm gì: Ban hành văn bản hướng dẫn rà soát theo chuẩn nghèo đa chiều: quy trình bình xét, chấm điểm thiếu hụt, công khai danh sách.
-- Dùng input: `nam_ke_hoach`, `chuan_ngheo`
+- Dùng input: `nam_ke_hoach`, `chuan_ngheo`.
 - Vai trò: Chuyên viên Phòng Bảo trợ xã hội (Sở Nội vụ tỉnh A) soạn; AI hỗ trợ soạn hướng dẫn, biểu mẫu ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Rà soát phải dân chủ, công khai tại cộng đồng; tránh bỏ sót hộ thật sự nghèo và đưa sai hộ không nghèo vào danh sách.
 - → Kết quả bước: Văn bản hướng dẫn rà soát.
 
 **Bước 2. Tổng hợp, thẩm định kết quả rà soát**
 - Làm gì: Tổng hợp kết quả rà soát của UBND cấp xã; thẩm định, phúc tra xác suất; chốt danh sách hộ nghèo, cận nghèo toàn tỉnh.
-- Dùng input: `so_lieu_ra_soat`
+- Dùng input: `so_lieu_ra_soat`.
 - Vai trò: Chuyên viên tổng hợp; AI hỗ trợ lập bảng tổng hợp, phát hiện số liệu bất thường ⏱ ~10 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Phúc tra độc lập ít nhất 5% số hộ; xử lý nghiêm việc khai man, bình xét không đúng quy trình.
 - → Kết quả bước: Danh sách hộ nghèo, cận nghèo toàn tỉnh đã thẩm định.
 
 **Bước 3. Xây dựng kế hoạch giảm nghèo**
 - Làm gì: Xây dựng kế hoạch: mục tiêu giảm tỷ lệ hộ nghèo; giải pháp (hỗ trợ sinh kế, đào tạo nghề, tín dụng, y tế, giáo dục, nhà ở); phân bổ nguồn lực theo địa bàn.
-- Dùng input: `muc_tieu_giam_ngheo`, `nguon_luc`, danh sách Bước 2
+- Dùng input: `muc_tieu_giam_ngheo`, `nguon_luc`, danh sách Bước 2.
 - Vai trò: Trưởng phòng Bảo trợ xã hội chủ trì; AI hỗ trợ lập kế hoạch, bảng phân bổ ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Ưu tiên địa bàn đặc biệt khó khăn, hộ nghèo là người có công, dân tộc thiểu số; giải pháp phải phù hợp nguyên nhân nghèo của từng nhóm.
 - → Kết quả bước: Kế hoạch giảm nghèo năm của tỉnh (trình phê duyệt).
 
 **Bước 4. Tổ chức thực hiện, kiểm tra**
 - Làm gì: Phân bổ vốn, triển khai các dự án, chính sách hỗ trợ; kiểm tra tiến độ tại địa phương.
-- Dùng input: Kế hoạch đã phê duyệt
+- Dùng input: Kế hoạch đã phê duyệt.
 - Vai trò: Các sở, ngành, UBND cấp xã thực hiện; Sở Nội vụ kiểm tra; AI hỗ trợ lập bảng theo dõi tiến độ ⏱ trong năm (ước tính)
 - Lưu ý nghiệp vụ: Vốn phải đến đúng đối tượng; kiểm tra thực tế, không chỉ kiểm tra trên giấy.
 - → Kết quả bước: Báo cáo tiến độ thực hiện.
 
 **Bước 5. Đánh giá kết quả, báo cáo**
 - Làm gì: Đánh giá tỷ lệ giảm nghèo, hiệu quả các giải pháp; báo cáo UBND tỉnh, Bộ Nội vụ; đề xuất năm tiếp theo.
-- Dùng input: Kết quả rà soát cuối năm, báo cáo tiến độ
+- Dùng input: Kết quả rà soát cuối năm, báo cáo tiến độ.
 - Vai trò: Chuyên viên tổng hợp; Giám đốc Sở Nội vụ ký báo cáo; AI hỗ trợ phân tích, soạn báo cáo ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đánh giá trung thực, không "làm đẹp" số liệu; phân tích nguyên nhân hộ tái nghèo, phát sinh nghèo.
 - → Kết quả bước: Báo cáo kết quả giảm nghèo năm.

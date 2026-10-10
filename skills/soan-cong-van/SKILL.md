@@ -5,6 +5,8 @@ description: "Soạn công văn hành chính (đôn đốc, phúc đáp, đề n
 
 # Skill: Soạn công văn
 
+> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
+
 ## Khi nào dùng
 
 - Soạn công văn đôn đốc các phòng/ban báo cáo tiến độ nhiệm vụ được giao.
@@ -60,14 +62,14 @@ description: "Soạn công văn hành chính (đôn đốc, phúc đáp, đề n
 - Làm gì: Dựng khung thể thức đầy đủ: quốc hiệu–tiêu ngữ; tên cơ quan ban hành; số, ký hiệu văn bản; địa danh, ngày tháng năm; tên loại và trích yếu; nội dung; nơi nhận; chữ ký, chức vụ người ký, con dấu.
 - Dùng input: `don_vi_soan_thao`, `nguoi_ky_du_kien`, `noi_nhan`, `ngay_ban_hanh`, `nguoi_nhan`.
 - Vai trò: Công chức văn thư/văn phòng thực hiện; AI hỗ trợ: kiểm tra đầy đủ các thành phần thể thức, số ký hiệu đúng quy ước (ví dụ: "..../CV-UBND"), canh lề và vị trí các khối ⏱ ~10 phút (ước tính).
-- Lưu ý nghiệp vụ: Tên cơ quan ban hành ghi đầy đủ "ỦY BAN NHÂN DÂN XÃ A"; địa danh ghi "Xã A, ngày ... tháng ... năm ..."; nơi nhận liệt kê theo thứ tự: người nhận chính, cấp trên (để báo cáo), các đơn vị liên quan, lưu hồ sơ. Không dùng chữ ký số thay thế chữ ký tay khi văn bản cần đóng dấu đỏ theo quy định.
+- Lưu ý nghiệp vụ: Tên cơ quan ban hành ghi đầy đủ "ỦY BAN NHÂN DÂN XÃ A"; địa danh ghi "Xã A, ngày ... tháng ... năm ..."; nơi nhận liệt kê theo thứ tự: người nhận chính, cấp trên (để báo cáo), các đơn vị liên quan, lưu hồ sơ. Văn bản điện tử có chữ ký số hợp lệ có giá trị pháp lý như bản giấy (không cần dấu đỏ); chỉ dùng chữ ký tay kèm dấu đỏ khi phát hành bản giấy theo yêu cầu.
 - → Kết quả bước: Bản dự thảo công văn đúng thể thức, sẵn sàng trình.
 
 **Bước 5. Trình ký và hoàn thiện**
 
 - Làm gì: Lập phiếu trình kèm dự thảo công văn; trình Chánh Văn phòng kiểm tra thể thức, trình lãnh đạo (Chủ tịch/Phó Chủ tịch theo phân công) duyệt nội dung và ký ban hành; đóng dấu, đánh số, phát hành theo nơi nhận.
 - Dùng input: `nguoi_ky_du_kien`, `noi_nhan`.
-- Vai trò: Công chức soạn thảo lập phiếu trình; Chánh Văn phòng HĐND&UBND kiểm tra thể thức (5 phút); Chủ tịch/Phó Chủ tịch UBND xã duyệt và ký (10 phút); văn thư phát hành, lưu hồ sơ; AI hỗ trợ: kiểm tra thể thức lần cuối, tổng hợp đầy đủ hồ sơ trình ký — tổng ước tính 20 phút (chưa tính thời gian chờ lãnh đạo).
+- Vai trò: Công chức soạn thảo lập phiếu trình; Chánh Văn phòng HĐND&UBND kiểm tra thể thức (⏱ 5 phút); Chủ tịch/Phó Chủ tịch UBND xã duyệt và ký (⏱ 10 phút); văn thư phát hành, lưu hồ sơ; AI hỗ trợ: kiểm tra thể thức lần cuối, tổng hợp đầy đủ hồ sơ trình ký — tổng ước tính 20 phút (chưa tính thời gian chờ lãnh đạo).
 - Lưu ý nghiệp vụ: Mọi sửa đổi của lãnh đạo trên dự thảo phải được cập nhật vào bản chính trước khi phát hành. Số văn bản lấy theo sổ đăng ký văn bản đi; lưu 01 bản có chữ ký tươi tại văn thư.
 - → Kết quả bước: Công văn đã ký, đóng dấu, phát hành đúng nơi nhận; hồ sơ lưu đầy đủ.
 
@@ -83,7 +85,7 @@ flowchart TD
     B4 --> B5["Bước 5: Trình ký và hoàn thiện"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Dự thảo công văn hoàn chỉnh, đúng thể thức NĐ 30/2020/NĐ-CP.
 - Phiếu trình ký kèm theo (khi cần).
@@ -103,7 +105,7 @@ Khung cố định của một công văn, các phần bắt buộc theo đúng 
 7. **Nơi nhận** (cuối văn bản, canh trái): liệt kê theo thứ tự ưu tiên.
 8. **Chữ ký, chức vụ người ký** (canh phải): "TM. ỦY BAN NHÂN DÂN" / chức vụ (CHỦ TỊCH / KT. CHỦ TỊCH – PHÓ CHỦ TỊCH / TL. CHỦ TỊCH – CHÁNH VĂN PHÒNG) / họ tên người ký, đóng dấu.
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. Có đủ 8 thành phần thể thức theo đúng thứ tự mục 5, không thiếu mục nào.
 2. Tên cơ quan, quốc hiệu–tiêu ngữ, địa danh ghi đúng quy ước, không viết tắt sai.
@@ -116,7 +118,7 @@ Khung cố định của một công văn, các phần bắt buộc theo đúng 
 9. Không bịa số liệu, căn cứ pháp lý; mọi con số đều có nguồn từ input hoặc văn bản liên quan.
 10. Đã qua human gate: Chánh Văn phòng kiểm tra thể thức, lãnh đạo duyệt nội dung trước khi ký phát hành.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
@@ -165,14 +167,14 @@ CHÁNH VĂN PHÒNG
 
 Phạm Văn C
 
-## Human gate
+## 8. Human gate
 
 - **Công chức soạn thảo** → soạn dự thảo, chịu trách nhiệm về nội dung, số liệu.
 - **Chánh Văn phòng HĐND&UBND** → kiểm tra thể thức, câu chữ, tính thống nhất với các văn bản liên quan.
 - **Chủ tịch / Phó Chủ tịch UBND xã** (theo phân công phụ trách lĩnh vực) → duyệt nội dung, ký ban hành.
 - Không phát hành công văn khi chưa có chữ ký của người có thẩm quyền.
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI KHÔNG ra quyết định hành chính thay người có thẩm quyền; chỉ hỗ trợ soạn thảo dự thảo.
 - AI KHÔNG tự ký, tự đóng dấu, tự phát hành văn bản dưới bất kỳ hình thức nào.
@@ -180,7 +182,7 @@ Phạm Văn C
 - AI KHÔNG viện dẫn văn bản đã hết hiệu lực (ví dụ: không dùng NĐ 45/2025/NĐ-CP khi đã bị NĐ 150/2025/NĐ-CP thay thế).
 - AI KHÔNG tư vấn nội dung vượt thẩm quyền của cấp xã; khi phát hiện vượt thẩm quyền phải đề xuất chuyển sang công văn xin ý kiến/báo cáo cấp trên.
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - NĐ 30/2020/NĐ-CP về công tác văn thư: thể thức, kỹ thuật trình bày văn bản hành chính (áp dụng cho công văn).
 - NĐ 150/2025/NĐ-CP: tổ chức cơ quan chuyên môn thuộc UBND cấp xã (Văn phòng HĐND&UBND, các phòng chuyên môn) — căn cứ xác định đơn vị soạn thảo, đơn vị nhận.

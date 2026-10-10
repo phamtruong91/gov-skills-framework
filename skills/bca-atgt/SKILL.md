@@ -24,28 +24,28 @@ description: "Hằng năm xây dựng kế hoạch bảo đảm TTATGT: tuần t
 **Bước 1. Xây dựng kế hoạch bảo đảm TTATGT năm**
 - Làm gì: Phân tích tình hình TTATGT năm trước (mức thống kê công khai); xác định nhiệm vụ trọng tâm: tuần tra kiểm soát, xử lý vi phạm, tuyên truyền, ứng dụng công nghệ.
 - Dùng input: `nam_ke_hoach`, `so_lieu_tai_nan`, `bao_cao_dia_phuong`.
-- Vai trò: Chuyên viên Cục CSGT xây dựng (AI hỗ trợ tổng hợp số liệu, phân tích xu hướng từ thống kê công khai — 2 ngày) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt.
+- Vai trò: Chuyên viên Cục CSGT xây dựng (AI hỗ trợ tổng hợp số liệu, phân tích xu hướng từ thống kê công khai ⏱ 2 ngày (ước tính)) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt.
 - Lưu ý nghiệp vụ: Mục tiêu giảm tai nạn giao thông cả 3 tiêu chí (số vụ, số người chết, số người bị thương); trọng tâm là vi phạm nồng độ cồn, tốc độ, quá tải.
 - → Kết quả bước: Kế hoạch bảo đảm TTATGT năm được phê duyệt.
 
 **Bước 2. Chỉ đạo đợt cao điểm**
 - Làm gì: Ban hành kế hoạch đợt cao điểm: tăng cường tuần tra kiểm soát, xử lý nghiêm vi phạm; phân công lực lượng; phối hợp địa phương.
 - Dùng input: `noi_dung_trong_tam`, `nam_ke_hoach`.
-- Vai trò: Cục CSGT chủ trì (AI hỗ trợ lập kế hoạch, lịch trực, mẫu báo cáo nhanh — 1 ngày) → Cục trưởng trình Thứ trưởng.
+- Vai trò: Cục CSGT chủ trì (AI hỗ trợ lập kế hoạch, lịch trực, mẫu báo cáo nhanh ⏱ 1 ngày (ước tính)) → Cục trưởng trình Thứ trưởng.
 - Lưu ý nghiệp vụ: Nội dung chỉ đạo ở mức hành chính (lực lượng, thời gian, địa bàn trọng điểm); không chi tiết phương án nghiệp vụ mật.
 - → Kết quả bước: Kế hoạch cao điểm được ban hành, triển khai toàn quốc.
 
 **Bước 3. Tuyên truyền, phổ biến pháp luật**
 - Làm gì: Xây dựng kế hoạch, tài liệu tuyên truyền TTATGT: phối hợp báo chí, mạng xã hội, nhà trường, doanh nghiệp vận tải.
 - Dùng input: `noi_dung_trong_tam`.
-- Vai trò: Chuyên viên tuyên truyền thực hiện (AI hỗ trợ soạn tài liệu, thông điệp truyền thông — 1 ngày) → Cục trưởng duyệt.
+- Vai trò: Chuyên viên tuyên truyền thực hiện (AI hỗ trợ soạn tài liệu, thông điệp truyền thông ⏱ 1 ngày (ước tính)) → Cục trưởng duyệt.
 - Lưu ý nghiệp vụ: Thông điệp ngắn gọn, dễ nhớ, hướng vào nhóm vi phạm phổ biến.
 - → Kết quả bước: Kế hoạch và bộ tài liệu tuyên truyền.
 
 **Bước 4. Tổng kết, đánh giá**
 - Làm gì: Tổng hợp kết quả toàn quốc: số liệu xử lý vi phạm, tai nạn giao thông (công khai); đánh giá, đề xuất.
 - Dùng input: Báo cáo của địa phương.
-- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ tổng hợp số liệu, so sánh chỉ tiêu, dự thảo báo cáo — 2 ngày) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
+- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ tổng hợp số liệu, so sánh chỉ tiêu, dự thảo báo cáo ⏱ 2 ngày (ước tính)) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
 - Lưu ý nghiệp vụ: Số liệu trung thực, có đối chiếu; đánh giá gắn trách nhiệm đơn vị, địa phương.
 - → Kết quả bước: Báo cáo tổng kết công tác bảo đảm TTATGT.
 

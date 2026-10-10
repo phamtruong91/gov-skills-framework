@@ -22,35 +22,35 @@ Khi phát hiện (qua rà soát, phản ánh của tổ chức/cá nhân, kiến
 **Bước 1. Thu thập, phân loại văn bản kiểm tra**
 - Làm gì: Tiếp nhận văn bản; phân loại theo cấp ban hành (bộ/ngành, tỉnh, xã) và lĩnh vực.
 - Dùng input: `van_ban_kiem_tra`, `nguon_phat_hien`.
-- Vai trò: Chuyên viên Cục Kiểm tra văn bản QPPL — AI hỗ trợ trích xuất nội dung chính, lập phiếu kiểm tra (0,5 ngày).
+- Vai trò: Chuyên viên Cục Kiểm tra văn bản QPPL — AI hỗ trợ trích xuất nội dung chính, lập phiếu kiểm tra (⏱ ~0,5 ngày).
 - Lưu ý nghiệp vụ: Ưu tiên kiểm tra văn bản ảnh hưởng quyền, nghĩa vụ của tổ chức, cá nhân.
 - → Kết quả bước: Phiếu kiểm tra văn bản.
 
 **Bước 2. Đối chiếu, xác định dấu hiệu trái pháp luật**
 - Làm gì: Đối chiếu từng nội dung với Hiến pháp, luật, văn bản cấp trên; xác định điều/khoản trái, mức độ (trái thẩm quyền, trái nội dung, sai thể thức).
 - Dùng input: `van_ban_kiem_tra`, `can_cu_doi_chieu`.
-- Vai trò: Chuyên viên Cục Kiểm tra văn bản QPPL — AI hỗ trợ đối chiếu song song hai văn bản, highlight điểm khác biệt (1–2 ngày).
+- Vai trò: Chuyên viên Cục Kiểm tra văn bản QPPL — AI hỗ trợ đối chiếu song song hai văn bản, highlight điểm khác biệt (⏱ 1–2 ngày).
 - Lưu ý nghiệp vụ: Phân biệt "trái pháp luật" (phải xử lý) với "chưa phù hợp thực tiễn" (kiến nghị sửa đổi).
 - → Kết quả bước: Kết luận kiểm tra: có/không có dấu hiệu trái pháp luật.
 
 **Bước 3. Trao đổi với cơ quan ban hành văn bản**
 - Làm gì: Gửi kết luận kiểm tra, yêu cầu cơ quan ban hành tự kiểm tra và xử lý (đình chỉ thi hành, bãi bỏ, sửa đổi) trong thời hạn.
 - Dùng input: Kết luận kiểm tra.
-- Vai trò: Cục trưởng Cục Kiểm tra văn bản QPPL ký văn bản — AI hỗ trợ soạn công văn yêu cầu xử lý (0,5 ngày).
+- Vai trò: Cục trưởng Cục Kiểm tra văn bản QPPL ký văn bản — AI hỗ trợ soạn công văn yêu cầu xử lý (⏱ ~0,5 ngày).
 - Lưu ý nghiệp vụ: Thời hạn xử lý theo quy định; theo dõi đến khi có kết quả.
 - → Kết quả bước: Văn bản yêu cầu tự xử lý.
 
 **Bước 4. Kiến nghị cấp có thẩm quyền xử lý (nếu cơ quan ban hành không xử lý)**
 - Làm gì: Kiến nghị Thủ tướng Chính phủ đình chỉ/bãi bỏ (đối với văn bản của bộ, UBND tỉnh); kiến nghị Bộ trưởng, Chủ tịch UBND tỉnh xử lý văn bản cấp dưới.
 - Dùng input: Kết quả theo dõi bước 3.
-- Vai trò: Thứ trưởng/Bộ trưởng Bộ Tư pháp ký văn bản kiến nghị — AI hỗ trợ soạn Tờ trình kiến nghị (1 ngày).
+- Vai trò: Thứ trưởng/Bộ trưởng Bộ Tư pháp ký văn bản kiến nghị — AI hỗ trợ soạn Tờ trình kiến nghị (⏱ 1 ngày).
 - Lưu ý nghiệp vụ: Đối với văn bản của HĐND: kiến nghị theo trình tự giám sát văn bản của HĐND.
 - → Kết quả bước: Văn bản kiến nghị xử lý.
 
 **Bước 5. Theo dõi, tổng hợp báo cáo công tác kiểm tra văn bản**
 - Làm gì: Cập nhật cơ sở dữ liệu kiểm tra văn bản; tổng hợp báo cáo định kỳ gửi Chính phủ.
 - Dùng input: Kết quả xử lý các văn bản đã kiểm tra.
-- Vai trò: Chuyên viên Cục Kiểm tra văn bản QPPL — AI hỗ trợ tổng hợp số liệu, lập báo cáo (1 ngày).
+- Vai trò: Chuyên viên Cục Kiểm tra văn bản QPPL — AI hỗ trợ tổng hợp số liệu, lập báo cáo (⏱ 1 ngày).
 - Lưu ý nghiệp vụ: Công khai kết quả kiểm tra theo quy định.
 - → Kết quả bước: Báo cáo công tác kiểm tra văn bản QPPL.
 

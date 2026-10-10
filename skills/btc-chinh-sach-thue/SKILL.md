@@ -22,28 +22,28 @@ Khi xây dựng/sửa đổi chính sách thuế (thu nhập, giá trị gia tă
 **Bước 1. Nghiên cứu, đề xuất chính sách**
 - Làm gì: Phân tích thực trạng thu; nghiên cứu kinh nghiệm quốc tế; đề xuất phương án (mức thuế suất, đối tượng chịu/không chịu, miễn giảm).
 - Dùng input: `sac_thue`, `muc_tieu`.
-- Vai trò: Chuyên viên Vụ Chính sách thuế — AI hỗ trợ tổng hợp chính sách thuế các nước, mô phỏng tác động thu ngân sách (5–7 ngày).
+- Vai trò: Chuyên viên Vụ Chính sách thuế — AI hỗ trợ tổng hợp chính sách thuế các nước, mô phỏng tác động thu ngân sách (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Bảo đảm công bằng, minh bạch; không tạo ưu đãi tràn lan; tuân thủ cam kết cắt giảm thuế quan.
 - → Kết quả bước: Đề xuất chính sách thuế kèm phân tích.
 
 **Bước 2. Đánh giá tác động toàn diện**
 - Làm gì: Đánh giá tác động đến NSNN, doanh nghiệp, người dân, sức cạnh tranh, môi trường đầu tư; lấy ý kiến chuyên gia.
 - Dùng input: Đề xuất chính sách.
-- Vai trò: Vụ Chính sách thuế chủ trì — AI hỗ trợ chạy kịch bản tác động, soạn báo cáo RIA (5–7 ngày).
+- Vai trò: Vụ Chính sách thuế chủ trì — AI hỗ trợ chạy kịch bản tác động, soạn báo cáo RIA (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Thuế mới/tăng thuế suất phải có lộ trình; tránh "sốc" cho thị trường.
 - → Kết quả bước: Báo cáo đánh giá tác động.
 
 **Bước 3. Soạn thảo văn bản, lấy ý kiến rộng rãi**
 - Làm gì: Soạn dự thảo luật/nghị định/thông tư; đăng lấy ý kiến công khai; tổ chức đối thoại với hiệp hội doanh nghiệp.
 - Dùng input: Kết quả bước 1, 2.
-- Vai trò: Vụ trưởng Vụ Chính sách thuế — AI hỗ trợ soạn dự thảo, tổng hợp ý kiến (5–7 ngày).
+- Vai trò: Vụ trưởng Vụ Chính sách thuế — AI hỗ trợ soạn dự thảo, tổng hợp ý kiến (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Công khai minh bạch toàn bộ quá trình; tiếp thu có giải trình.
 - → Kết quả bước: Dự thảo + báo cáo tiếp thu ý kiến.
 
 **Bước 4. Trình ban hành theo thẩm quyền**
 - Làm gì: Trình Chính phủ (nghị định), Quốc hội (luật) hoặc Bộ trưởng ban hành (thông tư); qua thẩm định của Bộ Tư pháp.
 - Dùng input: Hồ sơ hoàn chỉnh.
-- Vai trò: Thứ trưởng/Bộ trưởng ký Tờ trình — AI hỗ trợ kiểm tra hồ sơ lần cuối (1–2 ngày).
+- Vai trò: Thứ trưởng/Bộ trưởng ký Tờ trình — AI hỗ trợ kiểm tra hồ sơ lần cuối (⏱ 1–2 ngày).
 - Lưu ý nghiệp vụ: Chính sách thuế thuộc thẩm quyền Quốc hội (luật) — Bộ chỉ đề xuất, trình.
 - → Kết quả bước: Văn bản chính sách thuế được ban hành.
 

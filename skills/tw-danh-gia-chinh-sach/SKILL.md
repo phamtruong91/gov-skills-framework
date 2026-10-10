@@ -6,6 +6,7 @@ description: "Sơ kết, tổng kết, đánh giá chính sách, chương trình
 # Skill: Sơ kết, tổng kết, đánh giá chính sách
 
 ## 2. Khi nào dùng
+- Skill chỉ áp dụng ở cấp trung ương (bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ).
 
 Khi cần sơ kết giữa kỳ, tổng kết cuối kỳ hoặc đánh giá độc lập một chính sách, chương trình,
 đề án do bộ chủ trì (vd: tổng kết 5 năm thực hiện chiến lược ngành, đánh giá chính sách sau
@@ -26,7 +27,7 @@ Khi cần sơ kết giữa kỳ, tổng kết cuối kỳ hoặc đánh giá đ�
 **Bước 1. Xây dựng khung đánh giá**
 
 - Làm gì: Xây dựng tiêu chí đánh giá (tính phù hợp, hiệu quả, hiệu lực, tác động, tính bền vững); thiết kế bộ công cụ (phiếu khảo sát, đề cương phỏng vấn, mẫu tổng hợp số liệu).
-- Dùng input: `ten_chinh_sach`, `muc_tieu_chinh_sach`, `loai_danh_gia`.
+- Dùng input: `ten_chinh_sach`, `muc_tieu_chinh_sach`, `loai_danh_gia`, `don_vi_chu_tri`.
 - Vai trò: Vụ chuyên môn chủ trì, AI hỗ trợ xây dựng khung tiêu chí và bộ công cụ đánh giá ⏱ ~2–3 ngày (ước tính).
 - Lưu ý nghiệp vụ: Tiêu chí phải đo lường được mức độ đạt mục tiêu ban đầu; có thể tham khảo khung đánh giá của skill `danh-gia-tac-dong-cs`.
 - → Kết quả bước: Khung đánh giá + bộ công cụ được phê duyệt.

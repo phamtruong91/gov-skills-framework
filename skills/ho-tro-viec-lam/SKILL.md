@@ -29,7 +29,7 @@ description: "Tư vấn, giới thiệu việc làm; tổ chức phiên giao d�
 
 - Làm gì: Lập phiếu điều tra; phối hợp trưởng thôn/tổ dân phố thu thập thông tin người lao động có nhu cầu tìm việc (tuổi, trình độ, nghề, nguyện vọng) và nhu cầu tuyển dụng của doanh nghiệp, cơ sở sản xuất trên địa bàn; tổng hợp thành bảng cung – cầu lao động.
 - Dùng input: `doi_tuong_lao_dong`, `nhu_cau_tuyen_dung`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực lao động, việc làm trực tiếp điều tra, tổng hợp. AI hỗ trợ: thiết kế mẫu phiếu điều tra, chuẩn hóa dữ liệu, lập bảng đối chiếu cung – cầu theo ngành nghề/trình độ. Thời gian ước tính: 2–3 ngày làm việc.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực lao động, việc làm trực tiếp điều tra, tổng hợp. AI hỗ trợ: thiết kế mẫu phiếu điều tra, chuẩn hóa dữ liệu, lập bảng đối chiếu cung – cầu theo ngành nghề/trình độ. ⏱ 2–3 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Số liệu điều tra phải có chữ ký xác nhận của trưởng thôn/tổ dân phố; không trùng lặp đối tượng giữa các thôn; phân loại rõ lao động thất nghiệp, thiếu việc làm, lao động có nhu cầu chuyển đổi nghề.
 - → Kết quả bước: Bảng tổng hợp cung – cầu lao động của xã (số lượng, cơ cấu theo tuổi, trình độ, ngành nghề).
 
@@ -37,7 +37,7 @@ description: "Tư vấn, giới thiệu việc làm; tổ chức phiên giao d�
 
 - Làm gì: Căn cứ bảng cung – cầu, dự thảo Kế hoạch tư vấn, giới thiệu việc làm: mục đích, yêu cầu; đối tượng; nội dung (tư vấn trực tiếp, phiên giao dịch việc làm, tư vấn đi làm việc ở nước ngoài); thời gian, địa điểm; phân công tổ chức thực hiện; kinh phí; trình lãnh đạo UBND xã phê duyệt.
 - Dùng input: Bảng cung – cầu ở Bước 1, `thoi_gian_dia_diem`, `don_vi_phoi_hop`, `nguon_luc`, `so_lieu_ky_truoc`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực dự thảo kế hoạch. AI hỗ trợ: dàn ý kế hoạch theo cấu trúc chuẩn, gợi ý nội dung phù hợp với cơ cấu cung – cầu, kiểm tra thể thức văn bản theo NĐ 30/2020/NĐ-CP. Thời gian ước tính: 0,5–1 ngày làm việc.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực dự thảo kế hoạch. AI hỗ trợ: dàn ý kế hoạch theo cấu trúc chuẩn, gợi ý nội dung phù hợp với cơ cấu cung – cầu, kiểm tra thể thức văn bản theo NĐ 30/2020/NĐ-CP. ⏱ 0,5–1 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Kế hoạch phải khả thi với nguồn lực thực tế của xã; nội dung tư vấn đi làm việc ở nước ngoài phải gắn với thông tin chính thống, cảnh báo lừa đảo xuất khẩu lao động; kinh phí phải phù hợp dự toán được giao.
 - → Kết quả bước: Dự thảo Kế hoạch tư vấn, giới thiệu việc làm (sẵn sàng trình ký).
 
@@ -45,7 +45,7 @@ description: "Tư vấn, giới thiệu việc làm; tổ chức phiên giao d�
 
 - Làm gì: Liên hệ, thống nhất nội dung phối hợp với Trung tâm Dịch vụ việc làm tỉnh A, doanh nghiệp tuyển dụng, cơ sở đào tạo nghề; chuẩn bị địa điểm, trang thiết bị, tài liệu tư vấn; thông báo rộng rãi đến người lao động qua đài truyền thanh xã, nhóm Zalo thôn, niêm yết tại trụ sở UBND xã.
 - Dùng input: `don_vi_phoi_hop`, `nguon_luc`, kế hoạch đã phê duyệt ở Bước 2.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực đầu mối liên hệ, chuẩn bị. AI hỗ trợ: soạn thư mời, thông báo, nội dung phát thanh tuyên truyền; lập checklist công tác chuẩn bị. Thời gian ước tính: 2–3 ngày làm việc trước ngày tổ chức.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực đầu mối liên hệ, chuẩn bị. AI hỗ trợ: soạn thư mời, thông báo, nội dung phát thanh tuyên truyền; lập checklist công tác chuẩn bị. ⏱ 2–3 ngày (ước tính) làm việc trước ngày tổ chức.
 - Lưu ý nghiệp vụ: Thông báo phải đến được đúng đối tượng có nhu cầu (không chỉ thông báo chung chung); xác nhận số lượng doanh nghiệp, gian hàng tham gia trước ít nhất 3 ngày; chuẩn bị phương án dự phòng khi thời tiết xấu (nếu tổ chức ngoài trời).
 - → Kết quả bước: Danh sách đơn vị tham gia đã xác nhận + thông báo đã phát hành + checklist chuẩn bị hoàn tất.
 
@@ -53,7 +53,7 @@ description: "Tư vấn, giới thiệu việc làm; tổ chức phiên giao d�
 
 - Làm gì: Tổ chức buổi tư vấn/phiên giao dịch việc làm theo kế hoạch: đón tiếp, hướng dẫn người lao động; doanh nghiệp giới thiệu nhu cầu tuyển dụng, phỏng vấn trực tiếp; tư vấn chính sách hỗ trợ, thông tin đi làm việc ở nước ngoài theo hợp đồng; lập danh sách người lao động đăng ký, kết quả phỏng vấn tại chỗ.
 - Dùng input: Danh sách đơn vị tham gia ở Bước 3, bảng cung – cầu ở Bước 1.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực điều hành, ghi chép kết quả. AI hỗ trợ: mẫu phiếu đăng ký, mẫu biên bản tổng hợp kết quả tại chỗ; tổng hợp nhanh số liệu ngay sau sự kiện. Thời gian ước tính: 0,5–1 ngày (ngày tổ chức sự kiện).
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực điều hành, ghi chép kết quả. AI hỗ trợ: mẫu phiếu đăng ký, mẫu biên bản tổng hợp kết quả tại chỗ; tổng hợp nhanh số liệu ngay sau sự kiện. ⏱ 0,5–1 ngày (ước tính) (ngày tổ chức sự kiện).
 - Lưu ý nghiệp vụ: Ghi nhận đầy đủ, chính xác số người tham gia, số người đăng ký, số người trúng tuyển/phỏng vấn đạt; không hứa hẹn việc làm thay doanh nghiệp; tư vấn đi làm việc ở nước ngoài chỉ cung cấp thông tin chính thống, hướng dẫn liên hệ cơ quan có thẩm quyền.
 - → Kết quả bước: Biên bản tổng hợp kết quả buổi tư vấn/phiên giao dịch việc làm (số liệu tại chỗ).
 
@@ -61,7 +61,7 @@ description: "Tư vấn, giới thiệu việc làm; tổ chức phiên giao d�
 
 - Làm gì: Sau 1–3 tháng, liên hệ người lao động đã được giới thiệu để nắm tình hình (đã có việc làm, thu nhập, còn làm việc hay đã nghỉ); tổng hợp toàn bộ kết quả các bước; dự thảo Báo cáo kết quả tư vấn, giới thiệu việc làm; trình Trưởng phòng kiểm tra, lãnh đạo UBND xã ký ban hành; gửi cấp trên, lưu hồ sơ.
 - Dùng input: Biên bản ở Bước 4, `so_lieu_ky_truoc`, kết quả theo dõi sau giới thiệu.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực theo dõi, dự thảo báo cáo. AI hỗ trợ: mẫu phiếu theo dõi sau giới thiệu, dàn ý báo cáo theo cấu trúc chuẩn, đối chiếu số liệu các phần, rà soát thể thức NĐ 30/2020/NĐ-CP. Thời gian ước tính: 1–2 ngày làm việc (chưa kể thời gian chờ theo dõi 1–3 tháng).
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực theo dõi, dự thảo báo cáo. AI hỗ trợ: mẫu phiếu theo dõi sau giới thiệu, dàn ý báo cáo theo cấu trúc chuẩn, đối chiếu số liệu các phần, rà soát thể thức NĐ 30/2020/NĐ-CP. ⏱ 1–2 ngày (ước tính) làm việc (chưa kể thời gian chờ theo dõi 1–3 tháng).
 - Lưu ý nghiệp vụ: Số liệu kết quả phải có căn cứ (danh sách, phiếu theo dõi có xác nhận); phân biệt rõ số người được tư vấn, số người được giới thiệu, số người có việc làm thực tế; đánh giá trung thực, nêu rõ khó khăn, kiến nghị.
 - → Kết quả bước: Báo cáo kết quả tư vấn, giới thiệu việc làm (bản dự thảo đã qua kiểm tra, sẵn sàng trình ký).
 

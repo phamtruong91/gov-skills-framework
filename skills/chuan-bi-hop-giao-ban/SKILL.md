@@ -5,6 +5,8 @@ description: "Chuẩn bị nội dung họp giao ban định kỳ; theo dõi, đ
 
 # Skill: Chuẩn bị họp & theo dõi việc
 
+> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
+
 ## Khi nào dùng
 
 - Chuẩn bị họp giao ban UBND xã hằng tuần/tháng (Chủ tịch hoặc Phó Chủ tịch chủ trì).
@@ -24,46 +26,47 @@ description: "Chuẩn bị nội dung họp giao ban định kỳ; theo dõi, đ
 | `bao_cao_tien_do` | Báo cáo tiến độ thực hiện kết luận kỳ trước của các đơn vị | Có |
 | `noi_dung_du_kien` | Các nội dung dự kiến đưa ra họp kỳ này | Không |
 | `thanh_phan_moi` | Thành phần mời họp (ngoài thành phần thường trực) | Không |
+| `bien_ban_hop` | Biên bản họp đã ký (kết luận chính thức), dùng ở Bước 5 | Không |
 
 ## Quy trình
 
 **Bước 1. Trích kết luận kỳ trước và đối chiếu tiến độ**
 
 - Làm gì: Trích toàn bộ kết luận, phân công nhiệm vụ của kỳ họp trước thành bảng: nội dung – đầu mối – thời hạn; đối chiếu với báo cáo tiến độ của các đơn vị để xác định việc đã hoàn thành, đang thực hiện, chậm tiến độ.
-- Dùng input: `ket_luan_ky_truoc`, `bao_cao_tien_do`
-- Vai trò: Công chức Văn phòng HĐND&UBND trích và đối chiếu, AI hỗ trợ lập bảng đối chiếu, tự động đánh dấu trạng thái (hoàn thành / đang thực hiện / chậm tiến độ / chưa báo cáo) (20 phút).
+- Dùng input: `ket_luan_ky_truoc`, `bao_cao_tien_do`.
+- Vai trò: Công chức Văn phòng HĐND&UBND trích và đối chiếu, AI hỗ trợ lập bảng đối chiếu, tự động đánh dấu trạng thái (hoàn thành / đang thực hiện / chậm tiến độ / chưa báo cáo) (⏱ 20 phút).
 - Lưu ý nghiệp vụ: Đơn vị chưa gửi báo cáo tiến độ phải được đôn đốc trước họp ít nhất 01 ngày; việc chậm tiến độ phải ghi rõ lý do đơn vị báo cáo.
 - → Kết quả bước: Bảng kiểm điểm thực hiện kết luận kỳ trước, phân loại theo trạng thái.
 
 **Bước 2. Xây dựng chương trình họp**
 
-- Làm gì: Xây dựng chương trình họp theo thứ tự: (1) kiểm điểm thực hiện kết luận kỳ trước; (2) báo cáo tình hình chung; (3) thảo luận các nội dung mới; (4) kết luận, phân công nhiệm vụ; phân bổ thời gian cho từng nội dung.
-- Dùng input: `ky_hop`, `thoi_gian_dia_diem`, `chu_tri_du_kien`, `noi_dung_du_kien`, `thanh_phan_moi`
-- Vai trò: Công chức Văn phòng HĐND&UBND dự thảo chương trình, AI hỗ trợ sắp xếp nội dung theo thứ tự ưu tiên và phân bổ thời gian hợp lý (15 phút).
+- Làm gì: Xây dựng chương trình họp theo thứ tự: (1) kiểm điểm thực hiện kết luận kỳ trước; (2) báo cáo tình hình chung; (3) thảo luận các nội dung mới; (4) kết luận, phân công nhiệm vụ; phân bổ thời gian cho từng nội dung; soạn giấy mời họp gửi thành phần được mời.
+- Dùng input: `ky_hop`, `thoi_gian_dia_diem`, `chu_tri_du_kien`, `noi_dung_du_kien`, `thanh_phan_moi`.
+- Vai trò: Công chức Văn phòng HĐND&UBND dự thảo chương trình, AI hỗ trợ sắp xếp nội dung theo thứ tự ưu tiên và phân bổ thời gian hợp lý (⏱ 15 phút).
 - Lưu ý nghiệp vụ: Ưu tiên nội dung có thời hạn gấp, vụ việc tồn đọng; tổng thời gian họp không quá 1/2 ngày làm việc; thành phần mời phải liên quan trực tiếp đến nội dung thảo luận.
 - → Kết quả bước: Dự thảo chương trình họp (nội dung – thời gian – người trình bày).
 
 **Bước 3. Chuẩn bị tài liệu họp**
 
 - Làm gì: Tập hợp tài liệu cho từng nội dung: báo cáo của các phòng, bảng kiểm điểm kết luận kỳ trước, dự thảo văn bản cần xin ý kiến; đóng thành bộ tài liệu họp, gửi trước cho thành phần dự họp.
-- Dùng input: Chương trình họp từ Bước 2, `bao_cao_tien_do`
-- Vai trò: Công chức Văn phòng HĐND&UBND tập hợp và đóng bộ tài liệu, AI hỗ trợ kiểm tra mỗi nội dung trong chương trình đều có tài liệu kèm theo (không để nội dung "chay") (20 phút).
+- Dùng input: Chương trình họp từ Bước 2, `bao_cao_tien_do`.
+- Vai trò: Công chức Văn phòng HĐND&UBND tập hợp và đóng bộ tài liệu, AI hỗ trợ kiểm tra mỗi nội dung trong chương trình đều có tài liệu kèm theo (không để nội dung "chay") (⏱ 20 phút).
 - Lưu ý nghiệp vụ: Tài liệu họp gửi trước ít nhất 01 ngày làm việc để thành phần dự họp nghiên cứu; tài liệu mật gửi theo quy định bảo vệ bí mật nhà nước.
 - → Kết quả bước: Bộ tài liệu họp đầy đủ, đã gửi đến thành phần dự họp.
 
 **Bước 4. Dự thảo phân công nhiệm vụ kỳ này**
 
 - Làm gì: Trên cơ sở nội dung dự kiến thảo luận, dự thảo trước bảng phân công: nội dung việc – đơn vị/cá nhân đầu mối – đơn vị phối hợp – thời hạn hoàn thành, để người chủ trì tham khảo khi kết luận.
-- Dùng input: `noi_dung_du_kien`, bảng kiểm điểm từ Bước 1 (các việc chậm tiến độ cần gia hạn/giao lại)
-- Vai trò: Công chức Văn phòng HĐND&UBND dự thảo, AI hỗ trợ đề xuất đầu mối và thời hạn hợp lý dựa trên phân công kỳ trước và năng lực đơn vị (15 phút).
+- Dùng input: `noi_dung_du_kien`, bảng kiểm điểm từ Bước 1 (các việc chậm tiến độ cần gia hạn/giao lại).
+- Vai trò: Công chức Văn phòng HĐND&UBND dự thảo, AI hỗ trợ đề xuất đầu mối và thời hạn hợp lý dựa trên phân công kỳ trước và năng lực đơn vị (⏱ 15 phút).
 - Lưu ý nghiệp vụ: Đây là dự thảo tham khảo — phân công chính thức do người chủ trì kết luận tại cuộc họp; không đưa dự thảo phân công vào tài liệu gửi trước nếu nội dung còn đang xin ý kiến.
 - → Kết quả bước: Dự thảo bảng phân công nhiệm vụ kỳ này (để chủ trì tham khảo khi kết luận).
 
 **Bước 5. Theo dõi thực hiện kết luận sau họp**
 
 - Làm gì: Sau họp, cập nhật kết luận chính thức vào bảng theo dõi chung: nội dung – đầu mối – thời hạn – trạng thái; định kỳ đôn đốc các đơn vị báo cáo tiến độ; tổng hợp phục vụ kỳ họp sau.
-- Dùng input: Biên bản họp (kết luận chính thức), `bao_cao_tien_do` (cập nhật giữa kỳ)
-- Vai trò: Công chức Văn phòng HĐND&UBND duy trì bảng theo dõi, AI hỗ trợ nhắc việc sắp đến hạn, tổng hợp báo cáo đôn đốc hằng tuần (10 phút/tuần).
+- Dùng input: `bien_ban_hop` (kết luận chính thức), `bao_cao_tien_do` (cập nhật giữa kỳ).
+- Vai trò: Công chức Văn phòng HĐND&UBND duy trì bảng theo dõi, AI hỗ trợ nhắc việc sắp đến hạn, tổng hợp báo cáo đôn đốc hằng tuần (⏱ 10 phút/tuần).
 - Lưu ý nghiệp vụ: Việc quá hạn chưa hoàn thành phải báo cáo Chủ tịch UBND xã để chỉ đạo; bảng theo dõi là tài liệu bắt buộc của kỳ họp giao ban tiếp theo.
 - → Kết quả bước: Bảng theo dõi thực hiện kết luận được cập nhật liên tục, có báo cáo đôn đốc định kỳ.
 
@@ -79,7 +82,7 @@ flowchart TD
     B4 --> B5["Bước 5: Theo dõi thực hiện kết luận sau họp"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Chương trình họp giao ban (file .docx).
 - Bộ tài liệu họp (báo cáo các phòng, bảng kiểm điểm kết luận kỳ trước).
@@ -119,7 +122,7 @@ Tình trạng: Hoàn thành / Đang thực hiện / Chậm tiến độ / Chưa 
 > 8. Dấu, chữ ký số của cơ quan, tổ chức.
 > 9. Nơi nhận (kèm Phụ lục nếu có).
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. Chương trình họp đủ 7 phần theo Cấu trúc output chuẩn, nội dung sắp xếp đúng thứ tự ưu tiên.
 2. Bảng kiểm điểm trích đủ 100% kết luận, phân công của kỳ họp trước, không bỏ sót việc.
@@ -131,7 +134,7 @@ Tình trạng: Hoàn thành / Đang thực hiện / Chậm tiến độ / Chưa 
 8. Chương trình đã được người có thẩm quyền phê duyệt trước khi phát hành.
 9. Sau họp: kết luận chính thức được cập nhật vào bảng theo dõi trong 02 ngày làm việc.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
@@ -191,12 +194,12 @@ Tình trạng: Hoàn thành / Đang thực hiện / Chậm tiến độ / Chưa 
 | 1 | Vận động 02 hộ còn lại bàn giao mặt bằng | Phòng Kinh tế | Các thôn liên quan | 30/10/2026 |
 | 2 | Tổ chức tiêm chủng mở rộng đợt 2 | Phòng Văn hóa – Xã hội | Trạm Y tế xã | 20/10/2026 |
 
-## Human gate
+## 8. Human gate
 
 - Công chức Văn phòng HĐND&UBND chuẩn bị chương trình, tài liệu, bảng kiểm điểm → Chánh Văn phòng HĐND&UBND kiểm tra, phê duyệt chương trình → Phó Chủ tịch/Chủ tịch UBND xã cho ý kiến (nếu nội dung quan trọng) → phát hành.
 - Dự thảo phân công nhiệm vụ chỉ là tài liệu tham khảo — phân công chính thức do người chủ trì kết luận tại cuộc họp và được ghi vào biên bản.
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI KHÔNG tự quyết định nội dung kết luận, phân công nhiệm vụ thay người chủ trì.
 - AI KHÔNG tự ý đánh giá "hoàn thành" khi đơn vị chưa có báo cáo hoặc báo cáo chưa được kiểm chứng.
@@ -204,7 +207,7 @@ Tình trạng: Hoàn thành / Đang thực hiện / Chậm tiến độ / Chưa 
 - AI KHÔNG gửi tài liệu mật ra ngoài phạm vi thành phần được phép tiếp cận.
 - AI KHÔNG thay thế việc đôn đốc trực tiếp của Văn phòng đối với các việc chậm tiến độ, quá hạn.
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - NĐ 30/2020/NĐ-CP về công tác văn thư (thể thức chương trình họp, giấy mời là văn bản hành chính).
 - NĐ 150/2025/NĐ-CP (hiệu lực 16/6/2025): Văn phòng HĐND và UBND tham mưu lĩnh vực văn phòng — đầu mối chuẩn bị họp giao ban UBND xã.

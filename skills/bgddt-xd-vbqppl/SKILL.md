@@ -27,35 +27,35 @@ và đào tạo (kể cả giáo dục nghề nghiệp) để trình cấp có t
 **Bước 1. Lập đề cương và kế hoạch soạn thảo**
 - Làm gì: Xác định bố cục dự thảo, thành lập tổ biên tập, lập tiến độ; đánh giá tác động sơ bộ đối với nhà trường, nhà giáo, người học.
 - Dùng input: `ten_van_ban`, `loai_van_ban`, `don_vi_chu_tri`, `co_so_chinh_sach`, `tien_do`.
-- Vai trò: Vụ trưởng Vụ chủ trì (ông Hoàng Văn EE) — AI hỗ trợ dựng đề cương, lập bảng tiến độ (30 phút).
+- Vai trò: Vụ trưởng Vụ chủ trì (ông Hoàng Văn EE) — AI hỗ trợ dựng đề cương, lập bảng tiến độ (⏱ 30 phút).
 - Lưu ý nghiệp vụ: Xác định đúng thẩm quyền ban hành; rà soát không trùng lặp với văn bản hiện hành của Bộ.
 - → Kết quả bước: Đề cương chi tiết + quyết định thành lập tổ biên tập.
 
 **Bước 2. Soạn thảo dự thảo lần 1**
 - Làm gì: Viết toàn văn dự thảo; bảo đảm phù hợp với chương trình giáo dục, điều kiện thực tế nhà trường.
 - Dùng input: `pham_vi_dieu_chinh`, `co_so_chinh_sach`.
-- Vai trò: Tổ biên tập (chuyên viên Vụ) — AI hỗ trợ soạn khung điều khoản, phát hiện chồng chéo (2–4 giờ).
+- Vai trò: Tổ biên tập (chuyên viên Vụ) — AI hỗ trợ soạn khung điều khoản, phát hiện chồng chéo (⏱ 2–4 giờ).
 - Lưu ý nghiệp vụ: Quy định phải khả thi với điều kiện cơ sở vật chất, đội ngũ hiện có; không tạo gánh nặng hành chính cho nhà trường.
 - → Kết quả bước: Dự thảo lần 1 kèm thuyết minh tóm tắt.
 
 **Bước 3. Lấy ý kiến rộng rãi**
 - Làm gì: Lấy ý kiến các bộ, ngành, địa phương, cơ sở giáo dục, chuyên gia, nhà giáo; đăng tải lấy ý kiến theo quy định.
 - Dùng input: Dự thảo lần 1.
-- Vai trò: Vụ chủ trì — AI hỗ trợ tổng hợp ý kiến thành bảng tiếp thu/giải trình (1–2 giờ).
+- Vai trò: Vụ chủ trì — AI hỗ trợ tổng hợp ý kiến thành bảng tiếp thu/giải trình (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Đặc biệt lấy ý kiến Sở GD&ĐT các tỉnh và cơ sở giáo dục trực tiếp chịu tác động.
 - → Kết quả bước: Bảng tổng hợp, giải trình tiếp thu ý kiến.
 
 **Bước 4. Thẩm định và hoàn thiện**
 - Làm gì: Trình Vụ Pháp chế thẩm định nội bộ; dự thảo nghị định/luật gửi Bộ Tư pháp thẩm định; tiếp thu hoàn thiện.
 - Dùng input: Dự thảo sau tiếp thu, bảng giải trình.
-- Vai trò: Vụ Pháp chế, Vụ chủ trì — AI hỗ trợ rà soát kỹ thuật, thể thức (1 giờ).
+- Vai trò: Vụ Pháp chế, Vụ chủ trì — AI hỗ trợ rà soát kỹ thuật, thể thức (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Không trình ký khi còn ý kiến thẩm định chưa giải trình đầy đủ.
 - → Kết quả bước: Dự thảo hoàn chỉnh + báo cáo thẩm định.
 
 **Bước 5. Trình ban hành**
 - Làm gì: Lập tờ trình, trình Lãnh đạo Bộ ký ban hành (thông tư) hoặc trình Chính phủ/Quốc hội.
 - Dùng input: Toàn bộ hồ sơ các bước trên.
-- Vai trò: Vụ trưởng → Thứ trưởng (bà Phạm Thị DD) → Bộ trưởng (ông Lê Văn CC) ký — AI hỗ trợ soạn tờ trình, kiểm tra thành phần hồ sơ (1 giờ).
+- Vai trò: Vụ trưởng → Thứ trưởng (bà Phạm Thị DD) → Bộ trưởng (ông Lê Văn CC) ký — AI hỗ trợ soạn tờ trình, kiểm tra thành phần hồ sơ (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Hồ sơ trình đủ: tờ trình, dự thảo, báo cáo thẩm định, bảng tiếp thu, thuyết minh.
 - → Kết quả bước: Văn bản được ký ban hành hoặc trình cấp trên.
 

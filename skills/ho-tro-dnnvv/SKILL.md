@@ -28,7 +28,7 @@ description: "Triển khai chương trình, chính sách hỗ trợ doanh nghi�
 
 **Bước 1. Rà soát chính sách và khảo sát nhu cầu**
 - Làm gì: Rà soát các chính sách hỗ trợ DNNVV, kinh tế tập thể của trung ương và của tỉnh đang thực hiện; khảo sát, tổng hợp nhu cầu hỗ trợ của doanh nghiệp, hợp tác xã trên địa bàn; đánh giá kết quả chương trình kỳ trước.
-- Dùng input: `chinh_sach_hien_hanh`, `nhu_cau_dnnvv`, `ket_qua_ky_truoc`.
+- Dùng input: `chinh_sach_hien_hanh`, `nhu_cau_dnnvv`, `ket_qua_ky_truoc`, `chuong_trinh_du_kien`.
 - Vai trò: Chuyên viên Phòng Kinh tế (Sở Tài chính) thực hiện, AI hỗ trợ tổng hợp kết quả khảo sát, phân loại nhu cầu theo nhóm (vốn, đào tạo, tư vấn, công nghệ...); ⏱ ~5–7 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Nhu cầu phải được khảo sát thực tế, tránh xây dựng chương trình theo suy đoán; đánh giá thẳng thắn hạn chế của kỳ trước để không lặp lại.
 - → Kết quả bước: Báo cáo rà soát chính sách + tổng hợp nhu cầu hỗ trợ của DNNVV, HTX.

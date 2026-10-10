@@ -22,35 +22,35 @@ Khi xây dựng chính sách, văn bản QPPL về công chứng, luật sư, đ
 **Bước 1. Rà soát chính sách, pháp luật của lĩnh vực**
 - Làm gì: Đánh giá thi hành pháp luật về lĩnh vực bổ trợ tư pháp; tổng hợp vướng mắc từ địa phương, tổ chức hành nghề.
 - Dùng input: `linh_vuc`, `thuc_trang`.
-- Vai trò: Chuyên viên Cục Bổ trợ tư pháp — AI hỗ trợ tổng hợp báo cáo địa phương, phân loại vướng mắc (2–3 ngày).
+- Vai trò: Chuyên viên Cục Bổ trợ tư pháp — AI hỗ trợ tổng hợp báo cáo địa phương, phân loại vướng mắc (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Mỗi lĩnh vực có luật riêng điều chỉnh (công chứng, luật sư, đấu giá, giám định tư pháp) — không lẫn lộn căn cứ.
 - → Kết quả bước: Báo cáo rà soát lĩnh vực.
 
 **Bước 2. Xây dựng văn bản QPPL điều chỉnh lĩnh vực**
 - Làm gì: Soạn dự thảo nghị định/thông tư hướng dẫn: điều kiện hành nghề, tổ chức hành nghề, phí, đạo đức nghề nghiệp.
 - Dùng input: Kết quả bước 1.
-- Vai trò: Cục trưởng Cục Bổ trợ tư pháp chủ trì — AI hỗ trợ soạn dự thảo, kiểm tra kỹ thuật (3–5 ngày).
+- Vai trò: Cục trưởng Cục Bổ trợ tư pháp chủ trì — AI hỗ trợ soạn dự thảo, kiểm tra kỹ thuật (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Quy định về điều kiện hành nghề phải rõ ràng, không tạo rào cản bất hợp lý; lấy ý kiến tổ chức xã hội – nghề nghiệp (Liên đoàn Luật sư, Hội Công chứng viên).
 - → Kết quả bước: Dự thảo văn bản QPPL.
 
 **Bước 3. Quản lý tổ chức, cá nhân hành nghề (cấp phép, giám sát)**
 - Làm gì: Hướng dẫn Sở Tư pháp thực hiện cấp phép thành lập tổ chức hành nghề; quản lý danh sách công chứng viên, luật sư, đấu giá viên, giám định viên tư pháp.
 - Dùng input: `noi_dung_quan_ly`.
-- Vai trò: Chuyên viên Cục Bổ trợ tư pháp — AI hỗ trợ xây dựng cơ sở dữ liệu quốc gia về người hành nghề, cảnh báo chứng chỉ hết hạn (2–3 ngày).
+- Vai trò: Chuyên viên Cục Bổ trợ tư pháp — AI hỗ trợ xây dựng cơ sở dữ liệu quốc gia về người hành nghề, cảnh báo chứng chỉ hết hạn (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Công khai danh sách tổ chức hành nghề; xử lý nghiêm hành nghề không có giấy phép.
 - → Kết quả bước: CSDL quốc gia về bổ trợ tư pháp; văn bản hướng dẫn.
 
 **Bước 4. Thanh tra, kiểm tra, xử lý vi phạm**
 - Làm gì: Thanh tra việc tuân thủ pháp luật của tổ chức hành nghề; xử lý vi phạm (phạt hành chính, đình chỉ, thu hồi giấy phép, chuyển cơ quan điều tra nếu có dấu hiệu hình sự).
 - Dùng input: `vu_viec_vi_pham`.
-- Vai trò: Thanh tra Bộ phối hợp Cục Bổ trợ tư pháp — AI hỗ trợ lập kế hoạch thanh tra, soạn biên bản, quyết định xử phạt theo mẫu (3–5 ngày).
+- Vai trò: Thanh tra Bộ phối hợp Cục Bổ trợ tư pháp — AI hỗ trợ lập kế hoạch thanh tra, soạn biên bản, quyết định xử phạt theo mẫu (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Bảo đảm trình tự xử phạt vi phạm hành chính; phối hợp tổ chức xã hội – nghề nghiệp xử lý vi phạm đạo đức nghề nghiệp.
 - → Kết quả bước: Kết luận thanh tra; quyết định xử lý vi phạm.
 
 **Bước 5. Tổng hợp báo cáo toàn quốc**
 - Làm gì: Tổng hợp tình hình hoạt động bổ trợ tư pháp toàn quốc; báo cáo Chính phủ.
 - Dùng input: Báo cáo của 63 Sở Tư pháp.
-- Vai trò: Cục trưởng Cục Bổ trợ tư pháp ký — AI hỗ trợ tổng hợp số liệu (1–2 ngày).
+- Vai trò: Cục trưởng Cục Bổ trợ tư pháp ký — AI hỗ trợ tổng hợp số liệu (⏱ 1–2 ngày).
 - Lưu ý nghiệp vụ: Số liệu phân theo lĩnh vực, địa phương.
 - → Kết quả bước: Báo cáo công tác bổ trợ tư pháp toàn quốc.
 

@@ -23,35 +23,35 @@ description: "Tham mưu xét khen thưởng định kỳ, đột xuất và tổ
 
 **Bước 1. Phát động, hướng dẫn xét khen thưởng**
 - Làm gì: Ban hành văn bản phát động/hướng dẫn: hình thức, tiêu chuẩn, hồ sơ, thời hạn gửi đề nghị.
-- Dùng input: `dot_khen_thuong`, `tieu_chuan`
+- Dùng input: `dot_khen_thuong`, `tieu_chuan`.
 - Vai trò: Chuyên viên Phòng Thi đua, khen thưởng (Sở Nội vụ tỉnh A) soạn; AI hỗ trợ soạn văn bản hướng dẫn ⏱ ~2 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Tiêu chuẩn phải đúng quy định; thời hạn đủ để đơn vị chuẩn bị hồ sơ.
 - → Kết quả bước: Văn bản phát động, hướng dẫn xét khen thưởng.
 
 **Bước 2. Tiếp nhận, thẩm định hồ sơ**
 - Làm gì: Tiếp nhận hồ sơ đề nghị; thẩm định thành tích, đối chiếu tiêu chuẩn; xác minh khi cần.
-- Dùng input: `ho_so_de_nghi`, `hinh_thuc`, `y_kien_tham_dinh`
+- Dùng input: `ho_so_de_nghi`, `hinh_thuc`, `y_kien_tham_dinh`.
 - Vai trò: Chuyên viên thẩm định; AI hỗ trợ checklist hồ sơ, đối chiếu tiêu chuẩn ⏱ ~7 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Thành tích phải có minh chứng; không xét "vớt", không chia đều; xác minh độc lập các trường hợp nghi vấn.
 - → Kết quả bước: Danh sách đủ/không đủ điều kiện kèm lý do.
 
 **Bước 3. Họp Hội đồng Thi đua, khen thưởng**
 - Làm gì: Trình Hội đồng Thi đua, khen thưởng tỉnh xét, bỏ phiếu; lập biên bản.
-- Dùng input: Danh sách Bước 2
+- Dùng input: Danh sách Bước 2.
 - Vai trò: Hội đồng xét; AI hỗ trợ chuẩn bị tài liệu họp ⏱ ~1 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Xét dân chủ, công khai; tỷ lệ phiếu đạt theo quy định.
 - → Kết quả bước: Biên bản họp Hội đồng; danh sách trình khen thưởng.
 
 **Bước 4. Trình quyết định khen thưởng**
 - Làm gì: Hoàn thiện tờ trình, dự thảo quyết định; trình cấp có thẩm quyền (Chủ tịch UBND tỉnh / Thủ tướng / Chủ tịch nước theo hình thức).
-- Dùng input: Biên bản Hội đồng Bước 3
+- Dùng input: Biên bản Hội đồng Bước 3.
 - Vai trò: Giám đốc Sở Nội vụ ký tờ trình; AI hỗ trợ soạn tờ trình, quyết định ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đúng thẩm quyền quyết định từng hình thức; hồ sơ trình đầy đủ.
 - → Kết quả bước: Quyết định khen thưởng đã ban hành.
 
 **Bước 5. Tổ chức trao tặng, lưu hồ sơ**
 - Làm gì: Tổ chức lễ trao tặng; cập nhật hồ sơ thi đua, khen thưởng; báo cáo tổng kết.
-- Dùng input: Quyết định khen thưởng
+- Dùng input: Quyết định khen thưởng.
 - Vai trò: Đơn vị tổ chức; AI hỗ trợ lập danh sách trao tặng ⏱ theo kế hoạch (ước tính)
 - Lưu ý nghiệp vụ: Trao tặng trang trọng, đúng nghi thức; lưu hồ sơ đầy đủ.
 - → Kết quả bước: Lễ trao tặng đã tổ chức; hồ sơ lưu trữ.

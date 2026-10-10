@@ -27,7 +27,7 @@ Chính phủ/Quốc hội.
 
 - Làm gì: Tổng hợp đề xuất địa phương; xây dựng kế hoạch năm (mục tiêu, nhiệm vụ, dự án); xác định tiêu chí phân bổ vốn.
 - Dùng input: `chuong_trinh`, `de_xuat_dia_phuong`, `tieu_chi_phan_bo`.
-- Vai trò: Chuyên viên đơn vị quản lý chương trình tổng hợp (AI hỗ trợ lập bảng tổng hợp nhu cầu 50+ tỉnh, đối chiếu tiêu chí — 4 giờ); Vụ trưởng (ông Hoàng Văn EE) duyệt kế hoạch.
+- Vai trò: Chuyên viên đơn vị quản lý chương trình tổng hợp (AI hỗ trợ lập bảng tổng hợp nhu cầu 50+ tỉnh, đối chiếu tiêu chí ⏱ 4 giờ (ước tính)); Vụ trưởng (ông Hoàng Văn EE) duyệt kế hoạch.
 - Lưu ý nghiệp vụ: Ưu tiên xã đặc biệt khó khăn, hộ nghèo DTTS; không dàn trải, không trùng lặp với chương trình khác.
 - → Kết quả bước: Kế hoạch thực hiện Chương trình MTQG năm.
 
@@ -35,7 +35,7 @@ Chính phủ/Quốc hội.
 
 - Làm gì: Tính toán phân bổ vốn theo tiêu chí; trình cấp có thẩm quyền phê duyệt; ban hành văn bản hướng dẫn địa phương triển khai.
 - Dùng input: `von_phan_bo`, `tieu_chi_phan_bo`.
-- Vai trò: Đơn vị quản lý chương trình lập phương án phân bổ (AI hỗ trợ tính toán phân bổ theo công thức tiêu chí — 2 giờ); Thứ trưởng (bà Phạm Thị DD) trình; Bộ trưởng (ông Lê Văn CC)/Thủ tướng phê duyệt theo phân cấp.
+- Vai trò: Đơn vị quản lý chương trình lập phương án phân bổ (AI hỗ trợ tính toán phân bổ theo công thức tiêu chí ⏱ 2 giờ (ước tính)); Thứ trưởng (bà Phạm Thị DD) trình; Bộ trưởng (ông Lê Văn CC)/Thủ tướng phê duyệt theo phân cấp.
 - Lưu ý nghiệp vụ: Phân bổ công khai, minh bạch; phối hợp Bộ Tài chính, Bộ Kế hoạch và Đầu tư (nay thuộc Bộ Tài chính).
 - → Kết quả bước: Quyết định phân bổ vốn + văn bản hướng dẫn.
 
@@ -43,7 +43,7 @@ Chính phủ/Quốc hội.
 
 - Làm gì: Theo dõi tiến độ, giải ngân; kiểm tra thực địa; xử lý vướng mắc; chống thất thoát, lãng phí.
 - Dùng input: `bao_cao_giai_ngan`.
-- Vai trò: Đơn vị quản lý chương trình giám sát (AI hỗ trợ đối chiếu tiến độ/giải ngân các tỉnh, cảnh báo địa phương chậm — 3 giờ); đoàn kiểm tra liên ngành khi cần.
+- Vai trò: Đơn vị quản lý chương trình giám sát (AI hỗ trợ đối chiếu tiến độ/giải ngân các tỉnh, cảnh báo địa phương chậm ⏱ 3 giờ (ước tính)); đoàn kiểm tra liên ngành khi cần.
 - Lưu ý nghiệp vụ: Kiểm tra thực chất tại cơ sở, không chỉ trên báo cáo; xử lý nghiêm vi phạm trong quản lý vốn.
 - → Kết quả bước: Báo cáo giám sát + kiến nghị xử lý.
 
@@ -51,7 +51,7 @@ Chính phủ/Quốc hội.
 
 - Làm gì: Đánh giá giữa kỳ, cuối kỳ chương trình (mục tiêu giảm nghèo, hạ tầng, sinh kế); báo cáo Chính phủ, Quốc hội.
 - Dùng input: Báo cáo giám sát, số liệu điều tra.
-- Vai trò: Đơn vị quản lý chương trình tổng hợp đánh giá (AI hỗ trợ phân tích chỉ số đầu ra theo tỉnh — 4 giờ); Bộ trưởng (ông Lê Văn CC) ký báo cáo.
+- Vai trò: Đơn vị quản lý chương trình tổng hợp đánh giá (AI hỗ trợ phân tích chỉ số đầu ra theo tỉnh ⏱ 4 giờ (ước tính)); Bộ trưởng (ông Lê Văn CC) ký báo cáo.
 - Lưu ý nghiệp vụ: Đánh giá độc lập, khách quan; số liệu có kiểm chứng thực địa.
 - → Kết quả bước: Báo cáo đánh giá + báo cáo trình Chính phủ/Quốc hội.
 

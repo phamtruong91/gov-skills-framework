@@ -21,7 +21,7 @@ description: "Tổ chức kiểm định chất lượng giáo dục đối vớ
 | `bao_cao_tu_danh_gia` | Báo cáo tự đánh giá của trường theo tiêu chuẩn KĐCLGD | Có |
 | `thanh_phan_doan_dgn` | Dự kiến thành viên đoàn đánh giá ngoài (họ tên, đơn vị, trình độ) | Có |
 | `lich_danh_gia` | Lịch đánh giá ngoài tại từng trường | Có |
-| `ket_qua_danh_gia` | Biên bản, phiếu đánh giá của đoàn đánh giá ngoài | Có (từ bước 3) |
+| `ket_qua_danh_gia` | Biên bản, phiếu đánh giá của đoàn đánh giá ngoài. Lưu ý: từ bước 3.| Có |
 
 ## 4. Quy trình
 

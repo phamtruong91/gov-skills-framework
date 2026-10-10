@@ -19,7 +19,7 @@ description: "Quản lý đội ngũ nhà giáo, cán bộ quản lý giáo dụ
 | `nam_hoc` | Năm học lập kế hoạch | Có |
 | `nhu_cau_bien_che` | Nhu cầu biên chế, số lượng người làm việc của từng đơn vị trực thuộc Sở | Có |
 | `danh_sach_vi_tri` | Vị trí cần tuyển/điều động/bổ nhiệm: chức danh, đơn vị, tiêu chuẩn | Có |
-| `ho_so_nhan_su` | Hồ sơ cán bộ dự kiến bổ nhiệm/điều động: lý lịch, trình độ, quá trình công tác, kê khai tài sản | Có (với bổ nhiệm/điều động) |
+| `ho_so_nhan_su` | Hồ sơ cán bộ dự kiến bổ nhiệm/điều động: lý lịch, trình độ, quá trình công tác, kê khai tài sản. Lưu ý: với bổ nhiệm/điều động.| Có |
 | `ke_hoach_dao_tao` | Nhu cầu đào tạo, bồi dưỡng: nội dung, đối tượng, số lượng, kinh phí | Không |
 | `tieu_chuan_chuc_danh` | Tiêu chuẩn chức danh nghề nghiệp, tiêu chuẩn bổ nhiệm CBQL theo quy định | Có |
 

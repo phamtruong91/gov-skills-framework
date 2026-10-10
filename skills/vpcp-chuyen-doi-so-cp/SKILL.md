@@ -26,7 +26,7 @@ họp trực tuyến Chính phủ, liên thông dữ liệu phục vụ chỉ đ
 
 - Làm gì: Khảo sát hiện trạng hệ thống thông tin phục vụ Chính phủ; xác định mục tiêu, chỉ tiêu chuyển đổi số; lập kế hoạch năm.
 - Dùng input: `hien_trang`, `muc_tieu`.
-- Vai trò: Chuyên viên Cục Chuyển đổi số (AI hỗ trợ tổng hợp hiện trạng, so sánh với mục tiêu quốc gia — 3 giờ); Cục trưởng (bà Vũ Thị FF) duyệt kế hoạch.
+- Vai trò: Chuyên viên Cục Chuyển đổi số (AI hỗ trợ tổng hợp hiện trạng, so sánh với mục tiêu quốc gia ⏱ 3 giờ (ước tính)); Cục trưởng duyệt kế hoạch.
 - Lưu ý nghiệp vụ: Mục tiêu phải đo lường được (100% văn bản điện tử có chữ ký số, 100% phiên họp không giấy...).
 - → Kết quả bước: Kế hoạch chuyển đổi số của Văn phòng Chính phủ.
 
@@ -34,7 +34,7 @@ họp trực tuyến Chính phủ, liên thông dữ liệu phục vụ chỉ đ
 
 - Làm gì: Triển khai hệ thống quản lý văn bản điện tử liên thông Chính phủ – bộ/ngành – địa phương; cấp phát, quản lý chữ ký số; đào tạo sử dụng.
 - Dùng input: `de_xuat_du_an`.
-- Vai trò: Cục Chuyển đổi số triển khai (AI hỗ trợ soạn tài liệu hướng dẫn, theo dõi tiến độ — 3 giờ); Thứ trưởng/Chủ nhiệm VPCP chỉ đạo.
+- Vai trò: Cục Chuyển đổi số triển khai (AI hỗ trợ soạn tài liệu hướng dẫn, theo dõi tiến độ ⏱ 3 giờ (ước tính)); Thứ trưởng/Chủ nhiệm VPCP chỉ đạo.
 - Lưu ý nghiệp vụ: Văn bản điện tử có giá trị pháp lý như văn bản giấy khi đủ điều kiện; bảo đảm an toàn, chống giả mạo chữ ký số.
 - → Kết quả bước: Hệ thống văn phòng điện tử vận hành + chữ ký số được cấp phát.
 
@@ -42,7 +42,7 @@ họp trực tuyến Chính phủ, liên thông dữ liệu phục vụ chỉ đ
 
 - Làm gì: Tổ chức họp trực tuyến Chính phủ với địa phương; xây dựng trung tâm điều hành hiển thị số liệu KT-XH trực tuyến phục vụ chỉ đạo.
 - Dùng input: Kế hoạch, `bao_cao_an_toan`.
-- Vai trò: Cục Chuyển đổi số vận hành (AI hỗ trợ tổng hợp số liệu hiển thị, cảnh báo chỉ số bất thường — 2 giờ).
+- Vai trò: Cục Chuyển đổi số vận hành (AI hỗ trợ tổng hợp số liệu hiển thị, cảnh báo chỉ số bất thường ⏱ 2 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Hệ thống họp trực tuyến phải ổn định, bảo mật; số liệu hiển thị phải chính xác, cập nhật.
 - → Kết quả bước: Hệ thống họp trực tuyến + trung tâm điều hành vận hành ổn định.
 
@@ -50,7 +50,7 @@ họp trực tuyến Chính phủ, liên thông dữ liệu phục vụ chỉ đ
 
 - Làm gì: Triển khai biện pháp an toàn thông tin mạng (mã hóa, kiểm soát truy cập, diễn tập); đánh giá mức độ chuyển đổi số định kỳ.
 - Dùng input: `bao_cao_an_toan`.
-- Vai trò: Cục Chuyển đổi số chủ trì, phối hợp cơ quan an ninh mạng (AI hỗ trợ rà soát lỗ hổng, tổng hợp báo cáo — 2 giờ); Chủ nhiệm VPCP (ông Lê Văn CC) chỉ đạo.
+- Vai trò: Cục Chuyển đổi số chủ trì, phối hợp cơ quan an ninh mạng (AI hỗ trợ rà soát lỗ hổng, tổng hợp báo cáo ⏱ 2 giờ (ước tính)); Chủ nhiệm VPCP chỉ đạo.
 - Lưu ý nghiệp vụ: Hệ thống phục vụ Chính phủ là mục tiêu trọng điểm bảo đảm an toàn thông tin; sự cố phải xử lý trong giờ.
 - → Kết quả bước: Báo cáo an toàn thông tin + đánh giá chuyển đổi số.
 
@@ -68,7 +68,7 @@ flowchart TD
 ## 5. Đầu ra (Output)
 
 - Kế hoạch chuyển đổi số của Văn phòng Chính phủ
-- Hệ thống văn phòng điện tử, chữ ký (ghi rõ chức danh, họ tên người ký; ký hiệu "KT."/"TL." khi ký thay) số vận hành
+- Hệ thống văn phòng điện tử, chữ ký số vận hành
 - Hệ thống họp trực tuyến, trung tâm điều hành
 - Báo cáo an toàn thông tin, đánh giá chuyển đổi số
 

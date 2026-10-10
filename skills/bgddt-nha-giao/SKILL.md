@@ -25,28 +25,28 @@ quy hoạch phát triển đội ngũ nhà giáo toàn quốc.
 **Bước 1. Đánh giá thực trạng đội ngũ**
 - Làm gì: Tổng hợp số liệu đội ngũ nhà giáo: thừa/thiếu theo môn, cấp học, vùng miền; trình độ đạt chuẩn; độ tuổi.
 - Dùng input: `so_lieu_doi_ngu`, `doi_tuong`.
-- Vai trò: Chuyên viên Cục Nhà giáo — AI hỗ trợ tổng hợp số liệu, phân tích thừa/thiếu (2 giờ).
+- Vai trò: Chuyên viên Cục Nhà giáo — AI hỗ trợ tổng hợp số liệu, phân tích thừa/thiếu (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Số liệu từ báo cáo của Sở GD&ĐT, phải đối chiếu tính nhất quán.
 - → Kết quả bước: Báo cáo thực trạng đội ngũ nhà giáo.
 
 **Bước 2. Xây dựng chuẩn, chính sách**
 - Làm gì: Soạn chuẩn nghề nghiệp nhà giáo theo cấp học; hoặc dự thảo chính sách (phụ cấp, đào tạo bồi dưỡng, thu hút).
 - Dùng input: `noi_dung`, `de_xuat_chinh_sach`.
-- Vai trò: Cục Nhà giáo chủ trì — AI hỗ trợ soạn dự thảo, đối chiếu với chuẩn hiện hành (2–3 giờ).
+- Vai trò: Cục Nhà giáo chủ trì — AI hỗ trợ soạn dự thảo, đối chiếu với chuẩn hiện hành (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Chính sách tiền lương, phụ cấp phải phối hợp chặt chẽ với Bộ Nội vụ, Bộ Tài chính.
 - → Kết quả bước: Dự thảo chuẩn/chính sách.
 
 **Bước 3. Lấy ý kiến và thẩm định**
 - Làm gì: Lấy ý kiến bộ, ngành liên quan, Sở GD&ĐT, cơ sở giáo dục, tổ chức công đoàn giáo dục; thẩm định.
 - Dùng input: Dự thảo.
-- Vai trò: Cục Nhà giáo — AI hỗ trợ tổng hợp ý kiến (1–2 giờ).
+- Vai trò: Cục Nhà giáo — AI hỗ trợ tổng hợp ý kiến (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Lắng nghe ý kiến trực tiếp của nhà giáo, công đoàn ngành giáo dục.
 - → Kết quả bước: Dự thảo hoàn chỉnh.
 
 **Bước 4. Trình ban hành và hướng dẫn**
 - Làm gì: Trình Bộ trưởng ban hành (thông tư) hoặc trình Chính phủ (nghị định về chính sách); hướng dẫn địa phương triển khai; theo dõi thực hiện.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Cục trưởng → Thứ trưởng → Bộ trưởng — AI hỗ trợ soạn văn bản hướng dẫn (1 giờ).
+- Vai trò: Cục trưởng → Thứ trưởng → Bộ trưởng — AI hỗ trợ soạn văn bản hướng dẫn (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Hướng dẫn rõ lộ trình áp dụng để địa phương, nhà trường chủ động.
 - → Kết quả bước: Văn bản chính sách được ban hành + hướng dẫn triển khai.
 

@@ -24,7 +24,7 @@ công khai văn bản chỉ đạo, điều hành của Chính phủ, Thủ tư�
 
 - Làm gì: Tiếp nhận bản chính văn bản QPPL; kiểm tra tính hợp lệ (chữ ký, dấu, thể thức); xếp lịch đăng Công báo.
 - Dùng input: `van_ban_cong_bao`.
-- Vai trò: Chuyên viên Ban Công báo kiểm tra (AI hỗ trợ kiểm tra thể thức, phát hiện lỗi chính tả, số hiệu — 1 giờ); Trưởng ban Công báo duyệt.
+- Vai trò: Chuyên viên Ban Công báo kiểm tra (AI hỗ trợ kiểm tra thể thức, phát hiện lỗi chính tả, số hiệu ⏱ 1 giờ (ước tính)); Trưởng ban Công báo duyệt.
 - Lưu ý nghiệp vụ: Chỉ đăng văn bản đã ký đúng thẩm quyền; bảo đảm thời hạn đăng Công báo theo quy định (văn bản có hiệu lực sau khi đăng Công báo).
 - → Kết quả bước: Lịch đăng Công báo + văn bản đã kiểm tra.
 
@@ -32,7 +32,7 @@ công khai văn bản chỉ đạo, điều hành của Chính phủ, Thủ tư�
 
 - Làm gì: Biên tập, dàn trang; xuất bản Công báo điện tử và bản giấy; lưu trữ.
 - Dùng input: Văn bản đã kiểm tra.
-- Vai trò: Ban Công báo thực hiện (AI hỗ trợ dàn trang, kiểm tra lỗi — 2 giờ).
+- Vai trò: Ban Công báo thực hiện (AI hỗ trợ dàn trang, kiểm tra lỗi ⏱ 2 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Nội dung Công báo phải khớp 100% bản chính; số Công báo liên tục, không bỏ số.
 - → Kết quả bước: Số Công báo được xuất bản.
 
@@ -40,7 +40,7 @@ công khai văn bản chỉ đạo, điều hành của Chính phủ, Thủ tư�
 
 - Làm gì: Biên tập tin bài về hoạt động của Chính phủ, Thủ tướng; kiểm duyệt nội dung, hình ảnh; đăng tải; xử lý thông tin sai lệch.
 - Dùng input: `tin_bai`, `van_ban_cong_khai`.
-- Vai trò: Chuyên viên Cổng TTĐT biên tập (AI hỗ trợ kiểm tra chính tả, gợi ý tiêu đề — 1 giờ); Tổng Biên tập Cổng TTĐT duyệt đăng.
+- Vai trò: Chuyên viên Cổng TTĐT biên tập (AI hỗ trợ kiểm tra chính tả, gợi ý tiêu đề ⏱ 1 giờ (ước tính)); Tổng Biên tập Cổng TTĐT duyệt đăng.
 - Lưu ý nghiệp vụ: Tin bài chính xác, khách quan, kịp thời; không đăng thông tin mật, thông tin chưa kiểm chứng.
 - → Kết quả bước: Tin bài được đăng tải trên Cổng TTĐT Chính phủ.
 
@@ -48,7 +48,7 @@ công khai văn bản chỉ đạo, điều hành của Chính phủ, Thủ tư�
 
 - Làm gì: Đăng tải văn bản chỉ đạo, điều hành của Chính phủ, Thủ tướng (trừ văn bản mật); cập nhật chuyên mục văn bản.
 - Dùng input: `van_ban_cong_khai`.
-- Vai trò: Cổng TTĐT thực hiện (AI hỗ trợ phân loại, gắn thẻ văn bản — 1 giờ).
+- Vai trò: Cổng TTĐT thực hiện (AI hỗ trợ phân loại, gắn thẻ văn bản ⏱ 1 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Phân loại mật đúng quy định; văn bản mật không đăng công khai.
 - → Kết quả bước: Văn bản được công khai, tra cứu được.
 

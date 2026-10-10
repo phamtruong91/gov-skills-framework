@@ -25,28 +25,28 @@ quản lý đào tạo trình độ thạc sĩ, tiến sĩ; hướng dẫn đị
 **Bước 1. Tiếp nhận và kiểm tra hồ sơ**
 - Làm gì: Kiểm tra hồ sơ đề án tự chủ, hồ sơ kiểm định, hồ sơ mở ngành: điều kiện đội ngũ, cơ sở vật chất, chương trình đào tạo.
 - Dùng input: `noi_dung`, `co_so_gd`, `ho_so`, `nganh_dao_tao`.
-- Vai trò: Chuyên viên Vụ Giáo dục Đại học — AI hỗ trợ lập bảng kiểm điều kiện theo quy định (1–2 giờ).
+- Vai trò: Chuyên viên Vụ Giáo dục Đại học — AI hỗ trợ lập bảng kiểm điều kiện theo quy định (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Điều kiện mở ngành về đội ngũ giảng viên cơ hữu phải được kiểm tra thực chất, không hình thức.
 - → Kết quả bước: Hồ sơ đạt / yêu cầu bổ sung.
 
 **Bước 2. Thẩm định chuyên môn**
 - Làm gì: Tổ chức hội đồng thẩm định đề án tự chủ, chương trình đào tạo ngành mới; hoặc tổ chức đánh giá ngoài kiểm định chất lượng.
 - Dùng input: `ho_so`.
-- Vai trò: Hội đồng thẩm định / tổ chức kiểm định — AI hỗ trợ tổng hợp ý kiến, lập biên bản (2 giờ).
+- Vai trò: Hội đồng thẩm định / tổ chức kiểm định — AI hỗ trợ tổng hợp ý kiến, lập biên bản (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Thành viên hội đồng độc lập với cơ sở được thẩm định; tiêu chí kiểm định công khai.
 - → Kết quả bước: Biên bản thẩm định / kết quả kiểm định.
 
 **Bước 3. Quyết định quản lý**
 - Làm gì: Soạn quyết định: công nhận đạt kiểm định / cho phép mở ngành / phê duyệt đề án tự chủ; hoặc quyết định đình chỉ tuyển sinh khi không đạt điều kiện.
 - Dùng input: Kết quả thẩm định.
-- Vai trò: Vụ trưởng Vụ Giáo dục Đại học — AI hỗ trợ soạn quyết định đúng mẫu (1 giờ).
+- Vai trò: Vụ trưởng Vụ Giáo dục Đại học — AI hỗ trợ soạn quyết định đúng mẫu (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Quyết định đình chỉ tuyển sinh phải nêu rõ căn cứ, thời hạn khắc phục, quyền khiếu nại.
 - → Kết quả bước: Quyết định quản lý được ban hành.
 
 **Bước 4. Theo dõi, đánh giá**
 - Làm gì: Giám sát việc thực hiện tự chủ, duy trì điều kiện bảo đảm chất lượng; tổng hợp báo cáo toàn quốc.
 - Dùng input: Báo cáo của cơ sở giáo dục đại học.
-- Vai trò: Vụ Giáo dục Đại học — AI hỗ trợ tổng hợp báo cáo (1 giờ).
+- Vai trò: Vụ Giáo dục Đại học — AI hỗ trợ tổng hợp báo cáo (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Hậu kiểm định kỳ, xử lý nghiêm cơ sở không duy trì điều kiện.
 - → Kết quả bước: Báo cáo giám sát; văn bản chấn chỉnh (nếu có).
 

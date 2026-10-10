@@ -5,6 +5,8 @@ description: "Soạn đề án chính sách mới trình cấp có thẩm quyề
 
 # Skill: Soạn đề án chính sách
 
+> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
+
 ## 2. Khi nào dùng
 - UBND tỉnh giao sở, ngành xây dựng đề án chính sách mới (hỗ trợ doanh nghiệp, an sinh xã hội, phát triển ngành...).
 - Chuẩn bị hồ sơ trình HĐND tỉnh ban hành nghị quyết về chính sách.
@@ -26,36 +28,36 @@ description: "Soạn đề án chính sách mới trình cấp có thẩm quyề
 
 **Bước 1. Nghiên cứu, làm rõ sự cần thiết và mục tiêu**
 - Làm gì: Thu thập số liệu thực trạng, phân tích vấn đề cần giải quyết; xác định mục tiêu tổng quát và mục tiêu cụ thể, có chỉ tiêu đo được.
-- Dùng input: `su_can_thiet`, `muc_tieu`
-- Vai trò: Chuyên viên nghiên cứu; AI hỗ trợ hệ thống hóa số liệu, gợi ý khung mục tiêu — 2 ngày làm việc
+- Dùng input: `su_can_thiet`, `muc_tieu`, `ten_de_an`, `co_quan_chu_tri`.
+- Vai trò: Chuyên viên nghiên cứu; AI hỗ trợ hệ thống hóa số liệu, gợi ý khung mục tiêu ⏱ 2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Sự cần thiết phải gắn với chủ trương của Đảng, quy hoạch, kế hoạch phát triển của tỉnh; mục tiêu phải đo được.
 - → Kết quả bước: Bản phân tích sự cần thiết và mục tiêu đề án.
 
 **Bước 2. Thiết kế nội dung chính sách**
 - Làm gì: Xây dựng nội dung chi tiết: đối tượng thụ hưởng, điều kiện, mức hỗ trợ/ưu đãi, trình tự thủ tục thực hiện, trách nhiệm các cơ quan.
-- Dùng input: `noi_dung_chinh_sach`, `bao_cao_danh_gia_td`
-- Vai trò: Chuyên viên thiết kế; Trưởng phòng chuyên môn góp ý; AI hỗ trợ rà soát tính đầy đủ, logic của các nội dung — 3 ngày làm việc
+- Dùng input: `noi_dung_chinh_sach`, `bao_cao_danh_gia_td`.
+- Vai trò: Chuyên viên thiết kế; Trưởng phòng chuyên môn góp ý; AI hỗ trợ rà soát tính đầy đủ, logic của các nội dung ⏱ 3 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Nội dung phải khả thi, không trái văn bản cấp trên; phân định rõ trách nhiệm từng cơ quan; tránh quy định chung chung, khó thực hiện.
 - → Kết quả bước: Dự thảo nội dung chính sách chi tiết.
 
 **Bước 3. Tính toán nguồn lực và lộ trình**
 - Làm gì: Dự toán kinh phí thực hiện theo năm; xác định nguồn ngân sách; lập lộ trình, tiến độ thực hiện theo giai đoạn.
-- Dùng input: `nguon_luc`, `lo_trinh`, `noi_dung_chinh_sach`
-- Vai trò: Chuyên viên phối hợp Sở Tài chính tỉnh A thẩm tra khả năng cân đối ngân sách; AI hỗ trợ lập bảng dự toán — 2 ngày làm việc
+- Dùng input: `nguon_luc`, `lo_trinh`, `noi_dung_chinh_sach`.
+- Vai trò: Chuyên viên phối hợp Sở Tài chính tỉnh A thẩm tra khả năng cân đối ngân sách; AI hỗ trợ lập bảng dự toán ⏱ 2 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Dự toán phải có căn cứ tính; nguồn lực phải trong khả năng cân đối của ngân sách địa phương.
 - → Kết quả bước: Bảng dự toán kinh phí và lộ trình thực hiện.
 
 **Bước 4. Lấy ý kiến và hoàn thiện đề án**
 - Làm gì: Gửi lấy ý kiến các sở, ngành liên quan và đối tượng chịu tác động; tổng hợp, tiếp thu, giải trình; hoàn thiện đề án.
-- Dùng input: Dự thảo đề án
-- Vai trò: Chuyên viên tổng hợp; AI hỗ trợ lập bảng tổng hợp ý kiến góp ý — 5 ngày làm việc
+- Dùng input: Dự thảo đề án (kết quả các Bước 1–3).
+- Vai trò: Chuyên viên tổng hợp; AI hỗ trợ lập bảng tổng hợp ý kiến góp ý ⏱ 5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Lấy ý kiến phải thực chất, đủ thành phần liên quan; ý kiến không tiếp thu phải giải trình rõ lý do.
 - → Kết quả bước: Đề án hoàn thiện kèm bảng tổng hợp tiếp thu ý kiến.
 
 **Bước 5. Trình thẩm định và trình ban hành**
 - Làm gì: Trình Sở Tư pháp thẩm định (nếu ban hành VBQPPL); trình UBND tỉnh xem xét, trình HĐND tỉnh quyết nghị (nếu thuộc thẩm quyền HĐND).
-- Dùng input: Đề án hoàn thiện
-- Vai trò: Giám đốc Sở ký tờ trình; AI hỗ trợ soạn tờ trình theo thể thức — 1 ngày làm việc
+- Dùng input: Đề án hoàn thiện (kết quả Bước 4).
+- Vai trò: Giám đốc Sở ký tờ trình; AI hỗ trợ soạn tờ trình theo thể thức ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Đúng thẩm quyền quyết định (HĐND/UBND tỉnh); hồ sơ trình đầy đủ theo quy định.
 - → Kết quả bước: Tờ trình + đề án trình cấp có thẩm quyền.
 

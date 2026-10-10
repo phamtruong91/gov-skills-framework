@@ -26,35 +26,35 @@ description: "Theo dõi, phối hợp công tác thi hành án dân sự trên �
 
 **Bước 1. Tiếp nhận, tổng hợp báo cáo của Cục THADS tỉnh**
 - Làm gì: Tiếp nhận báo cáo định kỳ, đột xuất của Cục THADS tỉnh; tổng hợp kết quả thi hành án (số việc, số tiền đã thi hành xong, đang tổ chức thi hành), số vụ việc tồn đọng, khó khăn, phức tạp; phân tích nguyên nhân tồn đọng.
-- Dùng input: `bao_cao_cuc_thads`
+- Dùng input: `bao_cao_cuc_thads`.
 - Vai trò: Chuyên viên Phòng Theo dõi thi hành án dân sự (Sở Tư pháp tỉnh A) tổng hợp, phân tích. AI hỗ trợ tổng hợp số liệu, lập bảng phân loại vụ việc theo mức độ khó khăn và dự thảo báo cáo tổng hợp ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Số liệu phải khớp với báo cáo của Cục THADS tỉnh; phân biệt rõ vụ việc tồn đọng khách quan và tồn đọng do nguyên nhân chủ quan; không can thiệp vào hoạt động tổ chức thi hành án cụ thể của cơ quan THADS.
 - → Kết quả bước: Báo cáo tổng hợp tình hình THADS trên địa bàn tỉnh, phân loại vụ việc khó khăn, phức tạp.
 
 **Bước 2. Tham mưu UBND tỉnh chỉ đạo phối hợp thi hành án**
 - Làm gì: Đối với vụ việc khó khăn, phức tạp cần cưỡng chế hoặc phối hợp liên ngành: dự thảo văn bản của UBND tỉnh chỉ đạo Công an tỉnh, ngân hàng, UBND cấp xã và các cơ quan liên quan phối hợp với cơ quan THADS; theo dõi việc thực hiện chỉ đạo.
-- Dùng input: `vu_viec_kho_khan`, `de_xuat_phoi_hop`, `chi_dao_ubnd`
+- Dùng input: `vu_viec_kho_khan`, `de_xuat_phoi_hop`, `chi_dao_ubnd`.
 - Vai trò: Trưởng phòng Theo dõi THADS soạn dự thảo văn bản chỉ đạo; Giám đốc Sở Tư pháp ký tờ trình; Chủ tịch/Phó Chủ tịch UBND tỉnh ký ban hành. AI hỗ trợ soạn dự thảo văn bản chỉ đạo, xác định rõ trách nhiệm từng cơ quan phối hợp ⏱ ~02 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Văn bản chỉ đạo phải cụ thể: vụ việc, cơ quan chủ trì, cơ quan phối hợp, thời hạn; Sở Tư pháp chỉ tham mưu quản lý nhà nước, không trực tiếp tổ chức cưỡng chế (do cơ quan THADS thực hiện).
 - → Kết quả bước: Văn bản chỉ đạo phối hợp thi hành án của UBND tỉnh đã ban hành, gửi các cơ quan liên quan.
 
 **Bước 3. Theo dõi, đôn đốc các cơ quan phối hợp**
 - Làm gì: Theo dõi, đôn đốc Công an tỉnh, UBND cấp xã, tổ chức tín dụng và các cơ quan liên quan thực hiện nhiệm vụ phối hợp theo văn bản chỉ đạo của UBND tỉnh; tổng hợp khó khăn, vướng mắc trong phối hợp; kiến nghị biện pháp tháo gỡ.
-- Dùng input: văn bản chỉ đạo của UBND tỉnh, báo cáo của cơ quan phối hợp
+- Dùng input: văn bản chỉ đạo của UBND tỉnh, báo cáo của cơ quan phối hợp.
 - Vai trò: Chuyên viên Phòng Theo dõi THADS đôn đốc, tổng hợp. AI hỗ trợ lập bảng theo dõi tiến độ phối hợp theo từng vụ việc, cảnh báo nhiệm vụ chậm thực hiện ⏱ ~thường xuyên trong năm (ước tính).
 - Lưu ý nghiệp vụ: Đôn đốc bằng văn bản, có thời hạn cụ thể; trường hợp cơ quan phối hợp không thực hiện, báo cáo UBND tỉnh xem xét, chỉ đạo.
 - → Kết quả bước: Bảng theo dõi tiến độ phối hợp; văn bản đôn đốc, kiến nghị tháo gỡ vướng mắc.
 
 **Bước 4. Tham mưu giải quyết khiếu nại, tố cáo về THADS**
 - Làm gì: Tiếp nhận, phân loại đơn khiếu nại, tố cáo về THADS; tham mưu chuyển đơn đến cơ quan có thẩm quyền giải quyết hoặc tham mưu UBND tỉnh giải quyết đối với đơn thuộc thẩm quyền; theo dõi kết quả giải quyết.
-- Dùng input: `don_kntc`
+- Dùng input: `don_kntc`.
 - Vai trò: Chuyên viên Phòng Theo dõi THADS phân loại, dự thảo văn bản xử lý đơn. AI hỗ trợ phân loại đơn theo thẩm quyền, soạn dự thảo văn bản chuyển đơn/tham mưu giải quyết ⏱ ~02 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Phân loại đúng thẩm quyền (khiếu nại về quyết định, hành vi của Chấp hành viên do Thủ trưởng cơ quan THADS giải quyết theo quy định); bảo đảm thời hạn xử lý đơn.
 - → Kết quả bước: Đơn được phân loại, chuyển đúng thẩm quyền hoặc văn bản tham mưu giải quyết; sổ theo dõi kết quả giải quyết đơn.
 
 **Bước 5. Tổng hợp báo cáo công tác THADS định kỳ**
 - Làm gì: Tổng hợp toàn diện công tác quản lý nhà nước về THADS của tỉnh: kết quả thi hành, công tác phối hợp, giải quyết khiếu nại tố cáo, khó khăn, kiến nghị; lập báo cáo gửi Bộ Tư pháp, UBND tỉnh.
-- Dùng input: kết quả các Bước 1–4, `bao_cao_cuc_thads`
+- Dùng input: kết quả các Bước 1–4, `bao_cao_cuc_thads`.
 - Vai trò: Trưởng phòng Theo dõi THADS tổng hợp, soạn báo cáo; Giám đốc Sở ký. AI hỗ trợ tổng hợp số liệu, đối chiếu chỉ tiêu và soạn dự thảo báo cáo ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Báo cáo trung thực, số liệu có minh chứng; nêu rõ trách nhiệm phối hợp của từng cơ quan; kiến nghị cụ thể với Bộ Tư pháp, UBND tỉnh.
 - → Kết quả bước: Báo cáo công tác THADS của tỉnh đã ký, gửi Bộ Tư pháp và UBND tỉnh đúng hạn.

@@ -26,7 +26,7 @@ description: "Cấp phép thăm dò, khai thác khoáng sản thuộc thẩm quy
 
 **Bước 1. Tiếp nhận, kiểm tra hồ sơ và quy hoạch**
 - Làm gì: Tiếp nhận hồ sơ; đối chiếu quy hoạch thăm dò, khai thác, sử dụng khoáng sản của tỉnh; kiểm tra khu vực cấm, tạm cấm hoạt động khoáng sản.
-- Dùng input: `to_chuc`, `loai_khoang_san`, `dia_diem`.
+- Dùng input: `to_chuc`, `loai_khoang_san`, `dia_diem`, `loai_giay_phep`.
 - Vai trò: Chuyên viên Phòng Tài nguyên (Sở NN&MT); AI hỗ trợ đối chiếu bản đồ quy hoạch — ⏱ 5 ngày.
 - Lưu ý nghiệp vụ: Khu vực cấm (di tích, rừng đặc dụng, hành lang đê...) tuyệt đối không cấp phép; hồ sơ phải có đề án thăm dò/khai thác.
 - → Kết quả bước: Phiếu kiểm tra hồ sơ + bảng đối chiếu quy hoạch.

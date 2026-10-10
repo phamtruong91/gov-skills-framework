@@ -5,6 +5,8 @@ description: "Soạn quyết định hành chính cá biệt (khen thưởng, x�
 
 # Skill: Soạn quyết định hành chính
 
+> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
+
 ## Khi nào dùng
 
 - Soạn quyết định khen thưởng tập thể, cá nhân có thành tích (theo đề nghị của Hội đồng Thi đua – Khen thưởng xã).
@@ -56,21 +58,30 @@ description: "Soạn quyết định hành chính cá biệt (khen thưởng, x�
 - Lưu ý nghiệp vụ: Điều 1 phải ghi rõ đối tượng, nội dung quyết định (mức khen thưởng/mức phạt/thành phần tổ công tác...). Quyết định xử phạt VPHC phải ghi đúng hành vi vi phạm, điều khoản áp dụng, mức phạt trong khung quy định, biện pháp khắc phục hậu quả, quyền khiếu nại. Không dùng từ ngữ mơ hồ có thể hiểu nhiều nghĩa.
 - → Kết quả bước: Dự thảo các điều của quyết định hoàn chỉnh, chặt chẽ.
 
-**Bước 4. Áp thể thức trình bày theo NĐ 30/2020/NĐ-CP**
+**Bước 4. Thẩm định nội bộ tính hợp pháp**
 
-- Làm gì: Dựng khung thể thức đầy đủ: quốc hiệu–tiêu ngữ; tên cơ quan ban hành; số, ký hiệu "..../QĐ-UBND"; địa danh, ngày tháng năm; tên loại "QUYẾT ĐỊNH" và trích yếu; nội dung; nơi nhận; chữ ký Chủ tịch UBND xã.
-- Dùng input: `don_vi_soan_thao`, `doi_tuong`, `noi_nhan`, `ngay_ban_hanh`.
+- Làm gì: Đơn vị soạn thảo tự thẩm định tính hợp pháp, hợp lý của dự thảo (bắt buộc xin ý kiến công chức tư pháp của Văn phòng đối với quyết định xử phạt VPHC: rà soát thẩm quyền, trình tự, thời hiệu).
+- Dùng input: Dự thảo các điều (Bước 3), `don_vi_soan_thao`, `loai_quyet_dinh`.
+- Vai trò: Công chức soạn thảo + công chức tư pháp (Văn phòng) thẩm định ⏱ 15–20 phút (ước tính); AI hỗ trợ đối chiếu thẩm quyền ban hành, cảnh báo điểm trái pháp luật.
+- Lưu ý nghiệp vụ: Quyết định xử phạt VPHC bắt buộc phải được rà soát kỹ về thẩm quyền, trình tự, thời hiệu trước khi ký — sai sót dẫn đến bị hủy/khiếu nại. Thẩm định trước khi áp thể thức để tránh làm lại.
+- → Kết quả bước: Dự thảo đã thẩm định, đủ điều kiện trình.
+
+**Bước 5. Áp thể thức trình bày theo NĐ 30/2020/NĐ-CP**
+
+- Làm gì: Dựng khung thể thức đầy đủ: quốc hiệu–tiêu ngữ; tên cơ quan ban hành; số, ký hiệu "..../QĐ-UBND"; địa danh, ngày tháng năm; tên loại "QUYẾT ĐỊNH" và trích yếu; nội dung; nơi nhận; chữ ký người đứng đầu.
+- Dùng input: Dự thảo đã thẩm định (Bước 4), `don_vi_soan_thao`, `noi_nhan`, `ngay_ban_hanh`.
 - Vai trò: Công chức văn thư/văn phòng thực hiện; AI hỗ trợ: kiểm tra đầy đủ thành phần thể thức, số ký hiệu, vị trí các khối ⏱ ~10 phút (ước tính).
-- Lưu ý nghiệp vụ: Quyết định cá biệt do Chủ tịch UBND xã ký, ghi "TM. ỦY BAN NHÂN DÂN" – "CHỦ TỊCH". Nơi nhận phải bao gồm đối tượng của quyết định (để thi hành/nhận), đơn vị liên quan và lưu hồ sơ.
-- → Kết quả bước: Bản dự thảo quyết định đúng thể thức, sẵn sàng trình.
+- Lưu ý nghiệp vụ: Quyết định cá biệt do người đứng đầu ký, ghi "TM. ỦY BAN NHÂN DÂN" – "CHỦ TỊCH". Nơi nhận phải bao gồm đối tượng của quyết định (để thi hành/nhận), đơn vị liên quan và lưu hồ sơ.
+- → Kết quả bước: Bản dự thảo quyết định đúng thể thức, sẵn sàng trình ký.
 
-**Bước 5. Thẩm định nội bộ, trình ký và ban hành**
+**Bước 6. Trình ký và ban hành**
 
-- Làm gì: Đơn vị soạn thảo tự thẩm định tính hợp pháp, hợp lý của dự thảo (hoặc xin ý kiến công chức tư pháp của Văn phòng đối với quyết định xử phạt VPHC); trình Chánh Văn phòng kiểm tra thể thức; trình Chủ tịch UBND xã quyết định, ký ban hành; giao văn thư đánh số, đóng dấu, gửi nơi nhận, lưu hồ sơ.
-- Dùng input: `don_vi_soan_thao`, `noi_nhan`, `loai_quyet_dinh`.
-- Vai trò: Công chức soạn thảo + công chức tư pháp (Văn phòng HĐND&UBND) thẩm định (15–20 phút); Chánh Văn phòng kiểm tra thể thức (5 phút); Chủ tịch UBND xã quyết định và ký ban hành (15 phút); văn thư phát hành, lưu; AI hỗ trợ: kiểm tra thể thức lần cuối, đối chiếu thẩm quyền ký — tổng ước tính 40 phút (chưa tính thời gian chờ).
-- Lưu ý nghiệp vụ: Quyết định xử phạt VPHC bắt buộc phải được rà soát kỹ về thẩm quyền, trình tự, thời hiệu trước khi ký — sai sót dẫn đến bị khiếu nại, khởi kiện hành chính. Mọi sửa đổi của Chủ tịch phải cập nhật vào bản chính trước khi phát hành.
-- → Kết quả bước: Quyết định đã ký, đóng dấu, gửi đúng nơi nhận; hồ sơ lưu đầy đủ.
+- Làm gì: Trình Chánh Văn phòng kiểm tra thể thức; trình người đứng đầu quyết định, ký ban hành; giao văn thư đánh số, đóng dấu, gửi nơi nhận, lưu hồ sơ.
+- Dùng input: Bản dự thảo đúng thể thức (Bước 5), `noi_nhan`.
+- Vai trò: Chánh Văn phòng kiểm tra thể thức (⏱ 5 phút); người đứng đầu quyết định và ký ban hành (⏱ 15 phút); văn thư phát hành, lưu; AI hỗ trợ: kiểm tra thể thức lần cuối, đối chiếu thẩm quyền ký — tổng ước tính 40 phút (chưa tính thời gian chờ).
+- Lưu ý nghiệp vụ: Đánh số, đóng dấu đúng quy định; gửi nơi nhận đầy đủ, lưu hồ sơ.
+- → Kết quả bước: Quyết định đã ký, ban hành.
+
 
 ## Luồng quy trình (Workflow)
 
@@ -80,11 +91,12 @@ flowchart TD
     IN --> B1["Bước 1: Xác định thẩm quyền ban hành"]
     B1 --> B2["Bước 2: Thu thập căn cứ pháp lý và hồ sơ liên quan"]
     B2 --> B3["Bước 3: Soạn dự thảo các điều của quyết định"]
-    B3 --> B4["Bước 4: Áp thể thức trình bày theo NĐ 30/2020/NĐ-CP"]
-    B4 --> B5["Bước 5: Thẩm định nội bộ, trình ký và ban hành"]
+    B3 --> B4["Bước 4: Thẩm định nội bộ tính hợp pháp"]
+    B4 --> B5["Bước 5: Áp thể thức trình bày theo NĐ 30/2020/NĐ-CP"]
+    B5 --> B6["Bước 6: Trình ký và ban hành"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Dự thảo quyết định hoàn chỉnh, đúng thể thức NĐ 30/2020/NĐ-CP.
 - Hồ sơ kèm theo: tờ trình/hồ sơ đề nghị, biên bản liên quan (đối với xử phạt VPHC).
@@ -110,7 +122,7 @@ Khung cố định của một quyết định cá biệt, các phần bắt bu�
 7. **Nơi nhận** (cuối văn bản, canh trái): đối tượng quyết định, đơn vị liên quan, lưu hồ sơ.
 8. **Chữ ký, chức vụ người ký** (canh phải): "TM. ỦY BAN NHÂN DÂN" / "CHỦ TỊCH" / họ tên người ký, đóng dấu.
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. Có đủ 8 thành phần thể thức theo đúng thứ tự mục 5.
 2. Nội dung thuộc thẩm quyền quyết định của Chủ tịch UBND xã — không vượt thẩm quyền.
@@ -123,7 +135,7 @@ Khung cố định của một quyết định cá biệt, các phần bắt bu�
 9. Nơi nhận bao gồm đối tượng của quyết định; có "Lưu: VT, ..." cuối danh sách.
 10. Không bịa số liệu, căn cứ pháp lý; đã qua human gate: thẩm định nội bộ (công chức tư pháp đối với xử phạt VPHC), Chánh Văn phòng kiểm tra thể thức, Chủ tịch UBND xã ký ban hành.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
@@ -182,7 +194,7 @@ CHỦ TỊCH
 
 Nguyễn Văn A
 
-## Human gate
+## 8. Human gate
 
 - **Công chức phòng chuyên môn** → soạn dự thảo, chịu trách nhiệm về nội dung, căn cứ pháp lý.
 - **Trưởng phòng chuyên môn** → kiểm tra tính đúng đắn nghiệp vụ của dự thảo.
@@ -190,7 +202,7 @@ Nguyễn Văn A
 - **Chánh Văn phòng HĐND&UBND** → kiểm tra thể thức.
 - **Chủ tịch UBND xã** → quyết định, ký ban hành. Quyết định chỉ có hiệu lực sau khi Chủ tịch ký.
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI KHÔNG ra quyết định hành chính thay người có thẩm quyền; quyết định do Chủ tịch UBND xã ký mới có hiệu lực.
 - AI KHÔNG tự ký, tự đóng dấu, tự ban hành quyết định dưới bất kỳ hình thức nào.
@@ -198,7 +210,7 @@ Nguyễn Văn A
 - AI KHÔNG soạn quyết định xử phạt VPHC khi hồ sơ chưa đủ (thiếu biên bản vi phạm, hết thời hiệu, sai thẩm quyền) — phải cảnh báo và yêu cầu bổ sung.
 - AI KHÔNG tư vấn cách "lách" quy định để xử phạt nặng/nhẹ hơn khung pháp luật cho phép.
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - NĐ 30/2020/NĐ-CP về công tác văn thư: thể thức, kỹ thuật trình bày văn bản hành chính (áp dụng cho quyết định cá biệt).
 - Luật Tổ chức chính quyền địa phương 72/2025/QH15: thẩm quyền của Chủ tịch UBND cấp xã trong ban hành quyết định cá biệt.

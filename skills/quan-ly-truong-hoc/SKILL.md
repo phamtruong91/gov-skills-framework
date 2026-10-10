@@ -30,8 +30,8 @@ description: "Quản lý nhà nước về các trường mầm non, tiểu họ
 **Bước 1. Thu thập số liệu đầu năm học từ các trường**
 
 - Làm gì: Gửi văn bản đề nghị các trường MN, TH, THCS trên địa bàn cung cấp số liệu đầu năm học theo biểu mẫu thống nhất; đôn đốc, thu nhận đầy đủ trước thời hạn.
-- Dùng input: `nam_hoc`, `danh_sach_truong`, `thoi_han_bao_cao`.
-- Vai trò: Công chức VH-XH phụ trách giáo dục (ông Nguyễn Văn G) soạn văn bản đề nghị, gửi và đôn đốc các trường. AI hỗ trợ: soạn dự thảo văn bản đề nghị, thiết kế biểu mẫu thống kê số liệu chuẩn (trường/lớp/HS/GV/CSVC) để các trường điền thống nhất. Thời gian ước tính: 2–3 ngày làm việc.
+- Dùng input: `nam_hoc`, `danh_sach_truong`, `thoi_han_bao_cao`, `don_vi_bao_cao`.
+- Vai trò: Công chức VH-XH phụ trách giáo dục (ông Nguyễn Văn G) soạn văn bản đề nghị, gửi và đôn đốc các trường. AI hỗ trợ: soạn dự thảo văn bản đề nghị, thiết kế biểu mẫu thống kê số liệu chuẩn (trường/lớp/HS/GV/CSVC) để các trường điền thống nhất. ⏱ 2–3 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Biểu mẫu phải thống nhất cho cả 3 cấp học; quy định rõ thời hạn nộp của trường (ít nhất trước thời hạn báo cáo của xã 5 ngày làm việc) để có thời gian tổng hợp.
 - → Kết quả bước: Bộ số liệu thô đầu năm học của toàn bộ trường trên địa bàn + văn bản đề nghị đã gửi.
 
@@ -39,7 +39,7 @@ description: "Quản lý nhà nước về các trường mầm non, tiểu họ
 
 - Làm gì: Rà soát số liệu các trường gửi; tổ chức (hoặc phối hợp) kiểm tra thực tế điều kiện CSVC, đội ngũ tại các trường có dấu hiệu thiếu phòng học, thiếu giáo viên hoặc đề nghị sửa chữa; lập biên bản kiểm tra.
 - Dùng input: `so_lieu_truong`, `tinh_trang_csvc`, `nhu_cau_nhan_su`.
-- Vai trò: Công chức VH-XH phụ trách giáo dục chủ trì kiểm tra, Trưởng phòng VH-XH (ông Vũ Văn E) tham gia đoàn kiểm tra các trường trọng điểm. AI hỗ trợ: lập checklist kiểm tra CSVC/đội ngũ theo tiêu chí trường đạt chuẩn, tổng hợp số liệu đối chiếu, soạn dự thảo biên bản kiểm tra từ ghi chép thực tế. Thời gian ước tính: 3–5 ngày làm việc.
+- Vai trò: Công chức VH-XH phụ trách giáo dục chủ trì kiểm tra, Trưởng phòng VH-XH (ông Vũ Văn E) tham gia đoàn kiểm tra các trường trọng điểm. AI hỗ trợ: lập checklist kiểm tra CSVC/đội ngũ theo tiêu chí trường đạt chuẩn, tổng hợp số liệu đối chiếu, soạn dự thảo biên bản kiểm tra từ ghi chép thực tế. ⏱ 3–5 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Xã quản lý nhà nước về trường học, không can thiệp chuyên môn nội bộ nhà trường; các đề xuất sửa chữa, xây mới, tuyển dụng phải tổng hợp thành kiến nghị gửi cấp có thẩm quyền, không tự quyết định vượt thẩm quyền.
 - → Kết quả bước: Bảng tổng hợp đối chiếu CSVC/đội ngũ toàn xã + biên bản kiểm tra (nếu có) + danh mục kiến nghị.
 
@@ -47,7 +47,7 @@ description: "Quản lý nhà nước về các trường mầm non, tiểu họ
 
 - Làm gì: Tổ chức họp với Ban Giám hiệu các trường để quán triệt nhiệm vụ năm học, phân công phối hợp (tuyển sinh, PCGD, an toàn trường học, y tế học đường); thống nhất đầu mối liên hệ.
 - Dùng input: `nam_hoc`, `danh_sach_truong`, `ket_qua_tuyen_sinh`.
-- Vai trò: Trưởng phòng VH-XH (ông Vũ Văn E) chủ trì cuộc họp, Phó Chủ tịch UBND xã (bà Trần Thị B) dự và chỉ đạo khi cần. AI hỗ trợ: soạn dự thảo chương trình họp, dự thảo biên bản họp và bảng phân công nhiệm vụ theo đầu mối/thời hạn. Thời gian ước tính: 1–2 ngày làm việc.
+- Vai trò: Trưởng phòng VH-XH (ông Vũ Văn E) chủ trì cuộc họp, Phó Chủ tịch UBND xã (bà Trần Thị B) dự và chỉ đạo khi cần. AI hỗ trợ: soạn dự thảo chương trình họp, dự thảo biên bản họp và bảng phân công nhiệm vụ theo đầu mối/thời hạn. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Nội dung phối hợp phải bám nhiệm vụ năm học do Sở GD&ĐT tỉnh A giao; ghi rõ trách nhiệm của nhà trường và của Phòng VH-XH, tránh chồng chéo.
 - → Kết quả bước: Biên bản họp triển khai nhiệm vụ năm học + bảng phân công phối hợp.
 
@@ -55,7 +55,7 @@ description: "Quản lý nhà nước về các trường mầm non, tiểu họ
 
 - Làm gì: Tổng hợp toàn bộ số liệu, kết quả kiểm tra, kết quả phối hợp thành dự thảo Báo cáo tình hình trường, lớp đầu năm học theo đúng thể thức văn bản hành chính (NĐ 30/2020/NĐ-CP).
 - Dùng input: Toàn bộ input; kết quả các bước 1–3.
-- Vai trò: Công chức VH-XH phụ trách giáo dục soạn dự thảo. AI hỗ trợ: tổng hợp số liệu thành bảng biểu, kiểm tra tính khớp nhau giữa các bảng, rà soát thể thức văn bản, đề xuất câu chữ phần nhận xét – kiến nghị. Thời gian ước tính: 2 ngày làm việc.
+- Vai trò: Công chức VH-XH phụ trách giáo dục soạn dự thảo. AI hỗ trợ: tổng hợp số liệu thành bảng biểu, kiểm tra tính khớp nhau giữa các bảng, rà soát thể thức văn bản, đề xuất câu chữ phần nhận xét – kiến nghị. ⏱ 2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Số liệu trong báo cáo phải khớp tuyệt đối với số liệu các trường đã cung cấp và biên bản kiểm tra; phần kiến nghị phải ghi rõ đề xuất gửi cấp nào (Sở GD&ĐT, UBND tỉnh A, UBND xã).
 - → Kết quả bước: Dự thảo Báo cáo tình hình trường, lớp đầu năm học + phụ lục bảng thống kê số liệu.
 
@@ -63,7 +63,7 @@ description: "Quản lý nhà nước về các trường mầm non, tiểu họ
 
 - Làm gì: Trình dự thảo báo cáo qua các cấp kiểm duyệt; ký ban hành, gửi báo cáo đến nơi nhận và lưu hồ sơ.
 - Dùng input: Dự thảo báo cáo ở bước 4.
-- Vai trò: Công chức VH-XH phụ trách giáo dục trình; Trưởng phòng VH-XH (ông Vũ Văn E) kiểm tra nội dung, số liệu, thể thức; Chủ tịch UBND xã (ông Nguyễn Văn A) ký duyệt, ban hành. AI hỗ trợ: lập phiếu trình ký, kiểm tra lần cuối danh sách nơi nhận và số/ký hiệu văn bản. Thời gian ước tính: 1–2 ngày làm việc.
+- Vai trò: Công chức VH-XH phụ trách giáo dục trình; Trưởng phòng VH-XH (ông Vũ Văn E) kiểm tra nội dung, số liệu, thể thức; Chủ tịch UBND xã (ông Nguyễn Văn A) ký duyệt, ban hành. AI hỗ trợ: lập phiếu trình ký, kiểm tra lần cuối danh sách nơi nhận và số/ký hiệu văn bản. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Báo cáo chỉ được gửi đi sau khi Chủ tịch ký; lưu 1 bản tại Phòng VH-XH và 1 bản tại Văn phòng HĐND&UBND xã để theo dõi.
 - → Kết quả bước: Báo cáo đã ký ban hành, gửi đúng nơi nhận, lưu hồ sơ đầy đủ.
 

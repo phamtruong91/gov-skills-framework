@@ -24,36 +24,36 @@ description: "Nghiên cứu, xây dựng chính sách cải cách tiền lương
 
 **Bước 1. Đánh giá thực trạng tiền lương, thu nhập**
 - Làm gì: Thu thập số liệu tiền lương, phụ cấp, thu nhập bình quân của CBCCVC theo ngạch, chức danh, vùng; đánh giá bất cập của chế độ hiện hành; so sánh với khu vực doanh nghiệp và mặt bằng chung.
-- Dùng input: `thuc_trang_tien_luong`, `noi_dung_chinh_sach`.
-- Vai trò: Chuyên viên Vụ Tiền lương nghiên cứu (AI hỗ trợ tổng hợp số liệu, phân tích chênh lệch thu nhập theo nhóm đối tượng — 5–7 ngày) → Vụ trưởng kiểm tra.
+- Dùng input: `thuc_trang_tien_luong`, `noi_dung_chinh_sach`, `hinh_thuc_van_ban`, `can_cu_chu_truong`.
+- Vai trò: Chuyên viên Vụ Tiền lương nghiên cứu (AI hỗ trợ tổng hợp số liệu, phân tích chênh lệch thu nhập theo nhóm đối tượng ⏱ 5–7 ngày (ước tính)) → Vụ trưởng kiểm tra.
 - Lưu ý nghiệp vụ: Số liệu phải từ nguồn chính thức (báo cáo bộ, ngành, địa phương, cơ quan thống kê); AI không tự suy đoán mức lương, thu nhập.
 - → Kết quả bước: Báo cáo đánh giá thực trạng tiền lương.
 
 **Bước 2. Thiết kế phương án chính sách**
 - Làm gì: Thiết kế bảng lương theo vị trí việc làm, chức danh, chức vụ; xác định hệ số, mức lương cơ sở hoặc mức lương theo phương án mới; thiết kế chế độ phụ cấp; tính toán tác động ngân sách.
 - Dùng input: `noi_dung_chinh_sach`, kết quả bước 1, `tac_dong_nsnn`.
-- Vai trò: Chuyên viên Vụ Tiền lương phối hợp Vụ Công chức – Viên chức thiết kế (AI hỗ trợ mô phỏng các phương án hệ số, tính toán tác động ngân sách theo kịch bản — 7–10 ngày) → Vụ trưởng rà soát.
+- Vai trò: Chuyên viên Vụ Tiền lương phối hợp Vụ Công chức – Viên chức thiết kế (AI hỗ trợ mô phỏng các phương án hệ số, tính toán tác động ngân sách theo kịch bản ⏱ 7–10 ngày (ước tính)) → Vụ trưởng rà soát.
 - Lưu ý nghiệp vụ: Phương án phải gắn với vị trí việc làm và kết quả thực hiện nhiệm vụ; tính toán kỹ khả năng cân đối ngân sách; không thiết kế chính sách vượt khả năng chi trả.
 - → Kết quả bước: Các phương án chính sách tiền lương kèm tính toán tác động.
 
 **Bước 3. Lấy ý kiến bộ, ngành, địa phương**
 - Làm gì: Gửi phương án lấy ý kiến các bộ, cơ quan ngang bộ (đặc biệt cơ quan tài chính về cân đối ngân sách), UBND cấp tỉnh; tổng hợp, tiếp thu/giải trình.
 - Dùng input: Các phương án bước 2.
-- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu/giải trình — 3–5 ngày) → Vụ trưởng ký văn bản xin ý kiến.
+- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu/giải trình ⏱ 3–5 ngày (ước tính)) → Vụ trưởng ký văn bản xin ý kiến.
 - Lưu ý nghiệp vụ: Chính sách tiền lương tác động toàn hệ thống nên phải lấy ý kiến rộng; ý kiến về khả năng cân đối ngân sách của cơ quan tài chính phải được xem xét đặc biệt kỹ.
 - → Kết quả bước: Phương án hoàn thiện sau tiếp thu ý kiến.
 
 **Bước 4. Thẩm định, trình cấp có thẩm quyền**
 - Làm gì: Vụ Pháp chế thẩm định (nếu là VBQPPL); lập tờ trình, báo cáo trình Bộ trưởng xem xét, báo cáo Chính phủ; trình cấp có thẩm quyền quyết định theo quy định (chính sách tiền lương thuộc thẩm quyền quyết định của cấp có thẩm quyền theo quy định).
 - Dùng input: Toàn bộ hồ sơ các bước trước.
-- Vai trò: Vụ trưởng ký tờ trình (AI hỗ trợ rà soát thể thức theo NĐ 30/2020/NĐ-CP — 0,5 ngày) → Thứ trưởng kiểm tra → Bộ trưởng quyết định trình Chính phủ.
+- Vai trò: Vụ trưởng ký tờ trình (AI hỗ trợ rà soát thể thức theo NĐ 30/2020/NĐ-CP ⏱ 0,5 ngày (ước tính)) → Thứ trưởng kiểm tra → Bộ trưởng quyết định trình Chính phủ.
 - Lưu ý nghiệp vụ: Hồ sơ trình đầy đủ: tờ trình, dự thảo, báo cáo đánh giá thực trạng, tính toán tác động ngân sách, bảng tổng hợp ý kiến; không trình khi chưa có đánh giá tác động ngân sách.
 - → Kết quả bước: Chính sách tiền lương được cấp có thẩm quyền xem xét, quyết định.
 
 **Bước 5. Hướng dẫn, theo dõi thực hiện**
 - Làm gì: Ban hành văn bản hướng dẫn xếp lương, chuyển xếp lương sang chế độ mới; theo dõi, kiểm tra việc thực hiện tại bộ, ngành, địa phương; đánh giá tác động sau thực hiện, đề xuất điều chỉnh.
 - Dùng input: Văn bản chính sách đã ban hành, báo cáo bộ/ngành/địa phương.
-- Vai trò: Chuyên viên Vụ Tiền lương theo dõi (AI hỗ trợ tổng hợp báo cáo thực hiện, phát hiện vướng mắc trong chuyển xếp lương — 3–5 ngày/kỳ) → Vụ trưởng báo cáo Bộ trưởng.
+- Vai trò: Chuyên viên Vụ Tiền lương theo dõi (AI hỗ trợ tổng hợp báo cáo thực hiện, phát hiện vướng mắc trong chuyển xếp lương ⏱ 3–5 ngày (ước tính)/kỳ) → Vụ trưởng báo cáo Bộ trưởng.
 - Lưu ý nghiệp vụ: Bảo đảm không ai bị thiệt thòi bất hợp lý khi chuyển xếp; kịp thời hướng dẫn các trường hợp vướng mắc về ngạch, bậc, phụ cấp.
 - → Kết quả bước: Văn bản hướng dẫn; báo cáo theo dõi, đánh giá tác động.
 

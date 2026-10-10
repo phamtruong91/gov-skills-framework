@@ -6,6 +6,7 @@ description: "Xây dựng chiến lược, quy hoạch, kế hoạch phát tri�
 # Skill: Xây dựng chiến lược, quy hoạch, kế hoạch phát triển ngành
 
 ## 2. Khi nào dùng
+- Skill chỉ áp dụng ở cấp trung ương (bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ).
 
 Khi bộ được giao xây dựng chiến lược phát triển ngành, quy hoạch ngành quốc gia/quy hoạch có tính
 chất kỹ thuật chuyên ngành, hoặc kế hoạch phát triển ngành 5 năm/hằng năm trình cấp có thẩm quyền
@@ -27,7 +28,7 @@ chất kỹ thuật chuyên ngành, hoặc kế hoạch phát triển ngành 5 n
 **Bước 1. Đánh giá hiện trạng và dự báo**
 
 - Làm gì: Thu thập số liệu hiện trạng ngành toàn quốc; phân tích điểm mạnh/yếu, cơ hội/thách thức; dự báo xu hướng trong và ngoài nước.
-- Dùng input: `ten_chien_luoc`, `loai`, `yeu_cau_dinh_huong`.
+- Dùng input: `ten_chien_luoc`, `loai`, `yeu_cau_dinh_huong`, `don_vi_chu_tri`.
 - Vai trò: Vụ chuyên môn chủ trì, AI hỗ trợ tổng hợp số liệu, dựng bảng phân tích SWOT và biểu đồ xu hướng ⏱ ~3–5 ngày (ước tính).
 - Lưu ý nghiệp vụ: Số liệu phải có nguồn rõ ràng, thống nhất với số liệu thống kê nhà nước; không bịa số liệu dự báo.
 - → Kết quả bước: Báo cáo đánh giá hiện trạng và dự báo phát triển ngành.
@@ -45,7 +46,7 @@ chất kỹ thuật chuyên ngành, hoặc kế hoạch phát triển ngành 5 n
 - Làm gì: Gửi lấy ý kiến bộ/ngành/địa phương, chuyên gia, đối tượng chịu tác động; tổ chức hội thảo; thẩm định nội bộ (Vụ Pháp chế, Vụ Kế hoạch – Tài chính).
 - Dùng input: Dự thảo lần 1.
 - Vai trò: Vụ chuyên môn tổng hợp, AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu ⏱ ~3–5 ngày (ước tính).
-- Lưu ý nghiệp vụ: Quy hoạch ngành quốc gia phải lấy ý kiến thẩm định theo quy định pháp luật về quy hoạch.
+- Lưu ý nghiệp vụ: Với `loai` = Quy hoạch: trước khi lập phải có bước lập và phê duyệt nhiệm vụ lập quy hoạch; thẩm định phải qua Hội đồng thẩm định quy hoạch theo Luật Quy hoạch (không chỉ thẩm định nội bộ).
 - → Kết quả bước: Dự thảo hoàn thiện + báo cáo tiếp thu ý kiến.
 
 **Bước 4. Trình cấp có thẩm quyền phê duyệt**

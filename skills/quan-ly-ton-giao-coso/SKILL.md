@@ -30,7 +30,7 @@ description: "Báo cáo tình hình tín ngưỡng, tôn giáo; rà soát, cập
 
 - Làm gì: Lập phiếu rà soát; phối hợp trưởng thôn/tổ dân phố, Ban công tác Mặt trận kiểm tra, cập nhật danh sách cơ sở tín ngưỡng, tổ chức tôn giáo, điểm sinh hoạt tôn giáo tập trung; ghi nhận biến động (thành lập mới, ngừng hoạt động, thay đổi người phụ trách/đại diện).
 - Dùng input: `ds_co_so_tin_nguong`, `ds_to_chuc_ton_giao`, `ky_bao_cao`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực tín ngưỡng, tôn giáo trực tiếp đi cơ sở thu thập, đối chiếu số liệu. AI hỗ trợ: thiết kế mẫu phiếu rà soát, chuẩn hóa danh sách, phát hiện trùng lặp/thiếu trường thông tin. Thời gian ước tính: 1–2 ngày làm việc.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực tín ngưỡng, tôn giáo trực tiếp đi cơ sở thu thập, đối chiếu số liệu. AI hỗ trợ: thiết kế mẫu phiếu rà soát, chuẩn hóa danh sách, phát hiện trùng lặp/thiếu trường thông tin. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Số liệu phải khớp với hồ sơ theo dõi các kỳ trước; mọi biến động phải có căn cứ (biên bản kiểm tra, thông báo của tổ chức). Không tự ý suy diễn số lượng tín đồ — chỉ ghi số liệu do tổ chức cung cấp hoặc qua điều tra thực tế.
 - → Kết quả bước: Danh sách cơ sở tín ngưỡng, tổ chức tôn giáo, điểm sinh hoạt tôn giáo tập trung đã cập nhật đến kỳ báo cáo.
 
@@ -38,7 +38,7 @@ description: "Báo cáo tình hình tín ngưỡng, tôn giáo; rà soát, cập
 
 - Làm gì: Đối chiếu hoạt động thực tế với quy định pháp luật; phân loại: (a) hoạt động đúng pháp luật; (b) hoạt động có dấu hiệu vi phạm (truyền đạo trái phép, xây dựng cơ sở thờ tự không phép, lợi dụng tín ngưỡng trục lợi...); (c) điểm nóng, vụ việc phức tạp cần theo dõi.
 - Dùng input: `so_lieu_hoat_dong`, `hs_thong_bao_dang_ky`, `vu_viec_vi_pham`, danh sách đã cập nhật ở Bước 1.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực tổng hợp, phân loại. AI hỗ trợ: đối chiếu hoạt động với danh mục hành vi vi phạm thường gặp để gợi ý phân loại sơ bộ (người quyết định phân loại cuối cùng là công chức). Thời gian ước tính: 0,5–1 ngày làm việc.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực tổng hợp, phân loại. AI hỗ trợ: đối chiếu hoạt động với danh mục hành vi vi phạm thường gặp để gợi ý phân loại sơ bộ (người quyết định phân loại cuối cùng là công chức). ⏱ 0,5–1 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Phân loại vi phạm phải căn cứ hành vi cụ thể, không quy chụp; tôn trọng quyền tự do tín ngưỡng, tôn giáo của công dân theo quy định pháp luật; nội dung nhạy cảm về tôn giáo không đưa chi tiết vào báo cáo công khai.
 - → Kết quả bước: Bảng phân loại tình hình hoạt động: đúng pháp luật / có dấu hiệu vi phạm / cần theo dõi, kèm mô tả ngắn từng trường hợp.
 
@@ -46,7 +46,7 @@ description: "Báo cáo tình hình tín ngưỡng, tôn giáo; rà soát, cập
 
 - Làm gì: Tiếp nhận thông báo, đăng ký hoạt động tín ngưỡng, tôn giáo của tổ chức, cá nhân gửi đến UBND xã; kiểm tra tính hợp lệ, đầy đủ của hồ sơ; hướng dẫn bổ sung nếu thiếu; tổng hợp, báo cáo lãnh đạo UBND xã xem xét theo thẩm quyền; chuyển hồ sơ vượt thẩm quyền lên cấp trên.
 - Dùng input: `hs_thong_bao_dang_ky`, `van_ban_chi_dao`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực tiếp nhận, kiểm tra hồ sơ. AI hỗ trợ: kiểm tra checklist tính đầy đủ của hồ sơ, soạn mẫu văn bản hướng dẫn bổ sung hồ sơ, theo dõi hạn xử lý. Thời gian ước tính: 0,5 ngày làm việc/hồ sơ.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực tiếp nhận, kiểm tra hồ sơ. AI hỗ trợ: kiểm tra checklist tính đầy đủ của hồ sơ, soạn mẫu văn bản hướng dẫn bổ sung hồ sơ, theo dõi hạn xử lý. ⏱ 0,5 ngày (ước tính) làm việc/hồ sơ.
 - Lưu ý nghiệp vụ: Không được từ chối tiếp nhận hồ sơ không có lý do; mọi yêu cầu bổ sung phải bằng văn bản, nêu rõ nội dung còn thiếu; hồ sơ vượt thẩm quyền cấp xã phải chuyển kịp thời, không giữ lại.
 - → Kết quả bước: Sổ theo dõi tiếp nhận, xử lý thông báo/đăng ký trong kỳ + dự thảo văn bản trả lời/hướng dẫn (nếu có).
 
@@ -54,7 +54,7 @@ description: "Báo cáo tình hình tín ngưỡng, tôn giáo; rà soát, cập
 
 - Làm gì: Đối với hoạt động có dấu hiệu vi phạm đã phân loại ở Bước 2: phối hợp Công an xã xác minh; tham mưu UBND xã nhắc nhở, yêu cầu chấm dứt hoặc lập hồ sơ xử lý theo thẩm quyền; trường hợp vượt thẩm quyền, báo cáo cấp trên; theo dõi kết quả xử lý.
 - Dùng input: `vu_viec_vi_pham`, bảng phân loại ở Bước 2.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực phối hợp Công an xã xác minh, lập hồ sơ tham mưu. AI hỗ trợ: soạn dự thảo văn bản nhắc nhở, biên bản làm việc, tổng hợp tiến độ xử lý từng vụ việc. Thời gian ước tính: theo diễn biến vụ việc, tối thiểu 1 ngày làm việc để lập hồ sơ ban đầu.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực phối hợp Công an xã xác minh, lập hồ sơ tham mưu. AI hỗ trợ: soạn dự thảo văn bản nhắc nhở, biên bản làm việc, tổng hợp tiến độ xử lý từng vụ việc. ⏱ theo diễn biến vụ việc, tối thiểu 1 ngày làm việc để lập hồ sơ ban đầu.
 - Lưu ý nghiệp vụ: Xử lý vi phạm phải đúng trình tự, thẩm quyền; ưu tiên tuyên truyền, vận động, nhắc nhở trước khi áp dụng biện pháp xử lý; bảo đảm an ninh trật tự, không để phát sinh điểm nóng.
 - → Kết quả bước: Hồ sơ xử lý từng vụ việc (biên bản xác minh, văn bản nhắc nhở/xử lý, kết quả theo dõi).
 
@@ -62,7 +62,7 @@ description: "Báo cáo tình hình tín ngưỡng, tôn giáo; rà soát, cập
 
 - Làm gì: Tổng hợp toàn bộ kết quả các bước 1–4; dự thảo Báo cáo tình hình tín ngưỡng, tôn giáo trên địa bàn theo cấu trúc chuẩn; trình Trưởng phòng kiểm tra, Phó Chủ tịch phụ trách lĩnh vực xem xét, Chủ tịch UBND xã ký ban hành; gửi báo cáo lên cấp trên và lưu hồ sơ.
 - Dùng input: Toàn bộ bán thành phẩm các bước 1–4, `ky_bao_cao`, `van_ban_chi_dao`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực dự thảo báo cáo. AI hỗ trợ: dàn ý theo cấu trúc chuẩn, kiểm tra số liệu các phần khớp nhau, rà soát thể thức văn bản theo NĐ 30/2020/NĐ-CP. Thời gian ước tính: 0,5–1 ngày làm việc.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực dự thảo báo cáo. AI hỗ trợ: dàn ý theo cấu trúc chuẩn, kiểm tra số liệu các phần khớp nhau, rà soát thể thức văn bản theo NĐ 30/2020/NĐ-CP. ⏱ 0,5–1 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Số liệu trong báo cáo phải khớp tuyệt đối với số liệu đã thu thập ở Bước 1–2; đánh giá tình hình khách quan, không tô hồng cũng không phóng đại; kiến nghị phải cụ thể, gắn với thẩm quyền của từng cấp.
 - → Kết quả bước: Báo cáo tình hình tín ngưỡng, tôn giáo trên địa bàn (bản dự thảo đã qua kiểm tra, sẵn sàng trình ký).
 

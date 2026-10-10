@@ -26,35 +26,35 @@ description: "Lập kế hoạch và tổ chức phổ biến, giáo dục pháp
 
 **Bước 1. Khảo sát nhu cầu và rà soát văn bản mới cần phổ biến**
 - Làm gì: Tổng hợp phiếu khảo sát nhu cầu tìm hiểu pháp luật từ các thôn/tổ dân phố; rà soát văn bản quy phạm pháp luật mới ban hành liên quan trực tiếp đến người dân (đất đai, hộ tịch, an ninh trật tự, phòng chống tệ nạn...); đánh giá kết quả PBGDPL năm trước.
-- Dùng input: `nhu_cau_khao_sat`, `van_ban_moi`, `ke_hoach_nam_truoc`
+- Dùng input: `nhu_cau_khao_sat`, `van_ban_moi`, `ke_hoach_nam_truoc`.
 - Vai trò: Công chức Tư pháp – Hộ tịch chủ trì khảo sát, rà soát. AI hỗ trợ tổng hợp kết quả khảo sát, phân loại văn bản mới theo lĩnh vực và đối tượng cần phổ biến ⏱ ~02 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Chỉ đưa vào kế hoạch các văn bản còn hiệu lực; ưu tiên văn bản tác động trực tiếp đến quyền, nghĩa vụ của người dân. Khảo sát phải bao phủ các thôn/tổ dân phố, không làm hình thức.
 - → Kết quả bước: Báo cáo tổng hợp nhu cầu + danh mục văn bản mới cần phổ biến trong năm, phân theo đối tượng.
 
 **Bước 2. Lập dự thảo Kế hoạch PBGDPL năm**
 - Làm gì: Xây dựng dự thảo kế hoạch: mục đích, yêu cầu; nội dung phổ biến; hình thức (tủ sách pháp luật, câu lạc bộ, sinh hoạt thôn/tổ dân phố, loa truyền thanh, hội nghị, tờ gấp); đối tượng; thời gian; kinh phí; phân công đơn vị thực hiện và phối hợp.
-- Dùng input: kết quả Bước 1, `doi_tuong_uu_tien`, `kinh_phi_du_kien`, `don_vi_phoi_hop`
+- Dùng input: kết quả Bước 1, `doi_tuong_uu_tien`, `kinh_phi_du_kien`, `don_vi_phoi_hop`.
 - Vai trò: Công chức Tư pháp – Hộ tịch soạn dự thảo. AI hỗ trợ soạn dự thảo kế hoạch đúng thể thức, gợi ý hình thức phù hợp từng đối tượng và lập dự toán kinh phí chi tiết ⏱ ~01 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Kế hoạch phải khả thi với kinh phí và nhân lực của xã; mỗi hoạt động ghi rõ thời gian, địa điểm, đơn vị chủ trì/phối hợp, sản phẩm đầu ra. Tránh dàn trải quá nhiều nội dung trong một buổi sinh hoạt.
 - → Kết quả bước: Dự thảo Kế hoạch PBGDPL năm của xã.
 
 **Bước 3. Trình duyệt và ban hành kế hoạch**
 - Làm gì: Lấy ý kiến các đơn vị phối hợp (Mặt trận, đoàn thể, công an xã, trưởng thôn/tổ trưởng dân phố); hoàn thiện dự thảo; trình Chủ tịch UBND xã ký ban hành.
-- Dùng input: dự thảo kế hoạch từ Bước 2, ý kiến góp ý của các đơn vị
+- Dùng input: dự thảo kế hoạch từ Bước 2, ý kiến góp ý của các đơn vị.
 - Vai trò: Chánh Văn phòng HĐND và UBND tổng hợp ý kiến, hoàn thiện; Chủ tịch UBND xã ký ban hành kế hoạch. AI hỗ trợ tổng hợp ý kiến góp ý và rà soát thể thức văn bản theo NĐ 30/2020/NĐ-CP ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Kế hoạch PBGDPL năm nên ban hành trong quý I để có đủ thời gian triển khai. Gửi kế hoạch đến các thôn/tổ dân phố và đơn vị phối hợp ngay sau khi ban hành.
 - → Kết quả bước: Kế hoạch PBGDPL năm đã được Chủ tịch UBND xã ký ban hành và gửi các đơn vị liên quan.
 
 **Bước 4. Tổ chức thực hiện các hoạt động PBGDPL**
 - Làm gì: Triển khai các hoạt động theo kế hoạch: bổ sung sách, tài liệu cho tủ sách pháp luật xã; duy trì sinh hoạt câu lạc bộ pháp luật; lồng ghép phổ biến pháp luật trong sinh hoạt thôn/tổ dân phố; phát thanh trên loa truyền thanh xã; tổ chức hội nghị phổ biến văn bản mới.
-- Dùng input: kế hoạch đã ban hành, `van_ban_moi`
+- Dùng input: kế hoạch đã ban hành, `van_ban_moi`.
 - Vai trò: Công chức Tư pháp – Hộ tịch chủ trì, phối hợp với Mặt trận, đoàn thể, trưởng thôn/tổ trưởng dân phố tổ chức. AI hỗ trợ soạn đề cương tuyên truyền, bài phát thanh, tờ gấp pháp luật từ nội dung văn bản mới ⏱ ~theo lịch hoạt động trong kế hoạch (ước tính).
 - Lưu ý nghiệp vụ: Nội dung tuyên truyền phải chuyển tải đúng tinh thần văn bản, dùng ngôn ngữ dễ hiểu với người dân; ghi chép đầy đủ mỗi hoạt động (thời gian, địa điểm, số người tham dự, nội dung) để làm căn cứ báo cáo.
 - → Kết quả bước: Các hoạt động PBGDPL đã tổ chức theo kế hoạch; có biên bản, danh sách người tham dự, hình ảnh, tài liệu tuyên truyền lưu hồ sơ.
 
 **Bước 5. Theo dõi, tổng hợp và báo cáo kết quả**
 - Làm gì: Theo dõi tiến độ thực hiện kế hoạch; thu thập số liệu, minh chứng từ các thôn/tổ dân phố và đơn vị phối hợp; lập báo cáo kết quả thực hiện PBGDPL năm; đề xuất kế hoạch năm sau.
-- Dùng input: hồ sơ hoạt động từ Bước 4, `ke_hoach_nam_truoc` (để so sánh)
+- Dùng input: hồ sơ hoạt động từ Bước 4, `ke_hoach_nam_truoc` (để so sánh).
 - Vai trò: Công chức Tư pháp – Hộ tịch tổng hợp, soạn báo cáo. AI hỗ trợ tổng hợp số liệu hoạt động, đối chiếu với chỉ tiêu kế hoạch và soạn dự thảo báo cáo ⏱ ~01 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Báo cáo phải trung thực, có số liệu minh chứng cụ thể (số buổi, số lượt người tham dự, số đầu sách bổ sung...); nêu rõ tồn tại và nguyên nhân để rút kinh nghiệm năm sau.
 - → Kết quả bước: Báo cáo kết quả thực hiện Kế hoạch PBGDPL năm đã được ký, gửi cấp trên và lưu hồ sơ.

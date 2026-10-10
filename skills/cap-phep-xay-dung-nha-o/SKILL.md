@@ -106,7 +106,7 @@ Khung cố định của Giấy phép xây dựng, các phần bắt buộc theo
 3. **Số giấy phép** (dưới tên cơ quan, canh trái): Số: .../GPXD
 4. **Địa danh, ngày tháng năm ban hành** (canh phải): Xã A, ngày ... tháng ... năm ...
 5. **Tên loại** (canh giữa): GIẤY PHÉP XÂY DỰNG
-6. **Nội dung**: Cấp cho ông (bà) ... (địa chỉ); được phép xây dựng công trình: nhà ở riêng lẻ tại ... (địa điểm); nội dung được phép: diện tích xây dựng ... m², số tầng ..., chiều cao ..., mật độ xây dựng ...%, chỉ giới xây dựng ...; thời hạn khởi công: 12 tháng kể từ ngày cấp phép; các yêu cầu, điều kiện: thông báo thời điểm khởi công cho UBND xã; bảo đảm an toàn, vệ sinh môi trường; không lấn chiếm đất đai, hành lang an toàn; tuân thủ đúng nội dung được cấp phép.
+6. **Nội dung**: Cấp cho ông (bà) ... (địa chỉ); được phép xây dựng công trình: nhà ở riêng lẻ tại ... (địa điểm); nội dung được phép: diện tích xây dựng ... m², số tầng .., chiều cao .., mật độ xây dựng ...%, chỉ giới xây dựng ...; thời hạn khởi công: 12 tháng kể từ ngày cấp phép; các yêu cầu, điều kiện: thông báo thời điểm khởi công cho UBND xã; bảo đảm an toàn, vệ sinh môi trường; không lấn chiếm đất đai, hành lang an toàn; tuân thủ đúng nội dung được cấp phép.
 7. **Nơi nhận** (cuối văn bản, canh trái): người được cấp phép; Phòng Kinh tế xã A; Trung tâm PVHCC xã A; Lưu: VT, XD.
 8. **Chữ ký, chức vụ người ký** (canh phải): "TM. ỦY BAN NHÂN DÂN" / CHỦ TỊCH / họ tên người ký; đóng dấu UBND xã.
 

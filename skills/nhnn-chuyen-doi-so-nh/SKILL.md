@@ -23,7 +23,7 @@ phát triển ngân hàng số, hoặc đánh giá kết quả chuyển đổi s
 **Bước 1. Đánh giá hiện trạng chuyển đổi số**
 
 - Làm gì: Thu thập số liệu về thanh toán không dùng tiền mặt, ngân hàng số, hạ tầng công nghệ của các TCTD; đánh giá mức độ số hóa của NHNN.
-- Dùng input: `hien_trang`.
+- Dùng input: `hien_trang`, `noi_dung`.
 - Vai trò: Vụ chuyên môn (Vụ Thanh toán / Cục Công nghệ thông tin — theo phân công) chủ trì, AI hỗ trợ tổng hợp số liệu, dựng bảng đánh giá ⏱ ~3–4 ngày (ước tính).
 - Lưu ý nghiệp vụ: Số liệu phải có nguồn rõ ràng; đánh giá cả hạ tầng kỹ thuật và an toàn thông tin.
 - → Kết quả bước: Báo cáo đánh giá hiện trạng chuyển đổi số ngành ngân hàng.

@@ -25,7 +25,7 @@ chuẩn bị tài liệu, dự thảo kết luận, chỉ thị, công điện; 
 
 - Làm gì: Tiếp nhận văn bản trình Chính phủ, Thủ tướng; kiểm tra tính đầy đủ, hợp lệ của hồ sơ; phân loại theo lĩnh vực, mức độ khẩn.
 - Dùng input: `van_ban_trinh`.
-- Vai trò: Chuyên viên Vụ tổng hợp kiểm tra hồ sơ (AI hỗ trợ kiểm tra thành phần hồ sơ theo quy chế làm việc của Chính phủ, phân loại tự động — 2 giờ); Vụ trưởng (ông Hoàng Văn EE) phân công xử lý.
+- Vai trò: Chuyên viên Vụ tổng hợp kiểm tra hồ sơ (AI hỗ trợ kiểm tra thành phần hồ sơ theo quy chế làm việc của Chính phủ, phân loại tự động ⏱ 2 giờ (ước tính)); Vụ trưởng (ông Hoàng Văn EE) phân công xử lý.
 - Lưu ý nghiệp vụ: Hồ sơ thiếu thành phần phải trả lại ngay, không để tồn đọng; văn bản khẩn xử lý trong ngày.
 - → Kết quả bước: Phiếu xử lý văn bản trình + phân công vụ chức năng.
 
@@ -33,7 +33,7 @@ chuẩn bị tài liệu, dự thảo kết luận, chỉ thị, công điện; 
 
 - Làm gì: Nghiên cứu nội dung trình; tổng hợp số liệu, ý kiến liên quan; đề xuất phương án xử lý (đồng ý, yêu cầu bổ sung, báo cáo xin ý kiến).
 - Dùng input: `so_lieu_tong_hop`, `y_kien_tham_muu`.
-- Vai trò: Chuyên viên Vụ tổng hợp nghiên cứu (AI hỗ trợ tra cứu văn bản liên quan, tổng hợp số liệu so sánh — 4 giờ); Vụ trưởng duyệt phiếu trình.
+- Vai trò: Chuyên viên Vụ tổng hợp nghiên cứu (AI hỗ trợ tra cứu văn bản liên quan, tổng hợp số liệu so sánh ⏱ 4 giờ (ước tính)); Vụ trưởng duyệt phiếu trình.
 - Lưu ý nghiệp vụ: Đề xuất phải khách quan, có căn cứ; nêu rõ ưu, nhược điểm từng phương án; không né tránh vấn đề khó.
 - → Kết quả bước: Phiếu trình Thủ tướng/Phó Thủ tướng kèm dự thảo văn bản trả lời.
 
@@ -41,7 +41,7 @@ chuẩn bị tài liệu, dự thảo kết luận, chỉ thị, công điện; 
 
 - Làm gì: Dự thảo kết luận, chỉ thị, công điện, thông báo ý kiến chỉ đạo của Chính phủ, Thủ tướng theo nội dung đã được phê duyệt.
 - Dùng input: `noi_dung_chi_dao`, ý kiến chỉ đạo đã phê duyệt.
-- Vai trò: Chuyên viên soạn thảo (AI hỗ trợ dự thảo theo mẫu, kiểm tra thể thức NĐ 30/2020 — 2 giờ); Vụ trưởng kiểm tra; Chủ nhiệm Văn phòng Chính phủ (ông Lê Văn CC) ký thừa ủy quyền hoặc trình Thủ tướng ký.
+- Vai trò: Chuyên viên soạn thảo (AI hỗ trợ dự thảo theo mẫu, kiểm tra thể thức NĐ 30/2020 ⏱ 2 giờ (ước tính)); Vụ trưởng kiểm tra; Chủ nhiệm Văn phòng Chính phủ (ông Lê Văn CC) ký thừa ủy quyền hoặc trình Thủ tướng ký.
 - Lưu ý nghiệp vụ: Văn bản chỉ đạo phải rõ việc, rõ đầu mối, rõ thời hạn; thể thức đúng NĐ 30/2020/NĐ-CP.
 - → Kết quả bước: Văn bản chỉ đạo của Chính phủ/Thủ tướng được ban hành.
 
@@ -49,7 +49,7 @@ chuẩn bị tài liệu, dự thảo kết luận, chỉ thị, công điện; 
 
 - Làm gì: Chuyển văn bản đến cơ quan thực hiện; theo dõi, đôn đốc; tổng hợp báo cáo kết quả.
 - Dùng input: Văn bản chỉ đạo đã ban hành.
-- Vai trò: Vụ tổng hợp theo dõi (AI hỗ trợ lập sổ theo dõi nhiệm vụ, cảnh báo quá hạn — 2 giờ).
+- Vai trò: Vụ tổng hợp theo dõi (AI hỗ trợ lập sổ theo dõi nhiệm vụ, cảnh báo quá hạn ⏱ 2 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Báo cáo trung thực kết quả; nhiệm vụ chưa hoàn thành phải nêu rõ nguyên nhân và đề xuất hướng xử lý tiếp.
 - → Kết quả bước: Báo cáo kết quả thực hiện ý kiến chỉ đạo.
 

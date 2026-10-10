@@ -26,35 +26,35 @@ description: "Quản lý hạ tầng viễn thông, Internet trên địa bàn t
 
 **Bước 1. Rà soát hiện trạng hạ tầng viễn thông, Internet**
 - Làm gì: Rà soát trạm BTS, mạng cáp quang, vùng phủ sóng di động, Internet băng rộng cố định; xác định vùng lõm sóng, xã chưa có cáp quang.
-- Dùng input: `hien_trang_ha_tang`, `doanh_nghiep_vien_thong`
+- Dùng input: `hien_trang_ha_tang`, `doanh_nghiep_vien_thong`.
 - Vai trò: Chuyên viên Phòng Viễn thông (hoặc phòng được giao) phối hợp doanh nghiệp viễn thông rà soát; AI hỗ trợ lập bản đồ phủ sóng, thống kê vùng lõm theo xã ⏱ ~10 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Số liệu phải do doanh nghiệp viễn thông cung cấp và được kiểm chứng thực tế; vùng lõm sóng là căn cứ ưu tiên đầu tư.
 - → Kết quả bước: Báo cáo hiện trạng hạ tầng viễn thông, Internet của tỉnh (kèm bản đồ vùng lõm).
 
 **Bước 2. Xây dựng quy hoạch/kế hoạch phát triển hạ tầng số**
 - Làm gì: Xây dựng quy hoạch/kế hoạch phát triển hạ tầng viễn thông, hạ tầng số: mục tiêu phủ sóng, ngầm hóa cáp, dùng chung hạ tầng; phân công, lộ trình, kinh phí.
-- Dùng input: Báo cáo hiện trạng ở Bước 1, `nguoi_ky`
+- Dùng input: Báo cáo hiện trạng ở Bước 1, `nguoi_ky`.
 - Vai trò: Trưởng phòng chủ trì soạn; Phó Giám đốc Sở xem xét; Giám đốc Sở ký Tờ trình; Chủ tịch UBND tỉnh phê duyệt; AI hỗ trợ soạn thảo, lập bảng lộ trình đầu tư ⏱ ~10 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Quy hoạch phải gắn với quy hoạch tỉnh; ưu tiên phủ sóng vùng lõm, khu vực khó khăn; khuyến khích dùng chung hạ tầng kỹ thuật.
 - → Kết quả bước: Quy hoạch/kế hoạch phát triển hạ tầng số của UBND tỉnh.
 
 **Bước 3. Kiểm tra chất lượng dịch vụ viễn thông**
 - Làm gì: Kiểm tra chất lượng dịch vụ của doanh nghiệp viễn thông (tốc độ, vùng phủ, giá cước); đo kiểm chất lượng tại các điểm dân cư; lập biên bản.
-- Dùng input: `ke_hoach_kiem_tra`, `phan_anh_chat_luong`, `doanh_nghiep_vien_thong`
+- Dùng input: `ke_hoach_kiem_tra`, `phan_anh_chat_luong`, `doanh_nghiep_vien_thong`.
 - Vai trò: Đoàn kiểm tra của Sở (phối hợp cơ quan liên quan) thực hiện đo kiểm; chuyên viên lập biên bản; AI hỗ trợ tổng hợp kết quả đo kiểm, soạn biên bản ⏱ theo kế hoạch (ước tính)
 - Lưu ý nghiệp vụ: Đo kiểm phải đúng phương pháp, có biên bản; kết quả là căn cứ yêu cầu doanh nghiệp khắc phục, nâng cao chất lượng.
 - → Kết quả bước: Biên bản kiểm tra + báo cáo kết quả đo kiểm chất lượng dịch vụ.
 
 **Bước 4. Phòng, chống tin nhắn rác, cuộc gọi rác**
 - Làm gì: Tiếp nhận phản ánh tin nhắn rác, cuộc gọi rác, lừa đảo; phối hợp doanh nghiệp viễn thông ngăn chặn; tuyên truyền người dân; xử lý vi phạm theo thẩm quyền.
-- Dùng input: `phan_anh_chat_luong`, `doanh_nghiep_vien_thong`
+- Dùng input: `phan_anh_chat_luong`, `doanh_nghiep_vien_thong`.
 - Vai trò: Chuyên viên tiếp nhận, phân loại phản ánh; phối hợp doanh nghiệp viễn thông chặn số vi phạm; AI hỗ trợ tổng hợp phản ánh, thống kê đầu số vi phạm ⏱ thường xuyên (ước tính)
 - Lưu ý nghiệp vụ: Phân biệt tin nhắn rác với tin nhắn quảng cáo có sự đồng ý của người nhận; xử lý vi phạm phải có căn cứ, đúng thẩm quyền.
 - → Kết quả bước: Báo cáo phòng, chống tin nhắn rác, cuộc gọi rác + danh sách đầu số đã xử lý.
 
 **Bước 5. Quản lý thuê bao, tổng hợp báo cáo**
 - Làm gì: Kiểm tra việc đăng ký thông tin thuê bao của doanh nghiệp viễn thông; xử lý SIM rác; tổng hợp báo cáo công tác quản lý viễn thông năm.
-- Dùng input: Kết quả kiểm tra ở Bước 3, báo cáo của doanh nghiệp viễn thông
+- Dùng input: Kết quả kiểm tra ở Bước 3, báo cáo của doanh nghiệp viễn thông.
 - Vai trò: Chuyên viên kiểm tra, tổng hợp; Trưởng phòng kiểm tra; Giám đốc Sở ký báo cáo; AI hỗ trợ tổng hợp số liệu thuê bao, soạn báo cáo ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Quản lý thuê bao phải bảo đảm đúng quy định về đăng ký thông tin; phối hợp chặt chẽ với doanh nghiệp viễn thông và cơ quan công an khi xử lý SIM rác, lừa đảo.
 - → Kết quả bước: Báo cáo công tác quản lý viễn thông, Internet năm của tỉnh.

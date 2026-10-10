@@ -28,8 +28,7 @@ trọng dụng nhân tài KH&CN.
 - Làm gì: Tổng hợp chỉ số KH&CN (đầu tư, nhân lực, công bố, sáng chế, doanh nghiệp KHCN);
   đánh giá kết quả chiến lược giai đoạn trước.
 - Dùng input: `giai_doan`, `linh_vuc_uu_tien`.
-- Vai trò: Vụ Kế hoạch – Tài chính / Cục Thông tin KH&CN quốc gia chủ trì; AI hỗ trợ tổng hợp ⏱ ~5–7 ngày làm việc (ước tính).
-  số liệu, lập bảng chỉ số (3–4 giờ).
+- Vai trò: Vụ Kế hoạch – Tài chính / Cục Thông tin KH&CN quốc gia chủ trì; AI hỗ trợ tổng hợp số liệu, lập bảng chỉ số ⏱ ~5–7 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Số liệu từ nguồn chính thức; so sánh với khu vực và thế giới có cơ sở.
 - → Kết quả bước: Báo cáo đánh giá thực trạng.
 
@@ -37,7 +36,7 @@ trọng dụng nhân tài KH&CN.
 
 - Làm gì: Đề xuất quan điểm, mục tiêu, các nhiệm vụ, giải pháp đột phá; cơ chế chính sách mới.
 - Dùng input: `muc_tieu`, `nguon_luc`, báo cáo thực trạng.
-- Vai trò: Chuyên viên vụ chủ trì soạn thảo; AI hỗ trợ dự thảo, đối chiếu chiến lược các nước (2–3 giờ).
+- Vai trò: Chuyên viên vụ chủ trì soạn thảo; AI hỗ trợ dự thảo, đối chiếu chiến lược các nước (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Gắn với mục tiêu phát triển kinh tế – xã hội; đột phá về thể chế, nhân lực, hạ tầng.
 - → Kết quả bước: Dự thảo chiến lược.
 
@@ -46,7 +45,7 @@ trọng dụng nhân tài KH&CN.
 - Làm gì: Lấy ý kiến bộ/ngành, địa phương, viện nghiên cứu, trường đại học, doanh nghiệp,
   nhà khoa học; hội thảo khoa học.
 - Dùng input: Dự thảo chiến lược.
-- Vai trò: Đơn vị chủ trì tổng hợp; AI hỗ trợ phân loại ý kiến, bảng tiếp thu (2–3 giờ).
+- Vai trò: Đơn vị chủ trì tổng hợp; AI hỗ trợ phân loại ý kiến, bảng tiếp thu (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Trân trọng ý kiến nhà khoa học, doanh nghiệp công nghệ.
 - → Kết quả bước: Dự thảo hoàn chỉnh + báo cáo tiếp thu.
 
@@ -55,7 +54,7 @@ trọng dụng nhân tài KH&CN.
 - Làm gì: Trình Thủ tướng/Chính phủ phê duyệt; ban hành kế hoạch thực hiện; giao nhiệm vụ;
   theo dõi, sơ kết, tổng kết.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Vụ trưởng kiểm tra; Thứ trưởng duyệt; AI hỗ trợ checklist hồ sơ (1–2 giờ).
+- Vai trò: Vụ trưởng kiểm tra; Thứ trưởng duyệt; AI hỗ trợ checklist hồ sơ (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Công bố công khai; định kỳ đánh giá chỉ số.
 - → Kết quả bước: Quyết định phê duyệt + kế hoạch tổ chức thực hiện.
 

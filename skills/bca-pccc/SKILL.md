@@ -25,28 +25,28 @@ description: "Hằng năm xây dựng kế hoạch công tác PCCC và CNCH toà
 **Bước 1. Xây dựng kế hoạch công tác PCCC và CNCH năm**
 - Làm gì: Xác định nhiệm vụ trọng tâm: kiểm tra an toàn PCCC, tuyên truyền, huấn luyện, đầu tư phương tiện; phân công đơn vị thực hiện.
 - Dùng input: `nam_ke_hoach`, `noi_dung_trong_tam`, `bao_cao_dia_phuong`.
-- Vai trò: Chuyên viên Cục PCCC xây dựng (AI hỗ trợ tổng hợp báo cáo, phân tích tình hình cháy nổ năm trước ở mức thống kê công khai — 2 ngày) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt.
+- Vai trò: Chuyên viên Cục PCCC xây dựng (AI hỗ trợ tổng hợp báo cáo, phân tích tình hình cháy nổ năm trước ở mức thống kê công khai ⏱ 2 ngày (ước tính)) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt.
 - Lưu ý nghiệp vụ: Ưu tiên cơ sở có nguy cơ cháy nổ cao (chợ, chung cư, karaoke, kho xưởng); kế hoạch khả thi.
 - → Kết quả bước: Kế hoạch công tác PCCC và CNCH năm được phê duyệt.
 
 **Bước 2. Xây dựng chính sách, hướng dẫn**
 - Làm gì: Soạn thảo văn bản hướng dẫn: điều kiện an toàn PCCC, thẩm duyệt thiết kế, nghiệm thu về PCCC, kiểm tra định kỳ.
 - Dùng input: `van_ban_hien_hanh`, `noi_dung_trong_tam`.
-- Vai trò: Chuyên viên soạn thảo (AI hỗ trợ rà soát văn bản hiện hành, chuẩn hóa — 2 ngày) → Cục trưởng ký ban hành.
+- Vai trò: Chuyên viên soạn thảo (AI hỗ trợ rà soát văn bản hiện hành, chuẩn hóa ⏱ 2 ngày (ước tính)) → Cục trưởng ký ban hành.
 - Lưu ý nghiệp vụ: Quy định rõ, tránh chồng chéo với quản lý xây dựng; công khai tiêu chuẩn, quy chuẩn áp dụng.
 - → Kết quả bước: Văn bản hướng dẫn được ban hành.
 
 **Bước 3. Tổ chức đợt cao điểm kiểm tra**
 - Làm gì: Ban hành kế hoạch đợt cao điểm kiểm tra an toàn PCCC (dịp lễ, Tết, mùa khô); hướng dẫn địa phương thực hiện; tổng hợp vi phạm, xử lý.
 - Dùng input: `nam_ke_hoach`, `bao_cao_dia_phuong`.
-- Vai trò: Cục PCCC chủ trì (AI hỗ trợ lập kế hoạch, mẫu biên bản kiểm tra, bảng tổng hợp — 2 ngày) → Cục trưởng trình Thứ trưởng.
+- Vai trò: Cục PCCC chủ trì (AI hỗ trợ lập kế hoạch, mẫu biên bản kiểm tra, bảng tổng hợp ⏱ 2 ngày (ước tính)) → Cục trưởng trình Thứ trưởng.
 - Lưu ý nghiệp vụ: Kiểm tra có trọng tâm, trọng điểm; xử lý nghiêm vi phạm, kiên quyết tạm đình chỉ cơ sở không bảo đảm an toàn.
 - → Kết quả bước: Kế hoạch cao điểm và kết quả kiểm tra toàn quốc.
 
 **Bước 4. Tuyên truyền, tổng kết**
 - Làm gì: Xây dựng kế hoạch tuyên truyền, huấn luyện kỹ năng PCCC cho người dân, cơ sở; tổng kết, đánh giá toàn quốc.
 - Dùng input: Báo cáo kết quả của địa phương.
-- Vai trò: Chuyên viên thực hiện (AI hỗ trợ soạn tài liệu tuyên truyền, dự thảo báo cáo tổng kết — 2 ngày) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
+- Vai trò: Chuyên viên thực hiện (AI hỗ trợ soạn tài liệu tuyên truyền, dự thảo báo cáo tổng kết ⏱ 2 ngày (ước tính)) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
 - Lưu ý nghiệp vụ: Nội dung tuyên truyền dễ hiểu, phù hợp từng nhóm đối tượng.
 - → Kết quả bước: Kế hoạch tuyên truyền; báo cáo tổng kết công tác PCCC và CNCH.
 

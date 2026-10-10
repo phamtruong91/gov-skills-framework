@@ -28,7 +28,7 @@ giao thông vận tải.
 
 - Làm gì: Trình Bộ trưởng quyết định thành lập ban soạn thảo/tổ biên tập; phân công vụ chủ trì, vụ phối hợp.
 - Dùng input: `loai_van_ban`, `don_vi_chu_tri`, `can_cu_chu_truong`.
-- Vai trò: Vụ trưởng Vụ Pháp chế (Bộ Xây dựng) tham mưu; AI hỗ trợ dự thảo quyết định thành lập, danh sách thành viên (30 phút).
+- Vai trò: Vụ trưởng Vụ Pháp chế (Bộ Xây dựng) tham mưu; AI hỗ trợ dự thảo quyết định thành lập, danh sách thành viên (⏱ 30 phút).
 - Lưu ý nghiệp vụ: Thành phần ban soạn thảo phải có đại diện cơ quan liên quan theo quy định về ban hành VBQPPL.
 - → Kết quả bước: Quyết định thành lập ban soạn thảo/tổ biên tập.
 
@@ -36,7 +36,7 @@ giao thông vận tải.
 
 - Làm gì: Tổng kết thi hành văn bản hiện hành; nghiên cứu kinh nghiệm; xây dựng nội dung chính sách.
 - Dùng input: `noi_dung_chinh_sach`, `danh_gia_tac_dong`.
-- Vai trò: Chuyên viên vụ chủ trì thực hiện; AI hỗ trợ tổng hợp tài liệu, lập bảng so sánh quy định hiện hành (2–4 giờ).
+- Vai trò: Chuyên viên vụ chủ trì thực hiện; AI hỗ trợ tổng hợp tài liệu, lập bảng so sánh quy định hiện hành (⏱ 2–4 giờ).
 - Lưu ý nghiệp vụ: Đánh giá tác động chính sách bắt buộc đối với dự thảo luật, nghị định quy định TTHC.
 - → Kết quả bước: Báo cáo tổng kết + nội dung chính sách dự kiến đưa vào dự thảo.
 
@@ -44,7 +44,7 @@ giao thông vận tải.
 
 - Làm gì: Viết dự thảo điều khoản theo đúng kỹ thuật soạn thảo VBQPPL; kèm tờ trình, bản thuyết minh.
 - Dùng input: `ten_du_thao`, `noi_dung_chinh_sach`.
-- Vai trò: Tổ biên tập soạn thảo; AI hỗ trợ dự thảo điều khoản, rà soát kỹ thuật trình bày (1–2 ngày).
+- Vai trò: Tổ biên tập soạn thảo; AI hỗ trợ dự thảo điều khoản, rà soát kỹ thuật trình bày (⏱ 1–2 ngày).
 - Lưu ý nghiệp vụ: Ngôn ngữ chuẩn mực, thống nhất thuật ngữ chuyên ngành xây dựng/GTVT; không trái Hiến pháp, luật.
 - → Kết quả bước: Dự thảo văn bản + tờ trình + bản thuyết minh chi tiết.
 
@@ -52,7 +52,7 @@ giao thông vận tải.
 
 - Làm gì: Đăng lấy ý kiến trên Cổng TTĐT; gửi lấy ý kiến bộ/ngành, địa phương, đối tượng chịu tác động; gửi Bộ Tư pháp thẩm định (đối với dự thảo luật, nghị định).
 - Dùng input: Toàn bộ hồ sơ dự thảo.
-- Vai trò: Vụ chủ trì tổng hợp ý kiến; AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu/giải trình (2–3 giờ).
+- Vai trò: Vụ chủ trì tổng hợp ý kiến; AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu/giải trình (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Thời gian lấy ý kiến tối thiểu theo quy định; ý kiến thẩm định của Bộ Tư pháp phải được tiếp thu đầy đủ hoặc giải trình.
 - → Kết quả bước: Báo cáo tiếp thu, giải trình ý kiến; dự thảo hoàn chỉnh.
 
@@ -60,7 +60,7 @@ giao thông vận tải.
 
 - Làm gì: Hoàn thiện hồ sơ trình: tờ trình Bộ trưởng → Chính phủ (đối với luật, nghị định) hoặc Bộ trưởng ký ban hành (đối với thông tư).
 - Dùng input: Toàn bộ hồ sơ sau thẩm định.
-- Vai trò: Vụ trưởng Vụ Pháp chế kiểm tra hồ sơ; Thứ trưởng phụ trách duyệt; AI hỗ trợ checklist hồ sơ trình (1 giờ).
+- Vai trò: Vụ trưởng Vụ Pháp chế kiểm tra hồ sơ; Thứ trưởng phụ trách duyệt; AI hỗ trợ checklist hồ sơ trình (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Hồ sơ trình Chính phủ phải đầy đủ thành phần theo quy định; thông tư do Bộ trưởng ký sau khi có ý kiến thẩm định.
 - → Kết quả bước: Văn bản được ban hành + hồ sơ lưu trữ đầy đủ.
 

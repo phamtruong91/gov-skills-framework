@@ -15,36 +15,36 @@ description: "Quản lý nhà nước về hội, quỹ trên địa bàn tỉnh
 |--------|-------|----------|
 | `loai_thu_tuc` | Loại thủ tục (thành lập / chia tách / sáp nhập / đổi tên / giải thể / công nhận quỹ) | Có |
 | `ho_so` | Hồ sơ đề nghị theo quy định | Có |
-| `dieu_le_du_thao` | Dự thảo điều lệ hội, quỹ | Có (trừ giải thể) |
-| `danh_sach_sang_lap` | Danh sách ban vận động / sáng lập viên | Có (thành lập) |
+| `dieu_le_du_thao` | Dự thảo điều lệ hội, quỹ. Lưu ý: trừ giải thể.| Có |
+| `danh_sach_sang_lap` | Danh sách ban vận động / sáng lập viên. Lưu ý: thành lập.| Có |
 | `bao_cao_hoat_dong` | Báo cáo hoạt động định kỳ của hội, quỹ | Không |
 
 ## 4. Quy trình
 
 **Bước 1. Tiếp nhận, kiểm tra hồ sơ**
 - Làm gì: Tiếp nhận hồ sơ tại bộ phận một cửa; kiểm tra tính đầy đủ, hợp lệ; hướng dẫn bổ sung nếu thiếu.
-- Dùng input: `loai_thu_tuc`, `ho_so`
+- Dùng input: `loai_thu_tuc`, `ho_so`.
 - Vai trò: Chuyên viên Phòng Tổ chức phi chính phủ (Sở Nội vụ tỉnh A) kiểm tra; AI hỗ trợ checklist thành phần hồ sơ ⏱ ~1 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Trả lời bằng văn bản nếu hồ sơ không đủ điều kiện; không kéo dài thời gian xử lý.
 - → Kết quả bước: Giấy tiếp nhận / văn bản yêu cầu bổ sung.
 
 **Bước 2. Thẩm định nội dung**
 - Làm gì: Thẩm định: tên gọi, tôn chỉ, mục đích, phạm vi hoạt động, điều lệ, trụ sở, tài sản, nhân sự; lấy ý kiến cơ quan quản lý ngành, lĩnh vực.
-- Dùng input: `dieu_le_du_thao`, `danh_sach_sang_lap`
+- Dùng input: `dieu_le_du_thao`, `danh_sach_sang_lap`.
 - Vai trò: Chuyên viên thẩm định; AI hỗ trợ rà soát điều lệ theo khung chuẩn ⏱ ~7 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Tên hội không trùng, không gây nhầm lẫn; tôn chỉ, mục đích không trái pháp luật, thuần phong mỹ tục.
 - → Kết quả bước: Báo cáo thẩm định.
 
 **Bước 3. Trình quyết định**
 - Làm gì: Hoàn thiện tờ trình, dự thảo quyết định cho phép thành lập / công nhận / chia tách / giải thể; trình cấp có thẩm quyền.
-- Dùng input: Báo cáo thẩm định Bước 2
+- Dùng input: Báo cáo thẩm định Bước 2.
 - Vai trò: Giám đốc Sở Nội vụ ký tờ trình; Chủ tịch UBND tỉnh A quyết định; AI hỗ trợ soạn văn bản ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đúng thẩm quyền (UBND tỉnh đối với hội có phạm vi toàn tỉnh); quyết định đúng thể thức.
 - → Kết quả bước: Quyết định đã ban hành.
 
 **Bước 4. Theo dõi, kiểm tra hoạt động**
 - Làm gì: Cập nhật cơ sở dữ liệu hội, quỹ; kiểm tra việc chấp hành điều lệ, báo cáo định kỳ; xử lý vi phạm.
-- Dùng input: `bao_cao_hoat_dong`
+- Dùng input: `bao_cao_hoat_dong`.
 - Vai trò: Chuyên viên theo dõi; AI hỗ trợ lập bảng theo dõi, nhắc hạn báo cáo ⏱ định kỳ (ước tính)
 - Lưu ý nghiệp vụ: Hội, quỹ phải báo cáo định kỳ; kiểm tra khi có dấu hiệu vi phạm hoặc đơn thư phản ánh.
 - → Kết quả bước: Báo cáo tình hình hội, quỹ trên địa bàn.

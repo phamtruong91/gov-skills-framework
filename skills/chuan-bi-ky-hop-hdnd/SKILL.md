@@ -25,36 +25,36 @@ description: "Chuẩn bị nội dung, tài liệu kỳ họp HĐND xã (thườ
 
 **Bước 1. Xây dựng dự kiến chương trình kỳ họp**
 - Làm gì: Dự kiến nội dung, thời gian, địa điểm kỳ họp; phân công đơn vị chuẩn bị từng tài liệu; trình Thường trực HĐND quyết định triệu tập.
-- Dùng input: `loai_ky_hop`, `thoi_gian_du_kien`, `noi_dung_chuong_trinh`
-- Vai trò: Chánh Văn phòng HĐND và UBND chủ trì soạn; AI hỗ trợ lập dự thảo chương trình, bảng phân công chuẩn bị tài liệu — 1 ngày làm việc
+- Dùng input: `loai_ky_hop`, `thoi_gian_du_kien`, `noi_dung_chuong_trinh`.
+- Vai trò: Chánh Văn phòng HĐND và UBND chủ trì soạn; AI hỗ trợ lập dự thảo chương trình, bảng phân công chuẩn bị tài liệu ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Kỳ họp thường lệ: giữa năm và cuối năm; kỳ họp bất thường khi có vấn đề cấp bách; nội dung phải thuộc thẩm quyền quyết định của HĐND xã (dự toán ngân sách, kế hoạch phát triển KT-XH...).
 - → Kết quả bước: Dự kiến chương trình kỳ họp + bảng phân công chuẩn bị tài liệu.
 
 **Bước 2. Chuẩn bị tài liệu kỳ họp**
 - Làm gì: Đôn đốc các đơn vị gửi tài liệu: báo cáo của UBND, tờ trình, dự thảo nghị quyết, báo cáo thẩm tra của các Ban HĐND; rà soát thể thức, nội dung trước khi in ấn.
-- Dùng input: `tai_lieu_kem_theo`, `don_vi_chuan_bi`
-- Vai trò: Chánh Văn phòng HĐND và UBND đôn đốc, rà soát; AI hỗ trợ kiểm tra thể thức văn bản, tổng hợp danh mục tài liệu — 5 ngày làm việc
+- Dùng input: `tai_lieu_kem_theo`, `don_vi_chuan_bi`.
+- Vai trò: Chánh Văn phòng HĐND và UBND đôn đốc, rà soát; AI hỗ trợ kiểm tra thể thức văn bản, tổng hợp danh mục tài liệu ⏱ 5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Dự thảo nghị quyết phải đúng thể thức NĐ 30/2020/NĐ-CP; số liệu giữa báo cáo và tờ trình phải khớp nhau; tài liệu phải hoàn thành trước thời hạn gửi đại biểu.
 - → Kết quả bước: Bộ tài liệu kỳ họp hoàn chỉnh, đã rà soát.
 
 **Bước 3. Gửi tài liệu đến đại biểu HĐND đúng thời hạn**
 - Làm gì: In ấn/đóng tập tài liệu; gửi đến từng đại biểu HĐND kèm giấy triệu tập; xác nhận đại biểu đã nhận.
-- Dùng input: `danh_sach_dai_bieu`, bộ tài liệu kỳ họp
-- Vai trò: Văn phòng HĐND và UBND thực hiện; AI hỗ trợ lập danh sách gửi, theo dõi xác nhận — 0,5 ngày làm việc
+- Dùng input: `danh_sach_dai_bieu`, bộ tài liệu kỳ họp.
+- Vai trò: Văn phòng HĐND và UBND thực hiện; AI hỗ trợ lập danh sách gửi, theo dõi xác nhận ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Gửi đúng thời hạn theo quy định để đại biểu có thời gian nghiên cứu; lưu xác nhận đã gửi/đã nhận làm căn cứ.
 - → Kết quả bước: Tài liệu + giấy triệu tập đã đến 100% đại biểu đúng hạn.
 
 **Bước 4. Tổ chức kỳ họp và ghi biên bản**
 - Làm gì: Chuẩn bị hội trường, điểm danh đại biểu, phục vụ kỳ họp theo chương trình; ghi biên bản đầy đủ diễn biến, ý kiến thảo luận, kết quả biểu quyết.
-- Dùng input: Dự kiến chương trình, `danh_sach_dai_bieu`
-- Vai trò: Chánh Văn phòng HĐND và UBND điều hành công tác phục vụ; thư ký kỳ họp ghi biên bản; AI hỗ trợ soạn biên bản từ ghi chép — trong ngày họp
+- Dùng input: Dự kiến chương trình, `danh_sach_dai_bieu`.
+- Vai trò: Chánh Văn phòng HĐND và UBND điều hành công tác phục vụ; thư ký kỳ họp ghi biên bản; AI hỗ trợ soạn biên bản từ ghi chép ⏱ trong ngày họp
 - Lưu ý nghiệp vụ: Biên bản phải phản ánh trung thực diễn biến, tỷ lệ biểu quyết từng nghị quyết; bảo đảm số đại biểu dự họp theo quy định.
 - → Kết quả bước: Biên bản kỳ họp HĐND xã.
 
 **Bước 5. Ban hành nghị quyết và báo cáo kết quả**
 - Làm gì: Hoàn thiện, ban hành các nghị quyết được kỳ họp thông qua; gửi nghị quyết đến cơ quan, tổ chức liên quan; báo cáo kết quả kỳ họp lên cấp trên.
-- Dùng input: Biên bản kỳ họp, dự thảo nghị quyết đã thông qua
-- Vai trò: Chánh Văn phòng HĐND và UBND hoàn thiện văn bản; Chủ tịch HĐND ký ban hành nghị quyết; AI hỗ trợ rà soát thể thức trước khi ký — 2 ngày làm việc
+- Dùng input: Biên bản kỳ họp, dự thảo nghị quyết đã thông qua.
+- Vai trò: Chánh Văn phòng HĐND và UBND hoàn thiện văn bản; Chủ tịch HĐND ký ban hành nghị quyết; AI hỗ trợ rà soát thể thức trước khi ký ⏱ 2 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Nghị quyết HĐND do Chủ tịch HĐND ký; gửi đúng nơi nhận theo quy định; lưu hồ sơ kỳ họp đầy đủ (chương trình, tài liệu, biên bản, nghị quyết).
 - → Kết quả bước: Nghị quyết HĐND xã đã ban hành + báo cáo kết quả kỳ họp.
 

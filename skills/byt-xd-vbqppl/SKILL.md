@@ -29,7 +29,7 @@ hành chính thông thường (dùng skill `soan-cong-van`, `soan-quyet-dinh-hc`
 
 - Làm gì: Vụ/Cục chủ trì lập đề cương chi tiết, xác định phạm vi điều chỉnh, bố cục dự thảo, tiến độ.
 - Dùng input: `loai_van_ban`, `ten_van_ban`, `can_cu_chu_truong`, `co_quan_chu_tri`.
-- Vai trò: Chuyên viên Vụ chủ trì soạn đề cương (AI hỗ trợ tra cứu văn bản liên quan, đối chiếu quy định hiện hành — 2 giờ); Vụ trưởng Vụ chủ trì (ông Hoàng Văn EE) duyệt đề cương.
+- Vai trò: Chuyên viên Vụ chủ trì soạn đề cương (AI hỗ trợ tra cứu văn bản liên quan, đối chiếu quy định hiện hành ⏱ 2 giờ (ước tính)); Vụ trưởng Vụ chủ trì (ông Hoàng Văn EE) duyệt đề cương.
 - Lưu ý nghiệp vụ: Đề cương phải bám sát chủ trương được giao, không mở rộng phạm vi tùy tiện.
 - → Kết quả bước: Đề cương chi tiết + kế hoạch soạn thảo được duyệt.
 
@@ -37,7 +37,7 @@ hành chính thông thường (dùng skill `soan-cong-van`, `soan-quyet-dinh-hc`
 
 - Làm gì: Soạn dự thảo; gửi lấy ý kiến các vụ/cục trong Bộ, bộ/ngành liên quan, UBND tỉnh/thành phố, đối tượng chịu tác động; đăng tải lấy ý kiến trên Cổng TTĐT theo quy định.
 - Dùng input: `de_cuong`, `y_kien_phoi_hop`.
-- Vai trò: Tổ soạn thảo (chuyên viên các vụ/cục) thực hiện (AI hỗ trợ tổng hợp ý kiến trùng lặp, lập bảng tổng hợp tiếp thu/giải trình — 4 giờ); Vụ trưởng Vụ chủ trì ký văn bản lấy ý kiến.
+- Vai trò: Tổ soạn thảo (chuyên viên các vụ/cục) thực hiện (AI hỗ trợ tổng hợp ý kiến trùng lặp, lập bảng tổng hợp tiếp thu/giải trình ⏱ 4 giờ (ước tính)); Vụ trưởng Vụ chủ trì ký văn bản lấy ý kiến.
 - Lưu ý nghiệp vụ: Thời gian lấy ý kiến tuân thủ quy định của Luật Ban hành VBQPPL; mọi ý kiến phải được tổng hợp, tiếp thu hoặc giải trình.
 - → Kết quả bước: Dự thảo lần 2 kèm bảng tổng hợp ý kiến và giải trình tiếp thu.
 
@@ -45,7 +45,7 @@ hành chính thông thường (dùng skill `soan-cong-van`, `soan-quyet-dinh-hc`
 
 - Làm gì: Vụ Pháp chế — Bộ Y tế thẩm định dự thảo thông tư; Bộ Tư pháp thẩm định dự thảo luật, nghị định. Hoàn thiện hồ sơ theo ý kiến thẩm định.
 - Dùng input: Dự thảo lần 2, bảng tổng hợp ý kiến.
-- Vai trò: Vụ Pháp chế thẩm định (AI hỗ trợ rà soát tính thống nhất với hệ thống pháp luật, phát hiện chồng chéo — 3 giờ); Thứ trưởng phụ trách (bà Phạm Thị DD) cho ý kiến chỉ đạo hoàn thiện.
+- Vai trò: Vụ Pháp chế thẩm định (AI hỗ trợ rà soát tính thống nhất với hệ thống pháp luật, phát hiện chồng chéo ⏱ 3 giờ (ước tính)); Thứ trưởng phụ trách (bà Phạm Thị DD) cho ý kiến chỉ đạo hoàn thiện.
 - Lưu ý nghiệp vụ: Không trình cấp có thẩm quyền khi chưa có báo cáo thẩm định; nội dung phải bảo đảm tính hợp hiến, hợp pháp, thống nhất, khả thi.
 - → Kết quả bước: Báo cáo thẩm định + dự thảo hoàn thiện.
 
@@ -53,7 +53,7 @@ hành chính thông thường (dùng skill `soan-cong-van`, `soan-quyet-dinh-hc`
 
 - Làm gì: Hoàn thiện hồ sơ trình: tờ trình, dự thảo, báo cáo tổng hợp ý kiến, báo cáo thẩm định, báo cáo đánh giá tác động. Bộ trưởng ký trình Chính phủ/Thủ tướng (đối với luật, nghị định) hoặc ký ban hành (đối với thông tư).
 - Dùng input: Toàn bộ hồ sơ các bước trước.
-- Vai trò: Vụ trưởng Vụ chủ trì hoàn thiện hồ sơ (AI hỗ trợ kiểm tra tính đầy đủ thành phần hồ sơ theo quy định — 1 giờ); Bộ trưởng (ông Lê Văn CC) ký trình/ký ban hành.
+- Vai trò: Vụ trưởng Vụ chủ trì hoàn thiện hồ sơ (AI hỗ trợ kiểm tra tính đầy đủ thành phần hồ sơ theo quy định ⏱ 1 giờ (ước tính)); Bộ trưởng (ông Lê Văn CC) ký trình/ký ban hành.
 - Lưu ý nghiệp vụ: Thể thức văn bản đúng NĐ 30/2020/NĐ-CP; số hiệu, ngày ban hành thống nhất.
 - → Kết quả bước: Văn bản QPPL được ban hành + hồ sơ lưu trữ đầy đủ.
 
@@ -61,7 +61,7 @@ hành chính thông thường (dùng skill `soan-cong-van`, `soan-quyet-dinh-hc`
 
 - Làm gì: Gửi văn bản đến cơ quan, tổ chức, địa phương; theo dõi, đôn đốc thi hành; tổng hợp vướng mắc để sửa đổi, bổ sung.
 - Dùng input: Văn bản đã ban hành.
-- Vai trò: Vụ/Cục chủ trì theo dõi (AI hỗ trợ tổng hợp báo cáo vướng mắc từ địa phương — 2 giờ).
+- Vai trò: Vụ/Cục chủ trì theo dõi (AI hỗ trợ tổng hợp báo cáo vướng mắc từ địa phương ⏱ 2 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Kịp thời đề xuất sửa đổi khi phát hiện bất cập trong thi hành.
 - → Kết quả bước: Báo cáo theo dõi thi hành văn bản.
 
@@ -122,7 +122,7 @@ flowchart TD
 | can_cu_chu_truong | Chương trình xây dựng văn bản QPPL năm 2026 của Bộ Y tế |
 | co_quan_chu_tri | Cục Quản lý Khám, chữa bệnh chủ trì, Vụ Pháp chế phối hợp |
 | de_cuong | 4 chương, 20 điều: nguyên tắc phân tuyến; danh mục kỹ thuật tuyến trung ương/tỉnh/huyện; chuyển giao kỹ thuật; điều khoản thi hành |
-| y_kien_phoi_hop | Ý kiến của 20 Sở Y tế tỉnh A..., 5 bệnh viện tuyến trung ương |
+| y_kien_phoi_hop | Ý kiến của 20 Sở Y tế tỉnh A.., 5 bệnh viện tuyến trung ương |
 
 **Output mẫu (trích Tờ trình):**
 

@@ -24,35 +24,35 @@ description: "Tham mưu UBND tỉnh sắp xếp, tinh gọn tổ chức bộ má
 
 **Bước 1. Rà soát hiện trạng tổ chức bộ máy, biên chế**
 - Làm gì: Thu thập, rà soát hiện trạng: số đầu mối sở/ngành, phòng, chi cục, đơn vị sự nghiệp; biên chế thực có so với biên chế được giao; chồng chéo chức năng.
-- Dùng input: `hien_trang_bo_may`, `dinh_muc_bien_che`
+- Dùng input: `hien_trang_bo_may`, `dinh_muc_bien_che`.
 - Vai trò: Chuyên viên Phòng Tổ chức bộ máy (Sở Nội vụ tỉnh A) rà soát; AI hỗ trợ lập bảng tổng hợp, phát hiện chồng chéo chức năng ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Số liệu phải chính xác đến từng đầu mối, từng biên chế; đối chiếu với quyết định giao biên chế của cấp có thẩm quyền.
 - → Kết quả bước: Báo cáo hiện trạng tổ chức bộ máy, biên chế.
 
 **Bước 2. Xây dựng phương án sắp xếp**
 - Làm gì: Xây dựng phương án: sáp nhập/giải thể/thành lập tổ chức; chuyển chức năng, nhiệm vụ; phương án bố trí cán bộ, xử lý dôi dư; lộ trình thực hiện.
-- Dùng input: `chu_truong`, `de_xuat_sap_xep`, `y_kien_cac_ben`
+- Dùng input: `chu_truong`, `de_xuat_sap_xep`, `y_kien_cac_ben`.
 - Vai trò: Trưởng phòng Tổ chức bộ máy chủ trì; AI hỗ trợ soạn đề án theo khung, lập bảng chuyển đổi chức năng ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Phương án phải bám chủ trương của Trung ương; bảo đảm không gián đoạn hoạt động, không bỏ sót chức năng, nhiệm vụ; có phương án xử lý cán bộ dôi dư đúng chính sách.
 - → Kết quả bước: Dự thảo đề án sắp xếp tổ chức bộ máy.
 
 **Bước 3. Lấy ý kiến và thẩm định**
 - Làm gì: Gửi lấy ý kiến các sở, ngành, đơn vị liên quan; thẩm định đề án sắp xếp nội bộ của các sở, ngành (nếu được giao).
-- Dùng input: Dự thảo đề án
+- Dùng input: Dự thảo đề án.
 - Vai trò: Chuyên viên tổng hợp; AI hỗ trợ lập bảng tổng hợp ý kiến ⏱ ~7 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Ý kiến không tiếp thu phải giải trình; đề án của sở, ngành phải phù hợp khung của tỉnh.
 - → Kết quả bước: Đề án hoàn thiện kèm bảng tiếp thu ý kiến.
 
 **Bước 4. Trình phê duyệt và tổ chức thực hiện**
 - Làm gì: Trình UBND tỉnh (hoặc cấp có thẩm quyền) phê duyệt đề án; tham mưu quyết định thành lập, tổ chức lại, giải thể; hướng dẫn bàn giao.
-- Dùng input: Đề án hoàn thiện
+- Dùng input: Đề án hoàn thiện.
 - Vai trò: Giám đốc Sở Nội vụ ký tờ trình; Chủ tịch UBND tỉnh A quyết định; AI hỗ trợ soạn tờ trình, dự thảo quyết định ⏱ ~2 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đúng thẩm quyền quyết định thành lập/tổ chức lại/giải thể; bàn giao hồ sơ, tài sản, con dấu đầy đủ, đúng thủ tục.
 - → Kết quả bước: Quyết định phê duyệt đề án và các quyết định tổ chức lại.
 
 **Bước 5. Tham mưu giao biên chế hằng năm**
 - Làm gì: Trên cơ sở đề án đã phê duyệt, tham mưu UBND tỉnh giao biên chế công chức, số lượng người làm việc cho các cơ quan, đơn vị năm tiếp theo.
-- Dùng input: `dinh_muc_bien_che`, kết quả sắp xếp
+- Dùng input: `dinh_muc_bien_che`, kết quả sắp xếp.
 - Vai trò: Chuyên viên tính toán; Giám đốc Sở Nội vụ trình; AI hỗ trợ lập bảng phân bổ biên chế ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Giao biên chế trong tổng số được cấp có thẩm quyền giao; gắn với vị trí việc làm đã phê duyệt.
 - → Kết quả bước: Quyết định giao biên chế năm của UBND tỉnh.

@@ -25,7 +25,7 @@ phát triển làng văn hóa, du lịch cộng đồng gắn với bảo tồn.
 
 - Làm gì: Tổ chức kiểm kê di sản văn hóa vật thể, phi vật thể của các DTTS; đánh giá nguy cơ mai một; lập danh mục ưu tiên bảo tồn.
 - Dùng input: `danh_muc_di_san`, `bao_cao_dia_phuong`.
-- Vai trò: Chuyên viên đơn vị văn hóa dân tộc phối hợp địa phương kiểm kê (AI hỗ trợ xây dựng cơ sở dữ liệu di sản, bản đồ phân bố — 3 giờ); Vụ trưởng (ông Hoàng Văn EE) duyệt danh mục.
+- Vai trò: Chuyên viên đơn vị văn hóa dân tộc phối hợp địa phương kiểm kê (AI hỗ trợ xây dựng cơ sở dữ liệu di sản, bản đồ phân bố ⏱ 3 giờ (ước tính)); Vụ trưởng (ông Hoàng Văn EE) duyệt danh mục.
 - Lưu ý nghiệp vụ: Kiểm kê phải có sự tham gia của cộng đồng, nghệ nhân; tôn trọng tính nguyên bản, không sân khấu hóa quá mức.
 - → Kết quả bước: Danh mục di sản văn hóa DTTS ưu tiên bảo tồn.
 
@@ -33,7 +33,7 @@ phát triển làng văn hóa, du lịch cộng đồng gắn với bảo tồn.
 
 - Làm gì: Rà soát, đề nghị phong tặng nghệ nhân nhân dân/nghệ nhân ưu tú; hỗ trợ kinh phí truyền dạy; tổ chức lớp truyền dạy trong cộng đồng.
 - Dùng input: `danh_sach_nghe_nhan`.
-- Vai trò: Đơn vị văn hóa dân tộc thẩm định hồ sơ (AI hỗ trợ quản lý hồ sơ nghệ nhân — 2 giờ); Bộ trưởng (ông Lê Văn CC) trình Chủ tịch nước phong tặng theo quy định.
+- Vai trò: Đơn vị văn hóa dân tộc thẩm định hồ sơ (AI hỗ trợ quản lý hồ sơ nghệ nhân ⏱ 2 giờ (ước tính)); Bộ trưởng (ông Lê Văn CC) trình Chủ tịch nước phong tặng theo quy định.
 - Lưu ý nghiệp vụ: Tiêu chí phong tặng công khai, minh bạch; ưu tiên nghệ nhân cao tuổi, có nguy cơ thất truyền.
 - → Kết quả bước: Tờ trình phong tặng + kế hoạch hỗ trợ truyền dạy.
 
@@ -41,7 +41,7 @@ phát triển làng văn hóa, du lịch cộng đồng gắn với bảo tồn.
 
 - Làm gì: Phê duyệt, triển khai dự án (làng văn hóa du lịch cộng đồng, số hóa di sản, lễ hội); lồng ghép phát triển du lịch bền vững.
 - Dùng input: `de_xuat_du_an`.
-- Vai trò: Đơn vị văn hóa dân tộc quản lý dự án (AI hỗ trợ theo dõi tiến độ, tổng hợp báo cáo — 2 giờ); Thứ trưởng (bà Phạm Thị DD) phê duyệt dự án.
+- Vai trò: Đơn vị văn hóa dân tộc quản lý dự án (AI hỗ trợ theo dõi tiến độ, tổng hợp báo cáo ⏱ 2 giờ (ước tính)); Thứ trưởng (bà Phạm Thị DD) phê duyệt dự án.
 - Lưu ý nghiệp vụ: Bảo tồn gắn với sinh kế cộng đồng; chống thương mại hóa làm biến dạng di sản.
 - → Kết quả bước: Dự án bảo tồn được triển khai + báo cáo tiến độ.
 
@@ -49,7 +49,7 @@ phát triển làng văn hóa, du lịch cộng đồng gắn với bảo tồn.
 
 - Làm gì: Đánh giá hiệu quả bảo tồn (số di sản được bảo tồn, nghệ nhân được hỗ trợ, thu nhập từ du lịch văn hóa); báo cáo.
 - Dùng input: `bao_cao_dia_phuong`.
-- Vai trò: Đơn vị văn hóa dân tộc tổng hợp (AI hỗ trợ phân tích chỉ số — 2 giờ).
+- Vai trò: Đơn vị văn hóa dân tộc tổng hợp (AI hỗ trợ phân tích chỉ số ⏱ 2 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Đánh giá cả hiệu quả bảo tồn và sinh kế cộng đồng; không chạy theo số lượng dự án.
 - → Kết quả bước: Báo cáo công tác bảo tồn văn hóa DTTS.
 

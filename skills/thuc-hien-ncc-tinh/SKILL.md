@@ -23,35 +23,35 @@ description: "Xác nhận, giải quyết chế độ ưu đãi đối với ng�
 
 **Bước 1. Tiếp nhận, kiểm tra hồ sơ**
 - Làm gì: Tiếp nhận hồ sơ tại bộ phận một cửa (Sở Nội vụ hoặc UBND cấp xã chuyển lên); kiểm tra tính đầy đủ, hợp lệ.
-- Dùng input: `doi_tuong`, `ho_so_giay_to`, `loai_che_do`
+- Dùng input: `doi_tuong`, `ho_so_giay_to`, `loai_che_do`.
 - Vai trò: Chuyên viên Phòng Người có công (Sở Nội vụ tỉnh A) kiểm tra; AI hỗ trợ checklist hồ sơ theo từng loại chế độ ⏱ ~1 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Hướng dẫn bổ sung một lần, đầy đủ; không yêu cầu giấy tờ ngoài quy định.
 - → Kết quả bước: Giấy tiếp nhận / văn bản hướng dẫn bổ sung.
 
 **Bước 2. Xác minh đối tượng**
 - Làm gì: Xác minh quá trình tham gia cách mạng, công tác qua địa phương, đơn vị cũ, nhân chứng; đối chiếu tiêu chuẩn từng đối tượng.
-- Dùng input: `ket_qua_xac_minh`, `ho_so_giay_to`
+- Dùng input: `ket_qua_xac_minh`, `ho_so_giay_to`.
 - Vai trò: Chuyên viên phối hợp UBND cấp xã, cơ quan liên quan xác minh; AI hỗ trợ lập phiếu xác minh ⏱ ~10 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Xác minh khách quan, thận trọng; đặc biệt cảnh giác hồ sơ giả, khai man để trục lợi.
 - → Kết quả bước: Biên bản xác minh.
 
 **Bước 3. Thẩm định, trình công nhận**
 - Làm gì: Thẩm định hồ sơ, lập tờ trình đề nghị công nhận người có công / giải quyết chế độ; trình cấp có thẩm quyền.
-- Dùng input: Biên bản xác minh Bước 2
+- Dùng input: Biên bản xác minh Bước 2.
 - Vai trò: Trưởng phòng Người có công kiểm tra; Giám đốc Sở Nội vụ ký tờ trình; AI hỗ trợ soạn văn bản ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đúng đối tượng, đúng chế độ; hồ sơ không đủ căn cứ thì từ chối bằng văn bản nêu rõ lý do.
 - → Kết quả bước: Tờ trình + dự thảo quyết định.
 
 **Bước 4. Ban hành quyết định, chi trả chế độ**
 - Làm gì: Ban hành quyết định công nhận / hưởng chế độ; chuyển cơ quan chi trả (bảo hiểm xã hội, kho bạc); cấp giấy chứng nhận.
-- Dùng input: Quyết định đã ký
+- Dùng input: Quyết định đã ký.
 - Vai trò: Cấp có thẩm quyền quyết định; AI hỗ trợ lập danh sách chi trả ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Chi trả đúng đối tượng, đúng mức, kịp thời; công khai danh sách tại địa phương.
 - → Kết quả bước: Quyết định + danh sách chi trả chế độ.
 
 **Bước 5. Quản lý hồ sơ, kiểm tra sau hưởng**
 - Làm gì: Lưu trữ hồ sơ người có công; kiểm tra định kỳ, đột xuất; xử lý thu hồi khi phát hiện hưởng sai.
-- Dùng input: Hồ sơ đã giải quyết
+- Dùng input: Hồ sơ đã giải quyết.
 - Vai trò: Chuyên viên quản lý; AI hỗ trợ rà soát dữ liệu, phát hiện bất thường ⏱ định kỳ (ước tính)
 - Lưu ý nghiệp vụ: Kiên quyết thu hồi, xử lý vi phạm đối với hồ sơ giả; bảo vệ quyền lợi người có công thật sự.
 - → Kết quả bước: Cơ sở dữ liệu người có công; báo cáo kiểm tra.

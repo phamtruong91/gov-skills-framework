@@ -31,42 +31,42 @@ description: "Xây dựng phương án phòng, chống thiên tai và tìm kiế
 **Bước 1. Rà soát, cập nhật rủi ro thiên tai trên địa bàn**
 - Làm gì: Thu thập, cập nhật danh mục rủi ro thiên tai từng thôn: loại hình (bão, ngập lụt, sạt lở), vị trí cụ thể, mức độ ảnh hưởng các năm trước, số hộ dân trong vùng nguy cơ; vẽ sơ đồ, lập bản đồ vùng nguy cơ ngập lụt, sạt lở của xã.
 - Dùng input: `rui_ro_thien_tai`, `vung_nguy_co`, `phuong_an_nam_truoc`.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) chủ trì khảo sát, phối hợp trưởng các thôn; AI hỗ trợ tổng hợp số liệu thành bảng rủi ro theo thôn và gợi ý khung bản đồ vùng nguy cơ (~2 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) chủ trì khảo sát, phối hợp trưởng các thôn; AI hỗ trợ tổng hợp số liệu thành bảng rủi ro theo thôn và gợi ý khung bản đồ vùng nguy cơ (⏱ ~2 ngày).
 - Lưu ý nghiệp vụ: Phải cập nhật ngay khi địa bàn có biến động sau sáp nhập (thôn mới, địa hình mới); số liệu hộ dân trong vùng nguy cơ phải khớp với danh sách hộ của thôn, không ước đoán.
 - → Kết quả bước: Bảng rủi ro thiên tai theo thôn + bản đồ vùng nguy cơ ngập lụt, sạt lở của xã.
 
 **Bước 2. Thống kê lực lượng, phương tiện, nhu yếu phẩm theo phương châm "4 tại chỗ"**
 - Làm gì: Lập danh sách lực lượng (dân quân, công an xã, tổ xung kích PCTT từng thôn), kiểm kê phương tiện, nhu yếu phẩm hiện có; xác định phần thiếu so với nhu cầu ứng phó và đề xuất bổ sung, mua sắm, sửa chữa.
 - Dùng input: `luc_luong`, `phuong_tien`, `nhu_yeu_pham`, bảng rủi ro bước 1.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) kiểm kê, phối hợp Ban Chỉ huy Quân sự xã, công an xã; AI hỗ trợ lập bảng thống kê và bảng đối chiếu thiếu – đủ (~1 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) kiểm kê, phối hợp Ban Chỉ huy Quân sự xã, công an xã; AI hỗ trợ lập bảng thống kê và bảng đối chiếu thiếu – đủ (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Phương châm "4 tại chỗ": chỉ huy tại chỗ, lực lượng tại chỗ, phương tiện và vật tư tại chỗ, hậu cần tại chỗ; phương tiện hỏng phải có kế hoạch sửa chữa trước mùa mưa bão.
 - → Kết quả bước: Bảng thống kê lực lượng – phương tiện – nhu yếu phẩm theo "4 tại chỗ" + danh mục cần bổ sung.
 
 **Bước 3. Xây dựng kịch bản ứng phó và sơ tán dân**
 - Làm gì: Xây dựng kịch bản ứng phó theo từng loại hình, cấp độ rủi ro thiên tai (trước – trong – sau thiên tai); xác định điểm sơ tán, tuyến đường sơ tán, phương tiện vận chuyển, phân công lực lượng đưa đón, bảo đảm an ninh, hậu cần tại điểm sơ tán.
 - Dùng input: `diem_so_tan`, bảng rủi ro bước 1, bảng lực lượng bước 2.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) dự thảo kịch bản; AI hỗ trợ soạn khung kịch bản theo từng tình huống (bão đổ bộ, ngập sâu, sạt lở) và bảng phân công nhiệm vụ (~1 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) dự thảo kịch bản; AI hỗ trợ soạn khung kịch bản theo từng tình huống (bão đổ bộ, ngập sâu, sạt lở) và bảng phân công nhiệm vụ (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Ưu tiên sơ tán người già, trẻ em, người khuyết tật, phụ nữ mang thai; điểm sơ tán phải bảo đảm an toàn (không ngập, không sạt lở), đủ nước sạch, vệ sinh.
 - → Kết quả bước: Kịch bản ứng phó theo tình huống + kế hoạch sơ tán dân (điểm, tuyến, lực lượng, hậu cần).
 
 **Bước 4. Dự thảo Phương án PCTT-TKCN xã**
 - Làm gì: Tổng hợp kết quả các bước 1–3 thành dự thảo Phương án PCTT-TKCN xã năm áp dụng: đánh giá tình hình, mục tiêu, lực lượng – phương tiện – nhu yếu phẩm, kịch bản ứng phó, sơ tán dân, trực ban, thông tin liên lạc, tổ chức thực hiện; kèm phụ lục (bản đồ vùng nguy cơ, phân công trực ban).
 - Dùng input: Toàn bộ kết quả các bước 1–3, `ke_hoach_cap_tren`, `nam_phuong_an`.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) soạn dự thảo; AI hỗ trợ soạn thảo theo đúng thể thức văn bản hành chính (NĐ 30/2020/NĐ-CP), kiểm tra tính đầy đủ các phần (~2 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) soạn dự thảo; AI hỗ trợ soạn thảo theo đúng thể thức văn bản hành chính (NĐ 30/2020/NĐ-CP), kiểm tra tính đầy đủ các phần (⏱ ~2 ngày).
 - Lưu ý nghiệp vụ: Phương án phải ban hành trước mùa mưa bão; căn cứ pháp lý chỉ dùng văn bản còn hiệu lực (TT 19/2025/TT-BNNMT, Luật Phòng, chống thiên tai); số liệu trong phương án phải khớp input, không bịa.
 - → Kết quả bước: Dự thảo Phương án PCTT-TKCN xã năm áp dụng kèm phụ lục.
 
 **Bước 5. Lấy ý kiến các thôn, đơn vị; trình Chủ tịch UBND xã ký ban hành**
 - Làm gì: Gửi dự thảo lấy ý kiến các thôn, công an xã, Ban Chỉ huy Quân sự xã, các đoàn thể; tổng hợp, tiếp thu ý kiến; hoàn thiện dự thảo trình Trưởng phòng Kinh tế kiểm tra, trình Chủ tịch UBND xã (đồng thời là Trưởng Ban chỉ huy PCTT-TKCN xã) ký ban hành Quyết định.
 - Dùng input: Dự thảo phương án bước 4.
-- Vai trò: Trưởng phòng Kinh tế (bà Hoàng Thị D) kiểm tra nội dung, thể thức, tổng hợp ý kiến; AI hỗ trợ lập bảng tổng hợp ý kiến góp ý và tiếp thu (~1 ngày); Chủ tịch UBND xã (ông Nguyễn Văn A) ký ban hành.
+- Vai trò: Trưởng phòng Kinh tế (bà Hoàng Thị D) kiểm tra nội dung, thể thức, tổng hợp ý kiến; AI hỗ trợ lập bảng tổng hợp ý kiến góp ý và tiếp thu (⏱ ~1 ngày); Chủ tịch UBND xã (ông Nguyễn Văn A) ký ban hành.
 - Lưu ý nghiệp vụ: Ý kiến của thôn về điểm sơ tán, tuyến đường phải được tiếp thu đầy đủ vì liên quan trực tiếp đến tính mạng người dân; văn bản do Chủ tịch UBND xã ký với tư cách Trưởng Ban chỉ huy PCTT-TKCN xã.
 - → Kết quả bước: Quyết định ban hành Phương án PCTT-TKCN xã năm áp dụng đã ký, đóng dấu.
 
 **Bước 6. Tuyên truyền, phổ biến và tổ chức diễn tập**
 - Làm gì: Phổ biến phương án đến các thôn, hộ dân vùng nguy cơ (niêm yết, loa truyền thanh, họp thôn); tổ chức diễn tập sơ tán dân, cứu hộ tại thôn xung yếu; rút kinh nghiệm, bổ sung phương án.
 - Dùng input: Phương án đã ban hành bước 5.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) phối hợp trưởng các thôn, công an xã tổ chức; AI hỗ trợ soạn kế hoạch diễn tập, nội dung tuyên truyền ngắn gọn cho loa truyền thanh (~1 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) phối hợp trưởng các thôn, công an xã tổ chức; AI hỗ trợ soạn kế hoạch diễn tập, nội dung tuyên truyền ngắn gọn cho loa truyền thanh (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Diễn tập phải có phương án bảo đảm an toàn cho người tham gia; hộ dân vùng nguy cơ phải biết rõ điểm sơ tán và người phụ trách đưa đón của thôn mình.
 - → Kết quả bước: Kế hoạch tuyên truyền, diễn tập đã thực hiện + biên bản rút kinh nghiệm.
 

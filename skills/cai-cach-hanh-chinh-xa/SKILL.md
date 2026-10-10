@@ -25,36 +25,36 @@ description: "Xây dựng kế hoạch cải cách hành chính năm của xã; 
 
 **Bước 1. Đánh giá kết quả CCHC năm trước**
 - Làm gì: Tổng hợp kết quả thực hiện kế hoạch CCHC năm trước theo 5 nội dung: cải cách TTHC, tổ chức bộ máy, chế độ công vụ, tài chính công, xây dựng chính quyền số; nêu tồn tại, nguyên nhân.
-- Dùng input: `ket_qua_nam_truoc`, `so_lieu_mot_cua`, `nam_ke_hoach`
-- Vai trò: Công chức Văn phòng phụ trách CCHC tổng hợp; AI hỗ trợ đối chiếu số liệu, lập bảng đánh giá theo 5 nội dung — 1 ngày làm việc
+- Dùng input: `ket_qua_nam_truoc`, `so_lieu_mot_cua`, `nam_ke_hoach`.
+- Vai trò: Công chức Văn phòng phụ trách CCHC tổng hợp; AI hỗ trợ đối chiếu số liệu, lập bảng đánh giá theo 5 nội dung ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Đánh giá phải gắn với số liệu (tỷ lệ hồ sơ đúng hạn, số TTHC rút gọn...); nêu rõ tồn tại thuộc trách nhiệm của xã, không đổ lỗi chung chung.
 - → Kết quả bước: Bản đánh giá kết quả CCHC năm trước (điểm mạnh, tồn tại, nguyên nhân).
 
 **Bước 2. Lập kế hoạch CCHC năm**
 - Làm gì: Xây dựng kế hoạch CCHC năm mới: mục tiêu, nhiệm vụ theo 5 nội dung, phân công đơn vị thực hiện, thời gian hoàn thành, kinh phí.
-- Dùng input: `nhiem_vu_trong_tam`, `chi_dao_cap_tren`, kết quả đánh giá ở Bước 1
-- Vai trò: Chánh Văn phòng HĐND và UBND chủ trì soạn; AI hỗ trợ soạn kế hoạch theo khung 5 nội dung, lập bảng phân công — 2 ngày làm việc
+- Dùng input: `nhiem_vu_trong_tam`, `chi_dao_cap_tren`, kết quả đánh giá ở Bước 1.
+- Vai trò: Chánh Văn phòng HĐND và UBND chủ trì soạn; AI hỗ trợ soạn kế hoạch theo khung 5 nội dung, lập bảng phân công ⏱ 2 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Kế hoạch phải bám chỉ đạo của tỉnh, khắc phục tồn tại năm trước; nhiệm vụ cụ thể, có chỉ tiêu đo được, có đầu mối chịu trách nhiệm.
 - → Kết quả bước: Dự thảo kế hoạch CCHC năm của UBND xã.
 
 **Bước 3. Trình ban hành và tổ chức triển khai**
 - Làm gì: Trình Chủ tịch UBND xã ký ban hành kế hoạch; phổ biến đến các đơn vị, thôn; theo dõi tiến độ thực hiện hằng quý.
-- Dùng input: Dự thảo kế hoạch CCHC, `can_bo_phu_trach`
-- Vai trò: Chủ tịch UBND xã ký ban hành; công chức phụ trách theo dõi; AI hỗ trợ lập bảng theo dõi tiến độ quý — 0,5 ngày làm việc
+- Dùng input: Dự thảo kế hoạch CCHC, `can_bo_phu_trach`.
+- Vai trò: Chủ tịch UBND xã ký ban hành; công chức phụ trách theo dõi; AI hỗ trợ lập bảng theo dõi tiến độ quý ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Kế hoạch CCHC là văn bản hành chính của UBND xã, đúng thể thức NĐ 30/2020/NĐ-CP; theo dõi quý để kịp điều chỉnh.
 - → Kết quả bước: Kế hoạch CCHC năm đã ban hành + bảng theo dõi tiến độ.
 
 **Bước 4. Tự chấm điểm theo bộ chỉ số CCHC**
 - Làm gì: Cuối năm, tự chấm điểm kết quả CCHC của xã theo bộ chỉ số do cấp trên ban hành; thu thập minh chứng cho từng tiêu chí.
-- Dùng input: `so_lieu_mot_cua`, bảng theo dõi tiến độ, bộ chỉ số CCHC của tỉnh
-- Vai trò: Công chức phụ trách CCHC chấm điểm; Chánh Văn phòng kiểm tra; AI hỗ trợ tính điểm, kiểm tra tính đầy đủ của minh chứng — 2 ngày làm việc
+- Dùng input: `so_lieu_mot_cua`, bảng theo dõi tiến độ, bộ chỉ số CCHC của tỉnh.
+- Vai trò: Công chức phụ trách CCHC chấm điểm; Chánh Văn phòng kiểm tra; AI hỗ trợ tính điểm, kiểm tra tính đầy đủ của minh chứng ⏱ 2 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Chấm điểm phải trung thực, có minh chứng kèm theo từng tiêu chí; không tự nâng điểm; điểm tự chấm là cơ sở để cấp trên thẩm định.
 - → Kết quả bước: Bảng tự chấm điểm CCHC năm kèm hồ sơ minh chứng.
 
 **Bước 5. Lập báo cáo CCHC gửi UBND cấp tỉnh**
 - Làm gì: Soạn báo cáo kết quả CCHC năm (kết quả theo 5 nội dung, tự chấm điểm, tồn tại, phương hướng); trình ký; gửi UBND tỉnh A (qua Sở Nội vụ tỉnh A) đúng thời hạn.
-- Dùng input: Bảng tự chấm điểm, kết quả triển khai, `nam_ke_hoach`
-- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra; Chủ tịch UBND xã ký; AI hỗ trợ soạn báo cáo đúng đề cương — 1 ngày làm việc
+- Dùng input: Bảng tự chấm điểm, kết quả triển khai, `nam_ke_hoach`.
+- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra; Chủ tịch UBND xã ký; AI hỗ trợ soạn báo cáo đúng đề cương ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Báo cáo gửi đúng thời hạn tỉnh quy định; số liệu báo cáo phải khớp bảng tự chấm điểm; lưu hồ sơ đầy đủ.
 - → Kết quả bước: Báo cáo CCHC năm của UBND xã đã ký, đã gửi cấp tỉnh.
 

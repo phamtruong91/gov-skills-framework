@@ -25,28 +25,28 @@ description: "Xây dựng chính sách, hướng dẫn về cấp giấy phép s
 **Bước 1. Nghiên cứu, đề xuất chính sách**
 - Làm gì: Rà soát vướng mắc trong cấp phép, quản lý, thu hồi; đề xuất hoàn thiện chính sách, siết chặt quản lý.
 - Dùng input: `noi_dung_nhiem_vu`, `van_ban_hien_hanh`, `bao_cao_dia_phuong`.
-- Vai trò: Chuyên viên nghiên cứu (AI hỗ trợ tổng hợp vướng mắc, rà soát văn bản — 2 ngày) → Cục trưởng xem xét.
+- Vai trò: Chuyên viên nghiên cứu (AI hỗ trợ tổng hợp vướng mắc, rà soát văn bản ⏱ 2 ngày (ước tính)) → Cục trưởng xem xét.
 - Lưu ý nghiệp vụ: Mọi nội dung ở mức chính sách, thủ tục hành chính; tuyệt đối không mô tả chi tiết kỹ thuật, tính năng vũ khí.
 - → Kết quả bước: Báo cáo đề xuất chính sách.
 
 **Bước 2. Soạn thảo văn bản hướng dẫn**
 - Làm gì: Soạn hướng dẫn: điều kiện, hồ sơ, trình tự cấp giấy phép sử dụng; đăng ký, quản lý, bảo quản; thu hồi, tiêu hủy.
 - Dùng input: `van_ban_hien_hanh`, `doi_tuong_quan_ly`.
-- Vai trò: Chuyên viên soạn thảo (AI hỗ trợ chuẩn hóa văn bản, lập sơ đồ quy trình thủ tục — 2 ngày) → Cục trưởng ký ban hành.
+- Vai trò: Chuyên viên soạn thảo (AI hỗ trợ chuẩn hóa văn bản, lập sơ đồ quy trình thủ tục ⏱ 2 ngày (ước tính)) → Cục trưởng ký ban hành.
 - Lưu ý nghiệp vụ: Quy định rõ trách nhiệm người đứng đầu cơ quan, tổ chức được trang bị; bảo đảm an toàn tuyệt đối trong quản lý, bảo quản.
 - → Kết quả bước: Văn bản hướng dẫn được ban hành.
 
 **Bước 3. Tổ chức tổng kiểm tra, vận động thu hồi**
 - Làm gì: Ban hành kế hoạch tổng kiểm tra, vận động toàn dân giao nộp vũ khí, vật liệu nổ, công cụ hỗ trợ; hướng dẫn địa phương thực hiện; tổng hợp kết quả.
 - Dùng input: `noi_dung_nhiem_vu`, `bao_cao_dia_phuong`.
-- Vai trò: Cục chủ trì (AI hỗ trợ lập kế hoạch, mẫu báo cáo, bảng tổng hợp — 2 ngày) → Cục trưởng trình Thứ trưởng.
+- Vai trò: Cục chủ trì (AI hỗ trợ lập kế hoạch, mẫu báo cáo, bảng tổng hợp ⏱ 2 ngày (ước tính)) → Cục trưởng trình Thứ trưởng.
 - Lưu ý nghiệp vụ: Kết hợp tuyên truyền, vận động với kiểm tra, xử lý; bảo đảm an toàn khi tiếp nhận, tiêu hủy.
 - → Kết quả bước: Kế hoạch tổng kiểm tra và kết quả toàn quốc (mức thống kê công khai).
 
 **Bước 4. Tổng kết, đánh giá**
 - Làm gì: Tổng hợp kết quả quản lý, cấp phép, thu hồi toàn quốc (mức thống kê công khai); đánh giá, đề xuất.
 - Dùng input: Báo cáo của địa phương.
-- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ tổng hợp số liệu, dự thảo báo cáo — 2 ngày) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
+- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ tổng hợp số liệu, dự thảo báo cáo ⏱ 2 ngày (ước tính)) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
 - Lưu ý nghiệp vụ: Số liệu ở mức thống kê công khai; không nêu chi tiết chủng loại, số lượng cụ thể của từng đơn vị, địa phương.
 - → Kết quả bước: Báo cáo tổng kết công tác quản lý.
 

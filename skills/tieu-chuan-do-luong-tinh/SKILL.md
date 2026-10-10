@@ -26,35 +26,35 @@ description: "Quản lý tiêu chuẩn, đo lường, chất lượng sản ph�
 
 **Bước 1. Lập kế hoạch kiểm tra đo lường, chất lượng năm**
 - Làm gì: Rà soát đối tượng quản lý (cơ sở kinh doanh xăng dầu, chợ, siêu thị, cơ sở sản xuất); lập kế hoạch kiểm tra nhà nước về đo lường, chất lượng năm của tỉnh.
-- Dùng input: `nam_ke_hoach`, `danh_sach_phuong_tien_do`, `nguoi_ky`
+- Dùng input: `nam_ke_hoach`, `danh_sach_phuong_tien_do`, `nguoi_ky`.
 - Vai trò: Chuyên viên Chi cục Tiêu chuẩn Đo lường Chất lượng (hoặc phòng được giao) lập kế hoạch; Trưởng phòng/Chi cục trưởng kiểm tra; Giám đốc Sở phê duyệt; AI hỗ trợ lập danh sách đối tượng, phân lịch kiểm tra ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Kế hoạch phải bao quát nhóm đối tượng có nguy cơ vi phạm cao (xăng dầu, cân chợ, hàng hóa thiết yếu); tránh kiểm tra trùng lặp với kế hoạch của lực lượng quản lý thị trường.
 - → Kết quả bước: Kế hoạch kiểm tra nhà nước về đo lường, chất lượng năm đã phê duyệt.
 
 **Bước 2. Kiểm định, hiệu chuẩn phương tiện đo**
 - Làm gì: Tổ chức kiểm định định kỳ phương tiện đo thuộc danh mục phải kiểm định; dán tem kiểm định; lập sổ theo dõi.
-- Dùng input: `danh_sach_phuong_tien_do`, `ke_hoach_kiem_tra`
+- Dùng input: `danh_sach_phuong_tien_do`, `ke_hoach_kiem_tra`.
 - Vai trò: Kiểm định viên (đơn vị kiểm định được chỉ định) thực hiện kiểm định; chuyên viên Sở giám sát, tổng hợp; AI hỗ trợ lập lịch kiểm định, theo dõi tem kiểm định đến hạn ⏱ theo kế hoạch năm (ước tính)
 - Lưu ý nghiệp vụ: Phương tiện đo hết hạn kiểm định không được sử dụng trong mua bán; tem kiểm định phải còn hiệu lực, dán đúng vị trí.
 - → Kết quả bước: Giấy chứng nhận kiểm định + sổ theo dõi phương tiện đo trên địa bàn.
 
 **Bước 3. Kiểm tra chất lượng hàng hóa, ghi nhãn**
 - Làm gì: Kiểm tra chất lượng sản phẩm, hàng hóa lưu thông trên thị trường; kiểm tra ghi nhãn hàng hóa; lấy mẫu thử nghiệm khi cần.
-- Dùng input: `ke_hoach_kiem_tra`, `bien_ban_kiem_tra`
+- Dùng input: `ke_hoach_kiem_tra`, `bien_ban_kiem_tra`.
 - Vai trò: Đoàn kiểm tra (Sở KH&CN chủ trì, phối hợp lực lượng liên quan) thực hiện; chuyên viên lập biên bản; AI hỗ trợ soạn biên bản kiểm tra, tổng hợp kết quả ⏱ theo kế hoạch (ước tính)
 - Lưu ý nghiệp vụ: Kiểm tra phải đúng nội dung quyết định kiểm tra; lấy mẫu phải niêm phong, có biên bản; kết quả thử nghiệm là căn cứ xử lý.
 - → Kết quả bước: Biên bản kiểm tra + kết quả thử nghiệm mẫu (nếu có).
 
 **Bước 4. Xử lý vi phạm hành chính**
 - Làm gì: Lập biên bản vi phạm hành chính đối với hành vi vi phạm về đo lường, chất lượng, ghi nhãn; trình ban hành Quyết định xử phạt vi phạm hành chính.
-- Dùng input: `bien_ban_kiem_tra`, kết quả thử nghiệm mẫu
+- Dùng input: `bien_ban_kiem_tra`, kết quả thử nghiệm mẫu.
 - Vai trò: Chuyên viên lập biên bản vi phạm; Trưởng phòng/Chi cục trưởng thẩm tra; người có thẩm quyền xử phạt (Giám đốc Sở hoặc Chủ tịch UBND tỉnh theo mức phạt) ký Quyết định; AI hỗ trợ soạn biên bản, dự thảo quyết định, đối chiếu khung phạt ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Xác định đúng hành vi vi phạm, đúng khung phạt; bảo đảm thời hiệu, thời hạn xử phạt; quyết định xử phạt phải đúng thể thức, đúng thẩm quyền.
 - → Kết quả bước: Quyết định xử phạt vi phạm hành chính (số 1234/QĐ-XPHC).
 
 **Bước 5. Hướng dẫn công bố hợp chuẩn, hợp quy; báo cáo**
 - Làm gì: Hướng dẫn doanh nghiệp công bố hợp chuẩn, công bố hợp quy sản phẩm, hàng hóa; tiếp nhận bản công bố; tổng hợp báo cáo năm.
-- Dùng input: Hồ sơ công bố của doanh nghiệp, kết quả kiểm tra các bước trên
+- Dùng input: Hồ sơ công bố của doanh nghiệp, kết quả kiểm tra các bước trên.
 - Vai trò: Chuyên viên hướng dẫn, tiếp nhận hồ sơ công bố; Phó Giám đốc Sở chỉ đạo; AI hỗ trợ kiểm tra thành phần hồ sơ công bố, soạn báo cáo tổng kết ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Công bố hợp chuẩn/hợp quy là trách nhiệm của tổ chức, cá nhân sản xuất, kinh doanh; cơ quan quản lý chỉ tiếp nhận, không "cấp phép" công bố.
 - → Kết quả bước: Báo cáo công tác tiêu chuẩn, đo lường, chất lượng năm của tỉnh.
@@ -84,7 +84,7 @@ Khung Quyết định xử phạt vi phạm hành chính (theo NĐ 30/2020/NĐ-C
 3. Địa danh và ngày, tháng, năm: "Tỉnh A, ngày ... tháng ... năm ...".
 4. Tên loại và trích yếu: "QUYẾT ĐỊNH / Xử phạt vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường, chất lượng".
 5. Căn cứ: TT 10/2025/TT-BKHCN; NĐ 132/2025/NĐ-CP; biên bản vi phạm hành chính số ...; quy định xử phạt vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường, chất lượng.
-6. Nội dung bắt buộc: Điều 1. Xử phạt đối với ông/bà ..., địa chỉ ...; hành vi vi phạm ...; mức phạt tiền ... đồng; biện pháp khắc phục hậu quả ...; Điều 2. Thời hạn chấp hành (10 ngày), nơi nộp phạt; Điều 3. Quyền khiếu nại, khởi kiện; Điều 4. Hiệu lực và tổ chức thi hành.
+6. Nội dung bắt buộc: Điều 1. Xử phạt đối với ông/bà .., địa chỉ ...; hành vi vi phạm ...; mức phạt tiền ... đồng; biện pháp khắc phục hậu quả ...; Điều 2. Thời hạn chấp hành (10 ngày), nơi nộp phạt; Điều 3. Quyền khiếu nại, khởi kiện; Điều 4. Hiệu lực và tổ chức thi hành.
 7. Nơi nhận: Cá nhân/tổ chức bị xử phạt; Kho bạc Nhà nước; đơn vị liên quan; lưu hồ sơ.
 8. Chữ ký của người có thẩm quyền xử phạt + họ tên, đóng dấu.
 

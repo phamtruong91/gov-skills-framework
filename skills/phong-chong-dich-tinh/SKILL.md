@@ -29,7 +29,7 @@ description: "Triển khai công tác phòng, chống dịch bệnh trên địa
 
 **Bước 1. Thu thập, tổng hợp số liệu giám sát dịch bệnh trên địa bàn tỉnh**
 - Làm gì: Tập hợp số liệu giám sát dịch từ Trung tâm Kiểm soát bệnh tật tỉnh, các bệnh viện tuyến tỉnh, trạm y tế xã; kiểm tra tính đầy đủ, thống nhất của số liệu (ca mắc, ca tử vong, phân bố theo xã/nhóm tuổi/thời gian); lập bảng tổng hợp theo bệnh, theo tuần/tháng.
-- Dùng input: `so_lieu_giam_sat`, `bao_cao_co_so`.
+- Dùng input: `so_lieu_giam_sat`, `bao_cao_co_so`, `loai_dich_benh`.
 - Vai trò: Chuyên viên Phòng Nghiệp vụ Y thuộc Sở Y tế tổng hợp; AI hỗ trợ nhập liệu, lập bảng tổng hợp, kiểm tra số liệu không nhất quán ⏱ ~1 ngày (ước tính).
 - Lưu ý nghiệp vụ: Số liệu phải từ nguồn chính thống (hệ thống giám sát, báo cáo chính thức); không dùng số liệu lan truyền chưa kiểm chứng; phân biệt ca mắc mới, ca tử vong, ca đang điều trị.
 - → Kết quả bước: Bảng tổng hợp số liệu giám sát dịch bệnh cấp tỉnh (theo bệnh, địa bàn, thời gian).

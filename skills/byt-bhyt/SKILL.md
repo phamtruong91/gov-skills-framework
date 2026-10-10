@@ -27,7 +27,7 @@ hiện BHYT tuyến tỉnh (skill `phoi-hop-bhyt`).
 
 - Làm gì: Tổng hợp thu/chi quỹ toàn quốc; phân tích khả năng cân đối ngắn/dài hạn; dự báo tác động của điều chỉnh chính sách đến quỹ.
 - Dùng input: `so_lieu_quy`, `ty_le_bao_phu`.
-- Vai trò: Chuyên viên Vụ Bảo hiểm y tế phân tích (AI hỗ trợ mô hình dự báo thu/chi quỹ theo kịch bản điều chỉnh — 4 giờ); Vụ trưởng (ông Hoàng Văn EE) duyệt báo cáo.
+- Vai trò: Chuyên viên Vụ Bảo hiểm y tế phân tích (AI hỗ trợ mô hình dự báo thu/chi quỹ theo kịch bản điều chỉnh ⏱ 4 giờ (ước tính)); Vụ trưởng (ông Hoàng Văn EE) duyệt báo cáo.
 - Lưu ý nghiệp vụ: Số liệu từ Bảo hiểm Xã hội Việt Nam; dự báo phải tính đến già hóa dân số, chi phí y tế tăng.
 - → Kết quả bước: Báo cáo cân đối quỹ BHYT + các kịch bản điều chỉnh.
 
@@ -35,7 +35,7 @@ hiện BHYT tuyến tỉnh (skill `phoi-hop-bhyt`).
 
 - Làm gì: Soạn thảo điều chỉnh mức đóng, mức hưởng, phạm vi quyền lợi; rà soát, cập nhật danh mục thuốc/dịch vụ thanh toán (bổ sung thuốc mới, loại thuốc kém hiệu quả); lấy ý kiến.
 - Dùng input: `danh_muc_thanh_toan`, `de_xuat_dieu_chinh`, báo cáo cân đối quỹ.
-- Vai trò: Vụ Bảo hiểm y tế chủ trì, phối hợp Bảo hiểm Xã hội Việt Nam (AI hỗ trợ tổng hợp ý kiến, đánh giá tác động ngân sách — 4 giờ); Thứ trưởng phụ trách (bà Phạm Thị DD) cho ý kiến.
+- Vai trò: Vụ Bảo hiểm y tế chủ trì, phối hợp Bảo hiểm Xã hội Việt Nam (AI hỗ trợ tổng hợp ý kiến, đánh giá tác động ngân sách ⏱ 4 giờ (ước tính)); Thứ trưởng phụ trách (bà Phạm Thị DD) cho ý kiến.
 - Lưu ý nghiệp vụ: Bảo đảm quyền lợi người tham gia, cân đối quỹ bền vững; danh mục dựa trên bằng chứng hiệu quả, chi phí-hiệu quả.
 - → Kết quả bước: Dự thảo văn bản chính sách BHYT.
 
@@ -43,7 +43,7 @@ hiện BHYT tuyến tỉnh (skill `phoi-hop-bhyt`).
 
 - Làm gì: Hoàn thiện hồ sơ trình Chính phủ (nghị định) hoặc Bộ trưởng ban hành (thông tư); ban hành văn bản hướng dẫn; phối hợp Bảo hiểm Xã hội Việt Nam tổ chức thực hiện.
 - Dùng input: Dự thảo chính sách, báo cáo đánh giá tác động.
-- Vai trò: Vụ trưởng Vụ Bảo hiểm y tế hoàn thiện hồ sơ (AI hỗ trợ kiểm tra tính đầy đủ hồ sơ trình — 2 giờ); Bộ trưởng (ông Lê Văn CC) ký trình Chính phủ/ký ban hành.
+- Vai trò: Vụ trưởng Vụ Bảo hiểm y tế hoàn thiện hồ sơ (AI hỗ trợ kiểm tra tính đầy đủ hồ sơ trình ⏱ 2 giờ (ước tính)); Bộ trưởng (ông Lê Văn CC) ký trình Chính phủ/ký ban hành.
 - Lưu ý nghiệp vụ: Phối hợp chặt với Bảo hiểm Xã hội Việt Nam (cơ quan tổ chức thực hiện); truyền thông chính sách đến người dân.
 - → Kết quả bước: Văn bản chính sách BHYT được ban hành + kế hoạch tổ chức thực hiện.
 
@@ -51,7 +51,7 @@ hiện BHYT tuyến tỉnh (skill `phoi-hop-bhyt`).
 
 - Làm gì: Theo dõi chi BHYT bất thường; phối hợp thanh tra, giám định; xử lý trục lợi, lạm dụng quỹ; báo cáo định kỳ.
 - Dùng input: `bao_cao_giam_dinh`, số liệu chi theo cơ sở KCB.
-- Vai trò: Vụ Bảo hiểm y tế phối hợp Thanh tra Bộ (AI hỗ trợ phát hiện mẫu chi bất thường từ dữ liệu giám định — 3 giờ).
+- Vai trò: Vụ Bảo hiểm y tế phối hợp Thanh tra Bộ (AI hỗ trợ phát hiện mẫu chi bất thường từ dữ liệu giám định ⏱ 3 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Xử lý nghiêm trục lợi quỹ; bảo vệ quyền lợi người bệnh chính đáng, không gây khó dễ trong thanh toán.
 - → Kết quả bước: Báo cáo giám sát quỹ + quyết định xử lý vi phạm.
 

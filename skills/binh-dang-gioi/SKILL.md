@@ -31,7 +31,7 @@ description: "Triển khai công tác bình đẳng giới, vì sự tiến bộ
 
 - Làm gì: Thu thập số liệu phân tách theo giới tính từ các nguồn: công an xã (dân số), phòng chuyên môn (lao động, hộ nghèo), Hội Phụ nữ xã, các thôn/tổ dân phố; lập bảng số liệu theo các chỉ tiêu bình đẳng giới; phân tích khoảng cách giới, xác định vấn đề ưu tiên.
 - Dùng input: `so_lieu_gioi`, `chi_tieu_binh_dang_gioi`, `so_lieu_ky_truoc`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực bình đẳng giới trực tiếp thu thập, phân tích. AI hỗ trợ: thiết kế bảng số liệu theo chỉ tiêu, tính toán tỷ lệ, so sánh với kỳ trước, gợi ý vấn đề ưu tiên từ khoảng cách giới. Thời gian ước tính: 1–2 ngày làm việc.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực bình đẳng giới trực tiếp thu thập, phân tích. AI hỗ trợ: thiết kế bảng số liệu theo chỉ tiêu, tính toán tỷ lệ, so sánh với kỳ trước, gợi ý vấn đề ưu tiên từ khoảng cách giới. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Số liệu phải có nguồn rõ ràng, thống nhất cách tính giữa các kỳ; không suy diễn nguyên nhân khi chưa có căn cứ; số liệu vụ việc bạo lực trên cơ sở giới chỉ dùng ở dạng tổng hợp, bảo mật thông tin nạn nhân.
 - → Kết quả bước: Bảng số liệu phân tách theo giới tính + phân tích khoảng cách giới, vấn đề ưu tiên của xã.
 
@@ -39,7 +39,7 @@ description: "Triển khai công tác bình đẳng giới, vì sự tiến bộ
 
 - Làm gì: Rà soát dự thảo kế hoạch phát triển kinh tế – xã hội của xã; xác định nội dung cần lồng ghép (chỉ tiêu có phân tách giới, hoạt động hỗ trợ phụ nữ, kinh phí cho công tác bình đẳng giới); đề xuất bổ sung bằng văn bản gửi đơn vị chủ trì soạn thảo kế hoạch.
 - Dùng input: `ke_hoach_ktxh_xa`, bảng phân tích ở Bước 1.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực rà soát, đề xuất lồng ghép. AI hỗ trợ: đối chiếu kế hoạch KT-XH với checklist lồng ghép giới, soạn dự thảo văn bản đề xuất bổ sung nội dung. Thời gian ước tính: 0,5–1 ngày làm việc.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực rà soát, đề xuất lồng ghép. AI hỗ trợ: đối chiếu kế hoạch KT-XH với checklist lồng ghép giới, soạn dự thảo văn bản đề xuất bổ sung nội dung. ⏱ 0,5–1 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Lồng ghép phải cụ thể (chỉ tiêu, hoạt động, kinh phí) chứ không chỉ nêu khẩu hiệu; đề xuất phải gửi kịp thời trước khi kế hoạch KT-XH được thông qua.
 - → Kết quả bước: Văn bản đề xuất lồng ghép nội dung bình đẳng giới vào kế hoạch phát triển KT-XH của xã.
 
@@ -47,7 +47,7 @@ description: "Triển khai công tác bình đẳng giới, vì sự tiến bộ
 
 - Làm gì: Căn cứ kết quả Bước 1–2, dự thảo Kế hoạch công tác bình đẳng giới, vì sự tiến bộ của phụ nữ: mục đích, yêu cầu; chỉ tiêu phấn đấu; nội dung (tuyên truyền pháp luật; hỗ trợ phụ nữ phát triển kinh tế; phòng ngừa, ứng phó bạo lực trên cơ sở giới; nâng cao năng lực cán bộ nữ); phân công thực hiện; kinh phí; phối hợp Hội Liên hiệp Phụ nữ xã; trình lãnh đạo UBND xã phê duyệt.
 - Dùng input: Bảng phân tích ở Bước 1, `hoat_dong_phu_nu`, `nam_ke_hoach`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực dự thảo kế hoạch, phối hợp Hội Liên hiệp Phụ nữ xã thống nhất nội dung. AI hỗ trợ: dàn ý kế hoạch theo cấu trúc chuẩn, gợi ý chỉ tiêu phù hợp với thực trạng xã, kiểm tra thể thức văn bản theo NĐ 30/2020/NĐ-CP. Thời gian ước tính: 0,5–1 ngày làm việc.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực dự thảo kế hoạch, phối hợp Hội Liên hiệp Phụ nữ xã thống nhất nội dung. AI hỗ trợ: dàn ý kế hoạch theo cấu trúc chuẩn, gợi ý chỉ tiêu phù hợp với thực trạng xã, kiểm tra thể thức văn bản theo NĐ 30/2020/NĐ-CP. ⏱ 0,5–1 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Chỉ tiêu phải đo đếm được, khả thi; nội dung phối hợp với Hội Phụ nữ phải được thống nhất bằng văn bản (tránh chồng chéo); kinh phí phù hợp dự toán được giao.
 - → Kết quả bước: Dự thảo Kế hoạch công tác bình đẳng giới, vì sự tiến bộ của phụ nữ (sẵn sàng trình ký).
 
@@ -63,7 +63,7 @@ description: "Triển khai công tác bình đẳng giới, vì sự tiến bộ
 
 - Làm gì: Cập nhật kết quả thực hiện từng chỉ tiêu bình đẳng giới; đối chiếu với chỉ tiêu kế hoạch và kỳ trước; dự thảo Báo cáo kết quả công tác bình đẳng giới, vì sự tiến bộ của phụ nữ (định kỳ 6 tháng, năm); trình Trưởng phòng kiểm tra, lãnh đạo UBND xã ký ban hành; gửi cấp trên, lưu hồ sơ.
 - Dùng input: Hồ sơ triển khai ở Bước 4, `chi_tieu_binh_dang_gioi`, `so_lieu_ky_truoc`, `nam_ke_hoach`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực cập nhật chỉ tiêu, dự thảo báo cáo. AI hỗ trợ: bảng đối chiếu chỉ tiêu (kế hoạch/thực hiện/kỳ trước), dàn ý báo cáo theo cấu trúc chuẩn, rà soát thể thức NĐ 30/2020/NĐ-CP. Thời gian ước tính: 1–2 ngày làm việc.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực cập nhật chỉ tiêu, dự thảo báo cáo. AI hỗ trợ: bảng đối chiếu chỉ tiêu (kế hoạch/thực hiện/kỳ trước), dàn ý báo cáo theo cấu trúc chuẩn, rà soát thể thức NĐ 30/2020/NĐ-CP. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Số liệu báo cáo phải khớp với hồ sơ triển khai ở Bước 4; chỉ tiêu chưa đạt phải nêu rõ nguyên nhân và giải pháp; không tô hồng kết quả.
 - → Kết quả bước: Báo cáo kết quả công tác bình đẳng giới, vì sự tiến bộ của phụ nữ (bản dự thảo đã qua kiểm tra, sẵn sàng trình ký).
 

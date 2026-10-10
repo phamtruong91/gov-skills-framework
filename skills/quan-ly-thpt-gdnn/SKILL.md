@@ -18,8 +18,8 @@ description: "Quản lý trường trung học phổ thông, trung tâm giáo d�
 |--------|-------|----------|
 | `loai_vu_viec` | Thành lập / sáp nhập / giải thể / đổi tên / giao chỉ tiêu / kiểm tra hoạt động | Có |
 | `don_vi_lien_quan` | Tên trường/trung tâm, địa chỉ, loại hình (công lập/tư thục) | Có |
-| `ho_so_de_nghi` | Hồ sơ đề nghị: đề án thành lập/sáp nhập/giải thể, minh chứng về đất đai, CSVC, đội ngũ, tài chính | Có (với thành lập/sáp nhập/giải thể) |
-| `dieu_kien_thuc_te` | Kết quả khảo sát thực tế: diện tích đất, phòng học, thiết bị, số lượng/trình độ giáo viên | Có (với thành lập/kiểm tra) |
+| `ho_so_de_nghi` | Hồ sơ đề nghị: đề án thành lập/sáp nhập/giải thể, minh chứng về đất đai, CSVC, đội ngũ, tài chính. Lưu ý: với thành lập/sáp nhập/giải thể.| Có |
+| `dieu_kien_thuc_te` | Kết quả khảo sát thực tế: diện tích đất, phòng học, thiết bị, số lượng/trình độ giáo viên. Lưu ý: với thành lập/kiểm tra.| Có |
 | `chi_tieu_du_kien` | Số lớp, số học sinh dự kiến tuyển sinh; biên chế, kinh phí đề nghị | Không |
 | `nam_hoc` | Năm học áp dụng (đối với giao chỉ tiêu) | Không |
 | `can_cu_phap_ly` | Văn bản pháp luật chuyên ngành về giáo dục áp dụng cho vụ việc | Có |

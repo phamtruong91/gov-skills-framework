@@ -22,28 +22,28 @@ Hằng năm, sau khi kết thúc năm ngân sách: hướng dẫn các bộ, ng�
 **Bước 1. Hướng dẫn lập báo cáo quyết toán**
 - Làm gì: Ban hành văn bản hướng dẫn: biểu mẫu, thời hạn, yêu cầu đối chiếu số liệu (thu qua KBNN, chi qua hệ thống TABMIS...).
 - Dùng input: `nam_quyet_toan`.
-- Vai trò: Vụ Ngân sách nhà nước — AI hỗ trợ soạn văn bản hướng dẫn, bộ biểu mẫu (2–3 ngày).
+- Vai trò: Vụ Ngân sách nhà nước — AI hỗ trợ soạn văn bản hướng dẫn, bộ biểu mẫu (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Số liệu quyết toán phải khớp với số liệu Kho bạc Nhà nước; chênh lệch phải giải trình.
 - → Kết quả bước: Văn bản hướng dẫn quyết toán NSNN.
 
 **Bước 2. Thu thập, kiểm tra báo cáo quyết toán đơn vị**
 - Làm gì: Thu báo cáo của bộ/ngành/địa phương; kiểm tra tính đầy đủ, hợp lệ; đối chiếu với dữ liệu KBNN.
 - Dùng input: `bao_cao_qt_bo_nganh`, `bao_cao_qt_dia_phuong`.
-- Vai trò: Chuyên viên Vụ Ngân sách nhà nước — AI hỗ trợ đối chiếu tự động, lập danh sách đơn vị có chênh lệch cần giải trình (5–7 ngày).
+- Vai trò: Chuyên viên Vụ Ngân sách nhà nước — AI hỗ trợ đối chiếu tự động, lập danh sách đơn vị có chênh lệch cần giải trình (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Kiên quyết yêu cầu giải trình chênh lệch; không "hợp thức hóa" số liệu.
 - → Kết quả bước: Bảng tổng hợp có đối chiếu, danh sách chênh lệch.
 
 **Bước 3. Thẩm định quyết toán**
 - Làm gì: Thẩm định nội dung: chi đúng chế độ, đúng dự toán được giao; xử lý các khoản chi sai chế độ (xuất toán, thu hồi).
 - Dùng input: Kết quả bước 2; `ket_luan_kiem_toan`.
-- Vai trò: Vụ Ngân sách nhà nước phối hợp Thanh tra Bộ — AI hỗ trợ rà soát các khoản chi bất thường theo tiêu chí (5–7 ngày).
+- Vai trò: Vụ Ngân sách nhà nước phối hợp Thanh tra Bộ — AI hỗ trợ rà soát các khoản chi bất thường theo tiêu chí (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Phối hợp kết luận của Kiểm toán Nhà nước; kiến nghị xử lý trách nhiệm tập thể, cá nhân vi phạm.
 - → Kết quả bước: Báo cáo thẩm định quyết toán NSNN.
 
 **Bước 4. Lập báo cáo quyết toán NSNN trình Chính phủ, Quốc hội**
 - Làm gì: Tổng hợp báo cáo quyết toán NSNN: thu, chi, bội chi, kết dư; so sánh với dự toán Quốc hội giao.
 - Dùng input: Kết quả bước 3.
-- Vai trò: Thứ trưởng phụ trách chỉ đạo — AI hỗ trợ soạn báo cáo, biểu đồ so sánh dự toán/quyết toán (3–5 ngày).
+- Vai trò: Thứ trưởng phụ trách chỉ đạo — AI hỗ trợ soạn báo cáo, biểu đồ so sánh dự toán/quyết toán (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Giải trình rõ các khoản vượt/thiếu so với dự toán; công khai sau khi Quốc hội phê chuẩn.
 - → Kết quả bước: Báo cáo quyết toán NSNN trình Chính phủ → Quốc hội phê chuẩn.
 

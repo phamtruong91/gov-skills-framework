@@ -31,7 +31,7 @@ description: "Triển khai công tác phòng, chống tham nhũng; tổ chức k
 
 - Làm gì: Đánh giá kết quả PCTN năm trước (số bản kê khai đã nộp, vi phạm đã xử lý, tồn tại); nghiên cứu chỉ đạo của cấp trên; xây dựng kế hoạch PCTN năm gồm: mục tiêu, nhiệm vụ trọng tâm, phân công trách nhiệm, tiến độ.
 - Dùng input: `ket_qua_pctn_nam_truoc`, `chi_dao_cua_cap_tren`, `quy_dinh_phap_luat_pctn`.
-- Vai trò: Chuyên viên Phòng Nghiệp vụ soạn thảo AI hỗ trợ: tổng hợp số liệu năm trước, dựng khung kế hoạch, rà soát tính đầy đủ các nhiệm vụ trọng tâm; Trưởng phòng thẩm định; Chánh Thanh tra tỉnh trình Chủ tịch UBND tỉnh phê duyệt ⏱ ~7 ngày làm việc (ước tính).
+- Vai trò: Chuyên viên Phòng Nghiệp vụ soạn thảo; AI hỗ trợ: tổng hợp số liệu năm trước, dựng khung kế hoạch, rà soát tính đầy đủ các nhiệm vụ trọng tâm; Trưởng phòng thẩm định; Chánh Thanh tra tỉnh trình Chủ tịch UBND tỉnh phê duyệt ⏱ ~7 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Kế hoạch phải gắn với đặc thù địa phương (lĩnh vực nhạy cảm: đất đai, đầu tư công, tài chính); phân công rõ trách nhiệm từng cơ quan.
 - → Kết quả bước: Kế hoạch công tác PCTN năm của tỉnh (dự thảo trình phê duyệt).
 
@@ -47,7 +47,7 @@ description: "Triển khai công tác phòng, chống tham nhũng; tổ chức k
 
 - Làm gì: Tiếp nhận bản kê khai của các cơ quan, đơn vị gửi về; kiểm tra tính đầy đủ về hình thức (chữ ký, xác nhận); lập sổ theo dõi, lưu trữ bản kê khai; tổ chức công khai bản kê khai theo quy định (niêm yết, công khai tại cơ quan).
 - Dùng input: `ban_ke_khai_ts_tn`, `danh_sach_doi_tuong_ke_khai`.
-- Vai trò: Chuyên viên tiếp nhận, quản lý AI hỗ trợ: kiểm tra danh sách nộp/thiếu, nhắc đơn vị chậm nộp, lập sổ theo dõi điện tử ⏱ ~thực hiện trong thời hạn kê khai (theo quy định (ước tính).).
+- Vai trò: Chuyên viên tiếp nhận, quản lý AI hỗ trợ: kiểm tra danh sách nộp/thiếu, nhắc đơn vị chậm nộp, lập sổ theo dõi điện tử ⏱ trong thời hạn kê khai theo quy định (ước tính)..
 - Lưu ý nghiệp vụ: Bản kê khai là tài liệu mật theo quy định — quản lý, lưu trữ, công khai đúng chế độ bảo mật; đơn vị chậm nộp phải được đôn đốc bằng văn bản.
 - → Kết quả bước: Sổ theo dõi nộp bản kê khai; danh sách đơn vị/cá nhân chậm nộp; biên bản công khai.
 

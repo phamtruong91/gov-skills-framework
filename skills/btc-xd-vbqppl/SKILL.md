@@ -22,36 +22,36 @@ Khi Bộ Tài chính chủ trì soạn thảo luật, nghị định, thông tư
 
 **Bước 1. Lập đề nghị, đánh giá tác động chính sách tài chính**
 - Làm gì: Đánh giá tác động ngân sách (tăng/giảm thu, chi), tác động đến doanh nghiệp, người dân, môi trường đầu tư.
-- Dùng input: `ten_van_ban`, `linh_vuc`, `yeu_cau_chinh_sach`.
-- Vai trò: Chuyên viên Vụ Chính sách — AI hỗ trợ mô phỏng tác động thu ngân sách theo kịch bản, tổng hợp số liệu (3–5 ngày).
+- Dùng input: `ten_van_ban`, `linh_vuc`, `yeu_cau_chinh_sach`, `cap_van_ban`.
+- Vai trò: Chuyên viên Vụ Chính sách — AI hỗ trợ mô phỏng tác động thu ngân sách theo kịch bản, tổng hợp số liệu (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Chính sách thuế/phí mới phải đánh giá kỹ tác động đến sức cạnh tranh; tuân thủ cam kết quốc tế (FTA, WTO).
 - → Kết quả bước: Báo cáo đánh giá tác động chính sách.
 
 **Bước 2. Soạn thảo dự thảo**
 - Làm gì: Thành lập Ban soạn thảo; xây dựng dự thảo theo cấp văn bản (luật → trình Quốc hội; nghị định → trình Chính phủ; thông tư → Bộ trưởng ban hành).
 - Dùng input: Kết quả bước 1.
-- Vai trò: Vụ trưởng Vụ Chính sách chủ trì — AI hỗ trợ soạn điều khoản, kiểm tra kỹ thuật lập pháp (5–7 ngày).
+- Vai trò: Vụ trưởng Vụ Chính sách chủ trì — AI hỗ trợ soạn điều khoản, kiểm tra kỹ thuật lập pháp (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Phân biệt rõ nội dung thuộc thẩm quyền luật / nghị định / thông tư; không "luật khung, nghị định chi tiết tùy tiện".
 - → Kết quả bước: Dự thảo 1 + Tờ trình + thuyết minh.
 
 **Bước 3. Lấy ý kiến (bộ, ngành, địa phương, doanh nghiệp, người dân)**
 - Làm gì: Đăng Cổng TTĐT; gửi lấy ý kiến; tổ chức hội thảo với hiệp hội doanh nghiệp, chuyên gia.
 - Dùng input: Dự thảo 1.
-- Vai trò: Chuyên viên Vụ Chính sách tổng hợp — AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu/giải trình (3–5 ngày).
+- Vai trò: Chuyên viên Vụ Chính sách tổng hợp — AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu/giải trình (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Chính sách thuế tác động rộng — phải lấy ý kiến cộng đồng doanh nghiệp đầy đủ, công khai.
 - → Kết quả bước: Báo cáo tổng hợp, tiếp thu ý kiến.
 
 **Bước 4. Thẩm định của Bộ Tư pháp; hoàn thiện trình**
 - Làm gì: Gửi Bộ Tư pháp thẩm định; tiếp thu ý kiến thẩm định; hoàn thiện hồ sơ trình Chính phủ (nghị định) hoặc Quốc hội (luật).
 - Dùng input: Dự thảo sau tiếp thu.
-- Vai trò: Thứ trưởng phụ trách ký Tờ trình — AI hỗ trợ kiểm tra lần cuối thể thức, dẫn chiếu (1–2 ngày).
+- Vai trò: Bộ trưởng ký Tờ trình — AI hỗ trợ kiểm tra lần cuối thể thức, dẫn chiếu (⏱ 1–2 ngày).
 - Lưu ý nghiệp vụ: Hồ sơ trình Chính phủ phải có báo cáo thẩm định của Bộ Tư pháp.
 - → Kết quả bước: Hồ sơ trình Chính phủ/Quốc hội.
 
 **Bước 5. Theo dõi ban hành, hướng dẫn thi hành**
 - Làm gì: Sau khi ban hành: ban hành văn bản hướng dẫn (thông tư); tập huấn cho cơ quan thuế, hải quan, kho bạc địa phương.
 - Dùng input: Văn bản đã ban hành.
-- Vai trò: Các vụ/cục chuyên ngành — AI hỗ trợ soạn tài liệu hỏi–đáp, cẩm nang hướng dẫn (5–7 ngày).
+- Vai trò: Các vụ/cục chuyên ngành — AI hỗ trợ soạn tài liệu hỏi–đáp, cẩm nang hướng dẫn (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Có lộ trình chuyển tiếp; công khai trên Cổng TTĐT Bộ Tài chính.
 - → Kết quả bước: Văn bản hướng dẫn + tài liệu tập huấn.
 

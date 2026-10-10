@@ -26,8 +26,7 @@ nhà ở xã hội, nhà ở cho công nhân, cải tạo chung cư cũ, chính 
 
 - Làm gì: Tổng hợp số liệu nhà ở từ địa phương; đánh giá cung – cầu, nhất là nhà ở xã hội.
 - Dùng input: `doi_tuong`, `dia_ban_uu_tien`.
-- Vai trò: Cục Quản lý nhà và thị trường bất động sản (Bộ Xây dựng) chủ trì; AI hỗ trợ tổng hợp ⏱ ~5–7 ngày làm việc (ước tính).
-  số liệu báo cáo địa phương, lập bảng phân tích (3–4 giờ).
+- Vai trò: Cục Quản lý nhà và thị trường bất động sản (Bộ Xây dựng) chủ trì; AI hỗ trợ tổng hợp số liệu báo cáo địa phương, lập bảng phân tích ⏱ ~5–7 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Số liệu phải có nguồn rõ ràng từ báo cáo chính thức của địa phương; không dùng số liệu ước đoán làm căn cứ quyết định.
 - → Kết quả bước: Báo cáo đánh giá thực trạng nhà ở.
 
@@ -35,8 +34,7 @@ nhà ở xã hội, nhà ở cho công nhân, cải tạo chung cư cũ, chính 
 
 - Làm gì: Đề xuất mục tiêu cụ thể, cơ chế chính sách (đất đai, tín dụng, thuế), phân kỳ thực hiện.
 - Dùng input: `muc_tieu`, `nguon_luc`, `chuong_trinh`.
-- Vai trò: Chuyên viên cục chủ trì soạn thảo; AI hỗ trợ dự thảo nội dung chính sách, so sánh ⏱ ~5–7 ngày làm việc (ước tính).
-  chính sách các giai đoạn (2–3 giờ).
+- Vai trò: Chuyên viên cục chủ trì soạn thảo; AI hỗ trợ dự thảo nội dung chính sách, so sánh chính sách các giai đoạn ⏱ ~5–7 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Chính sách nhà ở xã hội phải gắn với đối tượng theo quy định pháp luật về nhà ở;
   cơ chế tín dụng phối hợp chặt với Ngân hàng Nhà nước.
 - → Kết quả bước: Dự thảo chiến lược/chương trình/đề án.
@@ -45,7 +43,7 @@ nhà ở xã hội, nhà ở cho công nhân, cải tạo chung cư cũ, chính 
 
 - Làm gì: Lấy ý kiến bộ/ngành, địa phương, hiệp hội, doanh nghiệp; tiếp thu, giải trình.
 - Dùng input: Dự thảo chiến lược/chương trình.
-- Vai trò: Cục chủ trì tổng hợp; AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu (2 giờ).
+- Vai trò: Cục chủ trì tổng hợp; AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Lấy ý kiến các địa phương trọng điểm phát triển nhà ở xã hội.
 - → Kết quả bước: Dự thảo hoàn chỉnh + báo cáo tiếp thu ý kiến.
 
@@ -54,8 +52,7 @@ nhà ở xã hội, nhà ở cho công nhân, cải tạo chung cư cũ, chính 
 - Làm gì: Trình Thủ tướng/Chính phủ phê duyệt (chiến lược, chương trình quốc gia) hoặc ban hành
   văn bản hướng dẫn theo thẩm quyền; giao chỉ tiêu, theo dõi địa phương thực hiện.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Cục trưởng kiểm tra; Thứ trưởng duyệt; AI hỗ trợ checklist hồ sơ trình, dự thảo ⏱ ~2–3 ngày làm việc (ước tính).
-  văn bản giao chỉ tiêu (1–2 giờ).
+- Vai trò: Cục trưởng kiểm tra; Thứ trưởng duyệt; AI hỗ trợ checklist hồ sơ trình, dự thảo văn bản giao chỉ tiêu ⏱ ~2–3 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Theo dõi, đôn đốc địa phương; sơ kết, tổng kết định kỳ.
 - → Kết quả bước: Văn bản phê duyệt + kế hoạch tổ chức thực hiện.
 

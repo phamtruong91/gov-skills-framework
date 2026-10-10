@@ -20,15 +20,15 @@ Khi xây dựng chính sách, văn bản QPPL về hộ tịch, quốc tịch; k
 
 **Bước 1. Rà soát chính sách hộ tịch, quốc tịch**
 - Làm gì: Đánh giá thi hành pháp luật về hộ tịch, quốc tịch; tổng hợp vướng mắc (đăng ký hộ tịch trực tuyến, liên thông khai sinh – BHYT – thường trú...).
-- Dùng input: `bao_cao_dia_phuong`.
-- Vai trò: Chuyên viên Cục Hộ tịch, quốc tịch, chứng thực — AI hỗ trợ tổng hợp vướng mắc theo nhóm việc (2–3 ngày).
+- Dùng input: `bao_cao_dia_phuong`, `noi_dung`.
+- Vai trò: Chuyên viên Cục Hộ tịch, quốc tịch, chứng thực — AI hỗ trợ tổng hợp vướng mắc theo nhóm việc (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Ưu tiên đơn giản hóa thủ tục, liên thông dữ liệu, giảm giấy tờ cho người dân.
 - → Kết quả bước: Báo cáo rà soát.
 
 **Bước 2. Xây dựng văn bản QPPL, quy trình nghiệp vụ**
 - Làm gì: Soạn dự thảo nghị định/thông tư hướng dẫn đăng ký hộ tịch; quy trình liên thông điện tử.
 - Dùng input: Kết quả bước 1.
-- Vai trò: Cục trưởng Cục Hộ tịch, quốc tịch, chứng thực chủ trì — AI hỗ trợ soạn dự thảo, vẽ sơ đồ quy trình liên thông (3–5 ngày).
+- Vai trò: Cục trưởng Cục Hộ tịch, quốc tịch, chứng thực chủ trì — AI hỗ trợ soạn dự thảo, vẽ sơ đồ quy trình liên thông (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Bảo đảm đồng bộ với CSDL quốc gia về dân cư; quy định rõ trách nhiệm khi dữ liệu sai lệch.
 - → Kết quả bước: Dự thảo văn bản/quy trình.
 
@@ -42,14 +42,14 @@ Khi xây dựng chính sách, văn bản QPPL về hộ tịch, quốc tịch; k
 **Bước 4. Giải quyết việc hộ tịch, quốc tịch thuộc thẩm quyền trung ương**
 - Làm gì: Thẩm định, trình giải quyết: nhập quốc tịch, trở lại quốc tịch, thôi quốc tịch Việt Nam; đăng ký hộ tịch có yếu tố nước ngoài vượt thẩm quyền địa phương.
 - Dùng input: `vu_viec`.
-- Vai trò: Chuyên viên Cục Hộ tịch, quốc tịch, chứng thực thẩm định — AI hỗ trợ kiểm tra tính đầy đủ hồ sơ, tra cứu tiền lệ (2–3 ngày/hồ sơ).
+- Vai trò: Chuyên viên Cục Hộ tịch, quốc tịch, chứng thực thẩm định — AI hỗ trợ kiểm tra tính đầy đủ hồ sơ, tra cứu tiền lệ (⏱ 2–3 ngày/hồ sơ).
 - Lưu ý nghiệp vụ: Việc quốc tịch do Chủ tịch nước quyết định theo đề nghị của Chính phủ — Bộ Tư pháp thẩm định, trình Chính phủ.
 - → Kết quả bước: Tờ trình Chính phủ về việc quốc tịch / văn bản giải quyết.
 
 **Bước 5. Hướng dẫn, kiểm tra địa phương; báo cáo**
 - Làm gì: Hướng dẫn nghiệp vụ cho Sở Tư pháp/UBND cấp xã; kiểm tra công tác đăng ký, quản lý hộ tịch; tổng hợp báo cáo toàn quốc.
 - Dùng input: `bao_cao_dia_phuong`.
-- Vai trò: Đoàn công tác của Cục — AI hỗ trợ lập đề cương kiểm tra, tổng hợp báo cáo (3–5 ngày).
+- Vai trò: Đoàn công tác của Cục — AI hỗ trợ lập đề cương kiểm tra, tổng hợp báo cáo (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Kịp thời tháo gỡ vướng mắc về phần mềm, quy trình liên thông.
 - → Kết quả bước: Báo cáo công tác hộ tịch, quốc tịch toàn quốc.
 

@@ -22,7 +22,7 @@ Khi xây dựng chiến lược, kế hoạch dự trữ quốc gia; khi mua, b�
 **Bước 1. Xây dựng chiến lược, kế hoạch dự trữ**
 - Làm gì: Xác định danh mục, mức dự trữ; kế hoạch mua, bán, luân phiên hàng năm; phân bổ theo vùng, kho.
 - Dùng input: `noi_dung`, `mat_hang`.
-- Vai trò: Cục trưởng Cục Dự trữ Nhà nước chủ trì — AI hỗ trợ tính toán mức dự trữ tối ưu, lập kế hoạch (5–7 ngày).
+- Vai trò: Cục trưởng Cục Dự trữ Nhà nước chủ trì — AI hỗ trợ tính toán mức dự trữ tối ưu, lập kế hoạch (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Ưu tiên lương thực, vật tư cứu trợ; phân bổ hợp lý theo vùng thiên tai trọng điểm.
 - → Kết quả bước: Kế hoạch dự trữ quốc gia hằng năm.
 
@@ -43,14 +43,14 @@ Khi xây dựng chiến lược, kế hoạch dự trữ quốc gia; khi mua, b�
 **Bước 4. Xuất cấp cứu trợ, cứu đói**
 - Làm gì: Tiếp nhận đề nghị của địa phương; thẩm định; trình Thủ tướng quyết định xuất cấp; tổ chức vận chuyển, giao nhận.
 - Dùng input: `de_nghi_dia_phuong`, `muc_dich_xuat_cap`.
-- Vai trò: Cục trưởng Cục Dự trữ Nhà nước thẩm định — AI hỗ trợ soạn Tờ trình xuất cấp khẩn (1–2 ngày, khẩn cấp trong ngày).
+- Vai trò: Cục trưởng Cục Dự trữ Nhà nước thẩm định — AI hỗ trợ soạn Tờ trình xuất cấp khẩn (⏱ 1–2 ngày, khẩn cấp trong ngày).
 - Lưu ý nghiệp vụ: Xuất cấp kịp thời khi thiên tai, dịch bệnh; giao nhận có biên bản, đúng đối tượng; chống thất thoát, trục lợi.
 - → Kết quả bước: Quyết định xuất cấp; hàng đến tay người dân.
 
 **Bước 5. Kiểm tra kho, tổng hợp báo cáo**
 - Làm gì: Kiểm tra định kỳ/đột xuất các kho dự trữ (số lượng, chất lượng, bảo quản); tổng hợp báo cáo.
 - Dùng input: Kết quả kiểm kê.
-- Vai trò: Đoàn kiểm tra của Cục — AI hỗ trợ lập báo cáo kiểm tra (3–5 ngày).
+- Vai trò: Đoàn kiểm tra của Cục — AI hỗ trợ lập báo cáo kiểm tra (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Xử lý nghiêm thiếu hụt, hư hỏng do bảo quản kém.
 - → Kết quả bước: Báo cáo công tác dự trữ quốc gia.
 

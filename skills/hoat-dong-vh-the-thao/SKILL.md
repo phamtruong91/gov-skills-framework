@@ -31,8 +31,8 @@ description: "Lập kế hoạch và tổ chức hoạt động văn hóa, thể
 **Bước 1. Đánh giá kết quả năm trước, khảo sát nhu cầu**
 
 - Làm gì: Tổng hợp, đánh giá kết quả hoạt động VH-TT năm trước (sự kiện, phong trào, gia đình/thôn văn hóa, CLB TDTT); khảo sát nhu cầu văn hóa, thể thao của người dân các thôn để làm cơ sở xây dựng kế hoạch năm mới.
-- Dùng input: `ket_qua_nam_truoc`, `so_lieu_hien_trang`.
-- Vai trò: Công chức VH-XH phụ trách văn hóa – thể thao (bà Trần Thị H) chủ trì tổng hợp, phối hợp trưởng thôn nắm nhu cầu. AI hỗ trợ: tổng hợp số liệu năm trước thành bảng đánh giá, thiết kế phiếu khảo sát nhu cầu ngắn gọn, phân tích kết quả khảo sát. Thời gian ước tính: 5–7 ngày làm việc.
+- Dùng input: `ket_qua_nam_truoc`, `so_lieu_hien_trang`, `thoi_han`.
+- Vai trò: Công chức VH-XH phụ trách văn hóa – thể thao (bà Trần Thị H) chủ trì tổng hợp, phối hợp trưởng thôn nắm nhu cầu. AI hỗ trợ: tổng hợp số liệu năm trước thành bảng đánh giá, thiết kế phiếu khảo sát nhu cầu ngắn gọn, phân tích kết quả khảo sát. ⏱ 5–7 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Đánh giá phải chỉ rõ mặt được, hạn chế và nguyên nhân; nhu cầu của người dân là căn cứ quan trọng để lựa chọn nội dung hoạt động, tránh tổ chức hình thức.
 - → Kết quả bước: Báo cáo đánh giá kết quả năm trước + tổng hợp nhu cầu VH-TT của người dân.
 
@@ -40,7 +40,7 @@ description: "Lập kế hoạch và tổ chức hoạt động văn hóa, thể
 
 - Làm gì: Dự thảo Kế hoạch hoạt động VH-TT cơ sở năm gồm: phong trào xây dựng đời sống văn hóa (gia đình văn hóa, thôn văn hóa); phong trào TDTT quần chúng (CLB, giải thể thao); hội thi, hội diễn văn nghệ; hoạt động chào mừng ngày lễ lớn; lịch triển khai theo từng quý.
 - Dùng input: `nam_ke_hoach`, `su_kien_du_kien`, `ngay_le_lon`, `don_vi_phoi_hop`, kết quả bước 1.
-- Vai trò: Công chức VH-XH phụ trách văn hóa – thể thao soạn dự thảo, xin ý kiến MTTQ và các đoàn thể về nội dung phối hợp. AI hỗ trợ: soạn dự thảo kế hoạch theo thể thức NĐ 30/2020/NĐ-CP, sắp xếp lịch sự kiện theo quý tránh trùng lặp, lập bảng phân công phối hợp. Thời gian ước tính: 3–4 ngày làm việc.
+- Vai trò: Công chức VH-XH phụ trách văn hóa – thể thao soạn dự thảo, xin ý kiến MTTQ và các đoàn thể về nội dung phối hợp. AI hỗ trợ: soạn dự thảo kế hoạch theo thể thức NĐ 30/2020/NĐ-CP, sắp xếp lịch sự kiện theo quý tránh trùng lặp, lập bảng phân công phối hợp. ⏱ 3–4 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Nội dung phải bám 15 nhiệm vụ ngành VHTTDL giao cấp xã (TT 10/2025/TT-BVHTTDL); mỗi sự kiện ghi rõ mục đích, đối tượng, quy mô, thời gian, địa điểm, đơn vị chủ trì/phối hợp.
 - → Kết quả bước: Dự thảo Kế hoạch hoạt động VH-TT cơ sở năm + phụ lục lịch sự kiện theo quý.
 
@@ -48,7 +48,7 @@ description: "Lập kế hoạch và tổ chức hoạt động văn hóa, thể
 
 - Làm gì: Lập dự toán kinh phí chi tiết từng hoạt động (ngân sách xã, xã hội hóa); phân công nhiệm vụ cụ thể cho Phòng VH-XH, các thôn, MTTQ và đoàn thể; xây dựng tiêu chí bình xét gia đình văn hóa, thôn văn hóa năm.
 - Dùng input: `du_toan_kinh_phi`, dự thảo kế hoạch ở bước 2.
-- Vai trò: Công chức VH-XH phụ trách văn hóa – thể thao lập dự toán, Trưởng phòng VH-XH (ông Vũ Văn E) rà soát tính khả thi. AI hỗ trợ: lập bảng dự toán chi tiết theo từng sự kiện, kiểm tra tổng mức trong khả năng kinh phí, soạn dự thảo tiêu chí bình xét gia đình/thôn văn hóa. Thời gian ước tính: 2–3 ngày làm việc.
+- Vai trò: Công chức VH-XH phụ trách văn hóa – thể thao lập dự toán, Trưởng phòng VH-XH (ông Vũ Văn E) rà soát tính khả thi. AI hỗ trợ: lập bảng dự toán chi tiết theo từng sự kiện, kiểm tra tổng mức trong khả năng kinh phí, soạn dự thảo tiêu chí bình xét gia đình/thôn văn hóa. ⏱ 2–3 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Kinh phí phải tiết kiệm, hiệu quả; nguồn xã hội hóa phải công khai, tự nguyện; tiêu chí bình xét phải cụ thể, dễ áp dụng thống nhất ở các thôn.
 - → Kết quả bước: Bảng dự toán kinh phí + bảng phân công tổ chức thực hiện + dự thảo tiêu chí bình xét.
 
@@ -56,7 +56,7 @@ description: "Lập kế hoạch và tổ chức hoạt động văn hóa, thể
 
 - Làm gì: Trình dự thảo kế hoạch qua các nấc kiểm duyệt; ký ban hành; gửi kế hoạch đến các đơn vị phối hợp, các thôn và niêm yết công khai.
 - Dùng input: Dự thảo kế hoạch và phụ lục ở bước 2–3.
-- Vai trò: Công chức VH-XH phụ trách văn hóa – thể thao trình; Trưởng phòng VH-XH (ông Vũ Văn E) kiểm tra nội dung, thể thức; Chủ tịch UBND xã (ông Nguyễn Văn A) ký duyệt, ban hành. AI hỗ trợ: rà soát thể thức lần cuối, lập danh sách nơi nhận, lập phiếu trình ký. Thời gian ước tính: 1–2 ngày làm việc.
+- Vai trò: Công chức VH-XH phụ trách văn hóa – thể thao trình; Trưởng phòng VH-XH (ông Vũ Văn E) kiểm tra nội dung, thể thức; Chủ tịch UBND xã (ông Nguyễn Văn A) ký duyệt, ban hành. AI hỗ trợ: rà soát thể thức lần cuối, lập danh sách nơi nhận, lập phiếu trình ký. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Kế hoạch năm phải ban hành trước khi triển khai quý I; gửi MTTQ và các đoàn thể để chủ động phối hợp.
 - → Kết quả bước: Kế hoạch đã ký ban hành, gửi đúng nơi nhận, niêm yết công khai.
 
@@ -64,7 +64,7 @@ description: "Lập kế hoạch và tổ chức hoạt động văn hóa, thể
 
 - Làm gì: Triển khai các hoạt động theo kế hoạch; theo dõi tiến độ, đôn đốc các đầu mối; tổ chức bình xét, công nhận gia đình văn hóa, thôn văn hóa cuối năm; tổng hợp báo cáo kết quả năm.
 - Dùng input: Kế hoạch đã ban hành; số liệu thực hiện từng sự kiện, kết quả bình xét.
-- Vai trò: Công chức VH-XH phụ trách văn hóa – thể thao theo dõi, tổng hợp; Trưởng phòng VH-XH kiểm tra báo cáo trước khi trình Chủ tịch ký. AI hỗ trợ: lập bảng theo dõi tiến độ theo quý, tổng hợp kết quả bình xét, soạn dự thảo báo cáo kết quả năm. Thời gian ước tính: theo dõi xuyên năm; tổng hợp báo cáo 3–5 ngày cuối năm.
+- Vai trò: Công chức VH-XH phụ trách văn hóa – thể thao theo dõi, tổng hợp; Trưởng phòng VH-XH kiểm tra báo cáo trước khi trình Chủ tịch ký. AI hỗ trợ: lập bảng theo dõi tiến độ theo quý, tổng hợp kết quả bình xét, soạn dự thảo báo cáo kết quả năm. ⏱ theo dõi xuyên năm; tổng hợp báo cáo 3–5 ngày cuối năm.
 - Lưu ý nghiệp vụ: Mọi sự kiện phải có hồ sơ lưu (kế hoạch chi tiết, danh sách, ảnh, kết quả); bình xét gia đình/thôn văn hóa phải dân chủ, công khai tại thôn trước khi trình xã công nhận.
 - → Kết quả bước: Báo cáo kết quả hoạt động VH-TT cơ sở năm + quyết định công nhận gia đình văn hóa, thôn văn hóa (nếu có).
 

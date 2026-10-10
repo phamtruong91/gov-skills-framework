@@ -24,36 +24,36 @@ description: "Xây dựng, sửa đổi chính sách, chương trình, đề án
 
 **Bước 1. Khảo sát, đánh giá thực trạng văn thư, lưu trữ toàn quốc**
 - Làm gì: Thu thập số liệu về kho lưu trữ, khối lượng tài liệu, tình hình số hóa, nhân lực lưu trữ của bộ, ngành, địa phương; đánh giá kết quả thực hiện chính sách hiện hành.
-- Dùng input: `thuc_trang_luu_tru`, `noi_dung_chinh_sach`.
-- Vai trò: Chuyên viên Cục Văn thư và Lưu trữ nhà nước khảo sát (AI hỗ trợ tổng hợp số liệu, lập bảng thống kê hiện trạng số hóa theo bộ/ngành/địa phương — 3–5 ngày) → Cục trưởng kiểm tra.
+- Dùng input: `thuc_trang_luu_tru`, `noi_dung_chinh_sach`, `can_cu_chu_truong`.
+- Vai trò: Chuyên viên Cục Văn thư và Lưu trữ nhà nước khảo sát (AI hỗ trợ tổng hợp số liệu, lập bảng thống kê hiện trạng số hóa theo bộ/ngành/địa phương ⏱ 3–5 ngày (ước tính)) → Cục trưởng kiểm tra.
 - Lưu ý nghiệp vụ: Số liệu phải từ báo cáo chính thức; phân biệt tài liệu lưu trữ giấy và tài liệu lưu trữ số; AI không tự suy đoán khối lượng tài liệu.
 - → Kết quả bước: Báo cáo đánh giá thực trạng văn thư, lưu trữ.
 
 **Bước 2. Xây dựng dự thảo chính sách, đề án**
 - Làm gì: Thiết kế nội dung: mục tiêu lưu trữ số, lộ trình số hóa, mô hình Kho lưu trữ số, cấu trúc cơ sở dữ liệu tài liệu lưu trữ, tiêu chuẩn kỹ thuật, kinh phí; dự thảo văn bản/đề án.
 - Dùng input: `noi_dung_chinh_sach`, `hinh_thuc_van_ban`, kết quả bước 1.
-- Vai trò: Chuyên viên Cục Văn thư và Lưu trữ nhà nước soạn thảo (AI hỗ trợ rà soát chính sách hiện hành, kiểm tra tính thống nhất với Luật Lưu trữ — 5–7 ngày) → Cục trưởng rà soát.
+- Vai trò: Chuyên viên Cục Văn thư và Lưu trữ nhà nước soạn thảo (AI hỗ trợ rà soát chính sách hiện hành, kiểm tra tính thống nhất với Luật Lưu trữ ⏱ 5–7 ngày (ước tính)) → Cục trưởng rà soát.
 - Lưu ý nghiệp vụ: Nội dung phải phù hợp Luật Lưu trữ; tiêu chuẩn kỹ thuật lưu trữ số phải đồng bộ, tránh "đảo dữ liệu" khi liên thông giữa các kho; bảo đảm an toàn, bảo mật tài liệu.
 - → Kết quả bước: Dự thảo chính sách/đề án lần 1.
 
 **Bước 3. Lấy ý kiến bộ, ngành, địa phương**
 - Làm gì: Gửi dự thảo lấy ý kiến các bộ, cơ quan ngang bộ, Sở Nội vụ các tỉnh (vd: Sở Nội vụ tỉnh A); tổng hợp, tiếp thu/giải trình; đánh giá tác động kinh phí (khi có đầu tư kho, hạ tầng số).
 - Dùng input: `danh_sach_lay_y_kien`, dự thảo bước 2.
-- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu/giải trình — 2–3 ngày) → Cục trưởng ký văn bản xin ý kiến.
+- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu/giải trình ⏱ 2–3 ngày (ước tính)) → Cục trưởng ký văn bản xin ý kiến.
 - Lưu ý nghiệp vụ: Ý kiến của địa phương về khả năng thực hiện (kho tàng, nhân lực, kinh phí) phải được xem xét kỹ; ý kiến không tiếp thu phải giải trình.
 - → Kết quả bước: Dự thảo lần 2 đã tiếp thu ý kiến.
 
 **Bước 4. Thẩm định, trình ban hành**
 - Làm gì: Vụ Pháp chế thẩm định (nếu là VBQPPL); lập tờ trình trình Bộ trưởng ký ban hành (thông tư) hoặc báo cáo Chính phủ (nghị định/đề án, chương trình).
 - Dùng input: Toàn bộ hồ sơ các bước trước.
-- Vai trò: Cục trưởng ký tờ trình (AI hỗ trợ rà soát thể thức theo NĐ 30/2020/NĐ-CP — 0,5 ngày) → Thứ trưởng kiểm tra → Bộ trưởng ký ban hành hoặc quyết định trình Chính phủ.
+- Vai trò: Cục trưởng ký tờ trình (AI hỗ trợ rà soát thể thức theo NĐ 30/2020/NĐ-CP ⏱ 0,5 ngày (ước tính)) → Thứ trưởng kiểm tra → Bộ trưởng ký ban hành hoặc quyết định trình Chính phủ.
 - Lưu ý nghiệp vụ: Không trình ban hành khi còn ý kiến thẩm định chưa được xử lý; kiểm tra không viện dẫn văn bản hết hiệu lực.
 - → Kết quả bước: Chính sách/đề án được ban hành.
 
 **Bước 5. Hướng dẫn, kiểm tra thực hiện**
 - Làm gì: Ban hành tài liệu hướng dẫn nghiệp vụ; kiểm tra công tác văn thư, lưu trữ tại bộ, ngành, địa phương; đánh giá tiến độ số hóa, vận hành Kho lưu trữ số, CSDL tài liệu lưu trữ; tổng hợp báo cáo.
 - Dùng input: Văn bản chính sách đã ban hành, báo cáo của bộ/ngành/địa phương.
-- Vai trò: Chuyên viên Cục Văn thư và Lưu trữ nhà nước theo dõi (AI hỗ trợ tổng hợp tiến độ số hóa, phát hiện vướng mắc — 3–5 ngày/kỳ) → Cục trưởng báo cáo Bộ trưởng.
+- Vai trò: Chuyên viên Cục Văn thư và Lưu trữ nhà nước theo dõi (AI hỗ trợ tổng hợp tiến độ số hóa, phát hiện vướng mắc ⏱ 3–5 ngày (ước tính)/kỳ) → Cục trưởng báo cáo Bộ trưởng.
 - Lưu ý nghiệp vụ: Kiểm tra tuân thủ đúng thẩm quyền; kịp thời hướng dẫn xử lý tài liệu tồn đọng, tài liệu mật theo quy định.
 - → Kết quả bước: Văn bản hướng dẫn; báo cáo kiểm tra, đánh giá thực hiện.
 

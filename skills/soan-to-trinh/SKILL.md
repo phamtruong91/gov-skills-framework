@@ -5,6 +5,8 @@ description: "Soạn tờ trình xin chủ trương, phê duyệt của cấp c�
 
 # Skill: Soạn tờ trình
 
+> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
+
 ## Khi nào dùng
 
 - Soạn tờ trình Đảng ủy xã xin chủ trương về các vấn đề quan trọng (dự án đầu tư công, sắp xếp tổ chức, công tác cán bộ...).
@@ -18,7 +20,7 @@ description: "Soạn tờ trình xin chủ trương, phê duyệt của cấp c�
 
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
-| `cap_trinh` | Cấp được trình: Đảng ủy xã / HĐND xã / UBND cấp tỉnh (ghi rõ đơn vị) | Có |
+| `cap_trinh` | Cấp được trình (ghi rõ đơn vị): cấp xã (Đảng ủy xã / HĐND xã / UBND xã), cấp tỉnh (Tỉnh ủy / HĐND tỉnh / UBND tỉnh), cấp trung ương (Chính phủ / Bộ) | Có |
 | `trich_yeu` | Tóm tắt nội dung xin chủ trương/phê duyệt (1–2 câu) | Có |
 | `can_cu` | Danh sách căn cứ pháp lý, văn bản chỉ đạo liên quan (số hiệu, ngày ban hành còn hiệu lực) | Có |
 | `thuc_trang` | Mô tả thực trạng, sự cần thiết phải xin chủ trương/phê duyệt | Có |
@@ -56,21 +58,30 @@ description: "Soạn tờ trình xin chủ trương, phê duyệt của cấp c�
 - Lưu ý nghiệp vụ: Nội dung đề nghị phải cụ thể, định lượng được (kinh phí bao nhiêu, thời gian nào, ai thực hiện). Kiến nghị phải rõ: đề nghị cấp trình xem xét, quyết định/phê duyệt nội dung gì. Không đưa nội dung mập mờ, không thể kiểm chứng.
 - → Kết quả bước: Dự thảo nội dung tờ trình hoàn chỉnh, logic chặt chẽ.
 
-**Bước 4. Áp thể thức trình bày theo NĐ 30/2020/NĐ-CP**
+**Bước 4. Lấy ý kiến nội bộ và tiếp thu**
+
+- Làm gì: Gửi dự thảo lấy ý kiến các phòng liên quan (nếu nội dung liên ngành); tổng hợp, tiếp thu ý kiến vào dự thảo nội dung.
+- Dùng input: Dự thảo nội dung (Bước 3), `don_vi_soan_thao`, `cap_trinh`.
+- Vai trò: Công chức soạn thảo tổng hợp ý kiến; AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu ⏱ ~0,5 ngày (ước tính, chưa tính thời gian chờ ý kiến các phòng).
+- Lưu ý nghiệp vụ: Ý kiến khác nhau giữa các phòng phải được ghi nhận đầy đủ trong hồ sơ trình, không giấu ý kiến trái chiều. Lấy ý kiến trước khi áp thể thức để tránh phải làm lại thể thức khi nội dung thay đổi.
+- → Kết quả bước: Dự thảo nội dung đã tiếp thu ý kiến.
+
+**Bước 5. Áp thể thức trình bày theo NĐ 30/2020/NĐ-CP**
 
 - Làm gì: Dựng khung thể thức đầy đủ: quốc hiệu–tiêu ngữ; tên cơ quan ban hành; số, ký hiệu "..../TTr-UBND"; địa danh, ngày tháng năm; tên loại "TỜ TRÌNH" và trích yếu; nội dung; nơi nhận; chữ ký người ký.
-- Dùng input: `don_vi_soan_thao`, `nguoi_ky_du_kien`, `noi_nhan`, `ngay_ban_hanh`, `cap_trinh`.
+- Dùng input: Dự thảo nội dung đã tiếp thu (Bước 4), `don_vi_soan_thao`, `nguoi_ky_du_kien`, `noi_nhan`, `ngay_ban_hanh`, `cap_trinh`.
 - Vai trò: Công chức văn thư/văn phòng thực hiện; AI hỗ trợ: kiểm tra đầy đủ thành phần thể thức và vị trí các khối ⏱ ~10 phút (ước tính).
 - Lưu ý nghiệp vụ: Dòng "Kính gửi:" ghi đúng tên cấp trình (ví dụ: "Kính gửi: Đảng ủy xã A", "Kính gửi: Hội đồng nhân dân xã A", "Kính gửi: Ủy ban nhân dân tỉnh A"). Tờ trình của UBND xã do Chủ tịch UBND xã ký ("TM. ỦY BAN NHÂN DÂN" – "CHỦ TỊCH").
 - → Kết quả bước: Bản dự thảo tờ trình đúng thể thức, sẵn sàng trình.
 
-**Bước 5. Lấy ý kiến nội bộ, trình ký và gửi**
+**Bước 6. Trình ký và gửi**
 
-- Làm gì: Gửi dự thảo lấy ý kiến các phòng liên quan (nếu nội dung liên ngành); tổng hợp, tiếp thu ý kiến; trình Chánh Văn phòng kiểm tra, trình Chủ tịch UBND xã duyệt và ký; gửi đến cấp trình, theo dõi phản hồi.
-- Dùng input: `don_vi_soan_thao`, `nguoi_ky_du_kien`, `noi_nhan`, `cap_trinh`.
-- Vai trò: Công chức soạn thảo tổng hợp ý kiến; Chánh Văn phòng HĐND&UBND kiểm tra thể thức (5 phút); Chủ tịch UBND xã duyệt nội dung, ký ban hành (15 phút); văn thư gửi và theo dõi; AI hỗ trợ: kiểm tra thể thức lần cuối, tổng hợp đầy đủ hồ sơ trình ký — tổng ước tính 30 phút (chưa tính thời gian chờ ý kiến các phòng).
-- Lưu ý nghiệp vụ: Ý kiến khác nhau giữa các phòng phải được ghi nhận đầy đủ trong hồ sơ trình, không giấu ý kiến trái chiều. Sau khi cấp trình có ý kiến, phải ban hành văn bản triển khai kịp thời.
-- → Kết quả bước: Tờ trình đã ký, gửi đúng cấp trình; hồ sơ lưu đầy đủ ý kiến tham gia.
+- Làm gì: Trình Chánh Văn phòng kiểm tra, trình người đứng đầu duyệt và ký; gửi đến cấp trình, theo dõi phản hồi.
+- Dùng input: Bản dự thảo đúng thể thức (Bước 5), `noi_nhan`, `cap_trinh`.
+- Vai trò: Chánh Văn phòng kiểm tra thể thức (⏱ 5 phút); người đứng đầu duyệt nội dung, ký ban hành (⏱ 15 phút); văn thư gửi và theo dõi; AI hỗ trợ: kiểm tra thể thức lần cuối, tổng hợp đầy đủ hồ sơ trình ký — tổng ước tính 30 phút.
+- Lưu ý nghiệp vụ: Sau khi cấp trình có ý kiến, phải ban hành văn bản triển khai kịp thời.
+- → Kết quả bước: Tờ trình đã ký, gửi đến cấp trình.
+
 
 ## Luồng quy trình (Workflow)
 
@@ -80,11 +91,12 @@ flowchart TD
     IN --> B1["Bước 1: Xác định cấp trình và thẩm quyền quyết định"]
     B1 --> B2["Bước 2: Thu thập căn cứ pháp lý và số liệu"]
     B2 --> B3["Bước 3: Soạn dự thảo nội dung tờ trình"]
-    B3 --> B4["Bước 4: Áp thể thức trình bày theo NĐ 30/2020/NĐ-CP"]
-    B4 --> B5["Bước 5: Lấy ý kiến nội bộ, trình ký và gửi"]
+    B3 --> B4["Bước 4: Lấy ý kiến nội bộ và tiếp thu"]
+    B4 --> B5["Bước 5: Áp thể thức trình bày theo NĐ 30/2020/NĐ-CP"]
+    B5 --> B6["Bước 6: Trình ký và gửi"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Dự thảo tờ trình hoàn chỉnh, đúng thể thức NĐ 30/2020/NĐ-CP.
 - Bảng tổng hợp ý kiến các phòng liên quan (nếu có).
@@ -109,7 +121,7 @@ Khung cố định của một tờ trình, các phần bắt buộc theo đúng
 7. **Nơi nhận** (cuối văn bản, canh trái): cấp trình (để trình), các đơn vị liên quan, lưu hồ sơ.
 8. **Chữ ký, chức vụ người ký** (canh phải): "TM. ỦY BAN NHÂN DÂN" / "CHỦ TỊCH" / họ tên người ký, đóng dấu.
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. Có đủ 8 thành phần thể thức theo đúng thứ tự mục 5.
 2. Trình đúng cấp có thẩm quyền quyết định nội dung (Đảng ủy/HĐND/cấp tỉnh) — không trình sai cấp.
@@ -122,7 +134,7 @@ Khung cố định của một tờ trình, các phần bắt buộc theo đúng
 9. Không bịa số liệu, căn cứ pháp lý; số liệu là số tròn, có nguồn rõ ràng.
 10. Đã qua human gate: Chánh Văn phòng kiểm tra thể thức, Chủ tịch UBND xã duyệt nội dung và ký trước khi gửi.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
@@ -180,7 +192,7 @@ CHỦ TỊCH
 
 Nguyễn Văn A
 
-## Human gate
+## 8. Human gate
 
 - **Công chức phòng chuyên môn** → soạn dự thảo, chịu trách nhiệm về nội dung, số liệu, căn cứ pháp lý.
 - **Trưởng phòng chuyên môn** → kiểm tra tính đúng đắn nghiệp vụ, sự cần thiết của nội dung trình.
@@ -188,7 +200,7 @@ Nguyễn Văn A
 - **Chủ tịch UBND xã** → duyệt nội dung, ký ban hành tờ trình.
 - Tờ trình chỉ được gửi đi sau khi Chủ tịch UBND xã ký; nội dung xin chủ trương quan trọng nên báo cáo tập thể lãnh đạo UBND xã trước khi trình.
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI KHÔNG ra quyết định hành chính thay người có thẩm quyền; chỉ hỗ trợ soạn thảo dự thảo.
 - AI KHÔNG tự ký, tự đóng dấu, tự gửi tờ trình dưới bất kỳ hình thức nào.
@@ -196,7 +208,7 @@ Nguyễn Văn A
 - AI KHÔNG đề xuất trình sai cấp thẩm quyền; khi nội dung vượt thẩm quyền xã phải hướng dẫn trình cấp có thẩm quyền.
 - AI KHÔNG thay thế việc thảo luận, thống nhất trong tập thể lãnh đạo đối với nội dung quan trọng.
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - NĐ 30/2020/NĐ-CP về công tác văn thư: thể thức, kỹ thuật trình bày văn bản hành chính (áp dụng cho tờ trình).
 - Luật Tổ chức chính quyền địa phương 72/2025/QH15: thẩm quyền của Đảng ủy, HĐND, UBND cấp xã — căn cứ xác định đúng cấp trình.

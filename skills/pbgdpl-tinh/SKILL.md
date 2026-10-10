@@ -26,35 +26,35 @@ description: "Tổ chức công tác phổ biến, giáo dục pháp luật cấ
 
 **Bước 1. Rà soát văn bản mới, khảo sát nhu cầu PBGDPL toàn tỉnh**
 - Làm gì: Rà soát văn bản QPPL mới của Trung ương liên quan trực tiếp đến tổ chức, cá nhân trên địa bàn; tổng hợp nhu cầu tìm hiểu pháp luật từ các sở, ngành, UBND cấp xã; đánh giá kết quả PBGDPL năm trước của tỉnh.
-- Dùng input: `van_ban_moi_tw`, `nhu_cau_dia_phuong`, `ke_hoach_nam_truoc`
+- Dùng input: `van_ban_moi_tw`, `nhu_cau_dia_phuong`, `ke_hoach_nam_truoc`.
 - Vai trò: Chuyên viên Phòng Phổ biến, giáo dục pháp luật (Sở Tư pháp tỉnh A) chủ trì rà soát, tổng hợp. AI hỗ trợ phân loại văn bản mới theo lĩnh vực và nhóm đối tượng cần phổ biến, tổng hợp kết quả khảo sát nhu cầu ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Chỉ đưa vào kế hoạch văn bản còn hiệu lực; ưu tiên văn bản tác động trực tiếp đến quyền, nghĩa vụ của tổ chức, cá nhân và văn bản mới về mô hình chính quyền địa phương 02 cấp.
 - → Kết quả bước: Báo cáo rà soát + danh mục văn bản mới cần phổ biến trong năm, phân theo đối tượng, địa bàn.
 
 **Bước 2. Tham mưu kiện toàn Hội đồng phối hợp PBGDPL tỉnh**
 - Làm gì: Rà soát thành phần Hội đồng phối hợp PBGDPL tỉnh; dự thảo quyết định kiện toàn (Chủ tịch Hội đồng là Phó Chủ tịch UBND tỉnh, Phó Chủ tịch thường trực là Giám đốc Sở Tư pháp, thành viên là lãnh đạo các sở, ngành, đoàn thể); dự thảo quy chế hoạt động của Hội đồng.
-- Dùng input: danh sách nhân sự dự kiến, quy chế hoạt động hiện hành
+- Dùng input: danh sách nhân sự dự kiến, quy chế hoạt động hiện hành.
 - Vai trò: Trưởng phòng Phổ biến, giáo dục pháp luật soạn dự thảo; Giám đốc Sở Tư pháp ký tờ trình. AI hỗ trợ soạn dự thảo quyết định kiện toàn và quy chế hoạt động đúng thể thức ⏱ ~02 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Thành phần Hội đồng phải bao quát các sở, ngành, đoàn thể liên quan; quy chế phân công rõ trách nhiệm từng thành viên, chế độ họp, báo cáo.
 - → Kết quả bước: Dự thảo quyết định kiện toàn Hội đồng phối hợp PBGDPL tỉnh + dự thảo quy chế hoạt động, trình Chủ tịch UBND tỉnh ký ban hành.
 
 **Bước 3. Lập dự thảo Kế hoạch PBGDPL của tỉnh**
 - Làm gì: Xây dựng dự thảo kế hoạch: mục đích, yêu cầu; nội dung phổ biến; hình thức (hội nghị, tập huấn, báo chí, Cổng thông tin điện tử tỉnh, tờ gấp, pano); đối tượng; tiến độ; kinh phí; phân công sở, ngành, UBND cấp xã thực hiện.
-- Dùng input: kết quả Bước 1, `doi_tuong_dac_thu`, `kinh_phi_du_kien`, `don_vi_phoi_hop`
+- Dùng input: kết quả Bước 1, `doi_tuong_dac_thu`, `kinh_phi_du_kien`, `don_vi_phoi_hop`.
 - Vai trò: Chuyên viên Phòng Phổ biến, giáo dục pháp luật soạn dự thảo. AI hỗ trợ soạn dự thảo kế hoạch đúng thể thức, gợi ý hình thức phổ biến phù hợp từng nhóm đối tượng, lập dự toán kinh phí chi tiết ⏱ ~02 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Kế hoạch phải khả thi với kinh phí, nhân lực; mỗi hoạt động ghi rõ thời gian, đơn vị chủ trì/phối hợp, sản phẩm; có nội dung riêng cho vùng đồng bào dân tộc thiểu số, vùng sâu, vùng xa.
 - → Kết quả bước: Dự thảo Kế hoạch PBGDPL năm của tỉnh.
 
 **Bước 4. Trình ban hành, triển khai và hướng dẫn cấp xã**
 - Làm gì: Lấy ý kiến thành viên Hội đồng phối hợp PBGDPL và các sở, ngành; hoàn thiện dự thảo; trình UBND tỉnh ban hành; gửi kế hoạch đến các sở, ngành, UBND cấp xã; ban hành văn bản hướng dẫn nghiệp vụ PBGDPL cho cấp xã.
-- Dùng input: dự thảo kế hoạch từ Bước 3, ý kiến góp ý
+- Dùng input: dự thảo kế hoạch từ Bước 3, ý kiến góp ý.
 - Vai trò: Phó Giám đốc Sở phụ trách ký văn bản lấy ý kiến; Giám đốc Sở Tư pháp ký tờ trình; Chủ tịch UBND tỉnh ký ban hành. AI hỗ trợ tổng hợp ý kiến, rà soát thể thức và soạn văn bản hướng dẫn cấp xã ⏱ ~05 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Kế hoạch PBGDPL tỉnh nên ban hành trong quý I; văn bản hướng dẫn cấp xã phải cụ thể, dễ thực hiện, gắn với kế hoạch PBGDPL của xã.
 - → Kết quả bước: Kế hoạch PBGDPL tỉnh đã ban hành + văn bản hướng dẫn nghiệp vụ PBGDPL gửi UBND cấp xã.
 
 **Bước 5. Theo dõi, kiểm tra, tổng hợp báo cáo kết quả**
 - Làm gì: Theo dõi tiến độ của sở, ngành, UBND cấp xã; tổ chức kiểm tra việc thực hiện kế hoạch tại một số đơn vị, địa phương; tổng hợp số liệu, minh chứng; lập báo cáo kết quả PBGDPL năm của tỉnh gửi Bộ Tư pháp.
-- Dùng input: báo cáo của sở, ngành, UBND cấp xã; kết quả kiểm tra
+- Dùng input: báo cáo của sở, ngành, UBND cấp xã; kết quả kiểm tra.
 - Vai trò: Chuyên viên Phòng Phổ biến, giáo dục pháp luật tổng hợp, soạn báo cáo. AI hỗ trợ tổng hợp số liệu hoạt động, đối chiếu với chỉ tiêu kế hoạch và soạn dự thảo báo cáo ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Báo cáo trung thực, có số liệu minh chứng (số hội nghị, lớp tập huấn, lượt người tham dự, tài liệu phát hành...); nêu tồn tại, nguyên nhân và đề xuất năm sau.
 - → Kết quả bước: Báo cáo kết quả thực hiện Kế hoạch PBGDPL năm của tỉnh đã ký, gửi Bộ Tư pháp và lưu hồ sơ.

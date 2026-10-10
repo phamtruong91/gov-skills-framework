@@ -6,6 +6,7 @@ description: "Chủ trì soạn thảo dự án luật, pháp lệnh, nghị quy
 # Skill: Xây dựng luật, pháp lệnh, nghị quyết
 
 ## 2. Khi nào dùng
+- Skill chỉ áp dụng ở cấp trung ương (bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ).
 
 Khi bộ được giao chủ trì soạn thảo một dự án luật, pháp lệnh hoặc nghị quyết của Quốc hội/Ủy ban
 Thường vụ Quốc hội (vd: xây dựng luật mới, sửa đổi luật hiện hành trong lĩnh vực bộ quản lý).
@@ -26,7 +27,7 @@ Thường vụ Quốc hội (vd: xây dựng luật mới, sửa đổi luật h
 **Bước 1. Lập kế hoạch soạn thảo**
 
 - Làm gì: Thành lập ban soạn thảo/tổ biên tập; xây dựng kế hoạch chi tiết (nội dung, phân công, tiến độ, kinh phí).
-- Dùng input: `ten_van_ban`, `don_vi_chu_tri`, `tien_do`.
+- Dùng input: `ten_van_ban`, `don_vi_chu_tri`, `tien_do`, `loai_van_ban`.
 - Vai trò: Vụ trưởng Vụ Pháp chế (ông Hoàng Văn EE) chủ trì, AI hỗ trợ dựng khung kế hoạch và danh sách thành phần ban soạn thảo ⏱ ~0,5 ngày (ước tính).
 - Lưu ý nghiệp vụ: Ban soạn thảo phải có đại diện Bộ Tư pháp, Văn phòng Chính phủ và các bộ/ngành liên quan.
 - → Kết quả bước: Quyết định thành lập ban soạn thảo + kế hoạch soạn thảo được Thứ trưởng phê duyệt.

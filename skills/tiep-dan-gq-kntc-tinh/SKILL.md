@@ -18,62 +18,62 @@ description: "Tổ chức tiếp công dân, tham mưu Chủ tịch UBND tỉnh 
 
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
-| `Đơn thư của công dân` | Đơn khiếu nại/tố cáo/kiến nghị/phản ánh (trực tiếp, bưu điện, trực tuyến) | Có |
-| `Thông tin người gửi` | Họ tên, địa chỉ, số điện thoại, giấy tờ tùy thân (khi tiếp trực tiếp) | Có (đơn nặc danh ghi "Không rõ") |
-| `Nội dung vụ việc` | Tóm tắt sự việc, yêu cầu của công dân; quyết định hành chính bị khiếu nại (nếu có) | Có |
-| `Lịch sử giải quyết` | Quyết định giải quyết khiếu nại lần 1, văn bản trả lời trước đây (nếu có) | Không |
-| `Hồ sơ vụ việc` | Tài liệu, chứng cứ kèm theo; hồ sơ của sở, ngành, UBND xã liên quan | Không |
-| `Ý kiến cơ quan liên quan` | Ý kiến của sở, ban, ngành, UBND xã về nội dung vụ việc | Không |
+| `don_thu_cua_cong_dan` | Đơn khiếu nại/tố cáo/kiến nghị/phản ánh (trực tiếp, bưu điện, trực tuyến) | Có |
+| `thong_tin_nguoi_gui` | Họ tên, địa chỉ, số điện thoại, giấy tờ tùy thân (khi tiếp trực tiếp). Lưu ý: đơn nặc danh ghi "Không rõ".| Có |
+| `noi_dung_vu_viec` | Tóm tắt sự việc, yêu cầu của công dân; quyết định hành chính bị khiếu nại (nếu có) | Có |
+| `lich_su_giai_quyet` | Quyết định giải quyết khiếu nại lần 1, văn bản trả lời trước đây (nếu có) | Không |
+| `ho_so_vu_viec` | Tài liệu, chứng cứ kèm theo; hồ sơ của sở, ngành, UBND xã liên quan | Không |
+| `y_kien_co_quan_lien_quan` | Ý kiến của sở, ban, ngành, UBND xã về nội dung vụ việc | Không |
 
 ## 4. Quy trình
 
 **Bước 1. Tiếp công dân và tiếp nhận đơn**
 
-- **Làm gì**: Tổ chức tiếp công dân theo lịch (định kỳ có lãnh đạo UBND tỉnh, Thanh tra tỉnh; thường xuyên có công chức tiếp dân); ghi sổ tiếp công dân: họ tên, nội dung trình bày, yêu cầu; tiếp nhận đơn kèm tài liệu, cấp giấy biên nhận.
-- **Dùng input**: `Đơn thư của công dân`, `Thông tin người gửi`, `Nội dung vụ việc`.
-- **Vai trò**: Công chức Ban Tiếp công dân/Thanh tra tỉnh tiếp dân, ghi sổ (AI hỗ trợ trích xuất thông tin, soạn biên bản tiếp công dân, cấp mã số theo dõi). Thời gian ước tính: trong ngày tiếp dân.
-- **Lưu ý nghiệp vụ**: Thái độ tiếp dân đúng mực, lắng nghe đầy đủ; không hứa hẹn kết quả giải quyết; đơn tố cáo phải bảo mật tuyệt đối thông tin người tố cáo.
-- **→ Kết quả bước**: Sổ tiếp công dân; biên bản tiếp công dân; giấy biên nhận đơn.
+- Làm gì: Tổ chức tiếp công dân theo lịch (định kỳ có lãnh đạo UBND tỉnh, Thanh tra tỉnh; thường xuyên có công chức tiếp dân); ghi sổ tiếp công dân: họ tên, nội dung trình bày, yêu cầu; tiếp nhận đơn kèm tài liệu, cấp giấy biên nhận.
+- Dùng input: `don_thu_cua_cong_dan`, `thong_tin_nguoi_gui`, `noi_dung_vu_viec`.
+- Vai trò: Công chức Ban Tiếp công dân/Thanh tra tỉnh tiếp dân, ghi sổ (AI hỗ trợ trích xuất thông tin, soạn biên bản tiếp công dân, cấp mã số theo dõi). ⏱ trong ngày tiếp dân.
+- Lưu ý nghiệp vụ: Thái độ tiếp dân đúng mực, lắng nghe đầy đủ; không hứa hẹn kết quả giải quyết; đơn tố cáo phải bảo mật tuyệt đối thông tin người tố cáo.
+- → Kết quả bước: Sổ tiếp công dân; biên bản tiếp công dân; giấy biên nhận đơn.
 
 **Bước 2. Phân loại đơn và xác định thẩm quyền**
 
-- **Làm gì**: Phân loại đơn: khiếu nại, tố cáo, kiến nghị, phản ánh; đối chiếu với thẩm quyền: khiếu nại đã có quyết định giải quyết lần 1 → thuộc thẩm quyền giải quyết lần 2 của Chủ tịch UBND tỉnh; tố cáo hành vi vi phạm thuộc thẩm quyền Chủ tịch UBND tỉnh → thụ lý; đơn thuộc thẩm quyền sở, UBND xã hoặc cơ quan trung ương → chuyển.
-- **Dùng input**: Đơn thư, `Nội dung vụ việc`, `Lịch sử giải quyết`.
-- **Vai trò**: Chuyên viên phân loại (AI hỗ trợ gợi ý phân loại và tra cứu thẩm quyền theo lĩnh vực từ chuỗi 28 nghị định 120–152/2025/NĐ-CP và NĐ 141/2025/NĐ-CP; chuyên viên quyết định phân loại cuối cùng). Thời gian ước tính: 2 ngày làm việc.
-- **Lưu ý nghiệp vụ**: AI chỉ gợi ý, không kết luận thẩm quyền thay người; phân biệt rõ khiếu nại lần 2 (thuộc Chủ tịch UBND tỉnh) với khiếu nại lần đầu thuộc sở, UBND xã.
-- **→ Kết quả bước**: Phiếu phân loại đơn kèm đề xuất: thụ lý tại tỉnh / chuyển cơ quan có thẩm quyền.
+- Làm gì: Phân loại đơn: khiếu nại, tố cáo, kiến nghị, phản ánh; đối chiếu với thẩm quyền: khiếu nại đã có quyết định giải quyết lần 1 → thuộc thẩm quyền giải quyết lần 2 của Chủ tịch UBND tỉnh; tố cáo hành vi vi phạm thuộc thẩm quyền Chủ tịch UBND tỉnh → thụ lý; đơn thuộc thẩm quyền sở, UBND xã hoặc cơ quan trung ương → chuyển.
+- Dùng input: Đơn thư, `noi_dung_vu_viec`, `lich_su_giai_quyet`.
+- Vai trò: Chuyên viên phân loại (AI hỗ trợ gợi ý phân loại và tra cứu thẩm quyền theo lĩnh vực từ chuỗi 28 nghị định 120–152/2025/NĐ-CP và NĐ 141/2025/NĐ-CP; chuyên viên quyết định phân loại cuối cùng). ⏱ 2 ngày (ước tính) làm việc.
+- Lưu ý nghiệp vụ: AI chỉ gợi ý, không kết luận thẩm quyền thay người; phân biệt rõ khiếu nại lần 2 (thuộc Chủ tịch UBND tỉnh) với khiếu nại lần đầu thuộc sở, UBND xã.
+- → Kết quả bước: Phiếu phân loại đơn kèm đề xuất: thụ lý tại tỉnh / chuyển cơ quan có thẩm quyền.
 
 **Bước 3. Tham mưu thụ lý giải quyết**
 
-- **Làm gì**: Đối với đơn thuộc thẩm quyền Chủ tịch UBND tỉnh: soạn dự thảo văn bản thụ lý giải quyết; lập kế hoạch xác minh (nội dung, thời gian, đơn vị phối hợp); đề xuất thành lập tổ công tác xác minh khi vụ việc phức tạp; thông báo thụ lý cho người khiếu nại/tố cáo.
-- **Dùng input**: Phiếu phân loại đơn (bước 2), `Hồ sơ vụ việc`.
-- **Vai trò**: Chuyên viên soạn thảo (AI hỗ trợ soạn văn bản thụ lý, lập kế hoạch xác minh, tính thời hạn giải quyết theo loại vụ việc); Trưởng phòng thẩm định; Chánh Thanh tra tỉnh trình Chủ tịch UBND tỉnh. Thời gian ước tính: 5 ngày làm việc.
-- **Lưu ý nghiệp vụ**: Thụ lý phải đúng thời hạn quy định; kế hoạch xác minh phải cụ thể, khả thi; thông báo cho người dân biết vụ việc đã được thụ lý và thời hạn giải quyết.
-- **→ Kết quả bước**: Văn bản thụ lý giải quyết; kế hoạch xác minh; quyết định thành lập tổ công tác (nếu có).
+- Làm gì: Đối với đơn thuộc thẩm quyền Chủ tịch UBND tỉnh: soạn dự thảo văn bản thụ lý giải quyết; lập kế hoạch xác minh (nội dung, thời gian, đơn vị phối hợp); đề xuất thành lập tổ công tác xác minh khi vụ việc phức tạp; thông báo thụ lý cho người khiếu nại/tố cáo.
+- Dùng input: Phiếu phân loại đơn (bước 2), `ho_so_vu_viec`.
+- Vai trò: Chuyên viên soạn thảo (AI hỗ trợ soạn văn bản thụ lý, lập kế hoạch xác minh, tính thời hạn giải quyết theo loại vụ việc); Trưởng phòng thẩm định; Chánh Thanh tra tỉnh trình Chủ tịch UBND tỉnh. ⏱ 5 ngày (ước tính) làm việc.
+- Lưu ý nghiệp vụ: Thụ lý phải đúng thời hạn quy định; kế hoạch xác minh phải cụ thể, khả thi; thông báo cho người dân biết vụ việc đã được thụ lý và thời hạn giải quyết.
+- → Kết quả bước: Văn bản thụ lý giải quyết; kế hoạch xác minh; quyết định thành lập tổ công tác (nếu có).
 
 **Bước 4. Tổ chức xác minh nội dung vụ việc**
 
-- **Làm gì**: Tổ công tác làm việc với người khiếu nại/tố cáo, đối tượng bị khiếu nại/tố cáo; thu thập tài liệu, chứng cứ; làm việc với sở, ban, ngành, UBND xã liên quan; lập biên bản xác minh từng nội dung.
-- **Dùng input**: Kế hoạch xác minh (bước 3), `Hồ sơ vụ việc`, `Ý kiến cơ quan liên quan`.
-- **Vai trò**: Tổ công tác xác minh (do Thanh tra tỉnh chủ trì, có sở, ngành, UBND xã liên quan tham gia); chuyên viên tổng hợp (AI hỗ trợ hệ thống hóa biên bản, đối chiếu các nguồn chứng cứ, phát hiện mâu thuẫn cần xác minh bổ sung). Thời gian ước tính: 15–30 ngày làm việc tùy vụ việc.
-- **Lưu ý nghiệp vụ**: Xác minh khách quan, toàn diện; mọi nội dung trong dự thảo quyết định sau này phải có chứng cứ; bảo mật thông tin người tố cáo trong suốt quá trình.
-- **→ Kết quả bước**: Biên bản xác minh; báo cáo kết quả xác minh của tổ công tác.
+- Làm gì: Tổ công tác làm việc với người khiếu nại/tố cáo, đối tượng bị khiếu nại/tố cáo; thu thập tài liệu, chứng cứ; làm việc với sở, ban, ngành, UBND xã liên quan; lập biên bản xác minh từng nội dung.
+- Dùng input: Kế hoạch xác minh (bước 3), `ho_so_vu_viec`, `y_kien_co_quan_lien_quan`.
+- Vai trò: Tổ công tác xác minh (do Thanh tra tỉnh chủ trì, có sở, ngành, UBND xã liên quan tham gia); chuyên viên tổng hợp (AI hỗ trợ hệ thống hóa biên bản, đối chiếu các nguồn chứng cứ, phát hiện mâu thuẫn cần xác minh bổ sung). ⏱ 15–30 ngày (ước tính) làm việc tùy vụ việc.
+- Lưu ý nghiệp vụ: Xác minh khách quan, toàn diện; mọi nội dung trong dự thảo quyết định sau này phải có chứng cứ; bảo mật thông tin người tố cáo trong suốt quá trình.
+- → Kết quả bước: Biên bản xác minh; báo cáo kết quả xác minh của tổ công tác.
 
 **Bước 5. Dự thảo quyết định giải quyết khiếu nại / văn bản trả lời**
 
-- **Làm gì**: Soạn dự thảo quyết định giải quyết khiếu nại lần 2 (giữ nguyên, sửa đổi một phần/toàn bộ, hủy quyết định lần 1...) hoặc văn bản kết luận nội dung tố cáo; thẩm định pháp chế nội dung dự thảo.
-- **Dùng input**: Báo cáo kết quả xác minh (bước 4), `Lịch sử giải quyết`, quy định pháp luật liên quan còn hiệu lực.
-- **Vai trò**: Chuyên viên soạn dự thảo (AI hỗ trợ dựng khung quyết định, rà soát viện dẫn pháp lý, kiểm tra tính logic giữa nội dung xác minh và nội dung quyết định); Trưởng phòng và Chánh Thanh tra tỉnh thẩm định. Thời gian ước tính: 7 ngày làm việc.
-- **Lưu ý nghiệp vụ**: AI hỗ trợ soạn thảo, không kết luận đúng/sai vụ việc thay người có thẩm quyền; quyết định phải nêu rõ quyền khiếu nại tiếp/khởi kiện hành chính của công dân.
-- **→ Kết quả bước**: Dự thảo quyết định giải quyết khiếu nại / văn bản kết luận tố cáo (đã thẩm định).
+- Làm gì: Soạn dự thảo quyết định giải quyết khiếu nại lần 2 (giữ nguyên, sửa đổi một phần/toàn bộ, hủy quyết định lần 1...) hoặc văn bản kết luận nội dung tố cáo; thẩm định pháp chế nội dung dự thảo.
+- Dùng input: Báo cáo kết quả xác minh (bước 4), `lich_su_giai_quyet`, quy định pháp luật liên quan còn hiệu lực.
+- Vai trò: Chuyên viên soạn dự thảo (AI hỗ trợ dựng khung quyết định, rà soát viện dẫn pháp lý, kiểm tra tính logic giữa nội dung xác minh và nội dung quyết định); Trưởng phòng và Chánh Thanh tra tỉnh thẩm định. ⏱ 7 ngày (ước tính) làm việc.
+- Lưu ý nghiệp vụ: AI hỗ trợ soạn thảo, không kết luận đúng/sai vụ việc thay người có thẩm quyền; quyết định phải nêu rõ quyền khiếu nại tiếp/khởi kiện hành chính của công dân.
+- → Kết quả bước: Dự thảo quyết định giải quyết khiếu nại / văn bản kết luận tố cáo (đã thẩm định).
 
 **Bước 6. Trình ký, ban hành và theo dõi thực hiện**
 
-- **Làm gì**: Trình Chánh Thanh tra ký tờ trình, Chủ tịch UBND tỉnh ký ban hành quyết định; gửi quyết định cho người khiếu nại, cơ quan, tổ chức, cá nhân liên quan; đôn đốc thực hiện quyết định; tổng hợp báo cáo tình hình giải quyết KNTC định kỳ và đột xuất.
-- **Dùng input**: Dự thảo quyết định đã thẩm định (bước 5).
-- **Vai trò**: Chánh Thanh tra tỉnh trình (AI hỗ trợ rà soát hồ sơ trình, theo dõi thời hạn giải quyết, tổng hợp số liệu báo cáo); Chủ tịch UBND tỉnh ký ban hành quyết định. Thời gian ước tính: 5 ngày làm việc.
-- **Lưu ý nghiệp vụ**: Quyết định giải quyết khiếu nại có hiệu lực thi hành; đơn vị không thực hiện phải bị xử lý theo quy định; vụ việc phức tạp, kéo dài phải báo cáo cấp trên theo quy định.
-- **→ Kết quả bước**: Quyết định giải quyết khiếu nại đã ban hành; báo cáo đôn đốc thực hiện.
+- Làm gì: Trình Chánh Thanh tra ký tờ trình, Chủ tịch UBND tỉnh ký ban hành quyết định; gửi quyết định cho người khiếu nại, cơ quan, tổ chức, cá nhân liên quan; đôn đốc thực hiện quyết định; tổng hợp báo cáo tình hình giải quyết KNTC định kỳ và đột xuất.
+- Dùng input: Dự thảo quyết định đã thẩm định (bước 5).
+- Vai trò: Chánh Thanh tra tỉnh trình (AI hỗ trợ rà soát hồ sơ trình, theo dõi thời hạn giải quyết, tổng hợp số liệu báo cáo); Chủ tịch UBND tỉnh ký ban hành quyết định. ⏱ 5 ngày (ước tính) làm việc.
+- Lưu ý nghiệp vụ: Quyết định giải quyết khiếu nại có hiệu lực thi hành; đơn vị không thực hiện phải bị xử lý theo quy định; vụ việc phức tạp, kéo dài phải báo cáo cấp trên theo quy định.
+- → Kết quả bước: Quyết định giải quyết khiếu nại đã ban hành; báo cáo đôn đốc thực hiện.
 
 ## Luồng quy trình (Workflow)
 

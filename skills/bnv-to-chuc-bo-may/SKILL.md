@@ -24,36 +24,36 @@ description: "Rà soát, đánh giá tổ chức bộ máy của bộ, cơ quan 
 
 **Bước 1. Khảo sát, đánh giá thực trạng tổ chức bộ máy**
 - Làm gì: Thu thập số liệu về cơ cấu tổ chức (vụ, cục, đơn vị sự nghiệp), biên chế, vị trí việc làm của đơn vị được rà soát; đánh giá chồng chéo, trùng lắp chức năng.
-- Dùng input: `don_vi_ra_soat`, `thuc_trang_to_chuc`.
-- Vai trò: Chuyên viên Vụ Tổ chức bộ máy – Bộ Nội vụ khảo sát (AI hỗ trợ tổng hợp số liệu, đối chiếu cơ cấu tổ chức với khung NĐ 303/2025/NĐ-CP, phát hiện chồng chéo — 3–5 ngày) → Vụ trưởng kiểm tra.
+- Dùng input: `don_vi_ra_soat`, `thuc_trang_to_chuc`, `can_cu_giao_nhiem_vu`.
+- Vai trò: Chuyên viên Vụ Tổ chức bộ máy – Bộ Nội vụ khảo sát (AI hỗ trợ tổng hợp số liệu, đối chiếu cơ cấu tổ chức với khung NĐ 303/2025/NĐ-CP, phát hiện chồng chéo ⏱ 3–5 ngày (ước tính)) → Vụ trưởng kiểm tra.
 - Lưu ý nghiệp vụ: Số liệu phải do đơn vị được rà soát cung cấp/chính thức xác nhận; AI không tự suy đoán số biên chế.
 - → Kết quả bước: Báo cáo đánh giá thực trạng tổ chức bộ máy.
 
 **Bước 2. Xây dựng phương án sắp xếp tổ chức**
 - Làm gì: Thiết kế phương án: giữ nguyên, sáp nhập, giải thể, thành lập mới các tổ chức; xác định tên gọi, chức năng, nhiệm vụ, cơ cấu bên trong từng tổ chức sau sắp xếp.
 - Dùng input: `muc_tieu_sap_xep`, `de_xuat_phuong_an`, kết quả bước 1.
-- Vai trò: Chuyên viên Vụ Tổ chức bộ máy xây dựng phương án (AI hỗ trợ so sánh các phương án, lập bảng đối chiếu tổ chức trước–sau — 3–5 ngày) → Vụ trưởng rà soát.
+- Vai trò: Chuyên viên Vụ Tổ chức bộ máy xây dựng phương án (AI hỗ trợ so sánh các phương án, lập bảng đối chiếu tổ chức trước–sau ⏱ 3–5 ngày (ước tính)) → Vụ trưởng rà soát.
 - Lưu ý nghiệp vụ: Phương án phải bảo đảm không bỏ sót chức năng, nhiệm vụ quản lý nhà nước; tuân thủ khung chung tại NĐ 303/2025/NĐ-CP.
 - → Kết quả bước: Dự thảo đề án sắp xếp tổ chức bộ máy.
 
 **Bước 3. Xác định biên chế, xây dựng vị trí việc làm**
 - Làm gì: Xác định số lượng biên chế theo từng tổ chức sau sắp xếp; xây dựng danh mục vị trí việc làm, bản mô tả công việc, khung năng lực.
 - Dùng input: `thuc_trang_to_chuc`, phương án bước 2.
-- Vai trò: Chuyên viên Vụ Tổ chức bộ máy phối hợp Vụ Công chức – Viên chức thực hiện (AI hỗ trợ lập bảng biên chế trước–sau, rà soát trùng lặp vị trí việc làm — 3–5 ngày) → Vụ trưởng hai vụ thống nhất.
+- Vai trò: Chuyên viên Vụ Tổ chức bộ máy phối hợp Vụ Công chức – Viên chức thực hiện (AI hỗ trợ lập bảng biên chế trước–sau, rà soát trùng lặp vị trí việc làm ⏱ 3–5 ngày (ước tính)) → Vụ trưởng hai vụ thống nhất.
 - Lưu ý nghiệp vụ: Biên chế xác định trên cơ sở vị trí việc làm và khối lượng công việc thực tế, không áp đặt cơ học; bảo đảm lộ trình tinh giản theo chủ trương chung.
 - → Kết quả bước: Phương án biên chế và danh mục vị trí việc làm.
 
 **Bước 4. Lấy ý kiến, thẩm định đề án**
 - Làm gì: Gửi đề án lấy ý kiến bộ/ngành liên quan và đơn vị được sắp xếp; tổng hợp, tiếp thu; Vụ Pháp chế thẩm định tính hợp pháp, thống nhất của đề án.
 - Dùng input: Toàn bộ hồ sơ các bước trước.
-- Vai trò: Chuyên viên tổng hợp ý kiến (AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu/giải trình — 2–3 ngày) → Vụ trưởng ký văn bản xin ý kiến và báo cáo thẩm định.
+- Vai trò: Chuyên viên tổng hợp ý kiến (AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu/giải trình ⏱ 2–3 ngày (ước tính)) → Vụ trưởng ký văn bản xin ý kiến và báo cáo thẩm định.
 - Lưu ý nghiệp vụ: Ý kiến của đơn vị được sắp xếp phải được xem xét đầy đủ; không trình phê duyệt khi còn nội dung chưa thống nhất về chức năng, nhiệm vụ.
 - → Kết quả bước: Đề án hoàn thiện kèm báo cáo thẩm định.
 
 **Bước 5. Trình phê duyệt và hướng dẫn thực hiện**
 - Làm gì: Lập tờ trình trình Bộ trưởng xem xét, báo cáo Chính phủ/Thủ tướng phê duyệt đề án theo thẩm quyền; sau phê duyệt thì hướng dẫn bộ/ngành triển khai sắp xếp, theo dõi tiến độ.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Vụ trưởng ký tờ trình (AI hỗ trợ rà soát thể thức theo NĐ 30/2020/NĐ-CP — 0,5 ngày) → Thứ trưởng kiểm tra → Bộ trưởng quyết định trình Chính phủ/Thủ tướng.
+- Vai trò: Vụ trưởng ký tờ trình (AI hỗ trợ rà soát thể thức theo NĐ 30/2020/NĐ-CP ⏱ 0,5 ngày (ước tính)) → Thứ trưởng kiểm tra → Bộ trưởng quyết định trình Chính phủ/Thủ tướng.
 - Lưu ý nghiệp vụ: Nội dung thuộc thẩm quyền Chính phủ (cơ cấu tổ chức bộ, cơ quan ngang bộ) phải trình Chính phủ, không quyết thay ở cấp Bộ.
 - → Kết quả bước: Đề án được phê duyệt; văn bản hướng dẫn triển khai và kế hoạch theo dõi.
 

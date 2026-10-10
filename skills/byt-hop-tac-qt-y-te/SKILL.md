@@ -25,7 +25,7 @@ quản lý đoàn ra/đoàn vào, tổ chức hội nghị quốc tế lĩnh v�
 
 - Làm gì: Đánh giá tính phù hợp với chiến lược phát triển ngành y tế, hiệu quả dự án, năng lực đối tác; thẩm định hồ sơ dự án ODA/viện trợ.
 - Dùng input: `de_xuat_hop_tac`.
-- Vai trò: Chuyên viên Vụ Hợp tác quốc tế thẩm định (AI hỗ trợ tra cứu tiền lệ dự án tương tự, lập bảng tiêu chí đánh giá — 3 giờ); Vụ trưởng (ông Hoàng Văn EE) duyệt.
+- Vai trò: Chuyên viên Vụ Hợp tác quốc tế thẩm định (AI hỗ trợ tra cứu tiền lệ dự án tương tự, lập bảng tiêu chí đánh giá ⏱ 3 giờ (ước tính)); Vụ trưởng (ông Hoàng Văn EE) duyệt.
 - Lưu ý nghiệp vụ: Ưu tiên dự án phù hợp nhu cầu thực tế (y tế cơ sở, phòng chống dịch); không nhận viện trợ kèm điều kiện trái chủ trương.
 - → Kết quả bước: Báo cáo thẩm định đề xuất hợp tác/dự án.
 
@@ -33,7 +33,7 @@ quản lý đoàn ra/đoàn vào, tổ chức hội nghị quốc tế lĩnh v�
 
 - Làm gì: Đàm phán nội dung thỏa thuận với đối tác; phối hợp Bộ Ngoại giao về thủ tục đối ngoại; trình ký kết theo thẩm quyền.
 - Dùng input: `du_thao_thoa_thuan`, báo cáo thẩm định.
-- Vai trò: Vụ Hợp tác quốc tế chủ trì đàm phán (AI hỗ trợ rà soát điều khoản thỏa thuận, đối chiếu mẫu — 2 giờ); Thứ trưởng/Bộ trưởng ký theo phân cấp; Bộ Ngoại giao phối hợp về lễ tân, thủ tục.
+- Vai trò: Vụ Hợp tác quốc tế chủ trì đàm phán (AI hỗ trợ rà soát điều khoản thỏa thuận, đối chiếu mẫu ⏱ 2 giờ (ước tính)); Thứ trưởng/Bộ trưởng ký theo phân cấp; Bộ Ngoại giao phối hợp về lễ tân, thủ tục.
 - Lưu ý nghiệp vụ: Thỏa thuận quốc tế phải tuân thủ quy định về ký kết điều ước quốc tế, thỏa thuận quốc tế.
 - → Kết quả bước: Thỏa thuận hợp tác được ký kết.
 
@@ -41,7 +41,7 @@ quản lý đoàn ra/đoàn vào, tổ chức hội nghị quốc tế lĩnh v�
 
 - Làm gì: Theo dõi tiến độ, giải ngân dự án; quản lý chương trình đoàn ra/đoàn vào; tổ chức hội nghị quốc tế tại Việt Nam.
 - Dùng input: `ke_hoach_doan`, `bao_cao_du_an`.
-- Vai trò: Vụ Hợp tác quốc tế điều phối (AI hỗ trợ tổng hợp tiến độ, giải ngân các dự án — 3 giờ); Thứ trưởng phụ trách (bà Phạm Thị DD) phê duyệt kế hoạch đoàn.
+- Vai trò: Vụ Hợp tác quốc tế điều phối (AI hỗ trợ tổng hợp tiến độ, giải ngân các dự án ⏱ 3 giờ (ước tính)); Thứ trưởng phụ trách (bà Phạm Thị DD) phê duyệt kế hoạch đoàn.
 - Lưu ý nghiệp vụ: Đoàn ra/đoàn vào đúng mục đích, tiết kiệm; hội nghị quốc tế bảo đảm an ninh, lễ tân.
 - → Kết quả bước: Báo cáo tiến độ dự án + chương trình đoàn đã thực hiện.
 
@@ -49,7 +49,7 @@ quản lý đoàn ra/đoàn vào, tổ chức hội nghị quốc tế lĩnh v�
 
 - Làm gì: Đánh giá kết quả, hiệu quả hợp tác; báo cáo Bộ Ngoại giao, Chính phủ về công tác đối ngoại ngành y tế.
 - Dùng input: `bao_cao_du_an`, kết quả đoàn/hội nghị.
-- Vai trò: Vụ Hợp tác quốc tế tổng hợp (AI hỗ trợ lập báo cáo tổng hợp năm — 2 giờ).
+- Vai trò: Vụ Hợp tác quốc tế tổng hợp (AI hỗ trợ lập báo cáo tổng hợp năm ⏱ 2 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Báo cáo đầy đủ kết quả và hiệu quả hợp tác; là cơ sở xây dựng kế hoạch năm sau.
 - → Kết quả bước: Báo cáo công tác hợp tác quốc tế về y tế.
 

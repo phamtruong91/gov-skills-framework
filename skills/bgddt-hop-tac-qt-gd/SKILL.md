@@ -26,28 +26,28 @@ nguyện viên nước ngoài trong giáo dục.
 **Bước 1. Nghiên cứu, đánh giá đối tác**
 - Làm gì: Tìm hiểu năng lực, uy tín của đối tác nước ngoài; đánh giá tính phù hợp với nhu cầu phát triển giáo dục trong nước.
 - Dùng input: `doi_tac`, `pham_vi`.
-- Vai trò: Chuyên viên Vụ Hợp tác quốc tế — AI hỗ trợ tổng hợp thông tin đối tác, lập bảng đánh giá (1–2 giờ).
+- Vai trò: Chuyên viên Vụ Hợp tác quốc tế — AI hỗ trợ tổng hợp thông tin đối tác, lập bảng đánh giá (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Kiểm tra kỹ tư cách pháp lý của đối tác; không hợp tác với tổ chức có dấu hiệu lừa đảo giáo dục.
 - → Kết quả bước: Báo cáo đánh giá đối tác.
 
 **Bước 2. Đàm phán, soạn thảo thỏa thuận**
 - Làm gì: Đàm phán nội dung hợp tác; soạn thảo thỏa thuận/hiệp định (song ngữ); lấy ý kiến Bộ Ngoại giao, Bộ Tư pháp khi cần.
 - Dùng input: `noi_dung`, `ho_so`.
-- Vai trò: Vụ Hợp tác quốc tế chủ trì — AI hỗ trợ soạn thảo song ngữ, rà soát điều khoản (2–3 giờ).
+- Vai trò: Vụ Hợp tác quốc tế chủ trì — AI hỗ trợ soạn thảo song ngữ, rà soát điều khoản (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Điều khoản về tài chính, sở hữu trí tuệ, giải quyết tranh chấp phải rõ ràng.
 - → Kết quả bước: Dự thảo thỏa thuận hoàn chỉnh.
 
 **Bước 3. Phê duyệt, ký kết**
 - Làm gì: Trình cấp có thẩm quyền phê duyệt chủ trương; tổ chức ký kết; thông báo, lưu trữ.
 - Dùng input: Dự thảo thỏa thuận.
-- Vai trò: Vụ trưởng → Thứ trưởng → Bộ trưởng ký (hoặc trình Thủ tướng đối với điều ước quốc tế) — AI hỗ trợ chuẩn bị hồ sơ ký (1 giờ).
+- Vai trò: Vụ trưởng → Thứ trưởng → Bộ trưởng ký (hoặc trình Thủ tướng đối với điều ước quốc tế) — AI hỗ trợ chuẩn bị hồ sơ ký (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Điều ước quốc tế phải tuân thủ trình tự ký kết theo quy định về điều ước quốc tế.
 - → Kết quả bước: Thỏa thuận được ký kết.
 
 **Bước 4. Quản lý triển khai**
 - Làm gì: Cấp phép, giám sát chương trình liên kết đào tạo; quản lý học bổng, lưu học sinh; đánh giá hiệu quả hợp tác định kỳ.
 - Dùng input: Thỏa thuận đã ký, báo cáo các đơn vị.
-- Vai trò: Vụ Hợp tác quốc tế — AI hỗ trợ theo dõi tiến độ, tổng hợp báo cáo (1 giờ).
+- Vai trò: Vụ Hợp tác quốc tế — AI hỗ trợ theo dõi tiến độ, tổng hợp báo cáo (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Kiểm tra thực chất chất lượng liên kết đào tạo; xử lý vi phạm tuyển sinh, thu phí.
 - → Kết quả bước: Báo cáo quản lý hợp tác quốc tế về giáo dục.
 
@@ -72,7 +72,7 @@ flowchart TD
 
 **Thỏa thuận hợp tác** gồm: (1) tên các bên; (2) mục đích; (3) nội dung hợp tác;
 (4) quyền, nghĩa vụ các bên; (5) tài chính; (6) thời hạn, gia hạn, chấm dứt;
-(7) giải quyết tranh chấp; (8) chữ ký (ghi rõ chức danh, họ tên người ký; ký hiệu "KT; (9) nơi nhận (kết thúc "- Lưu: VT, [mã đơn vị].")."/"TL." khi ký thay).
+(7) giải quyết tranh chấp; (8) chữ ký (ghi rõ chức danh, họ tên người ký; ký hiệu "KT."/"TL." khi ký thay); (9) nơi nhận (kết thúc "- Lưu: VT, [mã đơn vị].").
 
 **Quyết định phê duyệt liên kết đào tạo** gồm: (1) Quốc hiệu "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM", Tiêu ngữ "Độc lập – Tự do – Hạnh phúc"; (2) căn cứ;
 (3) tên chương trình, đối tác, chỉ tiêu, địa điểm; (4) điều kiện duy trì;

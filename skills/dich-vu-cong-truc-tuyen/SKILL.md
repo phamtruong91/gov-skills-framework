@@ -25,35 +25,35 @@ description: "Phát triển dịch vụ công trực tuyến, xây dựng chính
 
 **Bước 1. Rà soát, phân loại dịch vụ công trực tuyến**
 - Làm gì: Rà soát toàn bộ DVC của các sở, ban, ngành, UBND xã; phân loại mức độ trực tuyến: toàn trình, một phần, chưa trực tuyến; xác định DVC đủ/không đủ điều kiện cung cấp toàn trình.
-- Dùng input: `danh_sach_dvc`, `ty_le_toan_trinh_hien_tai`
+- Dùng input: `danh_sach_dvc`, `ty_le_toan_trinh_hien_tai`.
 - Vai trò: Chuyên viên Phòng Chuyển đổi số phối hợp các sở, ngành rà soát; AI hỗ trợ lập bảng phân loại DVC, thống kê tỷ lệ theo từng mức độ ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Phân loại phải đúng thực chất (toàn trình là nộp – xử lý – trả kết quả hoàn toàn trực tuyến); DVC không đủ điều kiện phải nêu rõ lý do (cần bản giấy, cần đối chiếu bản chính...).
 - → Kết quả bước: Bảng rà soát, phân loại DVC trực tuyến toàn tỉnh.
 
 **Bước 2. Chuẩn hóa, tái cấu trúc quy trình nghiệp vụ**
 - Làm gì: Đánh giá quy trình nghiệp vụ từng DVC ưu tiên; cắt giảm bước không cần thiết, chuẩn hóa biểu mẫu điện tử; tái cấu trúc quy trình trước khi số hóa.
-- Dùng input: Bảng phân loại ở Bước 1, `phan_anh_nguoi_dung`
+- Dùng input: Bảng phân loại ở Bước 1, `phan_anh_nguoi_dung`.
 - Vai trò: Chuyên viên phối hợp đơn vị chủ trì TTHC rà soát quy trình; Trưởng phòng kiểm tra; AI hỗ trợ vẽ sơ đồ quy trình hiện tại – đề xuất, soạn biểu mẫu điện tử ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Số hóa quy trình rườm rà chỉ làm tăng phiền hà trên môi trường điện tử; phải tái cấu trúc trước khi nâng cấp; lấy phản ánh người dùng làm căn cứ cải tiến.
 - → Kết quả bước: Quy trình nghiệp vụ đã chuẩn hóa của các DVC ưu tiên.
 
 **Bước 3. Lập lộ trình nâng cấp DVC toàn trình, tích hợp Cổng DVC quốc gia**
 - Làm gì: Lập lộ trình nâng cấp từng nhóm DVC lên toàn trình theo quý; kế hoạch tích hợp, đồng bộ dữ liệu với Cổng Dịch vụ công quốc gia.
-- Dùng input: `ke_hoach_nang_cap`, quy trình đã chuẩn hóa ở Bước 2
+- Dùng input: `ke_hoach_nang_cap`, quy trình đã chuẩn hóa ở Bước 2, `nguoi_ky`.
 - Vai trò: Trưởng phòng Chuyển đổi số lập lộ trình; Phó Giám đốc Sở xem xét; Giám đốc Sở ký Tờ trình; Chủ tịch UBND tỉnh phê duyệt kế hoạch; AI hỗ trợ lập bảng lộ trình, theo dõi tiến độ tích hợp ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Lộ trình phải phù hợp năng lực hệ thống thông tin và nhân lực; ưu tiên DVC có tần suất sử dụng cao; tích hợp Cổng DVC quốc gia phải bảo đảm đồng bộ, an toàn dữ liệu.
 - → Kết quả bước: Kế hoạch nâng cấp DVC trực tuyến toàn trình đã phê duyệt.
 
 **Bước 4. Triển khai, kiểm thử và vận hành**
 - Làm gì: Phối hợp đơn vị cung cấp hệ thống triển khai nâng cấp; kiểm thử chức năng, an toàn; tập huấn cán bộ; vận hành chính thức.
-- Dùng input: Kế hoạch nâng cấp đã phê duyệt
+- Dùng input: Kế hoạch nâng cấp đã phê duyệt.
 - Vai trò: Chuyên viên phối hợp triển khai, kiểm thử; đơn vị vận hành hệ thống thực hiện kỹ thuật; AI hỗ trợ lập kịch bản kiểm thử, tổng hợp lỗi ⏱ theo tiến độ kế hoạch (ước tính)
 - Lưu ý nghiệp vụ: Kiểm thử kỹ trước khi vận hành chính thức; có phương án dự phòng khi hệ thống lỗi; tập huấn đầy đủ cho cán bộ tiếp nhận, xử lý hồ sơ.
 - → Kết quả bước: DVC toàn trình vận hành chính thức + biên bản nghiệm thu kỹ thuật.
 
 **Bước 5. Đo lường, đánh giá và báo cáo**
 - Làm gì: Đo lường tỷ lệ hồ sơ trực tuyến, tỷ lệ đúng hạn, mức độ hài lòng người dùng; đánh giá kết quả; báo cáo UBND tỉnh, Bộ KH&CN.
-- Dùng input: Số liệu vận hành hệ thống, `phan_anh_nguoi_dung`
+- Dùng input: Số liệu vận hành hệ thống, `phan_anh_nguoi_dung`.
 - Vai trò: Chuyên viên tổng hợp số liệu; Phó Giám đốc Sở chỉ đạo đánh giá; AI hỗ trợ tính toán chỉ số, soạn báo cáo đánh giá ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đánh giá bằng số liệu hệ thống, không cảm tính; phản ánh của người dân là thước đo quan trọng nhất của chất lượng DVC.
 - → Kết quả bước: Báo cáo đánh giá kết quả cung cấp DVC trực tuyến của tỉnh.

@@ -36,7 +36,7 @@ tuyển chọn tổ chức, cá nhân chủ trì; kiểm tra, nghiệm thu, đá
 
 - Làm gì: Thông báo tuyển chọn; nhận hồ sơ; hội đồng tuyển chọn đánh giá; phê duyệt kết quả.
 - Dùng input: `to_chuc_chu_tri`, danh mục đã phê duyệt.
-- Vai trò: Đơn vị quản lý nhiệm vụ tổ chức; AI hỗ trợ tổng hợp hồ sơ, lập biên bản hội đồng (2–3 giờ).
+- Vai trò: Đơn vị quản lý nhiệm vụ tổ chức; AI hỗ trợ tổng hợp hồ sơ, lập biên bản hội đồng (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Tuyển chọn công khai, minh bạch; hội đồng độc lập, khách quan.
 - → Kết quả bước: Quyết định phê duyệt tổ chức, cá nhân chủ trì + hợp đồng thực hiện.
 
@@ -44,7 +44,7 @@ tuyển chọn tổ chức, cá nhân chủ trì; kiểm tra, nghiệm thu, đá
 
 - Làm gì: Kiểm tra tiến độ, nội dung, kinh phí; đánh giá giữa kỳ; điều chỉnh khi cần.
 - Dùng input: Báo cáo tiến độ của chủ nhiệm nhiệm vụ.
-- Vai trò: Chuyên viên quản lý theo dõi; AI hỗ trợ tổng hợp báo cáo kiểm tra (1–2 giờ).
+- Vai trò: Chuyên viên quản lý theo dõi; AI hỗ trợ tổng hợp báo cáo kiểm tra (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Kịp thời phát hiện chậm tiến độ, sai phạm trong sử dụng kinh phí.
 - → Kết quả bước: Báo cáo kiểm tra giữa kỳ; quyết định điều chỉnh (nếu có).
 
@@ -53,8 +53,7 @@ tuyển chọn tổ chức, cá nhân chủ trì; kiểm tra, nghiệm thu, đá
 - Làm gì: Tổ chức hội đồng nghiệm thu cấp quốc gia; đánh giá, xếp loại; công nhận kết quả;
   thanh lý hợp đồng.
 - Dùng input: Báo cáo tổng kết, sản phẩm nhiệm vụ.
-- Vai trò: Hội đồng nghiệm thu đánh giá; AI hỗ trợ tổng hợp hồ sơ nghiệm thu, dự thảo ⏱ ~3–5 ngày làm việc (ước tính).
-  biên bản (2–3 giờ).
+- Vai trò: Hội đồng nghiệm thu đánh giá; AI hỗ trợ tổng hợp hồ sơ nghiệm thu, dự thảo biên bản ⏱ ~3–5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Sản phẩm phải đối chiếu với thuyết minh, hợp đồng đã ký; xử lý vi phạm
   (thu hồi kinh phí) nếu không đạt.
 - → Kết quả bước: Biên bản nghiệm thu; quyết định công nhận kết quả.

@@ -30,40 +30,40 @@ description: "Báo cáo kiểm soát TTHC định kỳ; thống kê tình hình 
 **Bước 1. Chốt số liệu và phân loại hồ sơ trong kỳ**
 
 - Làm gì: Chốt sổ theo dõi tại mốc thời gian báo cáo; phân loại toàn bộ hồ sơ thành các nhóm: đã giải quyết đúng hạn, đã giải quyết trễ hạn, đang xử lý trong hạn, đang xử lý quá hạn; đối chiếu ngày trả thực tế với ngày hẹn trên phiếu hẹn.
-- Dùng input: `ky_bao_cao`, `so_theo_doi`, `danh_muc_tthc`
-- Vai trò: Công chức Trung tâm PVHCC thực hiện chốt số liệu. AI hỗ trợ: tự động phân loại hồ sơ theo trạng thái, tính số ngày trễ, cảnh báo khi ngày trả không khớp ngày hẹn. Thời gian ước tính: 0,5–1 ngày làm việc.
+- Dùng input: `ky_bao_cao`, `so_theo_doi`, `danh_muc_tthc`.
+- Vai trò: Công chức Trung tâm PVHCC thực hiện chốt số liệu. AI hỗ trợ: tự động phân loại hồ sơ theo trạng thái, tính số ngày trễ, cảnh báo khi ngày trả không khớp ngày hẹn. ⏱ 0,5–1 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Hồ sơ được tính "trễ hạn" khi ngày trả kết quả thực tế sau ngày hẹn ghi trên phiếu hẹn, kể cả trễ 01 ngày; hồ sơ đang xử lý quá ngày hẹn cũng phải thống kê riêng.
 - → Kết quả bước: Bảng phân loại hồ sơ trong kỳ theo trạng thái (đúng hạn/trễ hạn/đang xử lý).
 
 **Bước 2. Thống kê theo từng TTHC**
 
 - Làm gì: Lập bảng thống kê cho từng TTHC: số hồ sơ tiếp nhận, số đã giải quyết (đúng hạn, trễ hạn), số đang xử lý (trong hạn, quá hạn), tỷ lệ giải quyết đúng hạn; xác định các TTHC có tỷ lệ trễ hạn cao.
-- Dùng input: `so_theo_doi`, `danh_muc_tthc`, `bao_cao_ky_truoc`
-- Vai trò: Công chức Trung tâm PVHCC tổng hợp. AI hỗ trợ: lập bảng thống kê tự động, xếp hạng TTHC theo tỷ lệ trễ hạn, so sánh với kỳ trước. Thời gian ước tính: 0,5 ngày làm việc.
+- Dùng input: `so_theo_doi`, `danh_muc_tthc`, `bao_cao_ky_truoc`.
+- Vai trò: Công chức Trung tâm PVHCC tổng hợp. AI hỗ trợ: lập bảng thống kê tự động, xếp hạng TTHC theo tỷ lệ trễ hạn, so sánh với kỳ trước. ⏱ 0,5 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: TTHC có từ 03 hồ sơ trễ hạn trở lên hoặc tỷ lệ đúng hạn dưới 90% phải được phân tích nguyên nhân riêng ở bước tiếp theo.
 - → Kết quả bước: Bảng thống kê hồ sơ theo từng TTHC trong kỳ.
 
 **Bước 3. Thống kê theo công chức và đơn vị xử lý**
 
 - Làm gì: Thống kê số hồ sơ do từng công chức, từng phòng chuyên môn (X1, X2, X3) trực tiếp xử lý: tiếp nhận, đúng hạn, trễ hạn, tỷ lệ đúng hạn; liệt kê danh sách hồ sơ trễ hạn gắn với công chức, đơn vị chịu trách nhiệm.
-- Dùng input: `so_theo_doi`, `danh_sach_cong_chuc`
-- Vai trò: Công chức Trung tâm PVHCC tổng hợp. AI hỗ trợ: tổng hợp theo công chức/đơn vị, đánh dấu các trường hợp trễ hạn lặp lại. Thời gian ước tính: 0,5 ngày làm việc.
+- Dùng input: `so_theo_doi`, `danh_sach_cong_chuc`.
+- Vai trò: Công chức Trung tâm PVHCC tổng hợp. AI hỗ trợ: tổng hợp theo công chức/đơn vị, đánh dấu các trường hợp trễ hạn lặp lại. ⏱ 0,5 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Việc gắn trách nhiệm phải căn cứ sổ theo dõi và phiếu chuyển giao có ký nhận; trường hợp trễ hạn do phối hợp liên thông thì ghi rõ trách nhiệm từng khâu.
 - → Kết quả bước: Bảng thống kê theo công chức, đơn vị xử lý kèm danh sách hồ sơ trễ hạn.
 
 **Bước 4. Phân tích nguyên nhân hồ sơ trễ hạn**
 
 - Làm gì: Đối với từng hồ sơ (hoặc nhóm hồ sơ) trễ hạn, xác định nguyên nhân thuộc nhóm: chủ quan (công chức chậm xử lý, thiếu phối hợp, không đôn đốc) hay khách quan (hồ sơ phức tạp, chờ ý kiến cấp trên, hệ thống lỗi...); tổng hợp nguyên nhân phổ biến nhất.
-- Dùng input: `ho_so_tre_han_chi_tiet`, `so_theo_doi`
-- Vai trò: Công chức Trung tâm PVHCC phân tích sơ bộ; công chức đầu mối các phòng giải trình nguyên nhân. AI hỗ trợ: nhóm nguyên nhân theo loại, thống kê tần suất, gợi ý nguyên nhân căn cơ. Thời gian ước tính: 1 ngày làm việc (bao gồm thời gian giải trình).
+- Dùng input: `ho_so_tre_han_chi_tiet`, `so_theo_doi`.
+- Vai trò: Công chức Trung tâm PVHCC phân tích sơ bộ; công chức đầu mối các phòng giải trình nguyên nhân. AI hỗ trợ: nhóm nguyên nhân theo loại, thống kê tần suất, gợi ý nguyên nhân căn cơ. ⏱ 1 ngày (ước tính) làm việc (bao gồm thời gian giải trình).
 - Lưu ý nghiệp vụ: Không kết luận nguyên nhân khi chưa có giải trình của đơn vị, cá nhân liên quan; phân biệt rõ trách nhiệm của Trung tâm PVHCC, phòng chuyên môn và yếu tố khách quan.
 - → Kết quả bước: Bảng phân tích nguyên nhân hồ sơ trễ hạn theo nhóm nguyên nhân.
 
 **Bước 5. Kiến nghị chấn chỉnh và dự thảo báo cáo**
 
 - Làm gì: Đề xuất các biện pháp chấn chỉnh cụ thể: nhắc nhở, phê bình, xem xét trách nhiệm đối với tập thể, cá nhân để xảy ra trễ hạn; kiến nghị bổ sung nhân sự, trang thiết bị, hoàn thiện quy trình phối hợp; dự thảo báo cáo kiểm soát TTHC trình lãnh đạo.
-- Dùng input: `so_theo_doi`, `bao_cao_ky_truoc`, `yeu_cau_bao_cao`
-- Vai trò: Công chức Trung tâm PVHCC dự thảo; Phó Chủ tịch UBND xã phụ trách kiểm tra; Chủ tịch UBND xã (Ông Nguyễn Văn A) phê duyệt báo cáo và quyết định biện pháp chấn chỉnh. AI hỗ trợ: dự thảo báo cáo theo cấu trúc chuẩn, gợi ý kiến nghị phù hợp với nguyên nhân đã phân tích. Thời gian ước tính: 1–2 ngày làm việc.
+- Dùng input: `so_theo_doi`, `bao_cao_ky_truoc`, `yeu_cau_bao_cao`.
+- Vai trò: Công chức Trung tâm PVHCC dự thảo; Phó Chủ tịch UBND xã phụ trách kiểm tra; Chủ tịch UBND xã (Ông Nguyễn Văn A) phê duyệt báo cáo và quyết định biện pháp chấn chỉnh. AI hỗ trợ: dự thảo báo cáo theo cấu trúc chuẩn, gợi ý kiến nghị phù hợp với nguyên nhân đã phân tích. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Kiến nghị xử lý trách nhiệm phải đúng thẩm quyền, đúng quy định; báo cáo gửi cấp trên (nếu có yêu cầu) phải sau khi Chủ tịch UBND xã ký duyệt.
 - → Kết quả bước: Báo cáo kiểm soát TTHC kỳ báo cáo đã hoàn thiện, kèm kiến nghị chấn chỉnh.
 
@@ -79,7 +79,7 @@ flowchart TD
     B4 --> B5["Bước 5: Kiến nghị chấn chỉnh và dự thảo báo cáo"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Bảng phân loại hồ sơ trong kỳ theo trạng thái.
 - Bảng thống kê hồ sơ theo từng TTHC.
@@ -101,7 +101,7 @@ Sản phẩm chính: **Báo cáo kiểm soát thủ tục hành chính**, thể 
 8. Chữ ký người có thẩm quyền (ký, ghi rõ họ tên, đóng dấu).
 9. Nơi nhận: UBND xã (để báo cáo), cơ quan cấp trên (nếu có yêu cầu), các phòng chuyên môn liên quan; lưu: VT, TTPVHCC.
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. Số liệu chốt đúng mốc thời gian kỳ báo cáo; tổng số hồ sơ khớp giữa các bảng thống kê.
 2. Phân loại hồ sơ đúng quy tắc: trễ hạn tính từ ngày sau ngày hẹn trên phiếu hẹn, kể cả trễ 01 ngày.
@@ -113,7 +113,7 @@ Sản phẩm chính: **Báo cáo kiểm soát thủ tục hành chính**, thể 
 8. Báo cáo đủ 4 phần theo cấu trúc chuẩn, thể thức đúng NĐ 30/2020/NĐ-CP.
 9. Báo cáo đã qua human gate: Phó Chủ tịch phụ trách kiểm tra, Chủ tịch UBND xã ký duyệt trước khi gửi cấp trên.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
 **Input mẫu:**
@@ -187,12 +187,12 @@ Trần Thị B
 
 *(Dữ liệu trên là giả lập 100% phục vụ minh họa.)*
 
-## Human gate
+## 8. Human gate
 
 - Công chức Trung tâm PVHCC chốt số liệu, dự thảo báo cáo → Phó Chủ tịch UBND xã phụ trách (Bà Trần Thị B) kiểm tra, đối chiếu số liệu với sổ theo dõi gốc → Chủ tịch UBND xã (Ông Nguyễn Văn A) ký duyệt báo cáo trước khi gửi cấp trên hoặc lưu hành.
 - Kiến nghị xử lý trách nhiệm tập thể, cá nhân phải được Chủ tịch UBND xã xem xét, quyết định theo thẩm quyền; AI và công chức tổng hợp không tự kết luận trách nhiệm.
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI KHÔNG ra quyết định hành chính thay người có thẩm quyền (không kết luận trách nhiệm, không quyết định hình thức xử lý đối với tập thể, cá nhân).
 - AI không tự ký, tự phát hành báo cáo; báo cáo gửi cấp trên phải do Chủ tịch UBND xã ký duyệt.
@@ -200,7 +200,7 @@ Trần Thị B
 - AI không bịa căn cứ pháp lý, không dùng văn bản đã hết hiệu lực.
 - AI không công khai danh sách công chức trễ hạn ra ngoài phạm vi báo cáo nội bộ khi chưa có ý kiến của người có thẩm quyền.
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính (quy định về kiểm soát TTHC, theo dõi, đôn đốc, xử lý hồ sơ trễ hạn).
 - Văn bản 7216/VPCP-KSTT ngày 04/8/2025 của Văn phòng Chính phủ hướng dẫn tổ chức, hoạt động của Trung tâm Phục vụ hành chính công trong mô hình chính quyền địa phương 2 cấp.

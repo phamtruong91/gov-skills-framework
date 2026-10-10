@@ -61,6 +61,8 @@ flowchart TD
     B3 --> B4["Bước 4: Đàm phán mở cửa thị trường"]
 ```
 
+*Ghi chú: các bước là luồng công việc độc lập, lựa chọn theo loại việc (`loai_viec`); không nhất thiết thực hiện nối tiếp.*
+
 ## 5. Đầu ra (Output)
 
 - Văn bản quy định kiểm dịch.

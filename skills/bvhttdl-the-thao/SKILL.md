@@ -26,28 +26,28 @@ giải thi đấu quốc gia và quốc tế; quản lý hoạt động thể th
 **Bước 1. Đánh giá thực trạng thể thao thành tích cao**
 - Làm gì: Tổng hợp thành tích các đội tuyển, hệ thống đào tạo VĐV, cơ sở vật chất, đội ngũ HLV toàn quốc.
 - Dùng input: `mon_the_thao`, `muc_tieu_thanh_tich`.
-- Vai trò: Chuyên viên Cục Thể dục thể thao — AI hỗ trợ tổng hợp số liệu thành tích, so sánh với khu vực (2 giờ).
+- Vai trò: Chuyên viên Cục Thể dục thể thao — AI hỗ trợ tổng hợp số liệu thành tích, so sánh với khu vực (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Số liệu thành tích phải chính xác đến từng giải đấu, có đối chiếu với liên đoàn quốc tế.
 - → Kết quả bước: Báo cáo thực trạng thể thao thành tích cao.
 
 **Bước 2. Xây dựng kế hoạch/chiến lược phát triển**
 - Làm gì: Xác định môn trọng điểm, lộ trình đào tạo VĐV, kế hoạch thi đấu, chế độ chính sách cho VĐV/HLV.
 - Dùng input: `noi_dung`, `muc_tieu_thanh_tich`, `kinh_phi_du_kien`.
-- Vai trò: Cục Thể dục thể thao chủ trì, phối hợp các liên đoàn — AI hỗ trợ soạn dự thảo kế hoạch, lập bảng tiến độ (2–3 giờ).
+- Vai trò: Cục Thể dục thể thao chủ trì, phối hợp các liên đoàn — AI hỗ trợ soạn dự thảo kế hoạch, lập bảng tiến độ (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Bảo đảm chế độ dinh dưỡng, y tế, học văn hóa cho VĐV trẻ theo quy định.
 - → Kết quả bước: Dự thảo chiến lược/kế hoạch phát triển thể thao thành tích cao.
 
 **Bước 3. Tổ chức giải đấu / đăng cai sự kiện**
 - Làm gì: Lập đề án tổ chức giải quốc gia hoặc đăng cai giải quốc tế: điều lệ, địa điểm, kinh phí, an ninh, y tế, truyền thông.
 - Dùng input: `noi_dung`, `don_vi_phoi_hop`.
-- Vai trò: Cục Thể dục thể thao + địa phương đăng cai — AI hỗ trợ soạn đề án tổ chức, dự toán kinh phí, checklist công tác (2 giờ).
+- Vai trò: Cục Thể dục thể thao + địa phương đăng cai — AI hỗ trợ soạn đề án tổ chức, dự toán kinh phí, checklist công tác (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Tuân thủ điều lệ của liên đoàn thể thao quốc tế; bảo đảm an toàn tuyệt đối cho VĐV, khán giả.
 - → Kết quả bước: Đề án tổ chức giải đấu được phê duyệt.
 
 **Bước 4. Theo dõi, đánh giá và báo cáo**
 - Làm gì: Giám sát thực hiện kế hoạch, tổng hợp thành tích, đánh giá hiệu quả đầu tư, báo cáo Lãnh đạo Bộ.
 - Dùng input: Kết quả thi đấu, báo cáo các đơn vị.
-- Vai trò: Cục Thể dục thể thao — AI hỗ trợ tổng hợp báo cáo thành tích theo môn, so sánh với chỉ tiêu (1 giờ).
+- Vai trò: Cục Thể dục thể thao — AI hỗ trợ tổng hợp báo cáo thành tích theo môn, so sánh với chỉ tiêu (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Đánh giá khách quan, chỉ rõ môn đạt/không đạt chỉ tiêu và nguyên nhân.
 - → Kết quả bước: Báo cáo tổng kết gửi Lãnh đạo Bộ.
 

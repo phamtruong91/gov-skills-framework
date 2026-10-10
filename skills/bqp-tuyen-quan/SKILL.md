@@ -25,28 +25,28 @@ description: "Hằng năm, khi Bộ Quốc phòng triển khai công tác tuyể
 **Bước 1. Xây dựng chỉ tiêu và kế hoạch tuyển quân**
 - Làm gì: Tổng hợp nhu cầu các đơn vị nhận quân, dự kiến chỉ tiêu giao từng địa phương; xây dựng kế hoạch, hướng dẫn triển khai toàn quốc.
 - Dùng input: `nam_tuyen_quan`, `chi_tieu_du_kien`, `don_vi_nhan_quan`, `van_ban_chi_dao`.
-- Vai trò: Chuyên viên cơ quan tham mưu xây dựng (AI hỗ trợ tổng hợp số liệu địa phương báo cáo, lập bảng phân bổ chỉ tiêu dự kiến — 2 ngày) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt kế hoạch.
+- Vai trò: Chuyên viên cơ quan tham mưu xây dựng (AI hỗ trợ tổng hợp số liệu địa phương báo cáo, lập bảng phân bổ chỉ tiêu dự kiến ⏱ 2 ngày (ước tính)) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt kế hoạch.
 - Lưu ý nghiệp vụ: Chỉ tiêu phải phù hợp khả năng nguồn của địa phương; không công khai số liệu chi tiết đơn vị nhận quân ngoài phạm vi công tác.
 - → Kết quả bước: Kế hoạch tuyển quân năm và dự kiến chỉ tiêu giao địa phương.
 
 **Bước 2. Hướng dẫn địa phương tổ chức khám tuyển, xét duyệt**
 - Làm gì: Ban hành văn bản hướng dẫn Hội đồng nghĩa vụ quân sự các cấp: đăng ký, sơ tuyển, khám sức khỏe, xét duyệt chính trị, đạo đức; quy định tiêu chuẩn, thời gian biểu.
 - Dùng input: `van_ban_chi_dao`, `bao_cao_dia_phuong`.
-- Vai trò: Chuyên viên soạn hướng dẫn (AI hỗ trợ rà soát quy định hiện hành, chuẩn hóa văn bản — 2 ngày) → Cục trưởng ký ban hành hướng dẫn.
+- Vai trò: Chuyên viên soạn hướng dẫn (AI hỗ trợ rà soát quy định hiện hành, chuẩn hóa văn bản ⏱ 2 ngày (ước tính)) → Cục trưởng ký ban hành hướng dẫn.
 - Lưu ý nghiệp vụ: Bảo đảm công khai, công bằng, đúng tiêu chuẩn; xử lý nghiêm tiêu cực trong tuyển quân.
 - → Kết quả bước: Văn bản hướng dẫn gửi địa phương, đơn vị.
 
 **Bước 3. Hiệp đồng giao nhận quân**
 - Làm gì: Tổ chức hiệp đồng giữa địa phương giao quân và đơn vị nhận quân: thời gian, địa điểm, quân số, phương thức bàn giao; kiểm tra công tác chuẩn bị.
 - Dùng input: `don_vi_nhan_quan`, `chi_tieu_du_kien`.
-- Vai trò: Cơ quan tham mưu chủ trì hiệp đồng (AI hỗ trợ lập lịch, danh sách đầu mối, biên bản hiệp đồng mẫu — 1 ngày) → báo cáo Thứ trưởng.
+- Vai trò: Cơ quan tham mưu chủ trì hiệp đồng (AI hỗ trợ lập lịch, danh sách đầu mối, biên bản hiệp đồng mẫu ⏱ 1 ngày (ước tính)) → báo cáo Thứ trưởng.
 - Lưu ý nghiệp vụ: Nội dung hiệp đồng ở mức hành chính (thời gian, địa điểm, quân số); không chi tiết hóa phương án tác chiến.
 - → Kết quả bước: Biên bản hiệp đồng giao nhận quân.
 
 **Bước 4. Theo dõi, kiểm tra và tổng kết**
 - Làm gì: Theo dõi tiến độ tuyển quân toàn quốc; kiểm tra đột xuất địa phương; tổng hợp kết quả, đánh giá, đề xuất khen thưởng và rút kinh nghiệm.
 - Dùng input: Báo cáo kết quả của địa phương, đơn vị.
-- Vai trò: Đoàn kiểm tra của Bộ thực hiện (AI hỗ trợ tổng hợp báo cáo toàn quốc, so sánh chỉ tiêu/kết quả, dự thảo báo cáo tổng kết — 3 ngày) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
+- Vai trò: Đoàn kiểm tra của Bộ thực hiện (AI hỗ trợ tổng hợp báo cáo toàn quốc, so sánh chỉ tiêu/kết quả, dự thảo báo cáo tổng kết ⏱ 3 ngày (ước tính)) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
 - Lưu ý nghiệp vụ: Số liệu tổng hợp ở mức hành chính công khai; không nêu phiên hiệu, quân số chi tiết từng đơn vị trong báo cáo phổ biến rộng.
 - → Kết quả bước: Báo cáo tổng kết công tác tuyển quân năm.
 

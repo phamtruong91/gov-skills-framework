@@ -27,35 +27,35 @@ description: "Đề xuất thành lập mới, sáp nhập, nâng cấp hoặc �
 **Bước 1. Nghiên cứu, đề xuất chủ trương**
 - Làm gì: Nghiên cứu sự cần thiết (thành lập/sáp nhập/đóng cửa cơ quan đại diện hoặc bổ nhiệm nhân sự): quan hệ song phương, yêu cầu nhiệm vụ, biên chế, kinh phí; lập đề xuất chủ trương.
 - Dùng input: `noi_dung`, `co_quan_dd`, `dia_ban`, `can_cu_de_xuat`.
-- Vai trò: Chuyên viên Vụ Tổ chức cán bộ soạn đề xuất (AI hỗ trợ rà soát mạng lưới cơ quan đại diện hiện có, phân tích quan hệ song phương với địa bàn, lập bảng so sánh phương án — 3–5 ngày) → Vụ trưởng kiểm tra.
+- Vai trò: Chuyên viên Vụ Tổ chức cán bộ soạn đề xuất (AI hỗ trợ rà soát mạng lưới cơ quan đại diện hiện có, phân tích quan hệ song phương với địa bàn, lập bảng so sánh phương án ⏱ 3–5 ngày (ước tính)) → Vụ trưởng kiểm tra.
 - Lưu ý nghiệp vụ: Việc thành lập cơ quan đại diện mới liên quan thỏa thuận với nước sở tại (công hàm thỏa thuận đặt trụ sở); phải đánh giá kỹ hiệu quả, tránh dàn trải.
 - → Kết quả bước: Đề xuất chủ trương trình lãnh đạo Bộ.
 
 **Bước 2. Xin chủ trương và hoàn thiện hồ sơ pháp lý**
 - Làm gì: Trình xin chủ trương của cấp có thẩm quyền; hoàn thiện hồ sơ pháp lý: công hàm thỏa thuận với nước sở tại (thành lập mới), quyết định thành lập/sáp nhập/đóng cửa, dự toán tổ chức bộ máy, biên chế.
 - Dùng input: Đề xuất bước 1.
-- Vai trò: Vụ trưởng Vụ Tổ chức cán bộ trình Thứ trưởng → Bộ trưởng ký tờ trình (AI hỗ trợ soạn thảo công hàm, quyết định theo mẫu, kiểm tra tính đầy đủ hồ sơ — 2 ngày); cấp có thẩm quyền quyết định.
+- Vai trò: Vụ trưởng Vụ Tổ chức cán bộ trình Thứ trưởng → Bộ trưởng ký tờ trình (AI hỗ trợ soạn thảo công hàm, quyết định theo mẫu, kiểm tra tính đầy đủ hồ sơ ⏱ 2 ngày (ước tính)); cấp có thẩm quyền quyết định.
 - Lưu ý nghiệp vụ: Mọi văn bản gửi nước sở tại phải qua rà soát pháp lý của Vụ Pháp luật và Điều ước quốc tế.
 - → Kết quả bước: Chủ trương được chấp thuận; hồ sơ pháp lý hoàn chỉnh.
 
 **Bước 3. Quy trình bổ nhiệm Đại sứ (khi có nội dung bổ nhiệm)**
 - Làm gì: Rà soát, đề xuất nhân sự: tiêu chuẩn, quy trình giới thiệu, lấy ý kiến, thẩm tra; lập tờ trình đề nghị bổ nhiệm Đại sứ đặc mệnh toàn quyền trình Chủ tịch nước (sau khi Quốc hội phê chuẩn theo quy định).
 - Dùng input: `ho_so_nhan_su`, `co_quan_dd`.
-- Vai trò: Vụ Tổ chức cán bộ chủ trì quy trình nhân sự (AI hỗ trợ đối chiếu tiêu chuẩn bổ nhiệm, tổng hợp hồ sơ, lập danh mục kiểm tra — 3 ngày) → Thứ trưởng phụ trách → Bộ trưởng ký tờ trình.
+- Vai trò: Vụ Tổ chức cán bộ chủ trì quy trình nhân sự (AI hỗ trợ đối chiếu tiêu chuẩn bổ nhiệm, tổng hợp hồ sơ, lập danh mục kiểm tra ⏱ 3 ngày (ước tính)) → Thứ trưởng phụ trách → Bộ trưởng ký tờ trình.
 - Lưu ý nghiệp vụ: Quy trình nhân sự thực hiện đúng quy định của Đảng và Nhà nước về công tác cán bộ; hồ sơ cá nhân được bảo mật.
 - → Kết quả bước: Tờ trình đề nghị bổ nhiệm Đại sứ trình cấp có thẩm quyền.
 
 **Bước 4. Xây dựng và phê duyệt kế hoạch công tác nhiệm kỳ**
 - Làm gì: Người đứng đầu cơ quan đại diện xây dựng kế hoạch công tác nhiệm kỳ (chính trị, kinh tế, văn hóa, lãnh sự, bảo hộ công dân); Vụ khu vực góp ý; trình phê duyệt.
 - Dùng input: `ke_hoach_nhiem_ky`, `dia_ban`.
-- Vai trò: Đại sứ/Trưởng cơ quan đại diện dự thảo (AI hỗ trợ lập khung kế hoạch nhiệm kỳ theo lĩnh vực, gợi ý mục tiêu phù hợp đặc thù địa bàn — 3–5 ngày) → Vụ khu vực góp ý → Thứ trưởng phụ trách phê duyệt.
+- Vai trò: Đại sứ/Trưởng cơ quan đại diện dự thảo (AI hỗ trợ lập khung kế hoạch nhiệm kỳ theo lĩnh vực, gợi ý mục tiêu phù hợp đặc thù địa bàn ⏱ 3–5 ngày (ước tính)) → Vụ khu vực góp ý → Thứ trưởng phụ trách phê duyệt.
 - Lưu ý nghiệp vụ: Kế hoạch nhiệm kỳ phải cụ thể hóa đường lối đối ngoại và gắn với mục tiêu phát triển quan hệ song phương với địa bàn.
 - → Kết quả bước: Kế hoạch công tác nhiệm kỳ được phê duyệt.
 
 **Bước 5. Kiểm tra, đánh giá và báo cáo định kỳ**
 - Làm gì: Tổ chức kiểm tra hoạt động của cơ quan đại diện (trực tiếp hoặc qua báo cáo); đánh giá kết quả thực hiện kế hoạch nhiệm kỳ; tổng hợp báo cáo toàn hệ thống cơ quan đại diện trình lãnh đạo Bộ.
 - Dùng input: Báo cáo của cơ quan đại diện, kế hoạch nhiệm kỳ.
-- Vai trò: Đoàn kiểm tra của Bộ (Vụ Tổ chức cán bộ chủ trì) thực hiện (AI hỗ trợ lập đề cương kiểm tra, tổng hợp báo cáo các cơ quan đại diện, đối chiếu chỉ tiêu/kết quả — 5–7 ngày) → Vụ trưởng ký báo cáo.
+- Vai trò: Đoàn kiểm tra của Bộ (Vụ Tổ chức cán bộ chủ trì) thực hiện (AI hỗ trợ lập đề cương kiểm tra, tổng hợp báo cáo các cơ quan đại diện, đối chiếu chỉ tiêu/kết quả ⏱ 5–7 ngày (ước tính)) → Vụ trưởng ký báo cáo.
 - Lưu ý nghiệp vụ: Kiểm tra toàn diện: thực hiện nhiệm vụ chính trị, quản lý tài chính, tài sản, công tác cán bộ; kết luận kiểm tra phải rõ trách nhiệm, kiến nghị.
 - → Kết quả bước: Kết luận kiểm tra; báo cáo tổng hợp hệ thống cơ quan đại diện.
 

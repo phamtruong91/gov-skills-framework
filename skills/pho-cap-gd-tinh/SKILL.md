@@ -19,9 +19,9 @@ description: "Triển khai công tác phổ cập giáo dục và xây dựng tr
 | `nam_hoc` | Năm học kiểm tra, công nhận | Có |
 | `danh_sach_xa_de_nghi` | Danh sách xã đề nghị công nhận đạt chuẩn PCGD-XMC, mức độ đề nghị | Có |
 | `so_lieu_pcgd` | Số liệu PCGD-XMC của xã: tỷ lệ huy động, duy trì, hoàn thành chương trình; số người mù chữ được xóa | Có |
-| `ho_so_truong_chuan_qg` | Hồ sơ trường đề nghị công nhận đạt chuẩn quốc gia: báo cáo tự đánh giá, minh chứng | Có (với công nhận trường chuẩn quốc gia) |
+| `ho_so_truong_chuan_qg` | Hồ sơ trường đề nghị công nhận đạt chuẩn quốc gia: báo cáo tự đánh giá, minh chứng. Lưu ý: với công nhận trường chuẩn quốc gia.| Có |
 | `doan_kiem_tra` | Dự kiến thành phần đoàn kiểm tra của Sở | Có |
-| `ket_qua_kiem_tra` | Biên bản kiểm tra thực tế tại xã/trường | Có (từ bước 3) |
+| `ket_qua_kiem_tra` | Biên bản kiểm tra thực tế tại xã/trường. Lưu ý: từ bước 3.| Có |
 
 ## 4. Quy trình
 

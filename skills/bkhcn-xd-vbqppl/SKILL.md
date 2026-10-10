@@ -29,7 +29,7 @@ an toàn thông tin mạng, báo chí, xuất bản, năng lượng nguyên tử
 
 - Làm gì: Trình Bộ trưởng quyết định thành lập ban soạn thảo/tổ biên tập; phân công vụ chủ trì.
 - Dùng input: `loai_van_ban`, `don_vi_chu_tri`, `can_cu_chu_truong`.
-- Vai trò: Vụ Pháp chế (Bộ KH&CN) tham mưu; AI hỗ trợ dự thảo quyết định thành lập (30 phút).
+- Vai trò: Vụ Pháp chế (Bộ KH&CN) tham mưu; AI hỗ trợ dự thảo quyết định thành lập (⏱ 30 phút).
 - Lưu ý nghiệp vụ: Thành phần phải có đại diện cơ quan, tổ chức liên quan theo quy định.
 - → Kết quả bước: Quyết định thành lập ban soạn thảo/tổ biên tập.
 
@@ -38,7 +38,7 @@ an toàn thông tin mạng, báo chí, xuất bản, năng lượng nguyên tử
 - Làm gì: Tổng kết thi hành văn bản hiện hành; nghiên cứu chính sách; đánh giá tác động
   (đặc biệt với chính sách mới về công nghệ, dữ liệu, viễn thông).
 - Dùng input: `noi_dung_chinh_sach`, `linh_vuc`.
-- Vai trò: Chuyên viên vụ chủ trì thực hiện; AI hỗ trợ tổng hợp tài liệu, bảng so sánh (2–4 giờ).
+- Vai trò: Chuyên viên vụ chủ trì thực hiện; AI hỗ trợ tổng hợp tài liệu, bảng so sánh (⏱ 2–4 giờ).
 - Lưu ý nghiệp vụ: Chính sách về công nghệ mới cần đánh giá tác động kỹ lưỡng đến doanh nghiệp,
   người dân; tham khảo thông lệ quốc tế.
 - → Kết quả bước: Báo cáo nghiên cứu chính sách + đánh giá tác động.
@@ -47,7 +47,7 @@ an toàn thông tin mạng, báo chí, xuất bản, năng lượng nguyên tử
 
 - Làm gì: Viết dự thảo điều khoản đúng kỹ thuật; kèm tờ trình, bản thuyết minh.
 - Dùng input: `ten_du_thao`, `noi_dung_chinh_sach`.
-- Vai trò: Tổ biên tập soạn thảo; AI hỗ trợ dự thảo điều khoản, rà soát kỹ thuật (1–2 ngày).
+- Vai trò: Tổ biên tập soạn thảo; AI hỗ trợ dự thảo điều khoản, rà soát kỹ thuật (⏱ 1–2 ngày).
 - Lưu ý nghiệp vụ: Thuật ngữ công nghệ phải chính xác, thống nhất; không trái Hiến pháp, luật.
 - → Kết quả bước: Dự thảo văn bản + tờ trình + thuyết minh.
 
@@ -56,7 +56,7 @@ an toàn thông tin mạng, báo chí, xuất bản, năng lượng nguyên tử
 - Làm gì: Đăng lấy ý kiến trên Cổng TTĐT; gửi bộ/ngành, địa phương, hiệp hội, doanh nghiệp công nghệ;
   gửi Bộ Tư pháp thẩm định (luật, nghị định).
 - Dùng input: Toàn bộ hồ sơ dự thảo.
-- Vai trò: Vụ chủ trì tổng hợp; AI hỗ trợ phân loại ý kiến, bảng tiếp thu/giải trình (2–3 giờ).
+- Vai trò: Vụ chủ trì tổng hợp; AI hỗ trợ phân loại ý kiến, bảng tiếp thu/giải trình (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Với văn bản về viễn thông, Internet, báo chí: lấy ý kiến rộng rãi doanh nghiệp,
   cơ quan báo chí chịu tác động trực tiếp.
 - → Kết quả bước: Báo cáo tiếp thu, giải trình; dự thảo hoàn chỉnh.
@@ -65,7 +65,7 @@ an toàn thông tin mạng, báo chí, xuất bản, năng lượng nguyên tử
 
 - Làm gì: Hoàn thiện hồ sơ trình Bộ trưởng ký (thông tư) hoặc trình Chính phủ (luật, nghị định).
 - Dùng input: Toàn bộ hồ sơ sau thẩm định.
-- Vai trò: Vụ trưởng Vụ Pháp chế kiểm tra; Thứ trưởng duyệt; AI hỗ trợ checklist hồ sơ (1 giờ).
+- Vai trò: Vụ trưởng Vụ Pháp chế kiểm tra; Thứ trưởng duyệt; AI hỗ trợ checklist hồ sơ (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Hồ sơ đầy đủ thành phần theo quy định về ban hành VBQPPL.
 - → Kết quả bước: Văn bản được ban hành + hồ sơ lưu trữ.
 

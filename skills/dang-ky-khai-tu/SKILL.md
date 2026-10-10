@@ -28,35 +28,35 @@ description: "Tiếp nhận, kiểm tra hồ sơ và đăng ký khai tử; ghi s
 
 **Bước 1. Tiếp nhận hồ sơ tại bộ phận một cửa**
 - Làm gì: Tiếp nhận Tờ khai đăng ký khai tử và giấy tờ kèm theo; kiểm tra hình thức giấy tờ; cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.
-- Dùng input: `to_khai`, `giay_bao_tu`, `giay_to_nguoi_chet`, `giay_to_nguoi_di_khai`, `nguoi_yeu_cau`
+- Dùng input: `to_khai`, `giay_bao_tu`, `giay_to_nguoi_chet`, `giay_to_nguoi_di_khai`, `nguoi_yeu_cau`.
 - Vai trò: Công chức Tư pháp – Hộ tịch (hoặc công chức bộ phận một cửa) tiếp nhận. AI hỗ trợ kiểm tra danh mục giấy tờ còn thiếu và soạn Giấy tiếp nhận, Giấy hẹn trả kết quả ⏱ ~15 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Trường hợp chết do tai nạn, án mạng phải có văn bản của cơ quan công an; trường hợp Tòa án tuyên bố chết phải có bản án/quyết định có hiệu lực. Không tiếp nhận hồ sơ khi chưa rõ nguyên nhân chết theo quy định.
 - → Kết quả bước: Giấy tiếp nhận hồ sơ + Giấy hẹn trả kết quả đã giao; hồ sơ chuyển công chức Tư pháp – Hộ tịch thụ lý.
 
 **Bước 2. Kiểm tra, đối chiếu thông tin**
 - Làm gì: Đối chiếu Tờ khai với Giấy báo tử và giấy tờ của người đã chết; xác minh người chết có đăng ký thường trú/tạm trú tại xã không; xác định đăng ký đúng hạn hay quá hạn.
-- Dùng input: `to_khai`, `giay_bao_tu`, `giay_to_nguoi_chet`, `ngay_chet`, `noi_chet`, `dang_ky_qua_han`
+- Dùng input: `to_khai`, `giay_bao_tu`, `giay_to_nguoi_chet`, `ngay_chet`, `noi_chet`, `dang_ky_qua_han`.
 - Vai trò: Công chức Tư pháp – Hộ tịch thẩm định. AI hỗ trợ đối chiếu chéo thông tin, tra cứu CSDL cư trú và cảnh báo sai lệch họ tên, ngày sinh, ngày chết ⏱ ~30 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Lỗi thường gặp: ngày chết trên Tờ khai khác Giấy báo tử; họ tên người chết không khớp giấy tờ tùy thân. Nếu người chết không cư trú tại xã, hướng dẫn đăng ký tại nơi chết hoặc nơi cư trú cuối cùng theo quy định.
 - → Kết quả bước: Hồ sơ đạt yêu cầu, hoặc Phiếu yêu cầu bổ sung đã gửi người dân.
 
 **Bước 3. Ghi Sổ đăng ký khai tử và cập nhật CSDL hộ tịch điện tử**
 - Làm gì: Ghi đầy đủ nội dung vào Sổ đăng ký khai tử (sổ giấy); nhập liệu lên CSDL hộ tịch điện tử; ghi chú việc đăng ký khai tử vào các giấy tờ hộ tịch liên quan của người đã chết (nếu có).
-- Dùng input: toàn bộ thông tin đã kiểm tra ở Bước 2 (họ tên, ngày sinh, giới tính, dân tộc, quốc tịch, nơi cư trú cuối cùng, ngày chết, nơi chết, nguyên nhân chết, thông tin người đi khai)
+- Dùng input: toàn bộ thông tin đã kiểm tra ở Bước 2 (họ tên, ngày sinh, giới tính, dân tộc, quốc tịch, nơi cư trú cuối cùng, ngày chết, nơi chết, nguyên nhân chết, thông tin người đi khai).
 - Vai trò: Công chức Tư pháp – Hộ tịch thực hiện ghi sổ và nhập liệu. AI hỗ trợ đối chiếu sổ giấy – CSDL và soạn dự thảo trích lục khai tử ⏱ ~30 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Ghi sổ rõ ràng, không tẩy xóa; nguyên nhân chết ghi đúng theo Giấy báo tử, không suy diễn. Số liệu sổ giấy và CSDL phải khớp nhau.
 - → Kết quả bước: Sổ đăng ký khai tử đã ghi; CSDL hộ tịch điện tử đã cập nhật; dự thảo trích lục khai tử đã soạn.
 
 **Bước 4. Trình Chủ tịch UBND xã ký trích lục khai tử**
 - Làm gì: Tổng hợp hồ sơ, dự thảo trích lục khai tử trình Chánh Văn phòng kiểm tra thể thức, sau đó trình Chủ tịch UBND xã ký, đóng dấu.
-- Dùng input: dự thảo trích lục khai tử, hồ sơ gốc từ các bước trước
-- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra thể thức, tính hợp lệ (15 phút); Chủ tịch UBND xã ký trích lục khai tử. AI hỗ trợ kiểm tra thể thức theo NĐ 30/2020/NĐ-CP và lập phiếu trình ký ⏱ ~0,5 ngày làm việc chờ ký (ước tính).
+- Dùng input: dự thảo trích lục khai tử, hồ sơ gốc từ các bước trước.
+- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra thể thức, tính hợp lệ (⏱ 15 phút); Chủ tịch UBND xã ký trích lục khai tử. AI hỗ trợ kiểm tra thể thức theo NĐ 30/2020/NĐ-CP và lập phiếu trình ký ⏱ ~0,5 ngày làm việc chờ ký (ước tính).
 - Lưu ý nghiệp vụ: Chỉ Chủ tịch UBND xã (hoặc người được ủy quyền hợp pháp) ký trích lục khai tử. Kiểm tra kỹ số, ký hiệu, ngày tháng trước khi đóng dấu.
 - → Kết quả bước: Trích lục khai tử đã được Chủ tịch UBND xã ký và đóng dấu UBND xã.
 
 **Bước 5. Trả kết quả, phối hợp xóa thường trú, thu lệ phí, lưu hồ sơ**
 - Làm gì: Trả trích lục khai tử cho người đi đăng ký theo Giấy hẹn; gửi thông báo cho công an xã để xóa đăng ký thường trú của người đã chết; thu lệ phí theo quy định; lưu hồ sơ.
-- Dùng input: trích lục khai tử đã ký, Giấy hẹn trả kết quả
+- Dùng input: trích lục khai tử đã ký, Giấy hẹn trả kết quả.
 - Vai trò: Công chức Tư pháp – Hộ tịch trả kết quả, gửi văn bản phối hợp cho công an xã. AI hỗ trợ soạn văn bản đề nghị xóa đăng ký thường trú, Sổ theo dõi trả kết quả và biên lai thu lệ phí ⏱ ~30 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Văn bản gửi công an xã phải ghi rõ họ tên, ngày sinh, số định danh cá nhân của người đã chết để xóa thường trú chính xác. Trả đúng người có tên trên Giấy hẹn. Hồ sơ lưu trữ đánh số theo năm.
 - → Kết quả bước: Người dân đã nhận trích lục khai tử; công an xã đã nhận văn bản đề nghị xóa thường trú; lệ phí đã thu; hồ sơ lưu đầy đủ.

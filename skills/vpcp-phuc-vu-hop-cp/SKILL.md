@@ -24,7 +24,7 @@ tổng hợp tài liệu, dự thảo nghị quyết phiên họp, thông báo k
 
 - Làm gì: Tổng hợp đề xuất nội dung từ bộ/ngành; sắp xếp chương trình theo thứ tự ưu tiên; trình Thủ tướng phê duyệt chương trình.
 - Dùng input: `chuong_trinh_du_kien`.
-- Vai trò: Vụ tổng hợp xây dựng chương trình (AI hỗ trợ tổng hợp đề xuất, sắp xếp logic — 2 giờ); Chủ nhiệm VPCP (ông Lê Văn CC) trình Thủ tướng (ông Nguyễn Văn AA) phê duyệt.
+- Vai trò: Vụ tổng hợp xây dựng chương trình (AI hỗ trợ tổng hợp đề xuất, sắp xếp logic ⏱ 2 giờ (ước tính)); Chủ nhiệm VPCP (ông Lê Văn CC) trình Thủ tướng (ông Nguyễn Văn AA) phê duyệt.
 - Lưu ý nghiệp vụ: Ưu tiên nội dung cấp bách, nội dung đã đủ hồ sơ; không đưa nội dung chưa chuẩn bị kỹ vào chương trình.
 - → Kết quả bước: Chương trình phiên họp được Thủ tướng phê duyệt.
 
@@ -32,7 +32,7 @@ tổng hợp tài liệu, dự thảo nghị quyết phiên họp, thông báo k
 
 - Làm gì: Thu thập tài liệu trình của bộ/ngành; Vụ chức năng VPCP thẩm tra, có ý kiến độc lập; tổng hợp thành bộ tài liệu phiên họp gửi thành viên Chính phủ.
 - Dùng input: `tai_lieu_trinh`, `y_kien_tham_muu`.
-- Vai trò: Các vụ chức năng thẩm tra (AI hỗ trợ kiểm tra tính đầy đủ hồ sơ, tóm tắt nội dung chính — 3 giờ); Vụ trưởng duyệt.
+- Vai trò: Các vụ chức năng thẩm tra (AI hỗ trợ kiểm tra tính đầy đủ hồ sơ, tóm tắt nội dung chính ⏱ 3 giờ (ước tính)); Vụ trưởng duyệt.
 - Lưu ý nghiệp vụ: Tài liệu gửi đúng thời hạn theo Quy chế làm việc; ý kiến VPCP phải độc lập, khách quan.
 - → Kết quả bước: Bộ tài liệu phiên họp hoàn chỉnh.
 
@@ -40,7 +40,7 @@ tổng hợp tài liệu, dự thảo nghị quyết phiên họp, thông báo k
 
 - Làm gì: Bảo đảm hậu cần, lễ tân, kỹ thuật; ghi biên bản, ghi âm; chuẩn bị dự thảo kết luận từng nội dung.
 - Dùng input: Chương trình, tài liệu phiên họp.
-- Vai trò: Văn phòng Chính phủ phục vụ (AI hỗ trợ ghi biên bản từ ghi âm — 2 giờ, con người kiểm tra lại 100%).
+- Vai trò: Văn phòng Chính phủ phục vụ (AI hỗ trợ ghi biên bản từ ghi âm ⏱ 2 giờ (ước tính), con người kiểm tra lại 100%).
 - Lưu ý nghiệp vụ: Biên bản phải chính xác ý kiến chỉ đạo; bảo mật nội dung thảo luận.
 - → Kết quả bước: Biên bản phiên họp + dự thảo kết luận từng nội dung.
 
@@ -48,7 +48,7 @@ tổng hợp tài liệu, dự thảo nghị quyết phiên họp, thông báo k
 
 - Làm gì: Dự thảo Nghị quyết phiên họp Chính phủ; trình Thủ tướng ký ban hành; ra thông báo báo chí về kết quả phiên họp.
 - Dùng input: Biên bản, kết luận phiên họp.
-- Vai trò: Vụ tổng hợp dự thảo nghị quyết (AI hỗ trợ soạn thảo theo mẫu — 2 giờ); Chủ nhiệm VPCP trình; Thủ tướng ký ban hành.
+- Vai trò: Vụ tổng hợp dự thảo nghị quyết (AI hỗ trợ soạn thảo theo mẫu ⏱ 2 giờ (ước tính)); Chủ nhiệm VPCP trình; Thủ tướng ký ban hành.
 - Lưu ý nghiệp vụ: Nghị quyết phải thể hiện đầy đủ kết luận của tập thể; thông báo báo chí chính xác, không tiết lộ nội dung mật.
 - → Kết quả bước: Nghị quyết phiên họp Chính phủ + thông báo báo chí.
 

@@ -23,7 +23,7 @@ description: "Thẩm tra hồ sơ, xác minh nguồn gốc đất và trình c�
 | `dien_tich_de_nghi` | Diện tích đề nghị cấp GCN (m²) | Có |
 | `muc_dich_su_dung` | Mục đích sử dụng đất đề nghị (đất ở, đất nông nghiệp...) | Có |
 | `bien_lai_nghia_vu_tai_chinh` | Biên lai/chứng từ đã hoàn thành nghĩa vụ tài chính (nếu đã nộp) | Không |
-| `ket_qua_niemyet` | Kết quả niêm yết công khai tại trụ sở UBND xã (có/không có khiếu nại) | Có (ở bước trình ký) |
+| `ket_qua_niemyet` | Kết quả niêm yết công khai tại trụ sở UBND xã (có/không có khiếu nại). Lưu ý: ở bước trình ký.| Có |
 
 ## 4. Quy trình
 

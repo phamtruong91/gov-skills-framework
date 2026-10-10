@@ -26,15 +26,15 @@ description: "Xây dựng kế hoạch công tác ngoại giao kinh tế hằng 
 
 **Bước 1. Nghiên cứu, đánh giá tình hình kinh tế địa bàn**
 - Làm gì: Thu thập, phân tích tình hình kinh tế vĩ mô, chính sách thương mại, đầu tư của nước sở tại; đánh giá dư địa hợp tác với Việt Nam; xác định cơ hội và thách thức.
-- Dùng input: `dia_ban`, `so_lieu_tham_khao`.
-- Vai trò: Tham tán thương mại tại địa bàn nghiên cứu (AI hỗ trợ tổng hợp số liệu thương mại song phương, rà soát chính sách mới của nước sở tại, lập báo cáo phân tích — 3–5 ngày) → Đại sứ cho ý kiến.
+- Dùng input: `dia_ban`, `so_lieu_tham_khao`, `co_quan_dd`.
+- Vai trò: Tham tán thương mại tại địa bàn nghiên cứu (AI hỗ trợ tổng hợp số liệu thương mại song phương, rà soát chính sách mới của nước sở tại, lập báo cáo phân tích ⏱ 3–5 ngày (ước tính)) → Đại sứ cho ý kiến.
 - Lưu ý nghiệp vụ: Số liệu phải có nguồn rõ ràng (cơ quan thống kê nước sở tại, hải quan, tổ chức quốc tế); phân biệt số liệu chính thức và ước tính.
 - → Kết quả bước: Báo cáo đánh giá tình hình kinh tế địa bàn.
 
 **Bước 2. Xây dựng kế hoạch công tác năm của Tham tán thương mại**
 - Làm gì: Xác định mục tiêu, chỉ tiêu cụ thể; xây dựng chương trình hoạt động theo quý (xúc tiến, kết nối doanh nghiệp, vận động chính sách, hỗ trợ vụ việc); lập dự toán kinh phí.
 - Dùng input: `muc_tieu_nam`, `linh_vuc_uu_tien`, `de_xuat_doanh_nghiep`, báo cáo bước 1.
-- Vai trò: Tham tán thương mại dự thảo kế hoạch (AI hỗ trợ lập khung kế hoạch theo quý, gợi ý hoạt động theo lịch sự kiện thương mại của địa bàn, lập dự toán — 2–3 ngày) → Đại sứ duyệt → gửi về Vụ Kinh tế đối ngoại tổng hợp.
+- Vai trò: Tham tán thương mại dự thảo kế hoạch (AI hỗ trợ lập khung kế hoạch theo quý, gợi ý hoạt động theo lịch sự kiện thương mại của địa bàn, lập dự toán ⏱ 2–3 ngày (ước tính)) → Đại sứ duyệt → gửi về Vụ Kinh tế đối ngoại tổng hợp.
 - Lưu ý nghiệp vụ: Kế hoạch phải gắn với mục tiêu ngoại giao kinh tế chung của Bộ; hoạt động xúc tiến phối hợp với Bộ Công Thương, các hiệp hội ngành hàng.
 - → Kết quả bước: Kế hoạch công tác năm của Tham tán thương mại (đã được Đại sứ duyệt).
 
@@ -48,14 +48,14 @@ description: "Xây dựng kế hoạch công tác ngoại giao kinh tế hằng 
 **Bước 4. Hỗ trợ doanh nghiệp, xử lý vướng mắc thương mại**
 - Làm gì: Tiếp nhận kiến nghị của doanh nghiệp Việt Nam tại địa bàn; hỗ trợ tháo gỡ vướng mắc (hải quan, tiêu chuẩn, tranh chấp); cảnh báo sớm biện pháp phòng vệ thương mại của nước sở tại.
 - Dùng input: `de_xuat_doanh_nghiep`, diễn biến tại địa bàn.
-- Vai trò: Tham tán thương mại xử lý, báo cáo về nước khi vượt thẩm quyền (AI hỗ trợ phân loại vướng mắc, soạn báo cáo nhanh, tra cứu quy định liên quan của nước sở tại — 1–2 ngày/vụ việc) → Đại sứ chỉ đạo; Vụ Kinh tế đối ngoại phối hợp bộ, ngành trong nước.
+- Vai trò: Tham tán thương mại xử lý, báo cáo về nước khi vượt thẩm quyền (AI hỗ trợ phân loại vướng mắc, soạn báo cáo nhanh, tra cứu quy định liên quan của nước sở tại ⏱ 1–2 ngày (ước tính)/vụ việc) → Đại sứ chỉ đạo; Vụ Kinh tế đối ngoại phối hợp bộ, ngành trong nước.
 - Lưu ý nghiệp vụ: Không can thiệp vào tranh chấp thương mại thuần túy giữa các doanh nghiệp; chỉ hỗ trợ trong khuôn khổ chức năng ngoại giao kinh tế.
 - → Kết quả bước: Vướng mắc được tháo gỡ hoặc báo cáo về nước xử lý; cảnh báo sớm được phát đi.
 
 **Bước 5. Tổng hợp, báo cáo và đánh giá kết quả năm**
 - Làm gì: Tổng hợp kết quả thực hiện kế hoạch: chỉ tiêu đạt được, sự kiện đã tổ chức, vụ việc đã xử lý; đánh giá, rút kinh nghiệm; đề xuất kế hoạch năm sau.
 - Dùng input: Toàn bộ hồ sơ thực hiện trong năm.
-- Vai trò: Tham tán thương mại tổng hợp (AI hỗ trợ lập báo cáo tổng kết theo mẫu, đối chiếu chỉ tiêu/kết quả, thống kê — 2 ngày) → Đại sứ ký → gửi Vụ Kinh tế đối ngoại tổng hợp toàn hệ thống.
+- Vai trò: Tham tán thương mại tổng hợp (AI hỗ trợ lập báo cáo tổng kết theo mẫu, đối chiếu chỉ tiêu/kết quả, thống kê ⏱ 2 ngày (ước tính)) → Đại sứ ký → gửi Vụ Kinh tế đối ngoại tổng hợp toàn hệ thống.
 - Lưu ý nghiệp vụ: Báo cáo trung thực kết quả, kể cả chỉ tiêu chưa đạt và nguyên nhân; số liệu phải khớp với báo cáo định kỳ trong năm.
 - → Kết quả bước: Báo cáo tổng kết công tác ngoại giao kinh tế năm của địa bàn.
 

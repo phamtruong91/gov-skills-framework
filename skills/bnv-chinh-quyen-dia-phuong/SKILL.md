@@ -24,36 +24,36 @@ description: "Xây dựng đề án sắp xếp đơn vị hành chính cấp t�
 
 **Bước 1. Rà soát, đánh giá thực trạng ĐVHC và mô hình CQĐP**
 - Làm gì: Thu thập số liệu ĐVHC (số lượng, diện tích, dân số), thực trạng tổ chức, hoạt động của CQĐP 2 cấp; đánh giá kết quả sắp xếp giai đoạn trước, tồn tại, vướng mắc.
-- Dùng input: `pham_vi_dia_phuong`, `thuc_trang_dvhc`.
-- Vai trò: Chuyên viên Vụ Chính quyền địa phương rà soát (AI hỗ trợ tổng hợp số liệu, đối chiếu tiêu chuẩn ĐVHC, lập bảng so sánh trước–sau — 3–5 ngày) → Vụ trưởng kiểm tra.
+- Dùng input: `pham_vi_dia_phuong`, `thuc_trang_dvhc`, `can_cu_giao_nhiem_vu`.
+- Vai trò: Chuyên viên Vụ Chính quyền địa phương rà soát (AI hỗ trợ tổng hợp số liệu, đối chiếu tiêu chuẩn ĐVHC, lập bảng so sánh trước–sau ⏱ 3–5 ngày (ước tính)) → Vụ trưởng kiểm tra.
 - Lưu ý nghiệp vụ: Số liệu phải do địa phương cung cấp/chính thức xác nhận; AI không tự suy đoán dân số, diện tích.
 - → Kết quả bước: Báo cáo đánh giá thực trạng ĐVHC và mô hình CQĐP.
 
 **Bước 2. Xây dựng phương án, dự thảo đề án**
 - Làm gì: Thiết kế phương án sắp xếp ĐVHC (sáp nhập, điều chỉnh, đặt tên, xác định trụ sở) hoặc phương án phân cấp, phân quyền; dự thảo đề án kèm phụ lục số liệu, bản đồ địa giới (nếu có).
 - Dùng input: `noi_dung_de_an`, `phuong_an_du_kien`, kết quả bước 1.
-- Vai trò: Chuyên viên Vụ Chính quyền địa phương phối hợp địa phương xây dựng (AI hỗ trợ kiểm tra tính đầy đủ nội dung đề án, rà soát trùng tên ĐVHC — 5–7 ngày) → Vụ trưởng rà soát.
+- Vai trò: Chuyên viên Vụ Chính quyền địa phương phối hợp địa phương xây dựng (AI hỗ trợ kiểm tra tính đầy đủ nội dung đề án, rà soát trùng tên ĐVHC ⏱ 5–7 ngày (ước tính)) → Vụ trưởng rà soát.
 - Lưu ý nghiệp vụ: Phương án phải bảo đảm tiêu chuẩn ĐVHC theo quy định; có phương án bố trí, sắp xếp cán bộ, công chức dôi dư; tôn trọng ý kiến của địa phương và nguyện vọng nhân dân nơi sắp xếp.
 - → Kết quả bước: Dự thảo đề án sắp xếp ĐVHC/phân cấp phân quyền.
 
 **Bước 3. Lấy ý kiến địa phương, bộ, ngành liên quan**
 - Làm gì: Gửi dự thảo đề án lấy ý kiến UBND cấp tỉnh liên quan (vd: UBND tỉnh A — Chủ tịch UBND tỉnh A: ông Phạm Văn P), các bộ, ngành có liên quan; tổng hợp, tiếp thu/giải trình.
 - Dùng input: Dự thảo đề án bước 2.
-- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu/giải trình — 2–3 ngày) → Vụ trưởng ký văn bản xin ý kiến.
+- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ phân loại ý kiến, lập bảng tiếp thu/giải trình ⏱ 2–3 ngày (ước tính)) → Vụ trưởng ký văn bản xin ý kiến.
 - Lưu ý nghiệp vụ: Đề án sắp xếp ĐVHC phải có ý kiến chính thức của HĐND, UBND cấp tỉnh liên quan; ý kiến không tiếp thu phải giải trình bằng văn bản.
 - → Kết quả bước: Đề án hoàn thiện sau tiếp thu ý kiến địa phương, bộ, ngành.
 
 **Bước 4. Thẩm định, trình cấp có thẩm quyền**
 - Làm gì: Vụ Pháp chế thẩm định tính hợp pháp, thống nhất; lập tờ trình trình Bộ trưởng xem xét, báo cáo Chính phủ/Thủ tướng; trình cấp có thẩm quyền quyết định theo quy định (đề án sắp xếp ĐVHC cấp tỉnh trình Quốc hội/Ủy ban Thường vụ Quốc hội theo thẩm quyền).
 - Dùng input: Toàn bộ hồ sơ các bước trước.
-- Vai trò: Vụ trưởng ký tờ trình (AI hỗ trợ rà soát thể thức theo NĐ 30/2020/NĐ-CP — 0,5 ngày) → Thứ trưởng kiểm tra → Bộ trưởng quyết định trình Chính phủ.
+- Vai trò: Vụ trưởng ký tờ trình (AI hỗ trợ rà soát thể thức theo NĐ 30/2020/NĐ-CP ⏱ 0,5 ngày (ước tính)) → Thứ trưởng kiểm tra → Bộ trưởng quyết định trình Chính phủ.
 - Lưu ý nghiệp vụ: Xác định đúng thẩm quyền quyết định đối với từng loại ĐVHC (cấp tỉnh/cấp xã); không trình vượt thẩm quyền, không quyết thay cấp có thẩm quyền.
 - → Kết quả bước: Đề án được trình cấp có thẩm quyền xem xét, quyết định.
 
 **Bước 5. Hướng dẫn, kiểm tra địa phương triển khai**
 - Làm gì: Ban hành văn bản hướng dẫn địa phương triển khai nghị quyết/quyết định về sắp xếp ĐVHC; kiểm tra tiến độ kiện toàn tổ chức, bố trí cán bộ, giải quyết chế độ dôi dư; tổng hợp báo cáo Chính phủ.
 - Dùng input: Văn bản quyết định của cấp có thẩm quyền, báo cáo địa phương.
-- Vai trò: Chuyên viên Vụ Chính quyền địa phương theo dõi (AI hỗ trợ tổng hợp tiến độ các địa phương, phát hiện vướng mắc phổ biến — 3–5 ngày/kỳ) → Vụ trưởng báo cáo Bộ trưởng.
+- Vai trò: Chuyên viên Vụ Chính quyền địa phương theo dõi (AI hỗ trợ tổng hợp tiến độ các địa phương, phát hiện vướng mắc phổ biến ⏱ 3–5 ngày (ước tính)/kỳ) → Vụ trưởng báo cáo Bộ trưởng.
 - Lưu ý nghiệp vụ: Kịp thời tháo gỡ vướng mắc về chế độ, chính sách đối với cán bộ dôi dư; bảo đảm ổn định tổ chức, không gián đoạn quản lý nhà nước tại địa phương.
 - → Kết quả bước: Văn bản hướng dẫn; báo cáo kiểm tra, tổng hợp kết quả triển khai.
 

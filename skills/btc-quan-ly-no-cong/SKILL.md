@@ -21,15 +21,15 @@ Khi xây dựng Chiến lược nợ công, kế hoạch vay – trả nợ hằ
 
 **Bước 1. Đánh giá thực trạng nợ công**
 - Làm gì: Tổng hợp dư nợ (nợ Chính phủ, nợ được Chính phủ bảo lãnh, nợ chính quyền địa phương); tính các chỉ tiêu: nợ công/GDP, nghĩa vụ trả nợ/thu NSNN.
-- Dùng input: `du_no_hien_tai`, `lich_tra_no`.
-- Vai trò: Chuyên viên Cục Quản lý nợ — AI hỗ trợ tính toán chỉ tiêu, vẽ biểu đồ xu hướng (2–3 ngày).
+- Dùng input: `du_no_hien_tai`, `lich_tra_no`, `ky_bao_cao`.
+- Vai trò: Chuyên viên Cục Quản lý nợ — AI hỗ trợ tính toán chỉ tiêu, vẽ biểu đồ xu hướng (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Số liệu phải từ nguồn chính thức (KBNN, báo cáo đã công khai); phân biệt nợ trong nước/ngoài, ngắn/dài hạn.
 - → Kết quả bước: Báo cáo thực trạng nợ công.
 
 **Bước 2. Xây dựng kế hoạch vay, trả nợ**
 - Làm gì: Xác định nhu cầu vay (bù đắp bội chi, trả nợ đáo hạn, cho vay lại); cơ cấu kỳ hạn, lãi suất, đồng tiền; kế hoạch trả nợ.
 - Dùng input: `ke_hoach_vay`, kết quả bước 1.
-- Vai trò: Cục trưởng Cục Quản lý nợ chủ trì — AI hỗ trợ mô phỏng cơ cấu vay tối ưu chi phí/rủi ro (3–5 ngày).
+- Vai trò: Cục trưởng Cục Quản lý nợ chủ trì — AI hỗ trợ mô phỏng cơ cấu vay tối ưu chi phí/rủi ro (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Ưu tiên vay trong nước, kỳ hạn dài; kiểm soát vay ngoại tệ; tuân thủ hạn mức Quốc hội phê duyệt.
 - → Kết quả bước: Kế hoạch vay, trả nợ hằng năm.
 
@@ -50,7 +50,7 @@ Khi xây dựng Chiến lược nợ công, kế hoạch vay – trả nợ hằ
 **Bước 5. Báo cáo Quốc hội**
 - Làm gì: Lập báo cáo tình hình nợ công trình Chính phủ, Quốc hội (kèm báo cáo NSNN).
 - Dùng input: Kết quả các bước trên.
-- Vai trò: Bộ trưởng Bộ Tài chính ký — AI hỗ trợ soạn báo cáo (2–3 ngày).
+- Vai trò: Bộ trưởng Bộ Tài chính ký — AI hỗ trợ soạn báo cáo (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Giải trình rõ biến động dư nợ, chi phí vay, rủi ro.
 - → Kết quả bước: Báo cáo nợ công trình Quốc hội.
 

@@ -26,35 +26,35 @@ description: "Tiếp nhận yêu cầu, phân công hòa giải viên và tổ c
 
 **Bước 1. Tiếp nhận và phân loại vụ việc**
 - Làm gì: Tiếp nhận đơn yêu cầu hòa giải hoặc thông tin vụ việc từ trưởng thôn/tổ trưởng dân phố; ghi vào Sổ theo dõi hòa giải; phân loại vụ việc thuộc phạm vi hòa giải ở cơ sở hay không.
-- Dùng input: `yeu_cau_hoa_giai`, `cac_ben`, `noi_dung_vu_viec`, `da_toa_an_thu_ly`
+- Dùng input: `yeu_cau_hoa_giai`, `cac_ben`, `noi_dung_vu_viec`, `da_toa_an_thu_ly`.
 - Vai trò: Trưởng thôn/tổ trưởng dân phố hoặc công chức Tư pháp – Hộ tịch tiếp nhận, vào sổ. AI hỗ trợ phân loại vụ việc, cảnh báo trường hợp không thuộc phạm vi hòa giải ⏱ ~30 phút/vụ việc (ước tính).
 - Lưu ý nghiệp vụ: Không hòa giải vụ việc đã được Tòa án thụ lý giải quyết; vụ việc vi phạm pháp luật hình sự, hành chính nghiêm trọng phải chuyển cơ quan có thẩm quyền. Giải thích rõ cho người dân khi từ chối hòa giải.
 - → Kết quả bước: Vụ việc đã ghi vào Sổ theo dõi hòa giải; kết luận thuộc/không thuộc phạm vi hòa giải ở cơ sở.
 
 **Bước 2. Phân công hòa giải viên**
 - Làm gì: Lựa chọn, phân công hòa giải viên trong Tổ hòa giải (do nhân dân bầu) phù hợp với tính chất vụ việc; thông báo cho các bên về thời gian, địa điểm hòa giải.
-- Dùng input: `to_hoa_giai`, `cac_ben`, `noi_dung_vu_viec`
+- Dùng input: `to_hoa_giai`, `cac_ben`, `noi_dung_vu_viec`.
 - Vai trò: Trưởng thôn/tổ trưởng dân phố (hoặc Tổ trưởng Tổ hòa giải) phân công. AI hỗ trợ gợi ý hòa giải viên phù hợp (am hiểu lĩnh vực tranh chấp, được các bên tin tưởng) và soạn giấy mời các bên ⏱ ~30 phút/vụ việc (ước tính).
 - Lưu ý nghiệp vụ: Hòa giải viên phải khách quan, không có quyền lợi liên quan đến vụ việc; nếu một bên không tin tưởng hòa giải viên được phân công thì xem xét thay người khác. Mời đầy đủ các bên, ghi rõ thời gian, địa điểm.
 - → Kết quả bước: Hòa giải viên đã được phân công; giấy mời đã gửi đến các bên.
 
 **Bước 3. Tổ chức buổi hòa giải**
 - Làm gì: Hòa giải viên chủ trì buổi hòa giải: cho các bên trình bày, làm rõ mâu thuẫn; phân tích đúng sai trên cơ sở pháp luật, phong tục tập quán tốt đẹp; vận động, thuyết phục các bên tự nguyện thỏa thuận.
-- Dùng input: `noi_dung_vu_viec`, `tai_lieu_lien_quan`, ý kiến trình bày của các bên tại buổi hòa giải
+- Dùng input: `noi_dung_vu_viec`, `tai_lieu_lien_quan`, ý kiến trình bày của các bên tại buổi hòa giải.
 - Vai trò: Hòa giải viên (Tổ hòa giải do nhân dân bầu) chủ trì; công chức Tư pháp – Hộ tịch hỗ trợ về mặt pháp lý khi cần. AI hỗ trợ chuẩn bị gợi ý phương án hòa giải dựa trên quy định pháp luật liên quan ⏱ ~01–02 giờ/buổi hòa giải (ước tính).
 - Lưu ý nghiệp vụ: Hòa giải trên tinh thần tự nguyện, tôn trọng các bên; không ép buộc, không áp đặt ý chí; giữ bí mật thông tin đời tư các bên. Có thể hòa giải nhiều buổi nếu một buổi chưa xong.
 - → Kết quả bước: Các bên đạt được thỏa thuận (hòa giải thành) hoặc không đạt thỏa thuận (hòa giải không thành), có ghi nhận đầy đủ diễn biến.
 
 **Bước 4. Lập biên bản hòa giải**
 - Làm gì: Lập biên bản hòa giải ghi rõ thời gian, địa điểm, thành phần, diễn biến và kết quả (hòa giải thành ghi rõ nội dung thỏa thuận; hòa giải không thành ghi rõ lý do); các bên và hòa giải viên cùng ký; gửi một bản cho UBND xã lưu.
-- Dùng input: kết quả Bước 3 (nội dung thỏa thuận hoặc lý do không thành), `cac_ben`
+- Dùng input: kết quả Bước 3 (nội dung thỏa thuận hoặc lý do không thành), `cac_ben`.
 - Vai trò: Hòa giải viên lập biên bản; các bên ký xác nhận. AI hỗ trợ soạn biên bản đúng mẫu, kiểm tra đầy đủ yếu tố (thời gian, địa điểm, thành phần, nội dung, chữ ký) ⏱ ~30 phút/biên bản (ước tính).
 - Lưu ý nghiệp vụ: Biên bản hòa giải thành phải ghi cụ thể nội dung thỏa thuận, thời hạn thực hiện, trách nhiệm từng bên — càng chi tiết càng dễ theo dõi. Biên bản hòa giải không thành phải nêu rõ hướng giải quyết tiếp theo (khởi kiện tại Tòa án...).
 - → Kết quả bước: Biên bản hòa giải thành/không thành đã có chữ ký các bên và hòa giải viên; 01 bản lưu tại UBND xã.
 
 **Bước 5. Theo dõi, đôn đốc thực hiện thỏa thuận**
 - Làm gì: Ghi biên bản vào Sổ theo dõi hòa giải; đôn đốc, nhắc nhở các bên thực hiện đúng thỏa thuận và thời hạn đã cam kết; ghi nhận kết quả thực hiện.
-- Dùng input: biên bản hòa giải thành từ Bước 4
+- Dùng input: biên bản hòa giải thành từ Bước 4.
 - Vai trò: Trưởng thôn/tổ trưởng dân phố hoặc hòa giải viên theo dõi; công chức Tư pháp – Hộ tịch tổng hợp vào sổ theo dõi chung của xã. AI hỗ trợ lập lịch nhắc việc theo thời hạn thỏa thuận và tổng hợp báo cáo công tác hòa giải định kỳ ⏱ ~15 phút/vụ việc/lần theo dõi (ước tính).
 - Lưu ý nghiệp vụ: Nếu một bên không thực hiện thỏa thuận, vận động tiếp; nếu không được thì hướng dẫn bên còn lại khởi kiện tại Tòa án. Định kỳ báo cáo kết quả hòa giải về UBND xã.
 - → Kết quả bước: Sổ theo dõi hòa giải đã cập nhật kết quả thực hiện thỏa thuận; báo cáo công tác hòa giải định kỳ của thôn/tổ dân phố.

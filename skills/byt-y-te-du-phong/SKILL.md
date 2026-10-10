@@ -28,7 +28,7 @@ Không dùng cho y tế dự phòng tuyến xã/tỉnh (đã có skill `y-te-du-
 
 - Làm gì: Tổng hợp, phân tích số liệu giám sát dịch tễ toàn quốc; xác định chỉ tiêu (tỷ lệ tiêm chủng đầy đủ, tỷ lệ mắc mục tiêu giảm); lập kế hoạch chương trình năm.
 - Dùng input: `so_lieu_dich_te`, `chuong_trinh`, `doi_tuong`, `ke_hoach_nam`.
-- Vai trò: Chuyên viên Cục Y tế dự phòng phân tích số liệu (AI hỗ trợ vẽ biểu đồ xu hướng dịch tễ, phát hiện địa bàn nguy cơ — 3 giờ); Cục trưởng Cục Y tế dự phòng (bà Vũ Thị FF) duyệt kế hoạch.
+- Vai trò: Chuyên viên Cục Y tế dự phòng phân tích số liệu (AI hỗ trợ vẽ biểu đồ xu hướng dịch tễ, phát hiện địa bàn nguy cơ ⏱ 3 giờ (ước tính)); Cục trưởng Cục Y tế dự phòng (bà Vũ Thị FF) duyệt kế hoạch.
 - Lưu ý nghiệp vụ: Số liệu phải lấy từ hệ thống giám sát chính thức; chỉ tiêu phải khả thi, đo lường được.
 - → Kết quả bước: Kế hoạch chương trình quốc gia năm được phê duyệt.
 
@@ -36,7 +36,7 @@ Không dùng cho y tế dự phòng tuyến xã/tỉnh (đã có skill `y-te-du-
 
 - Làm gì: Tổng hợp nhu cầu vắc xin, sinh phẩm, vật tư của địa phương; tổ chức mua sắm tập trung hoặc phân bổ; hướng dẫn bảo quản dây chuyền lạnh.
 - Dùng input: `danh_muc_vac_xin`, `bao_cao_dia_phuong`.
-- Vai trò: Cục Y tế dự phòng chủ trì, phối hợp Vụ Kế hoạch – Tài chính (AI hỗ trợ lập bảng phân bổ theo dân số mục tiêu từng tỉnh — 2 giờ); Thứ trưởng phụ trách (bà Phạm Thị DD) phê duyệt phân bổ.
+- Vai trò: Cục Y tế dự phòng chủ trì, phối hợp Vụ Kế hoạch – Tài chính (AI hỗ trợ lập bảng phân bổ theo dân số mục tiêu từng tỉnh ⏱ 2 giờ (ước tính)); Thứ trưởng phụ trách (bà Phạm Thị DD) phê duyệt phân bổ.
 - Lưu ý nghiệp vụ: Ưu tiên vùng sâu, vùng xa, vùng đồng bào DTTS; bảo đảm dây chuyền lạnh.
 - → Kết quả bước: Quyết định phân bổ vắc xin, vật tư + hướng dẫn bảo quản.
 
@@ -44,7 +44,7 @@ Không dùng cho y tế dự phòng tuyến xã/tỉnh (đã có skill `y-te-du-
 
 - Làm gì: Ban hành văn bản hướng dẫn chuyên môn; tập huấn; kiểm tra, hỗ trợ kỹ thuật các tỉnh thực hiện.
 - Dùng input: Kế hoạch đã phê duyệt, văn bản hướng dẫn chuyên môn.
-- Vai trò: Cục Y tế dự phòng ban hành hướng dẫn (AI hỗ trợ soạn tài liệu tập huấn, câu hỏi thường gặp — 3 giờ).
+- Vai trò: Cục Y tế dự phòng ban hành hướng dẫn (AI hỗ trợ soạn tài liệu tập huấn, câu hỏi thường gặp ⏱ 3 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Hướng dẫn phải thống nhất toàn quốc, phù hợp tuyến xã/phường trực tiếp triển khai.
 - → Kết quả bước: Văn bản hướng dẫn + các lớp tập huấn đã tổ chức.
 
@@ -52,7 +52,7 @@ Không dùng cho y tế dự phòng tuyến xã/tỉnh (đã có skill `y-te-du-
 
 - Làm gì: Giám sát tỷ lệ bao phủ, tai biến sau tiêm chủng, diễn biến dịch; đánh giá giữa kỳ/cuối kỳ; báo cáo Chính phủ, Thủ tướng.
 - Dùng input: `bao_cao_dia_phuong`, số liệu giám sát.
-- Vai trò: Cục Y tế dự phòng tổng hợp (AI hỗ trợ đối chiếu số liệu các tỉnh, phát hiện số liệu bất thường — 4 giờ); Bộ trưởng (ông Lê Văn CC) ký báo cáo trình Chính phủ.
+- Vai trò: Cục Y tế dự phòng tổng hợp (AI hỗ trợ đối chiếu số liệu các tỉnh, phát hiện số liệu bất thường ⏱ 4 giờ (ước tính)); Bộ trưởng (ông Lê Văn CC) ký báo cáo trình Chính phủ.
 - Lưu ý nghiệp vụ: Xử lý kịp thời sự cố (tai biến nặng sau tiêm chủng, dịch bùng phát); không giấu, không làm tròn số liệu.
 - → Kết quả bước: Báo cáo giám sát, đánh giá chương trình + báo cáo trình Chính phủ.
 

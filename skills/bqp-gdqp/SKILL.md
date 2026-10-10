@@ -24,28 +24,28 @@ description: "Hằng năm xây dựng kế hoạch giáo dục QP&AN toàn quố
 **Bước 1. Xây dựng kế hoạch GDQP&AN năm**
 - Làm gì: Xác định đối tượng, chỉ tiêu bồi dưỡng; phân công trách nhiệm bộ ngành, địa phương, nhà trường; dự kiến kinh phí.
 - Dùng input: `nam_ke_hoach`, `doi_tuong`, `bao_cao_dia_phuong`.
-- Vai trò: Chuyên viên xây dựng kế hoạch (AI hỗ trợ tổng hợp báo cáo năm trước, lập bảng chỉ tiêu — 2 ngày) → Vụ trưởng kiểm tra → Thứ trưởng phê duyệt.
+- Vai trò: Chuyên viên xây dựng kế hoạch (AI hỗ trợ tổng hợp báo cáo năm trước, lập bảng chỉ tiêu ⏱ 2 ngày (ước tính)) → Vụ trưởng kiểm tra → Thứ trưởng phê duyệt.
 - Lưu ý nghiệp vụ: Đối tượng, nội dung theo đúng quy định hiện hành; kế hoạch khả thi, phù hợp điều kiện địa phương.
 - → Kết quả bước: Kế hoạch GDQP&AN năm được phê duyệt.
 
 **Bước 2. Hướng dẫn chương trình, nội dung**
 - Làm gì: Ban hành hướng dẫn thực hiện chương trình GDQP&AN cho từng đối tượng: nội dung, thời lượng, hình thức, kiểm tra đánh giá.
 - Dùng input: `chuong_trinh_hien_hanh`, `doi_tuong`.
-- Vai trò: Chuyên viên soạn hướng dẫn (AI hỗ trợ rà soát chương trình hiện hành, chuẩn hóa văn bản — 2 ngày) → Vụ trưởng ký ban hành.
+- Vai trò: Chuyên viên soạn hướng dẫn (AI hỗ trợ rà soát chương trình hiện hành, chuẩn hóa văn bản ⏱ 2 ngày (ước tính)) → Vụ trưởng ký ban hành.
 - Lưu ý nghiệp vụ: Nội dung ở mức chương trình công khai; cập nhật chủ trương, chính sách mới về quốc phòng, an ninh.
 - → Kết quả bước: Văn bản hướng dẫn thực hiện chương trình.
 
 **Bước 3. Tổ chức bồi dưỡng kiến thức QP&AN**
 - Làm gì: Phối hợp tổ chức các lớp bồi dưỡng kiến thức QP&AN cho cán bộ đối tượng theo phân cấp; quản lý danh sách, kết quả.
 - Dùng input: `doi_tuong`, `nam_ke_hoach`.
-- Vai trò: Cơ quan thường trực Hội đồng GDQP&AN tổ chức (AI hỗ trợ lập kế hoạch lớp học, danh sách, mẫu giấy chứng nhận — 1 ngày) → Vụ trưởng theo dõi.
+- Vai trò: Cơ quan thường trực Hội đồng GDQP&AN tổ chức (AI hỗ trợ lập kế hoạch lớp học, danh sách, mẫu giấy chứng nhận ⏱ 1 ngày (ước tính)) → Vụ trưởng theo dõi.
 - Lưu ý nghiệp vụ: Bảo đảm đúng đối tượng, đủ thời lượng; cấp giấy chứng nhận theo quy định.
 - → Kết quả bước: Các lớp bồi dưỡng được tổ chức; danh sách hoàn thành.
 
 **Bước 4. Kiểm tra, tổng kết**
 - Làm gì: Kiểm tra công tác GDQP&AN tại bộ ngành, địa phương, nhà trường; tổng hợp, đánh giá toàn quốc.
 - Dùng input: Báo cáo kết quả của các đơn vị.
-- Vai trò: Đoàn kiểm tra thực hiện (AI hỗ trợ tổng hợp số liệu, dự thảo báo cáo — 2 ngày) → Vụ trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
+- Vai trò: Đoàn kiểm tra thực hiện (AI hỗ trợ tổng hợp số liệu, dự thảo báo cáo ⏱ 2 ngày (ước tính)) → Vụ trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
 - Lưu ý nghiệp vụ: Đánh giá thực chất, tránh hình thức.
 - → Kết quả bước: Báo cáo tổng kết công tác GDQP&AN năm.
 

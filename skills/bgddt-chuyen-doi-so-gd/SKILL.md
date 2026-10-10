@@ -25,28 +25,28 @@ triển khai hồ sơ số, chữ ký số trong ngành; hướng dẫn địa p
 **Bước 1. Đánh giá hiện trạng số hóa**
 - Làm gì: Khảo sát hạ tầng CNTT, hệ thống quản lý trường học, tỷ lệ giáo viên ứng dụng CNTT tại các địa phương.
 - Dùng input: `hien_trang`.
-- Vai trò: Chuyên viên đơn vị CNTT — AI hỗ trợ thiết kế phiếu khảo sát, tổng hợp kết quả (2 giờ).
+- Vai trò: Chuyên viên đơn vị CNTT — AI hỗ trợ thiết kế phiếu khảo sát, tổng hợp kết quả (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Đánh giá trung thực, phân biệt rõ vùng có điều kiện và vùng khó khăn để có giải pháp phù hợp.
 - → Kết quả bước: Báo cáo hiện trạng chuyển đổi số giáo dục.
 
 **Bước 2. Xây dựng kế hoạch, kiến trúc**
 - Làm gì: Lập kế hoạch chuyển đổi số ngành: CSDL dùng chung, kho học liệu số, nền tảng dạy học trực tuyến; thiết kế kiến trúc hệ thống.
 - Dùng input: `noi_dung`, `muc_tieu`, `don_vi_phoi_hop`.
-- Vai trò: Đơn vị CNTT chủ trì — AI hỗ trợ soạn kế hoạch, vẽ sơ đồ kiến trúc (2–3 giờ).
+- Vai trò: Đơn vị CNTT chủ trì — AI hỗ trợ soạn kế hoạch, vẽ sơ đồ kiến trúc (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Kiến trúc phải bảo đảm liên thông với CSDL quốc gia, an toàn thông tin, bảo vệ dữ liệu cá nhân của học sinh.
 - → Kết quả bước: Kế hoạch chuyển đổi số giáo dục + thiết kế kiến trúc.
 
 **Bước 3. Triển khai thí điểm**
 - Làm gì: Chọn địa phương, trường thí điểm; tập huấn giáo viên; vận hành thử hệ thống; đánh giá, điều chỉnh.
 - Dùng input: Kế hoạch.
-- Vai trò: Đơn vị CNTT + Sở GD&ĐT thí điểm — AI hỗ trợ soạn tài liệu tập huấn, bảng đánh giá thí điểm (1–2 giờ).
+- Vai trò: Đơn vị CNTT + Sở GD&ĐT thí điểm — AI hỗ trợ soạn tài liệu tập huấn, bảng đánh giá thí điểm (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Thí điểm phải bao gồm cả vùng khó khăn để kiểm chứng tính khả thi.
 - → Kết quả bước: Báo cáo đánh giá thí điểm.
 
 **Bước 4. Nhân rộng và quản lý vận hành**
 - Làm gì: Ban hành văn bản hướng dẫn nhân rộng; quản lý vận hành hệ thống; giám sát an toàn thông tin; sơ kết, tổng kết.
 - Dùng input: Kết quả thí điểm.
-- Vai trò: Đơn vị CNTT — AI hỗ trợ soạn văn bản hướng dẫn, dashboard theo dõi chỉ tiêu (1 giờ).
+- Vai trò: Đơn vị CNTT — AI hỗ trợ soạn văn bản hướng dẫn, dashboard theo dõi chỉ tiêu (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Có phương án dự phòng, sao lưu dữ liệu; xử lý sự cố an toàn thông tin kịp thời.
 - → Kết quả bước: Hệ thống vận hành toàn quốc; báo cáo sơ kết, tổng kết.
 

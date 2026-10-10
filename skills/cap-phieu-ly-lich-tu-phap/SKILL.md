@@ -26,35 +26,35 @@ description: "Cấp Phiếu lý lịch tư pháp số 1, số 2 cho công dân, 
 
 **Bước 1. Tiếp nhận tờ khai, kiểm tra hồ sơ**
 - Làm gì: Tiếp nhận tờ khai yêu cầu cấp Phiếu tại Trung tâm Phục vụ hành chính công tỉnh (trực tiếp, trực tuyến hoặc qua bưu chính); kiểm tra tính đầy đủ của tờ khai, giấy tờ tùy thân, văn bản ủy quyền (nếu có); kiểm tra thẩm quyền cấp Phiếu của Sở Tư pháp tỉnh A (nơi thường trú/tạm trú của đương sự); viết giấy hẹn.
-- Dùng input: `to_khai_yeu_cau`, `giay_to_tuy_than`, `loai_phieu`, `doi_tuong_yeu_cau`, `van_ban_uy_quyen`
+- Dùng input: `to_khai_yeu_cau`, `giay_to_tuy_than`, `loai_phieu`, `doi_tuong_yeu_cau`, `van_ban_uy_quyen`.
 - Vai trò: Chuyên viên Phòng Lý lịch tư pháp (Sở Tư pháp tỉnh A) tiếp nhận, kiểm tra. AI hỗ trợ kiểm tra tính đầy đủ hồ sơ theo checklist từng loại Phiếu, soạn giấy hẹn trả kết quả ⏱ ~0,5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Phiếu số 2 chỉ cấp theo yêu cầu của cơ quan tố tụng; trường hợp ủy quyền phải có văn bản ủy quyền hợp lệ; hồ sơ thiếu hướng dẫn bổ sung một lần bằng văn bản.
 - → Kết quả bước: Hồ sơ hợp lệ được tiếp nhận + giấy hẹn trả kết quả; hồ sơ thiếu được hướng dẫn bổ sung.
 
 **Bước 2. Tra cứu, xác minh thông tin lý lịch tư pháp**
 - Làm gì: Tra cứu thông tin của đương sự trên Cơ sở dữ liệu lý lịch tư pháp; gửi văn bản xác minh đến cơ quan công an, tòa án nơi đương sự cư trú (khi cần); tổng hợp kết quả tra cứu, xác minh về án tích và tình trạng pháp lý khác.
-- Dùng input: thông tin nhân thân trong tờ khai
+- Dùng input: thông tin nhân thân trong tờ khai.
 - Vai trò: Chuyên viên Phòng Lý lịch tư pháp thực hiện tra cứu, gửi xác minh. AI hỗ trợ soạn văn bản đề nghị xác minh, theo dõi thời hạn trả lời của cơ quan được đề nghị ⏱ ~theo thời hạn xác minh quy định (ước tính).
 - Lưu ý nghiệp vụ: Thông tin tra cứu phải chính xác đến từng cá nhân (họ tên, ngày sinh, nơi cư trú); không nhầm lẫn giữa các trường hợp trùng tên; kết quả xác minh lưu đầy đủ vào hồ sơ.
 - → Kết quả bước: Kết quả tra cứu, xác minh thông tin lý lịch tư pháp của đương sự.
 
 **Bước 3. Dự thảo Phiếu lý lịch tư pháp**
 - Làm gì: Dự thảo Phiếu lý lịch tư pháp số 1 hoặc số 2 theo đúng mẫu: thông tin nhân thân, tình trạng án tích (không có án tích / có án tích đã được xóa / chưa được xóa án tích), thông tin về cấm đảm nhiệm chức vụ, thành lập, quản lý doanh nghiệp, hợp tác xã (đối với Phiếu số 1 theo yêu cầu).
-- Dùng input: kết quả tra cứu Bước 2, `loai_phieu`
+- Dùng input: kết quả tra cứu Bước 2, `loai_phieu`.
 - Vai trò: Chuyên viên Phòng Lý lịch tư pháp dự thảo Phiếu. AI hỗ trợ điền mẫu Phiếu từ dữ liệu hồ sơ và kết quả tra cứu, kiểm tra tính thống nhất thông tin trước khi trình ký ⏱ ~0,5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Nội dung Phiếu phải phản ánh trung thực kết quả tra cứu, xác minh; phân biệt rõ nội dung Phiếu số 1 và Phiếu số 2; không ghi thêm thông tin ngoài mẫu quy định.
 - → Kết quả bước: Dự thảo Phiếu lý lịch tư pháp đúng mẫu, thông tin chính xác, kèm hồ sơ trình ký.
 
 **Bước 4. Trình ký, trả kết quả đúng thời hạn**
 - Làm gì: Trình Giám đốc Sở Tư pháp (hoặc người được ủy quyền) ký Phiếu; đóng dấu; trả kết quả cho người yêu cầu theo giấy hẹn; thu phí theo quy định.
-- Dùng input: dự thảo Phiếu, `thoi_han_giai_quyet`
+- Dùng input: dự thảo Phiếu, `thoi_han_giai_quyet`.
 - Vai trò: Trưởng phòng Lý lịch tư pháp kiểm tra lần cuối; Giám đốc Sở ký Phiếu. AI hỗ trợ theo dõi thời hạn cấp Phiếu, cảnh báo hồ sơ sắp quá hạn ⏱ ~01 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Trả kết quả đúng thời hạn; thông tin trên Phiếu là thông tin nhạy cảm, chỉ trả cho đúng người yêu cầu hoặc người được ủy quyền hợp lệ.
 - → Kết quả bước: Phiếu lý lịch tư pháp đã ký, đóng dấu, trả cho người yêu cầu đúng hạn.
 
 **Bước 5. Lưu hồ sơ, thống kê, báo cáo**
 - Làm gì: Lưu trữ hồ sơ cấp Phiếu theo quy định (tờ khai, kết quả tra cứu, xác minh, bản lưu Phiếu); thống kê số lượng Phiếu đã cấp theo loại Phiếu, đối tượng; báo cáo định kỳ.
-- Dùng input: hồ sơ cấp Phiếu, sổ theo dõi
+- Dùng input: hồ sơ cấp Phiếu, sổ theo dõi.
 - Vai trò: Chuyên viên Phòng Lý lịch tư pháp lưu hồ sơ, thống kê. AI hỗ trợ tổng hợp thống kê theo loại Phiếu, đối tượng và soạn báo cáo định kỳ ⏱ ~01 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Hồ sơ cấp Phiếu chứa thông tin cá nhân nhạy cảm, phải bảo mật, lưu trữ an toàn; chỉ cung cấp thông tin theo đúng quy định pháp luật.
 - → Kết quả bước: Hồ sơ lưu trữ đầy đủ, bảo mật; báo cáo thống kê cấp Phiếu định kỳ.

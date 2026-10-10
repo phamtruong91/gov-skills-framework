@@ -28,35 +28,35 @@ description: "Tổ chức sự kiện văn hóa đối ngoại ở nước ngoà
 **Bước 1. Xây dựng đề án/kế hoạch sự kiện**
 - Làm gì: Lập đề án tổ chức sự kiện văn hóa đối ngoại hoặc kế hoạch họp báo quốc tế: mục tiêu, nội dung chương trình, thời gian, địa điểm, thành phần tham dự, phân công, dự toán kinh phí.
 - Dùng input: `ten_su_kien`, `dia_ban`, `thoi_gian_dia_diem`, `muc_tieu`, `don_vi_chu_tri`, `don_vi_phoi_hop`, `du_toan`.
-- Vai trò: Chuyên viên Vụ Văn hóa đối ngoại (hoặc cơ quan đại diện) dự thảo (AI hỗ trợ lập khung chương trình, gợi ý nội dung theo thông lệ tổ chức sự kiện văn hóa đối ngoại, lập dự toán mẫu — 2–3 ngày) → Vụ trưởng kiểm tra.
+- Vai trò: Chuyên viên Vụ Văn hóa đối ngoại (hoặc cơ quan đại diện) dự thảo (AI hỗ trợ lập khung chương trình, gợi ý nội dung theo thông lệ tổ chức sự kiện văn hóa đối ngoại, lập dự toán mẫu ⏱ 2–3 ngày (ước tính)) → Vụ trưởng kiểm tra.
 - Lưu ý nghiệp vụ: Nội dung quảng bá phải bảo đảm tính chính xác về lịch sử, văn hóa Việt Nam; phù hợp phong tục nước sở tại.
 - → Kết quả bước: Đề án/kế hoạch sự kiện trình phê duyệt.
 
 **Bước 2. Phê duyệt và phối hợp triển khai**
 - Làm gì: Trình phê duyệt đề án; làm việc với cơ quan chức năng nước sở tại (giấy phép tổ chức, địa điểm); phối hợp đoàn nghệ thuật, đơn vị trong nước chuẩn bị nội dung, hiện vật.
 - Dùng input: Đề án bước 1.
-- Vai trò: Vụ trưởng trình Thứ trưởng phê duyệt (AI hỗ trợ soạn công hàm xin phép nước sở tại, checklist công tác chuẩn bị — 1 ngày); cơ quan đại diện làm đầu mối tại địa bàn.
+- Vai trò: Vụ trưởng trình Thứ trưởng phê duyệt (AI hỗ trợ soạn công hàm xin phép nước sở tại, checklist công tác chuẩn bị ⏱ 1 ngày (ước tính)); cơ quan đại diện làm đầu mối tại địa bàn.
 - Lưu ý nghiệp vụ: Tuân thủ quy định nước sở tại về tổ chức sự kiện công cộng; bảo đảm an ninh, an toàn cho đoàn và hiện vật.
 - → Kết quả bước: Đề án được phê duyệt; giấy phép và công tác chuẩn bị hoàn tất.
 
 **Bước 3. Tổ chức họp báo quốc tế / truyền thông sự kiện**
 - Làm gì: Chuẩn bị thông cáo báo chí, tài liệu cung cấp thông tin; mời phóng viên trong nước và quốc tế; tổ chức họp báo; điều phối trả lời phỏng vấn của người phát ngôn/lãnh đạo.
 - Dùng input: `ten_su_kien`, `muc_tieu`.
-- Vai trò: Chuyên viên Vụ Thông tin – Báo chí chuẩn bị (AI hỗ trợ soạn thông cáo báo chí song ngữ, bộ câu hỏi – trả lời dự kiến, tổng hợp danh sách phóng viên — 1–2 ngày) → Vụ trưởng duyệt nội dung → người phát ngôn chủ trì họp báo.
+- Vai trò: Chuyên viên Vụ Thông tin – Báo chí chuẩn bị (AI hỗ trợ soạn thông cáo báo chí song ngữ, bộ câu hỏi – trả lời dự kiến, tổng hợp danh sách phóng viên ⏱ 1–2 ngày (ước tính)) → Vụ trưởng duyệt nội dung → người phát ngôn chủ trì họp báo.
 - Lưu ý nghiệp vụ: Mọi phát ngôn chính thức phải do người có thẩm quyền thực hiện; nội dung cung cấp cho báo chí nước ngoài phải thống nhất, chính xác.
 - → Kết quả bước: Họp báo quốc tế được tổ chức; thông tin được đăng tải đúng định hướng.
 
 **Bước 4. Tổ chức sự kiện văn hóa đối ngoại**
 - Làm gì: Điều hành chương trình: lễ khai mạc, biểu diễn, triển lãm, giao lưu; đón tiếp khách mời; bảo đảm lễ tân, an ninh, kỹ thuật; ghi hình, chụp ảnh tư liệu.
 - Dùng input: Đề án đã duyệt.
-- Vai trò: Trưởng đoàn/cơ quan đại diện điều hành tại địa bàn (AI hỗ trợ lập kịch bản điều hành chi tiết theo giờ, checklist hậu cần — 1 ngày) → báo cáo nhanh về Vụ sau mỗi ngày diễn ra sự kiện.
+- Vai trò: Trưởng đoàn/cơ quan đại diện điều hành tại địa bàn (AI hỗ trợ lập kịch bản điều hành chi tiết theo giờ, checklist hậu cần ⏱ 1 ngày (ước tính)) → báo cáo nhanh về Vụ sau mỗi ngày diễn ra sự kiện.
 - Lưu ý nghiệp vụ: Xử lý linh hoạt tình huống phát sinh (thay đổi lịch, sự cố kỹ thuật); giữ hình ảnh trang trọng của quốc gia.
 - → Kết quả bước: Sự kiện diễn ra thành công, an toàn.
 
 **Bước 5. Tổng hợp, đánh giá hiệu quả và báo cáo**
 - Làm gì: Tổng hợp kết quả: số lượng khách tham dự, độ phủ truyền thông trong nước và quốc tế; đánh giá hiệu quả quảng bá; quyết toán kinh phí; rút kinh nghiệm.
 - Dùng input: Toàn bộ hồ sơ sự kiện, thống kê truyền thông.
-- Vai trò: Chuyên viên đơn vị chủ trì tổng hợp (AI hỗ trợ thu thập, thống kê tin bài báo chí, lập báo cáo tổng kết và quyết toán — 2 ngày) → Vụ trưởng ký báo cáo.
+- Vai trò: Chuyên viên đơn vị chủ trì tổng hợp (AI hỗ trợ thu thập, thống kê tin bài báo chí, lập báo cáo tổng kết và quyết toán ⏱ 2 ngày (ước tính)) → Vụ trưởng ký báo cáo.
 - Lưu ý nghiệp vụ: Đánh giá dựa trên số liệu thực tế (lượt đưa tin, lượng khán giả), không phóng đại hiệu quả.
 - → Kết quả bước: Báo cáo tổng kết sự kiện; hồ sơ quyết toán.
 
@@ -128,10 +128,10 @@ flowchart TD
 
 **Output mẫu** (trích đề án — giả lập):
 
-> **BỘ NGOẠI GIAO**
-> **Số: 1234/ĐA-BNG**
 > **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**
 > **Độc lập – Tự do – Hạnh phúc**
+> **BỘ NGOẠI GIAO**
+> **Số: 1234/ĐA-BNG**
 >
 > *Thủ đô, ngày 01 tháng 9 năm 2026*
 >

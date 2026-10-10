@@ -25,29 +25,29 @@ description: "Theo dõi tình hình thi hành pháp luật trên địa bàn xã
 
 **Bước 1. Thu thập văn bản QPPL mới và thông tin thi hành**
 - Làm gì: Lập danh sách văn bản QPPL mới ban hành trong kỳ có liên quan đến cấp xã; thu thập báo cáo của các đơn vị, thôn và phản ánh của người dân.
-- Dùng input: `ky_bao_cao`, `van_ban_moi`, `bao_cao_don_vi`, `phan_anh_nguoi_dan`
-- Vai trò: Công chức tư pháp – hộ tịch xã thu thập; AI hỗ trợ lập danh mục văn bản, phân loại theo lĩnh vực, tổng hợp phản ánh — 1 ngày làm việc
+- Dùng input: `ky_bao_cao`, `van_ban_moi`, `bao_cao_don_vi`, `phan_anh_nguoi_dan`.
+- Vai trò: Công chức tư pháp – hộ tịch xã thu thập; AI hỗ trợ lập danh mục văn bản, phân loại theo lĩnh vực, tổng hợp phản ánh ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Chỉ đưa văn bản còn hiệu lực; ghi rõ số hiệu, ngày ban hành, cơ quan ban hành; phản ánh của dân phải ghi nguồn, thời gian tiếp nhận.
 - → Kết quả bước: Danh mục văn bản QPPL mới + tập hợp báo cáo, phản ánh đã phân loại.
 
 **Bước 2. Đánh giá tình hình thi hành pháp luật trên địa bàn**
 - Làm gì: Đánh giá việc phổ biến, tổ chức thi hành từng văn bản/lĩnh vực: kết quả đạt được, số liệu minh chứng, tồn tại, hạn chế.
-- Dùng input: `van_ban_moi`, `bao_cao_don_vi`, `linh_vuc_trong_tam`
-- Vai trò: Công chức tư pháp – hộ tịch xã đánh giá; AI hỗ trợ đối chiếu số liệu giữa các nguồn, phát hiện mâu thuẫn, gợi ý khung đánh giá — 1 ngày làm việc
+- Dùng input: `van_ban_moi`, `bao_cao_don_vi`, `linh_vuc_trong_tam`.
+- Vai trò: Công chức tư pháp – hộ tịch xã đánh giá; AI hỗ trợ đối chiếu số liệu giữa các nguồn, phát hiện mâu thuẫn, gợi ý khung đánh giá ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Đánh giá phải có số liệu cụ thể, không chung chung ("cơ bản tốt"); nêu rõ trách nhiệm của từng đơn vị liên quan.
 - → Kết quả bước: Bản đánh giá tình hình THPL theo từng lĩnh vực, có số liệu.
 
 **Bước 3. Phát hiện vướng mắc, bất cập và kiến nghị**
 - Làm gì: Tổng hợp các vướng mắc, bất cập phát hiện được (chồng chéo, thiếu hướng dẫn, không phù hợp thực tiễn); đề xuất kiến nghị sửa đổi, bổ sung gửi cơ quan có thẩm quyền.
-- Dùng input: `phan_anh_nguoi_dan`, kết quả đánh giá ở Bước 2
-- Vai trò: Công chức tư pháp – hộ tịch xã đề xuất; AI hỗ trợ hệ thống hóa vướng mắc, soạn dự thảo kiến nghị — 0,5 ngày làm việc
+- Dùng input: `phan_anh_nguoi_dan`, kết quả đánh giá ở Bước 2.
+- Vai trò: Công chức tư pháp – hộ tịch xã đề xuất; AI hỗ trợ hệ thống hóa vướng mắc, soạn dự thảo kiến nghị ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Mỗi vướng mắc phải nêu rõ quy định nào, vướng ở điểm nào, đề xuất cụ thể gì; không kiến nghị vượt thẩm quyền của xã.
 - → Kết quả bước: Danh mục vướng mắc, bất cập + dự thảo kiến nghị sửa đổi, bổ sung.
 
 **Bước 4. Tổng hợp báo cáo và trình ký, gửi cấp trên**
 - Làm gì: Soạn báo cáo tình hình THPL theo đề cương (tình hình chung, kết quả theo lĩnh vực, vướng mắc, kiến nghị); trình lãnh đạo ký; gửi Phòng Tư pháp/Sở Tư pháp đúng thời hạn.
-- Dùng input: `ky_bao_cao`, toàn bộ kết quả các bước trên, `can_bo_phu_trach`
-- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra; Chủ tịch UBND xã ký ban hành; AI hỗ trợ soạn báo cáo đúng đề cương, đúng thể thức — 0,5 ngày làm việc
+- Dùng input: `ky_bao_cao`, toàn bộ kết quả các bước trên, `can_bo_phu_trach`.
+- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra; Chủ tịch UBND xã ký ban hành; AI hỗ trợ soạn báo cáo đúng đề cương, đúng thể thức ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Báo cáo là văn bản hành chính của UBND xã, phải đúng thể thức NĐ 30/2020/NĐ-CP; gửi đúng thời hạn cấp trên quy định; lưu hồ sơ đầy đủ.
 - → Kết quả bước: Báo cáo tình hình THPL của UBND xã đã ký, đã gửi cấp trên.
 

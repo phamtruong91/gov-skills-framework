@@ -25,28 +25,28 @@ hoạt động báo chí, xuất bản theo thẩm quyền; thanh tra, kiểm tr
 **Bước 1. Tiếp nhận và kiểm tra hồ sơ**
 - Làm gì: Kiểm tra điều kiện cấp phép (cơ quan chủ quản, nhân sự, tôn chỉ mục đích, phương án tài chính...); hoặc tiếp nhận phản ánh vi phạm để thanh kiểm tra.
 - Dùng input: `noi_dung`, `co_quan_bao_chi`, `ho_so`.
-- Vai trò: Chuyên viên Cục Báo chí — AI hỗ trợ lập bảng kiểm điều kiện cấp phép theo quy định (1 giờ).
+- Vai trò: Chuyên viên Cục Báo chí — AI hỗ trợ lập bảng kiểm điều kiện cấp phép theo quy định (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Điều kiện về người đứng đầu cơ quan báo chí phải được kiểm tra chặt chẽ.
 - → Kết quả bước: Hồ sơ đạt / yêu cầu bổ sung; hoặc quyết định thanh kiểm tra.
 
 **Bước 2. Thẩm định / thanh kiểm tra**
 - Làm gì: Thẩm định hồ sơ cấp phép; hoặc tổ chức đoàn kiểm tra hoạt động báo chí, xuất bản; lập biên bản.
 - Dùng input: `ho_so`, `can_cu_vi_pham`.
-- Vai trò: Cục Báo chí/Cục Xuất bản, In và Phát hành — AI hỗ trợ soạn biên bản kiểm tra, đối chiếu hành vi với quy định (2 giờ).
+- Vai trò: Cục Báo chí/Cục Xuất bản, In và Phát hành — AI hỗ trợ soạn biên bản kiểm tra, đối chiếu hành vi với quy định (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Kiểm tra đúng nội dung quyết định, không mở rộng tùy tiện; biên bản phải có chữ ký các bên.
 - → Kết quả bước: Kết quả thẩm định / biên bản kiểm tra.
 
 **Bước 3. Cấp phép / xử lý**
 - Làm gì: Soạn giấy phép hoạt động báo chí/xuất bản trình ký; hoặc soạn quyết định xử phạt vi phạm hành chính.
 - Dùng input: Kết quả thẩm định/kiểm tra.
-- Vai trò: Cục trưởng — AI hỗ trợ soạn giấy phép/quyết định xử phạt đúng mẫu, đúng thẩm quyền (1 giờ).
+- Vai trò: Cục trưởng — AI hỗ trợ soạn giấy phép/quyết định xử phạt đúng mẫu, đúng thẩm quyền (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Mức phạt phải đúng khung, đúng thẩm quyền xử phạt; bảo đảm quyền khiếu nại của tổ chức.
 - → Kết quả bước: Giấy phép được cấp / quyết định xử phạt được ban hành.
 
 **Bước 4. Theo dõi, định hướng**
 - Làm gì: Theo dõi hoạt động sau cấp phép; ban hành văn bản định hướng thông tin định kỳ; tổng hợp báo cáo Lãnh đạo Bộ.
 - Dùng input: Báo cáo hoạt động của cơ quan báo chí.
-- Vai trò: Cục Báo chí — AI hỗ trợ tổng hợp báo cáo tình hình báo chí (1 giờ).
+- Vai trò: Cục Báo chí — AI hỗ trợ tổng hợp báo cáo tình hình báo chí (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Định hướng thông tin phải kịp thời, rõ ràng, đúng chủ trương.
 - → Kết quả bước: Văn bản định hướng thông tin; báo cáo định kỳ.
 

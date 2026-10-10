@@ -31,35 +31,35 @@ description: "Tham mưu công tác bảo vệ môi trường cơ sở: khảo s�
 **Bước 1. Khảo sát hiện trạng ô nhiễm, xác định các điểm nóng**
 - Làm gì: Khảo sát thực tế toàn xã: lượng rác thải sinh hoạt phát sinh, tình trạng thu gom, các bãi rác tự phát, kênh mương ứ đọng rác, nước thải nông thôn, cơ sở chăn nuôi xả thải; chụp ảnh, ghi nhận vị trí điểm nóng; lấy ý kiến người dân, trưởng thôn.
 - Dùng input: `hien_trang_moi_truong`, `diem_nong_o_nhiem`, `nguon_thai`.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) chủ trì khảo sát, phối hợp trưởng các thôn; AI hỗ trợ lập phiếu khảo sát, tổng hợp kết quả thành bảng hiện trạng và bản đồ điểm nóng (~3 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) chủ trì khảo sát, phối hợp trưởng các thôn; AI hỗ trợ lập phiếu khảo sát, tổng hợp kết quả thành bảng hiện trạng và bản đồ điểm nóng (⏱ ~3 ngày).
 - Lưu ý nghiệp vụ: Khảo sát thực tế, không ngồi ước đoán; ghi nhận đầy đủ cơ sở chăn nuôi có nguy cơ gây ô nhiễm; ý kiến người dân là căn cứ quan trọng để xác định điểm nóng.
 - → Kết quả bước: Báo cáo khảo sát hiện trạng ô nhiễm + danh mục điểm nóng trên địa bàn xã.
 
 **Bước 2. Phân loại nguồn thải, xác định giải pháp xử lý phù hợp**
 - Làm gì: Phân loại nguồn thải theo nhóm (hộ gia đình, chăn nuôi, sản xuất nhỏ, chợ, trường học) và theo loại (rác sinh hoạt, nước thải, chất thải chăn nuôi, bao bì thuốc bảo vệ thực vật); xác định giải pháp cho từng nhóm: thu gom tập trung, xử lý tại nguồn (hầm biogas, ủ phân), thu gom bao bì thuốc BVTV về điểm tập kết.
 - Dùng input: `nguon_thai`, `hinh_thuc_thu_gom`, báo cáo khảo sát bước 1.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) phân loại, đề xuất giải pháp; AI hỗ trợ lập bảng phân loại nguồn thải – giải pháp và ước tính khối lượng cần xử lý (~1 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) phân loại, đề xuất giải pháp; AI hỗ trợ lập bảng phân loại nguồn thải – giải pháp và ước tính khối lượng cần xử lý (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Bao bì thuốc bảo vệ thực vật là chất thải nguy hại, phải thu gom riêng, không đổ chung với rác sinh hoạt; chất thải chăn nuôi khuyến khích xử lý tại nguồn (biogas, ủ phân hữu cơ).
 - → Kết quả bước: Bảng phân loại nguồn thải và giải pháp xử lý cho từng nhóm.
 
 **Bước 3. Xây dựng kế hoạch BVMT xã và dự toán kinh phí**
 - Làm gì: Soạn Kế hoạch bảo vệ môi trường xã năm áp dụng: mục tiêu (tỷ lệ thu gom rác, xóa điểm nóng), nhiệm vụ theo từng nhóm nguồn thải, hình thức tổ chức thu gom (hợp đồng đơn vị dịch vụ hoặc tổ tự quản), tuyên truyền, kiểm tra; lập dự toán kinh phí chi tiết từng hạng mục.
 - Dùng input: Kết quả các bước 1–2, `kinh_phi`, `don_vi_dich_vu`, `nam_ke_hoach`, `van_ban_chi_dao`.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) soạn kế hoạch, dự toán; AI hỗ trợ soạn thảo theo thể thức NĐ 30/2020/NĐ-CP và lập bảng dự toán kinh phí (~2 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) soạn kế hoạch, dự toán; AI hỗ trợ soạn thảo theo thể thức NĐ 30/2020/NĐ-CP và lập bảng dự toán kinh phí (⏱ ~2 ngày).
 - Lưu ý nghiệp vụ: Dự toán phải phù hợp khả năng ngân sách xã và mức phí vệ sinh thu được; hợp đồng đơn vị dịch vụ phải bảo đảm năng lực thu gom, vận chuyển, xử lý; kế hoạch phải có chỉ tiêu cụ thể, đo đếm được.
 - → Kết quả bước: Dự thảo Kế hoạch BVMT xã năm … kèm dự toán kinh phí.
 
 **Bước 4. Tổ chức thu gom, xử lý; đưa nội dung BVMT vào hương ước, thôn quy ước**
 - Làm gì: Triển khai kế hoạch sau phê duyệt: ký hợp đồng đơn vị dịch vụ thu gom hoặc củng cố tổ tự quản; đặt thùng rác công cộng, điểm tập kết bao bì thuốc BVTV; tổ chức ra quân vệ sinh, xóa điểm nóng; soạn nội dung BVMT bổ sung vào hương ước, thôn quy ước (quy định về đổ rác đúng nơi, xử lý chất thải chăn nuôi, mức phạt vi phạm theo thỏa thuận cộng đồng) trình thôn thông qua.
 - Dùng input: Kế hoạch đã phê duyệt bước 3, `huong_uoc_thon`.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) phối hợp trưởng các thôn, đơn vị dịch vụ tổ chức; AI hỗ trợ soạn mẫu điều khoản BVMT đưa vào hương ước, thôn quy ước và lịch ra quân vệ sinh (~2 ngày).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) phối hợp trưởng các thôn, đơn vị dịch vụ tổ chức; AI hỗ trợ soạn mẫu điều khoản BVMT đưa vào hương ước, thôn quy ước và lịch ra quân vệ sinh (⏱ ~2 ngày).
 - Lưu ý nghiệp vụ: Nội dung đưa vào hương ước, thôn quy ước phải được nhân dân thôn bàn, thống nhất; không đặt ra quy định trái pháp luật; điểm tập kết bao bì thuốc BVTV phải có biển báo, mái che.
 - → Kết quả bước: Hợp đồng dịch vụ/tổ tự quản đi vào hoạt động + nội dung BVMT bổ sung vào hương ước, thôn quy ước.
 
 **Bước 5. Kiểm tra, xử lý vi phạm; sơ kết, đánh giá**
 - Làm gì: Tổ chức kiểm tra định kỳ và đột xuất: việc thu gom của đơn vị dịch vụ/tổ tự quản, tình trạng điểm nóng, cơ sở chăn nuôi gây ô nhiễm; lập biên bản, xử lý vi phạm theo thẩm quyền (phối hợp công an xã); sơ kết 6 tháng, tổng kết năm, đánh giá chỉ tiêu đạt được.
 - Dùng input: Kế hoạch đã phê duyệt, danh mục điểm nóng bước 1.
-- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) chủ trì kiểm tra, phối hợp công an xã; AI hỗ trợ lập lịch kiểm tra, mẫu biên bản kiểm tra và bảng đánh giá chỉ tiêu (~0,5 ngày/lần kiểm tra).
+- Vai trò: Công chức Phòng Kinh tế (ông Nguyễn Văn G) chủ trì kiểm tra, phối hợp công an xã; AI hỗ trợ lập lịch kiểm tra, mẫu biên bản kiểm tra và bảng đánh giá chỉ tiêu (⏱ ~0,5 ngày/lần kiểm tra).
 - Lưu ý nghiệp vụ: Xử lý vi phạm phải đúng thẩm quyền, đúng trình tự; ưu tiên nhắc nhở, vận động trước khi xử phạt đối với hộ gia đình; cơ sở chăn nuôi tái vi phạm phải báo cáo UBND xã xử lý nghiêm.
 - → Kết quả bước: Biên bản kiểm tra, xử lý vi phạm + báo cáo sơ kết, tổng kết công tác BVMT.
 

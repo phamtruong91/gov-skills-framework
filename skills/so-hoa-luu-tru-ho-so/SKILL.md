@@ -5,6 +5,8 @@ description: "Số hóa hồ sơ, tài liệu giấy và tổ chức lưu trữ 
 
 # Skill: Số hóa, lưu trữ hồ sơ
 
+> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
+
 ## Khi nào dùng
 
 - Triển khai số hóa hồ sơ, tài liệu giấy đang lưu tại Văn phòng HĐND&UBND, các phòng, Trung tâm PVHCC.
@@ -17,20 +19,21 @@ description: "Số hóa hồ sơ, tài liệu giấy và tổ chức lưu trữ 
 
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
-| `Danh mục hồ sơ số hóa` | Liệt kê nhóm hồ sơ, loại tài liệu, số lượng ước tính cần số hóa | Có |
-| `Thời gian thực hiện` | Kế hoạch đợt số hóa (bắt đầu, kết thúc) | Có |
-| `Thiết bị, phần mềm` | Máy quét, phần mềm quản lý tài liệu hiện có của xã | Không |
-| `Quy ước đặt tên` | Quy tắc đặt tên file/thư mục (nếu chưa có, AI đề xuất dự thảo) | Không |
-| `Vị trí lưu trữ` | Máy chủ hoặc thư mục dùng chung lưu trữ hồ sơ điện tử | Có |
-| `Phân quyền truy cập` | Danh sách ai được xem/sửa từng nhóm hồ sơ | Có |
-| `Chế độ sao lưu` | Tần suất sao lưu, nơi lưu bản sao dự phòng | Không |
+| `danh_muc_ho_so_so_hoa` | Liệt kê nhóm hồ sơ, loại tài liệu, số lượng ước tính cần số hóa | Có |
+| `thoi_gian_thuc_hien` | Kế hoạch đợt số hóa (bắt đầu, kết thúc) | Có |
+| `thiet_bi_phan_mem` | Máy quét, phần mềm quản lý tài liệu hiện có của xã | Không |
+| `quy_uoc_dat_ten` | Quy tắc đặt tên file/thư mục (nếu chưa có, AI đề xuất dự thảo) | Không |
+| `vi_tri_luu_tru` | Máy chủ hoặc thư mục dùng chung lưu trữ hồ sơ điện tử | Có |
+| `phan_quyen_truy_cap` | Danh sách ai được xem/sửa từng nhóm hồ sơ | Có |
+| `che_do_sao_luu` | Tần suất sao lưu, nơi lưu bản sao dự phòng | Không |
+| `yeu_cau_tra_cuu` | Yêu cầu tra cứu, khai thác hồ sơ của cá nhân/tổ chức (dùng ở Bước 6) | Không |
 
 ## Quy trình
 
 **Bước 1. Phân loại và chuẩn bị tài liệu trước quét**
 
 - Làm gì: Thu gom hồ sơ theo danh mục; phân loại theo nhóm (văn bản đi/đến, hồ sơ TTHC, hồ sơ địa chính, hồ sơ cán bộ...); gỡ ghim kẹp, làm phẳng tài liệu, đánh số trang, loại bỏ bản trùng lặp, lập danh mục kiểm đếm.
-- Dùng input: `Danh mục hồ sơ số hóa`.
+- Dùng input: `danh_muc_ho_so_so_hoa`, `thoi_gian_thuc_hien`.
 - Vai trò: Công chức văn thư – lưu trữ thực hiện (AI hỗ trợ lập danh mục kiểm đếm, gợi ý nhóm phân loại theo loại tài liệu). ⏱ ~theo khối lượng hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Tài liệu rách, mờ phải được ghi chú/phục hồi trước khi quét; giữ nguyên thứ tự sắp xếp của hồ sơ gốc; không làm mất, làm lẫn tài liệu trong quá trình chuẩn bị.
 - → Kết quả bước: Hồ sơ đã phân loại, đánh số trang, kèm danh mục kiểm đếm.
@@ -38,7 +41,7 @@ description: "Số hóa hồ sơ, tài liệu giấy và tổ chức lưu trữ 
 **Bước 2. Quét số hóa theo tiêu chuẩn kỹ thuật**
 
 - Làm gì: Quét từng tập hồ sơ với độ phân giải tối thiểu 300 dpi, định dạng PDF; tài liệu màu có giá trị (bản đồ, ảnh) quét màu; kiểm tra ngay số trang của file quét khớp với số trang bản giấy.
-- Dùng input: Danh mục kiểm đếm (bước 1), `Thiết bị, phần mềm`.
+- Dùng input: Danh mục kiểm đếm (bước 1), `thiet_bi_phan_mem`.
 - Vai trò: Công chức văn thư vận hành máy quét (AI hỗ trợ kiểm tra đếm trang tự động, cảnh báo file thiếu trang hoặc chất lượng mờ) ⏱ ~theo khối lượng hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Không nén file làm giảm chất lượng đến mức không đọc được nội dung; tài liệu khổ lớn, bản đồ dùng thiết bị quét phù hợp; quét xong đối chiếu ngay, không để dồn cuối đợt.
 - → Kết quả bước: File quét đầy đủ số trang, nội dung đọc rõ.
@@ -46,23 +49,23 @@ description: "Số hóa hồ sơ, tài liệu giấy và tổ chức lưu trữ 
 **Bước 3. Đặt tên file và nhập thông tin mô tả**
 
 - Làm gì: Đặt tên file theo quy ước thống nhất toàn xã (VD: [Mã loại]-[Số hiệu văn bản]-[Ngày]-[Trích yếu rút gọn]); nhập thông tin mô tả tối thiểu cho mỗi hồ sơ: số hiệu, ngày văn bản, tên loại, trích yếu, đơn vị ban hành/lưu giữ.
-- Dùng input: `Quy ước đặt tên`, file quét (bước 2).
-- Vai trò: Công chức văn thư đặt tên và nhập liệu (AI hỗ trợ đề xuất tên file từ nội dung trích yếu, kiểm tra tên trùng lặp trong kho lưu trữ). Thời gian ước tính: 5 phút/hồ sơ.
-- Lưu ý nghiệp vụ: `Quy ước đặt tên` (có dấu hay không dấu, ký tự phân cách) phải thống nhất toàn xã và được phê duyệt; tuyệt đối không đặt tên chung chung kiểu "scan001.pdf".
+- Dùng input: `quy_uoc_dat_ten`, file quét (bước 2).
+- Vai trò: Công chức văn thư đặt tên và nhập liệu (AI hỗ trợ đề xuất tên file từ nội dung trích yếu, kiểm tra tên trùng lặp trong kho lưu trữ). ⏱ 5 phút (ước tính)/hồ sơ.
+- Lưu ý nghiệp vụ: `quy_uoc_dat_ten` (có dấu hay không dấu, ký tự phân cách) phải thống nhất toàn xã và được phê duyệt; tuyệt đối không đặt tên chung chung kiểu "scan001.pdf".
 - → Kết quả bước: File đã đặt tên đúng quy ước, có đầy đủ thông tin mô tả.
 
 **Bước 4. Kiểm tra chất lượng và nghiệm thu đợt quét**
 
 - Làm gì: Kiểm tra mẫu tối thiểu 10% số hồ sơ đã số hóa theo các tiêu chí: đủ trang, rõ nét, đúng tên file, đúng thư mục; lập biên bản nghiệm thu chất lượng đợt số hóa.
 - Dùng input: File đã đặt tên (bước 3), danh mục kiểm đếm (bước 1).
-- Vai trò: Công chức văn thư tự kiểm tra (AI hỗ trợ đối chiếu số lượng file với danh mục kiểm đếm, phát hiện tên file sai quy ước); Chánh Văn phòng nghiệm thu, ký biên bản. Thời gian ước tính: 0,5 ngày làm việc/đợt.
+- Vai trò: Công chức văn thư tự kiểm tra (AI hỗ trợ đối chiếu số lượng file với danh mục kiểm đếm, phát hiện tên file sai quy ước); Chánh Văn phòng nghiệm thu, ký biên bản. ⏱ 0,5 ngày (ước tính) làm việc/đợt.
 - Lưu ý nghiệp vụ: Lô hồ sơ không đạt chất lượng phải quét lại, không "châm chước" đưa vào lưu trữ chính thức; biên bản nghiệm thu được lưu cùng hồ sơ đợt số hóa.
 - → Kết quả bước: Biên bản nghiệm thu chất lượng số hóa của đợt.
 
 **Bước 5. Lưu trữ chính thức, phân quyền và sao lưu**
 
 - Làm gì: Chuyển file đạt nghiệm thu vào kho lưu trữ chính thức theo cây thư mục đã quy định; thiết lập phân quyền xem/sửa theo từng nhóm hồ sơ; thực hiện sao lưu định kỳ ra thiết bị lưu trữ độc lập; ghi nhật ký sao lưu.
-- Dùng input: `Vị trí lưu trữ`, `Phân quyền truy cập`, `Chế độ sao lưu`.
+- Dùng input: `vi_tri_luu_tru`, `phan_quyen_truy_cap`, `che_do_sao_luu`.
 - Vai trò: Công chức văn thư (phối hợp công chức phụ trách công nghệ thông tin nếu có) thực hiện (AI hỗ trợ kiểm tra phân quyền đúng danh sách được duyệt, nhắc lịch sao lưu định kỳ). ⏱ ~định kỳ theo chế độ sao lưu (ước tính).
 - Lưu ý nghiệp vụ: Hồ sơ mật thực hiện theo quy định về bảo vệ bí mật nhà nước; duy trì ít nhất 02 bản sao lưu ở vị trí vật lý khác nhau; kiểm tra khả năng phục hồi từ bản sao lưu định kỳ.
 - → Kết quả bước: Kho lưu trữ hồ sơ điện tử có phân quyền đúng quy định và có sao lưu dự phòng.
@@ -88,7 +91,7 @@ flowchart TD
     B5 --> B6["Bước 6: Tra cứu, khai thác và cung cấp bản sao"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Quy ước đặt tên file và tổ chức cây thư mục lưu trữ (được phê duyệt).
 - Danh mục hồ sơ đã số hóa.
@@ -114,7 +117,7 @@ flowchart TD
 > 1. Chuẩn riêng của ngành/cơ quan chủ quản — mẫu, biểu mẫu, quy chuẩn tại văn bản quy phạm chuyên ngành (xem mục "Căn cứ & lưu ý").
 > 2. Tài liệu không có quy chuẩn riêng — thể thức NĐ 30/2020/NĐ-CP: Quốc hiệu và Tiêu ngữ; tên cơ quan ban hành; số, ký hiệu; địa danh và thời gian; tên loại và trích yếu; nội dung; chức vụ, họ tên, chữ ký người có thẩm quyền; dấu, chữ ký số; nơi nhận (kèm Phụ lục nếu có).
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. 100% hồ sơ trong danh mục đợt số hóa đã được quét, không sót tập nào.
 2. File quét đủ số trang so với bản giấy, nội dung đọc rõ (độ phân giải đạt chuẩn).
@@ -126,7 +129,7 @@ flowchart TD
 8. Có ít nhất 02 bản sao lưu ở vị trí khác nhau; nhật ký sao lưu được ghi đầy đủ.
 9. Mọi lượt cung cấp bản sao đều có phê duyệt và được ghi nhật ký.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
@@ -165,19 +168,19 @@ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 TRƯỞNG ĐOÀN · THÀNH VIÊN
 (Ký, ghi rõ họ tên) · (Ký, ghi rõ họ tên)
 
-## Human gate
+## 8. Human gate
 
 - Công chức văn thư – lưu trữ thực hiện quét, đặt tên, nhập liệu → Chánh Văn phòng HĐND&UBND nghiệm thu chất lượng, phê duyệt quy ước đặt tên và danh sách phân quyền.
 - Kế hoạch số hóa đợt lớn, quy chế khai thác kho lưu trữ (nếu ban hành) do Chủ tịch UBND xã phê duyệt.
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI không tự quyết định tiêu hủy bản giấy sau khi số hóa; việc xử lý bản giấy thực hiện theo quy định lưu trữ.
 - AI không chỉnh sửa, thay đổi nội dung file quét; không tự ý đổi tên file trái quy ước đã phê duyệt.
 - AI không cấp quyền truy cập hồ sơ mật, hồ sơ hạn chế tiếp cận; không cung cấp bản sao khi chưa được phê duyệt.
 - AI không bịa đặt tiêu chuẩn kỹ thuật số hóa; chỉ áp dụng tiêu chuẩn đã được phê duyệt.
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - TT 06/2026/TT-BNV: khung nhiệm vụ ngành Nội vụ ở cấp xã, trong đó có công tác văn thư – lưu trữ (quản lý tài liệu lưu trữ, Kho lưu trữ số, cơ sở dữ liệu tài liệu lưu trữ).
 - NĐ 30/2020/NĐ-CP: công tác văn thư; thể thức và kỹ thuật trình bày văn bản hành chính.

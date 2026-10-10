@@ -26,35 +26,35 @@ description: "Hỗ trợ đăng ký, bảo hộ quyền sở hữu trí tuệ ch
 
 **Bước 1. Tuyên truyền, tiếp nhận nhu cầu đăng ký bảo hộ**
 - Làm gì: Tuyên truyền chính sách hỗ trợ đăng ký SHTT đến doanh nghiệp, hợp tác xã; tiếp nhận nhu cầu đăng ký bảo hộ sáng chế, nhãn hiệu, kiểu dáng công nghiệp, chỉ dẫn địa lý.
-- Dùng input: `doi_tuong_ho_tro`, `loai_doi_tuong_shtt`, `nam_ke_hoach`
+- Dùng input: `doi_tuong_ho_tro`, `loai_doi_tuong_shtt`, `nam_ke_hoach`.
 - Vai trò: Chuyên viên Phòng Quản lý công nghệ (hoặc bộ phận SHTT) tuyên truyền, tiếp nhận; AI hỗ trợ soạn tài liệu tuyên truyền, lập danh sách nhu cầu ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Phân loại đúng đối tượng SHTT ngay từ đầu (nhãn hiệu khác sáng chế về điều kiện bảo hộ); ưu tiên sản phẩm chủ lực, đặc sản của tỉnh.
 - → Kết quả bước: Danh sách nhu cầu đăng ký bảo hộ SHTT của tỉnh trong năm.
 
 **Bước 2. Tư vấn, hỗ trợ hoàn thiện hồ sơ đăng ký**
 - Làm gì: Tư vấn tra cứu khả năng bảo hộ; hướng dẫn, hỗ trợ hoàn thiện tờ khai, bản mô tả, mẫu nhãn hiệu; nộp hồ sơ đến cơ quan có thẩm quyền.
-- Dùng input: `ho_so_dang_ky_bao_ho`, `loai_doi_tuong_shtt`
+- Dùng input: `ho_so_dang_ky_bao_ho`, `loai_doi_tuong_shtt`.
 - Vai trò: Chuyên viên tư vấn, rà soát hồ sơ; AI hỗ trợ kiểm tra tính đầy đủ của hồ sơ theo danh mục thành phần, soạn văn bản hướng dẫn bổ sung ⏱ ~3 ngày làm việc/hồ sơ (ước tính)
 - Lưu ý nghiệp vụ: Hồ sơ phải đầy đủ thành phần theo quy định; tra cứu sơ bộ để tránh nộp đơn trùng/không có khả năng bảo hộ gây lãng phí chi phí.
 - → Kết quả bước: Hồ sơ đăng ký bảo hộ hoàn chỉnh, đã nộp cơ quan có thẩm quyền.
 
 **Bước 3. Xét hỗ trợ chi phí đăng ký bảo hộ**
 - Làm gì: Tiếp nhận đề nghị hỗ trợ chi phí; xét theo tiêu chí chính sách của tỉnh; lập danh sách đối tượng được hỗ trợ.
-- Dùng input: `ho_so_dang_ky_bao_ho`, `kinh_phi_ho_tro`, `nguoi_ky`
+- Dùng input: `ho_so_dang_ky_bao_ho`, `kinh_phi_ho_tro`, `nguoi_ky`.
 - Vai trò: Chuyên viên thẩm định hồ sơ đề nghị; Trưởng phòng kiểm tra; Giám đốc Sở ký Quyết định hỗ trợ; AI hỗ trợ đối chiếu tiêu chí, lập bảng tổng hợp ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Chỉ hỗ trợ đối tượng đủ điều kiện theo chính sách của tỉnh; mức hỗ trợ đúng quy định; một đối tượng không nhận trùng hỗ trợ cho cùng một đơn đăng ký.
 - → Kết quả bước: Quyết định phê duyệt danh sách đối tượng được hỗ trợ chi phí đăng ký SHTT.
 
 **Bước 4. Theo dõi kết quả cấp văn bằng bảo hộ**
 - Làm gì: Theo dõi tiến trình thẩm định đơn tại cơ quan có thẩm quyền; đôn đốc bổ sung hồ sơ khi có thông báo; cập nhật kết quả cấp văn bằng.
-- Dùng input: Danh sách đơn đã nộp, thông báo của cơ quan thẩm định
+- Dùng input: Danh sách đơn đã nộp, thông báo của cơ quan thẩm định.
 - Vai trò: Chuyên viên theo dõi, đôn đốc; AI hỗ trợ lập bảng theo dõi trạng thái từng đơn, nhắc lịch bổ sung ⏱ thường xuyên trong năm (ước tính)
 - Lưu ý nghiệp vụ: Thời gian thẩm định đơn có thể kéo dài; phải theo dõi sát để kịp thời bổ sung, tránh đơn bị từ chối vì quá hạn.
 - → Kết quả bước: Bảng theo dõi trạng thái đơn đăng ký + danh sách văn bằng bảo hộ đã được cấp.
 
 **Bước 5. Xây dựng thương hiệu địa phương, tổng hợp báo cáo**
 - Làm gì: Hỗ trợ xây dựng chỉ dẫn địa lý, nhãn hiệu tập thể/chứng nhận cho sản phẩm đặc sản của tỉnh; quảng bá tài sản trí tuệ; báo cáo tổng kết năm.
-- Dùng input: Kết quả cấp văn bằng ở Bước 4, danh sách sản phẩm đặc sản của tỉnh
+- Dùng input: Kết quả cấp văn bằng ở Bước 4, danh sách sản phẩm đặc sản của tỉnh.
 - Vai trò: Phó Giám đốc Sở chỉ đạo; chuyên viên triển khai; AI hỗ trợ soạn báo cáo tổng kết, thống kê số lượng đơn/văn bằng ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Chỉ dẫn địa lý, nhãn hiệu tập thể phải gắn với chất lượng, nguồn gốc thật của sản phẩm địa phương; quản lý việc sử dụng sau khi được bảo hộ.
 - → Kết quả bước: Báo cáo tổng kết công tác SHTT năm của tỉnh.

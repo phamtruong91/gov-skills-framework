@@ -26,35 +26,35 @@ description: "Chứng thực bản sao từ bản chính và chứng thực ch�
 
 **Bước 1. Tiếp nhận và kiểm tra sơ bộ**
 - Làm gì: Tiếp nhận bản chính, bản sao và giấy tờ của người yêu cầu; kiểm tra loại giấy tờ có thuộc diện được chứng thực theo quy định không; cấp Giấy tiếp nhận và hẹn trả kết quả trong ngày.
-- Dùng input: `ban_chinh`, `ban_sao`, `giay_to_nguoi_yeu_cau`, `loai_chung_thuc`, `so_luong_ban`
+- Dùng input: `ban_chinh`, `ban_sao`, `giay_to_nguoi_yeu_cau`, `loai_chung_thuc`, `so_luong_ban`.
 - Vai trò: Công chức Tư pháp – Hộ tịch tiếp nhận. AI hỗ trợ kiểm tra danh mục giấy tờ không được chứng thực theo quy định và soạn Giấy tiếp nhận, Giấy hẹn ⏱ ~10 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Từ chối ngay các loại giấy tờ không được chứng thực (bản chính do cơ quan có thẩm quyền cấp có ghi "không được chứng thực", giấy tờ bị tẩy xóa...). Giải thích rõ lý do từ chối cho người dân.
 - → Kết quả bước: Giấy tiếp nhận + Giấy hẹn trả kết quả trong ngày; hồ sơ đủ điều kiện chuyển sang đối chiếu.
 
 **Bước 2. Đối chiếu bản sao với bản chính**
 - Làm gì: Đối chiếu từng trang, từng nội dung của bản sao với bản chính; kiểm tra dấu hiệu tẩy xóa, sửa chữa, thêm bớt nội dung trên bản chính và bản sao; kiểm tra tính toàn vẹn, liên tục của các trang.
-- Dùng input: `ban_chinh`, `ban_sao`
+- Dùng input: `ban_chinh`, `ban_sao`.
 - Vai trò: Công chức Tư pháp – Hộ tịch trực tiếp đối chiếu. AI hỗ trợ lập biên bản đối chiếu (ghi số trang, dấu hiệu bất thường nếu có) để lưu hồ sơ ⏱ ~15 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Tuyệt đối không chứng thực bản sao từ bản chính bị tẩy xóa, sửa chữa, hoặc bản sao không khớp nội dung bản chính. Đối với chứng thực chữ ký: người ký phải ký trước mặt công chức chứng thực, kiểm tra giấy tờ tùy thân và năng lực hành vi của người ký.
 - → Kết quả bước: Kết luận bản sao khớp/không khớp với bản chính; biên bản đối chiếu đã lập.
 
 **Bước 3. Thực hiện chứng thực (ghi lời chứng, ký, đóng dấu)**
 - Làm gì: Ghi lời chứng chứng thực theo mẫu quy định vào từng bản sao (hoặc văn bản chứng thực chữ ký); người có thẩm quyền ký; đóng dấu của UBND xã giáp lai (nếu nhiều trang) và dấu chứng thực.
-- Dùng input: `ban_sao` đã đối chiếu đạt, `van_ban_ky` (nếu chứng thực chữ ký)
+- Dùng input: `ban_sao` đã đối chiếu đạt, `van_ban_ky` (nếu chứng thực chữ ký).
 - Vai trò: Người có thẩm quyền chứng thực của UBND xã (Chủ tịch, Phó Chủ tịch được phân công hoặc công chức được ủy quyền) ký lời chứng. AI hỗ trợ soạn lời chứng đúng mẫu, kiểm tra đầy đủ yếu tố (số, ngày, họ tên người ký chứng thực) ⏱ ~15 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Lời chứng phải ghi rõ "chứng thực bản sao đúng với bản chính" hoặc nội dung chứng thực chữ ký theo mẫu; đóng dấu giáp lai các trang để chống thay trang. Không ký khống, không đóng dấu trước khi đối chiếu xong.
 - → Kết quả bước: Các bản sao đã có lời chứng, chữ ký người có thẩm quyền và dấu UBND xã.
 
 **Bước 4. Vào sổ chứng thực, thu phí**
 - Làm gì: Ghi đầy đủ vào Sổ chứng thực theo số thứ tự; tính phí chứng thực theo số lượng bản/trang; thu phí, cấp biên lai.
-- Dùng input: `so_luong_ban`, thông tin người yêu cầu, số chứng thực đã cấp
+- Dùng input: `so_luong_ban`, thông tin người yêu cầu, số chứng thực đã cấp.
 - Vai trò: Công chức Tư pháp – Hộ tịch vào sổ và thu phí. AI hỗ trợ tính phí tự động theo biểu phí, lập biên lai và cập nhật Sổ chứng thực ⏱ ~10 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Mỗi việc chứng thực phải có số thứ tự riêng trong Sổ chứng thực, ghi đúng ngày thực hiện. Phí thu đúng mức quy định của HĐND tỉnh; cấp biên lai cho từng lượt thu.
 - → Kết quả bước: Sổ chứng thực đã ghi; phí đã thu đúng, có biên lai.
 
 **Bước 5. Trả kết quả trong ngày**
 - Làm gì: Trả bản sao đã chứng thực (kèm bản chính) cho người yêu cầu theo Giấy hẹn; hướng dẫn kiểm tra lại dấu, chữ ký trước khi nhận.
-- Dùng input: bản sao đã chứng thực, `ban_chinh`, Giấy hẹn trả kết quả
+- Dùng input: bản sao đã chứng thực, `ban_chinh`, Giấy hẹn trả kết quả.
 - Vai trò: Công chức Tư pháp – Hộ tịch trả kết quả. AI hỗ trợ cập nhật Sổ theo dõi trả kết quả ⏱ ~5 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Trả đúng người yêu cầu hoặc người được ủy quyền; trả cả bản chính cho người dân (không giữ bản chính). Thời hạn trả kết quả trong ngày làm việc tiếp nhận hồ sơ.
 - → Kết quả bước: Người dân đã nhận đầy đủ bản sao chứng thực và bản chính; Sổ theo dõi đã cập nhật.

@@ -27,36 +27,36 @@ description: "Lập danh sách, phân loại cơ sở thuộc diện quản lý 
 
 **Bước 1. Lập danh sách, phân loại cơ sở thuộc diện quản lý ATTP**
 - Làm gì: Rà soát toàn xã, lập danh sách đầy đủ các cơ sở: thức ăn đường phố; bếp ăn tập thể nhỏ; cơ sở kinh doanh thực phẩm nhỏ lẻ; phân loại theo mức độ rủi ro (cao/trung bình/thấp) để xác định tần suất kiểm tra.
-- Dùng input: `danh_sach_co_so`, thon_xom (qua danh sách cơ sở).
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực y tế/ATTP phối hợp trưởng thôn rà soát; AI hỗ trợ lập bảng danh sách, phân loại rủi ro theo loại hình (~1 ngày).
+- Dùng input: `danh_sach_co_so` (đã phân theo thôn/xóm).
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực y tế/ATTP phối hợp trưởng thôn rà soát; AI hỗ trợ lập bảng danh sách, phân loại rủi ro theo loại hình (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Không bỏ sót cơ sở kinh doanh không cố định (hàng rong); cập nhật khi có cơ sở mới mở/ngừng hoạt động; phân loại rủi ro dựa trên loại hình và lịch sử vi phạm.
 - → Kết quả bước: Danh sách cơ sở ATTP trên địa bàn đã phân loại rủi ro.
 
 **Bước 2. Xây dựng kế hoạch kiểm tra ATTP**
 - Làm gì: Lập kế hoạch kiểm tra: mục tiêu đợt kiểm tra; danh sách cơ sở được kiểm tra (ưu tiên rủi ro cao, cơ sở vi phạm kỳ trước chưa khắc phục); thời gian; thành phần đoàn kiểm tra; nội dung kiểm tra theo tiêu chí; kinh phí.
 - Dùng input: Danh sách bước 1, `tieu_chi_kiem_tra`, `dot_kiem_tra`, `doan_kiem_tra`, `vi_pham_ky_truoc`, `van_ban_chi_dao`.
-- Vai trò: Công chức văn hóa – xã hội soạn kế hoạch; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Phó Chủ tịch UBND xã (bà Trần Thị B) phê duyệt; AI hỗ trợ soạn thảo theo thể thức NĐ 30/2020/NĐ-CP (~1 ngày).
+- Vai trò: Công chức văn hóa – xã hội soạn kế hoạch; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Phó Chủ tịch UBND xã (bà Trần Thị B) phê duyệt; AI hỗ trợ soạn thảo theo thể thức NĐ 30/2020/NĐ-CP (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Kiểm tra định kỳ kết hợp đột xuất; nội dung kiểm tra đúng tiêu chí theo loại hình; đoàn kiểm tra có đại diện Trạm Y tế xã về chuyên môn.
 - → Kết quả bước: Dự thảo Kế hoạch kiểm tra ATTP (đợt …).
 
 **Bước 3. Tuyên truyền, hướng dẫn kiến thức ATTP**
 - Làm gì: Tổ chức tuyên truyền cho chủ cơ sở: điều kiện ATTP theo loại hình; thực hành tốt (vệ sinh cá nhân, bảo quản thực phẩm, nguồn nước sạch); hướng dẫn khắc phục các lỗi thường gặp; phát tờ rơi.
 - Dùng input: `tieu_chi_kiem_tra`, danh sách bước 1.
-- Vai trò: Công chức văn hóa – xã hội biên tập nội dung; Trạm Y tế xã hỗ trợ chuyên môn; AI hỗ trợ soạn tờ rơi, bài tuyên truyền ngắn gọn (~0,5 ngày, triển khai trước/sau kiểm tra).
+- Vai trò: Công chức văn hóa – xã hội biên tập nội dung; Trạm Y tế xã hỗ trợ chuyên môn; AI hỗ trợ soạn tờ rơi, bài tuyên truyền ngắn gọn (⏱ ~0,5 ngày, triển khai trước/sau kiểm tra).
 - Lưu ý nghiệp vụ: Tuyên truyền trước kiểm tra để cơ sở chủ động khắc phục; nội dung đơn giản, có hình minh họa; lưu danh sách cơ sở đã được tập huấn.
 - → Kết quả bước: Tài liệu tuyên truyền + danh sách cơ sở đã được hướng dẫn.
 
 **Bước 4. Tổ chức kiểm tra và lập biên bản kiểm tra ATTP**
 - Làm gì: Đoàn kiểm tra đến từng cơ sở theo kế hoạch: kiểm tra thực tế theo tiêu chí; ghi nhận đạt/không đạt từng nội dung; lập biên bản kiểm tra có chữ ký của đoàn và chủ cơ sở; ghi rõ vi phạm (nếu có) và thời hạn khắc phục.
 - Dùng input: Kế hoạch bước 2, `tieu_chi_kiem_tra`, `doan_kiem_tra`.
-- Vai trò: Đoàn kiểm tra (do Phó Chủ tịch UBND xã hoặc Trưởng phòng VH-XH làm Trưởng đoàn, có cán bộ Trạm Y tế) thực hiện; công chức văn hóa – xã hội ghi biên bản; AI hỗ trợ soạn mẫu biên bản kiểm tra ATTP chuẩn (~0,5 ngày chuẩn bị mẫu).
+- Vai trò: Đoàn kiểm tra (do Phó Chủ tịch UBND xã hoặc Trưởng phòng VH-XH làm Trưởng đoàn, có cán bộ Trạm Y tế) thực hiện; công chức văn hóa – xã hội ghi biên bản; AI hỗ trợ soạn mẫu biên bản kiểm tra ATTP chuẩn (⏱ ~0,5 ngày chuẩn bị mẫu).
 - Lưu ý nghiệp vụ: Kiểm tra khách quan, đúng nội dung đã công bố; biên bản phải có chữ ký hai bên; vi phạm vượt thẩm quyền xã thì báo cáo cấp trên xử lý; không phạt tùy tiện ngoài quy định.
 - → Kết quả bước: Biên bản kiểm tra ATTP từng cơ sở + bảng tổng hợp kết quả đợt kiểm tra.
 
 **Bước 5. Xử lý vi phạm theo thẩm quyền và báo cáo kết quả**
 - Làm gì: Tổng hợp vi phạm: nhắc nhở, yêu cầu khắc phục trong thời hạn đối với lỗi nhẹ; lập hồ sơ xử lý theo thẩm quyền của Chủ tịch UBND xã đối với vi phạm thuộc thẩm quyền; theo dõi việc khắc phục; soạn báo cáo kết quả đợt kiểm tra.
 - Dùng input: Biên bản bước 4, `vi_pham_ky_truoc`, `dot_kiem_tra`.
-- Vai trò: Công chức văn hóa – xã hội tổng hợp, soạn báo cáo; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra; Chủ tịch UBND xã (ông Nguyễn Văn A) quyết định xử lý thuộc thẩm quyền và ký báo cáo; AI hỗ trợ tổng hợp vi phạm, soạn báo cáo theo thể thức NĐ 30/2020/NĐ-CP (~1 ngày).
+- Vai trò: Công chức văn hóa – xã hội tổng hợp, soạn báo cáo; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra; Chủ tịch UBND xã (ông Nguyễn Văn A) quyết định xử lý thuộc thẩm quyền và ký báo cáo; AI hỗ trợ tổng hợp vi phạm, soạn báo cáo theo thể thức NĐ 30/2020/NĐ-CP (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Xử lý đúng thẩm quyền, đúng trình tự; vi phạm vượt thẩm quyền phải chuyển cấp có thẩm quyền, không tự xử lý; tái kiểm tra cơ sở chưa khắc phục đúng hạn.
 - → Kết quả bước: Báo cáo kết quả kiểm tra ATTP (đợt …) + hồ sơ xử lý vi phạm theo thẩm quyền.
 

@@ -17,7 +17,7 @@ description: "Quản lý hoạt động lữ hành, cơ sở lưu trú và khu, 
 
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
-| `ho_so_lu_hanh` | Hồ sơ đề nghị cấp/đổi/cấp lại giấy phép kinh doanh dịch vụ lữ hành: đơn đề nghị, giấy chứng nhận đăng ký doanh nghiệp, phương án kinh doanh, hồ sơ người phụ trách, chứng minh ký quỹ theo quy định | Có (theo từng hồ sơ phát sinh) |
+| `ho_so_lu_hanh` | Hồ sơ đề nghị cấp/đổi/cấp lại giấy phép kinh doanh dịch vụ lữ hành: đơn đề nghị, giấy chứng nhận đăng ký doanh nghiệp, phương án kinh doanh, hồ sơ người phụ trách, chứng minh ký quỹ theo quy định. Lưu ý: theo từng hồ sơ phát sinh.| Có |
 | `ho_so_luu_tru` | Hồ sơ đề nghị thẩm định, xếp hạng cơ sở lưu trú du lịch: đơn đề nghị, hồ sơ pháp lý, bản tự đánh giá điều kiện cơ sở vật chất, dịch vụ | Không |
 | `ho_so_khu_diem` | Hồ sơ đề nghị công nhận khu du lịch/điểm du lịch cấp tỉnh: tờ trình của UBND xã/chủ đầu tư, hồ sơ tài nguyên du lịch, quy hoạch, phương án quản lý, bảo vệ môi trường | Không |
 | `phan_anh_vi_pham` | Phản ánh của du khách, tổ chức về vi phạm trong hoạt động du lịch | Không |

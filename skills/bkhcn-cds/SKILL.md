@@ -27,8 +27,7 @@ xây dựng chương trình, kế hoạch chuyển đổi số quốc gia; theo 
 - Làm gì: Tổng hợp báo cáo chuyển đổi số của bộ/ngành, địa phương; đánh giá bộ chỉ số
   (DTI và các chỉ số thành phần).
 - Dùng input: `tru_cot`.
-- Vai trò: Cục Chuyển đổi số quốc gia (Bộ KH&CN) chủ trì; AI hỗ trợ tổng hợp số liệu, ⏱ ~3–5 ngày làm việc (ước tính).
-  lập bảng xếp hạng, biểu đồ (3–4 giờ).
+- Vai trò: Cục Chuyển đổi số quốc gia (Bộ KH&CN) chủ trì; AI hỗ trợ tổng hợp số liệu, lập bảng xếp hạng, biểu đồ ⏱ ~3–5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Số liệu từ báo cáo chính thức; phương pháp đánh giá thống nhất, công khai.
 - → Kết quả bước: Báo cáo đánh giá chuyển đổi số quốc gia.
 
@@ -37,7 +36,7 @@ xây dựng chương trình, kế hoạch chuyển đổi số quốc gia; theo 
 - Làm gì: Đề xuất mục tiêu, nhiệm vụ trọng tâm năm/giai đoạn; phân công đầu mối;
   cơ chế chính sách thúc đẩy.
 - Dùng input: `muc_tieu`, báo cáo đánh giá.
-- Vai trò: Chuyên viên cục soạn thảo; AI hỗ trợ dự thảo, đối chiếu mục tiêu các năm (2–3 giờ).
+- Vai trò: Chuyên viên cục soạn thảo; AI hỗ trợ dự thảo, đối chiếu mục tiêu các năm (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Mục tiêu cụ thể, đo lường được; gắn với 3 trụ cột.
 - → Kết quả bước: Dự thảo chương trình/kế hoạch chuyển đổi số.
 
@@ -45,7 +44,7 @@ xây dựng chương trình, kế hoạch chuyển đổi số quốc gia; theo 
 
 - Làm gì: Lấy ý kiến bộ/ngành, địa phương, hiệp hội, doanh nghiệp công nghệ số.
 - Dùng input: Dự thảo.
-- Vai trò: Cục Chuyển đổi số quốc gia tổng hợp; AI hỗ trợ bảng tiếp thu ý kiến (2 giờ).
+- Vai trò: Cục Chuyển đổi số quốc gia tổng hợp; AI hỗ trợ bảng tiếp thu ý kiến (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Lấy ý kiến các địa phương điểm về chính quyền số.
 - → Kết quả bước: Dự thảo hoàn chỉnh.
 
@@ -54,8 +53,7 @@ xây dựng chương trình, kế hoạch chuyển đổi số quốc gia; theo 
 - Làm gì: Trình Thủ tướng (Chủ tịch Ủy ban Quốc gia về chuyển đổi số) phê duyệt; ban hành
   văn bản hướng dẫn; theo dõi, đôn đốc; sơ kết, tổng kết.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Cục trưởng kiểm tra; Thứ trưởng duyệt; AI hỗ trợ checklist, dự thảo văn bản ⏱ ~2–3 ngày làm việc (ước tính).
-  đôn đốc (1–2 giờ).
+- Vai trò: Cục trưởng kiểm tra; Thứ trưởng duyệt; AI hỗ trợ checklist, dự thảo văn bản đôn đốc ⏱ ~2–3 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Công khai kết quả đánh giá; kịp thời tháo gỡ khó khăn của bộ/ngành, địa phương.
 - → Kết quả bước: Văn bản phê duyệt + kế hoạch theo dõi.
 

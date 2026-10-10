@@ -26,8 +26,7 @@ hỗ trợ thực thi quyền; hợp tác quốc tế về SHTT.
 
 - Làm gì: Xây dựng chiến lược SHTT quốc gia; chính sách hỗ trợ đăng ký, khai thác tài sản trí tuệ.
 - Dùng input: `nhiem_vu`, `muc_tieu`.
-- Vai trò: Cục Sở hữu trí tuệ (Bộ KH&CN) chủ trì; AI hỗ trợ dự thảo chính sách, tổng hợp ⏱ ~5–7 ngày làm việc (ước tính).
-  kinh nghiệm quốc tế (2–3 giờ).
+- Vai trò: Cục Sở hữu trí tuệ (Bộ KH&CN) chủ trì; AI hỗ trợ dự thảo chính sách, tổng hợp kinh nghiệm quốc tế ⏱ ~5–7 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Phù hợp cam kết quốc tế (WTO/TRIPS, các FTA thế hệ mới).
 - → Kết quả bước: Dự thảo chiến lược/chính sách SHTT.
 
@@ -36,8 +35,7 @@ hỗ trợ thực thi quyền; hợp tác quốc tế về SHTT.
 - Làm gì: Tiếp nhận, thẩm định đơn đăng ký sáng chế, nhãn hiệu, kiểu dáng công nghiệp,
   chỉ dẫn địa lý; cấp văn bằng bảo hộ.
 - Dùng input: `ho_so`, `doi_tuong_sh`.
-- Vai trò: Thẩm định viên Cục Sở hữu trí tuệ thực hiện; AI hỗ trợ kiểm tra tính đầy đủ hồ sơ, ⏱ ~1–2 ngày làm việc (ước tính).
-  tra cứu trùng lặp sơ bộ (1–2 giờ/đơn).
+- Vai trò: Thẩm định viên Cục Sở hữu trí tuệ thực hiện; AI hỗ trợ kiểm tra tính đầy đủ hồ sơ, tra cứu trùng lặp sơ bộ ⏱ ~1–2 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: AI chỉ hỗ trợ tra cứu, tổng hợp — quyết định cấp/từ chối do thẩm định viên
   và người có thẩm quyền quyết định theo quy định pháp luật SHTT.
 - → Kết quả bước: Quyết định cấp/từ chối văn bằng bảo hộ.
@@ -47,7 +45,7 @@ hỗ trợ thực thi quyền; hợp tác quốc tế về SHTT.
 - Làm gì: Hướng dẫn xử lý xâm phạm quyền SHTT; phối hợp cơ quan thực thi (quản lý thị trường,
   hải quan, công an); tuyên truyền, nâng cao nhận thức.
 - Dùng input: Hồ sơ vụ việc xâm phạm (nếu có).
-- Vai trò: Cục Sở hữu trí tuệ phối hợp; AI hỗ trợ tổng hợp vụ việc, dự thảo văn bản hướng dẫn (2 giờ).
+- Vai trò: Cục Sở hữu trí tuệ phối hợp; AI hỗ trợ tổng hợp vụ việc, dự thảo văn bản hướng dẫn (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Không thay thế cơ quan xử lý vi phạm; chỉ hướng dẫn, phối hợp.
 - → Kết quả bước: Văn bản hướng dẫn, báo cáo phối hợp xử lý.
 
@@ -56,7 +54,7 @@ hỗ trợ thực thi quyền; hợp tác quốc tế về SHTT.
 - Làm gì: Tham gia điều ước quốc tế về SHTT (WIPO); hợp tác song phương; theo dõi chỉ số
   đăng ký, xếp hạng đổi mới sáng tạo.
 - Dùng input: Kết quả các bước trên.
-- Vai trò: Cục Sở hữu trí tuệ chủ trì; AI hỗ trợ tổng hợp báo cáo định kỳ (2 giờ).
+- Vai trò: Cục Sở hữu trí tuệ chủ trì; AI hỗ trợ tổng hợp báo cáo định kỳ (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Điều ước quốc tế về SHTT phải qua trình tự ký kết, phê duyệt theo quy định
   pháp luật về điều ước quốc tế; số liệu chỉ số có nguồn chính thức.
 - → Kết quả bước: Báo cáo SHTT định kỳ; văn bản hợp tác quốc tế.
@@ -71,6 +69,8 @@ flowchart TD
     B2 --> B3["Bước 3: Hỗ trợ thực thi quyền"]
     B3 --> B4["Bước 4: Hợp tác quốc tế, theo dõi thực hiện"]
 ```
+
+*Ghi chú: các bước là luồng công việc độc lập, lựa chọn theo loại việc (`loai_viec`); không nhất thiết thực hiện nối tiếp.*
 
 ## 5. Đầu ra (Output)
 

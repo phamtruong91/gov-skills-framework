@@ -6,6 +6,7 @@ description: "Chủ trì soạn thảo thông tư của Bộ trưởng hướng 
 # Skill: Xây dựng thông tư của Bộ trưởng
 
 ## 2. Khi nào dùng
+- Skill chỉ áp dụng ở cấp trung ương (bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ).
 
 Khi đơn vị thuộc bộ được giao chủ trì soạn thảo thông tư của Bộ trưởng (quy định chi tiết,
 hướng dẫn thi hành văn bản cấp trên hoặc quy định về lĩnh vực thuộc thẩm quyền của Bộ trưởng).

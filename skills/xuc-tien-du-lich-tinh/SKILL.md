@@ -38,7 +38,7 @@ description: "Xúc tiến, quảng bá du lịch của tỉnh trong và ngoài n
 **Bước 2. Xây dựng kế hoạch xúc tiến, quảng bá du lịch năm**
 
 - Làm gì: Dự thảo Kế hoạch xúc tiến, quảng bá du lịch tỉnh năm: mục tiêu, thị trường mục tiêu, thông điệp chủ đạo; danh mục sự kiện (trong nước, quốc tế); kế hoạch famtrip/presstrip; kế hoạch ấn phẩm, nội dung số; phối hợp liên tỉnh; dự toán kinh phí chi tiết từng hoạt động.
-- Dùng input: `danh_muc_su_kien`, `ke_hoach_an_pham`, `doi_tac_lien_tinh`, `du_toan`, kết quả bước 1.
+- Dùng input: `danh_muc_su_kien`, `ke_hoach_an_pham`, `doi_tac_lien_tinh`, `du_toan`, kết quả bước 1, `thoi_han`.
 - Vai trò: Chuyên viên Phòng Quản lý du lịch soạn dự thảo, phối hợp Trung tâm Xúc tiến du lịch tỉnh và Phòng Kế hoạch – Tài chính Sở; Trưởng phòng (bà Hoàng Thị N) kiểm tra; Phó Giám đốc Sở (ông Đỗ Văn U) cho ý kiến. AI hỗ trợ: soạn dự thảo kế hoạch, lập bảng danh mục hoạt động theo quý, lập bảng dự toán chi tiết, lịch triển khai. ⏱ ~7–10 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Hoạt động xúc tiến phải gắn với sản phẩm du lịch thật của tỉnh, tránh quảng bá quá mức; ưu tiên thị trường có khả năng tăng trưởng; kinh phí xã hội hóa phải huy động từ doanh nghiệp một cách minh bạch.
 - → Kết quả bước: Dự thảo Kế hoạch xúc tiến, quảng bá du lịch tỉnh năm + phụ lục (danh mục hoạt động, dự toán).

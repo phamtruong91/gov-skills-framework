@@ -17,10 +17,10 @@ description: "Triển khai công tác bảo đảm trật tự, an toàn giao th
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
 | `so_lieu_tngt` | Số liệu tai nạn giao thông: số vụ, số người chết, bị thương theo tuyến, địa bàn, thời gian | Có |
-| `danh_sach_diem_den` | Danh sách điểm đen, điểm tiềm ẩn TNGT đã rà soát (vị trí, tuyến đường, nguyên nhân) | Có (xử lý điểm đen) |
+| `danh_sach_diem_den` | Danh sách điểm đen, điểm tiềm ẩn TNGT đã rà soát (vị trí, tuyến đường, nguyên nhân). Lưu ý: xử lý điểm đen.| Có |
 | `ke_hoach_nam_truoc` | Kế hoạch ATGT năm trước và kết quả thực hiện | Không |
 | `de_xuat_don_vi` | Đề xuất của UBND xã, đơn vị quản lý đường về xử lý điểm đen, tăng cường ATGT | Không |
-| `ke_hoach_tuyen_truyen` | Kế hoạch tuyên truyền ATGT (đối tượng, hình thức, thời gian) | Có (tuyên truyền) |
+| `ke_hoach_tuyen_truyen` | Kế hoạch tuyên truyền ATGT (đối tượng, hình thức, thời gian). Lưu ý: tuyên truyền.| Có |
 | `bao_cao_luc_luong` | Báo cáo của lực lượng chức năng về tuần tra, xử lý vi phạm | Không |
 
 ## 4. Quy trình

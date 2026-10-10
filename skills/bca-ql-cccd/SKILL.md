@@ -24,28 +24,28 @@ description: "Xây dựng chính sách, hướng dẫn về cấp, đổi, cấp
 **Bước 1. Nghiên cứu, đề xuất chính sách**
 - Làm gì: Rà soát vướng mắc trong cấp căn cước, khai thác dữ liệu dân cư; đề xuất hoàn thiện chính sách, đơn giản hóa thủ tục.
 - Dùng input: `noi_dung_nhiem_vu`, `van_ban_hien_hanh`, `bao_cao_dia_phuong`.
-- Vai trò: Chuyên viên nghiên cứu (AI hỗ trợ tổng hợp vướng mắc, rà soát văn bản — 2 ngày) → Cục trưởng xem xét.
+- Vai trò: Chuyên viên nghiên cứu (AI hỗ trợ tổng hợp vướng mắc, rà soát văn bản ⏱ 2 ngày (ước tính)) → Cục trưởng xem xét.
 - Lưu ý nghiệp vụ: Mọi nội dung ở mức chính sách, thủ tục hành chính; tuyệt đối không truy xuất, không mô phỏng dữ liệu cá nhân cụ thể.
 - → Kết quả bước: Báo cáo đề xuất chính sách.
 
 **Bước 2. Soạn thảo văn bản hướng dẫn**
 - Làm gì: Soạn hướng dẫn: thủ tục cấp/đổi/cấp lại thẻ căn cước; quy trình kết nối, chia sẻ dữ liệu dân cư phục vụ dịch vụ công (theo Đề án 06).
 - Dùng input: `van_ban_hien_hanh`, `noi_dung_nhiem_vu`.
-- Vai trò: Chuyên viên soạn thảo (AI hỗ trợ chuẩn hóa văn bản, lập sơ đồ quy trình — 2 ngày) → Cục trưởng ký ban hành.
+- Vai trò: Chuyên viên soạn thảo (AI hỗ trợ chuẩn hóa văn bản, lập sơ đồ quy trình ⏱ 2 ngày (ước tính)) → Cục trưởng ký ban hành.
 - Lưu ý nghiệp vụ: Quy định rõ trách nhiệm bảo vệ dữ liệu cá nhân; việc khai thác dữ liệu phải đúng mục đích, đúng thẩm quyền.
 - → Kết quả bước: Văn bản hướng dẫn được ban hành.
 
 **Bước 3. Triển khai Đề án 06 (phạm vi hành chính)**
 - Làm gì: Xây dựng kế hoạch triển khai nhiệm vụ Đề án 06 được giao: số hóa hồ sơ, kết nối dịch vụ công, tuyên truyền sử dụng VNeID ở mức hành chính.
 - Dùng input: `tien_do_de_an_06`, `noi_dung_nhiem_vu`.
-- Vai trò: Tổ công tác Đề án 06 của Bộ chủ trì (AI hỗ trợ lập kế hoạch, theo dõi tiến độ, mẫu báo cáo — 2 ngày) → Cục trưởng trình Thứ trưởng.
+- Vai trò: Tổ công tác Đề án 06 của Bộ chủ trì (AI hỗ trợ lập kế hoạch, theo dõi tiến độ, mẫu báo cáo ⏱ 2 ngày (ước tính)) → Cục trưởng trình Thứ trưởng.
 - Lưu ý nghiệp vụ: Chỉ triển khai nội dung hành chính công khai; kỹ thuật, an ninh hệ thống do cơ quan chuyên môn đảm nhiệm, AI không can thiệp.
 - → Kết quả bước: Kế hoạch triển khai và báo cáo tiến độ Đề án 06.
 
 **Bước 4. Kiểm tra, tổng kết**
 - Làm gì: Kiểm tra việc cấp căn cước, thực hiện Đề án 06 tại địa phương; tổng hợp, đánh giá toàn quốc.
 - Dùng input: Báo cáo của địa phương.
-- Vai trò: Đoàn kiểm tra thực hiện (AI hỗ trợ tổng hợp số liệu, dự thảo báo cáo — 2 ngày) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
+- Vai trò: Đoàn kiểm tra thực hiện (AI hỗ trợ tổng hợp số liệu, dự thảo báo cáo ⏱ 2 ngày (ước tính)) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
 - Lưu ý nghiệp vụ: Số liệu ở mức tổng hợp công khai; không đưa dữ liệu cá nhân vào báo cáo.
 - → Kết quả bước: Báo cáo tổng kết.
 

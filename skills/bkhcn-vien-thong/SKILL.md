@@ -27,8 +27,7 @@ Internet; phát triển hạ tầng số quốc gia.
 - Làm gì: Tiếp nhận hồ sơ đề nghị cấp giấy phép kinh doanh dịch vụ viễn thông, giấy phép
   tần số; thẩm định điều kiện (vốn, kỹ thuật, phương án kinh doanh).
 - Dùng input: `doanh_nghiep`, `loai_giay_phep`.
-- Vai trò: Cục Viễn thông (Bộ KH&CN) thẩm định; AI hỗ trợ kiểm tra tính đầy đủ hồ sơ, ⏱ ~1–2 ngày làm việc (ước tính).
-  đối chiếu điều kiện (1–2 giờ).
+- Vai trò: Cục Viễn thông (Bộ KH&CN) thẩm định; AI hỗ trợ kiểm tra tính đầy đủ hồ sơ, đối chiếu điều kiện ⏱ ~1–2 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: AI chỉ hỗ trợ kiểm tra hồ sơ — quyết định cấp/từ chối do người có thẩm quyền
   quyết định theo quy định pháp luật về viễn thông.
 - → Kết quả bước: Kết quả thẩm định hồ sơ.
@@ -37,8 +36,7 @@ Internet; phát triển hạ tầng số quốc gia.
 
 - Làm gì: Cấp mới, sửa đổi, bổ sung, gia hạn, thu hồi giấy phép viễn thông theo quy định.
 - Dùng input: Kết quả thẩm định.
-- Vai trò: Cục trưởng Cục Viễn thông ký (theo phân cấp); AI hỗ trợ dự thảo giấy phép, ⏱ ~2–3 ngày làm việc (ước tính).
-  theo dõi thời hạn (30 phút).
+- Vai trò: Cục trưởng Cục Viễn thông ký (theo phân cấp); AI hỗ trợ dự thảo giấy phép, theo dõi thời hạn ⏱ ~2–3 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Đúng thời hạn giải quyết; công khai danh sách doanh nghiệp được cấp phép.
 - → Kết quả bước: Giấy phép được cấp/gia hạn/thu hồi.
 
@@ -47,7 +45,7 @@ Internet; phát triển hạ tầng số quốc gia.
 - Làm gì: Ban hành quy định chất lượng dịch vụ; kiểm tra, đo kiểm chất lượng; quản lý giá cước
   dịch vụ viễn thông theo quy định.
 - Dùng input: `nhiem_vu`.
-- Vai trò: Cục Viễn thông thực hiện; AI hỗ trợ tổng hợp kết quả đo kiểm, báo cáo (2 giờ).
+- Vai trò: Cục Viễn thông thực hiện; AI hỗ trợ tổng hợp kết quả đo kiểm, báo cáo (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Xử lý vi phạm chất lượng, cạnh tranh không lành mạnh theo thẩm quyền.
 - → Kết quả bước: Báo cáo chất lượng dịch vụ; quyết định xử lý vi phạm (nếu có).
 
@@ -56,8 +54,7 @@ Internet; phát triển hạ tầng số quốc gia.
 - Làm gì: Quản lý tên miền quốc gia, địa chỉ IP; thúc đẩy phát triển hạ tầng số (5G, cáp quang,
   trung tâm dữ liệu); chính sách phát triển.
 - Dùng input: `muc_tieu`.
-- Vai trò: Trung tâm Internet Việt Nam / Cục Viễn thông thực hiện; AI hỗ trợ tổng hợp ⏱ ~3–5 ngày làm việc (ước tính).
-  báo cáo phát triển hạ tầng (2 giờ).
+- Vai trò: Trung tâm Internet Việt Nam / Cục Viễn thông thực hiện; AI hỗ trợ tổng hợp báo cáo phát triển hạ tầng ⏱ ~3–5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Quản lý tên miền quốc gia ".vn" theo quy định; phát triển hạ tầng số
   gắn với an toàn thông tin mạng và chủ quyền số quốc gia.
 - → Kết quả bước: Báo cáo phát triển hạ tầng số; văn bản chính sách.

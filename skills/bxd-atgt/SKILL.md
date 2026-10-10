@@ -27,8 +27,7 @@ tình hình tai nạn giao thông toàn quốc; chỉ đạo, hướng dẫn đ�
 - Làm gì: Thu thập số liệu tai nạn giao thông toàn quốc từ cơ quan chức năng; phân tích
   nguyên nhân, địa bàn, thời điểm, loại phương tiện.
 - Dùng input: `so_lieu_tngt`, `giai_doan`.
-- Vai trò: Văn phòng Ủy ban ATGT Quốc gia (đặt tại Bộ Xây dựng) chủ trì; AI hỗ trợ tổng hợp ⏱ ~3–5 ngày làm việc (ước tính).
-  số liệu, lập biểu đồ, bảng phân tích (2–3 giờ).
+- Vai trò: Văn phòng Ủy ban ATGT Quốc gia (đặt tại Bộ Xây dựng) chủ trì; AI hỗ trợ tổng hợp số liệu, lập biểu đồ, bảng phân tích ⏱ ~3–5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Chỉ dùng số liệu từ nguồn chính thức (Cục CSGT, địa phương); ghi rõ nguồn,
   kỳ báo cáo.
 - → Kết quả bước: Báo cáo phân tích tình hình tai nạn giao thông.
@@ -38,8 +37,7 @@ tình hình tai nạn giao thông toàn quốc; chỉ đạo, hướng dẫn đ�
 - Làm gì: Đề xuất mục tiêu giảm tai nạn; nhóm giải pháp (hạ tầng, phương tiện, người tham gia
   giao thông, quản lý nhà nước, ứng dụng công nghệ).
 - Dùng input: `muc_tieu_giam`, báo cáo phân tích.
-- Vai trò: Chuyên viên xây dựng dự thảo; AI hỗ trợ dự thảo nội dung, đối chiếu giải pháp ⏱ ~3–5 ngày làm việc (ước tính).
-  các giai đoạn trước (2–3 giờ).
+- Vai trò: Chuyên viên xây dựng dự thảo; AI hỗ trợ dự thảo nội dung, đối chiếu giải pháp các giai đoạn trước ⏱ ~3–5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Mục tiêu phải cụ thể, đo lường được; giải pháp có đầu mối, thời hạn.
 - → Kết quả bước: Dự thảo chiến lược/chương trình/kế hoạch ATGT.
 
@@ -47,7 +45,7 @@ tình hình tai nạn giao thông toàn quốc; chỉ đạo, hướng dẫn đ�
 
 - Làm gì: Lấy ý kiến các bộ/ngành thành viên Ủy ban ATGT Quốc gia, địa phương; tiếp thu, giải trình.
 - Dùng input: Dự thảo.
-- Vai trò: Văn phòng Ủy ban ATGT Quốc gia tổng hợp; AI hỗ trợ bảng tiếp thu ý kiến (2 giờ).
+- Vai trò: Văn phòng Ủy ban ATGT Quốc gia tổng hợp; AI hỗ trợ bảng tiếp thu ý kiến (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Phối hợp chặt với Bộ Công an (lực lượng CSGT), Bộ Giáo dục và Đào tạo
   (giáo dục ATGT trong trường học).
 - → Kết quả bước: Dự thảo hoàn chỉnh.
@@ -57,8 +55,7 @@ tình hình tai nạn giao thông toàn quốc; chỉ đạo, hướng dẫn đ�
 - Làm gì: Trình Thủ tướng (Chủ tịch Ủy ban ATGT Quốc gia) phê duyệt; ban hành văn bản chỉ đạo
   các đợt cao điểm; theo dõi, sơ kết, tổng kết.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Bộ trưởng Bộ Xây dựng (Phó Chủ tịch thường trực Ủy ban) ký trình; AI hỗ trợ ⏱ ~1–2 ngày làm việc (ước tính).
-  checklist hồ sơ, dự thảo công điện chỉ đạo (1–2 giờ).
+- Vai trò: Bộ trưởng Bộ Xây dựng (Phó Chủ tịch thường trực Ủy ban) ký trình; AI hỗ trợ checklist hồ sơ, dự thảo công điện chỉ đạo ⏱ ~1–2 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Các đợt cao điểm (Tết, lễ) có công điện chỉ đạo riêng, ban hành kịp thời.
 - → Kết quả bước: Văn bản phê duyệt/chỉ đạo + kế hoạch theo dõi.
 

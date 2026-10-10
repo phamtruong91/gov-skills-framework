@@ -21,7 +21,7 @@ Khi xây dựng chính sách, thủ tục hải quan; khi quản lý hoạt đ�
 **Bước 1. Xây dựng chính sách, thủ tục hải quan**
 - Làm gì: Soạn văn bản QPPL về thủ tục hải quan, kiểm tra, giám sát hải quan; biểu thuế xuất nhập khẩu; chính sách quản lý mặt hàng.
 - Dùng input: `noi_dung`, `mat_hang`.
-- Vai trò: Cục trưởng Cục Hải quan chủ trì — AI hỗ trợ soạn dự thảo, đối chiếu cam kết quốc tế về thuế quan (5–7 ngày).
+- Vai trò: Cục trưởng Cục Hải quan chủ trì — AI hỗ trợ soạn dự thảo, đối chiếu cam kết quốc tế về thuế quan (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Đơn giản hóa thủ tục, rút ngắn thời gian thông quan; tuân thủ cam kết FTA/WTO.
 - → Kết quả bước: Dự thảo văn bản hải quan.
 
@@ -35,7 +35,7 @@ Khi xây dựng chính sách, thủ tục hải quan; khi quản lý hoạt đ�
 **Bước 3. Kiểm tra sau thông quan**
 - Làm gì: Kiểm tra sau thông quan tại trụ sở doanh nghiệp (trị giá, mã số, xuất xứ, chính sách thuế).
 - Dùng input: Danh sách doanh nghiệp rủi ro cao.
-- Vai trò: Lực lượng kiểm tra sau thông quan — AI hỗ trợ lập kế hoạch theo rủi ro, soạn biên bản (3–5 ngày/đợt).
+- Vai trò: Lực lượng kiểm tra sau thông quan — AI hỗ trợ lập kế hoạch theo rủi ro, soạn biên bản (⏱ 3–5 ngày/đợt).
 - Lưu ý nghiệp vụ: Đúng trình tự kiểm tra; bảo đảm quyền của doanh nghiệp.
 - → Kết quả bước: Biên bản kiểm tra; quyết định truy thu/xử phạt (nếu có).
 

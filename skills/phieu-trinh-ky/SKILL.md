@@ -5,6 +5,8 @@ description: "Lập phiếu trình kèm dự thảo văn bản trình lãnh đ�
 
 # Skill: Phiếu trình ký duyệt
 
+> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
+
 ## Khi nào dùng
 
 - Lập phiếu trình kèm dự thảo công văn, tờ trình, quyết định, thông báo trước khi trình lãnh đạo ký.
@@ -67,7 +69,7 @@ description: "Lập phiếu trình kèm dự thảo văn bản trình lãnh đ�
 
 - Làm gì: Người trình (`nguoi_trinh`) trình trực tiếp hoặc qua Văn phòng; lãnh đạo xem xét, cho ý kiến (đồng ý ký / sửa nội dung / không đồng ý); ghi nhận đầy đủ ý kiến chỉ đạo của lãnh đạo vào phiếu trình; chuyển lại đơn vị soạn thảo hoàn thiện (nếu có sửa).
 - Dùng input: `nguoi_trinh`, `lanh_dao_phe_duyet`, `ngay_trinh`.
-- Vai trò: Người trình (Trưởng phòng/công chức) trình bày ngắn gọn (3–5 phút); Chánh Văn phòng HĐND&UBND theo dõi, đôn đốc; Chủ tịch/Phó Chủ tịch UBND xã cho ý kiến, ký duyệt (10–15 phút); AI hỗ trợ: tổng hợp đầy đủ hồ sơ trình ký, nhắc các nội dung chờ ý kiến — tổng ước tính 20 phút (chưa tính thời gian chờ).
+- Vai trò: Người trình (Trưởng phòng/công chức) trình bày ngắn gọn (⏱ 3–5 phút); Chánh Văn phòng HĐND&UBND theo dõi, đôn đốc; Chủ tịch/Phó Chủ tịch UBND xã cho ý kiến, ký duyệt (⏱ 10–15 phút); AI hỗ trợ: tổng hợp đầy đủ hồ sơ trình ký, nhắc các nội dung chờ ý kiến — tổng ước tính 20 phút (chưa tính thời gian chờ).
 - Lưu ý nghiệp vụ: Mọi ý kiến chỉ đạo của lãnh đạo (kể cả chỉ đạo miệng) phải được ghi lại đầy đủ, chính xác vào phiếu trình. Nếu lãnh đạo yêu cầu sửa nội dung, đơn vị soạn thảo phải sửa và trình lại, không tự ý phát hành bản chưa được duyệt.
 - → Kết quả bước: Phiếu trình có ý kiến phê duyệt/ký duyệt của lãnh đạo; văn bản được ký ban hành hoặc trả lại để hoàn thiện.
 
@@ -83,7 +85,7 @@ flowchart TD
     B4 --> B5["Bước 5: Trình lãnh đạo, ghi nhận ý kiến chỉ đạo"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Phiếu trình ký hoàn chỉnh (có chữ ký người trình, ý kiến của Chánh Văn phòng, phê duyệt của lãnh đạo).
 - Bảng tổng hợp ý kiến các phòng liên quan (kèm theo).
@@ -108,7 +110,7 @@ Khung cố định của một phiếu trình, các phần bắt buộc theo đ�
    - Phê duyệt của lãnh đạo: "Đồng ý" / "Sửa ..." / "Không đồng ý, lý do ..." + chữ ký, họ tên, ngày tháng.
 10. Phân phối, lưu trữ: phiếu trình kèm theo hồ sơ văn bản trình ký; Văn phòng lưu 01 bản để theo dõi.
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. Có đủ 9 phần theo đúng thứ tự mục 5; phiếu trình tối đa 1–2 trang, súc tích.
 2. Trình đúng lãnh đạo phụ trách lĩnh vực; nội dung quan trọng đã báo cáo tập thể lãnh đạo (nếu cần).
@@ -121,7 +123,7 @@ Khung cố định của một phiếu trình, các phần bắt buộc theo đ�
 9. Mọi ý kiến chỉ đạo của lãnh đạo (kể cả chỉ đạo miệng) được ghi lại đầy đủ, chính xác.
 10. Không bịa số liệu, căn cứ; phiếu trình và hồ sơ được lưu đầy đủ phục vụ kiểm tra sau này.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
@@ -183,7 +185,7 @@ Phê duyệt của lãnh đạo:
 (Ký, ghi rõ họ tên, ngày tháng)
 Nguyễn Văn A
 
-## Human gate
+## 8. Human gate
 
 - **Công chức soạn thảo (người trình)** → soạn phiếu trình, chịu trách nhiệm về tính trung thực của tóm tắt và ý kiến các phòng.
 - **Trưởng phòng/đơn vị soạn thảo** → kiểm tra, ký nháy xác nhận trước khi trình.
@@ -191,7 +193,7 @@ Nguyễn Văn A
 - **Chủ tịch / Phó Chủ tịch UBND xã** → xem xét, cho ý kiến phê duyệt, ký duyệt văn bản trình.
 - Văn bản chỉ được ban hành sau khi lãnh đạo ký duyệt trên phiếu trình (hoặc ký trực tiếp vào văn bản).
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI KHÔNG ra quyết định hành chính thay người có thẩm quyền; phiếu trình chỉ là công cụ tham mưu.
 - AI KHÔNG tự ký duyệt, tự ghi ý kiến phê duyệt của lãnh đạo vào phiếu trình dưới bất kỳ hình thức nào.
@@ -199,7 +201,7 @@ Nguyễn Văn A
 - AI KHÔNG tóm tắt sai lệch nội dung văn bản trình để "làm đẹp" hồ sơ — tóm tắt phải trung thực.
 - AI KHÔNG thay thế việc trình bày trực tiếp khi nội dung phức tạp, cần giải trình thêm.
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - NĐ 30/2020/NĐ-CP về công tác văn thư: nguyên tắc quản lý, trình, ký, ban hành văn bản hành chính.
 - NĐ 150/2025/NĐ-CP: tổ chức cơ quan chuyên môn thuộc UBND cấp xã (Văn phòng HĐND&UBND là đầu mối văn thư, theo dõi trình ký).

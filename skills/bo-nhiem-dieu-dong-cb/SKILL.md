@@ -23,35 +23,35 @@ description: "Tham mưu bổ nhiệm, điều động, luân chuyển, bổ nhi�
 
 **Bước 1. Rà soát tiêu chuẩn, điều kiện**
 - Làm gì: Rà soát tiêu chuẩn chức danh (trình độ, năng lực, thâm niên, quy hoạch, sức khỏe, kỷ luật); lập danh sách nhân sự đáp ứng.
-- Dùng input: `tieu_chuan_chuc_danh`, `danh_sach_nhan_su`
-- Vai trò: Chuyên viên Phòng Tổ chức cán bộ (Sở Nội vụ tỉnh A) rà soát; AI hỗ trợ đối chiếu tiêu chuẩn ⏱ ~2 ngày làm việc (ước tính)
+- Dùng input: `tieu_chuan_chuc_danh`, `danh_sach_nhan_su`, `vi_tri_can_kien_toan`, `thoi_han`.
+- Vai trò: Chuyên viên Phòng Tổ chức cán bộ (Sở Nội vụ tỉnh A) rà soát; AI hỗ trợ đối chiếu tiêu chuẩn ⏱ ~2 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Nhân sự phải trong quy hoạch (trừ trường hợp đặc biệt); không vi phạm kỷ luật trong thời gian quy định.
 - → Kết quả bước: Danh sách nhân sự đủ tiêu chuẩn, điều kiện.
 
 **Bước 2. Lấy ý kiến tập thể, bỏ phiếu tín nhiệm**
 - Làm gì: Tổ chức hội nghị lấy ý kiến tập thể lãnh đạo, bỏ phiếu tín nhiệm theo quy trình; tổng hợp kết quả.
-- Dùng input: Danh sách Bước 1
+- Dùng input: Danh sách Bước 1.
 - Vai trò: Cấp ủy, tập thể lãnh đạo cơ quan thực hiện; AI hỗ trợ lập biên bản, tổng hợp phiếu ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đúng quy trình, dân chủ, khách quan; tỷ lệ phiếu tín nhiệm phải đạt mức quy định.
 - → Kết quả bước: Biên bản hội nghị, kết quả phiếu tín nhiệm.
 
 **Bước 3. Thẩm định hồ sơ nhân sự**
 - Làm gì: Sở Nội vụ thẩm định hồ sơ: lý lịch, quá trình công tác, kê khai tài sản, nhận xét, đánh giá; báo cáo cấp có thẩm quyền.
-- Dùng input: Hồ sơ nhân sự, kết quả Bước 2
+- Dùng input: Hồ sơ nhân sự, kết quả Bước 2.
 - Vai trò: Chuyên viên thẩm định; Trưởng phòng kiểm tra; AI hỗ trợ checklist hồ sơ ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Hồ sơ phải đầy đủ, trung thực; phát hiện vấn đề phải báo cáo kịp thời, không bao che.
 - → Kết quả bước: Báo cáo thẩm định nhân sự.
 
 **Bước 4. Quyết định bổ nhiệm, điều động**
 - Làm gì: Trình cấp có thẩm quyền quyết định; ban hành quyết định bổ nhiệm/điều động; công bố quyết định.
-- Dùng input: Báo cáo thẩm định Bước 3
+- Dùng input: Báo cáo thẩm định Bước 3.
 - Vai trò: Giám đốc Sở Nội vụ trình; Chủ tịch UBND tỉnh A (hoặc cấp có thẩm quyền) quyết định; AI hỗ trợ soạn quyết định đúng thể thức ⏱ ~2 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đúng thẩm quyền quyết định theo phân cấp; thời hạn bổ nhiệm theo quy định.
 - → Kết quả bước: Quyết định bổ nhiệm/điều động đã ban hành.
 
 **Bước 5. Bàn giao và theo dõi sau bổ nhiệm**
 - Làm gì: Tổ chức bàn giao công việc; cập nhật hồ sơ cán bộ; theo dõi, đánh giá sau bổ nhiệm.
-- Dùng input: Quyết định bổ nhiệm
+- Dùng input: Quyết định bổ nhiệm.
 - Vai trò: Đơn vị có cán bộ được bổ nhiệm tổ chức bàn giao; AI hỗ trợ lập biên bản bàn giao ⏱ ~2 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Bàn giao đầy đủ công việc, hồ sơ, tài sản; không để gián đoạn.
 - → Kết quả bước: Biên bản bàn giao; hồ sơ cán bộ đã cập nhật.
@@ -80,7 +80,7 @@ Khung quyết định bổ nhiệm:
 1. Quốc hiệu "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM", Tiêu ngữ "Độc lập – Tự do – Hạnh phúc"; số, ký hiệu (số .../QĐ-UBND); địa danh, ngày tháng năm.
 2. Tên: "QUYẾT ĐỊNH về việc bổ nhiệm ông/bà ... giữ chức vụ ...".
 3. Căn cứ pháp lý.
-4. Điều 1: Bổ nhiệm ông/bà ... giữ chức vụ ..., thời hạn ... năm.
+4. Điều 1: Bổ nhiệm ông/bà ... giữ chức vụ .., thời hạn ... năm.
 5. Điều 2: Chế độ, chính sách được hưởng.
 6. Điều 3: Trách nhiệm thi hành; hiệu lực.
 7. Chữ ký Chủ tịch UBND tỉnh; đóng dấu.

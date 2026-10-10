@@ -26,7 +26,7 @@ vùng DTTS, điều phối nguồn lực, giám sát kết quả giảm nghèo. 
 
 - Làm gì: Tổng hợp số liệu hộ nghèo DTTS toàn quốc; phân tích nguyên nhân (thiếu đất sản xuất, thiếu việc làm, hạ tầng); xác định địa bàn trọng điểm.
 - Dùng input: `so_lieu_ngheo`, `bao_cao_dia_phuong`.
-- Vai trò: Chuyên viên đơn vị phụ trách phân tích (AI hỗ trợ vẽ bản đồ nghèo theo huyện, so sánh tỷ lệ nghèo DTTS/Kinh — 3 giờ); Vụ trưởng (ông Hoàng Văn EE) duyệt báo cáo.
+- Vai trò: Chuyên viên đơn vị phụ trách phân tích (AI hỗ trợ vẽ bản đồ nghèo theo huyện, so sánh tỷ lệ nghèo DTTS/Kinh ⏱ 3 giờ (ước tính)); Vụ trưởng duyệt báo cáo.
 - Lưu ý nghiệp vụ: Số liệu rà soát theo chuẩn nghèo đa chiều; tách riêng hộ nghèo DTTS để có chính sách đặc thù.
 - → Kết quả bước: Báo cáo thực trạng nghèo vùng DTTS.
 
@@ -34,7 +34,7 @@ vùng DTTS, điều phối nguồn lực, giám sát kết quả giảm nghèo. 
 
 - Làm gì: Đề xuất chính sách hỗ trợ đặc thù (đất sản xuất, chuyển đổi nghề, tín dụng ưu đãi, đào tạo nghề cho lao động DTTS); lấy ý kiến; trình cấp có thẩm quyền.
 - Dùng input: `chinh_sach_dac_thu`, báo cáo thực trạng.
-- Vai trò: Đơn vị phụ trách soạn thảo, phối hợp Bộ Nội vụ (LĐ-TB&XH), Bộ Tài chính (AI hỗ trợ đánh giá tác động ngân sách — 3 giờ); Thứ trưởng (bà Phạm Thị DD) cho ý kiến.
+- Vai trò: Đơn vị phụ trách soạn thảo, phối hợp Bộ Nội vụ (LĐ-TB&XH), Bộ Tài chính (AI hỗ trợ đánh giá tác động ngân sách ⏱ 3 giờ (ước tính)); Thứ trưởng cho ý kiến.
 - Lưu ý nghiệp vụ: Chính sách phải phù hợp phong tục, tập quán từng dân tộc; tránh hỗ trợ dàn trải, ỷ lại.
 - → Kết quả bước: Dự thảo chính sách giảm nghèo vùng DTTS.
 
@@ -42,7 +42,7 @@ vùng DTTS, điều phối nguồn lực, giám sát kết quả giảm nghèo. 
 
 - Làm gì: Ban hành hướng dẫn rà soát hộ nghèo DTTS; điều phối lồng ghép nguồn vốn (Chương trình MTQG, vốn tín dụng chính sách); kiểm tra thực hiện.
 - Dùng input: `ke_hoach_nam`.
-- Vai trò: Đơn vị phụ trách chỉ đạo (AI hỗ trợ tổng hợp tiến độ rà soát, giải ngân theo tỉnh — 2 giờ).
+- Vai trò: Đơn vị phụ trách chỉ đạo (AI hỗ trợ tổng hợp tiến độ rà soát, giải ngân theo tỉnh ⏱ 2 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Rà soát công khai, dân chủ ở thôn, bản; chống chạy chọt, khai man hộ nghèo.
 - → Kết quả bước: Văn bản hướng dẫn + báo cáo điều phối nguồn lực.
 
@@ -50,7 +50,7 @@ vùng DTTS, điều phối nguồn lực, giám sát kết quả giảm nghèo. 
 
 - Làm gì: Theo dõi tỷ lệ giảm nghèo DTTS; đánh giá hiệu quả mô hình sinh kế; báo cáo Chính phủ.
 - Dùng input: `bao_cao_dia_phuong`, số liệu giám sát.
-- Vai trò: Đơn vị phụ trách tổng hợp (AI hỗ trợ đối chiếu chỉ tiêu/kết quả — 2 giờ); Bộ trưởng (ông Lê Văn CC) ký báo cáo.
+- Vai trò: Đơn vị phụ trách tổng hợp (AI hỗ trợ đối chiếu chỉ tiêu/kết quả ⏱ 2 giờ (ước tính)); Bộ trưởng ký báo cáo.
 - Lưu ý nghiệp vụ: Đánh giá dựa trên số liệu rà soát chính thức; phân tích nguyên nhân hộ tái nghèo để điều chỉnh chính sách.
 - → Kết quả bước: Báo cáo kết quả giảm nghèo vùng DTTS.
 

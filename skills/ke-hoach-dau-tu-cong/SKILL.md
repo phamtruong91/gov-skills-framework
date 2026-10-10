@@ -29,7 +29,7 @@ description: "Xây dựng kế hoạch đầu tư công trung hạn và hằng n
 
 **Bước 1. Ban hành hướng dẫn và thu thập đề xuất dự án**
 - Làm gì: Soạn văn bản hướng dẫn các sở, ban, ngành, UBND cấp xã đề xuất danh mục dự án đầu tư công cho kỳ kế hoạch (tiêu chí, biểu mẫu, thời hạn); tiếp nhận, đăng ký đầy đủ hồ sơ đề xuất, lập danh sách theo dõi.
-- Dùng input: `ky_ke_hoach`, `huong_dan_bo_tai_chinh`, `dinh_huong_dau_tu`.
+- Dùng input: `ky_ke_hoach`, `huong_dan_bo_tai_chinh`, `dinh_huong_dau_tu`, `ke_hoach_ky_truoc`.
 - Vai trò: Chuyên viên Phòng Đầu tư (Sở Tài chính) soạn thảo, AI hỗ trợ dựng khung văn bản hướng dẫn và bảng theo dõi tiến độ nộp đề xuất; ⏱ ~2–3 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Tiêu chí đề xuất phải bám sát định hướng đầu tư của tỉnh; yêu cầu hồ sơ dự án kèm quyết định chủ trương đầu tư (đối với dự án phải có) theo quy định.
 - → Kết quả bước: Văn bản hướng dẫn đã ban hành + danh sách đề xuất dự án của các đơn vị.

@@ -26,7 +26,7 @@ Không dùng cho quản lý tín ngưỡng, tôn giáo ở cơ sở (skill `quan
 
 - Làm gì: Kiểm tra điều kiện công nhận (thời gian hoạt động, số lượng tín đồ, cơ cấu tổ chức, tôn chỉ); thẩm định thực tế; lấy ý kiến địa phương.
 - Dùng input: `ho_so_cong_nhan`.
-- Vai trò: Chuyên viên Ban Tôn giáo Chính phủ thẩm định (AI hỗ trợ đối chiếu điều kiện pháp lý theo checklist — 3 giờ); Trưởng ban Ban Tôn giáo Chính phủ (bà Vũ Thị FF) ký tờ trình.
+- Vai trò: Chuyên viên Ban Tôn giáo Chính phủ thẩm định (AI hỗ trợ đối chiếu điều kiện pháp lý theo checklist ⏱ 3 giờ (ước tính)); Trưởng ban Ban Tôn giáo Chính phủ (bà Vũ Thị FF) ký tờ trình.
 - Lưu ý nghiệp vụ: Tôn trọng quyền tự do tín ngưỡng, tôn giáo; thẩm định khách quan, không phân biệt đối xử giữa các tôn giáo.
 - → Kết quả bước: Tờ trình công nhận/không công nhận có lý do.
 
@@ -34,7 +34,7 @@ Không dùng cho quản lý tín ngưỡng, tôn giáo ở cơ sở (skill `quan
 
 - Làm gì: Xử lý đăng ký sinh hoạt tôn giáo tập trung, tổ chức hội nghị, lễ hội tôn giáo thuộc thẩm quyền Bộ; cấp văn bản chấp thuận hoặc từ chối có lý do.
 - Dùng input: `ho_so_dang_ky`.
-- Vai trò: Ban Tôn giáo Chính phủ xử lý (AI hỗ trợ theo dõi thời hạn giải quyết, nhắc quá hạn — 1 giờ).
+- Vai trò: Ban Tôn giáo Chính phủ xử lý (AI hỗ trợ theo dõi thời hạn giải quyết, nhắc quá hạn ⏱ 1 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Giải quyết đúng thời hạn pháp luật; từ chối phải nêu rõ lý do, căn cứ.
 - → Kết quả bước: Văn bản chấp thuận/từ chối đăng ký hoạt động.
 
@@ -42,7 +42,7 @@ Không dùng cho quản lý tín ngưỡng, tôn giáo ở cơ sở (skill `quan
 
 - Làm gì: Hướng dẫn quản lý lễ hội; kiểm tra việc tổ chức lễ hội lớn; xử lý biến tướng, thương mại hóa lễ hội.
 - Dùng input: `bao_cao_dia_phuong`, kế hoạch lễ hội.
-- Vai trò: Ban Tôn giáo Chính phủ phối hợp địa phương (AI hỗ trợ tổng hợp danh mục lễ hội lớn toàn quốc — 2 giờ).
+- Vai trò: Ban Tôn giáo Chính phủ phối hợp địa phương (AI hỗ trợ tổng hợp danh mục lễ hội lớn toàn quốc ⏱ 2 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Bảo tồn giá trị văn hóa truyền thống của lễ hội; ngăn chặn mê tín dị đoan, trục lợi.
 - → Kết quả bước: Văn bản hướng dẫn + báo cáo kiểm tra lễ hội.
 
@@ -50,7 +50,7 @@ Không dùng cho quản lý tín ngưỡng, tôn giáo ở cơ sở (skill `quan
 
 - Làm gì: Thanh tra, kiểm tra hoạt động tôn giáo; xử lý vi phạm (hoạt động trái phép, lợi dụng tôn giáo); giải quyết khiếu nại, tố cáo.
 - Dùng input: `don_thu`, kết quả thanh kiểm tra.
-- Vai trò: Ban Tôn giáo Chính phủ chủ trì, phối hợp địa phương (AI hỗ trợ phân loại đơn thư, theo dõi hạn xử lý — 2 giờ); Thứ trưởng/Bộ trưởng chỉ đạo vụ việc phức tạp.
+- Vai trò: Ban Tôn giáo Chính phủ chủ trì, phối hợp địa phương (AI hỗ trợ phân loại đơn thư, theo dõi hạn xử lý ⏱ 2 giờ (ước tính)); Thứ trưởng/Bộ trưởng chỉ đạo vụ việc phức tạp.
 - Lưu ý nghiệp vụ: Xử lý đúng pháp luật, thận trọng, tránh để phức tạp thành điểm nóng; không đàn áp tôn giáo hợp pháp.
 - → Kết quả bước: Kết luận thanh tra / quyết định xử lý / văn bản giải quyết đơn thư.
 

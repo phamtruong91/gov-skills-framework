@@ -26,7 +26,7 @@ Không dùng cho công tác dân số tuyến tỉnh/xã (skill `dan-so-sks-tinh
 
 - Làm gì: Tổng hợp số liệu tổng tỷ suất sinh, tỷ số giới tính khi sinh, cơ cấu dân số theo vùng; dự báo xu hướng; xác định vùng mức sinh thấp/cần can thiệp.
 - Dùng input: `so_lieu_dan_so`.
-- Vai trò: Chuyên viên Cục Dân số phân tích (AI hỗ trợ vẽ biểu đồ xu hướng mức sinh theo vùng, dự báo dân số — 3 giờ); Cục trưởng (bà Vũ Thị FF) duyệt báo cáo phân tích.
+- Vai trò: Chuyên viên Cục Dân số phân tích (AI hỗ trợ vẽ biểu đồ xu hướng mức sinh theo vùng, dự báo dân số ⏱ 3 giờ (ước tính)); Cục trưởng duyệt báo cáo phân tích.
 - Lưu ý nghiệp vụ: Số liệu từ Tổng cục Thống kê và hệ thống báo cáo ngành; phân tích chênh lệch vùng miền, không đánh đồng bình quân cả nước.
 - → Kết quả bước: Báo cáo phân tích tình hình dân số, mức sinh.
 
@@ -34,7 +34,7 @@ Không dùng cho công tác dân số tuyến tỉnh/xã (skill `dan-so-sks-tinh
 
 - Làm gì: Soạn thảo chính sách điều chỉnh mức sinh phù hợp từng vùng (khuyến khích sinh ở vùng mức sinh thấp, kiểm soát mất cân bằng giới tính khi sinh); lấy ý kiến; trình cấp có thẩm quyền.
 - Dùng input: `muc_tieu_chinh_sach`, `de_xuat_chinh_sach`, báo cáo phân tích.
-- Vai trò: Cục Dân số chủ trì soạn thảo (AI hỗ trợ tổng hợp kinh nghiệm chính sách dân số, rà soát tính khả thi — 4 giờ); Thứ trưởng phụ trách (bà Phạm Thị DD) cho ý kiến; Bộ trưởng (ông Lê Văn CC) trình Chính phủ.
+- Vai trò: Cục Dân số chủ trì soạn thảo (AI hỗ trợ tổng hợp kinh nghiệm chính sách dân số, rà soát tính khả thi ⏱ 4 giờ (ước tính)); Thứ trưởng phụ trách cho ý kiến; Bộ trưởng (ông Lê Văn CC) trình Chính phủ.
 - Lưu ý nghiệp vụ: Chính sách phải tôn trọng quyền con người, phù hợp văn hóa từng vùng; không áp đặt chỉ tiêu hành chính cứng nhắc.
 - → Kết quả bước: Dự thảo chính sách dân số trình Chính phủ.
 
@@ -42,7 +42,7 @@ Không dùng cho công tác dân số tuyến tỉnh/xã (skill `dan-so-sks-tinh
 
 - Làm gì: Ban hành hướng dẫn chuyên môn; bảo đảm cung ứng phương tiện tránh thai; tổ chức truyền thông thay đổi hành vi.
 - Dùng input: Chính sách đã ban hành, `bao_cao_dia_phuong`.
-- Vai trò: Cục Dân số chỉ đạo triển khai (AI hỗ trợ soạn tài liệu truyền thông, kế hoạch cung ứng phương tiện theo nhu cầu địa phương — 3 giờ).
+- Vai trò: Cục Dân số chỉ đạo triển khai (AI hỗ trợ soạn tài liệu truyền thông, kế hoạch cung ứng phương tiện theo nhu cầu địa phương ⏱ 3 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Dịch vụ phải an toàn, tự nguyện, bảo mật thông tin cá nhân.
 - → Kết quả bước: Văn bản hướng dẫn + kế hoạch cung ứng, truyền thông.
 
@@ -50,7 +50,7 @@ Không dùng cho công tác dân số tuyến tỉnh/xã (skill `dan-so-sks-tinh
 
 - Làm gì: Theo dõi chỉ số mức sinh, tỷ số giới tính khi sinh; đánh giá hiệu quả chính sách; điều chỉnh.
 - Dùng input: `bao_cao_dia_phuong`, số liệu giám sát.
-- Vai trò: Cục Dân số tổng hợp (AI hỗ trợ đối chiếu chỉ tiêu/kết quả theo tỉnh, phát hiện địa bàn lệch mục tiêu — 2 giờ).
+- Vai trò: Cục Dân số tổng hợp (AI hỗ trợ đối chiếu chỉ tiêu/kết quả theo tỉnh, phát hiện địa bàn lệch mục tiêu ⏱ 2 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Đánh giá định kỳ, công khai kết quả; điều chỉnh chính sách kịp thời khi xu hướng đảo chiều.
 - → Kết quả bước: Báo cáo giám sát, đánh giá công tác dân số.
 

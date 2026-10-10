@@ -27,7 +27,7 @@ quy mô lớn. Không dùng cho ATTP cơ sở/tỉnh (skill `attp-co-so`, `attp-
 
 - Làm gì: Rà soát quy định hiện hành; xây dựng quy chuẩn kỹ thuật quốc gia về ATTP; đề xuất chính sách mới.
 - Dùng input: `bao_cao_dia_phuong`, `bao_cao_ngo_doc`.
-- Vai trò: Chuyên viên Cục An toàn thực phẩm soạn thảo (AI hỗ trợ tra cứu quy chuẩn quốc tế Codex, đối chiếu quy định hiện hành — 3 giờ); Cục trưởng (bà Vũ Thị FF) duyệt trình.
+- Vai trò: Chuyên viên Cục An toàn thực phẩm soạn thảo (AI hỗ trợ tra cứu quy chuẩn quốc tế Codex, đối chiếu quy định hiện hành ⏱ 3 giờ (ước tính)); Cục trưởng (bà Vũ Thị FF) duyệt trình.
 - Lưu ý nghiệp vụ: Quy chuẩn phải có căn cứ khoa học, phù hợp thông lệ quốc tế, khả thi với doanh nghiệp.
 - → Kết quả bước: Dự thảo quy chuẩn/chính sách ATTP.
 
@@ -35,7 +35,7 @@ quy mô lớn. Không dùng cho ATTP cơ sở/tỉnh (skill `attp-co-so`, `attp-
 
 - Làm gì: Tiếp nhận hồ sơ công bố sản phẩm, hồ sơ đề nghị cấp giấy chứng nhận cơ sở đủ điều kiện ATTP thuộc thẩm quyền Bộ; thẩm định; cấp giấy tiếp nhận công bố/giấy chứng nhận hoặc từ chối có lý do.
 - Dùng input: `ho_so_cong_bo`, `loai_san_pham`.
-- Vai trò: Chuyên viên Cục An toàn thực phẩm thẩm định (AI hỗ trợ kiểm tra tính đầy đủ hồ sơ, tra cứu cảnh báo thành phần cấm — 2 giờ); Cục trưởng ký cấp.
+- Vai trò: Chuyên viên Cục An toàn thực phẩm thẩm định (AI hỗ trợ kiểm tra tính đầy đủ hồ sơ, tra cứu cảnh báo thành phần cấm ⏱ 2 giờ (ước tính)); Cục trưởng ký cấp.
 - Lưu ý nghiệp vụ: Không cấp phép cho sản phẩm chứa chất cấm, công bố sai sự thật; thời hạn giải quyết đúng quy định.
 - → Kết quả bước: Giấy tiếp nhận công bố / giấy chứng nhận đủ điều kiện ATTP.
 
@@ -43,7 +43,7 @@ quy mô lớn. Không dùng cho ATTP cơ sở/tỉnh (skill `attp-co-so`, `attp-
 
 - Làm gì: Xây dựng kế hoạch thanh kiểm tra liên ngành (Y tế – Công Thương – Nông nghiệp); tổ chức đoàn kiểm tra; xử lý vi phạm.
 - Dùng input: `ke_hoach_thanh_tra`.
-- Vai trò: Cục An toàn thực phẩm chủ trì đoàn liên ngành (AI hỗ trợ lập danh sách cơ sở nguy cơ cao từ dữ liệu vi phạm các năm — 3 giờ); Thứ trưởng phụ trách (bà Phạm Thị DD) phê duyệt kế hoạch.
+- Vai trò: Cục An toàn thực phẩm chủ trì đoàn liên ngành (AI hỗ trợ lập danh sách cơ sở nguy cơ cao từ dữ liệu vi phạm các năm ⏱ 3 giờ (ước tính)); Thứ trưởng phụ trách (bà Phạm Thị DD) phê duyệt kế hoạch.
 - Lưu ý nghiệp vụ: Tập trung cơ sở nguy cơ cao, dịp cao điểm (Tết, lễ hội); xử lý nghiêm, công khai vi phạm.
 - → Kết quả bước: Kế hoạch thanh tra + kết luận kiểm tra, quyết định xử phạt.
 
@@ -51,7 +51,7 @@ quy mô lớn. Không dùng cho ATTP cơ sở/tỉnh (skill `attp-co-so`, `attp-
 
 - Làm gì: Tiếp nhận báo cáo vụ ngộ độc; cử đoàn công tác hỗ trợ địa phương điều tra nguyên nhân; chỉ đạo thu hồi, tiêu hủy thực phẩm không an toàn; báo cáo Chính phủ.
 - Dùng input: `bao_cao_ngo_doc`.
-- Vai trò: Cục An toàn thực phẩm điều phối ứng phó (AI hỗ trợ tổng hợp diễn biến các vụ ngộ độc toàn quốc, lập bản đồ nguy cơ — 2 giờ); Bộ trưởng (ông Lê Văn CC) báo cáo Thủ tướng với vụ nghiêm trọng.
+- Vai trò: Cục An toàn thực phẩm điều phối ứng phó (AI hỗ trợ tổng hợp diễn biến các vụ ngộ độc toàn quốc, lập bản đồ nguy cơ ⏱ 2 giờ (ước tính)); Bộ trưởng (ông Lê Văn CC) báo cáo Thủ tướng với vụ nghiêm trọng.
 - Lưu ý nghiệp vụ: Phản ứng trong 24 giờ với vụ ngộ độc đông người; thông tin công khai, chính xác, tránh hoang mang.
 - → Kết quả bước: Báo cáo điều tra nguyên nhân + chỉ đạo khắc phục + báo cáo Chính phủ (nếu nghiêm trọng).
 

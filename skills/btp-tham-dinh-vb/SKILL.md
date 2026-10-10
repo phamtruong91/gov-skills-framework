@@ -23,35 +23,35 @@ Khi bộ, cơ quan ngang bộ gửi dự thảo VBQPPL (nghị định, quyết 
 **Bước 1. Tiếp nhận, kiểm tra hồ sơ thẩm định**
 - Làm gì: Kiểm tra tính đầy đủ của hồ sơ gửi thẩm định; từ chối bổ sung nếu thiếu thành phần.
 - Dùng input: Toàn bộ hồ sơ (`du_thao`, `to_trinh`, `bao_cao_tac_dong`, `tong_hop_y_kien`).
-- Vai trò: Chuyên viên Vụ Pháp luật — AI hỗ trợ lập danh mục kiểm tra hồ sơ (checklist), đối chiếu thành phần (0,5 ngày).
+- Vai trò: Chuyên viên Vụ Pháp luật — AI hỗ trợ lập danh mục kiểm tra hồ sơ (checklist), đối chiếu thành phần (⏱ ~0,5 ngày).
 - Lưu ý nghiệp vụ: Hồ sơ thiếu → trả lại, không thẩm định "khuyết".
 - → Kết quả bước: Biên bản tiếp nhận hoặc văn bản yêu cầu bổ sung.
 
 **Bước 2. Nghiên cứu tính hợp hiến, hợp pháp, thống nhất**
 - Làm gì: Đối chiếu từng điều khoản với Hiến pháp, luật, văn bản cấp trên; phát hiện chồng chéo, mâu thuẫn với VBQPPL hiện hành.
 - Dùng input: `du_thao`, `co_so_phap_ly`.
-- Vai trò: Chuyên viên Vụ Pháp luật — AI hỗ trợ tra cứu, đối chiếu văn bản liên quan, đánh dấu điều khoản có nguy cơ mâu thuẫn (2–3 ngày).
+- Vai trò: Chuyên viên Vụ Pháp luật — AI hỗ trợ tra cứu, đối chiếu văn bản liên quan, đánh dấu điều khoản có nguy cơ mâu thuẫn (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Thẩm quyền ban hành: văn bản của Chính phủ không được trái luật; thông tư không được quy định vấn đề thuộc thẩm quyền Chính phủ.
 - → Kết quả bước: Bảng phân tích tính hợp hiến, hợp pháp theo từng điều.
 
 **Bước 3. Đánh giá tính khả thi, kỹ thuật soạn thảo**
 - Làm gì: Đánh giá khả năng thực thi (nguồn lực, thủ tục, thời gian chuyển tiếp); kiểm tra kỹ thuật lập pháp, ngôn ngữ.
 - Dùng input: `bao_cao_tac_dong`, `du_thao`.
-- Vai trò: Chuyên viên Vụ Pháp luật — AI hỗ trợ rà lỗi kỹ thuật: thuật ngữ không thống nhất, dẫn chiếu sai, thể thức (1–2 ngày).
+- Vai trò: Chuyên viên Vụ Pháp luật — AI hỗ trợ rà lỗi kỹ thuật: thuật ngữ không thống nhất, dẫn chiếu sai, thể thức (⏱ 1–2 ngày).
 - Lưu ý nghiệp vụ: Điều khoản chuyển tiếp phải rõ; tránh quy định "xin – cho" tạo cơ chế xin phép không cần thiết.
 - → Kết quả bước: Nhận xét về tính khả thi và kỹ thuật.
 
 **Bước 4. Họp Hội đồng thẩm định và lập báo cáo thẩm định**
 - Làm gì: Tổ chức họp thẩm định (mời cơ quan chủ trì soạn thảo giải trình); lập Báo cáo thẩm định với kết luận: đủ điều kiện trình / cần chỉnh sửa / chưa đủ điều kiện.
 - Dùng input: Kết quả bước 2, 3; ý kiến giải trình của cơ quan chủ trì.
-- Vai trò: Vụ trưởng Vụ Pháp luật chủ trì họp — AI hỗ trợ soạn dự thảo báo cáo thẩm định theo mẫu (1–2 ngày).
+- Vai trò: Vụ trưởng Vụ Pháp luật chủ trì họp — AI hỗ trợ soạn dự thảo báo cáo thẩm định theo mẫu (⏱ 1–2 ngày).
 - Lưu ý nghiệp vụ: Báo cáo thẩm định là căn cứ bắt buộc trong hồ sơ trình Chính phủ; ý kiến thẩm định phải rõ "đồng ý có điều kiện" kèm điều kiện cụ thể.
 - → Kết quả bước: Báo cáo thẩm định (Bộ Tư pháp ký).
 
 **Bước 5. Theo dõi tiếp thu ý kiến thẩm định**
 - Làm gì: Đôn đốc cơ quan chủ trì tiếp thu; kiểm tra dự thảo sau chỉnh sửa trước khi trình Chính phủ.
 - Dùng input: Dự thảo chỉnh sửa; báo cáo giải trình tiếp thu.
-- Vai trò: Chuyên viên Vụ Pháp luật — AI hỗ trợ đối chiếu dự thảo mới với các yêu cầu trong báo cáo thẩm định (1 ngày).
+- Vai trò: Chuyên viên Vụ Pháp luật — AI hỗ trợ đối chiếu dự thảo mới với các yêu cầu trong báo cáo thẩm định (⏱ 1 ngày).
 - Lưu ý nghiệp vụ: Nếu cơ quan chủ trì không tiếp thu ý kiến quan trọng về tính hợp pháp → báo cáo Lãnh đạo Bộ có ý kiến với Chính phủ.
 - → Kết quả bước: Xác nhận hoàn thành tiếp thu / văn bản báo cáo Lãnh đạo Bộ.
 

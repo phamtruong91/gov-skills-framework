@@ -27,7 +27,7 @@ thuốc tuyến tỉnh (skill `quan-ly-duoc-tinh`).
 
 - Làm gì: Kiểm tra tính đầy đủ, hợp lệ của hồ sơ; thẩm định chất lượng, an toàn, hiệu quả (hội đồng thẩm định); yêu cầu bổ sung nếu thiếu.
 - Dùng input: `ho_so_dang_ky`, `loai_thuoc`.
-- Vai trò: Chuyên viên Cục Quản lý Dược thẩm định hồ sơ (AI hỗ trợ đối chiếu checklist thành phần hồ sơ, tra cứu tiền lệ cấp phép — 4 giờ); Hội đồng thẩm định họp đánh giá.
+- Vai trò: Chuyên viên Cục Quản lý Dược thẩm định hồ sơ (AI hỗ trợ đối chiếu checklist thành phần hồ sơ, tra cứu tiền lệ cấp phép ⏱ 4 giờ (ước tính)); Hội đồng thẩm định họp đánh giá.
 - Lưu ý nghiệp vụ: Từ chối thẳng hồ sơ giả mạo, số liệu lâm sàng không trung thực; bảo mật thông tin độc quyền của doanh nghiệp.
 - → Kết quả bước: Biên bản thẩm định + thông báo bổ sung hồ sơ (nếu có).
 
@@ -35,7 +35,7 @@ thuốc tuyến tỉnh (skill `quan-ly-duoc-tinh`).
 
 - Làm gì: Trình cấp giấy đăng ký lưu hành cho hồ sơ đạt; gia hạn khi hết hiệu lực; đình chỉ, thu hồi khi phát hiện vi phạm chất lượng, an toàn.
 - Dùng input: Biên bản thẩm định đạt.
-- Vai trò: Cục trưởng Cục Quản lý Dược (bà Vũ Thị FF) ký cấp giấy (AI hỗ trợ quản trị cơ sở dữ liệu giấy phép, cảnh báo hết hiệu lực — 1 giờ).
+- Vai trò: Cục trưởng Cục Quản lý Dược (bà Vũ Thị FF) ký cấp giấy (AI hỗ trợ quản trị cơ sở dữ liệu giấy phép, cảnh báo hết hiệu lực ⏱ 1 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Công khai danh mục thuốc được cấp phép trên Cổng TTĐT; thu hồi kịp thời thuốc không đạt chất lượng.
 - → Kết quả bước: Giấy đăng ký lưu hành / quyết định thu hồi.
 
@@ -43,7 +43,7 @@ thuốc tuyến tỉnh (skill `quan-ly-duoc-tinh`).
 
 - Làm gì: Tiếp nhận kê khai giá; công bố giá thuốc; kiểm tra yếu tố hình thành giá; xử lý vi phạm về giá.
 - Dùng input: `ho_so_gia`.
-- Vai trò: Cục Quản lý Dược chủ trì, phối hợp cơ quan quản lý giá (AI hỗ trợ so sánh giá kê khai với giá tham chiếu, phát hiện bất thường — 3 giờ); Thứ trưởng phụ trách (bà Phạm Thị DD) chỉ đạo xử lý vi phạm.
+- Vai trò: Cục Quản lý Dược chủ trì, phối hợp cơ quan quản lý giá (AI hỗ trợ so sánh giá kê khai với giá tham chiếu, phát hiện bất thường ⏱ 3 giờ (ước tính)); Thứ trưởng phụ trách (bà Phạm Thị DD) chỉ đạo xử lý vi phạm.
 - Lưu ý nghiệp vụ: Bảo đảm công khai, minh bạch giá; chống độc quyền, thao túng giá thuốc.
 - → Kết quả bước: Công bố giá thuốc + quyết định xử lý vi phạm (nếu có).
 
@@ -51,7 +51,7 @@ thuốc tuyến tỉnh (skill `quan-ly-duoc-tinh`).
 
 - Làm gì: Xây dựng danh mục đấu thầu tập trung; tổ chức lựa chọn nhà thầu; giám sát thực hiện hợp đồng; hậu kiểm chất lượng thuốc lưu hành (lấy mẫu kiểm nghiệm).
 - Dùng input: `danh_muc_dau_thau`, `bao_cao_hau_kiem`.
-- Vai trò: Cục Quản lý Dược tổ chức đấu thầu (AI hỗ trợ tổng hợp nhu cầu các bệnh viện, phân tích giá trúng thầu — 4 giờ); Bộ trưởng (ông Lê Văn CC) phê duyệt kế hoạch đấu thầu tập trung.
+- Vai trò: Cục Quản lý Dược tổ chức đấu thầu (AI hỗ trợ tổng hợp nhu cầu các bệnh viện, phân tích giá trúng thầu ⏱ 4 giờ (ước tính)); Bộ trưởng (ông Lê Văn CC) phê duyệt kế hoạch đấu thầu tập trung.
 - Lưu ý nghiệp vụ: Đấu thầu công khai, cạnh tranh, tiết kiệm; hậu kiểm độc lập, xử lý nghiêm thuốc giả, thuốc kém chất lượng.
 - → Kết quả bước: Kết quả đấu thầu + báo cáo hậu kiểm chất lượng.
 

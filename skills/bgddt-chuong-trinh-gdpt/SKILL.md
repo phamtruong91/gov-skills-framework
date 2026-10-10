@@ -26,28 +26,28 @@ hướng dẫn địa phương, nhà trường triển khai chương trình, l�
 **Bước 1. Đánh giá thực trạng thực hiện chương trình**
 - Làm gì: Tổng hợp kết quả thực hiện chương trình GDPT tại các địa phương: kết quả học tập, khó khăn của giáo viên, ý kiến nhà trường.
 - Dùng input: `cap_hoc`, `mon_hoc`.
-- Vai trò: Chuyên viên Vụ — AI hỗ trợ tổng hợp báo cáo địa phương thành bảng phân tích (2 giờ).
+- Vai trò: Chuyên viên Vụ — AI hỗ trợ tổng hợp báo cáo địa phương thành bảng phân tích (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Số liệu phải đại diện các vùng miền; lắng nghe ý kiến giáo viên trực tiếp giảng dạy.
 - → Kết quả bước: Báo cáo đánh giá thực trạng.
 
 **Bước 2. Xây dựng / điều chỉnh chương trình**
 - Làm gì: Soạn thảo nội dung điều chỉnh: mục tiêu, yêu cầu cần đạt, nội dung, phương pháp, đánh giá theo từng môn, lớp.
 - Dùng input: `noi_dung`, `ban_thao_ct`.
-- Vai trò: Ban phát triển chương trình (chuyên gia, nhà khoa học) — AI hỗ trợ soạn khung chương trình, rà soát tính liên thông giữa các cấp học (3–4 giờ).
+- Vai trò: Ban phát triển chương trình (chuyên gia, nhà khoa học) — AI hỗ trợ soạn khung chương trình, rà soát tính liên thông giữa các cấp học (⏱ 3–4 giờ).
 - Lưu ý nghiệp vụ: Bảo đảm tính vừa sức, liên thông tiểu học–THCS–THPT; không quá tải cho học sinh.
 - → Kết quả bước: Dự thảo chương trình điều chỉnh.
 
 **Bước 3. Thẩm định chương trình, sách giáo khoa**
 - Làm gì: Tổ chức hội đồng quốc gia thẩm định chương trình; hội đồng thẩm định SGK theo từng môn, lớp; bỏ phiếu kín.
 - Dùng input: `ban_thao_ct`, `ban_thao_sgk`.
-- Vai trò: Hội đồng thẩm định quốc gia — AI hỗ trợ tổng hợp phiếu đánh giá, lập biên bản (1–2 giờ).
+- Vai trò: Hội đồng thẩm định quốc gia — AI hỗ trợ tổng hợp phiếu đánh giá, lập biên bản (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Thành viên hội đồng độc lập, không liên quan đến tác giả SGK; kết quả bỏ phiếu được ghi nhận trung thực.
 - → Kết quả bước: Biên bản thẩm định (đạt / cần chỉnh sửa).
 
 **Bước 4. Phê duyệt và hướng dẫn triển khai**
 - Làm gì: Trình Bộ trưởng phê duyệt chương trình/SGK; ban hành văn bản hướng dẫn địa phương lựa chọn SGK, tập huấn giáo viên.
 - Dùng input: Kết quả thẩm định.
-- Vai trò: Vụ trưởng → Thứ trưởng → Bộ trưởng phê duyệt — AI hỗ trợ soạn quyết định phê duyệt, văn bản hướng dẫn (1 giờ).
+- Vai trò: Vụ trưởng → Thứ trưởng → Bộ trưởng phê duyệt — AI hỗ trợ soạn quyết định phê duyệt, văn bản hướng dẫn (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Công khai danh mục SGK được phê duyệt; hướng dẫn rõ quy trình lựa chọn SGK tại địa phương.
 - → Kết quả bước: Quyết định phê duyệt + văn bản hướng dẫn triển khai.
 

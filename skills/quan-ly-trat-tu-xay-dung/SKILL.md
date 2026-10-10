@@ -55,7 +55,7 @@ description: "Kiểm tra trật tự xây dựng định kỳ, đột xuất; ph
 **Bước 4. Xác minh tình tiết, tham mưu mức xử phạt**
 
 - Làm gì: Xác minh các tình tiết tăng nặng, giảm nhẹ; xác định hành vi vi phạm thuộc thẩm quyền xử phạt của Chủ tịch UBND xã hay vượt thẩm quyền; đề xuất hình thức xử phạt chính, hình thức bổ sung và biện pháp khắc phục hậu quả; lập tờ trình kèm dự thảo quyết định xử phạt.
-- Dùng input: bien_ban_vphc (từ Bước 3), `giay_phep_xay_dung`.
+- Dùng input: Biên bản VPHC (kết quả Bước 3), `giay_phep_xay_dung`.
 - Vai trò: Công chức xây dựng xác minh, soạn tờ trình và dự thảo quyết định (AI hỗ trợ tra cứu khung xử phạt, đối chiếu thẩm quyền, soạn dự thảo); Trưởng phòng Kinh tế – Bà Hoàng Thị D kiểm tra ⏱ ~1 ngày (ước tính).
 - Lưu ý nghiệp vụ: Mức phạt phải trong khung quy định, tương xứng với tính chất, mức độ vi phạm; phải xem xét đầy đủ tình tiết tăng nặng, giảm nhẹ. Nếu vụ việc vượt thẩm quyền xử phạt của Chủ tịch UBND xã → chuyển sang lập văn bản chuyển cấp có thẩm quyền thay vì dự thảo quyết định xử phạt.
 - → Kết quả bước: Tờ trình + dự thảo quyết định xử phạt VPHC (hoặc dự thảo văn bản chuyển cấp có thẩm quyền).

@@ -29,7 +29,7 @@ description: "Thẩm định kế hoạch lựa chọn nhà thầu, hồ sơ m�
 
 **Bước 1. Tiếp nhận và kiểm tra hồ sơ trình thẩm định**
 - Làm gì: Tiếp nhận hồ sơ trình thẩm định (KHLCNT, HSMT/HSYC hoặc kết quả LCNT); kiểm tra thành phần hồ sơ, thẩm quyền trình, tính hợp lệ; lập phiếu tiếp nhận, yêu cầu bổ sung nếu thiếu.
-- Dùng input: `ho_so_khlcnt`, `hsmt_hsyc`, `ket_qua_lcnt`, `loai_tham_dinh`.
+- Dùng input: `ho_so_khlcnt`, `hsmt_hsyc`, `ket_qua_lcnt`, `loai_tham_dinh`, `ten_chu_dau_tu`.
 - Vai trò: Chuyên viên Phòng Quản lý đấu thầu (Sở Tài chính) tiếp nhận, AI hỗ trợ lập checklist thành phần hồ sơ và phiếu tiếp nhận; ⏱ ~1–2 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Chỉ thụ lý khi hồ sơ đủ thành phần và đúng thẩm quyền; thời hạn thẩm định tính từ ngày nhận đủ hồ sơ hợp lệ.
 - → Kết quả bước: Phiếu tiếp nhận hồ sơ hợp lệ (hoặc văn bản yêu cầu bổ sung).

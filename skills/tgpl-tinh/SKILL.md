@@ -27,35 +27,35 @@ description: "Quản lý hoạt động trợ giúp pháp lý trên địa bàn 
 
 **Bước 1. Tiếp nhận, thẩm định hồ sơ thành lập chi nhánh Trung tâm TGPL**
 - Làm gì: Tiếp nhận hồ sơ đề nghị thành lập chi nhánh; thẩm định sự cần thiết, điều kiện về trụ sở, nhân sự (trợ giúp viên), phạm vi hoạt động; dự thảo quyết định thành lập.
-- Dùng input: `ho_so_thanh_lap_cn`
+- Dùng input: `ho_so_thanh_lap_cn`.
 - Vai trò: Chuyên viên Phòng Trợ giúp pháp lý (Sở Tư pháp tỉnh A) thẩm định hồ sơ. AI hỗ trợ lập checklist điều kiện thành lập chi nhánh, soạn dự thảo quyết định thành lập đúng thể thức ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Chi nhánh chỉ thành lập khi có nhu cầu thực tế tại địa bàn; nhân sự chủ chốt phải đáp ứng tiêu chuẩn trợ giúp viên pháp lý theo quy định.
 - → Kết quả bước: Kết quả thẩm định + dự thảo quyết định thành lập chi nhánh trình Giám đốc Sở ký.
 
 **Bước 2. Quản lý đội ngũ trợ giúp viên, cộng tác viên TGPL**
 - Làm gì: Rà soát, cập nhật danh sách trợ giúp viên pháp lý, cộng tác viên TGPL trên địa bàn; theo dõi điều kiện hành nghề, việc cấp đổi, thu hồi thẻ; tham mưu kế hoạch đào tạo, bồi dưỡng nâng cao năng lực.
-- Dùng input: `danh_sach_tgv`
+- Dùng input: `danh_sach_tgv`.
 - Vai trò: Trưởng phòng Trợ giúp pháp lý quản lý danh sách, theo dõi. AI hỗ trợ lập và cập nhật cơ sở dữ liệu trợ giúp viên, cảnh báo trường hợp không còn đáp ứng điều kiện ⏱ ~02 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Danh sách trợ giúp viên phải công khai để người dân tiếp cận; bảo đảm mỗi chi nhánh có đủ trợ giúp viên theo quy định.
 - → Kết quả bước: Danh sách trợ giúp viên, cộng tác viên TGPL toàn tỉnh đã cập nhật, công khai.
 
 **Bước 3. Theo dõi, kiểm tra chất lượng vụ việc TGPL**
 - Làm gì: Xây dựng kế hoạch kiểm tra hoạt động TGPL; kiểm tra hồ sơ vụ việc tại Trung tâm và chi nhánh (tính đúng đối tượng, trình tự, chất lượng tư vấn, tham gia tố tụng); lập biên bản, kết luận kiểm tra.
-- Dùng input: `ke_hoach_kiem_tra`, `bao_cao_hoat_dong`
+- Dùng input: `ke_hoach_kiem_tra`, `bao_cao_hoat_dong`.
 - Vai trò: Trưởng phòng Trợ giúp pháp lý chủ trì đoàn kiểm tra. AI hỗ trợ soạn kế hoạch kiểm tra, mẫu phiếu kiểm tra hồ sơ vụ việc và dự thảo kết luận kiểm tra ⏱ ~05 ngày làm việc/đợt (ước tính).
 - Lưu ý nghiệp vụ: Kiểm tra thực chất hồ sơ vụ việc, không hình thức; chú trọng vụ việc liên quan người nghèo, người dân tộc thiểu số, trẻ em, người khuyết tật; kiến nghị chấn chỉnh kịp thời tồn tại.
 - → Kết quả bước: Biên bản, kết luận kiểm tra hoạt động TGPL; văn bản kiến nghị chấn chỉnh (nếu có).
 
 **Bước 4. Tham mưu cơ chế phối hợp trong hoạt động TGPL**
 - Làm gì: Rà soát việc phối hợp giữa Trung tâm TGPL với cơ quan công an, viện kiểm sát, tòa án, đoàn luật sư, đoàn thể, UBND cấp xã; tham mưu ký kết, sửa đổi quy chế phối hợp; hướng dẫn UBND cấp xã giới thiệu người thuộc diện được TGPL.
-- Dùng input: `don_vi_phoi_hop`, kết quả phối hợp năm trước
+- Dùng input: `don_vi_phoi_hop`, kết quả phối hợp năm trước.
 - Vai trò: Phó Giám đốc Sở phụ trách điều phối ký kết phối hợp. AI hỗ trợ soạn dự thảo quy chế phối hợp, văn bản hướng dẫn UBND cấp xã về giới thiệu đối tượng TGPL ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Cơ chế phối hợp phải cụ thể đầu mối, trách nhiệm, thời hạn chuyển gửi thông tin; tránh để người thuộc diện TGPL không tiếp cận được dịch vụ.
 - → Kết quả bước: Quy chế phối hợp (ký mới/sửa đổi) + văn bản hướng dẫn UBND cấp xã.
 
 **Bước 5. Tổng hợp báo cáo, tham mưu kinh phí, chính sách TGPL**
 - Làm gì: Tổng hợp báo cáo hoạt động TGPL toàn tỉnh (số vụ việc theo đối tượng, lĩnh vực, kết quả); đánh giá khó khăn, vướng mắc; tham mưu nhu cầu kinh phí năm tới; đề xuất chính sách hỗ trợ của tỉnh.
-- Dùng input: `bao_cao_hoat_dong`, `nhu_cau_kinh_phi`
+- Dùng input: `bao_cao_hoat_dong`, `nhu_cau_kinh_phi`.
 - Vai trò: Chuyên viên Phòng Trợ giúp pháp lý tổng hợp, soạn báo cáo; Giám đốc Sở ký báo cáo. AI hỗ trợ tổng hợp số liệu, phân tích theo đối tượng/lĩnh vực và soạn dự thảo báo cáo ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Số liệu trung thực, có minh chứng hồ sơ vụ việc; kiến nghị kinh phí phải gắn với khối lượng công việc thực tế.
 - → Kết quả bước: Báo cáo hoạt động TGPL năm của tỉnh đã ký, gửi Bộ Tư pháp; tờ trình nhu cầu kinh phí gửi Sở Tài chính, UBND tỉnh.

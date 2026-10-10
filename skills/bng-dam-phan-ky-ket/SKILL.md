@@ -27,14 +27,14 @@ description: "Có nhu cầu đàm phán, ký kết điều ước quốc tế so
 **Bước 1. Đề xuất đàm phán và xin chủ trương**
 - Làm gì: Lập đề xuất đàm phán, ký kết điều ước quốc tế: sự cần thiết, mục đích, nội dung chính, đánh giá tác động, chủ thể ký kết; trình xin chủ trương của cấp có thẩm quyền.
 - Dùng input: `ten_dieu_uoc`, `doi_tac`, `chu_the_ky`, `muc_dich_noi_dung`, `co_quan_de_xuat`.
-- Vai trò: Chuyên viên Vụ Pháp luật và Điều ước quốc tế soạn đề xuất (AI hỗ trợ rà soát điều ước quốc tế tương tự đã ký, đánh giá tính tương thích với pháp luật trong nước — 2–3 ngày) → Vụ trưởng kiểm tra → Thứ trưởng trình → Bộ trưởng ký tờ trình xin chủ trương.
+- Vai trò: Chuyên viên Vụ Pháp luật và Điều ước quốc tế soạn đề xuất (AI hỗ trợ rà soát điều ước quốc tế tương tự đã ký, đánh giá tính tương thích với pháp luật trong nước ⏱ 2–3 ngày (ước tính)) → Vụ trưởng kiểm tra → Thứ trưởng trình → Bộ trưởng ký tờ trình xin chủ trương.
 - Lưu ý nghiệp vụ: Điều ước nhân danh Nhà nước có thủ tục phê chuẩn chặt chẽ hơn điều ước nhân danh Chính phủ; phải xác định đúng chủ thể ngay từ đầu.
 - → Kết quả bước: Tờ trình xin chủ trương được phê duyệt.
 
 **Bước 2. Chuẩn bị đàm phán**
 - Làm gì: Xây dựng phương án đàm phán: lập trường, giới hạn nhượng bộ, kịch bản các vòng đàm phán; thành lập đoàn đàm phán; chuẩn bị dự thảo điều ước.
 - Dùng input: `du_thao_dieu_uoc`, `ke_hoach_dam_phan`, kết quả bước 1.
-- Vai trò: Tổ đàm phán (chuyên viên Vụ Pháp luật và Điều ước quốc tế + đơn vị chuyên môn) chuẩn bị (AI hỗ trợ soạn dự thảo điều khoản, đối chiếu mẫu điều ước quốc tế tương tự, lập bảng so sánh lập trường — 3–5 ngày) → Vụ trưởng duyệt phương án.
+- Vai trò: Tổ đàm phán (chuyên viên Vụ Pháp luật và Điều ước quốc tế + đơn vị chuyên môn) chuẩn bị (AI hỗ trợ soạn dự thảo điều khoản, đối chiếu mẫu điều ước quốc tế tương tự, lập bảng so sánh lập trường ⏱ 3–5 ngày (ước tính)) → Vụ trưởng duyệt phương án.
 - Lưu ý nghiệp vụ: Mọi nhượng bộ vượt giới hạn đã duyệt phải báo cáo xin ý kiến trước khi tiếp tục đàm phán.
 - → Kết quả bước: Phương án đàm phán và dự thảo điều ước được phê duyệt.
 
@@ -48,14 +48,14 @@ description: "Có nhu cầu đàm phán, ký kết điều ước quốc tế so
 **Bước 4. Xin ủy quyền ký và tổ chức ký kết**
 - Làm gì: Lập tờ trình xin ủy quyền ký (quyết định ủy quyền cho người ký); chuẩn bị lễ ký (lễ tân, văn bản ký, bản sao chứng thực); tổ chức ký kết.
 - Dùng input: Văn bản điều ước đã thống nhất, `chu_the_ky`.
-- Vai trò: Chuyên viên Vụ Pháp luật và Điều ước quốc tế soạn hồ sơ ủy quyền (AI hỗ trợ kiểm tra thể thức văn bản ủy quyền, danh mục hồ sơ — 1 ngày) → Vụ trưởng kiểm tra → Thứ trưởng trình → cấp có thẩm quyền quyết định ủy quyền.
+- Vai trò: Chuyên viên Vụ Pháp luật và Điều ước quốc tế soạn hồ sơ ủy quyền (AI hỗ trợ kiểm tra thể thức văn bản ủy quyền, danh mục hồ sơ ⏱ 1 ngày (ước tính)) → Vụ trưởng kiểm tra → Thứ trưởng trình → cấp có thẩm quyền quyết định ủy quyền.
 - Lưu ý nghiệp vụ: Người ký phải có đầy đủ giấy ủy quyền (full powers) theo đúng chủ thể ký kết; kiểm tra kỹ bản chính trước giờ ký.
 - → Kết quả bước: Quyết định ủy quyền ký; điều ước quốc tế được ký kết.
 
 **Bước 5. Phê chuẩn/phê duyệt, lưu chiểu và tổ chức thực hiện**
 - Làm gì: Làm thủ tục phê chuẩn hoặc phê duyệt theo chủ thể ký kết; lưu chiểu văn kiện; đăng ký (nếu là điều ước đa phương); xây dựng kế hoạch tổ chức thực hiện trong nước, phân công đơn vị chủ trì.
 - Dùng input: Điều ước đã ký, `chu_the_ky`.
-- Vai trò: Chuyên viên Vụ Pháp luật và Điều ước quốc tế soạn hồ sơ phê chuẩn/phê duyệt (AI hỗ trợ rà soát tính đầy đủ hồ sơ, soạn kế hoạch tổ chức thực hiện — 2 ngày) → Vụ trưởng kiểm tra → Thứ trưởng trình → cấp có thẩm quyền quyết định.
+- Vai trò: Chuyên viên Vụ Pháp luật và Điều ước quốc tế soạn hồ sơ phê chuẩn/phê duyệt (AI hỗ trợ rà soát tính đầy đủ hồ sơ, soạn kế hoạch tổ chức thực hiện ⏱ 2 ngày (ước tính)) → Vụ trưởng kiểm tra → Thứ trưởng trình → cấp có thẩm quyền quyết định.
 - Lưu ý nghiệp vụ: Theo dõi thời hạn hiệu lực, thời hạn tuyên bố bảo lưu/rút bảo lưu; cập nhật cơ sở dữ liệu điều ước quốc tế của Bộ.
 - → Kết quả bước: Điều ước có hiệu lực; kế hoạch tổ chức thực hiện được ban hành.
 

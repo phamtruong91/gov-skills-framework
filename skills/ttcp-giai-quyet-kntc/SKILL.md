@@ -25,7 +25,7 @@ Khi Thanh tra Chính phủ thụ lý, thẩm tra, tham mưu giải quyết vụ 
 **Bước 1. Tiếp nhận, phân loại, thụ lý**
 
 - Làm gì: Tiếp nhận hồ sơ; kiểm tra thẩm quyền (có thuộc thẩm quyền Thủ tướng không); phân loại vụ việc; đề xuất thụ lý.
-- Dùng input: `loai_vu_viec`, `noi_dung_vu_viec`, `ho_so`.
+- Dùng input: `loai_vu_viec`, `noi_dung_vu_viec`, `ho_so`, `doi_tuong`.
 - Vai trò: Vụ tiếp nhận (Vụ Tiếp công dân và Xử lý đơn thư — theo chức năng) chủ trì, AI hỗ trợ kiểm tra điều kiện thụ lý, lập phiếu phân loại ⏱ ~1–2 ngày (ước tính).
 - Lưu ý nghiệp vụ: Vụ việc không thuộc thẩm quyền phải chuyển đúng cơ quan có thẩm quyền và thông báo cho người gửi đơn.
 - → Kết quả bước: Quyết định thụ lý (hoặc văn bản chuyển đơn đúng thẩm quyền).

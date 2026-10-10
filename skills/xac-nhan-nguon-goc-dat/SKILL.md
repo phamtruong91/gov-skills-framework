@@ -28,7 +28,7 @@ description: "Xác nhận nguồn gốc, quá trình và hiện trạng sử d�
 **Bước 1. Tiếp nhận yêu cầu xác nhận**
 - Làm gì: Tiếp nhận đơn/yêu cầu xác nhận nguồn gốc đất của hộ gia đình, cá nhân tại Trung tâm Phục vụ hành chính công xã (hoặc bộ phận tiếp nhận); kiểm tra tính đầy đủ của giấy tờ kèm theo; viết giấy hẹn trả kết quả.
 - Dùng input: `ho_ten_nguoi_de_nghi`, `muc_dich_xac_nhan`, `vi_tri_thua_dat`, `giay_to_lien_quan`.
-- Vai trò: Công chức Trung tâm PVHCC tiếp nhận, AI hỗ trợ kiểm tra danh mục giấy tờ, in giấy hẹn; ⏱ ~0 (ước tính),5 ngày làm việc.
+- Vai trò: Công chức Trung tâm PVHCC tiếp nhận, AI hỗ trợ kiểm tra danh mục giấy tờ, in giấy hẹn; ⏱ ~0,5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Ghi rõ mục đích xác nhận để nội dung văn bản xác nhận đáp ứng đúng yêu cầu; hồ sơ thiếu hướng dẫn bổ sung một lần.
 - → Kết quả bước: Đơn yêu cầu đã tiếp nhận + giấy hẹn trả kết quả.
 

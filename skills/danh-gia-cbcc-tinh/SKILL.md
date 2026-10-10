@@ -23,35 +23,35 @@ description: "Tổ chức đánh giá, xếp loại cán bộ, công chức, vi�
 
 **Bước 1. Ban hành hướng dẫn đánh giá**
 - Làm gì: Sở Nội vụ ban hành văn bản hướng dẫn đánh giá, xếp loại năm: tiêu chí, thang điểm, mức xếp loại, tiến độ.
-- Dùng input: `nam_danh_gia`, `tieu_chi_danh_gia`
+- Dùng input: `nam_danh_gia`, `tieu_chi_danh_gia`.
 - Vai trò: Chuyên viên Phòng Công chức, viên chức soạn; AI hỗ trợ soạn hướng dẫn ⏱ ~2 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Tiêu chí phải cụ thể, đo được; phân biệt rõ 4 mức: hoàn thành xuất sắc / tốt / hoàn thành / không hoàn thành nhiệm vụ.
 - → Kết quả bước: Văn bản hướng dẫn đánh giá năm.
 
 **Bước 2. Cá nhân tự đánh giá**
 - Làm gì: CBCCVC viết bản tự đánh giá theo tiêu chí: kết quả thực hiện nhiệm vụ, phẩm chất, năng lực.
-- Dùng input: `ban_tu_danh_gia`, `ket_qua_thuc_hien_nv`
+- Dùng input: `ban_tu_danh_gia`, `ket_qua_thuc_hien_nv`.
 - Vai trò: Cá nhân tự đánh giá; AI hỗ trợ gợi ý cấu trúc bản tự đánh giá (không viết thay nội dung) ⏱ ~2 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Tự đánh giá phải trung thực, gắn với kết quả công việc cụ thể, có minh chứng.
 - → Kết quả bước: Bản tự đánh giá của cá nhân.
 
 **Bước 3. Tập thể nhận xét, thủ trưởng đánh giá**
 - Làm gì: Tổ chức họp tập thể góp ý; thủ trưởng đơn vị nhận xét, xếp loại sơ bộ từng cá nhân.
-- Dùng input: `ban_tu_danh_gia`, `nhan_xet_danh_gia`
+- Dùng input: `ban_tu_danh_gia`, `nhan_xet_danh_gia`.
 - Vai trò: Thủ trưởng đơn vị chủ trì; AI hỗ trợ tổng hợp ý kiến ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đánh giá dân chủ nhưng phải công bằng; tỷ lệ xuất sắc không vượt khung quy định.
 - → Kết quả bước: Kết quả đánh giá, xếp loại của đơn vị.
 
 **Bước 4. Tổng hợp, thẩm định cấp tỉnh**
 - Làm gì: Sở Nội vụ tổng hợp kết quả các cơ quan, đơn vị; thẩm định các trường hợp xuất sắc, không hoàn thành; báo cáo UBND tỉnh.
-- Dùng input: Kết quả đánh giá các đơn vị
+- Dùng input: Kết quả đánh giá các đơn vị.
 - Vai trò: Chuyên viên Sở Nội vụ tổng hợp; AI hỗ trợ lập bảng tổng hợp toàn tỉnh, phát hiện bất thường ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Kiểm tra tỷ lệ các mức xếp loại; xác minh các trường hợp khiếu nại về kết quả đánh giá.
 - → Kết quả bước: Báo cáo tổng hợp đánh giá CBCCVC toàn tỉnh.
 
 **Bước 5. Thông báo kết quả, lưu hồ sơ**
 - Làm gì: Thông báo kết quả đến cá nhân; lưu hồ sơ đánh giá; sử dụng kết quả cho quy hoạch, bổ nhiệm, khen thưởng, tinh giản biên chế.
-- Dùng input: Báo cáo tổng hợp Bước 4
+- Dùng input: Báo cáo tổng hợp Bước 4.
 - Vai trò: Đơn vị thông báo; AI hỗ trợ lập danh sách theo mức xếp loại ⏱ ~2 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Cá nhân có quyền khiếu nại kết quả; hồ sơ đánh giá là tài liệu mật quản lý theo quy định.
 - → Kết quả bước: Kết quả đánh giá đã thông báo; hồ sơ lưu trữ.

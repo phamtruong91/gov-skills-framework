@@ -16,7 +16,7 @@ description: "Tiếp nhận, kiểm tra hồ sơ và đăng ký khai sinh cho tr
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
 | `to_khai` | Tờ khai đăng ký khai sinh (người đi khai ký tên) | Có |
-| `giay_chung_sinh` | Giấy chứng sinh do cơ sở y tế cấp | Có |
+| `giay_chung_sinh` | Giấy chứng sinh do cơ sở y tế cấp; trường hợp không có được thay bằng văn bản cam đoan theo quy định | Không |
 | `giay_to_nguoi_di_khai` | CCCD/hộ chiếu của người đi đăng ký khai sinh | Có |
 | `giay_to_cha_me` | Giấy tờ tùy thân của cha, mẹ trẻ (nếu có) | Không |
 | `giay_chung_nhan_ket_hon` | Giấy chứng nhận kết hôn của cha mẹ (nếu có, để xác định họ, tên, quốc tịch) | Không |
@@ -28,35 +28,35 @@ description: "Tiếp nhận, kiểm tra hồ sơ và đăng ký khai sinh cho tr
 
 **Bước 1. Tiếp nhận hồ sơ tại bộ phận một cửa**
 - Làm gì: Tiếp nhận Tờ khai đăng ký khai sinh và các giấy tờ kèm theo; kiểm tra số lượng, hình thức giấy tờ; cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả cho người dân.
-- Dùng input: `to_khai`, `giay_chung_sinh`, `giay_to_nguoi_di_khai`, `giay_to_cha_me`, `nguoi_yeu_cau`
+- Dùng input: `to_khai`, `giay_chung_sinh`, `giay_to_nguoi_di_khai`, `giay_to_cha_me`, `nguoi_yeu_cau`.
 - Vai trò: Công chức Tư pháp – Hộ tịch (hoặc công chức bộ phận một cửa) tiếp nhận. AI hỗ trợ kiểm tra danh mục giấy tờ còn thiếu và soạn Giấy tiếp nhận hồ sơ, Giấy hẹn trả kết quả ⏱ ~15 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Không được từ chối đăng ký khai sinh vì bất kỳ lý do gì; trẻ em được đăng ký khai sinh không phụ thuộc vào nơi cư trú của cha, mẹ. Trường hợp không có Giấy chứng sinh, hướng dẫn người dân làm văn bản cam đoan theo quy định.
 - → Kết quả bước: Giấy tiếp nhận hồ sơ + Giấy hẹn trả kết quả đã giao cho người dân; hồ sơ chuyển sang công chức Tư pháp – Hộ tịch thụ lý.
 
 **Bước 2. Kiểm tra tính đầy đủ, hợp lệ của hồ sơ**
 - Làm gì: Đối chiếu nội dung Tờ khai với Giấy chứng sinh và giấy tờ tùy thân; xác định đăng ký đúng hạn hay quá hạn; kiểm tra họ, tên trẻ (không đặt tên bằng số, ký tự không phải chữ), xác định quốc tịch, quê quán của trẻ.
-- Dùng input: `to_khai`, `giay_chung_sinh`, `giay_to_cha_me`, `giay_chung_nhan_ket_hon`, `ngay_sinh`, `dang_ky_qua_han`
+- Dùng input: `to_khai`, `giay_chung_sinh`, `giay_to_cha_me`, `giay_chung_nhan_ket_hon`, `ngay_sinh`, `dang_ky_qua_han`.
 - Vai trò: Công chức Tư pháp – Hộ tịch thẩm định hồ sơ. AI hỗ trợ đối chiếu chéo thông tin các giấy tờ, cảnh báo sai lệch (tên cha mẹ, ngày sinh) và soạn Phiếu yêu cầu bổ sung hồ sơ nếu thiếu ⏱ ~30 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Lỗi thường gặp: ngày sinh trên Tờ khai khác Giấy chứng sinh; họ tên cha mẹ viết tắt; thiếu xác định quốc tịch khi cha hoặc mẹ là người nước ngoài. Trường hợp quá hạn đăng ký phải ghi rõ lý do vào sổ theo dõi.
 - → Kết quả bước: Hồ sơ đạt yêu cầu để ghi sổ, hoặc Phiếu yêu cầu bổ sung/bản giải trình đã gửi người dân.
 
 **Bước 3. Ghi Sổ đăng ký khai sinh và cập nhật CSDL hộ tịch điện tử**
 - Làm gì: Ghi đầy đủ, chính xác nội dung đăng ký vào Sổ đăng ký khai sinh (sổ giấy); nhập liệu tương ứng lên cơ sở dữ liệu hộ tịch điện tử; cấp số định danh cá nhân cho trẻ theo quy định.
-- Dùng input: toàn bộ thông tin đã kiểm tra ở Bước 2 (họ tên trẻ, ngày sinh, giới tính, quốc tịch, quê quán, thông tin cha mẹ, người đi khai)
+- Dùng input: toàn bộ thông tin đã kiểm tra ở Bước 2 (họ tên trẻ, ngày sinh, giới tính, quốc tịch, quê quán, thông tin cha mẹ, người đi khai).
 - Vai trò: Công chức Tư pháp – Hộ tịch thực hiện ghi sổ và nhập liệu. AI hỗ trợ kiểm tra trùng lặp số định danh, đối chiếu sổ giấy – CSDL và soạn dự thảo Giấy khai sinh để trình ký ⏱ ~30 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Ghi sổ bằng mực bền, chữ rõ ràng, không tẩy xóa; nếu viết sai phải gạch bỏ và ghi lại theo quy định, không dùng bút xóa. Số liệu trên sổ giấy và CSDL điện tử phải khớp nhau 100%.
 - → Kết quả bước: Sổ đăng ký khai sinh đã ghi; dữ liệu đã cập nhật trên CSDL hộ tịch điện tử; dự thảo Giấy khai sinh đã soạn xong.
 
 **Bước 4. Trình Chủ tịch UBND xã ký Giấy khai sinh**
 - Làm gì: Tổng hợp hồ sơ, dự thảo Giấy khai sinh trình Chánh Văn phòng kiểm tra thể thức, sau đó trình Chủ tịch UBND xã ký, đóng dấu.
-- Dùng input: dự thảo Giấy khai sinh, hồ sơ gốc từ các bước trước
-- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra thể thức, tính hợp lệ trước khi trình (15 phút); Chủ tịch UBND xã ký Giấy khai sinh. AI hỗ trợ kiểm tra thể thức văn bản theo NĐ 30/2020/NĐ-CP và lập Tờ trình/phiếu trình ký ⏱ ~0,5 ngày làm việc chờ ký (ước tính).
+- Dùng input: dự thảo Giấy khai sinh, hồ sơ gốc từ các bước trước.
+- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra thể thức, tính hợp lệ trước khi trình (⏱ 15 phút); Chủ tịch UBND xã ký Giấy khai sinh. AI hỗ trợ kiểm tra thể thức văn bản theo NĐ 30/2020/NĐ-CP và lập Tờ trình/phiếu trình ký ⏱ ~0,5 ngày làm việc chờ ký (ước tính).
 - Lưu ý nghiệp vụ: Chỉ Chủ tịch UBND xã (hoặc người được ủy quyền hợp pháp) mới có thẩm quyền ký Giấy khai sinh; công chức không được tự ý ký thay. Kiểm tra kỹ số, ký hiệu, ngày tháng trên Giấy khai sinh trước khi đóng dấu.
 - → Kết quả bước: Giấy khai sinh đã được Chủ tịch UBND xã ký và đóng dấu UBND xã.
 
 **Bước 5. Trả kết quả, thu lệ phí và lưu hồ sơ**
 - Làm gì: Trả Giấy khai sinh (bản chính) cho người đi đăng ký theo Giấy hẹn; cấp trích lục khai sinh nếu người dân yêu cầu; thu lệ phí đăng ký hộ tịch theo quy định; lưu hồ sơ vào kho lưu trữ của Văn phòng.
-- Dùng input: Giấy khai sinh đã ký, Giấy hẹn trả kết quả, yêu cầu trích lục (nếu có)
+- Dùng input: Giấy khai sinh đã ký, Giấy hẹn trả kết quả, yêu cầu trích lục (nếu có).
 - Vai trò: Công chức Tư pháp – Hộ tịch (hoặc bộ phận một cửa) trả kết quả và thu phí. AI hỗ trợ lập Sổ theo dõi trả kết quả, biên lai thu lệ phí và danh mục hồ sơ lưu trữ ⏱ ~15 phút/hồ sơ (ước tính).
 - Lưu ý nghiệp vụ: Trả đúng người có tên trên Giấy hẹn hoặc người được ủy quyền hợp pháp. Lệ phí thu đúng mức quy định của HĐND tỉnh, cấp biên lai đầy đủ. Hồ sơ lưu trữ phải đánh số, sắp xếp theo năm để tra cứu khi cấp trích lục sau này.
 - → Kết quả bước: Người dân đã nhận Giấy khai sinh; lệ phí đã thu và nộp ngân sách; hồ sơ lưu trữ đầy đủ.

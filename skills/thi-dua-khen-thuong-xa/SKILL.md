@@ -25,36 +25,36 @@ description: "Xét khen thưởng tập thể, cá nhân có thành tích; đề
 
 **Bước 1. Tiếp nhận đề nghị khen thưởng**
 - Làm gì: Tiếp nhận hồ sơ đề nghị khen thưởng từ các thôn, đơn vị; kiểm tra thành phần hồ sơ (tờ trình đề nghị, báo cáo thành tích, biên bản bình xét).
-- Dùng input: `doi_tuong_de_nghi`, `hinh_thuc_khen_thuong`, `tom_tat_thanh_tich`, `ho_so_kem_theo`
-- Vai trò: Công chức Văn phòng phụ trách thi đua – khen thưởng tiếp nhận; AI hỗ trợ lập danh sách theo dõi, kiểm tra thành phần hồ sơ — 0,5 ngày làm việc
+- Dùng input: `doi_tuong_de_nghi`, `hinh_thuc_khen_thuong`, `tom_tat_thanh_tich`, `ho_so_kem_theo`.
+- Vai trò: Công chức Văn phòng phụ trách thi đua – khen thưởng tiếp nhận; AI hỗ trợ lập danh sách theo dõi, kiểm tra thành phần hồ sơ ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Hồ sơ thiếu thì yêu cầu bổ sung một lần, có văn bản; không nhận hồ sơ quá thời hạn đợt xét đã thông báo.
 - → Kết quả bước: Danh sách hồ sơ đề nghị khen thưởng, phân loại đủ/thiếu thành phần.
 
 **Bước 2. Thẩm định thành tích, đối chiếu tiêu chuẩn**
 - Làm gì: Thẩm định tính xác thực của thành tích; đối chiếu với tiêu chuẩn của từng hình thức khen thưởng theo NĐ 152/2025/NĐ-CP; loại hồ sơ không đủ tiêu chuẩn.
-- Dùng input: `tom_tat_thanh_tich`, `tieu_chuan_doi_chieu`, `ho_so_kem_theo`
-- Vai trò: Công chức phụ trách thi đua – khen thưởng thẩm định; AI hỗ trợ đối chiếu tiêu chuẩn, lập bảng thẩm định — 1 ngày làm việc
+- Dùng input: `tom_tat_thanh_tich`, `tieu_chuan_doi_chieu`, `ho_so_kem_theo`.
+- Vai trò: Công chức phụ trách thi đua – khen thưởng thẩm định; AI hỗ trợ đối chiếu tiêu chuẩn, lập bảng thẩm định ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Thành tích phải cụ thể, có minh chứng, trong thời gian xét; không xét khen thưởng cho đối tượng đang bị kỷ luật hoặc có vi phạm chưa khắc phục.
 - → Kết quả bước: Bảng thẩm định: đủ tiêu chuẩn / không đủ tiêu chuẩn + lý do từng trường hợp.
 
 **Bước 3. Họp Hội đồng thi đua – khen thưởng xã**
 - Làm gì: Chuẩn bị tài liệu, triệu tập họp Hội đồng thi đua – khen thưởng xã; Hội đồng thảo luận, bỏ phiếu/biểu quyết danh sách trình khen thưởng; lập biên bản họp.
-- Dùng input: Bảng thẩm định ở Bước 2, `doi_tuong_de_nghi`
-- Vai trò: Chủ tịch Hội đồng (lãnh đạo UBND xã) chủ trì; công chức phụ trách làm thư ký; AI hỗ trợ soạn tài liệu họp, dự thảo biên bản — 0,5 ngày làm việc
+- Dùng input: Bảng thẩm định ở Bước 2, `doi_tuong_de_nghi`.
+- Vai trò: Chủ tịch Hội đồng (lãnh đạo UBND xã) chủ trì; công chức phụ trách làm thư ký; AI hỗ trợ soạn tài liệu họp, dự thảo biên bản ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Bảo đảm công khai, dân chủ; biên bản ghi rõ kết quả biểu quyết từng trường hợp; thành viên Hội đồng có liên quan đến đối tượng xét thì không tham gia biểu quyết trường hợp đó.
 - → Kết quả bước: Biên bản họp Hội đồng + danh sách thống nhất trình khen thưởng.
 
 **Bước 4. Trình quyết định khen thưởng**
 - Làm gì: Soạn tờ trình + dự thảo quyết định khen thưởng trình Chủ tịch UBND xã ký (thuộc thẩm quyền xã); hoặc lập hồ sơ đề nghị cấp trên khen thưởng (vượt thẩm quyền).
-- Dùng input: Biên bản họp Hội đồng, `hinh_thuc_khen_thuong`
-- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra; Chủ tịch UBND xã ký quyết định; AI hỗ trợ soạn tờ trình, dự thảo quyết định đúng thể thức — 0,5 ngày làm việc
+- Dùng input: Biên bản họp Hội đồng, `hinh_thuc_khen_thuong`.
+- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra; Chủ tịch UBND xã ký quyết định; AI hỗ trợ soạn tờ trình, dự thảo quyết định đúng thể thức ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Phân biệt rõ thẩm quyền: Giấy khen của Chủ tịch UBND xã do Chủ tịch UBND xã quyết định; hình thức cao hơn thì đề nghị cấp trên, xã không tự quyết.
 - → Kết quả bước: Quyết định khen thưởng đã ký (hoặc hồ sơ đề nghị cấp trên đã gửi).
 
 **Bước 5. Công bố, trao thưởng và lưu hồ sơ**
 - Làm gì: Công bố quyết định khen thưởng; tổ chức trao thưởng (lồng ghép hội nghị phù hợp); cập nhật vào hồ sơ thi đua – khen thưởng; tổng hợp báo cáo.
-- Dùng input: Quyết định khen thưởng, `can_bo_tham_dinh`
-- Vai trò: Công chức phụ trách thi đua – khen thưởng tổ chức thực hiện; AI hỗ trợ lập danh sách trao thưởng, mẫu giấy chứng nhận — 1 ngày làm việc
+- Dùng input: Quyết định khen thưởng, `can_bo_tham_dinh`.
+- Vai trò: Công chức phụ trách thi đua – khen thưởng tổ chức thực hiện; AI hỗ trợ lập danh sách trao thưởng, mẫu giấy chứng nhận ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Trao thưởng trang trọng, đúng đối tượng; lưu đầy đủ: tờ trình, báo cáo thành tích, biên bản họp, quyết định; cập nhật sổ theo dõi.
 - → Kết quả bước: Lễ trao thưởng hoàn thành; hồ sơ khen thưởng lưu đầy đủ; báo cáo tổng kết.
 
@@ -132,7 +132,7 @@ CHỦ TỊCH ỦY BAN NHÂN DÂN XÃ A
 
 Căn cứ Luật Tổ chức chính quyền địa phương số 72/2025/QH15;
 Căn cứ Nghị định số 152/2025/NĐ-CP ngày 14/6/2025 của Chính phủ quy định về thi đua, khen thưởng;
-Xét đề nghị của Hội đồng Thi đua – Khen thưởng xã A tại Biên bản họp ngày ...,
+Xét đề nghị của Hội đồng Thi đua – Khen thưởng xã A tại Biên bản họp ngày ..,
 
 QUYẾT ĐỊNH:
 

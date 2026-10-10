@@ -29,48 +29,48 @@ description: "Lập danh mục và niêm yết, công khai TTHC thuộc thẩm q
 **Bước 1. Rà soát quyết định công bố và lập danh mục TTHC thuộc thẩm quyền cấp xã**
 
 - Làm gì: Thu thập các quyết định công bố TTHC còn hiệu lực của cơ quan có thẩm quyền; lọc ra các TTHC thuộc thẩm quyền giải quyết của UBND cấp xã; lập danh mục TTHC chuẩn (mã TTHC, tên TTHC, lĩnh vực, cơ quan thực hiện).
-- Dùng input: `quyet_dinh_cong_bo`, `danh_muc_tthc_hien_hanh`
-- Vai trò: Công chức Trung tâm PVHCC (đầu mối) phối hợp công chức Văn phòng HĐND và UBND xã. AI hỗ trợ: đối chiếu danh mục hiện hành với quyết định công bố mới, chỉ ra TTHC thêm mới/sửa đổi/bãi bỏ. Thời gian ước tính: 1–2 ngày làm việc.
+- Dùng input: `quyet_dinh_cong_bo`, `danh_muc_tthc_hien_hanh`.
+- Vai trò: Công chức Trung tâm PVHCC (đầu mối) phối hợp công chức Văn phòng HĐND và UBND xã. AI hỗ trợ: đối chiếu danh mục hiện hành với quyết định công bố mới, chỉ ra TTHC thêm mới/sửa đổi/bãi bỏ. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Chỉ niêm yết TTHC đã được cơ quan có thẩm quyền công bố và còn hiệu lực; tuyệt đối không tự ý đưa TTHC chưa công bố vào danh mục niêm yết.
 - → Kết quả bước: Danh mục TTHC thuộc thẩm quyền cấp xã đã được rà soát, đối chiếu với quyết định công bố.
 
 **Bước 2. Chuẩn hóa nội dung công khai của từng TTHC**
 
 - Làm gì: Đối với từng TTHC trong danh mục, chuẩn hóa đầy đủ các nội dung công khai: tên TTHC; cơ quan thực hiện; thành phần hồ sơ; số lượng hồ sơ; thời hạn giải quyết; phí, lệ phí (nếu có); mẫu đơn, tờ khai; căn cứ pháp lý; quy trình các bước thực hiện.
-- Dùng input: `noi_dung_tung_tthc`, `quyet_dinh_cong_bo`
-- Vai trò: Công chức Trung tâm PVHCC biên soạn; công chức đầu mối các phòng chuyên môn (X1, X2, X3) rà soát nội dung thuộc lĩnh vực mình phụ trách. AI hỗ trợ: kiểm tra tính đầy đủ các trường nội dung, cảnh báo khi thiếu thành phần hồ sơ hoặc căn cứ pháp lý. Thời gian ước tính: 2–3 ngày làm việc.
+- Dùng input: `noi_dung_tung_tthc`, `quyet_dinh_cong_bo`.
+- Vai trò: Công chức Trung tâm PVHCC biên soạn; công chức đầu mối các phòng chuyên môn (X1, X2, X3) rà soát nội dung thuộc lĩnh vực mình phụ trách. AI hỗ trợ: kiểm tra tính đầy đủ các trường nội dung, cảnh báo khi thiếu thành phần hồ sơ hoặc căn cứ pháp lý. ⏱ 2–3 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Nội dung công khai phải trích đúng nguyên văn quyết định công bố; phí, lệ phí ghi đúng mức thu hiện hành; không tự ý diễn giải làm thay đổi nội dung TTHC.
 - → Kết quả bước: Bộ nội dung công khai chuẩn của từng TTHC, sẵn sàng niêm yết.
 
 **Bước 3. Trình duyệt danh mục và nội dung niêm yết**
 
 - Làm gì: Tổng hợp danh mục TTHC và bộ nội dung công khai thành tờ trình/hồ sơ trình; lấy ý kiến các phòng chuyên môn liên quan; trình Phó Chủ tịch UBND xã phụ trách kiểm tra và Chủ tịch UBND xã phê duyệt trước khi niêm yết.
-- Dùng input: `danh_muc_tthc_hien_hanh`, `noi_dung_tung_tthc`
-- Vai trò: Công chức Trung tâm PVHCC lập hồ sơ trình; Chánh Văn phòng HĐND và UBND (Ông Phạm Văn C) thẩm tra thể thức; Phó Chủ tịch UBND xã phụ trách (Bà Trần Thị B) kiểm tra; Chủ tịch UBND xã (Ông Nguyễn Văn A) phê duyệt. AI hỗ trợ: soạn tờ trình, tổng hợp ý kiến góp ý. Thời gian ước tính: 2–3 ngày làm việc.
+- Dùng input: `danh_muc_tthc_hien_hanh`, `noi_dung_tung_tthc`.
+- Vai trò: Công chức Trung tâm PVHCC lập hồ sơ trình; Chánh Văn phòng HĐND và UBND (Ông Phạm Văn C) thẩm tra thể thức; Phó Chủ tịch UBND xã phụ trách (Bà Trần Thị B) kiểm tra; Chủ tịch UBND xã (Ông Nguyễn Văn A) phê duyệt. AI hỗ trợ: soạn tờ trình, tổng hợp ý kiến góp ý. ⏱ 2–3 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Không niêm yết, công khai khi chưa có phê duyệt của Chủ tịch UBND xã; mọi thay đổi sau phê duyệt phải trình lại.
 - → Kết quả bước: Danh mục và nội dung TTHC đã được Chủ tịch UBND xã phê duyệt niêm yết, công khai.
 
 **Bước 4. Tổ chức niêm yết, công khai trên các kênh**
 
 - Làm gì: Niêm yết danh mục và nội dung TTHC tại bảng niêm yết của Trung tâm PVHCC (nơi dễ thấy, dễ đọc); đăng tải đầy đủ trên cổng/trang thông tin điện tử của xã; tạo mã QR tra cứu nhanh từng TTHC đặt tại quầy tiếp nhận.
-- Dùng input: `kenh_cong_khai`, `noi_dung_tung_tthc`
-- Vai trò: Công chức Trung tâm PVHCC thực hiện niêm yết; công chức phụ trách trang thông tin điện tử đăng tải. AI hỗ trợ: tạo mã QR cho từng TTHC, kiểm tra hiển thị trên trang thông tin điện tử. Thời gian ước tính: 1–2 ngày làm việc.
+- Dùng input: `kenh_cong_khai`, `noi_dung_tung_tthc`.
+- Vai trò: Công chức Trung tâm PVHCC thực hiện niêm yết; công chức phụ trách trang thông tin điện tử đăng tải. AI hỗ trợ: tạo mã QR cho từng TTHC, kiểm tra hiển thị trên trang thông tin điện tử. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Nội dung niêm yết tại trụ sở và trên cổng/trang thông tin điện tử phải thống nhất; bảng niêm yết phải cập nhật ngay khi có thay đổi, không để nội dung cũ gây nhầm lẫn.
 - → Kết quả bước: TTHC được niêm yết, công khai đầy đủ trên tất cả các kênh; có biên bản/xác nhận niêm yết.
 
 **Bước 5. Theo dõi, cập nhật khi TTHC thay đổi hoặc bãi bỏ**
 
 - Làm gì: Thường xuyên theo dõi các quyết định công bố mới của cơ quan có thẩm quyền; khi có TTHC mới/sửa đổi/bãi bỏ, thực hiện lại các bước 1–4 đối với nội dung thay đổi; gỡ bỏ kịp thời nội dung TTHC đã bãi bỏ khỏi mọi kênh niêm yết, công khai.
-- Dùng input: `thong_bao_thay_doi`, `quyet_dinh_cong_bo`, `danh_muc_tthc_hien_hanh`
-- Vai trò: Công chức Trung tâm PVHCC theo dõi và đề xuất cập nhật; Phó Chủ tịch UBND xã phụ trách kiểm tra; Chủ tịch UBND xã phê duyệt nội dung cập nhật. AI hỗ trợ: cảnh báo khi phát hiện quyết định công bố mới liên quan, đối chiếu nội dung cũ/mới. Thời gian ước tính: cập nhật trong vòng 05 ngày làm việc kể từ khi quyết định công bố có hiệu lực.
+- Dùng input: `thong_bao_thay_doi`, `quyet_dinh_cong_bo`, `danh_muc_tthc_hien_hanh`.
+- Vai trò: Công chức Trung tâm PVHCC theo dõi và đề xuất cập nhật; Phó Chủ tịch UBND xã phụ trách kiểm tra; Chủ tịch UBND xã phê duyệt nội dung cập nhật. AI hỗ trợ: cảnh báo khi phát hiện quyết định công bố mới liên quan, đối chiếu nội dung cũ/mới. ⏱ cập nhật trong vòng 05 ngày làm việc kể từ khi quyết định công bố có hiệu lực.
 - Lưu ý nghiệp vụ: TTHC bãi bỏ phải được gỡ khỏi niêm yết ngay, tránh người dân nộp hồ sơ theo TTHC không còn hiệu lực; lưu hồ sơ các lần cập nhật để tra cứu khi cần.
 - → Kết quả bước: Danh mục niêm yết luôn đồng bộ với quyết định công bố hiện hành; hồ sơ cập nhật được lưu trữ.
 
 **Bước 6. Kiểm tra định kỳ và tiếp thu phản ánh của người dân**
 
 - Làm gì: Kiểm tra định kỳ hằng quý việc niêm yết, công khai (đầy đủ, đúng nội dung, dễ tra cứu); tiếp nhận phản ánh của người dân, tổ chức về khó khăn khi tra cứu; đề xuất cải tiến hình thức niêm yết.
-- Dùng input: `phan_hoi_nguoi_dan`, `kenh_cong_khai`
-- Vai trò: Công chức Trung tâm PVHCC kiểm tra, tổng hợp phản ánh. AI hỗ trợ: tổng hợp phản ánh theo nhóm vấn đề, gợi ý cải tiến hình thức công khai. Thời gian ước tính: 0,5 ngày làm việc/lần kiểm tra.
+- Dùng input: `phan_hoi_nguoi_dan`, `kenh_cong_khai`.
+- Vai trò: Công chức Trung tâm PVHCC kiểm tra, tổng hợp phản ánh. AI hỗ trợ: tổng hợp phản ánh theo nhóm vấn đề, gợi ý cải tiến hình thức công khai. ⏱ 0,5 ngày (ước tính) làm việc/lần kiểm tra.
 - Lưu ý nghiệp vụ: Mọi phản ánh của người dân về nội dung niêm yết phải được kiểm tra, trả lời; kết quả kiểm tra định kỳ báo cáo Phó Chủ tịch UBND xã phụ trách.
 - → Kết quả bước: Biên bản kiểm tra định kỳ niêm yết, công khai TTHC; danh mục cải tiến (nếu có).
 
@@ -87,7 +87,7 @@ flowchart TD
     B5 --> B6["Bước 6: Kiểm tra định kỳ và tiếp thu phản ánh của người dân"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Danh mục TTHC thuộc thẩm quyền cấp xã (đã phê duyệt).
 - Bộ nội dung công khai chi tiết từng TTHC (thành phần hồ sơ, thời hạn, phí/lệ phí, mẫu đơn, căn cứ pháp lý).
@@ -126,7 +126,7 @@ Sản phẩm chính: **Danh mục thủ tục hành chính thuộc thẩm quyề
 > 8. Dấu, chữ ký số của cơ quan, tổ chức.
 > 9. Nơi nhận (kèm Phụ lục nếu có).
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. Danh mục chỉ gồm TTHC đã được cơ quan có thẩm quyền công bố và còn hiệu lực; có ghi rõ căn cứ phê duyệt và ngày cập nhật.
 2. Mỗi TTHC có đầy đủ 8 nội dung công khai (tên, cơ quan thực hiện, thành phần hồ sơ, thời hạn, phí/lệ phí, mẫu đơn, căn cứ pháp lý, quy trình).
@@ -138,7 +138,7 @@ Sản phẩm chính: **Danh mục thủ tục hành chính thuộc thẩm quyề
 8. Có biên bản/xác nhận niêm yết và hồ sơ lưu các lần cập nhật.
 9. Kiểm tra định kỳ hằng quý có biên bản; phản ánh của người dân được tiếp thu, xử lý.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
 **Input mẫu:**
@@ -200,12 +200,12 @@ Nguyễn Văn A
 
 *(Dữ liệu trên là giả lập 100% phục vụ minh họa.)*
 
-## Human gate
+## 8. Human gate
 
 - Công chức Trung tâm PVHCC lập danh mục, chuẩn hóa nội dung → công chức đầu mối các phòng chuyên môn (X1, X2, X3) rà soát nội dung thuộc lĩnh vực mình phụ trách → Chánh Văn phòng HĐND và UBND (Ông Phạm Văn C) thẩm tra thể thức → Phó Chủ tịch UBND xã phụ trách (Bà Trần Thị B) kiểm tra → Chủ tịch UBND xã (Ông Nguyễn Văn A) phê duyệt trước khi niêm yết, công khai.
 - Mọi cập nhật (thêm mới, sửa đổi, bãi bỏ TTHC) đều phải trình phê duyệt lại theo quy trình trên; không tự ý cập nhật niêm yết.
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI KHÔNG ra quyết định hành chính thay người có thẩm quyền; không tự quyết định đưa TTHC vào hoặc gỡ TTHC khỏi danh mục niêm yết.
 - AI không tự công bố, tự niêm yết TTHC khi chưa có phê duyệt của Chủ tịch UBND xã.
@@ -213,7 +213,7 @@ Nguyễn Văn A
 - AI không dùng văn bản đã hết hiệu lực (quyết định công bố đã bị thay thế, TTHC đã bãi bỏ) làm căn cứ niêm yết.
 - AI không tự ý diễn giải làm thay đổi nội dung TTHC so với quyết định công bố.
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính (quy định về công khai, minh bạch TTHC).
 - Văn bản 7216/VPCP-KSTT ngày 04/8/2025 của Văn phòng Chính phủ hướng dẫn tổ chức, hoạt động của Trung tâm Phục vụ hành chính công trong mô hình chính quyền địa phương 2 cấp.

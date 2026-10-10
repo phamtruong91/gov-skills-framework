@@ -25,7 +25,7 @@ TTHC; công bố, công khai TTHC trên Cơ sở dữ liệu quốc gia; xử l�
 
 - Làm gì: Rà soát quy định TTHC trong dự thảo văn bản trình Chính phủ; đánh giá sự cần thiết, tính hợp lý, chi phí tuân thủ; yêu cầu cắt giảm, đơn giản hóa.
 - Dùng input: `du_thao_vb`.
-- Vai trò: Chuyên viên Cục Kiểm soát TTHC đánh giá (AI hỗ trợ đối chiếu với danh mục TTHC hiện hành, tính chi phí tuân thủ — 4 giờ); Cục trưởng (bà Vũ Thị FF) ký ý kiến đánh giá.
+- Vai trò: Chuyên viên Cục Kiểm soát TTHC đánh giá (AI hỗ trợ đối chiếu với danh mục TTHC hiện hành, tính chi phí tuân thủ ⏱ 4 giờ (ước tính)); Cục trưởng (bà Vũ Thị FF) ký ý kiến đánh giá.
 - Lưu ý nghiệp vụ: Kiên quyết không để phát sinh TTHC mới không cần thiết; mọi TTHC phải có căn cứ pháp lý rõ ràng.
 - → Kết quả bước: Ý kiến đánh giá tác động TTHC (đồng ý/yêu cầu sửa).
 
@@ -33,7 +33,7 @@ TTHC; công bố, công khai TTHC trên Cơ sở dữ liệu quốc gia; xử l�
 
 - Làm gì: Rà soát danh mục TTHC; đề xuất bãi bỏ, đơn giản hóa (cắt giảm thành phần hồ sơ, thời gian giải quyết, chi phí); trình Thủ tướng phê duyệt phương án.
 - Dùng input: `danh_muc_tthc`, `bao_cao_bo_nganh`.
-- Vai trò: Cục Kiểm soát TTHC chủ trì, phối hợp bộ/ngành (AI hỗ trợ thống kê TTHC trùng lặp, đề xuất gộp — 4 giờ); Thứ trưởng/Chủ nhiệm VPCP trình Thủ tướng.
+- Vai trò: Cục Kiểm soát TTHC chủ trì, phối hợp bộ/ngành (AI hỗ trợ thống kê TTHC trùng lặp, đề xuất gộp ⏱ 4 giờ (ước tính)); Thứ trưởng/Chủ nhiệm VPCP trình Thủ tướng.
 - Lưu ý nghiệp vụ: Ưu tiên TTHC liên quan người dân, doanh nghiệp; gắn với cung cấp dịch vụ công trực tuyến.
 - → Kết quả bước: Phương án đơn giản hóa TTHC trình Thủ tướng phê duyệt.
 
@@ -41,7 +41,7 @@ TTHC; công bố, công khai TTHC trên Cơ sở dữ liệu quốc gia; xử l�
 
 - Làm gì: Tiếp nhận quyết định công bố TTHC của bộ/ngành, địa phương; kiểm tra; cập nhật Cơ sở dữ liệu quốc gia về TTHC; công khai trên Cổng Dịch vụ công quốc gia.
 - Dùng input: Quyết định công bố TTHC.
-- Vai trò: Cục Kiểm soát TTHC vận hành CSDL (AI hỗ trợ kiểm tra tính nhất quán dữ liệu — 2 giờ).
+- Vai trò: Cục Kiểm soát TTHC vận hành CSDL (AI hỗ trợ kiểm tra tính nhất quán dữ liệu ⏱ 2 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Dữ liệu phải chính xác, cập nhật kịp thời; là căn cứ duy nhất để giải quyết TTHC cho dân.
 - → Kết quả bước: TTHC được công khai trên Cổng Dịch vụ công quốc gia.
 
@@ -49,7 +49,7 @@ TTHC; công bố, công khai TTHC trên Cơ sở dữ liệu quốc gia; xử l�
 
 - Làm gì: Tiếp nhận phản ánh, kiến nghị qua Cổng tham vấn; chuyển cơ quan có thẩm quyền xử lý; theo dõi, đôn đốc; công khai kết quả.
 - Dùng input: `phan_anh_kien_nghi`.
-- Vai trò: Cục Kiểm soát TTHC xử lý (AI hỗ trợ phân loại phản ánh, theo dõi hạn — 2 giờ).
+- Vai trò: Cục Kiểm soát TTHC xử lý (AI hỗ trợ phân loại phản ánh, theo dõi hạn ⏱ 2 giờ (ước tính)).
 - Lưu ý nghiệp vụ: Phản ánh phải được xử lý dứt điểm, công khai; là nguồn rà soát, đơn giản hóa TTHC.
 - → Kết quả bước: Văn bản xử lý phản ánh + báo cáo tổng hợp.
 

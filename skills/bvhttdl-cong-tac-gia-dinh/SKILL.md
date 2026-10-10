@@ -25,28 +25,28 @@ kiểm tra công tác gia đình tại các địa phương.
 **Bước 1. Đánh giá thực trạng công tác gia đình**
 - Làm gì: Tổng hợp số liệu về hôn nhân, gia đình, bạo lực gia đình, gia đình văn hóa toàn quốc; phân tích nguyên nhân.
 - Dùng input: `so_lieu_hien_trang`.
-- Vai trò: Chuyên viên Vụ Gia đình — AI hỗ trợ tổng hợp số liệu, phân tích xu hướng (2 giờ).
+- Vai trò: Chuyên viên Vụ Gia đình — AI hỗ trợ tổng hợp số liệu, phân tích xu hướng (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Số liệu bạo lực gia đình phải từ nguồn chính thức, thận trọng khi công bố số liệu nhạy cảm.
 - → Kết quả bước: Báo cáo thực trạng công tác gia đình.
 
 **Bước 2. Xây dựng chiến lược, chương trình**
 - Làm gì: Xác định quan điểm, mục tiêu, nhiệm vụ, giải pháp: phòng chống bạo lực gia đình, giáo dục đạo đức lối sống trong gia đình, xây dựng gia đình văn hóa.
 - Dùng input: `noi_dung`, `muc_tieu`, `don_vi_phoi_hop`.
-- Vai trò: Vụ Gia đình chủ trì — AI hỗ trợ soạn dự thảo chiến lược, rà soát tính khả thi (2–3 giờ).
+- Vai trò: Vụ Gia đình chủ trì — AI hỗ trợ soạn dự thảo chiến lược, rà soát tính khả thi (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Giải pháp phải gắn với vai trò của Hội Liên hiệp Phụ nữ, Đoàn Thanh niên, chính quyền địa phương.
 - → Kết quả bước: Dự thảo chiến lược/chương trình công tác gia đình.
 
 **Bước 3. Lấy ý kiến và hoàn thiện**
 - Làm gì: Lấy ý kiến bộ, ngành, địa phương, tổ chức xã hội; tổng hợp tiếp thu.
 - Dùng input: Dự thảo chiến lược.
-- Vai trò: Vụ Gia đình — AI hỗ trợ tổng hợp ý kiến thành bảng tiếp thu (1 giờ).
+- Vai trò: Vụ Gia đình — AI hỗ trợ tổng hợp ý kiến thành bảng tiếp thu (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Chú trọng ý kiến của các tổ chức đại diện phụ nữ, trẻ em.
 - → Kết quả bước: Dự thảo hoàn chỉnh trình phê duyệt.
 
 **Bước 4. Trình phê duyệt, hướng dẫn triển khai**
 - Làm gì: Trình Thủ tướng/Chính phủ phê duyệt; hướng dẫn địa phương xây dựng kế hoạch; kiểm tra, sơ kết, tổng kết định kỳ.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Vụ trưởng → Thứ trưởng → Bộ trưởng ký trình — AI hỗ trợ soạn văn bản hướng dẫn, khung báo cáo địa phương (1 giờ).
+- Vai trò: Vụ trưởng → Thứ trưởng → Bộ trưởng ký trình — AI hỗ trợ soạn văn bản hướng dẫn, khung báo cáo địa phương (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Có cơ chế hỗ trợ nạn nhân bạo lực gia đình (đường dây nóng, cơ sở trợ giúp) trong kế hoạch triển khai.
 - → Kết quả bước: Chiến lược được phê duyệt + văn bản hướng dẫn địa phương.
 

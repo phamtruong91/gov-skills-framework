@@ -23,21 +23,21 @@ Hằng năm, khi xây dựng dự toán NSNN năm sau: hướng dẫn các bộ,
 **Bước 1. Ban hành văn bản hướng dẫn lập dự toán**
 - Làm gì: Soạn Thông tư/Công văn hướng dẫn: biểu mẫu, định mức, thời hạn gửi dự toán của bộ/ngành/địa phương.
 - Dùng input: `nam_du_toan`, `dinh_huong_chinh_tri`.
-- Vai trò: Vụ trưởng Vụ Ngân sách nhà nước — AI hỗ trợ soạn văn bản hướng dẫn, bộ biểu mẫu (2–3 ngày).
+- Vai trò: Vụ trưởng Vụ Ngân sách nhà nước — AI hỗ trợ soạn văn bản hướng dẫn, bộ biểu mẫu (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Hướng dẫn phải ban hành kịp thời để các đơn vị có đủ thời gian lập dự toán.
 - → Kết quả bước: Văn bản hướng dẫn lập dự toán NSNN.
 
 **Bước 2. Dự báo thu ngân sách**
 - Làm gì: Dự báo các khoản thu (thuế, phí, lệ phí, thu từ dầu thô, thu từ đất...) theo kịch bản kinh tế vĩ mô.
 - Dùng input: `du_bao_kinh_te`.
-- Vai trò: Tổng cục Thuế, Tổng cục Hải quan phối hợp Vụ Ngân sách — AI hỗ trợ mô hình dự báo theo kịch bản, so sánh với thực hiện năm trước (5–7 ngày).
+- Vai trò: Tổng cục Thuế, Tổng cục Hải quan phối hợp Vụ Ngân sách — AI hỗ trợ mô hình dự báo theo kịch bản, so sánh với thực hiện năm trước (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Dự báo thận trọng; tính đến chính sách thuế mới có hiệu lực; phân tích rủi ro (giá dầu, thiên tai).
 - → Kết quả bước: Phương án dự báo thu NSNN.
 
 **Bước 3. Tổng hợp, cân đối dự toán chi**
 - Làm gì: Tổng hợp dự toán chi của bộ/ngành/địa phương; cân đối chi thường xuyên, chi đầu tư phát triển, chi trả nợ, dự phòng.
 - Dùng input: `du_toan_bo_nganh`, `du_toan_dia_phuong`.
-- Vai trò: Vụ Ngân sách nhà nước chủ trì — AI hỗ trợ đối chiếu số liệu, phát hiện chênh lệch bất thường giữa các đơn vị (5–7 ngày).
+- Vai trò: Vụ Ngân sách nhà nước chủ trì — AI hỗ trợ đối chiếu số liệu, phát hiện chênh lệch bất thường giữa các đơn vị (⏱ 5–7 ngày).
 - Lưu ý nghiệp vụ: Ưu tiên chi cho con người, an sinh xã hội; kiểm soát bội chi trong giới hạn Quốc hội cho phép.
 - → Kết quả bước: Phương án phân bổ dự toán chi.
 
@@ -51,7 +51,7 @@ Hằng năm, khi xây dựng dự toán NSNN năm sau: hướng dẫn các bộ,
 **Bước 5. Trình Chính phủ, Quốc hội**
 - Làm gì: Lập Tờ trình Chính phủ; sau khi Chính phủ thông qua, trình Quốc hội quyết định dự toán NSNN (kỳ họp cuối năm).
 - Dùng input: Phương án hoàn chỉnh.
-- Vai trò: Bộ trưởng Bộ Tài chính ký Tờ trình — AI hỗ trợ soạn báo cáo thuyết trình, bộ slide trình bày (2–3 ngày).
+- Vai trò: Bộ trưởng Bộ Tài chính ký Tờ trình — AI hỗ trợ soạn báo cáo thuyết trình, bộ slide trình bày (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Kèm báo cáo đánh giá thực hiện NSNN năm hiện hành; giải trình chất vấn của đại biểu Quốc hội.
 - → Kết quả bước: Nghị quyết của Quốc hội về dự toán NSNN.
 

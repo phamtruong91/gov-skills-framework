@@ -27,35 +27,35 @@ description: "Bảo đảm an toàn thông tin mạng cho hệ thống thông ti
 
 **Bước 1. Rà soát, xác định cấp độ an toàn hệ thống thông tin**
 - Làm gì: Rà soát toàn bộ hệ thống thông tin của cơ quan nhà nước cấp tỉnh, xã; phân loại, đề xuất cấp độ an toàn cho từng hệ thống; trình phê duyệt.
-- Dùng input: `danh_sach_he_thong`, `cap_do_an_toan`
+- Dùng input: `danh_sach_he_thong`, `cap_do_an_toan`.
 - Vai trò: Chuyên viên Phòng Chuyển đổi số (hoặc đơn vị chuyên trách ATTT) rà soát, lập hồ sơ đề xuất cấp độ; Trưởng phòng kiểm tra; Giám đốc Sở phê duyệt; AI hỗ trợ lập bảng rà soát, đối chiếu tiêu chí phân loại ⏱ ~10 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Cấp độ an toàn phải tương xứng với tính chất, mức độ quan trọng của hệ thống và dữ liệu; hệ thống chưa xác định cấp độ không được chủ quan bỏ qua.
 - → Kết quả bước: Danh sách hệ thống thông tin kèm cấp độ an toàn đã phê duyệt.
 
 **Bước 2. Triển khai giám sát, cảnh báo sớm**
 - Làm gì: Triển khai giám sát an toàn thông tin cho các hệ thống trọng yếu; tiếp nhận, phân tích cảnh báo; thông báo nguy cơ đến đơn vị vận hành.
-- Dùng input: Danh sách hệ thống ở Bước 1, cảnh báo từ cơ quan chuyên trách
+- Dùng input: Danh sách hệ thống ở Bước 1, cảnh báo từ cơ quan chuyên trách.
 - Vai trò: Đơn vị chuyên trách ATTT (hoặc đơn vị được thuê) giám sát 24/7; chuyên viên Sở tổng hợp, thông báo; AI hỗ trợ tổng hợp log cảnh báo, soạn thông báo nguy cơ ⏱ thường xuyên (ước tính)
 - Lưu ý nghiệp vụ: Cảnh báo phải kịp thời đến đúng đầu mối kỹ thuật của đơn vị vận hành; phân loại mức độ nguy cơ để ưu tiên xử lý.
 - → Kết quả bước: Báo cáo giám sát ATTT định kỳ + thông báo cảnh báo nguy cơ.
 
 **Bước 3. Ứng cứu, xử lý sự cố mất an toàn thông tin**
 - Làm gì: Khi xảy ra sự cố: khoanh vùng, ngăn chặn, khắc phục, khôi phục hệ thống; điều tra nguyên nhân; báo cáo cấp trên theo quy định.
-- Dùng input: `su_co_da_xay_ra`, `phuong_an_ung_cuu`, `danh_sach_he_thong`
+- Dùng input: `su_co_da_xay_ra`, `phuong_an_ung_cuu`, `danh_sach_he_thong`.
 - Vai trò: Đội ứng cứu sự cố của tỉnh triển khai xử lý; chuyên viên Sở điều phối, tổng hợp báo cáo; Lãnh đạo Sở chỉ đạo; AI hỗ trợ soạn biên bản sự cố, checklist các bước ứng cứu, dự thảo báo cáo ⏱ ngay khi xảy ra sự cố (ước tính)
 - Lưu ý nghiệp vụ: Ưu tiên ngăn chặn lan rộng và bảo toàn chứng cứ; sự cố nghiêm trọng phải báo cáo Bộ KH&CN và UBND tỉnh kịp thời; không che giấu sự cố.
 - → Kết quả bước: Biên bản xử lý sự cố + báo cáo sự cố mất ATTT.
 
 **Bước 4. Tổ chức diễn tập ứng cứu sự cố**
 - Làm gì: Xây dựng kịch bản diễn tập (tấn công mạng, mã độc, rò rỉ dữ liệu...); tổ chức diễn tập cho đội ứng cứu và đơn vị vận hành; đánh giá, rút kinh nghiệm.
-- Dùng input: `lich_dien_tap`, `phuong_an_ung_cuu`
+- Dùng input: `lich_dien_tap`, `phuong_an_ung_cuu`.
 - Vai trò: Chuyên viên xây dựng kịch bản; Phó Giám đốc Sở phê duyệt kế hoạch diễn tập; đội ứng cứu và các đơn vị tham gia; AI hỗ trợ soạn kịch bản, bảng đánh giá diễn tập ⏱ ~5 ngày làm việc (chuẩn bị) (ước tính)
 - Lưu ý nghiệp vụ: Kịch bản sát thực tế đe dọa của tỉnh; diễn tập phải có đánh giá độc lập, chỉ rõ điểm yếu cần khắc phục.
 - → Kết quả bước: Kế hoạch + báo cáo kết quả diễn tập ứng cứu sự cố.
 
 **Bước 5. Đánh giá, hoàn thiện và báo cáo**
 - Làm gì: Đánh giá tổng thể công tác bảo đảm ATTT năm; cập nhật phương án; đề xuất đầu tư nâng cấp; báo cáo Bộ KH&CN, UBND tỉnh.
-- Dùng input: Kết quả các bước trên, báo cáo của các đơn vị
+- Dùng input: Kết quả các bước trên, báo cáo của các đơn vị, `nguoi_ky`.
 - Vai trò: Chuyên viên tổng hợp; Trưởng phòng kiểm tra; Giám đốc Sở ký báo cáo; AI hỗ trợ tổng hợp số liệu, soạn báo cáo ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đánh giá phải chỉ rõ tồn tại (hệ thống chưa đạt cấp độ, nhân lực thiếu...); đề xuất phải có lộ trình, kinh phí cụ thể.
 - → Kết quả bước: Báo cáo công tác bảo đảm an toàn thông tin mạng năm của tỉnh.

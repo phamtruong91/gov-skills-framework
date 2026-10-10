@@ -26,35 +26,35 @@ description: "Quản lý nhiệm vụ khoa học và công nghệ cấp tỉnh: 
 
 **Bước 1. Thu thập, tổng hợp đề xuất nhiệm vụ KH&CN**
 - Làm gì: Tổng hợp đề xuất nhiệm vụ KH&CN từ các sở, ban, ngành, UBND xã, viện, trường, doanh nghiệp; sàng lọc trùng lặp với danh mục các năm trước; phân loại theo lĩnh vực.
-- Dùng input: `de_xuat_nhiem_vu`, `tieu_chi_uu_tien`, `nam_ke_hoach`
+- Dùng input: `de_xuat_nhiem_vu`, `tieu_chi_uu_tien`, `nam_ke_hoach`.
 - Vai trò: Chuyên viên Phòng Quản lý khoa học tổng hợp; AI hỗ trợ phân loại theo lĩnh vực, rà soát trùng lặp với danh mục nhiệm vụ đã thực hiện ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đề xuất phải xuất phát từ nhu cầu thực tiễn của tỉnh, gắn với nhiệm vụ phát triển KT-XH; không trùng nhiệm vụ đã và đang thực hiện; mức kinh phí phù hợp với nguồn ngân sách KH&CN của tỉnh.
 - → Kết quả bước: Bảng tổng hợp đề xuất nhiệm vụ KH&CN năm (phân loại lĩnh vực, kinh phí sơ bộ).
 
 **Bước 2. Trình phê duyệt danh mục nhiệm vụ**
 - Làm gì: Lập Tờ trình của Sở KH&CN và dự thảo Quyết định phê duyệt danh mục nhiệm vụ KH&CN cấp tỉnh hằng năm, trình UBND tỉnh ban hành.
-- Dùng input: Bảng tổng hợp đề xuất ở Bước 1, `kinh_phi_du_kien`, `nguoi_ky`
+- Dùng input: Bảng tổng hợp đề xuất ở Bước 1, `kinh_phi_du_kien`, `nguoi_ky`.
 - Vai trò: Trưởng phòng Quản lý khoa học thẩm tra nội dung; Phó Giám đốc Sở xem xét; Giám đốc Sở ký Tờ trình trình UBND tỉnh; Chủ tịch UBND tỉnh ký Quyết định phê duyệt; AI hỗ trợ kiểm tra tính đầy đủ của hồ sơ trình, soạn phiếu trình ký ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Quyết định phê duyệt danh mục là căn cứ pháp lý để tổ chức tuyển chọn và bố trí kinh phí; thể thức văn bản đúng NĐ 30/2020/NĐ-CP; danh mục kèm phụ lục chi tiết từng nhiệm vụ.
 - → Kết quả bước: Tờ trình + dự thảo Quyết định phê duyệt danh mục nhiệm vụ KH&CN (số 1234/QĐ-UBND).
 
 **Bước 3. Tổ chức tuyển chọn tổ chức, cá nhân chủ trì**
 - Làm gì: Thông báo tuyển chọn; tiếp nhận hồ sơ đăng ký; thành lập và tổ chức họp Hội đồng tuyển chọn đánh giá hồ sơ theo tiêu chí đã công bố.
-- Dùng input: `ho_so_dang_ky`, danh mục nhiệm vụ đã phê duyệt
+- Dùng input: `ho_so_dang_ky`, danh mục nhiệm vụ đã phê duyệt.
 - Vai trò: Chuyên viên kiểm tra tính đầy đủ, hợp lệ của hồ sơ đăng ký; Hội đồng tuyển chọn (do Giám đốc Sở thành lập) đánh giá, chấm điểm; AI hỗ trợ tổng hợp điểm đánh giá, soạn biên bản họp ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Hồ sơ phải đủ điều kiện theo thông báo tuyển chọn; đánh giá theo đúng tiêu chí đã công bố; bảo đảm công khai, minh bạch, khách quan.
 - → Kết quả bước: Biên bản họp Hội đồng tuyển chọn + danh sách tổ chức/cá nhân trúng tuyển.
 
 **Bước 4. Thẩm định kinh phí, ký hợp đồng thực hiện**
 - Làm gì: Thẩm định nội dung, dự toán kinh phí từng nhiệm vụ trúng tuyển; soạn thảo, ký hợp đồng thực hiện nhiệm vụ KH&CN giữa Sở KH&CN và đơn vị chủ trì.
-- Dùng input: `ho_so_dang_ky`, `kinh_phi_du_kien`
+- Dùng input: `ho_so_dang_ky`, `kinh_phi_du_kien`.
 - Vai trò: Chuyên viên thẩm định nội dung, dự toán kinh phí; Trưởng phòng kiểm tra; Giám đốc Sở ký hợp đồng; AI hỗ trợ đối chiếu dự toán với định mức, rà soát điều khoản hợp đồng ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Kinh phí phải tiết kiệm, đúng định mức, chế độ hiện hành; hợp đồng ghi rõ tiến độ, sản phẩm bàn giao, trách nhiệm các bên, điều khoản thanh lý.
 - → Kết quả bước: Hợp đồng thực hiện nhiệm vụ KH&CN đã ký.
 
 **Bước 5. Theo dõi, nghiệm thu và thanh lý hợp đồng**
 - Làm gì: Kiểm tra tiến độ thực hiện định kỳ; tổ chức Hội đồng nghiệm thu đánh giá kết quả; thanh lý hợp đồng; tổng hợp báo cáo năm.
-- Dùng input: Báo cáo tiến độ, báo cáo tổng kết của đơn vị chủ trì
+- Dùng input: Báo cáo tiến độ, báo cáo tổng kết của đơn vị chủ trì.
 - Vai trò: Chuyên viên theo dõi tiến độ, đôn đốc; Hội đồng nghiệm thu đánh giá kết quả; Phó Giám đốc Sở phê duyệt kết quả nghiệm thu; AI hỗ trợ soạn biên bản nghiệm thu, đối chiếu sản phẩm bàn giao với hợp đồng ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Sản phẩm nghiệm thu phải đúng cam kết trong hợp đồng; đánh giá mức độ đạt/không đạt rõ ràng; kết quả nghiệm thu là cơ sở thanh quyết toán kinh phí.
 - → Kết quả bước: Biên bản nghiệm thu + báo cáo tổng kết nhiệm vụ KH&CN năm của tỉnh.

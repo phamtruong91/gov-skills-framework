@@ -24,28 +24,28 @@ description: "Hằng năm xây dựng kế hoạch công tác dân quân tự v�
 **Bước 1. Xây dựng kế hoạch công tác DQTV toàn quốc**
 - Làm gì: Tổng hợp báo cáo địa phương, xây dựng kế hoạch năm: chỉ tiêu tổ chức, huấn luyện, chế độ chính sách, kiểm tra.
 - Dùng input: `nam_ke_hoach`, `chi_thi_cua_tren`, `bao_cao_dia_phuong`, `noi_dung_trong_tam`.
-- Vai trò: Chuyên viên cơ quan tham mưu xây dựng (AI hỗ trợ tổng hợp báo cáo, lập bảng chỉ tiêu dự kiến — 2 ngày) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt.
+- Vai trò: Chuyên viên cơ quan tham mưu xây dựng (AI hỗ trợ tổng hợp báo cáo, lập bảng chỉ tiêu dự kiến ⏱ 2 ngày (ước tính)) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt.
 - Lưu ý nghiệp vụ: Nội dung kế hoạch ở mức hành chính công khai; không chi tiết phương án, số liệu tổ chức cụ thể từng địa phương trong văn bản phổ biến rộng.
 - → Kết quả bước: Kế hoạch công tác DQTV năm được phê duyệt.
 
 **Bước 2. Hướng dẫn tổ chức, huấn luyện**
 - Làm gì: Ban hành hướng dẫn: tổ chức lực lượng, nội dung, thời gian huấn luyện, công tác đảng, công tác chính trị trong DQTV.
 - Dùng input: `noi_dung_trong_tam`.
-- Vai trò: Chuyên viên soạn hướng dẫn (AI hỗ trợ rà soát văn bản hiện hành, chuẩn hóa — 2 ngày) → Cục trưởng ký ban hành.
+- Vai trò: Chuyên viên soạn hướng dẫn (AI hỗ trợ rà soát văn bản hiện hành, chuẩn hóa ⏱ 2 ngày (ước tính)) → Cục trưởng ký ban hành.
 - Lưu ý nghiệp vụ: Nội dung huấn luyện ở mức chương trình, giáo trình công khai; không biên soạn tài liệu chiến thuật mật trong khuôn khổ skill này.
 - → Kết quả bước: Văn bản hướng dẫn gửi địa phương, bộ ngành.
 
 **Bước 3. Hướng dẫn chế độ, chính sách**
 - Làm gì: Hướng dẫn thực hiện chế độ phụ cấp, trợ cấp, bảo hiểm đối với dân quân tự vệ theo quy định hiện hành.
 - Dùng input: `chi_thi_cua_tren`.
-- Vai trò: Chuyên viên chính sách soạn hướng dẫn (AI hỗ trợ tra cứu chế độ hiện hành, lập bảng chế độ mẫu — 1 ngày) → Cục trưởng ký.
+- Vai trò: Chuyên viên chính sách soạn hướng dẫn (AI hỗ trợ tra cứu chế độ hiện hành, lập bảng chế độ mẫu ⏱ 1 ngày (ước tính)) → Cục trưởng ký.
 - Lưu ý nghiệp vụ: Áp dụng đúng đối tượng, mức hưởng theo văn bản còn hiệu lực; công khai, minh bạch.
 - → Kết quả bước: Văn bản hướng dẫn chế độ, chính sách.
 
 **Bước 4. Kiểm tra, tổng kết**
 - Làm gì: Kiểm tra công tác DQTV tại một số địa phương; tổng hợp kết quả toàn quốc, đánh giá, đề xuất.
 - Dùng input: Báo cáo kết quả của địa phương.
-- Vai trò: Đoàn kiểm tra thực hiện (AI hỗ trợ tổng hợp báo cáo, so sánh chỉ tiêu/kết quả — 2 ngày) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
+- Vai trò: Đoàn kiểm tra thực hiện (AI hỗ trợ tổng hợp báo cáo, so sánh chỉ tiêu/kết quả ⏱ 2 ngày (ước tính)) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
 - Lưu ý nghiệp vụ: Kết luận kiểm tra tập trung mặt hành chính, tổ chức thực hiện.
 - → Kết quả bước: Báo cáo tổng kết công tác DQTV năm.
 

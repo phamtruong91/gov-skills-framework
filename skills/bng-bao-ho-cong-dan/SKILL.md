@@ -26,35 +26,35 @@ description: "Công dân Việt Nam ở nước ngoài gặp khó khăn, hoạn 
 **Bước 1. Tiếp nhận, phân loại thông tin**
 - Làm gì: Tiếp nhận thông tin qua đường dây nóng bảo hộ công dân, hệ thống trực ban; ghi nhận đầy đủ nội dung; phân loại mức độ khẩn cấp (thông thường / khẩn cấp / đặc biệt khẩn cấp).
 - Dùng input: `tinh_huong`, `nguon_tin`, `thong_tin_cong_dan`.
-- Vai trò: Cán bộ trực ban Cục Lãnh sự tiếp nhận 24/7 (AI hỗ trợ chuẩn hóa phiếu tiếp nhận, phân loại mức độ khẩn cấp theo tiêu chí, cảnh báo trùng lặp vụ việc — 0,5 giờ) → Lãnh đạo Cục chỉ đạo xử lý.
+- Vai trò: Cán bộ trực ban Cục Lãnh sự tiếp nhận 24/7 (AI hỗ trợ chuẩn hóa phiếu tiếp nhận, phân loại mức độ khẩn cấp theo tiêu chí, cảnh báo trùng lặp vụ việc ⏱ 0,5 giờ (ước tính)) → Lãnh đạo Cục chỉ đạo xử lý.
 - Lưu ý nghiệp vụ: Mọi cuộc gọi đường dây nóng đều phải lập phiếu tiếp nhận; thông tin cá nhân công dân được bảo mật.
 - → Kết quả bước: Phiếu tiếp nhận vụ việc đã phân loại mức độ khẩn cấp.
 
 **Bước 2. Xác minh thông tin qua cơ quan đại diện**
 - Làm gì: Chuyển thông tin đến cơ quan đại diện phụ trách địa bàn để xác minh thực tế: tình trạng công dân, diễn biến sự việc, khả năng hỗ trợ tại chỗ.
 - Dùng input: `dia_ban`, `thong_tin_cong_dan`, `co_quan_dd_phu_trach`.
-- Vai trò: Chuyên viên Cục Lãnh sự chuyển và đôn đốc (AI hỗ trợ soạn công điện/điện khẩn theo mẫu, theo dõi thời hạn phản hồi — 1–2 giờ) → Cục trưởng chỉ đạo; cơ quan đại diện xác minh, báo cáo về.
+- Vai trò: Chuyên viên Cục Lãnh sự chuyển và đôn đốc (AI hỗ trợ soạn công điện/điện khẩn theo mẫu, theo dõi thời hạn phản hồi ⏱ 1–2 giờ (ước tính)) → Cục trưởng chỉ đạo; cơ quan đại diện xác minh, báo cáo về.
 - Lưu ý nghiệp vụ: Điện khẩn phải nêu rõ thời hạn báo cáo; không công bố thông tin chưa xác minh ra bên ngoài.
 - → Kết quả bước: Báo cáo xác minh của cơ quan đại diện.
 
 **Bước 3. Triển khai biện pháp bảo hộ tại chỗ**
 - Làm gì: Chỉ đạo cơ quan đại diện thực hiện bảo hộ: thăm lãnh sự, hỗ trợ y tế/pháp lý, cấp giấy tờ thay thế, hỗ trợ tài chính khẩn cấp theo quy định, làm việc với chính quyền sở tại.
 - Dùng input: Báo cáo xác minh bước 2.
-- Vai trò: Cục trưởng Cục Lãnh sự chỉ đạo (AI hỗ trợ soạn hướng dẫn xử lý theo loại vụ việc, tổng hợp quy trình phối hợp với chính quyền sở tại — 2–4 giờ) → cơ quan đại diện thực hiện, báo cáo tiến độ.
+- Vai trò: Cục trưởng Cục Lãnh sự chỉ đạo (AI hỗ trợ soạn hướng dẫn xử lý theo loại vụ việc, tổng hợp quy trình phối hợp với chính quyền sở tại ⏱ 2–4 giờ (ước tính)) → cơ quan đại diện thực hiện, báo cáo tiến độ.
 - Lưu ý nghiệp vụ: Tôn trọng pháp luật nước sở tại; phối hợp chặt với gia đình công dân trong nước khi cần.
 - → Kết quả bước: Công dân được hỗ trợ kịp thời; báo cáo tiến độ xử lý.
 
 **Bước 4. Xây dựng/kích hoạt phương án sơ tán khẩn cấp**
 - Làm gì: Khi tình huống leo thang (xung đột, thiên tai lớn): rà soát số lượng công dân trên địa bàn, xây dựng phương án sơ tán (đường đi, điểm tập kết, phương tiện, kinh phí), trình phê duyệt và kích hoạt.
 - Dùng input: `phuong_an_so_tan`, `thong_tin_cong_dan`, `dia_ban`.
-- Vai trò: Cục Lãnh sự chủ trì xây dựng phương án (AI hỗ trợ lập danh sách công dân theo khu vực, tính toán phương tiện, lập dự toán kinh phí, soạn kế hoạch điều phối — 1 ngày) → Cục trưởng trình → Thứ trưởng phê duyệt; trường hợp lớn trình Bộ trưởng báo cáo Thủ tướng Chính phủ.
+- Vai trò: Cục Lãnh sự chủ trì xây dựng phương án (AI hỗ trợ lập danh sách công dân theo khu vực, tính toán phương tiện, lập dự toán kinh phí, soạn kế hoạch điều phối ⏱ 1 ngày (ước tính)) → Cục trưởng trình → Thứ trưởng phê duyệt; trường hợp lớn trình Bộ trưởng báo cáo Thủ tướng Chính phủ.
 - Lưu ý nghiệp vụ: Ưu tiên phụ nữ, trẻ em, người già, người ốm đau; phối hợp hãng hàng không, bộ, ngành liên quan tổ chức chuyến bay đưa công dân về nước.
 - → Kết quả bước: Phương án sơ tán được phê duyệt và kích hoạt; công dân được đưa về nơi an toàn.
 
 **Bước 5. Tổng hợp, báo cáo và rút kinh nghiệm**
 - Làm gì: Tổng hợp toàn bộ vụ việc: diễn biến, biện pháp đã triển khai, kết quả, kinh phí; báo cáo lãnh đạo Bộ; cập nhật phương án bảo hộ công dân của địa bàn; rút kinh nghiệm.
 - Dùng input: Toàn bộ hồ sơ vụ việc.
-- Vai trò: Chuyên viên Cục Lãnh sự tổng hợp (AI hỗ trợ lập báo cáo tổng kết, thống kê vụ việc theo địa bàn/loại hình, cập nhật cơ sở dữ liệu bảo hộ công dân — 1 ngày) → Cục trưởng ký báo cáo.
+- Vai trò: Chuyên viên Cục Lãnh sự tổng hợp (AI hỗ trợ lập báo cáo tổng kết, thống kê vụ việc theo địa bàn/loại hình, cập nhật cơ sở dữ liệu bảo hộ công dân ⏱ 1 ngày (ước tính)) → Cục trưởng ký báo cáo.
 - Lưu ý nghiệp vụ: Báo cáo nêu rõ bài học kinh nghiệm để hoàn thiện quy trình và phương án cho các địa bàn tương tự.
 - → Kết quả bước: Báo cáo tổng kết vụ việc; phương án bảo hộ công dân được cập nhật.
 

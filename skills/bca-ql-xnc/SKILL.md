@@ -24,28 +24,28 @@ description: "Xây dựng chính sách, văn bản hướng dẫn về cấp h�
 **Bước 1. Nghiên cứu, đề xuất chính sách**
 - Làm gì: Rà soát văn bản hiện hành, vướng mắc thực tiễn; đề xuất sửa đổi chính sách, đơn giản hóa thủ tục xuất nhập cảnh.
 - Dùng input: `noi_dung_nhiem_vu`, `van_ban_hien_hanh`, `bao_cao_dia_phuong`.
-- Vai trò: Chuyên viên cục quản lý xuất nhập cảnh nghiên cứu (AI hỗ trợ tổng hợp vướng mắc từ báo cáo địa phương, rà soát văn bản — 2 ngày) → Cục trưởng xem xét.
+- Vai trò: Chuyên viên cục quản lý xuất nhập cảnh nghiên cứu (AI hỗ trợ tổng hợp vướng mắc từ báo cáo địa phương, rà soát văn bản ⏱ 2 ngày (ước tính)) → Cục trưởng xem xét.
 - Lưu ý nghiệp vụ: Mọi đề xuất ở mức chính sách, thủ tục hành chính công khai; không đề cập biện pháp kiểm soát nghiệp vụ mật.
 - → Kết quả bước: Báo cáo đề xuất chính sách.
 
 **Bước 2. Soạn thảo văn bản hướng dẫn**
 - Làm gì: Soạn thảo văn bản hướng dẫn thực hiện thủ tục: cấp hộ chiếu, cấp thị thực, đăng ký tạm trú người nước ngoài, kiểm soát cửa khẩu.
 - Dùng input: `van_ban_hien_hanh`, `noi_dung_nhiem_vu`.
-- Vai trò: Chuyên viên soạn thảo (AI hỗ trợ chuẩn hóa văn bản, lập sơ đồ quy trình thủ tục — 2 ngày) → Cục trưởng ký ban hành (văn bản hành chính) hoặc trình cấp có thẩm quyền (VBQPPL).
+- Vai trò: Chuyên viên soạn thảo (AI hỗ trợ chuẩn hóa văn bản, lập sơ đồ quy trình thủ tục ⏱ 2 ngày (ước tính)) → Cục trưởng ký ban hành (văn bản hành chính) hoặc trình cấp có thẩm quyền (VBQPPL).
 - Lưu ý nghiệp vụ: Thủ tục phải công khai, minh bạch, đúng thời hạn giải quyết theo quy định.
 - → Kết quả bước: Văn bản hướng dẫn được ban hành.
 
 **Bước 3. Hướng dẫn, kiểm tra thực hiện**
 - Làm gì: Tập huấn, hướng dẫn công an địa phương, đơn vị cửa khẩu; kiểm tra việc thực hiện thủ tục, chấn chỉnh vi phạm hành chính.
 - Dùng input: `bao_cao_dia_phuong`.
-- Vai trò: Đoàn công tác của Cục thực hiện (AI hỗ trợ lập kế hoạch kiểm tra, mẫu biên bản — 1 ngày) → Cục trưởng kết luận.
+- Vai trò: Đoàn công tác của Cục thực hiện (AI hỗ trợ lập kế hoạch kiểm tra, mẫu biên bản ⏱ 1 ngày (ước tính)) → Cục trưởng kết luận.
 - Lưu ý nghiệp vụ: Kiểm tra tập trung việc chấp hành thủ tục hành chính, thái độ phục vụ; không kiểm tra nghiệp vụ mật trong khuôn khổ skill này.
 - → Kết quả bước: Kết luận kiểm tra, văn bản chấn chỉnh (nếu có).
 
 **Bước 4. Tổng kết, báo cáo**
 - Làm gì: Tổng hợp số liệu xuất nhập cảnh toàn quốc (mức công khai); đánh giá, đề xuất.
 - Dùng input: Báo cáo của địa phương, đơn vị.
-- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ tổng hợp số liệu, dự thảo báo cáo — 2 ngày) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
+- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ tổng hợp số liệu, dự thảo báo cáo ⏱ 2 ngày (ước tính)) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
 - Lưu ý nghiệp vụ: Số liệu công bố ở mức tổng hợp công khai; số liệu chi tiết phục vụ công tác nghiệp vụ không đưa vào báo cáo phổ biến rộng.
 - → Kết quả bước: Báo cáo tổng kết công tác quản lý xuất nhập cảnh.
 

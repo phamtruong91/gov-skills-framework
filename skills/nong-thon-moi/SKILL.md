@@ -30,35 +30,35 @@ description: "Duy trì, nâng cao chất lượng các tiêu chí nông thôn m�
 **Bước 1. Rà soát hiện trạng từng tiêu chí nông thôn mới**
 - Làm gì: Đối chiếu từng tiêu chí, chỉ tiêu của Bộ tiêu chí quốc gia về xã nông thôn mới với số liệu thực tế của xã: thu thập số liệu từ các thôn, Phòng Văn hóa – Xã hội, các đoàn thể; lập bảng hiện trạng (tiêu chí – chỉ tiêu – kết quả – minh chứng).
 - Dùng input: `bo_tieu_chi`, `hien_trang_tieu_chi`, `dau_moi_phoi_hop`.
-- Vai trò: Công chức Phòng Kinh tế (bà Trần Thị H) chủ trì rà soát, phối hợp công chức Phòng Văn hóa – Xã hội và trưởng các thôn; AI hỗ trợ lập bảng đối chiếu tiêu chí – hiện trạng và đánh dấu các chỉ tiêu thiếu minh chứng (~3 ngày).
+- Vai trò: Công chức Phòng Kinh tế (bà Trần Thị H) chủ trì rà soát, phối hợp công chức Phòng Văn hóa – Xã hội và trưởng các thôn; AI hỗ trợ lập bảng đối chiếu tiêu chí – hiện trạng và đánh dấu các chỉ tiêu thiếu minh chứng (⏱ ~3 ngày).
 - Lưu ý nghiệp vụ: Số liệu phải có minh chứng cụ thể (biên bản, quyết toán, danh sách); không đánh giá "đạt" khi thiếu minh chứng; các tiêu chí liên quan văn hóa, giáo dục, y tế phải lấy số liệu từ Phòng Văn hóa – Xã hội.
 - → Kết quả bước: Bảng rà soát hiện trạng từng tiêu chí nông thôn mới (kèm minh chứng).
 
 **Bước 2. Xác định tiêu chí chưa đạt và tiêu chí có nguy cơ rớt chuẩn**
 - Làm gì: Phân loại kết quả rà soát thành 3 nhóm: tiêu chí đã đạt bền vững; tiêu chí đạt nhưng có nguy cơ rớt chuẩn; tiêu chí chưa đạt; phân tích nguyên nhân của từng tiêu chí yếu (thiếu kinh phí, hạ tầng xuống cấp, ý thức người dân...).
 - Dùng input: Bảng rà soát bước 1, `tieu_chi_yeu`, `bao_cao_nam_truoc`.
-- Vai trò: Công chức Phòng Kinh tế (bà Trần Thị H) phân tích, xin ý kiến trưởng các thôn; AI hỗ trợ phân nhóm tiêu chí và gợi ý khung phân tích nguyên nhân (~1 ngày).
+- Vai trò: Công chức Phòng Kinh tế (bà Trần Thị H) phân tích, xin ý kiến trưởng các thôn; AI hỗ trợ phân nhóm tiêu chí và gợi ý khung phân tích nguyên nhân (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Ưu tiên xử lý tiêu chí có nguy cơ rớt chuẩn trước tiêu chí chưa đạt lâu năm; nguyên nhân phải cụ thể, tránh chung chung ("thiếu kinh phí" phải nêu rõ thiếu bao nhiêu, cho hạng mục nào).
 - → Kết quả bước: Danh mục tiêu chí chưa đạt / nguy cơ rớt chuẩn kèm phân tích nguyên nhân.
 
 **Bước 3. Xây dựng kế hoạch duy trì, nâng chất tiêu chí và phân công đầu mối**
 - Làm gì: Soạn Kế hoạch duy trì, nâng cao chất lượng các tiêu chí nông thôn mới năm áp dụng: mục tiêu từng tiêu chí, nhiệm vụ, giải pháp cụ thể; phân công đầu mối (Phòng Kinh tế chủ trì chung, Phòng Văn hóa – Xã hội phụ trách nhóm tiêu chí văn hóa – xã hội, các thôn phụ trách tiêu chí trên địa bàn); tiến độ và kinh phí từng hạng mục.
 - Dùng input: Danh mục tiêu chí yếu bước 2, `nguon_luc`, `dau_moi_phoi_hop`, `van_ban_chi_dao`, `nam_ke_hoach`.
-- Vai trò: Công chức Phòng Kinh tế (bà Trần Thị H) soạn kế hoạch; AI hỗ trợ soạn thảo theo thể thức văn bản hành chính (NĐ 30/2020/NĐ-CP), lập bảng nhiệm vụ (tiêu chí – giải pháp – đầu mối – thời hạn – kinh phí) (~2 ngày).
+- Vai trò: Công chức Phòng Kinh tế (bà Trần Thị H) soạn kế hoạch; AI hỗ trợ soạn thảo theo thể thức văn bản hành chính (NĐ 30/2020/NĐ-CP), lập bảng nhiệm vụ (tiêu chí – giải pháp – đầu mối – thời hạn – kinh phí) (⏱ ~2 ngày).
 - Lưu ý nghiệp vụ: Kế hoạch phải khả thi với nguồn lực thực tế của xã; hạng mục dùng ngân sách phải phù hợp dự toán đã giao; huy động sức dân phải theo đúng quy định, có sự đồng thuận.
 - → Kết quả bước: Dự thảo Kế hoạch duy trì, nâng cao chất lượng các tiêu chí nông thôn mới năm ….
 
 **Bước 4. Tổ chức thực hiện và theo dõi tiến độ**
 - Làm gì: Triển khai kế hoạch sau khi được phê duyệt: đôn đốc các đầu mối thực hiện theo tiến độ; tổ chức kiểm tra thực tế các hạng mục (đường giao thông, vệ sinh môi trường, thiết chế văn hóa...); tổng hợp khó khăn, đề xuất điều chỉnh.
 - Dùng input: Kế hoạch đã phê duyệt bước 3.
-- Vai trò: Công chức Phòng Kinh tế (bà Trần Thị H) theo dõi, đôn đốc; Trưởng phòng Kinh tế (bà Hoàng Thị D) chỉ đạo xử lý vướng mắc; AI hỗ trợ lập bảng theo dõi tiến độ theo đầu mối và mẫu báo cáo tiến độ định kỳ (~0,5 ngày/lần theo dõi).
+- Vai trò: Công chức Phòng Kinh tế (bà Trần Thị H) theo dõi, đôn đốc; Trưởng phòng Kinh tế (bà Hoàng Thị D) chỉ đạo xử lý vướng mắc; AI hỗ trợ lập bảng theo dõi tiến độ theo đầu mối và mẫu báo cáo tiến độ định kỳ (⏱ ~0,5 ngày/lần theo dõi).
 - Lưu ý nghiệp vụ: Kiểm tra thực tế, không chỉ nghe báo cáo; các hạng mục đầu tư xây dựng phải đúng quy trình quản lý đầu tư; kịp thời báo cáo UBND xã khi có nguy cơ không hoàn thành tiến độ.
 - → Kết quả bước: Bảng theo dõi tiến độ thực hiện + báo cáo kiểm tra thực tế các hạng mục.
 
 **Bước 5. Tự đánh giá mức độ đạt chuẩn và tổng hợp báo cáo trình UBND xã**
 - Làm gì: Tổ chức tự đánh giá mức độ đạt chuẩn từng tiêu chí theo Bộ tiêu chí quốc gia (có minh chứng); soạn Báo cáo kết quả tự đánh giá: bảng tự đánh giá chi tiết, nhận xét chung, tồn tại, kiến nghị; trình Trưởng phòng Kinh tế kiểm tra, trình Chủ tịch UBND xã ký.
 - Dùng input: Kết quả thực hiện bước 4, `bo_tieu_chi`, `nam_ke_hoach`.
-- Vai trò: Công chức Phòng Kinh tế (bà Trần Thị H) soạn báo cáo; Trưởng phòng Kinh tế (bà Hoàng Thị D) kiểm tra; AI hỗ trợ lập bảng tự đánh giá và soạn thảo báo cáo theo thể thức NĐ 30/2020/NĐ-CP (~2 ngày).
+- Vai trò: Công chức Phòng Kinh tế (bà Trần Thị H) soạn báo cáo; Trưởng phòng Kinh tế (bà Hoàng Thị D) kiểm tra; AI hỗ trợ lập bảng tự đánh giá và soạn thảo báo cáo theo thể thức NĐ 30/2020/NĐ-CP (⏱ ~2 ngày).
 - Lưu ý nghiệp vụ: Tự đánh giá phải trung thực, đúng thực tế; tiêu chí nào chưa đạt phải nêu rõ và có kế hoạch khắc phục, không "làm đẹp" số liệu; báo cáo là cơ sở để cấp trên thẩm tra, công nhận.
 - → Kết quả bước: Báo cáo tự đánh giá mức độ đạt chuẩn các tiêu chí nông thôn mới xã A năm … trình ký.
 

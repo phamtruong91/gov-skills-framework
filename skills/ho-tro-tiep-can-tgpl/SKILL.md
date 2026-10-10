@@ -25,36 +25,36 @@ description: "Hỗ trợ người dân thuộc diện được trợ giúp pháp
 
 **Bước 1. Tiếp nhận nhu cầu trợ giúp pháp lý**
 - Làm gì: Ghi nhận thông tin người yêu cầu, tóm tắt vụ việc vào phiếu tiếp nhận tại bộ phận một cửa; hẹn thời gian trả kết quả tư vấn ban đầu.
-- Dùng input: `ho_ten_nguoi_yeu_cau`, `tom_tat_vu_viec`, `thong_tin_lien_he`, `can_bo_tiep_nhan`
-- Vai trò: Công chức tư pháp – hộ tịch xã trực tiếp tiếp nhận; AI hỗ trợ soạn phiếu tiếp nhận chuẩn, gợi ý câu hỏi làm rõ vụ việc — 30 phút
+- Dùng input: `ho_ten_nguoi_yeu_cau`, `tom_tat_vu_viec`, `thong_tin_lien_he`, `can_bo_tiep_nhan`.
+- Vai trò: Công chức tư pháp – hộ tịch xã trực tiếp tiếp nhận; AI hỗ trợ soạn phiếu tiếp nhận chuẩn, gợi ý câu hỏi làm rõ vụ việc ⏱ 30 phút (ước tính)
 - Lưu ý nghiệp vụ: Ghi đúng lời người dân trình bày, không suy diễn; với người không biết chữ, đọc lại cho nghe và điểm chỉ/lăn tay theo quy định.
 - → Kết quả bước: Phiếu tiếp nhận nhu cầu TGPL đã ghi đầy đủ thông tin.
 
 **Bước 2. Xác định người dân có thuộc diện được trợ giúp pháp lý**
 - Làm gì: Đối chiếu thông tin người yêu cầu với các diện được TGPL; kiểm tra giấy tờ chứng minh; kết luận có/không thuộc diện.
-- Dùng input: `doi_tuong_uu_tien`, `giay_to_chung_minh`, `ho_ten_nguoi_yeu_cau`
-- Vai trò: Công chức tư pháp – hộ tịch xã xác minh; AI hỗ trợ tra cứu, đối chiếu tiêu chí diện được TGPL, lập biên bản xác minh — 0,5 ngày làm việc
+- Dùng input: `doi_tuong_uu_tien`, `giay_to_chung_minh`, `ho_ten_nguoi_yeu_cau`.
+- Vai trò: Công chức tư pháp – hộ tịch xã xác minh; AI hỗ trợ tra cứu, đối chiếu tiêu chí diện được TGPL, lập biên bản xác minh ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Thiếu giấy tờ thì hướng dẫn bổ sung, không từ chối ngay; người thuộc nhiều diện thì ghi đủ các diện; lưu ý bảo mật thông tin cá nhân.
 - → Kết quả bước: Biên bản xác minh diện được TGPL (đủ điều kiện / chưa đủ điều kiện + lý do).
 
 **Bước 3. Hướng dẫn lập đơn đề nghị trợ giúp pháp lý**
 - Làm gì: Hướng dẫn người dân viết đơn đề nghị TGPL theo mẫu; kiểm tra đơn đã đủ nội dung (thông tin cá nhân, diện được TGPL, nội dung vụ việc, yêu cầu trợ giúp).
-- Dùng input: `ho_ten_nguoi_yeu_cau`, `doi_tuong_uu_tien`, `tom_tat_vu_viec`, `giay_to_chung_minh`
-- Vai trò: Công chức tư pháp – hộ tịch xã hướng dẫn trực tiếp; AI hỗ trợ soạn thảo đơn từ thông tin đã tiếp nhận, kiểm tra tính đầy đủ — 30 phút
+- Dùng input: `ho_ten_nguoi_yeu_cau`, `doi_tuong_uu_tien`, `tom_tat_vu_viec`, `giay_to_chung_minh`.
+- Vai trò: Công chức tư pháp – hộ tịch xã hướng dẫn trực tiếp; AI hỗ trợ soạn thảo đơn từ thông tin đã tiếp nhận, kiểm tra tính đầy đủ ⏱ 30 phút (ước tính)
 - Lưu ý nghiệp vụ: Đơn phải do chính người yêu cầu ký (hoặc điểm chỉ); kèm bản sao giấy tờ chứng minh diện được TGPL; giữ 01 bản lưu tại xã.
 - → Kết quả bước: Đơn đề nghị trợ giúp pháp lý hoàn chỉnh, có chữ ký người yêu cầu.
 
 **Bước 4. Giới thiệu đến Trung tâm Trợ giúp pháp lý tỉnh**
 - Làm gì: Lập giấy giới thiệu của UBND xã gửi Trung tâm TGPL tỉnh A; chuyển đơn đề nghị + hồ sơ kèm theo; thông báo cho người dân địa chỉ, thời gian liên hệ Trung tâm.
-- Dùng input: Đơn đề nghị TGPL, `giay_to_chung_minh`, `thong_tin_lien_he`
-- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra hồ sơ; AI hỗ trợ soạn giấy giới thiệu đúng thể thức — 0,5 ngày làm việc
+- Dùng input: Đơn đề nghị TGPL, `giay_to_chung_minh`, `thong_tin_lien_he`.
+- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra hồ sơ; AI hỗ trợ soạn giấy giới thiệu đúng thể thức ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Xã chỉ làm đầu mối giới thiệu, hỗ trợ — KHÔNG trực tiếp thực hiện TGPL; giấy giới thiệu phải có số, ký hiệu, đóng dấu UBND xã.
 - → Kết quả bước: Giấy giới thiệu + bộ hồ sơ đề nghị TGPL đã chuyển đến Trung tâm TGPL tỉnh A.
 
 **Bước 5. Theo dõi, hỗ trợ bổ sung hồ sơ và tổng hợp**
 - Làm gì: Ghi sổ theo dõi từng trường hợp đã giới thiệu; khi Trung tâm yêu cầu bổ sung hồ sơ thì liên hệ, hỗ trợ người dân hoàn thiện; định kỳ tổng hợp báo cáo.
-- Dùng input: Sổ theo dõi, thông tin phản hồi từ Trung tâm TGPL, `thong_tin_lien_he`
-- Vai trò: Công chức tư pháp – hộ tịch xã theo dõi; AI hỗ trợ cập nhật sổ theo dõi, nhắc lịch bổ sung hồ sơ, tổng hợp số liệu báo cáo — 15 phút/trường hợp
+- Dùng input: Sổ theo dõi, thông tin phản hồi từ Trung tâm TGPL, `thong_tin_lien_he`.
+- Vai trò: Công chức tư pháp – hộ tịch xã theo dõi; AI hỗ trợ cập nhật sổ theo dõi, nhắc lịch bổ sung hồ sơ, tổng hợp số liệu báo cáo ⏱ 15 phút (ước tính)/trường hợp
 - Lưu ý nghiệp vụ: Theo dõi đến khi có kết quả thụ lý/từ chối của Trung tâm; mọi liên hệ bổ sung phải có văn bản hoặc biên bản làm việc.
 - → Kết quả bước: Sổ theo dõi TGPL cập nhật đầy đủ; báo cáo tổng hợp định kỳ.
 

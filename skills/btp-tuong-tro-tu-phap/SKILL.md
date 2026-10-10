@@ -23,28 +23,28 @@ Khi tiếp nhận yêu cầu tương trợ tư pháp từ nước ngoài hoặc 
 **Bước 1. Tiếp nhận, kiểm tra căn cứ pháp lý**
 - Làm gì: Kiểm tra hiệp định TTTP giữa Việt Nam và nước liên quan; xác định cơ quan trung ương có thẩm quyền; kiểm tra tính đầy đủ của hồ sơ.
 - Dùng input: `loai_yeu_cau`, `nuoc_lien_quan`, `dieu_uoc_ap_dung`, `ho_so`.
-- Vai trò: Chuyên viên Cục Tương trợ tư pháp — AI hỗ trợ tra cứu hiệp định song phương, lập danh mục kiểm tra hồ sơ (1–2 ngày).
+- Vai trò: Chuyên viên Cục Tương trợ tư pháp — AI hỗ trợ tra cứu hiệp định song phương, lập danh mục kiểm tra hồ sơ (⏱ 1–2 ngày).
 - Lưu ý nghiệp vụ: Nếu chưa có hiệp định → áp dụng nguyên tắc có đi có lại (cần xác nhận của Bộ Ngoại giao).
 - → Kết quả bước: Xác nhận thụ lý hoặc yêu cầu bổ sung hồ sơ.
 
 **Bước 2. Thẩm định nội dung yêu cầu**
 - Làm gì: Đánh giá yêu cầu có phù hợp pháp luật Việt Nam, không xâm phạm chủ quyền, an ninh quốc gia, trật tự công cộng.
 - Dùng input: Hồ sơ yêu cầu.
-- Vai trò: Chuyên viên Cục Tương trợ tư pháp — AI hỗ trợ dịch thuật, tóm tắt hồ sơ nước ngoài (2–3 ngày).
+- Vai trò: Chuyên viên Cục Tương trợ tư pháp — AI hỗ trợ dịch thuật, tóm tắt hồ sơ nước ngoài (⏱ 2–3 ngày).
 - Lưu ý nghiệp vụ: Từ chối tương trợ nếu: yêu cầu liên quan tội phạm chính trị/quân sự thuần túy; người bị yêu cầu là công dân Việt Nam (đối với dẫn độ ra nước ngoài — Việt Nam không dẫn độ công dân mình).
 - → Kết quả bước: Báo cáo thẩm định yêu cầu TTTP.
 
 **Bước 3. Lấy ý kiến cơ quan liên quan**
 - Làm gì: Gửi lấy ý kiến Bộ Công an (dẫn độ, chuyển giao phạm nhân), TANDTC, VKSNDTC (ủy thác tư pháp trong tố tụng).
 - Dùng input: Báo cáo thẩm định.
-- Vai trò: Cục trưởng Cục Tương trợ tư pháp ký văn bản lấy ý kiến — AI hỗ trợ soạn công văn, tổng hợp ý kiến (3–5 ngày).
+- Vai trò: Cục trưởng Cục Tương trợ tư pháp ký văn bản lấy ý kiến — AI hỗ trợ soạn công văn, tổng hợp ý kiến (⏱ 3–5 ngày).
 - Lưu ý nghiệp vụ: Đối với dẫn độ: phải có quyết định của Tòa án về việc dẫn độ.
 - → Kết quả bước: Tổng hợp ý kiến cơ quan liên quan.
 
 **Bước 4. Quyết định thực hiện hoặc chuyển cơ quan có thẩm quyền**
 - Làm gì: Ban hành quyết định thực hiện ủy thác tư pháp; hoặc chuyển hồ sơ cho TANDTC/VKSNDTC/Bộ Công an thực hiện theo thẩm quyền; hoặc lập yêu cầu TTTP gửi ra nước ngoài.
 - Dùng input: Kết quả bước 2, 3.
-- Vai trò: Thứ trưởng/Bộ trưởng Bộ Tư pháp ký — AI hỗ trợ soạn quyết định/văn bản yêu cầu theo mẫu hiệp định (1–2 ngày).
+- Vai trò: Thứ trưởng/Bộ trưởng Bộ Tư pháp ký — AI hỗ trợ soạn quyết định/văn bản yêu cầu theo mẫu hiệp định (⏱ 1–2 ngày).
 - Lưu ý nghiệp vụ: Văn bản gửi ra nước ngoài phải dịch sang ngôn ngữ theo hiệp định; tuân thủ thời hạn của hiệp định.
 - → Kết quả bước: Quyết định thực hiện / yêu cầu TTTP gửi nước ngoài.
 

@@ -18,9 +18,9 @@ description: "Quản lý phát triển nhà ở, nhà ở xã hội trên địa
 |--------|-------|----------|
 | `ke_hoach_hien_hanh` | Kế hoạch phát triển nhà ở hiện hành của tỉnh (nếu có) | Không |
 | `so_lieu_nhu_cau` | Số liệu nhu cầu nhà ở: dân số, hộ nghèo, công nhân, cán bộ... theo địa bàn | Có |
-| `ho_so_du_an_noxh` | Hồ sơ dự án nhà ở xã hội đề nghị thẩm định (chủ trương đầu tư, thiết kế, phương án giá...) | Có (thẩm định dự án) |
-| `danh_sach_doi_tuong` | Danh sách đối tượng đề nghị mua/thuê NƠXH do cấp xã/chủ đầu tư tổng hợp | Có (xét duyệt đối tượng) |
-| `giay_to_chung_minh` | Giấy tờ chứng minh đối tượng, điều kiện về nhà ở, thu nhập của từng trường hợp | Có (xét duyệt đối tượng) |
+| `ho_so_du_an_noxh` | Hồ sơ dự án nhà ở xã hội đề nghị thẩm định (chủ trương đầu tư, thiết kế, phương án giá...). Lưu ý: thẩm định dự án.| Có |
+| `danh_sach_doi_tuong` | Danh sách đối tượng đề nghị mua/thuê NƠXH do cấp xã/chủ đầu tư tổng hợp. Lưu ý: xét duyệt đối tượng.| Có |
+| `giay_to_chung_minh` | Giấy tờ chứng minh đối tượng, điều kiện về nhà ở, thu nhập của từng trường hợp. Lưu ý: xét duyệt đối tượng.| Có |
 | `bao_cao_cap_xa` | Báo cáo của UBND xã về nhu cầu, tình hình triển khai nhà ở trên địa bàn | Không |
 
 ## 4. Quy trình

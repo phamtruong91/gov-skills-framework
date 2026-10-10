@@ -26,35 +26,35 @@ description: "Xây dựng văn bản quy phạm pháp luật của HĐND, UBND t
 
 **Bước 1. Tiếp nhận, lập danh mục đề nghị xây dựng văn bản QPPL của tỉnh**
 - Làm gì: Tổng hợp đề nghị xây dựng VBQPPL của các sở, ngành; rà soát sự cần thiết ban hành, thẩm quyền của HĐND/UBND tỉnh, đối chiếu tránh trùng lặp, chồng chéo với văn bản hiện hành; lập danh mục đề nghị trình UBND tỉnh xem xét.
-- Dùng input: `de_nghi_xd`, `can_cu_chinh_sach`
+- Dùng input: `de_nghi_xd`, `can_cu_chinh_sach`.
 - Vai trò: Chuyên viên Phòng Xây dựng và kiểm tra văn bản QPPL (Sở Tư pháp tỉnh A) chủ trì tổng hợp. AI hỗ trợ đối chiếu từng đề nghị với danh mục VBQPPL hiện hành của tỉnh để phát hiện trùng lặp, chồng chéo về phạm vi điều chỉnh ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Chỉ đưa vào danh mục văn bản thuộc thẩm quyền của HĐND/UBND tỉnh; mỗi đề nghị phải nêu rõ sự cần thiết, căn cứ chính sách, phạm vi điều chỉnh dự kiến, cơ quan chủ trì soạn thảo.
 - → Kết quả bước: Danh mục đề nghị xây dựng VBQPPL của tỉnh trong năm/kỳ, kèm phiếu đánh giá sự cần thiết của từng đề nghị.
 
 **Bước 2. Soạn thảo dự thảo văn bản**
 - Làm gì: Cơ quan chủ trì soạn thảo xây dựng dự thảo lần 1: bố cục chương/mục/điều, nội dung điều chỉnh, quy định chuyển tiếp, hiệu lực thi hành; Sở Tư pháp hỗ trợ về kỹ thuật trình bày VBQPPL và ngôn ngữ pháp lý.
-- Dùng input: `de_nghi_xd`, `pham_vi_doi_tuong`, `can_cu_chinh_sach`
+- Dùng input: `de_nghi_xd`, `pham_vi_doi_tuong`, `can_cu_chinh_sach`.
 - Vai trò: Chuyên viên cơ quan chủ trì soạn thảo (sở, ngành) soạn dự thảo; chuyên viên Phòng Xây dựng và kiểm tra VBQPPL hỗ trợ kỹ thuật. AI hỗ trợ rà soát cấu trúc dự thảo, phát hiện điều khoản mâu thuẫn nội tại, gợi ý diễn đạt chuẩn pháp lý ⏱ ~05 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Nội dung dự thảo không được trái Hiến pháp, luật và văn bản của cơ quan nhà nước cấp trên còn hiệu lực; không quy định thủ tục hành chính mới vượt thẩm quyền; ngôn ngữ rõ ràng, thống nhất.
 - → Kết quả bước: Dự thảo văn bản lần 1 đúng cấu trúc chương/điều, kèm bản thuyết minh từng điều khoản.
 
 **Bước 3. Tổ chức lấy ý kiến đối với dự thảo**
 - Làm gì: Gửi dự thảo lấy ý kiến các sở, ngành, UBND cấp xã, đối tượng chịu sự tác động trực tiếp; tổ chức hội nghị, hội thảo góp ý đối với văn bản quan trọng; đăng tải lấy ý kiến rộng rãi theo quy định.
-- Dùng input: `du_thao`, danh sách đơn vị lấy ý kiến
+- Dùng input: `du_thao`, danh sách đơn vị lấy ý kiến.
 - Vai trò: Trưởng phòng Xây dựng và kiểm tra VBQPPL điều phối việc lấy ý kiến. AI hỗ trợ soạn công văn lấy ý kiến, tổng hợp ý kiến góp ý theo từng điều khoản, lập bảng tiếp thu/giải trình ⏱ ~10 ngày làm việc, gồm thời hạn lấy ý kiến (ước tính).
 - Lưu ý nghiệp vụ: Bảo đảm thời hạn lấy ý kiến theo quy định; mọi ý kiến phải được tiếp thu hoặc giải trình bằng văn bản; lưu đầy đủ văn bản góp ý vào hồ sơ soạn thảo.
 - → Kết quả bước: Bảng tổng hợp ý kiến góp ý + bảng tiếp thu, giải trình; dự thảo lần 2 sau tiếp thu ý kiến.
 
 **Bước 4. Thẩm định dự thảo văn bản**
 - Làm gì: Sở Tư pháp thẩm định dự thảo theo các nội dung: sự cần thiết ban hành; đối tượng, phạm vi điều chỉnh; tính hợp hiến, hợp pháp, tính thống nhất với hệ thống pháp luật; ngôn ngữ, kỹ thuật trình bày; tính khả thi. Lập báo cáo thẩm định.
-- Dùng input: `du_thao` (bản sau tiếp thu), `y_kien_tham_gia`, `can_cu_chinh_sach`
+- Dùng input: `du_thao` (bản sau tiếp thu), `y_kien_tham_gia`, `can_cu_chinh_sach`.
 - Vai trò: Chuyên viên Phòng Xây dựng và kiểm tra VBQPPL thực hiện thẩm định; Trưởng phòng kiểm tra; Phó Giám đốc Sở phụ trách ký báo cáo thẩm định. AI hỗ trợ đối chiếu dự thảo với văn bản cấp trên còn hiệu lực, lập checklist 05 nội dung thẩm định và dự thảo báo cáo thẩm định ⏱ ~05 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Thẩm định độc lập, khách quan; ý kiến thẩm định phải cụ thể đến từng điều khoản; dự thảo chưa đạt yêu cầu phải trả lại cơ quan soạn thảo hoàn thiện, không "thẩm định cho xong".
 - → Kết quả bước: Báo cáo thẩm định của Sở Tư pháp (kết luận đạt/chưa đạt, ý kiến cụ thể từng nội dung).
 
 **Bước 5. Hoàn thiện hồ sơ, trình HĐND/UBND tỉnh ban hành**
 - Làm gì: Cơ quan soạn thảo hoàn thiện dự thảo theo ý kiến thẩm định; lập hồ sơ trình gồm tờ trình, dự thảo văn bản, báo cáo thẩm định, bảng tổng hợp ý kiến; Sở Tư pháp kiểm tra hồ sơ lần cuối trước khi trình.
-- Dùng input: `bao_cao_tham_dinh`, `du_thao` hoàn thiện
+- Dùng input: `bao_cao_tham_dinh`, `du_thao` hoàn thiện.
 - Vai trò: Giám đốc Sở Tư pháp ký văn bản gửi hồ sơ trình; Chủ tịch/Phó Chủ tịch UBND tỉnh xem xét; HĐND tỉnh (đối với nghị quyết) xem xét, thông qua. AI hỗ trợ kiểm tra tính đầy đủ thành phần hồ sơ, rà soát thể thức văn bản theo NĐ 30/2020/NĐ-CP ⏱ ~03 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Hồ sơ trình phải đầy đủ thành phần; văn bản sau khi ban hành phải được đăng Công báo, cập nhật vào hệ thống VBQPPL của tỉnh và gửi cơ quan có thẩm quyền kiểm tra theo quy định.
 - → Kết quả bước: Hồ sơ trình ban hành đầy đủ; văn bản QPPL được HĐND/UBND tỉnh ban hành, đăng Công báo, lưu hồ sơ.

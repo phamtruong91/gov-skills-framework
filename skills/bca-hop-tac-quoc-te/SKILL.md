@@ -25,28 +25,28 @@ description: "Hằng năm xây dựng kế hoạch hợp tác quốc tế về a
 **Bước 1. Xây dựng kế hoạch hợp tác quốc tế năm**
 - Làm gì: Tổng hợp đề xuất các đơn vị; xây dựng kế hoạch đoàn ra, đoàn vào, hội nghị quốc tế về an ninh, trật tự; dự kiến kinh phí.
 - Dùng input: `nam_ke_hoach`, `doi_tac`, `hinh_thuc`, `chu_truong`.
-- Vai trò: Chuyên viên cơ quan đối ngoại xây dựng (AI hỗ trợ tổng hợp đề xuất, lập bảng kế hoạch — 2 ngày) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt.
+- Vai trò: Chuyên viên cơ quan đối ngoại xây dựng (AI hỗ trợ tổng hợp đề xuất, lập bảng kế hoạch ⏱ 2 ngày (ước tính)) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt.
 - Lưu ý nghiệp vụ: Chỉ nội dung hợp tác công khai (đào tạo, hội nghị, chia sẻ kinh nghiệm phòng ngừa); nội dung hợp tác nghiệp vụ chuyên sâu do cấp có thẩm quyền quyết định riêng.
 - → Kết quả bước: Kế hoạch hợp tác quốc tế năm được phê duyệt.
 
 **Bước 2. Xử lý yêu cầu tương trợ tư pháp hình sự (mức hành chính)**
 - Làm gì: Tiếp nhận yêu cầu tương trợ tư pháp về hình sự; kiểm tra tính đầy đủ, hợp lệ của hồ sơ; tham mưu chuyển cơ quan có thẩm quyền thực hiện theo quy định.
 - Dùng input: `ho_so_yeu_cau`, `doi_tac`.
-- Vai trò: Chuyên viên xử lý hồ sơ (AI hỗ trợ kiểm tra checklist hồ sơ, soạn văn bản chuyển — 1 ngày) → Cục trưởng ký văn bản chuyển.
+- Vai trò: Chuyên viên xử lý hồ sơ (AI hỗ trợ kiểm tra checklist hồ sơ, soạn văn bản chuyển ⏱ 1 ngày (ước tính)) → Cục trưởng ký văn bản chuyển.
 - Lưu ý nghiệp vụ: Chỉ xử lý khâu hành chính (tiếp nhận, kiểm tra hồ sơ, chuyển); nội dung điều tra, xác minh do cơ quan tố tụng thực hiện, AI không tham gia.
 - → Kết quả bước: Hồ sơ được chuyển cơ quan có thẩm quyền đúng thời hạn.
 
 **Bước 3. Chuẩn bị đoàn ra/đoàn vào, hội nghị**
 - Làm gì: Lập đề án đoàn ra, chương trình đón đoàn vào, kế hoạch tổ chức hội nghị quốc tế tại Việt Nam; chuẩn bị tài liệu.
 - Dùng input: `doi_tac`, `hinh_thuc`, `chu_truong`.
-- Vai trò: Chuyên viên chuẩn bị (AI hỗ trợ soạn đề án, chương trình, tài liệu — 2 ngày) → Cục trưởng thẩm định → Thứ trưởng quyết định.
+- Vai trò: Chuyên viên chuẩn bị (AI hỗ trợ soạn đề án, chương trình, tài liệu ⏱ 2 ngày (ước tính)) → Cục trưởng thẩm định → Thứ trưởng quyết định.
 - Lưu ý nghiệp vụ: Tuân thủ nghi thức lễ tân; tài liệu trong phạm vi được phép công khai.
 - → Kết quả bước: Đề án/chương trình được phê duyệt; đoàn được tổ chức.
 
 **Bước 4. Báo cáo kết quả**
 - Làm gì: Tổng hợp kết quả hoạt động hợp tác; báo cáo cấp trên; theo dõi thực hiện thỏa thuận đã ký.
 - Dùng input: Kết quả hoạt động thực tế.
-- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ soạn báo cáo — 1 ngày) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
+- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ soạn báo cáo ⏱ 1 ngày (ước tính)) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
 - Lưu ý nghiệp vụ: Phân loại mật đúng quy định; bản hành chính chỉ nêu nội dung công khai.
 - → Kết quả bước: Báo cáo kết quả hoạt động hợp tác quốc tế.
 

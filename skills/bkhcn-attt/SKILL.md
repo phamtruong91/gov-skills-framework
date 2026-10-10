@@ -27,8 +27,7 @@ dịch vụ an toàn thông tin mạng.
 - Làm gì: Giám sát không gian mạng; thu thập, phân tích nguy cơ, lỗ hổng, mã độc;
   tiếp nhận báo cáo sự cố từ tổ chức, doanh nghiệp.
 - Dùng input: `doi_tuong`.
-- Vai trò: Cục An toàn thông tin (Bộ KH&CN) chủ trì; AI hỗ trợ tổng hợp báo cáo giám sát, ⏱ ~2–3 ngày làm việc (ước tính).
-  phân loại mức độ (2–3 giờ).
+- Vai trò: Cục An toàn thông tin (Bộ KH&CN) chủ trì; AI hỗ trợ tổng hợp báo cáo giám sát, phân loại mức độ ⏱ ~2–3 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Thông tin sự cố có thể nhạy cảm — tuân thủ quy định bảo mật; phối hợp
   Bộ Công an đối với sự cố nghiêm trọng, có yếu tố tội phạm mạng.
 - → Kết quả bước: Báo cáo giám sát, cảnh báo.
@@ -37,8 +36,7 @@ dịch vụ an toàn thông tin mạng.
 
 - Làm gì: Đánh giá mức độ nghiêm trọng; phân loại, định cấp sự cố; đề xuất phương án ứng cứu.
 - Dùng input: `thong_tin_su_co`, báo cáo giám sát.
-- Vai trò: Chuyên viên Cục An toàn thông tin đánh giá; AI hỗ trợ tổng hợp, dự thảo ⏱ ~3–5 ngày làm việc (ước tính).
-  phương án (1–2 giờ).
+- Vai trò: Chuyên viên Cục An toàn thông tin đánh giá; AI hỗ trợ tổng hợp, dự thảo phương án ⏱ ~3–5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: AI chỉ hỗ trợ tổng hợp — quyết định phân loại, điều phối ứng cứu do
   người có thẩm quyền quyết định.
 - → Kết quả bước: Phân loại sự cố + phương án ứng cứu.
@@ -48,7 +46,7 @@ dịch vụ an toàn thông tin mạng.
 - Làm gì: Điều phối các đơn vị ứng cứu; hướng dẫn tổ chức bị ảnh hưởng khắc phục;
   theo dõi đến khi xử lý xong.
 - Dùng input: Phương án ứng cứu.
-- Vai trò: Cục An toàn thông tin điều phối; AI hỗ trợ lập nhật ký ứng cứu, báo cáo tiến độ (1–2 giờ).
+- Vai trò: Cục An toàn thông tin điều phối; AI hỗ trợ lập nhật ký ứng cứu, báo cáo tiến độ (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Bảo đảm thông tin liên lạc thông suốt; báo cáo cấp trên kịp thời với sự cố
   nghiêm trọng.
 - → Kết quả bước: Sự cố được xử lý; báo cáo tổng kết ứng cứu.
@@ -58,7 +56,7 @@ dịch vụ an toàn thông tin mạng.
 - Làm gì: Xây dựng chiến lược, chương trình an toàn thông tin; ban hành cảnh báo, hướng dẫn;
   sơ kết, rút kinh nghiệm.
 - Dùng input: `muc_tieu`, kết quả các bước trên.
-- Vai trò: Cục trưởng kiểm tra; Thứ trưởng duyệt; AI hỗ trợ dự thảo văn bản (2 giờ).
+- Vai trò: Cục trưởng kiểm tra; Thứ trưởng duyệt; AI hỗ trợ dự thảo văn bản (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Văn bản cảnh báo phải chính xác, kịp thời, không gây hoang mang;
   chiến lược ATTT gắn với chuyển đổi số quốc gia.
 - → Kết quả bước: Văn bản chính sách/cảnh báo được ban hành.

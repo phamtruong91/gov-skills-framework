@@ -5,6 +5,8 @@ description: "Tổng hợp báo cáo tình hình kinh tế – xã hội định
 
 # Skill: Báo cáo KT-XH tỉnh định kỳ
 
+> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
+
 ## 2. Khi nào dùng
 - Tổng hợp báo cáo KT-XH tháng, quý, 6 tháng, năm của tỉnh trình UBND tỉnh, HĐND tỉnh.
 - Chuẩn bị báo cáo phục vụ kỳ họp HĐND tỉnh, hội nghị của Tỉnh ủy.
@@ -14,7 +16,7 @@ description: "Tổng hợp báo cáo tình hình kinh tế – xã hội định
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
 | `ky_bao_cao` | Kỳ báo cáo (tháng/quý/6 tháng/năm + mốc thời gian) | Có |
-| `de_cuong` | Đề cương báo cáo do UBND tỉnh / cơ quan chủ trì ban hành | Có |
+| `de_cuong` | Đề cương báo cáo (đơn vị chủ trì xây dựng tại Bước 1; trường hợp cấp trên đã ban hành thì dùng đề cương có sẵn) | Có |
 | `so_lieu_cac_so` | Số liệu báo cáo của các sở, ngành theo đề cương | Có |
 | `so_lieu_thong_ke` | Số liệu của cơ quan thống kê | Có |
 | `nhiem_vu_trong_tam_ky_truoc` | Nhiệm vụ, chỉ tiêu kỳ trước để đối chiếu | Không |
@@ -24,36 +26,36 @@ description: "Tổng hợp báo cáo tình hình kinh tế – xã hội định
 
 **Bước 1. Ban hành đề cương, đôn đốc số liệu**
 - Làm gì: Xây dựng đề cương báo cáo; gửi văn bản đề nghị các sở, ngành báo cáo số liệu theo đề cương, đúng thời hạn.
-- Dùng input: `ky_bao_cao`, `de_cuong`, `thoi_han_nop`
-- Vai trò: Chuyên viên Phòng Tổng hợp (Sở Tài chính tỉnh A hoặc Văn phòng UBND tỉnh A) soạn; AI hỗ trợ soạn đề cương, công văn đôn đốc — 1 ngày làm việc
+- Dùng input: `ky_bao_cao`, `thoi_han_nop` (đề cương được xây dựng tại bước này; nếu cấp trên đã ban hành đề cương thì dùng trực tiếp).
+- Vai trò: Chuyên viên Phòng Tổng hợp (Sở Tài chính tỉnh A hoặc Văn phòng UBND tỉnh A) soạn; AI hỗ trợ soạn đề cương, công văn đôn đốc ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Đề cương phải bao quát các ngành, lĩnh vực; thời hạn gửi số liệu phải trừ hao thời gian tổng hợp.
 - → Kết quả bước: Đề cương + công văn đề nghị báo cáo đã gửi các sở, ngành.
 
 **Bước 2. Thu thập, kiểm tra số liệu ngành**
 - Làm gì: Thu thập báo cáo của các sở, ngành; kiểm tra tính đầy đủ, logic, nhất quán của số liệu; yêu cầu giải trình, bổ sung khi số liệu bất thường.
-- Dùng input: `so_lieu_cac_so`, `so_lieu_thong_ke`
-- Vai trò: Chuyên viên tổng hợp; AI hỗ trợ đối chiếu chéo số liệu giữa các nguồn, phát hiện số liệu bất thường — 3 ngày làm việc
+- Dùng input: `de_cuong` (đề cương từ Bước 1), `so_lieu_cac_so`, `so_lieu_thong_ke`.
+- Vai trò: Chuyên viên tổng hợp; AI hỗ trợ đối chiếu chéo số liệu giữa các nguồn, phát hiện số liệu bất thường ⏱ 3 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Không tự ý điều chỉnh số liệu ngành; số liệu vênh nhau phải yêu cầu đơn vị báo cáo giải trình bằng văn bản.
 - → Kết quả bước: Bộ số liệu đã kiểm tra, có giải trình các điểm vênh.
 
 **Bước 3. Phân tích, đánh giá tình hình**
 - Làm gì: Phân tích kết quả đạt được, tồn tại, nguyên nhân theo từng lĩnh vực; so sánh với cùng kỳ, với kế hoạch; đánh giá khả năng hoàn thành chỉ tiêu năm.
-- Dùng input: Bộ số liệu Bước 2, `nhiem_vu_trong_tam_ky_truoc`
-- Vai trò: Chuyên viên phân tích; Trưởng phòng Tổng hợp rà soát; AI hỗ trợ tính toán tốc độ tăng trưởng, vẽ biểu đồ, soạn nhận định — 2 ngày làm việc
+- Dùng input: Bộ số liệu Bước 2, `nhiem_vu_trong_tam_ky_truoc`.
+- Vai trò: Chuyên viên phân tích; Trưởng phòng Tổng hợp rà soát; AI hỗ trợ tính toán tốc độ tăng trưởng, vẽ biểu đồ, soạn nhận định ⏱ 2 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Phân tích phải gắn số liệu với nguyên nhân; nêu rõ tồn tại thuộc trách nhiệm chủ quan, khách quan.
 - → Kết quả bước: Bản phân tích, đánh giá tình hình KT-XH kỳ báo cáo.
 
 **Bước 4. Dự báo và đề xuất nhiệm vụ kỳ tới**
 - Làm gì: Dự báo xu hướng kỳ tới; đề xuất nhiệm vụ, giải pháp trọng tâm; tổng hợp kiến nghị của các sở, ngành.
-- Dùng input: Bản phân tích Bước 3
-- Vai trò: Lãnh đạo Sở Tài chính / Văn phòng UBND tỉnh cho ý kiến định hướng; AI hỗ trợ soạn phần nhiệm vụ, giải pháp — 1 ngày làm việc
+- Dùng input: Bản phân tích Bước 3.
+- Vai trò: Lãnh đạo Sở Tài chính / Văn phòng UBND tỉnh cho ý kiến định hướng; AI hỗ trợ soạn phần nhiệm vụ, giải pháp ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Nhiệm vụ phải cụ thể, có chỉ tiêu, có đầu mối; kiến nghị với Trung ương phải đúng thẩm quyền.
 - → Kết quả bước: Phần dự báo, nhiệm vụ, kiến nghị.
 
 **Bước 5. Hoàn thiện, trình và phát hành báo cáo**
 - Làm gì: Tổng hợp thành báo cáo hoàn chỉnh; trình lãnh đạo ký; gửi HĐND tỉnh, các cơ quan theo quy định.
-- Dùng input: Toàn bộ kết quả các bước
-- Vai trò: Giám đốc Sở / Chánh Văn phòng UBND tỉnh kiểm tra; Chủ tịch UBND tỉnh ký (báo cáo quan trọng); AI hỗ trợ rà soát thể thức, số liệu lần cuối — 1 ngày làm việc
+- Dùng input: Toàn bộ kết quả các bước.
+- Vai trò: Giám đốc Sở / Chánh Văn phòng UBND tỉnh kiểm tra; Chủ tịch UBND tỉnh ký (báo cáo quan trọng); AI hỗ trợ rà soát thể thức, số liệu lần cuối ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Số liệu trong báo cáo phải khớp với số liệu ngành đã kiểm tra; đúng thời hạn gửi.
 - → Kết quả bước: Báo cáo KT-XH kỳ đã ký, đã gửi.
 

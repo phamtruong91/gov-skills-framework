@@ -24,28 +24,28 @@ description: "Xây dựng chương trình, kế hoạch phòng, chống tội ph
 **Bước 1. Xây dựng chương trình, kế hoạch PCTP**
 - Làm gì: Phân tích tình hình tội phạm từ số liệu công khai; xác định mục tiêu, nhiệm vụ, giải pháp phòng ngừa; phân công trách nhiệm.
 - Dùng input: `giai_doan`, `linh_vuc_trong_tam`, `so_lieu_cong_khai`.
-- Vai trò: Chuyên viên cơ quan tham mưu xây dựng (AI hỗ trợ tổng hợp số liệu công khai, lập khung chương trình — 3 ngày) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt.
+- Vai trò: Chuyên viên cơ quan tham mưu xây dựng (AI hỗ trợ tổng hợp số liệu công khai, lập khung chương trình ⏱ 3 ngày (ước tính)) → Cục trưởng kiểm tra → Thứ trưởng phê duyệt.
 - Lưu ý nghiệp vụ: Lấy phòng ngừa làm chính; nội dung ở mức chương trình, kế hoạch hành chính; tuyệt đối không đưa biện pháp nghiệp vụ đấu tranh cụ thể vào văn bản.
 - → Kết quả bước: Chương trình/kế hoạch PCTP được phê duyệt.
 
 **Bước 2. Triển khai phong trào toàn dân bảo vệ ANTQ**
 - Làm gì: Hướng dẫn địa phương phát động phong trào toàn dân bảo vệ an ninh Tổ quốc: mô hình tự quản, tổ an ninh nhân dân, tuyên truyền phòng ngừa tội phạm trong nhân dân.
 - Dùng input: `linh_vuc_trong_tam`, `giai_doan`.
-- Vai trò: Chuyên viên xây dựng phong trào soạn hướng dẫn (AI hỗ trợ soạn tài liệu tuyên truyền, mô hình mẫu — 2 ngày) → Cục trưởng ký ban hành.
+- Vai trò: Chuyên viên xây dựng phong trào soạn hướng dẫn (AI hỗ trợ soạn tài liệu tuyên truyền, mô hình mẫu ⏱ 2 ngày (ước tính)) → Cục trưởng ký ban hành.
 - Lưu ý nghiệp vụ: Nội dung tuyên truyền phù hợp từng địa bàn, nhóm đối tượng; huy động sức dân phòng ngừa tội phạm.
 - → Kết quả bước: Văn bản hướng dẫn phong trào; tài liệu tuyên truyền.
 
 **Bước 3. Phối hợp phòng ngừa theo lĩnh vực**
 - Làm gì: Phối hợp bộ ngành, đoàn thể triển khai biện pháp phòng ngừa: giáo dục thanh thiếu niên, quản lý địa bàn, phòng ngừa tội phạm công nghệ cao ở mức tuyên truyền, cảnh báo.
 - Dùng input: `linh_vuc_trong_tam`, `bao_cao_dia_phuong`.
-- Vai trò: Cơ quan tham mưu chủ trì phối hợp (AI hỗ trợ lập kế hoạch phối hợp, danh mục cảnh báo thủ đoạn mới ở mức công khai — 2 ngày) → Cục trưởng trình Thứ trưởng.
+- Vai trò: Cơ quan tham mưu chủ trì phối hợp (AI hỗ trợ lập kế hoạch phối hợp, danh mục cảnh báo thủ đoạn mới ở mức công khai ⏱ 2 ngày (ước tính)) → Cục trưởng trình Thứ trưởng.
 - Lưu ý nghiệp vụ: Cảnh báo thủ đoạn ở mức thông tin công khai giúp người dân phòng tránh; không mô tả chi tiết kỹ thuật phạm tội.
 - → Kết quả bước: Kế hoạch phối hợp; bản tin cảnh báo phòng ngừa tội phạm.
 
 **Bước 4. Sơ kết, tổng kết**
 - Làm gì: Tổng hợp kết quả toàn quốc (số liệu công khai); đánh giá hiệu quả phòng ngừa; đề xuất chính sách.
 - Dùng input: Báo cáo của địa phương, đơn vị.
-- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ tổng hợp số liệu, dự thảo báo cáo — 2 ngày) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
+- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ tổng hợp số liệu, dự thảo báo cáo ⏱ 2 ngày (ước tính)) → Cục trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
 - Lưu ý nghiệp vụ: Đánh giá thực chất, gắn trách nhiệm; số liệu ở mức đã công bố.
 - → Kết quả bước: Báo cáo sơ kết/tổng kết chương trình PCTP.
 
@@ -106,7 +106,7 @@ flowchart TD
 > *Nơi nhận: ... — KT. BỘ TRƯỞNG / THỨ TRƯỞNG (bà Phạm Thị DD)*
 
 ## 8. Human gate
-- Cục trưởng: duyệt chương trình, kế hoạch, tài liệu tuyên truyền.
+- Cục trưởng: duyệt văn bản hướng dẫn phong trào, tài liệu tuyên truyền.
 - Thứ trưởng phụ trách: phê duyệt chương trình/kế hoạch PCTP.
 - Bộ trưởng (ông Lê Văn CC): quyết định chủ trương lớn về PCTP.
 

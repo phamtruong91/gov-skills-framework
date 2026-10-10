@@ -5,6 +5,8 @@ description: "Soạn thông báo kết luận cuộc họp, lịch tiếp công 
 
 # Skill: Soạn thông báo
 
+> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
+
 ## Khi nào dùng
 
 - Soạn thông báo kết luận của Chủ tịch UBND xã tại cuộc họp giao ban, họp chuyên đề.
@@ -50,7 +52,7 @@ description: "Soạn thông báo kết luận cuộc họp, lịch tiếp công 
 
 **Bước 3. Soạn dự thảo nội dung**
 
-- Làm gì: Viết dự thảo: phần mở đầu (nêu căn cứ: cuộc họp ngày..., văn bản số...), phần nội dung (các ý thông báo, sắp xếp theo thứ tự ưu tiên), phần kết (yêu cầu thực hiện nếu có).
+- Làm gì: Viết dự thảo: phần mở đầu (nêu căn cứ: cuộc họp ngày.., văn bản số...), phần nội dung (các ý thông báo, sắp xếp theo thứ tự ưu tiên), phần kết (yêu cầu thực hiện nếu có).
 - Dùng input: `trich_yeu`, `noi_dung_chinh`, `van_ban_lien_quan`, `thoi_gian_dia_diem`, `doi_tuong_nhan`.
 - Vai trò: Công chức soạn thảo thực hiện; AI hỗ trợ diễn đạt ngắn gọn, rõ ràng, dễ hiểu (đặc biệt khi đối tượng là người dân) ⏱ ~15–20 phút (ước tính).
 - Lưu ý nghiệp vụ: Thông báo viết ngắn gọn, đi thẳng vào nội dung; mỗi ý một đoạn. Tránh câu chữ hành chính khó hiểu khi thông báo gửi đến người dân. Ghi rõ đầu mối liên hệ khi người dân cần hỏi thêm.
@@ -68,7 +70,7 @@ description: "Soạn thông báo kết luận cuộc họp, lịch tiếp công 
 
 - Làm gì: Trình Chánh Văn phòng kiểm tra thể thức, trình người có thẩm quyền duyệt và ký; văn thư đánh số, đóng dấu; phát hành theo `kenh_phat_hanh` (gửi văn bản, niêm yết trụ sở, loa truyền thanh, cổng thông tin); lưu hồ sơ.
 - Dùng input: `nguoi_ky_du_kien`, `kenh_phat_hanh`, `noi_nhan`, `doi_tuong_nhan`.
-- Vai trò: Chánh Văn phòng HĐND&UBND kiểm tra thể thức (5 phút); Chủ tịch/Phó Chủ tịch hoặc Chánh Văn phòng (theo phân cấp ký) duyệt và ký (10 phút); văn thư + công chức phụ trách truyền thanh/cổng thông tin phát hành; AI hỗ trợ: kiểm tra thể thức lần cuối, tổng hợp danh sách phát hành — tổng ước tính 20 phút (chưa tính thời gian chờ).
+- Vai trò: Chánh Văn phòng HĐND&UBND kiểm tra thể thức (⏱ 5 phút); Chủ tịch/Phó Chủ tịch hoặc Chánh Văn phòng (theo phân cấp ký) duyệt và ký (⏱ 10 phút); văn thư + công chức phụ trách truyền thanh/cổng thông tin phát hành; AI hỗ trợ: kiểm tra thể thức lần cuối, tổng hợp danh sách phát hành — tổng ước tính 20 phút (chưa tính thời gian chờ).
 - Lưu ý nghiệp vụ: Thông báo niêm yết công khai (kết quả xét duyệt chính sách...) phải niêm yết đủ thời gian theo quy định và lập biên bản niêm yết. Thông báo lịch tiếp công dân, lịch sự kiện phải phát hành trước đủ thời gian để đối tượng chuẩn bị.
 - → Kết quả bước: Thông báo đã ký, phát hành đúng kênh, đúng đối tượng; hồ sơ lưu đầy đủ (kèm biên bản niêm yết nếu có).
 
@@ -84,7 +86,7 @@ flowchart TD
     B4 --> B5["Bước 5: Trình ký, phát hành và niêm yết"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Dự thảo thông báo hoàn chỉnh, đúng thể thức NĐ 30/2020/NĐ-CP.
 - Biên bản niêm yết (đối với thông báo công khai).
@@ -104,7 +106,7 @@ Khung cố định của một thông báo, các phần bắt buộc theo đúng
 7. **Nơi nhận** (cuối văn bản, canh trái): đối tượng nhận, kênh phát hành (niêm yết, loa truyền thanh...), lưu hồ sơ.
 8. **Chữ ký, chức vụ người ký** (canh phải): "TM. ỦY BAN NHÂN DÂN" / chức vụ (CHỦ TỊCH / KT. CHỦ TỊCH – PHÓ CHỦ TỊCH / TL. CHỦ TỊCH – CHÁNH VĂN PHÒNG) / họ tên người ký, đóng dấu.
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. Có đủ 8 thành phần thể thức theo đúng thứ tự mục 5.
 2. Số, ký hiệu đúng định dạng ".../TB-UBND"; tên cơ quan, quốc hiệu–tiêu ngữ, địa danh ghi đúng quy ước.
@@ -117,7 +119,7 @@ Khung cố định của một thông báo, các phần bắt buộc theo đúng
 9. Không đặt ra quy định mới có tính bắt buộc chung trong thông báo; không bịa số liệu, căn cứ.
 10. Đã qua human gate: Chánh Văn phòng kiểm tra thể thức, người có thẩm quyền duyệt nội dung và ký trước khi phát hành.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
@@ -166,14 +168,14 @@ CHÁNH VĂN PHÒNG
 
 Phạm Văn C
 
-## Human gate
+## 8. Human gate
 
 - **Công chức soạn thảo** → soạn dự thảo, chịu trách nhiệm về tính chính xác của nội dung (thời gian, địa điểm, kết luận).
 - **Chánh Văn phòng HĐND&UBND** → kiểm tra thể thức, câu chữ; ký ban hành đối với thông báo hành chính thông thường (ký "TL. Chủ tịch").
 - **Chủ tịch / Phó Chủ tịch UBND xã** → duyệt và ký đối với thông báo kết luận cuộc họp (người chủ trì ký) và các thông báo quan trọng.
 - Không phát hành thông báo khi chưa có chữ ký của người có thẩm quyền.
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI KHÔNG ra quyết định hành chính thay người có thẩm quyền; chỉ hỗ trợ soạn thảo dự thảo.
 - AI KHÔNG tự ký, tự đóng dấu, tự phát hành thông báo dưới bất kỳ hình thức nào.
@@ -181,7 +183,7 @@ Phạm Văn C
 - AI KHÔNG thêm, bớt ý kiến chỉ đạo khi soạn thông báo kết luận cuộc họp — phải trung thành với biên bản họp.
 - AI KHÔNG dùng thông báo để đặt ra quy định mới có tính bắt buộc chung.
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - NĐ 30/2020/NĐ-CP về công tác văn thư: thể thức, kỹ thuật trình bày văn bản hành chính (áp dụng cho thông báo).
 - Luật Tổ chức chính quyền địa phương 72/2025/QH15: thẩm quyền, trách nhiệm của UBND, Chủ tịch UBND cấp xã trong chỉ đạo, điều hành.

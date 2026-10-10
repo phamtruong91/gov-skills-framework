@@ -16,8 +16,8 @@ description: "Quản lý chất lượng công trình xây dựng: thẩm địn
 
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
-| `ke_hoach_kiem_tra` | Kế hoạch kiểm tra chất lượng năm/đợt (đối tượng, phạm vi, thời gian) | Có (kiểm tra theo kế hoạch) |
-| `tin_bao_su_co` | Tin báo sự cố công trình: tên công trình, địa điểm, thời gian, mức độ | Có (xử lý sự cố) |
+| `ke_hoach_kiem_tra` | Kế hoạch kiểm tra chất lượng năm/đợt (đối tượng, phạm vi, thời gian). Lưu ý: kiểm tra theo kế hoạch.| Có |
+| `tin_bao_su_co` | Tin báo sự cố công trình: tên công trình, địa điểm, thời gian, mức độ. Lưu ý: xử lý sự cố.| Có |
 | `danh_sach_cong_trinh` | Danh sách công trình thuộc diện kiểm tra (tên, chủ đầu tư, địa điểm, giai đoạn) | Có |
 | `ho_so_phap_ly_ct` | Hồ sơ pháp lý công trình: giấy phép, hồ sơ thiết kế, nhật ký thi công, biên bản nghiệm thu | Không |
 | `ket_qua_giam_dinh` | Kết quả giám định nguyên nhân sự cố của tổ chức giám định (nếu đã có) | Không |

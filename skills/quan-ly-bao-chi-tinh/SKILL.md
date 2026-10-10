@@ -26,35 +26,35 @@ description: "Quản lý báo chí, xuất bản trên địa bàn tỉnh: cấp
 
 **Bước 1. Lập kế hoạch quản lý, kiểm tra báo chí, xuất bản năm**
 - Làm gì: Rà soát đối tượng quản lý (báo, đài địa phương, trang thông tin điện tử, cơ sở in, phát hành); lập kế hoạch kiểm tra, quản lý năm.
-- Dùng input: `doi_tuong_quan_ly`, `don_thu_phan_anh`
+- Dùng input: `doi_tuong_quan_ly`, `don_thu_phan_anh`.
 - Vai trò: Chuyên viên Phòng Báo chí – Xuất bản (hoặc phòng được giao) lập kế hoạch; Trưởng phòng kiểm tra; Giám đốc Sở phê duyệt; AI hỗ trợ lập danh sách đối tượng, phân lịch kiểm tra ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Kế hoạch phải bao quát cả báo chí, xuất bản, in, phát hành; ưu tiên đối tượng có phản ánh, dấu hiệu vi phạm.
 - → Kết quả bước: Kế hoạch quản lý, kiểm tra báo chí, xuất bản năm đã phê duyệt.
 
 **Bước 2. Thẩm định hồ sơ cấp phép theo phân cấp**
 - Làm gì: Tiếp nhận hồ sơ đề nghị cấp, cấp lại giấy phép (bản tin, giấy phép hoạt động in...); thẩm định điều kiện; trình cấp phép hoặc trả lời không đủ điều kiện.
-- Dùng input: Hồ sơ đề nghị của tổ chức, cá nhân; `doi_tuong_quan_ly`
+- Dùng input: Hồ sơ đề nghị của tổ chức, cá nhân; `doi_tuong_quan_ly`, `nguoi_ky`.
 - Vai trò: Chuyên viên thẩm định hồ sơ; Trưởng phòng kiểm tra; Giám đốc Sở ký giấy phép (trong thẩm quyền phân cấp); AI hỗ trợ kiểm tra thành phần hồ sơ, soạn văn bản ⏱ ~3 ngày làm việc/hồ sơ (ước tính)
 - Lưu ý nghiệp vụ: Chỉ cấp phép trong phạm vi thẩm quyền được phân cấp; hồ sơ không đủ điều kiện phải trả lời bằng văn bản, nêu rõ lý do.
 - → Kết quả bước: Giấy phép đã cấp hoặc văn bản trả lời không đủ điều kiện.
 
 **Bước 3. Kiểm tra hoạt động báo chí, xuất bản, in, phát hành**
 - Làm gì: Kiểm tra việc chấp hành quy định về hoạt động báo chí, xuất bản, in, phát hành; kiểm tra nội dung thông tin; lập biên bản kiểm tra.
-- Dùng input: `ke_hoach_kiem_tra`, `don_thu_phan_anh`
+- Dùng input: `ke_hoach_kiem_tra`, `don_thu_phan_anh`.
 - Vai trò: Đoàn kiểm tra (Sở KH&CN chủ trì) thực hiện; chuyên viên lập biên bản; AI hỗ trợ soạn biên bản, tổng hợp kết quả kiểm tra ⏱ theo kế hoạch (ước tính)
 - Lưu ý nghiệp vụ: Kiểm tra đúng nội dung quyết định kiểm tra; đánh giá khách quan; nội dung vi phạm phải có căn cứ, bằng chứng cụ thể.
 - → Kết quả bước: Biên bản kiểm tra hoạt động báo chí, xuất bản.
 
 **Bước 4. Xử lý vi phạm**
 - Làm gì: Lập biên bản vi phạm hành chính; trình ban hành Quyết định xử phạt vi phạm hành chính; theo dõi chấp hành.
-- Dùng input: `bien_ban_kiem_tra`
+- Dùng input: `bien_ban_kiem_tra`.
 - Vai trò: Chuyên viên lập biên bản vi phạm; Trưởng phòng thẩm tra; người có thẩm quyền xử phạt ký Quyết định; AI hỗ trợ soạn thảo, đối chiếu khung phạt ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Xác định đúng hành vi, đúng khung phạt, đúng thẩm quyền và thời hiệu; quyết định xử phạt đúng thể thức.
 - → Kết quả bước: Quyết định xử phạt vi phạm hành chính (số 1234/QĐ-XPHC).
 
 **Bước 5. Giao ban báo chí, tổng hợp báo cáo**
 - Làm gì: Tổ chức giao ban báo chí định kỳ với các cơ quan báo chí; định hướng tuyên truyền; tổng hợp báo cáo công tác báo chí, xuất bản năm.
-- Dùng input: Kết quả kiểm tra, xử lý các bước trên; định hướng tuyên truyền của tỉnh
+- Dùng input: Kết quả kiểm tra, xử lý các bước trên; định hướng tuyên truyền của tỉnh.
 - Vai trò: Phó Giám đốc Sở chủ trì giao ban; chuyên viên chuẩn bị nội dung, tổng hợp báo cáo; AI hỗ trợ soạn thông báo kết luận giao ban, báo cáo tổng kết ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Giao ban phải định hướng rõ nội dung tuyên truyền trọng tâm; kết luận giao ban là căn cứ để cơ quan báo chí thực hiện.
 - → Kết quả bước: Thông báo kết luận giao ban báo chí + báo cáo công tác báo chí, xuất bản năm.

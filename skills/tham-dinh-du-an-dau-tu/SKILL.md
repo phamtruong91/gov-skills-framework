@@ -28,7 +28,7 @@ description: "Thẩm định chủ trương đầu tư, nguồn vốn và hiệu
 
 **Bước 1. Tiếp nhận và kiểm tra tính đầy đủ, hợp lệ của hồ sơ**
 - Làm gì: Tiếp nhận hồ sơ đề nghị thẩm định; kiểm tra thành phần hồ sơ theo quy định (báo cáo đề xuất, tờ trình, tài liệu chứng minh nguồn vốn, văn bản về quy hoạch...); lập phiếu tiếp nhận, yêu cầu bổ sung nếu thiếu.
-- Dùng input: `ho_so_du_an`, `loai_tham_dinh`.
+- Dùng input: `ho_so_du_an`, `loai_tham_dinh`, `ten_chu_dau_tu`.
 - Vai trò: Chuyên viên Phòng Đầu tư (Sở Tài chính) tiếp nhận, AI hỗ trợ lập danh mục kiểm tra thành phần hồ sơ (checklist) và phiếu tiếp nhận; ⏱ ~1–2 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Không thụ lý hồ sơ thiếu thành phần bắt buộc; thời hạn thẩm định được tính từ ngày nhận đủ hồ sơ hợp lệ.
 - → Kết quả bước: Phiếu tiếp nhận hồ sơ hợp lệ (hoặc văn bản yêu cầu bổ sung).

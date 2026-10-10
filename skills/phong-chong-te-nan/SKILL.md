@@ -31,7 +31,7 @@ description: "Phòng, chống tệ nạn xã hội ở cơ sở: kế hoạch n�
 
 - Làm gì: Phối hợp Công an xã, trưởng thôn/tổ dân phố rà soát: số người nghiện ma túy, người nghi nghiện; người bán dâm hoàn lương; địa điểm có nguy cơ phát sinh tệ nạn; cập nhật danh sách quản lý; phân loại mức độ (ổn định / có nguy cơ gia tăng / điểm nóng).
 - Dùng input: `ds_nguoi_nghien`, `ds_hoan_luong`, `diem_nguy_co`, `so_lieu_ky_truoc`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực phòng, chống tệ nạn xã hội phối hợp Công an xã rà soát, cập nhật danh sách. AI hỗ trợ: mẫu phiếu rà soát, bảng tổng hợp số liệu, so sánh biến động với kỳ trước, gợi ý phân loại mức độ. Thời gian ước tính: 2–3 ngày làm việc.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực phòng, chống tệ nạn xã hội phối hợp Công an xã rà soát, cập nhật danh sách. AI hỗ trợ: mẫu phiếu rà soát, bảng tổng hợp số liệu, so sánh biến động với kỳ trước, gợi ý phân loại mức độ. ⏱ 2–3 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Danh sách người nghiện, người bán dâm hoàn lương là thông tin nhạy cảm — lưu trữ riêng, bảo mật, không đưa chi tiết cá nhân vào văn bản công khai; mọi số liệu phải có xác nhận của Công an xã; không tự ý kết luận ai là người nghiện khi chưa có căn cứ theo quy định.
 - → Kết quả bước: Bảng tổng hợp tình hình tệ nạn xã hội trên địa bàn (số liệu tổng hợp + phân loại mức độ từng thôn/điểm).
 
@@ -39,7 +39,7 @@ description: "Phòng, chống tệ nạn xã hội ở cơ sở: kế hoạch n�
 
 - Làm gì: Căn cứ kết quả rà soát, dự thảo Kế hoạch phòng, chống tệ nạn xã hội: mục đích, yêu cầu; mục tiêu, chỉ tiêu; nội dung (tuyên truyền phòng chống ma túy, mại dâm; quản lý người nghiện tại cộng đồng; tổ chức cai nghiện tại gia đình, cộng đồng; hỗ trợ người hoàn lương tái hòa nhập); phân công thực hiện; kinh phí; trình lãnh đạo UBND xã phê duyệt.
 - Dùng input: Bảng tổng hợp ở Bước 1, `don_vi_phoi_hop`, `nam_ke_hoach`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực dự thảo kế hoạch, thống nhất với Công an xã về nội dung phối hợp. AI hỗ trợ: dàn ý kế hoạch theo cấu trúc chuẩn, gợi ý chỉ tiêu phù hợp thực trạng, kiểm tra thể thức văn bản theo NĐ 30/2020/NĐ-CP. Thời gian ước tính: 0,5–1 ngày làm việc.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực dự thảo kế hoạch, thống nhất với Công an xã về nội dung phối hợp. AI hỗ trợ: dàn ý kế hoạch theo cấu trúc chuẩn, gợi ý chỉ tiêu phù hợp thực trạng, kiểm tra thể thức văn bản theo NĐ 30/2020/NĐ-CP. ⏱ 0,5–1 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Kế hoạch phải gắn với thẩm quyền, nguồn lực thực tế của xã; nội dung cai nghiện phải đúng quy định về cai nghiện tại gia đình, cộng đồng; kinh phí phù hợp dự toán được giao.
 - → Kết quả bước: Dự thảo Kế hoạch phòng, chống tệ nạn xã hội (sẵn sàng trình ký).
 
@@ -55,7 +55,7 @@ description: "Phòng, chống tệ nạn xã hội ở cơ sở: kế hoạch n�
 
 - Làm gì: Phối hợp Công an xã, Trạm Y tế xã quản lý người nghiện ma túy tại cộng đồng theo danh sách; hướng dẫn gia đình làm hồ sơ đăng ký cai nghiện tại gia đình, cộng đồng; theo dõi tiến độ cai nghiện, hỗ trợ người hoàn thành cai nghiện và người bán dâm hoàn lương tái hòa nhập cộng đồng (giới thiệu học nghề, việc làm); lập hồ sơ theo dõi từng trường hợp.
 - Dùng input: `ds_nguoi_nghien`, `ho_so_cai_nghien`, `ds_hoan_luong`, `don_vi_phoi_hop`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực phối hợp Công an xã, Trạm Y tế xã theo dõi, lập hồ sơ. AI hỗ trợ: mẫu hồ sơ theo dõi cai nghiện, checklist thủ tục đăng ký cai nghiện tại gia đình/cộng đồng, nhắc lịch tái kiểm tra, tổng hợp tiến độ. Thời gian ước tính: theo dõi thường xuyên; lập hồ sơ ban đầu 0,5–1 ngày/trường hợp.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực phối hợp Công an xã, Trạm Y tế xã theo dõi, lập hồ sơ. AI hỗ trợ: mẫu hồ sơ theo dõi cai nghiện, checklist thủ tục đăng ký cai nghiện tại gia đình/cộng đồng, nhắc lịch tái kiểm tra, tổng hợp tiến độ. ⏱ lập hồ sơ ban đầu 0,5–1 ngày/trường hợp (ước tính); theo dõi thường xuyên.
 - Lưu ý nghiệp vụ: Mọi biện pháp quản lý, cai nghiện phải đúng trình tự, thủ tục theo quy định pháp luật; hồ sơ cá nhân bảo mật tuyệt đối; ưu tiên vận động tự nguyện cai nghiện; hỗ trợ tái hòa nhập phải thiết thực (học nghề, việc làm) để phòng tái nghiện, tái phạm.
 - → Kết quả bước: Hồ sơ quản lý, theo dõi cai nghiện tại gia đình, cộng đồng từng trường hợp + bảng tổng hợp tiến độ.
 
@@ -63,7 +63,7 @@ description: "Phòng, chống tệ nạn xã hội ở cơ sở: kế hoạch n�
 
 - Làm gì: Tổng hợp kết quả các bước 1–4 (số liệu rà soát, kết quả tuyên truyền, tiến độ cai nghiện, hỗ trợ tái hòa nhập); dự thảo Báo cáo tình hình phòng, chống tệ nạn xã hội trên địa bàn theo cấu trúc chuẩn (chỉ dùng số liệu tổng hợp); trình Trưởng phòng kiểm tra, lãnh đạo UBND xã ký ban hành; gửi cấp trên, lưu hồ sơ.
 - Dùng input: Toàn bộ bán thành phẩm các bước 1–4, `nam_ke_hoach`, `so_lieu_ky_truoc`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực dự thảo báo cáo. AI hỗ trợ: dàn ý báo cáo theo cấu trúc chuẩn, đối chiếu số liệu các phần, kiểm tra không để lọt thông tin cá nhân nhạy cảm, rà soát thể thức NĐ 30/2020/NĐ-CP. Thời gian ước tính: 1 ngày làm việc.
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực dự thảo báo cáo. AI hỗ trợ: dàn ý báo cáo theo cấu trúc chuẩn, đối chiếu số liệu các phần, kiểm tra không để lọt thông tin cá nhân nhạy cảm, rà soát thể thức NĐ 30/2020/NĐ-CP. ⏱ 1 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Báo cáo chỉ dùng số liệu tổng hợp, tuyệt đối không nêu tên người nghiện, người bán dâm hoàn lương; đánh giá trung thực, nêu rõ khó khăn (tái nghiện, thiếu kinh phí...), kiến nghị cụ thể với cấp trên.
 - → Kết quả bước: Báo cáo tình hình phòng, chống tệ nạn xã hội trên địa bàn (bản dự thảo đã qua kiểm tra, sẵn sàng trình ký).
 

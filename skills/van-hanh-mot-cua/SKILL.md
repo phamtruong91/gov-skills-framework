@@ -20,7 +20,7 @@ description: "Vận hành bộ phận một cửa tại Trung tâm PVHCC xã: ti
 | `danh_muc_tthc` | Danh sách TTHC thuộc thẩm quyền cấp xã đang niêm yết (tên TTHC, cơ quan có thẩm quyền, thời hạn giải quyết, phí/lệ phí) | Có |
 | `ho_so_tiep_nhan` | Thông tin hồ sơ mới tiếp nhận (mã hồ sơ, tên TTHC, người nộp, thành phần hồ sơ kèm theo, ngày tiếp nhận) | Có |
 | `dau_moi_phong_ban` | Bảng phân công đầu mối xử lý theo lĩnh vực: X1 — Văn phòng HĐND và UBND; X2 — Phòng Kinh tế; X3 — Phòng Văn hóa – Xã hội | Có |
-| `sổ_theo_doi` | Sổ theo dõi luân chuyển hồ sơ đang xử lý (mã hồ sơ, đầu mối xử lý, hạn trả kết quả, trạng thái) | Không |
+| `so_theo_doi` | Sổ theo dõi luân chuyển hồ sơ đang xử lý (mã hồ sơ, đầu mối xử lý, hạn trả kết quả, trạng thái) | Không |
 | `nguon_nhan_su` | Danh sách công chức Trung tâm PVHCC và công chức đầu mối các phòng chuyên môn | Không |
 | `yeu_cau_dac_biet` | Yêu cầu đặc biệt của lãnh đạo (tăng cường ca, xử lý hồ sơ tồn đọng, báo cáo đột xuất...) | Không |
 
@@ -29,48 +29,48 @@ description: "Vận hành bộ phận một cửa tại Trung tâm PVHCC xã: ti
 **Bước 1. Kiểm tra tính đầy đủ, hợp lệ của hồ sơ**
 
 - Làm gì: Đối chiếu thành phần hồ sơ người dân nộp với thành phần hồ sơ đã công bố trong danh mục niêm yết của TTHC tương ứng; trường hợp thiếu thì hướng dẫn bổ sung một lần, đầy đủ, có phiếu hướng dẫn bổ sung.
-- Dùng input: `ho_so_tiep_nhan`, `danh_muc_tthc`
-- Vai trò: Công chức Trung tâm PVHCC tiếp nhận (công chức tại quầy/khu vực tiếp nhận). AI hỗ trợ: đối chiếu nhanh checklist thành phần hồ sơ, cảnh báo khi thiếu thành phần hoặc giấy tờ hết hạn sử dụng. Thời gian ước tính: 10–15 phút/hồ sơ.
+- Dùng input: `ho_so_tiep_nhan`, `danh_muc_tthc`.
+- Vai trò: Công chức Trung tâm PVHCC tiếp nhận (công chức tại quầy/khu vực tiếp nhận). AI hỗ trợ: đối chiếu nhanh checklist thành phần hồ sơ, cảnh báo khi thiếu thành phần hoặc giấy tờ hết hạn sử dụng. ⏱ 10–15 phút (ước tính)/hồ sơ.
 - Lưu ý nghiệp vụ: Không tiếp nhận hồ sơ khi thiếu thành phần bắt buộc mà không có phiếu hướng dẫn bổ sung; mọi trường hợp từ chối tiếp nhận phải nêu rõ lý do bằng văn bản.
 - → Kết quả bước: Hồ sơ được xác nhận đủ điều kiện tiếp nhận; phiếu hẹn trả kết quả ghi rõ ngày hẹn.
 
 **Bước 2. Phân luồng hồ sơ theo TTHC và đầu mối xử lý**
 
 - Làm gì: Căn cứ tên TTHC và lĩnh vực nghiệp vụ, xác định đầu mối chịu trách nhiệm chính (X1, X2 hoặc X3 theo bảng phân công) và các phòng phối hợp liên thông (nếu có); ghi vào sổ theo dõi luân chuyển.
-- Dùng input: `ho_so_tiep_nhan`, `dau_moi_phong_ban`, `danh_muc_tthc`
-- Vai trò: Công chức Trung tâm PVHCC (đầu mối phân luồng). AI hỗ trợ: gợi ý đầu mối xử lý dựa trên lĩnh vực TTHC, cảnh báo khi TTHC liên quan nhiều phòng để thiết lập phối hợp liên thông. Thời gian ước tính: 5–10 phút/hồ sơ.
+- Dùng input: `ho_so_tiep_nhan`, `dau_moi_phong_ban`, `danh_muc_tthc`.
+- Vai trò: Công chức Trung tâm PVHCC (đầu mối phân luồng). AI hỗ trợ: gợi ý đầu mối xử lý dựa trên lĩnh vực TTHC, cảnh báo khi TTHC liên quan nhiều phòng để thiết lập phối hợp liên thông. ⏱ 5–10 phút (ước tính)/hồ sơ.
 - Lưu ý nghiệp vụ: Mỗi hồ sơ chỉ có một đầu mối chịu trách nhiệm chính; phòng phối hợp phải có thời hạn xử lý phần việc của mình, không đùn đẩy trách nhiệm.
 - → Kết quả bước: Phiếu phân luồng hồ sơ (mã hồ sơ, đầu mối chính, đơn vị phối hợp, thời hạn từng phần việc).
 
 **Bước 3. Chuyển hồ sơ liên thông tới các phòng chuyên môn**
 
 - Làm gì: Chuyển hồ sơ (bản giấy và/hoặc bản điện tử qua hệ thống một cửa) kèm phiếu yêu cầu phối hợp tới đầu mối chính và các phòng phối hợp; xác nhận ký nhận chuyển giao của từng bên.
-- Dùng input: `ho_so_tiep_nhan`, `dau_moi_phong_ban`, `nguon_nhan_su`
-- Vai trò: Công chức Trung tâm PVHCC thực hiện chuyển giao; công chức đầu mối các phòng (X1, X2, X3) ký nhận. AI hỗ trợ: lập phiếu chuyển giao tự động, nhắc xác nhận ký nhận khi quá thời hạn. Thời gian ước tính: trong ngày làm việc tiếp nhận.
+- Dùng input: `ho_so_tiep_nhan`, `dau_moi_phong_ban`, `nguon_nhan_su`.
+- Vai trò: Công chức Trung tâm PVHCC thực hiện chuyển giao; công chức đầu mối các phòng (X1, X2, X3) ký nhận. AI hỗ trợ: lập phiếu chuyển giao tự động, nhắc xác nhận ký nhận khi quá thời hạn. ⏱ trong ngày làm việc tiếp nhận.
 - Lưu ý nghiệp vụ: Việc chuyển giao phải có ký nhận của cả hai bên; hồ sơ chuyển chậm quá 01 ngày làm việc phải báo cáo Phó Chủ tịch UBND xã phụ trách.
 - → Kết quả bước: Phiếu chuyển giao hồ sơ có ký nhận; hồ sơ cập nhật trạng thái "đang xử lý" trên sổ theo dõi.
 
 **Bước 4. Theo dõi tiến độ và đôn đốc các đầu mối**
 
 - Làm gì: Cập nhật trạng thái xử lý từng hồ sơ trên sổ theo dõi; rà soát hồ sơ sắp đến hạn (trước 01 ngày làm việc) và hồ sơ trễ hạn; lập văn bản đôn đốc gửi đầu mối, đồng gửi Phó Chủ tịch UBND xã phụ trách.
-- Dùng input: `sổ_theo_doi`, `dau_moi_phong_ban`
-- Vai trò: Công chức Trung tâm PVHCC phụ trách theo dõi tiến độ. AI hỗ trợ: tự động cảnh báo hồ sơ sắp đến hạn/trễ hạn, soạn thảo công văn đôn đốc theo mẫu. Thời gian ước tính: rà soát hằng ngày 30 phút; đôn đốc theo từng trường hợp.
+- Dùng input: `so_theo_doi`, `dau_moi_phong_ban`.
+- Vai trò: Công chức Trung tâm PVHCC phụ trách theo dõi tiến độ. AI hỗ trợ: tự động cảnh báo hồ sơ sắp đến hạn/trễ hạn, soạn thảo công văn đôn đốc theo mẫu. ⏱ rà soát hằng ngày 30 phút; đôn đốc theo từng trường hợp.
 - Lưu ý nghiệp vụ: Hồ sơ trễ hạn phải ghi rõ nguyên nhân (chủ quan/khách quan) và đề xuất biện pháp khắc phục; không được tự ý gia hạn hẹn trả kết quả khi chưa có ý kiến của người có thẩm quyền.
 - → Kết quả bước: Danh sách hồ sơ sắp đến hạn/trễ hạn; công văn đôn đốc các đầu mối.
 
 **Bước 5. Bàn giao và trả kết quả cho người dân, tổ chức**
 
 - Làm gì: Nhận kết quả giải quyết từ đầu mối xử lý, kiểm tra tính đầy đủ (văn bản kết quả, con dấu, chữ ký người có thẩm quyền); thông báo cho người nộp theo phương thức đã đăng ký (trực tiếp, điện thoại, tin nhắn); bàn giao kết quả tại Trung tâm PVHCC và ghi sổ trả kết quả.
-- Dùng input: `ho_so_tiep_nhan`, `sổ_theo_doi`
-- Vai trò: Công chức Trung tâm PVHCC (bộ phận trả kết quả). AI hỗ trợ: kiểm tra đối chiếu kết quả với phiếu hẹn, soạn tin nhắn thông báo trả kết quả. Thời gian ước tính: 5–10 phút/trường hợp trả kết quả.
+- Dùng input: `ho_so_tiep_nhan`, `so_theo_doi`.
+- Vai trò: Công chức Trung tâm PVHCC (bộ phận trả kết quả). AI hỗ trợ: kiểm tra đối chiếu kết quả với phiếu hẹn, soạn tin nhắn thông báo trả kết quả. ⏱ 5–10 phút (ước tính)/trường hợp trả kết quả.
 - Lưu ý nghiệp vụ: Kết quả phải trả đúng người (đối chiếu giấy tờ tùy thân hoặc giấy ủy quyền hợp lệ); hồ sơ trễ hạn phải kèm văn bản xin lỗi người dân, tổ chức theo quy định.
 - → Kết quả bước: Kết quả giải quyết được bàn giao đúng người, đúng hẹn; sổ trả kết quả được cập nhật đầy đủ.
 
 **Bước 6. Tổng hợp sổ theo dõi, đánh giá vận hành định kỳ**
 
 - Làm gì: Tổng hợp số liệu vận hành trong kỳ (số hồ sơ tiếp nhận, phân luồng, đang xử lý, trả đúng hạn, trễ hạn theo từng TTHC và đầu mối); lập báo cáo vận hành Trung tâm gửi Phó Chủ tịch UBND xã phụ trách; lưu trữ hồ sơ, sổ sách theo quy định.
-- Dùng input: `sổ_theo_doi`, `danh_muc_tthc`, `nguon_nhan_su`
-- Vai trò: Công chức Trung tâm PVHCC tổng hợp; Phó Chủ tịch UBND xã phụ trách kiểm tra; Chủ tịch UBND xã chỉ đạo chấn chỉnh (nếu cần). AI hỗ trợ: tổng hợp số liệu, vẽ biểu đồ tiến độ, dự thảo báo cáo vận hành. Thời gian ước tính: 1–2 ngày làm việc/kỳ báo cáo.
+- Dùng input: `so_theo_doi`, `danh_muc_tthc`, `nguon_nhan_su`.
+- Vai trò: Công chức Trung tâm PVHCC tổng hợp; Phó Chủ tịch UBND xã phụ trách kiểm tra; Chủ tịch UBND xã chỉ đạo chấn chỉnh (nếu cần). AI hỗ trợ: tổng hợp số liệu, vẽ biểu đồ tiến độ, dự thảo báo cáo vận hành. ⏱ 1–2 ngày (ước tính) làm việc/kỳ báo cáo.
 - Lưu ý nghiệp vụ: Số liệu tổng hợp phải khớp với sổ theo dõi gốc; báo cáo nêu rõ hồ sơ trễ hạn, nguyên nhân và kiến nghị xử lý trách nhiệm theo quy định.
 - → Kết quả bước: Báo cáo vận hành Trung tâm PVHCC trong kỳ; sổ theo dõi được lưu trữ đầy đủ.
 
@@ -87,7 +87,7 @@ flowchart TD
     B5 --> B6["Bước 6: Tổng hợp sổ theo dõi, đánh giá vận hành định kỳ"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Phiếu hẹn trả kết quả (cho từng hồ sơ tiếp nhận).
 - Phiếu phân luồng hồ sơ một cửa liên thông.
@@ -109,7 +109,7 @@ Sản phẩm chính: **Báo cáo vận hành Trung tâm Phục vụ hành chính
 7. Chữ ký người có thẩm quyền (ký, ghi rõ họ tên, đóng dấu).
 8. Nơi nhận: UBND xã (để báo cáo), các phòng chuyên môn liên quan; lưu: VT, TTPVHCC.
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. 100% hồ sơ tiếp nhận có phiếu hẹn trả kết quả ghi đúng ngày hẹn theo thời hạn TTHC đã công bố.
 2. 100% hồ sơ được phân luồng đúng đầu mối theo bảng phân công X1/X2/X3; hồ sơ liên thông có ghi rõ đơn vị phối hợp và thời hạn từng phần việc.
@@ -120,7 +120,7 @@ Sản phẩm chính: **Báo cáo vận hành Trung tâm Phục vụ hành chính
 7. Báo cáo vận hành có đủ 3 phần (kết quả — tồn tại — kiến nghị); số liệu khớp với sổ theo dõi gốc.
 8. Báo cáo đã qua human gate: Phó Chủ tịch phụ trách kiểm tra, Chủ tịch UBND xã cho ý kiến chỉ đạo trước khi lưu hành chính thức.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
 **Input mẫu:**
@@ -180,13 +180,13 @@ Trần Thị B
 
 *(Dữ liệu trên là giả lập 100% phục vụ minh họa.)*
 
-## Human gate
+## 8. Human gate
 
 - Công chức Trung tâm PVHCC tổng hợp số liệu, dự thảo báo cáo → Phó Chủ tịch UBND xã phụ trách (Bà Trần Thị B) kiểm tra nội dung, số liệu → Chủ tịch UBND xã (Ông Nguyễn Văn A) cho ý kiến chỉ đạo và ký duyệt trước khi báo cáo được lưu hành chính thức.
 - Công văn đôn đốc đầu mối do Phó Chủ tịch UBND xã phụ trách ký trước khi gửi.
 - Văn bản xin lỗi người dân, tổ chức do trễ hạn phải được Phó Chủ tịch phụ trách xem xét trước khi bàn giao.
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI KHÔNG ra quyết định hành chính thay người có thẩm quyền (không quyết định thụ lý/từ chối hồ sơ, không tự ý gia hạn hẹn trả kết quả).
 - AI không tự ký, tự phát hành bất kỳ văn bản nào; mọi văn bản phải do người có thẩm quyền ký, đóng dấu.
@@ -194,7 +194,7 @@ Trần Thị B
 - AI không tư vấn vượt thẩm quyền của Trung tâm PVHCC và UBND cấp xã.
 - AI không dùng văn bản pháp luật đã hết hiệu lực (như NĐ 45/2025/NĐ-CP đã bị thay thế).
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính.
 - Văn bản 7216/VPCP-KSTT ngày 04/8/2025 của Văn phòng Chính phủ hướng dẫn tổ chức, hoạt động của Trung tâm Phục vụ hành chính công trong mô hình chính quyền địa phương 2 cấp.

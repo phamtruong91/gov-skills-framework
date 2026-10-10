@@ -5,6 +5,8 @@ description: "Rà soát, kiểm tra thể thức văn bản hành chính trướ
 
 # Skill: Rà soát thể thức văn bản
 
+> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
+
 ## Khi nào dùng
 
 - Kiểm tra dự thảo công văn, báo cáo, kế hoạch, thông báo trước khi trình lãnh đạo ký.
@@ -29,40 +31,40 @@ description: "Rà soát, kiểm tra thể thức văn bản hành chính trướ
 **Bước 1. Xác định loại văn bản và bộ tiêu chí áp dụng**
 
 - Làm gì: Xác định loại văn bản của dự thảo; chọn bộ tiêu chí rà soát (9 yếu tố bắt buộc theo NĐ 30/2020/NĐ-CP; thêm tiêu chí trình bày, chính tả nếu mức chi tiết).
-- Dùng input: `loai_van_ban`, `muc_do_chat_che`
-- Vai trò: Công chức Văn phòng HĐND&UBND xác định loại văn bản, AI hỗ trợ liệt kê bộ tiêu chí tương ứng (5 phút).
+- Dùng input: `loai_van_ban`, `muc_do_chat_che`, `don_vi_soan_thao`.
+- Vai trò: Công chức Văn phòng HĐND&UBND xác định loại văn bản, AI hỗ trợ liệt kê bộ tiêu chí tương ứng (⏱ 5 phút).
 - Lưu ý nghiệp vụ: Mỗi loại văn bản có ký hiệu loại riêng (CV, BC, KH, TB, QĐ, TTr...); văn bản quy phạm pháp luật cấp xã hiện không thuộc thẩm quyền ban hành — nếu phát hiện dự thảo có tính chất QPPL phải cảnh báo ngay.
 - → Kết quả bước: Bộ tiêu chí rà soát phù hợp với loại văn bản.
 
 **Bước 2. Kiểm tra 9 yếu tố thể thức bắt buộc**
 
 - Làm gì: Đối chiếu dự thảo với từng yếu tố: (1) Quốc hiệu và tiêu ngữ; (2) Tên cơ quan, tổ chức ban hành; (3) Số, ký hiệu văn bản; (4) Địa danh và thời gian ban hành; (5) Tên loại và trích yếu nội dung; (6) Nội dung văn bản; (7) Chức vụ, họ tên và chữ ký của người có thẩm quyền; (8) Dấu, chữ ký số của cơ quan, tổ chức; (9) Nơi nhận.
-- Dùng input: `du_thao_van_ban`
-- Vai trò: Công chức Văn phòng HĐND&UBND rà soát, AI hỗ trợ kiểm tra từng yếu tố và ghi nhận lỗi (vị trí, mô tả lỗi, căn cứ quy định) (20 phút).
+- Dùng input: `du_thao_van_ban`, `van_ban_can_cu` (đối chiếu số, ký hiệu, ngày tháng của văn bản được trích dẫn).
+- Vai trò: Công chức Văn phòng HĐND&UBND rà soát, AI hỗ trợ kiểm tra từng yếu tố và ghi nhận lỗi (vị trí, mô tả lỗi, căn cứ quy định) (⏱ 20 phút).
 - Lưu ý nghiệp vụ: Kiểm tra số văn bản có trùng với sổ đăng ký văn bản đi không; tên cơ quan ban hành phải đúng tên gọi chính thức (vd: "ỦY BAN NHÂN DÂN XÃ A", không viết tắt tùy tiện); trích yếu phải phản ánh đúng nội dung.
 - → Kết quả bước: Danh sách lỗi thể thức theo 9 yếu tố, mỗi lỗi có vị trí và căn cứ.
 
 **Bước 3. Kiểm tra trình bày và chính tả (mức chi tiết)**
 
 - Làm gì: Kiểm tra lỗi chính tả, dấu câu, cách trình bày (canh lề, cỡ chữ, in đậm/in nghiêng, đánh số mục, bảng biểu); kiểm tra tính nhất quán (tên đơn vị, chức danh, số liệu viết thống nhất toàn văn).
-- Dùng input: `du_thao_van_ban`, `muc_do_chat_che`
-- Vai trò: Công chức Văn phòng HĐND&UBND rà soát, AI hỗ trợ phát hiện lỗi chính tả, dấu câu và điểm trình bày chưa thống nhất (15 phút).
+- Dùng input: `du_thao_van_ban`, `muc_do_chat_che`.
+- Vai trò: Công chức Văn phòng HĐND&UBND rà soát, AI hỗ trợ phát hiện lỗi chính tả, dấu câu và điểm trình bày chưa thống nhất (⏱ 15 phút).
 - Lưu ý nghiệp vụ: Số liệu, ngày tháng viết thống nhất một kiểu trong toàn văn; tên riêng, chức danh viết đúng, viết hoa đúng quy tắc.
 - → Kết quả bước: Danh sách lỗi trình bày, chính tả bổ sung vào bảng lỗi.
 
 **Bước 4. Lập bảng liệt kê lỗi và phân loại mức độ**
 
 - Làm gì: Tổng hợp tất cả lỗi thành bảng: STT | Vị trí | Nội dung lỗi | Căn cứ quy định | Cách sửa | Mức độ (nghiêm trọng / cần sửa / nên sửa).
-- Dùng input: Kết quả Bước 2 và Bước 3
-- Vai trò: Công chức Văn phòng HĐND&UBND lập bảng, AI hỗ trợ phân loại mức độ lỗi và đề xuất cách sửa cụ thể cho từng lỗi (10 phút).
+- Dùng input: Kết quả Bước 2 và Bước 3.
+- Vai trò: Công chức Văn phòng HĐND&UBND lập bảng, AI hỗ trợ phân loại mức độ lỗi và đề xuất cách sửa cụ thể cho từng lỗi (⏱ 10 phút).
 - Lưu ý nghiệp vụ: Lỗi nghiêm trọng (thiếu quốc hiệu, sai tên cơ quan, thiếu chữ ký người có thẩm quyền, sai số văn bản) bắt buộc phải sửa trước khi trình ký; lỗi trình bày nhỏ có thể sửa trực tiếp.
 - → Kết quả bước: Bảng liệt kê lỗi hoàn chỉnh, phân loại mức độ rõ ràng.
 
 **Bước 5. Xuất bản dự thảo đã sửa sạch**
 
 - Làm gì: Áp dụng toàn bộ cách sửa vào dự thảo, cho ra bản dự thảo sạch (không còn lỗi nghiêm trọng và lỗi cần sửa); đính kèm bảng lỗi để người soạn đối chiếu.
-- Dùng input: `du_thao_van_ban`, bảng lỗi từ Bước 4
-- Vai trò: Công chức Văn phòng HĐND&UBND áp dụng sửa, AI hỗ trợ xuất bản sạch và kiểm tra lại một lượt không còn lỗi đã liệt kê (15 phút).
+- Dùng input: `du_thao_van_ban`, bảng lỗi từ Bước 4.
+- Vai trò: Công chức Văn phòng HĐND&UBND áp dụng sửa, AI hỗ trợ xuất bản sạch và kiểm tra lại một lượt không còn lỗi đã liệt kê (⏱ 15 phút).
 - Lưu ý nghiệp vụ: Chỉ sửa lỗi thể thức, trình bày — không tự ý thay đổi nội dung chuyên môn của dự thảo; nội dung chuyên môn do đơn vị soạn thảo chịu trách nhiệm.
 - → Kết quả bước: Bản dự thảo đã sửa sạch + bảng liệt kê lỗi, sẵn sàng trình ký.
 
@@ -78,7 +80,7 @@ flowchart TD
     B4 --> B5["Bước 5: Xuất bản dự thảo đã sửa sạch"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Bảng liệt kê lỗi thể thức (file .docx hoặc bảng): STT | Vị trí | Nội dung lỗi | Căn cứ quy định | Cách sửa | Mức độ.
 - Bản dự thảo đã sửa sạch (file .docx), giữ nguyên nội dung chuyên môn.
@@ -110,7 +112,7 @@ Mức độ: **Nghiêm trọng** (bắt buộc sửa trước khi trình ký: th
 > 8. Dấu, chữ ký số của cơ quan, tổ chức.
 > 9. Nơi nhận (kèm Phụ lục nếu có).
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. Đã kiểm tra đủ 9 yếu tố thể thức bắt buộc theo NĐ 30/2020/NĐ-CP, không bỏ sót yếu tố nào.
 2. Bảng lỗi có đủ 6 cột theo Cấu trúc output chuẩn, mỗi lỗi có căn cứ quy định cụ thể.
@@ -121,7 +123,7 @@ Mức độ: **Nghiêm trọng** (bắt buộc sửa trước khi trình ký: th
 7. Tên cơ quan, chức danh người ký đúng tên gọi chính thức, đúng thẩm quyền.
 8. Có phiếu kết quả rà soát với kết luận Đạt/Chưa đạt và chữ ký người rà soát.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
@@ -167,12 +169,12 @@ Mức độ: **Nghiêm trọng** (bắt buộc sửa trước khi trình ký: th
 
 **C. Phiếu kết quả rà soát**: Dự thảo Báo cáo tình hình KT-XH tháng 9/2026 — tổng 04 lỗi (03 nghiêm trọng, 01 cần sửa) — đã sửa sạch — Kết luận: **Đạt**.
 
-## Human gate
+## 8. Human gate
 
 - Công chức Văn phòng HĐND&UBND rà soát, lập bảng lỗi và bản sửa sạch → Chánh Văn phòng HĐND&UBND kiểm tra lại các lỗi mức "nghiêm trọng" → đơn vị soạn thảo xác nhận nội dung chuyên môn không bị thay đổi → trình lãnh đạo ký.
 - Văn bản đã ban hành phát hiện sai thể thức: báo cáo Chủ tịch UBND xã quyết định đính chính hoặc ban hành lại.
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI KHÔNG thay đổi nội dung chuyên môn của dự thảo khi sửa lỗi thể thức.
 - AI KHÔNG tự kết luận văn bản "đạt" khi còn lỗi mức nghiêm trọng chưa sửa.
@@ -180,7 +182,7 @@ Mức độ: **Nghiêm trọng** (bắt buộc sửa trước khi trình ký: th
 - AI KHÔNG rà soát tính đúng đắn của nội dung chuyên môn, số liệu — đó là trách nhiệm của đơn vị soạn thảo.
 - Nếu phát hiện dự thảo có tính chất văn bản quy phạm pháp luật (vượt thẩm quyền cấp xã): AI phải cảnh báo, không tiếp tục rà soát như văn bản hành chính thông thường.
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - NĐ 30/2020/NĐ-CP về công tác văn thư: quy định 9 yếu tố thể thức bắt buộc của văn bản hành chính — là checklist duy nhất của skill này.
 - NĐ 150/2025/NĐ-CP (hiệu lực 16/6/2025): Văn phòng HĐND và UBND tham mưu lĩnh vực văn phòng — đầu mối rà soát thể thức văn bản của UBND xã.

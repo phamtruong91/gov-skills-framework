@@ -25,35 +25,35 @@ description: "Tiếp nhận, thẩm định hồ sơ đề nghị khen thưởng
 **Bước 1. Tiếp nhận, kiểm tra tính đầy đủ, hợp lệ của hồ sơ**
 - Làm gì: Kiểm tra thành phần hồ sơ theo quy định: tờ trình, báo cáo thành tích, biên bản họp hội đồng thi đua khen thưởng cấp trình, kết quả hiệp y; trả lại bổ sung nếu thiếu.
 - Dùng input: `ho_so_de_nghi`, `co_quan_trinh`.
-- Vai trò: Chuyên viên Vụ Thi đua – Khen thưởng kiểm tra (AI hỗ trợ đối chiếu checklist thành phần hồ sơ, phát hiện thiếu sót — 1–2 ngày) → Lãnh đạo vụ xác nhận.
+- Vai trò: Chuyên viên Vụ Thi đua – Khen thưởng kiểm tra (AI hỗ trợ đối chiếu checklist thành phần hồ sơ, phát hiện thiếu sót ⏱ 1–2 ngày (ước tính)) → Lãnh đạo vụ xác nhận.
 - Lưu ý nghiệp vụ: Kiên quyết trả hồ sơ thiếu thành phần bắt buộc; không "châm chước" hồ sơ để kịp tiến độ xét.
 - → Kết quả bước: Hồ sơ hợp lệ được tiếp nhận; văn bản yêu cầu bổ sung (nếu thiếu).
 
 **Bước 2. Thẩm định tiêu chuẩn, thành tích**
 - Làm gì: Đối chiếu thành tích với tiêu chuẩn của từng hình thức khen thưởng; kiểm tra tính chính xác của số liệu thành tích; xác minh khi có dấu hiệu chưa rõ.
 - Dùng input: `ho_so_de_nghi`, `hinh_thuc_khen_thuong`, `doi_tuong`, `ket_qua_hiep_y`.
-- Vai trò: Chuyên viên Vụ Thi đua – Khen thưởng thẩm định (AI hỗ trợ đối chiếu tiêu chuẩn, rà soát tính nhất quán số liệu trong hồ sơ — 3–5 ngày) → Vụ trưởng kết luận thẩm định.
+- Vai trò: Chuyên viên Vụ Thi đua – Khen thưởng thẩm định (AI hỗ trợ đối chiếu tiêu chuẩn, rà soát tính nhất quán số liệu trong hồ sơ ⏱ 3–5 ngày (ước tính)) → Vụ trưởng kết luận thẩm định.
 - Lưu ý nghiệp vụ: Thành tích phải cụ thể, có minh chứng; không xét khen thưởng đối với trường hợp đang trong thời gian thi hành kỷ luật hoặc có vi phạm chưa được kết luận; AI không tự "nâng/hạ" hình thức khen thưởng.
 - → Kết quả bước: Báo cáo thẩm định từng hồ sơ (đủ điều kiện/không đủ điều kiện, lý do).
 
 **Bước 3. Tổng hợp, trình Hội đồng Thi đua – Khen thưởng Trung ương**
 - Làm gì: Lập danh sách tổng hợp các trường hợp đủ điều kiện; xây dựng báo cáo trình Hội đồng Thi đua – Khen thưởng Trung ương xét.
 - Dùng input: Kết quả thẩm định bước 2.
-- Vai trò: Vụ trưởng Vụ Thi đua – Khen thưởng ký báo cáo (AI hỗ trợ lập danh sách tổng hợp, kiểm tra trùng lặp đối tượng giữa các đợt — 2–3 ngày) → Thứ trưởng kiểm tra → Bộ trưởng (Phó Chủ tịch Hội đồng) trình Hội đồng.
+- Vai trò: Vụ trưởng Vụ Thi đua – Khen thưởng ký báo cáo (AI hỗ trợ lập danh sách tổng hợp, kiểm tra trùng lặp đối tượng giữa các đợt ⏱ 2–3 ngày (ước tính)) → Thứ trưởng kiểm tra → Bộ trưởng (Phó Chủ tịch Hội đồng) trình Hội đồng.
 - Lưu ý nghiệp vụ: Hồ sơ trình Hội đồng phải đầy đủ, chính xác; danh sách phải ghi rõ hình thức đề nghị cho từng trường hợp.
 - → Kết quả bước: Báo cáo và danh sách trình Hội đồng Thi đua – Khen thưởng Trung ương.
 
 **Bước 4. Hoàn thiện hồ sơ sau khi Hội đồng xét, trình cấp có thẩm quyền quyết định**
 - Làm gì: Tiếp thu kết luận của Hội đồng; hoàn thiện tờ trình, dự thảo quyết định khen thưởng trình cấp có thẩm quyền quyết định theo quy định của Luật Thi đua, khen thưởng.
 - Dùng input: Kết luận của Hội đồng, hồ sơ đã thẩm định.
-- Vai trò: Chuyên viên hoàn thiện hồ sơ (AI hỗ trợ rà soát thể thức quyết định theo NĐ 30/2020/NĐ-CP — 1 ngày) → Vụ trưởng kiểm tra → Bộ trưởng ký tờ trình.
+- Vai trò: Chuyên viên hoàn thiện hồ sơ (AI hỗ trợ rà soát thể thức quyết định theo NĐ 30/2020/NĐ-CP ⏱ 1 ngày (ước tính)) → Vụ trưởng kiểm tra → Bộ trưởng ký tờ trình.
 - Lưu ý nghiệp vụ: Chỉ trình đúng hình thức, đối tượng đã được Hội đồng thống nhất; không tự ý bổ sung trường hợp ngoài kết luận của Hội đồng.
 - → Kết quả bước: Hồ sơ trình cấp có thẩm quyền quyết định khen thưởng.
 
 **Bước 5. Ban hành, trao tặng và lưu hồ sơ**
 - Làm gì: Sau khi có quyết định khen thưởng: ban hành, tổ chức trao tặng (hoặc ủy quyền trao tặng); cập nhật cơ sở dữ liệu thi đua, khen thưởng; lưu trữ hồ sơ.
 - Dùng input: Quyết định khen thưởng của cấp có thẩm quyền.
-- Vai trò: Chuyên viên Vụ Thi đua – Khen thưởng thực hiện (AI hỗ trợ lập danh sách trao tặng, cập nhật dữ liệu — 2–3 ngày) → Vụ trưởng theo dõi.
+- Vai trò: Chuyên viên Vụ Thi đua – Khen thưởng thực hiện (AI hỗ trợ lập danh sách trao tặng, cập nhật dữ liệu ⏱ 2–3 ngày (ước tính)) → Vụ trưởng theo dõi.
 - Lưu ý nghiệp vụ: Bảo đảm trang trọng, đúng nghi thức; hồ sơ lưu trữ đầy đủ phục vụ tra cứu, kiểm tra sau này.
 - → Kết quả bước: Quyết định khen thưởng được ban hành, trao tặng; hồ sơ lưu trữ đầy đủ.
 

@@ -26,28 +26,28 @@ description: "Hằng năm xây dựng kế hoạch hợp tác quốc tế về q
 **Bước 1. Xây dựng kế hoạch hợp tác quốc tế năm**
 - Làm gì: Tổng hợp đề xuất các cơ quan, đơn vị; xây dựng kế hoạch đoàn ra, đoàn vào, hội nghị quốc tế; dự kiến kinh phí.
 - Dùng input: `nam_ke_hoach`, `doi_tac`, `hinh_thuc`, `chu_truong`.
-- Vai trò: Chuyên viên cơ quan đối ngoại xây dựng (AI hỗ trợ tổng hợp đề xuất, lập bảng kế hoạch — 2 ngày) → Vụ trưởng kiểm tra → Thứ trưởng phê duyệt.
+- Vai trò: Chuyên viên cơ quan đối ngoại xây dựng (AI hỗ trợ tổng hợp đề xuất, lập bảng kế hoạch ⏱ 2 ngày (ước tính)) → Vụ trưởng kiểm tra → Thứ trưởng phê duyệt.
 - Lưu ý nghiệp vụ: Chỉ kế hoạch nội dung công khai (giao lưu, hội nghị, đào tạo, gìn giữ hòa bình); nội dung hợp tác chuyên sâu do cấp có thẩm quyền quyết định riêng.
 - → Kết quả bước: Kế hoạch hợp tác quốc tế về quốc phòng năm được phê duyệt.
 
 **Bước 2. Chuẩn bị đoàn vào (đón khách quốc tế)**
 - Làm gì: Xây dựng chương trình, kịch bản đón tiếp đoàn khách: lễ tân, hội đàm, tham quan, văn kiện ký kết (nếu có); xin ý kiến các cơ quan liên quan.
 - Dùng input: `doi_tac`, `noi_dung_du_kien`.
-- Vai trò: Chuyên viên chuẩn bị (AI hỗ trợ soạn chương trình, kịch bản lễ tân, dự thảo văn kiện khung — 2 ngày) → Vụ trưởng duyệt → Thứ trưởng quyết định.
+- Vai trò: Chuyên viên chuẩn bị (AI hỗ trợ soạn chương trình, kịch bản lễ tân, dự thảo văn kiện khung ⏱ 2 ngày (ước tính)) → Vụ trưởng duyệt → Thứ trưởng quyết định.
 - Lưu ý nghiệp vụ: Tuân thủ nghi thức lễ tân nhà nước; văn kiện ký kết phải được thẩm định pháp lý trước.
 - → Kết quả bước: Chương trình, kịch bản đón tiếp đoàn khách được phê duyệt.
 
 **Bước 3. Chuẩn bị đoàn ra (đi công tác nước ngoài)**
 - Làm gì: Lập đề án đoàn ra: thành phần, nội dung làm việc, chương trình, dự toán; trình cấp có thẩm quyền cử đoàn; chuẩn bị tài liệu.
 - Dùng input: `doi_tac`, `noi_dung_du_kien`, `chu_truong`.
-- Vai trò: Chuyên viên lập đề án (AI hỗ trợ soạn đề án, dự toán, tài liệu — 2 ngày) → Vụ trưởng thẩm định → Thứ trưởng trình Bộ trưởng quyết định cử đoàn.
+- Vai trò: Chuyên viên lập đề án (AI hỗ trợ soạn đề án, dự toán, tài liệu ⏱ 2 ngày (ước tính)) → Vụ trưởng thẩm định → Thứ trưởng trình Bộ trưởng quyết định cử đoàn.
 - Lưu ý nghiệp vụ: Thành phần đoàn gọn, đúng đối tượng; nội dung làm việc trong phạm vi được giao.
 - → Kết quả bước: Quyết định cử đoàn và bộ tài liệu công tác.
 
 **Bước 4. Báo cáo kết quả**
 - Làm gì: Tổng hợp kết quả từng hoạt động (biên bản hội đàm, văn kiện ký); báo cáo cấp trên; theo dõi thực hiện thỏa thuận.
-- Dùng input: Kết quả hoạt động thực tế.
-- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ soạn báo cáo kết quả, lập danh mục văn kiện — 1 ngày) → Vụ trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
+- Dùng input: Kết quả hoạt động thực tế (dữ liệu phát sinh sau thực hiện).
+- Vai trò: Chuyên viên tổng hợp (AI hỗ trợ soạn báo cáo kết quả, lập danh mục văn kiện ⏱ 1 ngày (ước tính)) → Vụ trưởng thẩm định → Thứ trưởng trình Bộ trưởng.
 - Lưu ý nghiệp vụ: Nội dung báo cáo phân loại mật theo quy định; bản báo cáo hành chính chỉ nêu nội dung công khai.
 - → Kết quả bước: Báo cáo kết quả hoạt động hợp tác quốc tế.
 
@@ -61,6 +61,8 @@ flowchart TD
     B2 --> B3["Bước 3: Chuẩn bị đoàn ra (đi công tác nước ngoài)"]
     B3 --> B4["Bước 4: Báo cáo kết quả"]
 ```
+
+*Ghi chú: các bước là luồng công việc độc lập, lựa chọn theo loại việc (`loai_viec`); không nhất thiết thực hiện nối tiếp.*
 
 ## 5. Đầu ra (Output)
 

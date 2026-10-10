@@ -27,7 +27,7 @@ description: "Khi Bộ NN&MT lập đề nghị xây dựng nghị định, thô
 
 **Bước 1. Lập đề nghị xây dựng văn bản**
 - Làm gì: Đơn vị chủ trì lập đề nghị: sự cần thiết, phạm vi điều chỉnh, nội dung chính, đánh giá tác động; lấy ý kiến sơ bộ.
-- Dùng input: `loai_van_ban`, `ten_van_ban`, `noi_dung_chinh`.
+- Dùng input: `loai_van_ban`, `ten_van_ban`, `noi_dung_chinh`, `don_vi_chu_tri`.
 - Vai trò: Chuyên viên vụ/cục chủ trì dự thảo; AI hỗ trợ lập dàn ý, tra cứu văn bản liên quan — ⏱ 10 ngày.
 - Lưu ý nghiệp vụ: Lĩnh vực NN&MT rộng (đất đai, môi trường, nông nghiệp...); xác định đúng đơn vị chủ trì, phối hợp.
 - → Kết quả bước: Đề nghị xây dựng văn bản được phê duyệt.

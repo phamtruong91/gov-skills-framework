@@ -25,28 +25,28 @@ tổ chức các kỳ thi quốc gia khác (thi học sinh giỏi, đánh giá d
 **Bước 1. Xây dựng phương án, quy chế thi**
 - Làm gì: Soạn phương án tổ chức kỳ thi: môn thi, hình thức, lịch thi, phân công trách nhiệm Bộ – địa phương; dự thảo quy chế thi.
 - Dùng input: `ten_ky_thi`, `nam_to_chuc`, `phuong_an`.
-- Vai trò: Cục Quản lý chất lượng chủ trì — AI hỗ trợ soạn dự thảo quy chế, rà soát tính chặt chẽ (2–3 giờ).
+- Vai trò: Cục Quản lý chất lượng chủ trì — AI hỗ trợ soạn dự thảo quy chế, rà soát tính chặt chẽ (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Quy chế phải quy định rõ để ngăn ngừa gian lận; phân định rõ trách nhiệm Bộ và địa phương.
 - → Kết quả bước: Dự thảo phương án, quy chế thi.
 
 **Bước 2. Lấy ý kiến và ban hành**
 - Làm gì: Lấy ý kiến Sở GD&ĐT, cơ sở giáo dục; hoàn thiện; trình Bộ trưởng ban hành quy chế, hướng dẫn tổ chức thi.
 - Dùng input: Dự thảo quy chế.
-- Vai trò: Cục trưởng → Thứ trưởng → Bộ trưởng — AI hỗ trợ tổng hợp ý kiến, soạn văn bản hướng dẫn (1–2 giờ).
+- Vai trò: Cục trưởng → Thứ trưởng → Bộ trưởng — AI hỗ trợ tổng hợp ý kiến, soạn văn bản hướng dẫn (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Ban hành sớm để địa phương có thời gian chuẩn bị; hướng dẫn phải chi tiết đến khâu in sao đề thi, coi thi, chấm thi.
 - → Kết quả bước: Quy chế thi + văn bản hướng dẫn được ban hành.
 
 **Bước 3. Chỉ đạo, thanh tra tổ chức thi**
 - Làm gì: Thành lập ban chỉ đạo thi cấp quốc gia; cử đoàn thanh tra, kiểm tra công tác tổ chức thi tại địa phương; xử lý sự cố.
 - Dùng input: `so_luong_du_kien`, báo cáo địa phương.
-- Vai trò: Ban Chỉ đạo thi cấp quốc gia — AI hỗ trợ lập kế hoạch thanh tra, tổng hợp báo cáo nhanh (1 giờ).
+- Vai trò: Ban Chỉ đạo thi cấp quốc gia — AI hỗ trợ lập kế hoạch thanh tra, tổng hợp báo cáo nhanh (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Bảo mật đề thi tuyệt đối; xử lý nghiêm vi phạm quy chế.
 - → Kết quả bước: Kỳ thi diễn ra an toàn, nghiêm túc.
 
 **Bước 4. Tổng hợp kết quả, đánh giá**
 - Làm gì: Tổng hợp kết quả thi toàn quốc; phân tích phổ điểm; đánh giá công tác tổ chức; báo cáo Lãnh đạo Bộ, Chính phủ.
 - Dùng input: Kết quả thi các địa phương.
-- Vai trò: Cục Quản lý chất lượng — AI hỗ trợ tổng hợp số liệu, phân tích phổ điểm (2 giờ).
+- Vai trò: Cục Quản lý chất lượng — AI hỗ trợ tổng hợp số liệu, phân tích phổ điểm (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Số liệu chính xác tuyệt đối; phân tích trung thực, chỉ rõ địa phương có bất thường.
 - → Kết quả bước: Báo cáo tổng kết kỳ thi.
 

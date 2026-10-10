@@ -25,35 +25,35 @@ description: "Hỗ trợ hệ sinh thái khởi nghiệp đổi mới sáng tạ
 
 **Bước 1. Khảo sát, đánh giá hệ sinh thái khởi nghiệp ĐMST của tỉnh**
 - Làm gì: Khảo sát số lượng startup, vườn ươm, không gian làm việc chung, quỹ đầu tư, chuyên gia cố vấn trên địa bàn; đánh giá điểm mạnh, điểm yếu của hệ sinh thái.
-- Dùng input: `nhu_cau_ho_tro`, `chuong_trinh_tinh`, `nam_ke_hoach`
+- Dùng input: `nhu_cau_ho_tro`, `chuong_trinh_tinh`, `nam_ke_hoach`.
 - Vai trò: Chuyên viên Phòng Quản lý công nghệ (hoặc đơn vị được giao) khảo sát, tổng hợp; AI hỗ trợ thiết kế phiếu khảo sát, tổng hợp số liệu, lập bảng đánh giá SWOT ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Số liệu phải từ khảo sát thực tế, không ước đoán; phân biệt rõ startup công nghệ với hộ kinh doanh thông thường.
 - → Kết quả bước: Báo cáo đánh giá hệ sinh thái khởi nghiệp ĐMST của tỉnh.
 
 **Bước 2. Lập kế hoạch hỗ trợ khởi nghiệp ĐMST năm**
 - Làm gì: Xây dựng kế hoạch năm: đào tạo, ươm tạo, hỗ trợ hoàn thiện sản phẩm, kết nối gọi vốn, truyền thông; phân công đơn vị thực hiện, dự toán kinh phí.
-- Dùng input: Báo cáo đánh giá ở Bước 1, `du_toan_kinh_phi`, `nguoi_ky`
+- Dùng input: Báo cáo đánh giá ở Bước 1, `du_toan_kinh_phi`, `nguoi_ky`.
 - Vai trò: Trưởng phòng chủ trì soạn kế hoạch; Phó Giám đốc Sở xem xét; Giám đốc Sở ký Tờ trình; Chủ tịch UBND tỉnh phê duyệt kế hoạch (nếu là kế hoạch của UBND tỉnh); AI hỗ trợ soạn kế hoạch theo khung mục tiêu – nhiệm vụ – kinh phí ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Kế hoạch phải cụ thể hóa chương trình ĐMST của tỉnh; nội dung hỗ trợ đúng đối tượng khởi nghiệp ĐMST; kinh phí rõ nguồn ngân sách và nguồn xã hội hóa.
 - → Kết quả bước: Dự thảo kế hoạch hỗ trợ khởi nghiệp ĐMST năm của UBND tỉnh.
 
 **Bước 3. Xét chọn dự án hỗ trợ**
 - Làm gì: Thông báo tiếp nhận hồ sơ đề nghị hỗ trợ; tổ chức Hội đồng xét chọn đánh giá tính đổi mới sáng tạo, tính khả thi, hiệu quả của dự án.
-- Dùng input: `ho_so_du_an`, tiêu chí xét chọn trong kế hoạch
+- Dùng input: `ho_so_du_an`, tiêu chí xét chọn trong kế hoạch.
 - Vai trò: Chuyên viên kiểm tra tính đầy đủ hồ sơ; Hội đồng xét chọn (do Sở thành lập, có chuyên gia) đánh giá; AI hỗ trợ tổng hợp hồ sơ, lập bảng điểm ⏱ ~5 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đánh giá dựa trên tính mới, tính sáng tạo, khả năng thương mại hóa; không hỗ trợ dự án không có yếu tố đổi mới sáng tạo; công khai kết quả xét chọn.
 - → Kết quả bước: Biên bản xét chọn + danh sách dự án được hỗ trợ.
 
 **Bước 4. Phê duyệt kinh phí, ký thỏa thuận hỗ trợ**
 - Làm gì: Lập Tờ trình đề nghị hỗ trợ kinh phí từng dự án; ký thỏa thuận/quyết định hỗ trợ với đơn vị thụ hưởng; giải ngân theo tiến độ.
-- Dùng input: Danh sách dự án được hỗ trợ ở Bước 3, `du_toan_kinh_phi`, `nguoi_ky`
+- Dùng input: Danh sách dự án được hỗ trợ ở Bước 3, `du_toan_kinh_phi`, `nguoi_ky`.
 - Vai trò: Chuyên viên soạn Tờ trình; Trưởng phòng kiểm tra; Giám đốc Sở ký quyết định hỗ trợ (trong thẩm quyền); AI hỗ trợ soạn thảo văn bản, theo dõi tiến độ giải ngân ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Mức hỗ trợ theo đúng chính sách của tỉnh; thỏa thuận ghi rõ cam kết của bên thụ hưởng, điều kiện thu hồi kinh phí khi vi phạm.
 - → Kết quả bước: Quyết định hỗ trợ kinh phí + thỏa thuận hỗ trợ đã ký.
 
 **Bước 5. Theo dõi, đánh giá hiệu quả và báo cáo**
 - Làm gì: Theo dõi tiến độ dự án được hỗ trợ; đánh giá hiệu quả (sản phẩm, việc làm, vốn huy động thêm); tổ chức sự kiện kết nối; báo cáo tổng kết năm.
-- Dùng input: Báo cáo tiến độ của đơn vị thụ hưởng, số liệu gọi vốn, việc làm tạo ra
+- Dùng input: Báo cáo tiến độ của đơn vị thụ hưởng, số liệu gọi vốn, việc làm tạo ra.
 - Vai trò: Chuyên viên theo dõi, đôn đốc; Phó Giám đốc Sở chỉ đạo đánh giá; AI hỗ trợ tổng hợp số liệu hiệu quả, soạn báo cáo ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đánh giá bằng chỉ số đo được (số startup được ươm tạo, vốn gọi được, sản phẩm ra thị trường); dự án không đạt cam kết thì xem xét thu hồi kinh phí theo thỏa thuận.
 - → Kết quả bước: Báo cáo tổng kết hỗ trợ khởi nghiệp ĐMST năm của tỉnh.

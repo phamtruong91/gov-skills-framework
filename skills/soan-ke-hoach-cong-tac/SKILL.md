@@ -5,6 +5,8 @@ description: "Lập kế hoạch công tác tuần/tháng/quý/năm của đơn 
 
 # Skill: Lập kế hoạch công tác
 
+> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
+
 ## Khi nào dùng
 
 - Lập kế hoạch công tác tuần/tháng của UBND xã (phân công nhiệm vụ cho các phòng, đơn vị).
@@ -30,40 +32,40 @@ description: "Lập kế hoạch công tác tuần/tháng/quý/năm của đơn 
 **Bước 1. Xác định căn cứ và mục tiêu kế hoạch**
 
 - Làm gì: Liệt kê các căn cứ lập kế hoạch (nghị quyết của Đảng ủy/HĐND, chỉ đạo của UBND tỉnh, kết quả kỳ trước); xác định 3–5 mục tiêu trọng tâm của kỳ kế hoạch.
-- Dùng input: `can_cu`, `muc_tieu`, `ky_ke_hoach`, `don_vi`
-- Vai trò: Công chức phụ trách (Văn phòng HĐND&UBND hoặc phòng chuyên môn) xác định căn cứ, AI hỗ trợ tóm tắt căn cứ và đề xuất mục tiêu trọng tâm bám sát chỉ đạo cấp trên (15 phút).
+- Dùng input: `can_cu`, `muc_tieu`, `ky_ke_hoach`, `don_vi`.
+- Vai trò: Công chức phụ trách (Văn phòng HĐND&UBND hoặc phòng chuyên môn) xác định căn cứ, AI hỗ trợ tóm tắt căn cứ và đề xuất mục tiêu trọng tâm bám sát chỉ đạo cấp trên (⏱ 15 phút).
 - Lưu ý nghiệp vụ: Kế hoạch của phòng phải bám kế hoạch chung của UBND xã; kế hoạch của UBND xã phải bám chỉ đạo của cấp trên. Căn cứ ghi rõ tên văn bản, không bịa số hiệu.
 - → Kết quả bước: Phần căn cứ và mục tiêu, yêu cầu của kế hoạch.
 
 **Bước 2. Liệt kê và sắp xếp nhiệm vụ theo thứ tự ưu tiên**
 
 - Làm gì: Liệt kê toàn bộ nhiệm vụ của kỳ kế hoạch; sắp xếp theo thứ tự ưu tiên (nhiệm vụ cấp trên giao có thời hạn → nhiệm vụ thường xuyên → nhiệm vụ phát sinh); gán đầu mối, đơn vị phối hợp, thời hạn cho từng nhiệm vụ.
-- Dùng input: `nhiem_vu`, `nguon_luc`
-- Vai trò: Công chức phụ trách liệt kê nhiệm vụ, AI hỗ trợ sắp xếp ưu tiên, phát hiện nhiệm vụ trùng lặp hoặc thiếu đầu mối/thời hạn (20 phút).
+- Dùng input: `nhiem_vu`, `nguon_luc`.
+- Vai trò: Công chức phụ trách liệt kê nhiệm vụ, AI hỗ trợ sắp xếp ưu tiên, phát hiện nhiệm vụ trùng lặp hoặc thiếu đầu mối/thời hạn (⏱ 20 phút).
 - Lưu ý nghiệp vụ: Mỗi nhiệm vụ phải có một đầu mối chịu trách nhiệm chính và thời hạn hoàn thành cụ thể; nhiệm vụ không có thời hạn thì ghi "thường xuyên".
 - → Kết quả bước: Bảng nhiệm vụ hoàn chỉnh (STT – nội dung – đầu mối – phối hợp – thời hạn – sản phẩm).
 
 **Bước 3. Viết dự thảo kế hoạch đúng thể thức**
 
 - Làm gì: Viết dự thảo kế hoạch gồm: căn cứ; mục đích, yêu cầu; nội dung công việc (bảng nhiệm vụ); tổ chức thực hiện; theo đúng thể thức văn bản hành chính.
-- Dùng input: `don_vi`, `ky_ke_hoach`, `muc_tieu`, `nhiem_vu` (đã sắp xếp ở Bước 2), `can_cu`
-- Vai trò: Công chức phụ trách soạn thảo, AI hỗ trợ viết dự thảo hoàn chỉnh, kiểm tra tính nhất quán giữa bảng nhiệm vụ và phần tổ chức thực hiện (30 phút).
+- Dùng input: `don_vi`, `ky_ke_hoach`, `muc_tieu`, `nhiem_vu` (đã sắp xếp ở Bước 2), `can_cu`.
+- Vai trò: Công chức phụ trách soạn thảo, AI hỗ trợ viết dự thảo hoàn chỉnh, kiểm tra tính nhất quán giữa bảng nhiệm vụ và phần tổ chức thực hiện (⏱ 30 phút).
 - Lưu ý nghiệp vụ: Ký hiệu loại văn bản "KH-UBND" (kế hoạch của UBND xã) hoặc "KH-[tên phòng]" (kế hoạch của phòng); không bịa số hiệu văn bản căn cứ.
 - → Kết quả bước: Dự thảo kế hoạch đầy đủ nội dung, đúng thể thức.
 
 **Bước 4. Lấy ý kiến các đơn vị liên quan**
 
 - Làm gì: Gửi dự thảo lấy ý kiến các phòng, đơn vị được phân công nhiệm vụ; tổng hợp ý kiến, điều chỉnh (bổ sung nhiệm vụ, điều chỉnh thời hạn, phân công lại đầu mối).
-- Dùng input: Dự thảo kế hoạch từ Bước 3
-- Vai trò: Công chức phụ trách gửi và tổng hợp ý kiến, AI hỗ trợ tổng hợp ý kiến góp ý thành bảng và đề xuất phương án điều chỉnh (20 phút).
+- Dùng input: Dự thảo kế hoạch từ Bước 3.
+- Vai trò: Công chức phụ trách gửi và tổng hợp ý kiến, AI hỗ trợ tổng hợp ý kiến góp ý thành bảng và đề xuất phương án điều chỉnh (⏱ 20 phút).
 - Lưu ý nghiệp vụ: Ý kiến về phân công đầu mối, thời hạn phải được đơn vị liên quan xác nhận; không áp đặt nhiệm vụ mà đơn vị không đủ nguồn lực thực hiện.
 - → Kết quả bước: Dự thảo kế hoạch đã tiếp thu ý kiến, có bảng tổng hợp ý kiến góp ý.
 
 **Bước 5. Trình ký duyệt và triển khai theo dõi**
 
 - Làm gì: Trình lãnh đạo ký duyệt (Chủ tịch UBND xã đối với kế hoạch của UBND xã; Trưởng phòng đối với kế hoạch của phòng); phát hành kế hoạch; lập bảng theo dõi tiến độ thực hiện.
-- Dùng input: `nguoi_ky`, `don_vi`
-- Vai trò: Lãnh đạo đơn vị ký duyệt; công chức phụ trách phát hành và lập bảng theo dõi (AI hỗ trợ tạo bảng theo dõi từ bảng nhiệm vụ: nhiệm vụ – đầu mối – thời hạn – tình trạng) (15 phút).
+- Dùng input: `nguoi_ky`, `don_vi`.
+- Vai trò: Lãnh đạo đơn vị ký duyệt; công chức phụ trách phát hành và lập bảng theo dõi (AI hỗ trợ tạo bảng theo dõi từ bảng nhiệm vụ: nhiệm vụ – đầu mối – thời hạn – tình trạng) (⏱ 15 phút).
 - Lưu ý nghiệp vụ: Kế hoạch tuần/tháng của UBND xã nên ban hành trước kỳ kế hoạch ít nhất 02 ngày làm việc; bảng theo dõi được cập nhật trong các cuộc họp giao ban.
 - → Kết quả bước: Kế hoạch đã ký, đã phát hành + bảng theo dõi tiến độ.
 
@@ -79,7 +81,7 @@ flowchart TD
     B4 --> B5["Bước 5: Trình ký duyệt và triển khai theo dõi"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Kế hoạch công tác (file .docx) đúng thể thức NĐ 30/2020/NĐ-CP.
 - Bảng nhiệm vụ chi tiết (đầu mối, phối hợp, thời hạn, sản phẩm).
@@ -102,7 +104,7 @@ Thứ tự các phần bắt buộc của kế hoạch công tác:
 10. **Nơi nhận**: liệt kê đầy đủ; lưu hồ sơ.
 11. **Chữ ký**: người đứng đầu đơn vị lập kế hoạch ký (Chủ tịch UBND xã / Trưởng phòng), họ tên, dấu.
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. Đủ 11 phần theo Cấu trúc output chuẩn, đúng thứ tự, đúng thể thức NĐ 30/2020/NĐ-CP.
 2. Căn cứ lập kế hoạch rõ ràng, bám chỉ đạo cấp trên và kế hoạch kỳ trước; không bịa số hiệu văn bản.
@@ -114,7 +116,7 @@ Thứ tự các phần bắt buộc của kế hoạch công tác:
 8. Kèm bảng theo dõi tiến độ để cập nhật trong họp giao ban.
 9. Đã qua human gate trước khi phát hành.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
@@ -173,12 +175,12 @@ Thứ tự các phần bắt buộc của kế hoạch công tác:
 >
 > Nguyễn Văn A
 
-## Human gate
+## 8. Human gate
 
 - Công chức phụ trách soạn dự thảo → Trưởng phòng (đối với kế hoạch của phòng) hoặc Chánh Văn phòng HĐND&UBND (đối với kế hoạch của UBND xã) kiểm tra → Chủ tịch UBND xã (hoặc Trưởng phòng) ký duyệt → phát hành.
 - Kế hoạch có phân công nhiều đơn vị: phải lấy ý kiến các đơn vị liên quan trước khi trình ký.
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI KHÔNG tự quyết định mục tiêu, nhiệm vụ, phân công đầu mối thay lãnh đạo.
 - AI KHÔNG tự ký, tự phát hành kế hoạch.
@@ -186,7 +188,7 @@ Thứ tự các phần bắt buộc của kế hoạch công tác:
 - AI KHÔNG áp đặt thời hạn, đầu mối mà đơn vị liên quan chưa xác nhận khả năng thực hiện.
 - Kế hoạch của phòng chuyên môn không được trái với kế hoạch chung của UBND xã — AI phải cảnh báo khi phát hiện mâu thuẫn.
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - NĐ 30/2020/NĐ-CP về công tác văn thư (thể thức văn bản hành chính: áp dụng cho kế hoạch).
 - NĐ 150/2025/NĐ-CP (hiệu lực 16/6/2025): tổ chức cơ quan chuyên môn thuộc UBND cấp xã — xác định các đơn vị đầu mối trong bảng nhiệm vụ.

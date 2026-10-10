@@ -28,35 +28,35 @@ description: "Thành lập, kiện toàn tổ công nghệ số cộng đồng t
 **Bước 1. Rà soát, lập danh sách thành lập/kiện toàn tổ công nghệ số cộng đồng**
 - Làm gì: Rà soát từng thôn/xóm: tổ đã có hay chưa, số thành viên, năng lực; lập danh sách thành lập mới/kiện toàn (thay thế, bổ sung thành viên); dự thảo quyết định thành lập.
 - Dùng input: `thon_xom`, `thanh_vien_du_kien`.
-- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực chuyển đổi số rà soát, lập danh sách; AI hỗ trợ tổng hợp bảng thôn – tình trạng tổ – đề xuất thành lập/kiện toàn (~0,5 ngày).
+- Vai trò: Công chức văn hóa – xã hội phụ trách lĩnh vực chuyển đổi số rà soát, lập danh sách; AI hỗ trợ tổng hợp bảng thôn – tình trạng tổ – đề xuất thành lập/kiện toàn (⏱ ~0,5 ngày).
 - Lưu ý nghiệp vụ: Mỗi thôn/xóm có 1 tổ; thành viên ưu tiên đoàn viên, thanh niên, người am hiểu công nghệ, có uy tín; tổ trưởng do thôn đề cử.
 - → Kết quả bước: Bảng rà soát + dự thảo quyết định thành lập/kiện toàn tổ công nghệ số cộng đồng các thôn.
 
 **Bước 2. Xây dựng kế hoạch hoạt động của các tổ**
 - Làm gì: Lập kế hoạch hoạt động theo kỳ: mục tiêu (số lượt người dân được hướng dẫn, tỷ lệ hồ sơ trực tuyến); nội dung (hướng dẫn dịch vụ công trực tuyến, thanh toán không dùng tiền mặt, kỹ năng số cơ bản, an toàn thông tin); hình thức (hướng dẫn trực tiếp tại nhà, điểm hỗ trợ lưu động, nhóm Zalo thôn); phân công, kinh phí, tiến độ.
 - Dùng input: `nhiem_vu_trong_tam`, `doi_tuong_uu_tien`, `ky_bao_cao`, `so_lieu_ky_truoc`.
-- Vai trò: Công chức văn hóa – xã hội soạn kế hoạch; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Phó Chủ tịch UBND xã (bà Trần Thị B) phê duyệt; AI hỗ trợ soạn thảo kế hoạch theo thể thức NĐ 30/2020/NĐ-CP (~1 ngày).
+- Vai trò: Công chức văn hóa – xã hội soạn kế hoạch; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Phó Chủ tịch UBND xã (bà Trần Thị B) phê duyệt; AI hỗ trợ soạn thảo kế hoạch theo thể thức NĐ 30/2020/NĐ-CP (⏱ ~1 ngày).
 - Lưu ý nghiệp vụ: Mục tiêu phải đo được (số lượt, tỷ lệ %); nội dung bám nhiệm vụ chuyển đổi số của xã; có lịch hỗ trợ lưu động đến từng thôn.
 - → Kết quả bước: Dự thảo Kế hoạch hoạt động tổ công nghệ số cộng đồng (kỳ …).
 
 **Bước 3. Triển khai hướng dẫn người dân**
 - Làm gì: Các tổ công nghệ số cộng đồng triển khai theo kế hoạch: hướng dẫn cài đặt và sử dụng ứng dụng dịch vụ công trực tuyến; hướng dẫn thanh toán không dùng tiền mặt (quét mã QR, ví điện tử); kỹ năng số cơ bản (tra cứu thông tin, phòng tránh lừa đảo); ghi nhật ký lượt hỗ trợ.
 - Dùng input: Kế hoạch bước 2, `doi_tuong_uu_tien`.
-- Vai trò: Thành viên tổ công nghệ số cộng đồng các thôn trực tiếp hướng dẫn người dân; công chức văn hóa – xã hội theo dõi, đôn đốc; AI hỗ trợ soạn tài liệu hướng dẫn ngắn gọn, dễ hiểu cho người dân (~1 ngày, cập nhật suốt kỳ).
+- Vai trò: Thành viên tổ công nghệ số cộng đồng các thôn trực tiếp hướng dẫn người dân; công chức văn hóa – xã hội theo dõi, đôn đốc; AI hỗ trợ soạn tài liệu hướng dẫn ngắn gọn, dễ hiểu cho người dân (⏱ ~1 ngày, cập nhật suốt kỳ).
 - Lưu ý nghiệp vụ: Hướng dẫn tận nơi cho người cao tuổi, người khó khăn; không thu thập thông tin cá nhân, mật khẩu của người dân; cảnh báo lừa đảo mạo danh cơ quan nhà nước.
 - → Kết quả bước: Nhật ký lượt hướng dẫn của các tổ + tài liệu hướng dẫn người dân.
 
 **Bước 4. Theo dõi, đôn đốc và thu thập số liệu**
 - Làm gì: Thu thập số liệu từ các tổ: số lượt người dân được hướng dẫn theo nội dung; số hồ sơ dịch vụ công trực tuyến phát sinh; khó khăn, vướng mắc; tổng hợp theo biểu mẫu thống nhất.
 - Dùng input: Nhật ký bước 3, `ky_bao_cao`, `so_lieu_ky_truoc`.
-- Vai trò: Công chức văn hóa – xã hội tổng hợp số liệu; AI hỗ trợ kiểm tra tính nhất quán số liệu giữa các tổ, lập bảng tổng hợp (~0,5 ngày).
+- Vai trò: Công chức văn hóa – xã hội tổng hợp số liệu; AI hỗ trợ kiểm tra tính nhất quán số liệu giữa các tổ, lập bảng tổng hợp (⏱ ~0,5 ngày).
 - Lưu ý nghiệp vụ: Số liệu phải có nguồn (nhật ký tổ), không ước đoán; đối chiếu với số liệu kỳ trước để đánh giá tiến bộ.
 - → Kết quả bước: Bảng tổng hợp số liệu hoạt động của các tổ công nghệ số cộng đồng.
 
 **Bước 5. Soạn báo cáo kết quả**
 - Làm gì: Soạn báo cáo kết quả hoạt động: tình hình triển khai; kết quả đạt được so với mục tiêu kế hoạch; khó khăn, vướng mắc; đề xuất, kiến nghị; phương hướng kỳ tới.
 - Dùng input: Bảng tổng hợp bước 4, kế hoạch bước 2.
-- Vai trò: Công chức văn hóa – xã hội soạn; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Chủ tịch UBND xã (ông Nguyễn Văn A) ký báo cáo gửi cấp trên; AI hỗ trợ soạn báo cáo theo thể thức NĐ 30/2020/NĐ-CP (~0,5 ngày).
+- Vai trò: Công chức văn hóa – xã hội soạn; Trưởng phòng Văn hóa – Xã hội (ông Vũ Văn E) kiểm tra, trình Chủ tịch UBND xã (ông Nguyễn Văn A) ký báo cáo gửi cấp trên; AI hỗ trợ soạn báo cáo theo thể thức NĐ 30/2020/NĐ-CP (⏱ ~0,5 ngày).
 - Lưu ý nghiệp vụ: Báo cáo trung thực, số liệu khớp với bảng tổng hợp; nêu rõ khó khăn thực tế (thiết bị, đường truyền, nhận thức người dân) và đề xuất cụ thể.
 - → Kết quả bước: Báo cáo kết quả hoạt động tổ công nghệ số cộng đồng (kỳ …) trình ký.
 

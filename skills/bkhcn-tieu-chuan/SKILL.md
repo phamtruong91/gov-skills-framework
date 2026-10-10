@@ -27,8 +27,7 @@ hàng hóa; công nhận tổ chức đánh giá sự phù hợp.
 - Làm gì: Tổng hợp nhu cầu; lập kế hoạch xây dựng TCVN hằng năm; phân công ban kỹ thuật
   tiêu chuẩn quốc gia soạn thảo.
 - Dùng input: `linh_vuc_tc`, `nhiem_vu`.
-- Vai trò: Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia (Bộ KH&CN) chủ trì; AI hỗ trợ ⏱ ~3–5 ngày làm việc (ước tính).
-  tổng hợp nhu cầu, dự thảo kế hoạch (2 giờ).
+- Vai trò: Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia (Bộ KH&CN) chủ trì; AI hỗ trợ tổng hợp nhu cầu, dự thảo kế hoạch ⏱ ~3–5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Ưu tiên TCVN phục vụ chiến lược quốc gia, hội nhập, chuyển đổi số.
 - → Kết quả bước: Kế hoạch xây dựng TCVN được phê duyệt.
 
@@ -36,8 +35,7 @@ hàng hóa; công nhận tổ chức đánh giá sự phù hợp.
 
 - Làm gì: Ban kỹ thuật soạn thảo; lấy ý kiến rộng rãi; thẩm định dự thảo.
 - Dùng input: `du_thao_tcvn`.
-- Vai trò: Ban kỹ thuật tiêu chuẩn thực hiện; AI hỗ trợ rà soát kỹ thuật trình bày, tổng hợp ⏱ ~3–5 ngày làm việc (ước tính).
-  ý kiến (2–3 giờ).
+- Vai trò: Ban kỹ thuật tiêu chuẩn thực hiện; AI hỗ trợ rà soát kỹ thuật trình bày, tổng hợp ý kiến ⏱ ~3–5 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: TCVN hài hòa với tiêu chuẩn quốc tế (ISO, IEC) khi có thể.
 - → Kết quả bước: Dự thảo TCVN hoàn chỉnh + báo cáo thẩm định.
 
@@ -45,8 +43,7 @@ hàng hóa; công nhận tổ chức đánh giá sự phù hợp.
 
 - Làm gì: Hội đồng thẩm định; Bộ trưởng công bố TCVN.
 - Dùng input: Dự thảo TCVN sau thẩm định.
-- Vai trò: Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia thẩm định; AI hỗ trợ checklist ⏱ ~2–3 ngày làm việc (ước tính).
-  hồ sơ công bố (1 giờ).
+- Vai trò: Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia thẩm định; AI hỗ trợ checklist hồ sơ công bố ⏱ ~2–3 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Công bố công khai; cập nhật, soát xét định kỳ.
 - → Kết quả bước: Quyết định công bố TCVN.
 
@@ -55,7 +52,7 @@ hàng hóa; công nhận tổ chức đánh giá sự phù hợp.
 - Làm gì: Quản lý chuẩn đo lường quốc gia; kiểm định phương tiện đo; quản lý chất lượng
   sản phẩm, hàng hóa (nhóm 2); công nhận tổ chức đánh giá sự phù hợp (BoA).
 - Dùng input: `to_chuc` (nếu có).
-- Vai trò: Đơn vị chuyên môn thực hiện; AI hỗ trợ tổng hợp hồ sơ, theo dõi (1–2 giờ).
+- Vai trò: Đơn vị chuyên môn thực hiện; AI hỗ trợ tổng hợp hồ sơ, theo dõi (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Quyết định công nhận, xử lý vi phạm do người có thẩm quyền quyết định.
 - → Kết quả bước: Quyết định công nhận / kết quả kiểm tra chất lượng.
 

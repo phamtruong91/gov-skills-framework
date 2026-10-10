@@ -46,7 +46,7 @@ description: "Tổ chức kỳ thi tốt nghiệp trung học phổ thông trên
 
 - Làm gì: Triển khai coi thi theo đúng lịch thi và quy chế thi; bảo đảm an ninh đề thi, bài thi; xử lý tình huống phát sinh tại điểm thi (thí sinh vi phạm, sự cố y tế, mất điện...); lập biên bản coi thi.
 - Dùng input: `lich_thi`, `so_diem_thi`, `phuong_an_dam_bao`, kết quả bước 2.
-- Vai trò: Trưởng điểm thi điều hành tại điểm thi; thanh tra thi của Sở giám sát; cơ quan thường trực (Sở GD&ĐT) trực điều hành, tiếp nhận báo cáo nhanh. AI hỗ trợ: soạn mẫu biên bản coi thi, biểu mẫu báo cáo nhanh theo buổi thi, tổng hợp báo cáo nhanh toàn tỉnh. ⏱ ~theo lịch thi (3–4 ngày) + 2 ngày tổng hợp (ước tính).
+- Vai trò: Trưởng điểm thi điều hành tại điểm thi; thanh tra thi của Sở giám sát; cơ quan thường trực (Sở GD&ĐT) trực điều hành, tiếp nhận báo cáo nhanh. AI hỗ trợ: soạn mẫu biên bản coi thi, biểu mẫu báo cáo nhanh theo buổi thi, tổng hợp báo cáo nhanh toàn tỉnh. ⏱ ~theo lịch thi (⏱ 3–4 ngày) + 2 ngày tổng hợp (ước tính).
 - Lưu ý nghiệp vụ: Mọi biên bản xử lý vi phạm phải lập tại chỗ, có chữ ký của cán bộ coi thi, thí sinh vi phạm (hoặc ghi rõ lý do vắng mặt) và trưởng điểm thi; niêm phong bài thi, đề thi đúng quy định ngay sau mỗi buổi thi.
 - → Kết quả bước: Biên bản coi thi các điểm thi + báo cáo nhanh kết quả coi thi toàn tỉnh.
 

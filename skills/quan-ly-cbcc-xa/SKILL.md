@@ -25,36 +25,36 @@ description: "Quản lý hồ sơ cán bộ, công chức cấp xã; đánh giá
 
 **Bước 1. Quản lý, cập nhật hồ sơ cán bộ, công chức**
 - Làm gì: Cập nhật sơ yếu lý lịch, quá trình công tác, văn bằng chứng chỉ, khen thưởng/kỷ luật vào hồ sơ từng CBCC; rà soát hồ sơ thiếu, chưa cập nhật.
-- Dùng input: `danh_sach_cbcc`, `ho_so_ca_nhan`, `can_bo_phu_trach`
-- Vai trò: Công chức Văn phòng phụ trách công tác cán bộ thực hiện; AI hỗ trợ lập danh mục hồ sơ, nhắc các mục chưa cập nhật — 2 ngày làm việc
+- Dùng input: `danh_sach_cbcc`, `ho_so_ca_nhan`, `can_bo_phu_trach`.
+- Vai trò: Công chức Văn phòng phụ trách công tác cán bộ thực hiện; AI hỗ trợ lập danh mục hồ sơ, nhắc các mục chưa cập nhật ⏱ 2 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Hồ sơ cán bộ là tài liệu mật, bảo quản trong tủ khóa, không sao chụp khi chưa được phép; mọi thay đổi phải có căn cứ (quyết định, văn bằng).
 - → Kết quả bước: Sổ quản lý CBCC cập nhật đầy đủ, danh mục hồ sơ thiếu cần bổ sung.
 
 **Bước 2. Đánh giá, xếp loại chất lượng hằng năm**
 - Làm gì: Tổ chức đánh giá, xếp loại chất lượng CBCC theo quy định (tự đánh giá, lấy ý kiến, tập thể đánh giá); tổng hợp kết quả xếp loại.
-- Dùng input: `danh_sach_cbcc`, `ket_qua_danh_gia`, `tieu_chuan_cbcc`
-- Vai trò: Tập thể lãnh đạo UBND xã đánh giá; công chức phụ trách tổng hợp; AI hỗ trợ lập phiếu đánh giá, bảng tổng hợp kết quả — 3 ngày làm việc
+- Dùng input: `danh_sach_cbcc`, `ket_qua_danh_gia`, `tieu_chuan_cbcc`.
+- Vai trò: Tập thể lãnh đạo UBND xã đánh giá; công chức phụ trách tổng hợp; AI hỗ trợ lập phiếu đánh giá, bảng tổng hợp kết quả ⏱ 3 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Đánh giá phải công tâm, khách quan, đúng tiêu chí; kết quả xếp loại là căn cứ bố trí, đào tạo và chính sách cán bộ.
 - → Kết quả bước: Bảng tổng hợp kết quả đánh giá, xếp loại chất lượng CBCC năm.
 
 **Bước 3. Xác định nhu cầu đào tạo, bồi dưỡng**
 - Làm gì: Đối chiếu tiêu chuẩn chức danh với trình độ hiện có của từng CBCC; tổng hợp nhu cầu đào tạo, bồi dưỡng (lý luận chính trị, chuyên môn, kỹ năng).
-- Dùng input: `ho_so_ca_nhan`, `tieu_chuan_cbcc`, `nhu_cau_dao_tao`, `ket_qua_danh_gia`
-- Vai trò: Công chức phụ trách công tác cán bộ đề xuất; AI hỗ trợ đối chiếu khoảng trống năng lực, lập bảng nhu cầu — 1 ngày làm việc
+- Dùng input: `ho_so_ca_nhan`, `tieu_chuan_cbcc`, `nhu_cau_dao_tao`, `ket_qua_danh_gia`.
+- Vai trò: Công chức phụ trách công tác cán bộ đề xuất; AI hỗ trợ đối chiếu khoảng trống năng lực, lập bảng nhu cầu ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Ưu tiên người chưa đạt chuẩn chức danh, người trong quy hoạch; nhu cầu phải cụ thể (ai học gì, ở đâu, khi nào).
 - → Kết quả bước: Bảng tổng hợp nhu cầu đào tạo, bồi dưỡng CBCC.
 
 **Bước 4. Lập kế hoạch cử đi đào tạo, bồi dưỡng và tổ chức thực hiện**
 - Làm gì: Lập kế hoạch cử CBCC đi đào tạo, bồi dưỡng trong năm (danh sách, nội dung, thời gian, kinh phí); trình Chủ tịch UBND xã phê duyệt; làm thủ tục cử đi học.
-- Dùng input: Bảng nhu cầu ở Bước 3, `can_bo_phu_trach`
-- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra; Chủ tịch UBND xã phê duyệt kế hoạch; AI hỗ trợ soạn kế hoạch, quyết định cử đi học — 1 ngày làm việc
+- Dùng input: Bảng nhu cầu ở Bước 3, `can_bo_phu_trach`.
+- Vai trò: Chánh Văn phòng HĐND và UBND kiểm tra; Chủ tịch UBND xã phê duyệt kế hoạch; AI hỗ trợ soạn kế hoạch, quyết định cử đi học ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Bảo đảm công việc của đơn vị không bị gián đoạn khi cử người đi học; kinh phí đào tạo theo quy định hiện hành.
 - → Kết quả bước: Kế hoạch đào tạo, bồi dưỡng CBCC năm đã phê duyệt + quyết định cử đi học.
 
 **Bước 5. Cập nhật kết quả vào hồ sơ và báo cáo**
 - Làm gì: Cập nhật kết quả đào tạo, bồi dưỡng (văn bằng, chứng chỉ mới) vào hồ sơ từng CBCC; tổng hợp báo cáo công tác quản lý CBCC gửi cấp trên.
-- Dùng input: Kết quả đào tạo, `ho_so_ca_nhan`, `danh_sach_cbcc`
-- Vai trò: Công chức phụ trách công tác cán bộ cập nhật; AI hỗ trợ cập nhật sổ quản lý, soạn báo cáo — 1 ngày làm việc
+- Dùng input: Kết quả đào tạo, `ho_so_ca_nhan`, `danh_sach_cbcc`.
+- Vai trò: Công chức phụ trách công tác cán bộ cập nhật; AI hỗ trợ cập nhật sổ quản lý, soạn báo cáo ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Chỉ cập nhật khi có văn bằng, chứng chỉ hợp lệ; báo cáo đúng thời hạn cấp trên quy định; tiếp tục bảo mật hồ sơ.
 - → Kết quả bước: Hồ sơ CBCC đã cập nhật; báo cáo công tác quản lý CBCC.
 

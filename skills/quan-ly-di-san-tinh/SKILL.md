@@ -17,7 +17,7 @@ description: "Quản lý, bảo tồn và phát huy giá trị di sản văn hó
 
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
-| `de_xuat_xep_hang` | Tờ trình + hồ sơ khoa học di tích đề nghị xếp hạng cấp tỉnh (lý lịch di tích, ảnh, bản đồ khoanh vùng bảo vệ, ý kiến UBND xã nơi có di tích) | Không (có khi phát sinh đề nghị) |
+| `de_xuat_xep_hang` | Tờ trình + hồ sơ khoa học di tích đề nghị xếp hạng cấp tỉnh (lý lịch di tích, ảnh, bản đồ khoanh vùng bảo vệ, ý kiến UBND xã nơi có di tích). Lưu ý: có khi phát sinh đề nghị.| Không |
 | `danh_muc_di_tich` | Danh sách di tích đã xếp hạng trên địa bàn tỉnh: tên, loại hình, cấp xếp hạng (quốc gia đặc biệt/quốc gia/cấp tỉnh), địa chỉ, tình trạng hiện tại | Có |
 | `ke_hoach_bao_ve` | Đề xuất tu bổ, chống xuống cấp, phát huy giá trị di tích trong năm; nguồn kinh phí (ngân sách, xã hội hóa) | Không |
 | `kiem_ke_dsvhpvt` | Danh mục di sản văn hóa phi vật thể cần kiểm kê: loại hình, địa bàn phân bố, nghệ nhân/người nắm giữ | Không |
@@ -46,7 +46,7 @@ description: "Quản lý, bảo tồn và phát huy giá trị di sản văn hó
 **Bước 3. Xây dựng kế hoạch bảo vệ, phát huy di tích và kiểm kê di sản văn hóa phi vật thể**
 
 - Làm gì: Dự thảo Kế hoạch quản lý, bảo vệ và phát huy giá trị di tích năm: danh mục di tích ưu tiên tu bổ, chống xuống cấp; nhiệm vụ tuyên truyền, phát huy giá trị gắn với du lịch; kế hoạch kiểm kê di sản văn hóa phi vật thể (lập danh mục kiểm kê, điều tra nghệ nhân); dự toán kinh phí.
-- Dùng input: `nam_ke_hoach`, `danh_muc_di_tich`, `ke_hoach_bao_ve`, `kiem_ke_dsvhpvt`.
+- Dùng input: `nam_ke_hoach`, `danh_muc_di_tich`, `ke_hoach_bao_ve`, `kiem_ke_dsvhpvt`, `thoi_han`.
 - Vai trò: Chuyên viên Phòng Quản lý di sản văn hóa soạn dự thảo, phối hợp Phòng Kế hoạch – Tài chính Sở về dự toán; Trưởng phòng (ông Bùi Văn X) kiểm tra; Phó Giám đốc Sở (ông Đỗ Văn U) cho ý kiến trước khi Giám đốc Sở phê duyệt kế hoạch ngành. AI hỗ trợ: soạn dự thảo kế hoạch, lập bảng danh mục ưu tiên tu bổ theo mức độ xuống cấp, lập dự toán từ số liệu đầu vào. ⏱ ~7–10 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Tu bổ di tích đã xếp hạng phải tuân thủ quy định pháp luật chuyên ngành về di sản văn hóa, không làm thay đổi yếu tố gốc; kinh phí tu bổ từ ngân sách phải phù hợp khả năng cân đối, ưu tiên di tích xuống cấp nghiêm trọng.
 - → Kết quả bước: Dự thảo Kế hoạch quản lý, bảo vệ và phát huy giá trị di tích + kiểm kê di sản văn hóa phi vật thể năm.

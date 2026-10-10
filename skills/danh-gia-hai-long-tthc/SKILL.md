@@ -30,15 +30,15 @@ description: "Khảo sát, đánh giá mức độ hài lòng của người dâ
 **Bước 1. Thiết kế (hoặc rà soát, điều chỉnh) phiếu khảo sát**
 
 - Làm gì: Xây dựng phiếu khảo sát gồm các nhóm nội dung: thông tin chung về TTHC được giải quyết; đánh giá thái độ phục vụ của công chức; đánh giá thời gian giải quyết; đánh giá thủ tục, thành phần hồ sơ; đánh giá cơ sở vật chất Trung tâm; ý kiến đề xuất khác. Mỗi tiêu chí dùng thang đo 5 mức (rất hài lòng → rất không hài lòng).
-- Dùng input: `danh_muc_tthc`, `mau_phieu_hien_hanh`, `ky_khao_sat`
-- Vai trò: Công chức Trung tâm PVHCC dự thảo phiếu. AI hỗ trợ: gợi ý cấu trúc phiếu theo nhóm TTHC, soạn câu hỏi rõ ràng, tránh câu hỏi dẫn dắt; rút gọn phiếu không quá 15 câu. Thời gian ước tính: 0,5–1 ngày làm việc.
+- Dùng input: `danh_muc_tthc`, `mau_phieu_hien_hanh`, `ky_khao_sat`.
+- Vai trò: Công chức Trung tâm PVHCC dự thảo phiếu. AI hỗ trợ: gợi ý cấu trúc phiếu theo nhóm TTHC, soạn câu hỏi rõ ràng, tránh câu hỏi dẫn dắt; rút gọn phiếu không quá 15 câu. ⏱ 0,5–1 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Phiếu khảo sát không thu thập thông tin cá nhân nhạy cảm; phải có phần cam kết bảo mật và mục đích sử dụng kết quả.
 - → Kết quả bước: Mẫu phiếu khảo sát hài lòng (bản giấy và bản điện tử có mã QR).
 
 **Bước 2. Tổ chức thu thập ý kiến qua các kênh**
 
 - Làm gì: Triển khai thu thập đồng thời qua các kênh: phát phiếu trực tiếp tại quầy trả kết quả; dán mã QR khảo sát tại khu vực chờ và trên giấy hẹn trả kết quả (mã tra cứu gắn với mã hồ sơ); gọi điện thoại phỏng vấn mẫu ngẫu nhiên.
-- Dùng input: `doi_tuong_khao_sat`, `kenh_thu_thap`, `ky_khao_sat`
+- Dùng input: `doi_tuong_khao_sat`, `kenh_thu_thap`, `ky_khao_sat`.
 - Vai trò: Công chức Trung tâm PVHCC tổ chức thực hiện; công chức đầu mối các phòng phối hợp nhắc người dân khi trả kết quả. AI hỗ trợ: tạo mã QR cho từng TTHC, theo dõi tiến độ thu thập theo kênh, nhắc khi tỷ lệ thu hồi phiếu thấp. ⏱ ~suốt kỳ khảo sát (ước tính).
 - Lưu ý nghiệp vụ: Khuyến khích người dân tự nguyện tham gia, không ép buộc; công chức trực tiếp giải quyết hồ sơ không được can thiệp vào việc người dân đánh giá mình.
 - → Kết quả bước: Bộ dữ liệu phản hồi đã thu thập từ các kênh, có ghi rõ kênh thu thập.
@@ -46,24 +46,24 @@ description: "Khảo sát, đánh giá mức độ hài lòng của người dâ
 **Bước 3. Làm sạch và tổng hợp dữ liệu**
 
 - Làm gì: Loại bỏ phiếu không hợp lệ (để trống quá 50% câu hỏi, đánh dấu trùng lặp bất thường); nhập phiếu giấy vào bảng tổng hợp; chuẩn hóa dữ liệu từ các kênh về cùng một định dạng.
-- Dùng input: `du_lieu_phan_hoi`
-- Vai trò: Công chức Trung tâm PVHCC thực hiện nhập liệu, kiểm tra. AI hỗ trợ: phát hiện phiếu bất thường, tổng hợp tự động theo tiêu chí. Thời gian ước tính: 1–2 ngày làm việc.
+- Dùng input: `du_lieu_phan_hoi`.
+- Vai trò: Công chức Trung tâm PVHCC thực hiện nhập liệu, kiểm tra. AI hỗ trợ: phát hiện phiếu bất thường, tổng hợp tự động theo tiêu chí. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Ghi rõ số phiếu phát ra, số phiếu thu về hợp lệ theo từng kênh; không tự ý loại bỏ phiếu đánh giá thấp mà không có căn cứ kỹ thuật.
 - → Kết quả bước: Bảng dữ liệu khảo sát đã làm sạch, sẵn sàng phân tích.
 
 **Bước 4. Phân tích tỷ lệ hài lòng theo TTHC và theo công chức**
 
 - Làm gì: Tính tỷ lệ hài lòng chung (tỷ lệ "hài lòng" + "rất hài lòng"); phân tích chi tiết theo từng TTHC, từng tiêu chí (thái độ, thời gian, thủ tục, cơ sở vật chất) và theo từng công chức trực tiếp xử lý; so sánh với kỳ khảo sát trước.
-- Dùng input: `du_lieu_phan_hoi`, `danh_muc_tthc`, `danh_sach_cong_chuc`
-- Vai trò: Công chức Trung tâm PVHCC phân tích. AI hỗ trợ: tính toán tỷ lệ, vẽ biểu đồ so sánh theo TTHC/công chức/kỳ, chỉ ra điểm yếu nổi bật. Thời gian ước tính: 1 ngày làm việc.
+- Dùng input: `du_lieu_phan_hoi`, `danh_muc_tthc`, `danh_sach_cong_chuc`.
+- Vai trò: Công chức Trung tâm PVHCC phân tích. AI hỗ trợ: tính toán tỷ lệ, vẽ biểu đồ so sánh theo TTHC/công chức/kỳ, chỉ ra điểm yếu nổi bật. ⏱ 1 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Kết quả phân tích theo công chức chỉ dùng cho mục đích quản lý nội bộ, không công khai danh tính cá nhân trên các kênh công khai.
 - → Kết quả bước: Bảng tổng hợp tỷ lệ hài lòng chi tiết theo TTHC, tiêu chí và công chức xử lý.
 
 **Bước 5. Đề xuất giải pháp cải tiến và lập báo cáo kết quả**
 
 - Làm gì: Căn cứ các tiêu chí có tỷ lệ hài lòng thấp và ý kiến đề xuất của người dân, xây dựng các giải pháp cải tiến cụ thể (rút ngắn thời gian, cải thiện thái độ phục vụ, bổ sung trang thiết bị...); lập báo cáo kết quả khảo sát trình lãnh đạo.
-- Dùng input: `du_lieu_phan_hoi`, `danh_muc_tthc`
-- Vai trò: Công chức Trung tâm PVHCC dự thảo; Phó Chủ tịch UBND xã phụ trách kiểm tra; Chủ tịch UBND xã phê duyệt giải pháp cải tiến. AI hỗ trợ: tổng hợp ý kiến đề xuất thành nhóm giải pháp, dự thảo báo cáo kết quả khảo sát. Thời gian ước tính: 1–2 ngày làm việc.
+- Dùng input: `du_lieu_phan_hoi`, `danh_muc_tthc`.
+- Vai trò: Công chức Trung tâm PVHCC dự thảo; Phó Chủ tịch UBND xã phụ trách kiểm tra; Chủ tịch UBND xã phê duyệt giải pháp cải tiến. AI hỗ trợ: tổng hợp ý kiến đề xuất thành nhóm giải pháp, dự thảo báo cáo kết quả khảo sát. ⏱ 1–2 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Giải pháp cải tiến phải gắn trách nhiệm cụ thể (ai làm, làm gì, thời hạn nào); báo cáo công khai kết quả chung tại Trung tâm PVHCC.
 - → Kết quả bước: Báo cáo kết quả khảo sát mức độ hài lòng kèm danh mục giải pháp cải tiến đã được phê duyệt.
 
@@ -79,7 +79,7 @@ flowchart TD
     B4 --> B5["Bước 5: Đề xuất giải pháp cải tiến và lập báo cáo kết quả"]
 ```
 
-## Đầu ra (Output)
+## 5. Đầu ra (Output)
 
 - Mẫu phiếu khảo sát mức độ hài lòng (bản giấy + bản điện tử kèm mã QR).
 - Bảng dữ liệu khảo sát đã làm sạch.
@@ -101,7 +101,7 @@ Sản phẩm chính: **Báo cáo kết quả khảo sát mức độ hài lòng*
 8. Chữ ký người có thẩm quyền (ký, ghi rõ họ tên, đóng dấu).
 9. Nơi nhận: UBND xã (để báo cáo), các phòng chuyên môn liên quan, niêm yết công khai tại Trung tâm PVHCC; lưu: VT, TTPVHCC.
 
-## Checklist nghiệm thu
+## 6. Checklist nghiệm thu
 
 1. Phiếu khảo sát bao quát đủ các nhóm nội dung (thái độ phục vụ, thời gian, thủ tục, cơ sở vật chất, ý kiến khác); không quá 15 câu; có cam kết bảo mật.
 2. Thu thập qua ít nhất 02 kênh khác nhau; số phiếu hợp lệ đạt tối thiểu 70% số hồ sơ được giải quyết trong kỳ (hoặc theo chỉ tiêu UBND xã giao).
@@ -113,7 +113,7 @@ Sản phẩm chính: **Báo cáo kết quả khảo sát mức độ hài lòng*
 8. Báo cáo đủ 4 phần theo cấu trúc chuẩn; kết quả chung được niêm yết công khai tại Trung tâm PVHCC.
 9. Báo cáo đã qua human gate: Phó Chủ tịch phụ trách kiểm tra, Chủ tịch UBND xã phê duyệt trước khi công khai.
 
-## Ví dụ mô phỏng
+## 7. Ví dụ mô phỏng
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
 
 **Input mẫu:**
@@ -184,18 +184,19 @@ Nơi nhận:
 
 **TM. TRUNG TÂM PHỤC VỤ HÀNH CHÍNH CÔNG**
 **PHÓ CHỦ TỊCH UBND XÃ PHỤ TRÁCH**
+*(ký ban hành sau khi Chủ tịch UBND xã phê duyệt tại human gate)*
 *(Ký, ghi rõ họ tên, đóng dấu)*
 Trần Thị B
 
 *(Dữ liệu trên là giả lập 100% phục vụ minh họa.)*
 
-## Human gate
+## 8. Human gate
 
 - Công chức Trung tâm PVHCC thiết kế phiếu khảo sát → Phó Chủ tịch UBND xã phụ trách (Bà Trần Thị B) duyệt mẫu phiếu trước khi triển khai thu thập.
 - Công chức Trung tâm PVHCC tổng hợp, phân tích, dự thảo báo cáo → Phó Chủ tịch phụ trách kiểm tra số liệu, nội dung → Chủ tịch UBND xã (Ông Nguyễn Văn A) phê duyệt báo cáo và danh mục giải pháp cải tiến trước khi công khai.
 - Kết quả phân tích theo từng công chức chỉ báo cáo nội bộ cho lãnh đạo UBND xã, không công khai khi chưa có ý kiến của người có thẩm quyền.
 
-## Giới hạn
+## 9. Giới hạn
 
 - AI KHÔNG ra quyết định hành chính thay người có thẩm quyền; không tự phê duyệt mẫu phiếu khảo sát hay giải pháp cải tiến.
 - AI không tự ký, tự phát hành báo cáo; không tự công khai kết quả khảo sát khi chưa được phê duyệt.
@@ -203,7 +204,7 @@ Trần Thị B
 - AI không công khai danh tính công chức bị đánh giá thấp trên các kênh công khai.
 - AI không dùng văn bản pháp luật đã hết hiệu lực làm căn cứ.
 
-## Căn cứ & lưu ý
+## 10. Căn cứ & lưu ý
 
 - Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính (quy định về đánh giá chất lượng giải quyết TTHC, lấy ý kiến người dân, tổ chức).
 - Văn bản 7216/VPCP-KSTT ngày 04/8/2025 của Văn phòng Chính phủ hướng dẫn tổ chức, hoạt động của Trung tâm Phục vụ hành chính công trong mô hình chính quyền địa phương 2 cấp.

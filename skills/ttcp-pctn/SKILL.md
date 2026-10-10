@@ -23,7 +23,7 @@ hoặc triển khai công tác kiểm soát tài sản, thu nhập của ngườ
 **Bước 1. Đánh giá thực trạng công tác PCTN**
 
 - Làm gì: Tổng hợp kết quả thực hiện chiến lược/kế hoạch PCTN giai đoạn trước; phân tích tình hình tham nhũng; đánh giá công tác kê khai, kiểm soát tài sản, thu nhập.
-- Dùng input: `du_lieu_danh_gia`, `giai_doan`.
+- Dùng input: `du_lieu_danh_gia`, `giai_doan`, `noi_dung`.
 - Vai trò: Vụ/Cục PCTN (theo chức năng) chủ trì, AI hỗ trợ tổng hợp số liệu, phân tích xu hướng ⏱ ~4–6 ngày (ước tính).
 - Lưu ý nghiệp vụ: Đánh giá phải dựa trên số liệu thực tế từ các bộ/ngành/địa phương; chỉ rõ hạn chế.
 - → Kết quả bước: Báo cáo đánh giá thực trạng công tác PCTN.

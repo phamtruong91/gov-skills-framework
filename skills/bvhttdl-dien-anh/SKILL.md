@@ -25,28 +25,28 @@ quản lý hoạt động sản xuất, phát hành phim; hướng dẫn chuyên
 **Bước 1. Tiếp nhận và kiểm tra hồ sơ**
 - Làm gì: Kiểm tra hồ sơ đề nghị hỗ trợ từ Quỹ phát triển điện ảnh hoặc hồ sơ phim đề nghị phân loại, cấp phép phổ biến.
 - Dùng input: `noi_dung`, `don_vi_de_nghi`, `ho_so`.
-- Vai trò: Chuyên viên Cục Điện ảnh — AI hỗ trợ lập bảng kiểm thành phần hồ sơ (1 giờ).
+- Vai trò: Chuyên viên Cục Điện ảnh — AI hỗ trợ lập bảng kiểm thành phần hồ sơ (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Kịch bản, phim phải được kiểm tra nội dung theo đúng tiêu chí phân loại.
 - → Kết quả bước: Hồ sơ đạt / yêu cầu bổ sung.
 
 **Bước 2. Thẩm định nội dung, xét hỗ trợ**
 - Làm gì: Tổ chức hội đồng thẩm định kịch bản/phim; hội đồng xét hỗ trợ từ quỹ theo tiêu chí công khai.
 - Dùng input: `ho_so`, `muc_ho_tro`.
-- Vai trò: Cục Điện ảnh chủ trì hội đồng — AI hỗ trợ tổng hợp ý kiến hội đồng, lập bảng điểm xét hỗ trợ (1–2 giờ).
+- Vai trò: Cục Điện ảnh chủ trì hội đồng — AI hỗ trợ tổng hợp ý kiến hội đồng, lập bảng điểm xét hỗ trợ (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Tiêu chí xét hỗ trợ phải công khai, minh bạch; thành viên hội đồng độc lập.
 - → Kết quả bước: Biên bản thẩm định / quyết định hỗ trợ từ quỹ.
 
 **Bước 3. Cấp phép / phê duyệt**
 - Làm gì: Cấp giấy phép phân loại phim, quyết định cho phép phổ biến phim; hoặc phê duyệt danh mục dự án được hỗ trợ.
 - Dùng input: Kết quả thẩm định.
-- Vai trò: Cục trưởng Cục Điện ảnh (bà Vũ Thị FF) — AI hỗ trợ soạn giấy phép/quyết định đúng mẫu (1 giờ).
+- Vai trò: Cục trưởng Cục Điện ảnh (bà Vũ Thị FF) — AI hỗ trợ soạn giấy phép/quyết định đúng mẫu (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Phân loại độ tuổi phải chính xác; phim không đạt thì từ chối bằng văn bản nêu rõ lý do.
 - → Kết quả bước: Giấy phép phân loại, phổ biến phim / quyết định hỗ trợ.
 
 **Bước 4. Tổ chức liên hoan phim và tổng kết**
 - Làm gì: Tổ chức Liên hoan phim Việt Nam định kỳ: thể lệ, chấm giải, trao giải; tổng kết hoạt động quỹ hằng năm.
 - Dùng input: Kế hoạch liên hoan, báo cáo quỹ.
-- Vai trò: Cục Điện ảnh — AI hỗ trợ soạn thể lệ, tổng hợp báo cáo (1–2 giờ).
+- Vai trò: Cục Điện ảnh — AI hỗ trợ soạn thể lệ, tổng hợp báo cáo (⏱ 1–2 giờ).
 - Lưu ý nghiệp vụ: Ban giám khảo độc lập, uy tín; công tác tổ chức bảo đảm an toàn, trang trọng.
 - → Kết quả bước: Liên hoan phim được tổ chức thành công; báo cáo tổng kết quỹ.
 

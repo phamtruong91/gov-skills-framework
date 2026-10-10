@@ -27,7 +27,7 @@ quy hoạch thuộc thẩm quyền; hướng dẫn, kiểm tra việc lập quy 
 
 - Làm gì: Xây dựng định hướng phát triển không gian; phê duyệt nhiệm vụ quy hoạch làm cơ sở lập đồ án.
 - Dùng input: `loai_quy_hoach`, `pham_vi`, `muc_tieu`.
-- Vai trò: Vụ Quy hoạch – Kiến trúc (Bộ Xây dựng) chủ trì; AI hỗ trợ tổng hợp định hướng, dự thảo nhiệm vụ quy hoạch (2–3 giờ).
+- Vai trò: Vụ Quy hoạch – Kiến trúc (Bộ Xây dựng) chủ trì; AI hỗ trợ tổng hợp định hướng, dự thảo nhiệm vụ quy hoạch (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Nhiệm vụ quy hoạch phải phù hợp quy hoạch cấp quốc gia, quy hoạch vùng đã phê duyệt.
 - → Kết quả bước: Nhiệm vụ quy hoạch được phê duyệt.
 
@@ -35,7 +35,7 @@ quy hoạch thuộc thẩm quyền; hướng dẫn, kiểm tra việc lập quy 
 
 - Làm gì: Tổ chức lập đồ án; thành lập hội đồng thẩm định; tổ chức thẩm định theo quy định.
 - Dùng input: `ho_so_quy_hoach`, `co_quan_lap`.
-- Vai trò: Vụ Quy hoạch – Kiến trúc chủ trì thẩm định; AI hỗ trợ tổng hợp ý kiến hội đồng, lập biên bản thẩm định (3–4 giờ).
+- Vai trò: Vụ Quy hoạch – Kiến trúc chủ trì thẩm định; AI hỗ trợ tổng hợp ý kiến hội đồng, lập biên bản thẩm định (⏱ 3–4 giờ).
 - Lưu ý nghiệp vụ: Đồ án phải có đánh giá môi trường chiến lược (nếu thuộc đối tượng); lấy ý kiến cộng đồng dân cư.
 - → Kết quả bước: Báo cáo thẩm định đồ án quy hoạch.
 
@@ -43,7 +43,7 @@ quy hoạch thuộc thẩm quyền; hướng dẫn, kiểm tra việc lập quy 
 
 - Làm gì: Hoàn thiện hồ sơ trình Thủ tướng Chính phủ phê duyệt (đối với quy hoạch thuộc thẩm quyền Thủ tướng) hoặc Bộ trưởng phê duyệt theo phân cấp.
 - Dùng input: Đồ án sau thẩm định + báo cáo thẩm định.
-- Vai trò: Vụ trưởng Vụ Quy hoạch – Kiến trúc kiểm tra; Thứ trưởng duyệt; AI hỗ trợ checklist hồ sơ trình (1 giờ).
+- Vai trò: Vụ trưởng Vụ Quy hoạch – Kiến trúc kiểm tra; Thứ trưởng duyệt; AI hỗ trợ checklist hồ sơ trình (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Phân định rõ thẩm quyền phê duyệt: Thủ tướng / Bộ trưởng / UBND cấp tỉnh theo quy định pháp luật về quy hoạch đô thị và nông thôn.
 - → Kết quả bước: Quyết định phê duyệt quy hoạch.
 
@@ -51,7 +51,7 @@ quy hoạch thuộc thẩm quyền; hướng dẫn, kiểm tra việc lập quy 
 
 - Làm gì: Công bố quy hoạch; hướng dẫn địa phương triển khai; kiểm tra việc thực hiện; rà soát, điều chỉnh khi cần.
 - Dùng input: Quyết định phê duyệt.
-- Vai trò: Vụ Quy hoạch – Kiến trúc theo dõi; AI hỗ trợ lập kế hoạch kiểm tra, tổng hợp báo cáo thực hiện (2 giờ).
+- Vai trò: Vụ Quy hoạch – Kiến trúc theo dõi; AI hỗ trợ lập kế hoạch kiểm tra, tổng hợp báo cáo thực hiện (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Quy hoạch phải được công bố công khai; việc điều chỉnh tuân đúng trình tự như lập mới.
 - → Kết quả bước: Quy hoạch được công bố; báo cáo tình hình thực hiện.
 

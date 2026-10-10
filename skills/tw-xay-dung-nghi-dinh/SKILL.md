@@ -6,6 +6,7 @@ description: "Chủ trì soạn thảo nghị định của Chính phủ (quy đ
 # Skill: Xây dựng nghị định của Chính phủ
 
 ## 2. Khi nào dùng
+- Skill chỉ áp dụng ở cấp trung ương (bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ).
 
 Khi bộ được giao chủ trì soạn thảo nghị định của Chính phủ (quy định chi tiết luật/pháp lệnh,
 hoặc nghị định quy định chức năng, nhiệm vụ, chính sách thuộc thẩm quyền Chính phủ).
@@ -25,7 +26,7 @@ hoặc nghị định quy định chức năng, nhiệm vụ, chính sách thu�
 **Bước 1. Lập hồ sơ đề nghị xây dựng nghị định**
 
 - Làm gì: Xây dựng hồ sơ đề nghị (tờ trình, dự thảo đề cương, báo cáo đánh giá tác động, dự kiến nguồn lực) trình Chính phủ quyết định chủ trương.
-- Dùng input: `ten_nghi_dinh`, `can_cu_luat`, `yeu_cau_chinh_sach`.
+- Dùng input: `ten_nghi_dinh`, `can_cu_luat`, `yeu_cau_chinh_sach`, `don_vi_chu_tri`.
 - Vai trò: Vụ chuyên môn chủ trì, Vụ Pháp chế phối hợp; AI hỗ trợ dựng khung hồ sơ và rà soát tính đầy đủ ⏱ ~1–2 ngày (ước tính).
 - Lưu ý nghiệp vụ: Nghị định quy định chi tiết luật phải ban hành đồng thời hoặc kịp thời sau khi luật có hiệu lực.
 - → Kết quả bước: Hồ sơ đề nghị xây dựng nghị định trình Chính phủ.

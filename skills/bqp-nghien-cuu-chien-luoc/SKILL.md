@@ -25,28 +25,28 @@ description: "Xây dựng kế hoạch nghiên cứu chiến lược, tổng k�
 **Bước 1. Lập đề cương và kế hoạch nghiên cứu**
 - Làm gì: Xác định mục tiêu, phạm vi, phương pháp, đề cương chi tiết; phân công thực hiện; dự kiến sản phẩm.
 - Dùng input: `ten_de_tai`, `muc_tieu`, `thoi_han`, `don_vi_chu_tri`.
-- Vai trò: Chủ nhiệm đề tài lập đề cương (AI hỗ trợ rà soát tài liệu công khai liên quan, gợi ý khung đề cương — 2 ngày) → Thủ trưởng cơ quan nghiên cứu phê duyệt.
+- Vai trò: Chủ nhiệm đề tài lập đề cương (AI hỗ trợ rà soát tài liệu công khai liên quan, gợi ý khung đề cương ⏱ 2 ngày (ước tính)) → Thủ trưởng cơ quan nghiên cứu phê duyệt.
 - Lưu ý nghiệp vụ: Phạm vi nghiên cứu giới hạn ở nội dung công khai (chính sách, học thuyết công bố, số liệu công khai); không đặt vấn đề nghiên cứu nội dung mật trong khuôn khổ skill này.
 - → Kết quả bước: Đề cương nghiên cứu được phê duyệt.
 
 **Bước 2. Thu thập, phân tích tài liệu công khai**
 - Làm gì: Thu thập văn kiện, chính sách đã công bố, báo cáo công khai, học thuật; phân tích, đối chiếu.
 - Dùng input: `nguon_tai_lieu`, `muc_tieu`.
-- Vai trò: Nhóm nghiên cứu thực hiện (AI hỗ trợ tổng hợp, phân loại tài liệu, lập bảng so sánh chính sách các nước từ nguồn công khai — 5 ngày) → Chủ nhiệm đề tài kiểm tra.
+- Vai trò: Nhóm nghiên cứu thực hiện (AI hỗ trợ tổng hợp, phân loại tài liệu, lập bảng so sánh chính sách các nước từ nguồn công khai ⏱ 5 ngày (ước tính)) → Chủ nhiệm đề tài kiểm tra.
 - Lưu ý nghiệp vụ: Chỉ dùng nguồn công khai, ghi rõ xuất xứ; không suy đoán, không bịa số liệu.
 - → Kết quả bước: Bộ tài liệu phân tích có trích dẫn nguồn.
 
 **Bước 3. Viết báo cáo nghiên cứu**
 - Làm gì: Viết báo cáo: đặt vấn đề, phân tích, đánh giá, kiến nghị chính sách (mức công khai).
 - Dùng input: Kết quả bước 2.
-- Vai trò: Nhóm nghiên cứu viết (AI hỗ trợ dàn ý, chuẩn hóa trích dẫn, rà soát logic — 3 ngày) → Chủ nhiệm đề tài rà soát → Hội đồng nghiệm thu (nếu có).
+- Vai trò: Nhóm nghiên cứu viết (AI hỗ trợ dàn ý, chuẩn hóa trích dẫn, rà soát logic ⏱ 3 ngày (ước tính)) → Chủ nhiệm đề tài rà soát → Hội đồng nghiệm thu (nếu có).
 - Lưu ý nghiệp vụ: Kiến nghị phải khả thi, có căn cứ; phân biệt rõ sự kiện và nhận định.
 - → Kết quả bước: Báo cáo nghiên cứu hoàn chỉnh.
 
 **Bước 4. Nghiệm thu và phổ biến kết quả**
 - Làm gì: Tổ chức nghiệm thu; phổ biến kết quả trong phạm vi cho phép; lưu trữ hồ sơ.
 - Dùng input: Báo cáo nghiên cứu.
-- Vai trò: Hội đồng nghiệm thu đánh giá (AI hỗ trợ tổng hợp ý kiến phản biện — 1 ngày) → Thủ trưởng cơ quan quyết định.
+- Vai trò: Hội đồng nghiệm thu đánh giá (AI hỗ trợ tổng hợp ý kiến phản biện ⏱ 1 ngày (ước tính)) → Thủ trưởng cơ quan quyết định.
 - Lưu ý nghiệp vụ: Phổ biến đúng phạm vi, đúng phân loại tài liệu.
 - → Kết quả bước: Biên bản nghiệm thu; báo cáo được lưu trữ, phổ biến theo quy định.
 

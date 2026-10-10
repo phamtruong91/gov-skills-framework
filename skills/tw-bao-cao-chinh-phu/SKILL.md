@@ -6,6 +6,7 @@ description: "Khi bộ phải báo cáo Chính phủ/Thủ tướng Chính phủ
 # Skill: Báo cáo Chính phủ, Thủ tướng (tổng hợp toàn quốc)
 
 ## 2. Khi nào dùng
+- Skill chỉ áp dụng ở cấp trung ương (bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ).
 
 Khi bộ phải báo cáo Chính phủ/Thủ tướng Chính phủ: báo cáo định kỳ (tháng/quý/năm) về tình hình
 ngành, báo cáo chuyên đề, báo cáo đột xuất theo yêu cầu, hoặc báo cáo phục vụ phiên họp Chính phủ.
@@ -20,13 +21,14 @@ ngành, báo cáo chuyên đề, báo cáo đột xuất theo yêu cầu, hoặc
 | `noi_dung_yeu_cau` | Nội dung Chính phủ/Thủ tướng yêu cầu báo cáo | Có |
 | `don_vi_dau_moi` | Vụ/cục đầu mối tổng hợp | Có |
 | `han_trinh` | Thời hạn trình | Có |
+| `so_lieu_don_vi` | Số liệu báo cáo của các đơn vị gửi về theo công văn đôn đốc (dùng ở Bước 2) | Không |
 
 ## 4. Quy trình
 
 **Bước 1. Xây dựng đề cương và giao nhiệm vụ thu thập số liệu**
 
 - Làm gì: Xây dựng đề cương báo cáo theo yêu cầu; gửi văn bản đề nghị các vụ/cục trong bộ, các bộ/ngành/địa phương liên quan cung cấp số liệu.
-- Dùng input: `ten_bao_cao`, `noi_dung_yeu_cau`, `ky_bao_cao`, `han_trinh`.
+- Dùng input: `ten_bao_cao`, `noi_dung_yeu_cau`, `ky_bao_cao`, `han_trinh`, `loai_bao_cao`, `don_vi_dau_moi`.
 - Vai trò: Vụ đầu mối (Văn phòng Bộ hoặc vụ chuyên môn) chủ trì, AI hỗ trợ dựng đề cương và mẫu biểu thu thập số liệu ⏱ ~0,5–1 ngày (ước tính).
 - Lưu ý nghiệp vụ: Đề cương phải bám sát đúng nội dung được yêu cầu, không báo cáo lan man.
 - → Kết quả bước: Đề cương báo cáo + công văn đề nghị cung cấp số liệu đã gửi.
@@ -34,7 +36,7 @@ ngành, báo cáo chuyên đề, báo cáo đột xuất theo yêu cầu, hoặc
 **Bước 2. Thu thập, kiểm tra số liệu toàn quốc**
 
 - Làm gì: Thu thập số liệu từ các đầu mối; kiểm tra tính đầy đủ, thống nhất, đối chiếu số liệu giữa các nguồn.
-- Dùng input: Số liệu báo cáo của các đơn vị.
+- Dùng input: `so_lieu_don_vi`.
 - Vai trò: Chuyên viên vụ đầu mối, AI hỗ trợ tổng hợp vào bảng biểu, phát hiện số liệu bất thường/chênh lệch để xác minh lại ⏱ ~2–4 ngày (ước tính).
 - Lưu ý nghiệp vụ: Số liệu tổng hợp phải thống nhất với số liệu thống kê nhà nước; số liệu chênh lệch phải được xác minh, giải trình.
 - → Kết quả bước: Bộ số liệu tổng hợp toàn quốc đã được kiểm tra.

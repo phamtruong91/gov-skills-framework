@@ -28,28 +28,28 @@ nghề; gắn kết đào tạo nghề với doanh nghiệp, thị trường lao
 **Bước 1. Đánh giá thực trạng mạng lưới GDNN**
 - Làm gì: Tổng hợp số liệu trường cao đẳng, trung cấp, trung tâm GDNN: quy mô tuyển sinh, tỷ lệ có việc làm, ngành nghề đào tạo.
 - Dùng input: `so_lieu_hien_trang`, `nhu_cau_nhan_luc`.
-- Vai trò: Chuyên viên Cục Giáo dục nghề nghiệp — AI hỗ trợ tổng hợp số liệu, phân tích cung–cầu nhân lực (2 giờ).
+- Vai trò: Chuyên viên Cục Giáo dục nghề nghiệp — AI hỗ trợ tổng hợp số liệu, phân tích cung–cầu nhân lực (⏱ 2 giờ).
 - Lưu ý nghiệp vụ: Đối chiếu ngành đào tạo với nhu cầu thị trường lao động, tránh đào tạo tràn lan ngành thừa nhân lực.
 - → Kết quả bước: Báo cáo thực trạng mạng lưới GDNN.
 
 **Bước 2. Xây dựng quy hoạch, chính sách**
 - Làm gì: Lập quy hoạch mạng lưới cơ sở GDNN; xây dựng chính sách: hỗ trợ học nghề, đào tạo theo đặt hàng doanh nghiệp, kỹ năng nghề quốc gia.
 - Dùng input: `noi_dung`, báo cáo thực trạng.
-- Vai trò: Cục Giáo dục nghề nghiệp chủ trì — AI hỗ trợ soạn dự thảo quy hoạch, chính sách (2–3 giờ).
+- Vai trò: Cục Giáo dục nghề nghiệp chủ trì — AI hỗ trợ soạn dự thảo quy hoạch, chính sách (⏱ 2–3 giờ).
 - Lưu ý nghiệp vụ: Quy hoạch phải gắn với quy hoạch phát triển kinh tế–xã hội, quy hoạch vùng.
 - → Kết quả bước: Dự thảo quy hoạch/chính sách GDNN.
 
 **Bước 3. Lấy ý kiến và hoàn thiện**
 - Làm gì: Lấy ý kiến bộ, ngành, địa phương, doanh nghiệp, cơ sở GDNN; tổng hợp tiếp thu.
 - Dùng input: Dự thảo.
-- Vai trò: Cục Giáo dục nghề nghiệp — AI hỗ trợ tổng hợp ý kiến (1 giờ).
+- Vai trò: Cục Giáo dục nghề nghiệp — AI hỗ trợ tổng hợp ý kiến (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Đặc biệt lấy ý kiến doanh nghiệp sử dụng lao động qua nghề.
 - → Kết quả bước: Dự thảo hoàn chỉnh.
 
 **Bước 4. Trình phê duyệt, kiểm định chất lượng**
 - Làm gì: Trình cấp có thẩm quyền phê duyệt quy hoạch/chính sách; tổ chức kiểm định chất lượng cơ sở GDNN; công nhận, xếp hạng.
 - Dùng input: Toàn bộ hồ sơ.
-- Vai trò: Cục trưởng → Thứ trưởng → Bộ trưởng — AI hỗ trợ soạn tờ trình, quyết định (1 giờ).
+- Vai trò: Cục trưởng → Thứ trưởng → Bộ trưởng — AI hỗ trợ soạn tờ trình, quyết định (⏱ 1 giờ).
 - Lưu ý nghiệp vụ: Kiểm định phải thực chất; công khai kết quả để người học, doanh nghiệp biết.
 - → Kết quả bước: Quy hoạch/chính sách được phê duyệt; kết quả kiểm định.
 

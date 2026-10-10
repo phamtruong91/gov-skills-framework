@@ -24,28 +24,28 @@ description: "Thực hiện chính sách tiền lương, nâng bậc lương và
 
 **Bước 1. Rà soát đối tượng, điều kiện**
 - Làm gì: Rà soát danh sách đến kỳ nâng bậc / đủ điều kiện hưởng chế độ; đối chiếu tiêu chuẩn (thời gian giữ bậc, kết quả đánh giá, kỷ luật).
-- Dùng input: `doi_tuong`, `loai_che_do`, `ho_so_ca_nhan`
+- Dùng input: `doi_tuong`, `loai_che_do`, `ho_so_ca_nhan`.
 - Vai trò: Chuyên viên Phòng Tiền lương (Sở Nội vụ tỉnh A) rà soát; AI hỗ trợ lập danh sách đến hạn, đối chiếu điều kiện ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Nâng bậc trước thời hạn phải có thành tích xuất sắc được công nhận; không xét khi đang bị kỷ luật.
 - → Kết quả bước: Danh sách đủ/không đủ điều kiện kèm lý do.
 
 **Bước 2. Tính toán mức lương, phụ cấp**
 - Làm gì: Tính bậc lương, hệ số, mức phụ cấp mới theo quy định; lập bảng tổng hợp.
-- Dùng input: `bang_luong_hien_huong`, `quy_dinh_ap_dung`
+- Dùng input: `bang_luong_hien_huong`, `quy_dinh_ap_dung`.
 - Vai trò: Chuyên viên tính toán; AI hỗ trợ tính toán, kiểm tra chéo ⏱ ~2 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Áp dụng đúng bảng lương, hệ số hiện hành; thời điểm hưởng từ ngày đủ điều kiện.
 - → Kết quả bước: Bảng tính lương, phụ cấp.
 
 **Bước 3. Thẩm định, trình quyết định**
 - Làm gì: Thẩm định hồ sơ từng trường hợp; hoàn thiện tờ trình, dự thảo quyết định nâng bậc/chuyển xếp lương.
-- Dùng input: Danh sách Bước 1, bảng tính Bước 2
+- Dùng input: Danh sách Bước 1, bảng tính Bước 2.
 - Vai trò: Trưởng phòng Tiền lương kiểm tra; Giám đốc Sở Nội vụ ký tờ trình; AI hỗ trợ soạn văn bản ⏱ ~3 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Đúng thẩm quyền quyết định theo phân cấp (Sở Nội vụ / UBND tỉnh / cơ quan chủ quản).
 - → Kết quả bước: Tờ trình + dự thảo quyết định.
 
 **Bước 4. Ban hành và chi trả**
 - Làm gì: Ban hành quyết định; chuyển cơ quan tài chính, kho bạc để chi trả; cập nhật hồ sơ cán bộ.
-- Dùng input: Quyết định đã ký
+- Dùng input: Quyết định đã ký.
 - Vai trò: Văn thư phát hành; AI hỗ trợ lập danh sách chi trả ⏱ ~2 ngày làm việc (ước tính)
 - Lưu ý nghiệp vụ: Chi trả đúng, đủ, kịp thời từ thời điểm được hưởng; lưu hồ sơ đầy đủ.
 - → Kết quả bước: Quyết định đã ban hành; bảng chi trả.
@@ -72,7 +72,7 @@ Khung quyết định nâng bậc lương:
 1. Quốc hiệu "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM", Tiêu ngữ "Độc lập – Tự do – Hạnh phúc"; số, ký hiệu; địa danh, ngày tháng năm.
 2. Tên: "QUYẾT ĐỊNH về việc nâng bậc lương đối với ông/bà ...".
 3. Căn cứ pháp lý.
-4. Điều 1: Nâng bậc lương từ bậc ... hệ số ... lên bậc ... hệ số ..., thời điểm hưởng từ ngày ...
+4. Điều 1: Nâng bậc lương từ bậc ... hệ số ... lên bậc ... hệ số .., thời điểm hưởng từ ngày ...
 5. Điều 2: Trách nhiệm thi hành.
 6. Chữ ký người có thẩm quyền; đóng dấu.
 - Nơi nhận: liệt kê các cơ quan, đơn vị nhận để biết/thực hiện; kết thúc bằng "- Lưu: VT, [mã đơn vị]".

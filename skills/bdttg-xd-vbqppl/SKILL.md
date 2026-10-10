@@ -27,7 +27,7 @@ nghị định trình Chính phủ, dự thảo thông tư của Bộ trưởng 
 
 - Làm gì: Đơn vị chủ trì lập đề cương chi tiết, xác định phạm vi điều chỉnh, bố cục, tiến độ soạn thảo.
 - Dùng input: `loai_van_ban`, `ten_van_ban`, `can_cu_chu_truong`, `don_vi_chu_tri`.
-- Vai trò: Chuyên viên đơn vị chủ trì soạn đề cương (AI hỗ trợ tra cứu văn bản liên quan về dân tộc, tôn giáo — 2 giờ); Vụ trưởng đơn vị chủ trì (ông Hoàng Văn EE) duyệt.
+- Vai trò: Chuyên viên đơn vị chủ trì soạn đề cương (AI hỗ trợ tra cứu văn bản liên quan về dân tộc, tôn giáo ⏱ 2 giờ (ước tính)); Vụ trưởng đơn vị chủ trì (ông Hoàng Văn EE) duyệt.
 - Lưu ý nghiệp vụ: Bám sát chủ trương của Đảng, chính sách của Nhà nước về dân tộc, tôn giáo; tôn trọng quyền tự do tín ngưỡng, tôn giáo.
 - → Kết quả bước: Đề cương chi tiết + kế hoạch soạn thảo được duyệt.
 
@@ -35,7 +35,7 @@ nghị định trình Chính phủ, dự thảo thông tư của Bộ trưởng 
 
 - Làm gì: Soạn dự thảo; lấy ý kiến các bộ/ngành, địa phương có đông đồng bào DTTS, tổ chức tôn giáo, chuyên gia, đồng bào; đăng tải lấy ý kiến công khai.
 - Dùng input: `de_cuong`, `y_kien_phoi_hop`.
-- Vai trò: Tổ soạn thảo thực hiện (AI hỗ trợ tổng hợp ý kiến, lập bảng tiếp thu/giải trình — 4 giờ); Vụ trưởng ký văn bản lấy ý kiến.
+- Vai trò: Tổ soạn thảo thực hiện (AI hỗ trợ tổng hợp ý kiến, lập bảng tiếp thu/giải trình ⏱ 4 giờ (ước tính)); Vụ trưởng ký văn bản lấy ý kiến.
 - Lưu ý nghiệp vụ: Lấy ý kiến phải thực chất, đến được đồng bào vùng sâu, vùng xa; tôn trọng ý kiến của tổ chức tôn giáo.
 - → Kết quả bước: Dự thảo hoàn thiện lần 2 kèm bảng tổng hợp ý kiến.
 
@@ -43,7 +43,7 @@ nghị định trình Chính phủ, dự thảo thông tư của Bộ trưởng 
 
 - Làm gì: Đơn vị pháp chế của Bộ thẩm định dự thảo thông tư; Bộ Tư pháp thẩm định dự thảo luật, nghị định.
 - Dùng input: Dự thảo lần 2, bảng tổng hợp ý kiến.
-- Vai trò: Đơn vị pháp chế thẩm định (AI hỗ trợ rà soát tính thống nhất, phát hiện chồng chéo — 3 giờ); Thứ trưởng phụ trách (bà Phạm Thị DD) chỉ đạo hoàn thiện.
+- Vai trò: Đơn vị pháp chế thẩm định (AI hỗ trợ rà soát tính thống nhất, phát hiện chồng chéo ⏱ 3 giờ (ước tính)); Thứ trưởng phụ trách (bà Phạm Thị DD) chỉ đạo hoàn thiện.
 - Lưu ý nghiệp vụ: Bảo đảm phù hợp Hiến pháp, pháp luật về quyền con người, quyền tự do tín ngưỡng, tôn giáo.
 - → Kết quả bước: Báo cáo thẩm định + dự thảo hoàn thiện.
 
@@ -51,7 +51,7 @@ nghị định trình Chính phủ, dự thảo thông tư của Bộ trưởng 
 
 - Làm gì: Hoàn thiện hồ sơ trình; Bộ trưởng ký trình Chính phủ (luật, nghị định) hoặc ký ban hành (thông tư); gửi văn bản, theo dõi thi hành, tổng hợp vướng mắc.
 - Dùng input: Toàn bộ hồ sơ các bước trước.
-- Vai trò: Đơn vị chủ trì hoàn thiện hồ sơ (AI hỗ trợ kiểm tra thành phần hồ sơ — 1 giờ); Bộ trưởng (ông Lê Văn CC) ký trình/ký ban hành.
+- Vai trò: Đơn vị chủ trì hoàn thiện hồ sơ (AI hỗ trợ kiểm tra thành phần hồ sơ ⏱ 1 giờ (ước tính)); Bộ trưởng (ông Lê Văn CC) ký trình/ký ban hành.
 - Lưu ý nghiệp vụ: Thể thức đúng NĐ 30/2020/NĐ-CP.
 - → Kết quả bước: Văn bản QPPL được ban hành + báo cáo theo dõi thi hành.
 

@@ -31,7 +31,7 @@ Trung ương (tiếp thường xuyên và tiếp định kỳ của lãnh đạo
 **Bước 2. Phân loại, xử lý tại chỗ**
 
 - Làm gì: Phân loại vụ việc (khiếu nại/tố cáo/kiến nghị/phản ánh); hướng dẫn công dân gửi đơn đúng cơ quan có thẩm quyền đối với vụ việc không thuộc thẩm quyền trung ương; giải thích chính sách, pháp luật.
-- Dùng input: Biên bản tiếp công dân.
+- Dùng input: Biên bản tiếp công dân, `hinh_thuc`.
 - Vai trò: Cán bộ tiếp công dân, AI hỗ trợ tra cứu thẩm quyền giải quyết và soạn văn bản hướng dẫn ⏱ ~0,5 giờ/trường hợp (ước tính).
 - Lưu ý nghiệp vụ: Vụ việc đã được giải quyết đúng pháp luật thì giải thích, vận động công dân chấp hành, không tiếp nhận tràn lan.
 - → Kết quả bước: Kết quả phân loại + văn bản hướng dẫn (nếu chuyển đúng thẩm quyền).

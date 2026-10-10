@@ -38,7 +38,7 @@ description: "Phát triển thể dục thể thao quần chúng và thể thao 
 **Bước 2. Xây dựng kế hoạch phát triển TDTT năm**
 
 - Làm gì: Dự thảo Kế hoạch phát triển TDTT năm của tỉnh: mục tiêu, chỉ tiêu cụ thể (quần chúng, thành tích cao); nhiệm vụ tổ chức giải, đào tạo VĐV, đầu tư cơ sở vật chất; phân công đơn vị thực hiện; dự toán kinh phí.
-- Dùng input: `chi_tieu_nam`, `danh_muc_giai`, `doi_tuyen`, `co_so_vat_chat`, `du_toan_kinh_phi`, kết quả bước 1.
+- Dùng input: `chi_tieu_nam`, `danh_muc_giai`, `doi_tuyen`, `co_so_vat_chat`, `du_toan_kinh_phi`, kết quả bước 1, `thoi_han`.
 - Vai trò: Chuyên viên Phòng Thể dục thể thao soạn dự thảo, phối hợp Phòng Kế hoạch – Tài chính Sở về dự toán; Trưởng phòng (ông Phạm Văn Z) kiểm tra; Phó Giám đốc Sở (ông Đỗ Văn U) cho ý kiến. AI hỗ trợ: soạn dự thảo kế hoạch đúng thể thức, lập bảng chỉ tiêu/nhiệm vụ/phân công, lập bảng dự toán. ⏱ ~7–10 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Chỉ tiêu phải khả thi, gắn với nguồn lực; ưu tiên các môn thế mạnh của tỉnh; kế hoạch đầu tư cơ sở vật chất phải phù hợp quy hoạch và khả năng cân đối ngân sách.
 - → Kết quả bước: Dự thảo Kế hoạch phát triển TDTT tỉnh năm + phụ lục (chỉ tiêu, danh mục giải, dự toán).

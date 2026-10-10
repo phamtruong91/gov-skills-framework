@@ -37,7 +37,7 @@ description: "Quản lý hệ thống thư viện và hoạt động điện ả
 **Bước 2. Xây dựng kế hoạch phát triển thư viện công cộng**
 
 - Làm gì: Dự thảo Kế hoạch phát triển sự nghiệp thư viện năm: chỉ tiêu bổ sung tài liệu (sách, báo, tài liệu số); kế hoạch số hóa tài liệu; luân chuyển sách báo từ thư viện tỉnh về thư viện xã, tủ sách cơ sở; phát triển thư viện lưu động, thư viện xã đạt chuẩn; tập huấn cán bộ thư viện cơ sở.
-- Dùng input: `ke_hoach_nam`, `du_toan`, kết quả bước 1.
+- Dùng input: `ke_hoach_nam`, `du_toan`, kết quả bước 1, `thoi_han`.
 - Vai trò: Chuyên viên Phòng Văn hóa cơ sở soạn dự thảo, phối hợp Thư viện tỉnh về chuyên môn và Phòng Kế hoạch – Tài chính Sở về dự toán; Trưởng phòng (bà Lê Thị K) kiểm tra. AI hỗ trợ: soạn dự thảo kế hoạch, lập bảng chỉ tiêu/nhiệm vụ, lập bảng dự toán, lịch luân chuyển sách. ⏱ ~7–10 ngày làm việc (ước tính).
 - Lưu ý nghiệp vụ: Ưu tiên bổ sung tài liệu phục vụ thiếu nhi, vùng sâu, vùng xa; tài liệu số hóa phải bảo đảm bản quyền; phối hợp Phòng Văn hóa – Xã hội các xã trong phát triển thư viện xã.
 - → Kết quả bước: Dự thảo Kế hoạch phát triển sự nghiệp thư viện tỉnh năm.

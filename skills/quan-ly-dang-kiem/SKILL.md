@@ -16,10 +16,10 @@ description: "Quản lý hoạt động đăng kiểm phương tiện cơ giới
 
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
-| `ho_so_trung_tam` | Hồ sơ đề nghị cấp giấy chứng nhận đủ điều kiện hoạt động kiểm định (mặt bằng, thiết bị, nhân sự) | Có (cấp mới) |
+| `ho_so_trung_tam` | Hồ sơ đề nghị cấp giấy chứng nhận đủ điều kiện hoạt động kiểm định (mặt bằng, thiết bị, nhân sự). Lưu ý: cấp mới.| Có |
 | `danh_sach_ttdk` | Danh sách trung tâm đăng kiểm đang hoạt động trên địa bàn (tên, địa chỉ, hạng) | Có |
 | `bao_cao_ttdk` | Báo cáo hoạt động của trung tâm đăng kiểm (số lượt kiểm định, tỷ lệ đạt/không đạt) | Không |
-| `phan_anh_vi_pham_dk` | Phản ánh vi phạm trong hoạt động kiểm định (trung tâm, hành vi) | Có (xử lý) |
+| `phan_anh_vi_pham_dk` | Phản ánh vi phạm trong hoạt động kiểm định (trung tâm, hành vi). Lưu ý: xử lý.| Có |
 | `ket_qua_kiem_tra_dk` | Kết quả kiểm tra thực tế tại trung tâm đăng kiểm | Không |
 | `so_lieu_phuong_tien` | Số liệu phương tiện đến hạn kiểm định trên địa bàn | Không |
 
