@@ -5,16 +5,15 @@ description: "Soạn quyết định hành chính cá biệt (khen thưởng, x�
 
 # Skill: Soạn quyết định hành chính
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
 
 ## Khi nào dùng
 
 - Soạn quyết định khen thưởng tập thể, cá nhân có thành tích (theo đề nghị của Hội đồng Thi đua – Khen thưởng xã).
-- Soạn quyết định xử phạt vi phạm hành chính thuộc thẩm quyền của Chủ tịch UBND xã.
+- Soạn quyết định xử phạt vi phạm hành chính thuộc thẩm quyền của người đứng đầu cơ quan.
 - Soạn quyết định thành lập tổ công tác, ban chỉ đạo, đoàn kiểm tra liên ngành của xã.
 - Soạn quyết định giao nhiệm vụ, phân công phụ trách cho công chức, đơn vị trực thuộc.
 - Soạn quyết định công nhận kết quả (kết quả bình xét thi đua, kết quả hòa giải thành...).
-- Soạn quyết định phê duyệt phương án, kế hoạch cụ thể thuộc thẩm quyền của Chủ tịch UBND xã.
+- Soạn quyết định phê duyệt phương án, kế hoạch cụ thể thuộc thẩm quyền của người đứng đầu cơ quan.
 
 ## Đầu vào (Input)
 
@@ -36,11 +35,11 @@ description: "Soạn quyết định hành chính cá biệt (khen thưởng, x�
 
 **Bước 1. Xác định thẩm quyền ban hành**
 
-- Làm gì: Đọc `loai_quyet_dinh`, `noi_dung_quyet_dinh` để xác định nội dung có thuộc thẩm quyền quyết định của Chủ tịch UBND xã hay không; đối chiếu phân cấp, phân quyền hiện hành.
+- Làm gì: Đọc `loai_quyet_dinh`, `noi_dung_quyet_dinh` để xác định nội dung có thuộc thẩm quyền quyết định của người đứng đầu cơ quan hay không; đối chiếu phân cấp, phân quyền hiện hành.
 - Dùng input: `loai_quyet_dinh`, `noi_dung_quyet_dinh`.
 - Vai trò: Lãnh đạo đơn vị soạn thảo xác định; AI hỗ trợ đối chiếu thẩm quyền (ví dụ: khen thưởng cấp xã theo NĐ 152/2025/NĐ-CP; xử phạt VPHC theo thẩm quyền Chủ tịch UBND cấp xã quy định tại pháp luật về xử lý vi phạm hành chính) ⏱ ~10 phút (ước tính).
 - Lưu ý nghiệp vụ: Tuyệt đối không soạn quyết định vượt thẩm quyền. Quyết định xử phạt VPHC phải bảo đảm đúng trình tự, thủ tục, thời hiệu theo quy định pháp luật; sai thẩm quyền dẫn đến quyết định bị hủy.
-- → Kết quả bước: Xác định được thẩm quyền ban hành là Chủ tịch UBND xã; loại quyết định phù hợp.
+- → Kết quả bước: Xác định được thẩm quyền ban hành là người đứng đầu cơ quan; loại quyết định phù hợp.
 
 **Bước 2. Thu thập căn cứ pháp lý và hồ sơ liên quan**
 
@@ -125,7 +124,7 @@ Khung cố định của một quyết định cá biệt, các phần bắt bu�
 ## 6. Checklist nghiệm thu
 
 1. Có đủ 8 thành phần thể thức theo đúng thứ tự mục 5.
-2. Nội dung thuộc thẩm quyền quyết định của Chủ tịch UBND xã — không vượt thẩm quyền.
+2. Nội dung thuộc thẩm quyền quyết định của người đứng đầu cơ quan — không vượt thẩm quyền.
 3. Số, ký hiệu đúng định dạng ".../QĐ-UBND"; tên cơ quan, quốc hiệu–tiêu ngữ, địa danh ghi đúng quy ước.
 4. Phần "Căn cứ" chỉ viện dẫn văn bản còn hiệu lực, có số hiệu xác thực, liên quan trực tiếp.
 5. Có dòng "Theo đề nghị của ..." ghi đúng đơn vị/cá nhân đề nghị, phù hợp loại quyết định.
@@ -133,7 +132,7 @@ Khung cố định của một quyết định cá biệt, các phần bắt bu�
 7. Quyết định xử phạt VPHC: ghi đúng hành vi vi phạm, điều khoản áp dụng, mức phạt trong khung quy định, biện pháp khắc phục hậu quả (nếu có), quyền khiếu nại/khởi kiện của đối tượng.
 8. Quyết định khen thưởng: có hồ sơ đề nghị của Hội đồng Thi đua – Khen thưởng kèm theo; mức khen thưởng đúng quy định.
 9. Nơi nhận bao gồm đối tượng của quyết định; có "Lưu: VT, ..." cuối danh sách.
-10. Không bịa số liệu, căn cứ pháp lý; đã qua human gate: thẩm định nội bộ (công chức tư pháp đối với xử phạt VPHC), Chánh Văn phòng kiểm tra thể thức, Chủ tịch UBND xã ký ban hành.
+10. Không bịa số liệu, căn cứ pháp lý; đã qua human gate: thẩm định nội bộ (công chức tư pháp đối với xử phạt VPHC), Chánh Văn phòng kiểm tra thể thức, người đứng đầu cơ quan ký ban hành.
 
 ## 7. Ví dụ mô phỏng
 
@@ -198,13 +197,13 @@ Nguyễn Văn A
 
 - **Công chức phòng chuyên môn** → soạn dự thảo, chịu trách nhiệm về nội dung, căn cứ pháp lý.
 - **Trưởng phòng chuyên môn** → kiểm tra tính đúng đắn nghiệp vụ của dự thảo.
-- **Công chức tư pháp (Văn phòng HĐND&UBND)** → thẩm định tính hợp pháp đối với quyết định xử phạt VPHC và các quyết định có nguy cơ khiếu nại cao.
-- **Chánh Văn phòng HĐND&UBND** → kiểm tra thể thức.
-- **Chủ tịch UBND xã** → quyết định, ký ban hành. Quyết định chỉ có hiệu lực sau khi Chủ tịch ký.
+- **Công chức tư pháp (Văn phòng)** → thẩm định tính hợp pháp đối với quyết định xử phạt VPHC và các quyết định có nguy cơ khiếu nại cao.
+- **Chánh Văn phòng** → kiểm tra thể thức.
+- **người đứng đầu cơ quan** → quyết định, ký ban hành. Quyết định chỉ có hiệu lực sau khi người đứng đầu cơ quan ký.
 
 ## 9. Giới hạn
 
-- AI KHÔNG ra quyết định hành chính thay người có thẩm quyền; quyết định do Chủ tịch UBND xã ký mới có hiệu lực.
+- AI KHÔNG ra quyết định hành chính thay người có thẩm quyền; quyết định do người đứng đầu cơ quan ký mới có hiệu lực.
 - AI KHÔNG tự ký, tự đóng dấu, tự ban hành quyết định dưới bất kỳ hình thức nào.
 - AI KHÔNG bịa số liệu, căn cứ pháp lý; không viện dẫn văn bản hết hiệu lực.
 - AI KHÔNG soạn quyết định xử phạt VPHC khi hồ sơ chưa đủ (thiếu biên bản vi phạm, hết thời hiệu, sai thẩm quyền) — phải cảnh báo và yêu cầu bổ sung.

@@ -1,23 +1,22 @@
 ---
-name: bao-cao-ktxh-tinh
-description: "Tổng hợp báo cáo tình hình kinh tế – xã hội định kỳ của tỉnh trình UBND tỉnh, HĐND tỉnh và báo cáo cấp trên."
+name: bao-cao-ktxh-dinh-ky
+description: "Tổng hợp báo cáo tình hình kinh tế – xã hội (KT-XH) định kỳ trình UBND cùng cấp, HĐND cùng cấp và báo cáo cấp trên."
 ---
 
-# Skill: Báo cáo KT-XH tỉnh định kỳ
+# Skill: Báo cáo KT-XH định kỳ
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
 
 ## 2. Khi nào dùng
-- Tổng hợp báo cáo KT-XH tháng, quý, 6 tháng, năm của tỉnh trình UBND tỉnh, HĐND tỉnh.
-- Chuẩn bị báo cáo phục vụ kỳ họp HĐND tỉnh, hội nghị của Tỉnh ủy.
-- Báo cáo đột xuất về tình hình KT-XH theo yêu cầu của Chính phủ, bộ ngành.
+- Tổng hợp báo cáo KT-XH tháng, quý, 6 tháng, năm trình UBND cùng cấp, HĐND cùng cấp.
+- Chuẩn bị báo cáo phục vụ kỳ họp HĐND, hội nghị cấp ủy cùng cấp.
+- Báo cáo đột xuất về tình hình KT-XH theo yêu cầu của cấp trên.
 
 ## 3. Đầu vào (Input)
 | Trường | Mô tả | Bắt buộc |
 |--------|-------|----------|
 | `ky_bao_cao` | Kỳ báo cáo (tháng/quý/6 tháng/năm + mốc thời gian) | Có |
 | `de_cuong` | Đề cương báo cáo (đơn vị chủ trì xây dựng tại Bước 1; trường hợp cấp trên đã ban hành thì dùng đề cương có sẵn) | Có |
-| `so_lieu_cac_so` | Số liệu báo cáo của các sở, ngành theo đề cương | Có |
+| `so_lieu_cac_so` | Số liệu báo cáo của các cơ quan, đơn vị theo đề cương | Có |
 | `so_lieu_thong_ke` | Số liệu của cơ quan thống kê | Có |
 | `nhiem_vu_trong_tam_ky_truoc` | Nhiệm vụ, chỉ tiêu kỳ trước để đối chiếu | Không |
 | `thoi_han_nop` | Thời hạn hoàn thành báo cáo | Có |
@@ -25,14 +24,14 @@ description: "Tổng hợp báo cáo tình hình kinh tế – xã hội định
 ## 4. Quy trình
 
 **Bước 1. Ban hành đề cương, đôn đốc số liệu**
-- Làm gì: Xây dựng đề cương báo cáo; gửi văn bản đề nghị các sở, ngành báo cáo số liệu theo đề cương, đúng thời hạn.
+- Làm gì: Xây dựng đề cương báo cáo; gửi văn bản đề nghị các cơ quan, đơn vị báo cáo số liệu theo đề cương, đúng thời hạn.
 - Dùng input: `ky_bao_cao`, `thoi_han_nop` (đề cương được xây dựng tại bước này; nếu cấp trên đã ban hành đề cương thì dùng trực tiếp).
-- Vai trò: Chuyên viên Phòng Tổng hợp (Sở Tài chính tỉnh A hoặc Văn phòng UBND tỉnh A) soạn; AI hỗ trợ soạn đề cương, công văn đôn đốc ⏱ 1 ngày (ước tính) làm việc
+- Vai trò: Chuyên viên phòng/ban tổng hợp (cơ quan tài chính hoặc văn phòng UBND cùng cấp) soạn; AI hỗ trợ soạn đề cương, công văn đôn đốc ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Đề cương phải bao quát các ngành, lĩnh vực; thời hạn gửi số liệu phải trừ hao thời gian tổng hợp.
-- → Kết quả bước: Đề cương + công văn đề nghị báo cáo đã gửi các sở, ngành.
+- → Kết quả bước: Đề cương + công văn đề nghị báo cáo đã gửi các cơ quan, đơn vị.
 
 **Bước 2. Thu thập, kiểm tra số liệu ngành**
-- Làm gì: Thu thập báo cáo của các sở, ngành; kiểm tra tính đầy đủ, logic, nhất quán của số liệu; yêu cầu giải trình, bổ sung khi số liệu bất thường.
+- Làm gì: Thu thập báo cáo của các cơ quan, đơn vị; kiểm tra tính đầy đủ, logic, nhất quán của số liệu; yêu cầu giải trình, bổ sung khi số liệu bất thường.
 - Dùng input: `de_cuong` (đề cương từ Bước 1), `so_lieu_cac_so`, `so_lieu_thong_ke`.
 - Vai trò: Chuyên viên tổng hợp; AI hỗ trợ đối chiếu chéo số liệu giữa các nguồn, phát hiện số liệu bất thường ⏱ 3 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Không tự ý điều chỉnh số liệu ngành; số liệu vênh nhau phải yêu cầu đơn vị báo cáo giải trình bằng văn bản.
@@ -48,14 +47,14 @@ description: "Tổng hợp báo cáo tình hình kinh tế – xã hội định
 **Bước 4. Dự báo và đề xuất nhiệm vụ kỳ tới**
 - Làm gì: Dự báo xu hướng kỳ tới; đề xuất nhiệm vụ, giải pháp trọng tâm; tổng hợp kiến nghị của các sở, ngành.
 - Dùng input: Bản phân tích Bước 3.
-- Vai trò: Lãnh đạo Sở Tài chính / Văn phòng UBND tỉnh cho ý kiến định hướng; AI hỗ trợ soạn phần nhiệm vụ, giải pháp ⏱ 1 ngày (ước tính) làm việc
-- Lưu ý nghiệp vụ: Nhiệm vụ phải cụ thể, có chỉ tiêu, có đầu mối; kiến nghị với Trung ương phải đúng thẩm quyền.
+- Vai trò: Lãnh đạo cơ quan chủ trì cho ý kiến định hướng; AI hỗ trợ soạn phần nhiệm vụ, giải pháp ⏱ 1 ngày (ước tính) làm việc
+- Lưu ý nghiệp vụ: Nhiệm vụ phải cụ thể, có chỉ tiêu, có đầu mối; kiến nghị với cấp trên phải đúng thẩm quyền.
 - → Kết quả bước: Phần dự báo, nhiệm vụ, kiến nghị.
 
 **Bước 5. Hoàn thiện, trình và phát hành báo cáo**
-- Làm gì: Tổng hợp thành báo cáo hoàn chỉnh; trình lãnh đạo ký; gửi HĐND tỉnh, các cơ quan theo quy định.
+- Làm gì: Tổng hợp thành báo cáo hoàn chỉnh; trình lãnh đạo ký; gửi HĐND cùng cấp, các cơ quan theo quy định.
 - Dùng input: Toàn bộ kết quả các bước.
-- Vai trò: Giám đốc Sở / Chánh Văn phòng UBND tỉnh kiểm tra; Chủ tịch UBND tỉnh ký (báo cáo quan trọng); AI hỗ trợ rà soát thể thức, số liệu lần cuối ⏱ 1 ngày (ước tính) làm việc
+- Vai trò: Người đứng đầu cơ quan chủ trì kiểm tra; người đứng đầu UBND cùng cấp ký (báo cáo quan trọng); AI hỗ trợ rà soát thể thức, số liệu lần cuối ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Số liệu trong báo cáo phải khớp với số liệu ngành đã kiểm tra; đúng thời hạn gửi.
 - → Kết quả bước: Báo cáo KT-XH kỳ đã ký, đã gửi.
 
@@ -63,7 +62,7 @@ description: "Tổng hợp báo cáo tình hình kinh tế – xã hội định
 
 ```mermaid
 flowchart TD
-    IN[/"bao-cao-ktxh-tinh"/]
+    IN[/"bao-cao-ktxh-dinh-ky"/]
     IN --> B1["Bước 1: Ban hành đề cương, đôn đốc số liệu"]
     B1 --> B2["Bước 2: Thu thập, kiểm tra số liệu ngành"]
     B2 --> B3["Bước 3: Phân tích, đánh giá tình hình"]
@@ -77,16 +76,16 @@ flowchart TD
 - Bảng theo dõi chỉ tiêu kế hoạch năm.
 
 ### Cấu trúc output chuẩn
-Khung báo cáo KT-XH tỉnh, đúng thể thức NĐ 30/2020/NĐ-CP:
+Khung báo cáo KT-XH, đúng thể thức NĐ 30/2020/NĐ-CP:
 1. Quốc hiệu "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM" – Tiêu ngữ "Độc lập – Tự do – Hạnh phúc"; số, ký hiệu; địa danh, ngày tháng năm.
 2. Tên: "BÁO CÁO tình hình kinh tế – xã hội ...".
 3. Phần I: Kết quả thực hiện (theo từng lĩnh vực: công nghiệp, nông nghiệp, thương mại – dịch vụ, tài chính – ngân sách, đầu tư, văn hóa – xã hội...).
 4. Phần II: Đánh giá chung (kết quả nổi bật, tồn tại, nguyên nhân).
 5. Phần III: Nhiệm vụ, giải pháp kỳ tới.
-6. Phần IV: Kiến nghị (với HĐND tỉnh, Chính phủ, bộ ngành — nếu có).
+6. Phần IV: Kiến nghị (với HĐND cùng cấp, cấp trên — nếu có).
 7. Phụ lục số liệu.
 8. Chữ ký người có thẩm quyền.
-9. Nơi nhận: Thường trực HĐND tỉnh; các Ban HĐND tỉnh; UBND tỉnh; các sở, ban, ngành; UBND cấp xã (theo danh sách gửi); Lưu: VT, đơn vị soạn thảo.
+9. Nơi nhận: Thường trực HĐND cùng cấp; các Ban HĐND; UBND cùng cấp; các cơ quan, đơn vị trực thuộc; cấp dưới trực tiếp (theo danh sách gửi); Lưu: VT, đơn vị soạn thảo.
 
 > **Checklist thể thức văn bản theo NĐ 30/2020/NĐ-CP** — đối chiếu trước khi trình ký:
 > 1. Quốc hiệu và Tiêu ngữ.
@@ -106,7 +105,7 @@ Khung báo cáo KT-XH tỉnh, đúng thể thức NĐ 30/2020/NĐ-CP:
 - [ ] Nhiệm vụ kỳ tới cụ thể, có chỉ tiêu, có đầu mối.
 - [ ] Số liệu trong báo cáo khớp với số liệu ngành.
 - [ ] Đúng thể thức văn bản theo NĐ 30/2020/NĐ-CP.
-- [ ] Đã qua kiểm tra của lãnh đạo Sở/Văn phòng UBND tỉnh và ký duyệt.
+- [ ] Đã qua kiểm tra của lãnh đạo cơ quan chủ trì và ký duyệt.
 - [ ] Gửi đúng thời hạn, đúng nơi nhận.
 
 ## 7. Ví dụ mô phỏng
@@ -131,17 +130,17 @@ Khung báo cáo KT-XH tỉnh, đúng thể thức NĐ 30/2020/NĐ-CP:
 > IV. Kiến nghị: ...
 
 ## 8. Human gate
-- Trưởng phòng Tổng hợp (Sở Tài chính / Văn phòng UBND tỉnh): kiểm tra số liệu và phân tích (Bước 2–3).
-- Giám đốc Sở / Chánh Văn phòng UBND tỉnh: kiểm tra toàn văn (Bước 5).
-- Chủ tịch UBND tỉnh: ký báo cáo quan trọng (báo cáo năm, báo cáo trình HĐND).
+- Trưởng phòng/ban tổng hợp (cơ quan chủ trì): kiểm tra số liệu và phân tích (Bước 2–3).
+- Người đứng đầu cơ quan chủ trì: kiểm tra toàn văn (Bước 5).
+- Người đứng đầu UBND cùng cấp: ký báo cáo quan trọng (báo cáo năm, báo cáo trình HĐND).
 
 ## 9. Giới hạn
-- AI không tự ý điều chỉnh số liệu do sở, ngành báo cáo.
+- AI không tự ý điều chỉnh số liệu do các cơ quan, đơn vị báo cáo.
 - Không bịa số liệu tăng trưởng, thu ngân sách; mọi con số phải có nguồn.
-- Không đưa nhận định chính trị, không kiến nghị vượt thẩm quyền của tỉnh.
+- Không đưa nhận định chính trị, không kiến nghị vượt thẩm quyền.
 - Không dùng số liệu kỳ trước thay số liệu kỳ báo cáo.
 
 ## 10. Căn cứ & lưu ý
-- TT 57/2025/TT-BTC (Sở Tài chính: kế hoạch, thống kê, tổng hợp).
-- NĐ 150/2025/NĐ-CP (chức năng tham mưu, tổng hợp của sở).
+- TT 57/2025/TT-BTC (chức năng kế hoạch, thống kê, tổng hợp của cơ quan tài chính).
+- NĐ 150/2025/NĐ-CP (chức năng tham mưu, tổng hợp).
 - NĐ 30/2020/NĐ-CP về công tác văn thư (thể thức).

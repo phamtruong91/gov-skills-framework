@@ -5,12 +5,11 @@ description: "Soạn thông báo kết luận cuộc họp, lịch tiếp công 
 
 # Skill: Soạn thông báo
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
 
 ## Khi nào dùng
 
-- Soạn thông báo kết luận của Chủ tịch UBND xã tại cuộc họp giao ban, họp chuyên đề.
-- Soạn thông báo lịch tiếp công dân định kỳ của lãnh đạo UBND xã.
+- Soạn thông báo kết luận của người đứng đầu cơ quan tại cuộc họp giao ban, họp chuyên đề.
+- Soạn thông báo lịch tiếp công dân định kỳ của lãnh đạo cơ quan.
 - Soạn thông báo kết quả giải quyết công việc, kiến nghị của người dân, doanh nghiệp.
 - Soạn thông báo về thời gian, địa điểm tổ chức hội nghị, sự kiện của xã.
 - Soạn thông báo phân công nhiệm vụ, lịch trực của cơ quan trong dịp lễ, Tết.
@@ -38,7 +37,7 @@ description: "Soạn thông báo kết luận cuộc họp, lịch tiếp công 
 
 - Làm gì: Đọc `loai_thong_bao`, `noi_dung_chinh` để xác định loại thông báo; đề xuất người ký phù hợp với tính chất nội dung (kết luận cuộc họp do người chủ trì ký; thông báo hành chính thông thường do Chánh Văn phòng ký "TL. Chủ tịch").
 - Dùng input: `loai_thong_bao`, `noi_dung_chinh`, `nguoi_ky_du_kien`.
-- Vai trò: Công chức Văn phòng HĐND&UBND thực hiện; AI hỗ trợ: đề xuất loại thông báo và người ký phù hợp ⏱ ~5–10 phút (ước tính).
+- Vai trò: Công chức Văn phòng thực hiện; AI hỗ trợ: đề xuất loại thông báo và người ký phù hợp ⏱ ~5–10 phút (ước tính).
 - Lưu ý nghiệp vụ: Thông báo kết luận cuộc họp phải do người chủ trì cuộc họp ký (hoặc ủy quyền). Thông báo không được đặt ra quy định mới có tính bắt buộc chung — nếu cần quy định thì phải dùng hình thức văn bản phù hợp.
 - → Kết quả bước: Xác định loại thông báo + dự kiến người ký.
 
@@ -70,7 +69,7 @@ description: "Soạn thông báo kết luận cuộc họp, lịch tiếp công 
 
 - Làm gì: Trình Chánh Văn phòng kiểm tra thể thức, trình người có thẩm quyền duyệt và ký; văn thư đánh số, đóng dấu; phát hành theo `kenh_phat_hanh` (gửi văn bản, niêm yết trụ sở, loa truyền thanh, cổng thông tin); lưu hồ sơ.
 - Dùng input: `nguoi_ky_du_kien`, `kenh_phat_hanh`, `noi_nhan`, `doi_tuong_nhan`.
-- Vai trò: Chánh Văn phòng HĐND&UBND kiểm tra thể thức (⏱ 5 phút); Chủ tịch/Phó Chủ tịch hoặc Chánh Văn phòng (theo phân cấp ký) duyệt và ký (⏱ 10 phút); văn thư + công chức phụ trách truyền thanh/cổng thông tin phát hành; AI hỗ trợ: kiểm tra thể thức lần cuối, tổng hợp danh sách phát hành — tổng ước tính 20 phút (chưa tính thời gian chờ).
+- Vai trò: Chánh Văn phòng kiểm tra thể thức (⏱ 5 phút); người đứng đầu cơ quan/cấp phó hoặc Chánh Văn phòng (theo phân cấp ký) duyệt và ký (⏱ 10 phút); văn thư + công chức phụ trách truyền thanh/cổng thông tin phát hành; AI hỗ trợ: kiểm tra thể thức lần cuối, tổng hợp danh sách phát hành — tổng ước tính 20 phút (chưa tính thời gian chờ).
 - Lưu ý nghiệp vụ: Thông báo niêm yết công khai (kết quả xét duyệt chính sách...) phải niêm yết đủ thời gian theo quy định và lập biên bản niêm yết. Thông báo lịch tiếp công dân, lịch sự kiện phải phát hành trước đủ thời gian để đối tượng chuẩn bị.
 - → Kết quả bước: Thông báo đã ký, phát hành đúng kênh, đúng đối tượng; hồ sơ lưu đầy đủ (kèm biên bản niêm yết nếu có).
 
@@ -171,8 +170,8 @@ Phạm Văn C
 ## 8. Human gate
 
 - **Công chức soạn thảo** → soạn dự thảo, chịu trách nhiệm về tính chính xác của nội dung (thời gian, địa điểm, kết luận).
-- **Chánh Văn phòng HĐND&UBND** → kiểm tra thể thức, câu chữ; ký ban hành đối với thông báo hành chính thông thường (ký "TL. Chủ tịch").
-- **Chủ tịch / Phó Chủ tịch UBND xã** → duyệt và ký đối với thông báo kết luận cuộc họp (người chủ trì ký) và các thông báo quan trọng.
+- **Chánh Văn phòng** → kiểm tra thể thức, câu chữ; ký ban hành đối với thông báo hành chính thông thường (ký "TL. Chủ tịch").
+- **người đứng đầu cơ quan / cấp phó** → duyệt và ký đối với thông báo kết luận cuộc họp (người chủ trì ký) và các thông báo quan trọng.
 - Không phát hành thông báo khi chưa có chữ ký của người có thẩm quyền.
 
 ## 9. Giới hạn

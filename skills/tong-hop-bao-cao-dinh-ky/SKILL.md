@@ -5,15 +5,13 @@ description: "Tổng hợp báo cáo tháng, quý, 6 tháng, năm từ các đơ
 
 # Skill: Tổng hợp báo cáo định kỳ
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
-
 ## Khi nào dùng
 
-- Lập báo cáo tháng, quý, 6 tháng, năm của UBND xã gửi UBND tỉnh và các sở, ngành.
-- Gộp báo cáo thành phần của Văn phòng HĐND&UBND, Phòng Kinh tế, Phòng Văn hóa – Xã hội, Trung tâm PVHCC theo đúng đề cương mẫu của cấp trên.
+- Lập báo cáo tháng, quý, 6 tháng, năm trình cơ quan cấp trên theo quy định.
+- Gộp báo cáo thành phần của Văn phòng, các phòng chuyên môn và bộ phận một cửa theo đúng đề cương mẫu của cấp trên.
 - Đối chiếu, kiểm tra tính thống nhất của số liệu giữa các đơn vị và với kỳ báo cáo trước.
 - Lập danh mục số liệu thiếu, chưa thống nhất (gap log) và đôn đốc đơn vị bổ sung trước hạn nộp.
-- Rà soát lần cuối báo cáo tổng hợp trước khi trình Chủ tịch UBND xã ký ban hành.
+- Rà soát lần cuối báo cáo tổng hợp trước khi trình người đứng đầu cơ quan ký ban hành.
 
 ## Đầu vào (Input)
 
@@ -22,18 +20,18 @@ description: "Tổng hợp báo cáo tháng, quý, 6 tháng, năm từ các đơ
 | `ten_bao_cao` | Tên đầy đủ của báo cáo (VD: Báo cáo tình hình kinh tế – xã hội tháng 10 năm 2026) | Có |
 | `ky_bao_cao` | Tháng / Quý / 6 tháng / Năm và thời gian cụ thể | Có |
 | `de_cuong_mau` | Đề cương, yêu cầu nội dung của cấp trên (các mục bắt buộc) | Có |
-| `bao_cao_thanh_phan` | Báo cáo của từng phòng/ban/Trung tâm PVHCC | Có |
+| `bao_cao_thanh_phan` | Báo cáo của từng phòng/ban/bộ phận một cửa | Có |
 | `han_nop` | Thời hạn gửi báo cáo cho cấp trên | Có |
 | `so_lieu_ky_truoc` | Số liệu kỳ báo cáo liền trước để đối chiếu, phát hiện biến động | Không |
-| `don_vi_dau_moi` | Đơn vị chủ trì tổng hợp (mặc định: Văn phòng HĐND&UBND) | Không |
+| `don_vi_dau_moi` | Đơn vị chủ trì tổng hợp (mặc định: Văn phòng) | Không |
 
 ## Quy trình
 
 **Bước 1. Thu thập và kiểm tra đủ báo cáo thành phần**
 
-- Làm gì: Gửi đề cương và hạn nộp nội bộ cho các phòng, ban, Trung tâm PVHCC; thu thập báo cáo thành phần; lập bảng theo dõi đơn vị nào đã nộp, chưa nộp.
+- Làm gì: Gửi đề cương và hạn nộp nội bộ cho các phòng, ban, bộ phận một cửa; thu thập báo cáo thành phần; lập bảng theo dõi đơn vị nào đã nộp, chưa nộp.
 - Dùng input: `de_cuong_mau`, `bao_cao_thanh_phan`, `han_nop`.
-- Vai trò: Công chức Văn phòng HĐND&UBND làm đầu mối (AI hỗ trợ soạn thông báo gửi đề cương, lập bảng theo dõi tiến độ nộp, gửi nhắc tự động). ⏱ ~trước hạn nộp nội bộ 3–5 ngày (ước tính).
+- Vai trò: Công chức Văn phòng làm đầu mối (AI hỗ trợ soạn thông báo gửi đề cương, lập bảng theo dõi tiến độ nộp, gửi nhắc tự động). ⏱ ~trước hạn nộp nội bộ 3–5 ngày (ước tính).
 - Lưu ý nghiệp vụ: Quy định hạn nộp nội bộ sớm hơn hạn nộp của cấp trên để còn thời gian tổng hợp, đối chiếu và đôn đốc bổ sung.
 - → Kết quả bước: Bảng theo dõi thu thập báo cáo thành phần (đã nộp/chưa nộp từng đơn vị).
 
@@ -50,7 +48,7 @@ description: "Tổng hợp báo cáo tháng, quý, 6 tháng, năm từ các đơ
 - Làm gì: Lập danh mục các số liệu thiếu, chưa thống nhất (gap log): chỉ tiêu nào thiếu, đơn vị nào phải bổ sung, hạn bổ sung; gửi phiếu đôn đốc và theo dõi đến khi đủ số liệu.
 - Dùng input: Bảng đối chiếu số liệu (bước 2), bảng theo dõi thu thập (bước 1).
 - Vai trò: Công chức Văn phòng lập gap log (AI hỗ trợ tổng hợp gap log tự động từ bảng đối chiếu, soạn phiếu đôn đốc gửi từng đơn vị); Chánh Văn phòng ký đôn đốc. ⏱ 1 ngày (ước tính) làm việc.
-- Lưu ý nghiệp vụ: Gap log phải cụ thể đến từng chỉ tiêu, từng đơn vị, không ghi chung chung "đề nghị bổ sung số liệu"; đơn vị quá hạn bổ sung thì báo cáo Chủ tịch UBND xã.
+- Lưu ý nghiệp vụ: Gap log phải cụ thể đến từng chỉ tiêu, từng đơn vị, không ghi chung chung "đề nghị bổ sung số liệu"; đơn vị quá hạn bổ sung thì báo cáo người đứng đầu cơ quan.
 - → Kết quả bước: Gap log số liệu thiếu/chưa thống nhất + phiếu đôn đốc đã gửi các đơn vị.
 
 **Bước 4. Tổng hợp báo cáo theo đề cương**
@@ -63,10 +61,10 @@ description: "Tổng hợp báo cáo tháng, quý, 6 tháng, năm từ các đơ
 
 **Bước 5. Rà soát và trình ký**
 
-- Làm gì: Chánh Văn phòng rà soát toàn văn: đủ các mục của đề cương, số liệu thống nhất giữa các phần, đúng thể thức văn bản; trình Chủ tịch UBND xã xem xét, ký duyệt.
+- Làm gì: Chánh Văn phòng rà soát toàn văn: đủ các mục của đề cương, số liệu thống nhất giữa các phần, đúng thể thức văn bản; trình người đứng đầu cơ quan xem xét, ký duyệt.
 - Dùng input: Dự thảo báo cáo (bước 4).
-- Vai trò: Chánh Văn phòng HĐND&UBND rà soát (AI hỗ trợ kiểm tra thể thức theo NĐ 30/2020/NĐ-CP, đối chiếu lần cuối số liệu tổng với số liệu thành phần); Chủ tịch UBND xã ký duyệt. ⏱ 1 ngày (ước tính) làm việc.
-- Lưu ý nghiệp vụ: Báo cáo gửi cấp trên phải do Chủ tịch UBND xã ký; kiểm tra kỹ số liệu tổng hợp khớp với số liệu thành phần trước khi trình ký.
+- Vai trò: Chánh Văn phòng rà soát (AI hỗ trợ kiểm tra thể thức theo NĐ 30/2020/NĐ-CP, đối chiếu lần cuối số liệu tổng với số liệu thành phần); người đứng đầu cơ quan ký duyệt. ⏱ 1 ngày (ước tính) làm việc.
+- Lưu ý nghiệp vụ: Báo cáo gửi cấp trên phải do người đứng đầu cơ quan ký; kiểm tra kỹ số liệu tổng hợp khớp với số liệu thành phần trước khi trình ký.
 - → Kết quả bước: Báo cáo tổng hợp đã được ký duyệt.
 
 **Bước 6. Gửi báo cáo và lưu hồ sơ**
@@ -133,7 +131,7 @@ flowchart TD
 5. Không có số liệu bịa đặt: mục chưa có số liệu được ghi rõ "đang cập nhật" hoặc chú thích.
 6. Số liệu tổng trong báo cáo khớp với số liệu báo cáo thành phần.
 7. Phần đánh giá, tồn tại, nhiệm vụ kỳ tới bám sát số liệu, không chung chung.
-8. Báo cáo do Chủ tịch UBND xã ký; thể thức đúng NĐ 30/2020/NĐ-CP.
+8. Báo cáo do người đứng đầu cơ quan ký; thể thức đúng NĐ 30/2020/NĐ-CP.
 9. Báo cáo gửi đúng hạn, đúng địa chỉ; hồ sơ kỳ báo cáo lưu đầy đủ.
 
 ## 7. Ví dụ mô phỏng
@@ -186,7 +184,7 @@ CHỦ TỊCH
 
 ## 8. Human gate
 
-- Công chức Văn phòng HĐND&UBND tổng hợp dự thảo → Chánh Văn phòng rà soát (đủ mục đề cương, số liệu thống nhất, đúng thể thức) → Chủ tịch UBND xã ký duyệt trước khi gửi cấp trên.
+- Công chức Văn phòng tổng hợp dự thảo → Chánh Văn phòng rà soát (đủ mục đề cương, số liệu thống nhất, đúng thể thức) → người đứng đầu cơ quan ký duyệt trước khi gửi cấp trên.
 - Gap log và phiếu đôn đốc do Chánh Văn phòng ký ban hành.
 
 ## 9. Giới hạn

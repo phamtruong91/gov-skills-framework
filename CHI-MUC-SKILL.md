@@ -37,7 +37,7 @@
 | [danh-gia-tac-dong-cs](danh-gia-tac-dong-cs/SKILL.md) ★ | Đánh giá tác động chính sách |
 | [soan-de-an-chinh-sach](soan-de-an-chinh-sach/SKILL.md) ★ | Soạn đề án chính sách |
 | [thanh-tra-chuyen-nganh](thanh-tra-chuyen-nganh/SKILL.md) ★ | Thanh tra chuyên ngành (mẫu chung) |
-| [bao-cao-ktxh-tinh](bao-cao-ktxh-tinh/SKILL.md) ★ | Báo cáo KT-XH tỉnh định kỳ |
+| [bao-cao-ktxh-dinh-ky](bao-cao-ktxh-dinh-ky/SKILL.md) ★ | Báo cáo KT-XH định kỳ |
 | [tw-xay-dung-luat](tw-xay-dung-luat/SKILL.md) ☆ | Xây dựng luật, pháp lệnh, nghị quyết |
 | [tw-xay-dung-nghi-dinh](tw-xay-dung-nghi-dinh/SKILL.md) ☆ | Xây dựng nghị định của Chính phủ |
 | [tw-xay-dung-thong-tu](tw-xay-dung-thong-tu/SKILL.md) ☆ | Xây dựng thông tư của Bộ trưởng |

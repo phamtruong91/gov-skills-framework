@@ -5,11 +5,9 @@ description: "Tiếp nhận hồ sơ thủ tục hành chính tại bộ phận 
 
 # Skill: Tiếp nhận hồ sơ một cửa
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
-
 ## Khi nào dùng
 
-- Công dân, tổ chức đến nộp hồ sơ thủ tục hành chính tại bộ phận một cửa của xã (trực tiếp hoặc trực tuyến).
+- Công dân, tổ chức đến nộp hồ sơ thủ tục hành chính tại bộ phận một cửa của cơ quan (trực tiếp hoặc trực tuyến).
 - Kiểm tra tính đầy đủ, hợp lệ của thành phần hồ sơ trước khi tiếp nhận vào hệ thống.
 - Lập phiếu tiếp nhận hồ sơ và giấy hẹn trả kết quả giao cho người nộp.
 - Hướng dẫn người nộp bổ sung, hoàn thiện hồ sơ chưa đầy đủ — thực hiện một lần, đầy đủ.
@@ -57,7 +55,7 @@ description: "Tiếp nhận hồ sơ thủ tục hành chính tại bộ phận 
 
 - Làm gì: Cấp mã số hồ sơ; lập phiếu tiếp nhận ghi rõ thành phần hồ sơ đã nhận; lập giấy hẹn trả kết quả ghi ngày hẹn theo thời gian giải quyết đã công khai; thu lệ phí (nếu có) và cấp biên lai.
 - Dùng input: `ten_tthc`, `nguoi_nop_ho_so`, `ngay_hen_tra`, `le_phi_phi`.
-- Vai trò: Công chức một cửa lập phiếu và giấy hẹn (AI hỗ trợ sinh mã số hồ sơ, tính ngày hẹn tự động loại trừ ngày nghỉ, điền các trường của phiếu); phụ trách Trung tâm PVHCC kiểm tra, xác nhận. ⏱ 15 phút (ước tính)/hồ sơ.
+- Vai trò: Công chức một cửa lập phiếu và giấy hẹn (AI hỗ trợ sinh mã số hồ sơ, tính ngày hẹn tự động loại trừ ngày nghỉ, điền các trường của phiếu); phụ trách bộ phận một cửa kiểm tra, xác nhận. ⏱ 15 phút (ước tính)/hồ sơ.
 - Lưu ý nghiệp vụ: Ngày hẹn phải đúng thời gian giải quyết đã công khai của thủ tục; ghi rõ cách thức nhận kết quả (trực tiếp, bưu điện, trực tuyến).
 - → Kết quả bước: Phiếu tiếp nhận hồ sơ + Giấy hẹn trả kết quả đã giao cho người nộp.
 
@@ -74,7 +72,7 @@ description: "Tiếp nhận hồ sơ thủ tục hành chính tại bộ phận 
 - Làm gì: Nhận kết quả từ đơn vị thụ lý, kiểm tra trước khi trả; trả kết quả đúng ngày hẹn; thu thập đánh giá mức độ hài lòng của người nộp; ghi nhận hồ sơ trễ hạn (nếu có) để báo cáo.
 - Dùng input: Mã số hồ sơ, `ngay_hen_tra`.
 - Vai trò: Công chức một cửa trả kết quả (AI hỗ trợ nhắc các hồ sơ sắp đến hạn và hồ sơ trễ hạn, tổng hợp tỷ lệ giải quyết đúng hạn). ⏱ ~theo ngày hẹn của từng hồ sơ (ước tính).
-- Lưu ý nghiệp vụ: Trả kết quả đúng hẹn là yêu cầu bắt buộc; hồ sơ trễ hạn phải ghi rõ lý do, có lời xin lỗi người nộp theo quy định và báo cáo phụ trách Trung tâm.
+- Lưu ý nghiệp vụ: Trả kết quả đúng hẹn là yêu cầu bắt buộc; hồ sơ trễ hạn phải ghi rõ lý do, có lời xin lỗi người nộp theo quy định và báo cáo phụ trách bộ phận một cửa.
 - → Kết quả bước: Kết quả TTHC đã trả cho người nộp; số liệu hồ sơ đúng hạn/trễ hạn.
 
 ## Luồng quy trình (Workflow)
@@ -164,7 +162,7 @@ NGƯỜI TIẾP NHẬN HỒ SƠ
 
 ## 8. Human gate
 
-- Công chức một cửa kiểm tra hồ sơ, lập phiếu tiếp nhận và giấy hẹn → Phụ trách Trung tâm Phục vụ hành chính công (hoặc Chánh Văn phòng HĐND&UBND) kiểm tra, xác nhận.
+- Công chức một cửa kiểm tra hồ sơ, lập phiếu tiếp nhận và giấy hẹn → Phụ trách bộ phận một cửa (hoặc Chánh Văn phòng) kiểm tra, xác nhận.
 - Kết quả giải quyết TTHC do người có thẩm quyền ký duyệt trước khi trả cho công dân; công chức một cửa không tự ký kết quả thay.
 
 ## 9. Giới hạn

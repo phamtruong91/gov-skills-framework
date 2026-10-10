@@ -5,15 +5,14 @@ description: "Ghi biên bản họp giao ban, họp chuyên đề, hội nghị 
 
 # Skill: Soạn biên bản họp
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
 
 ## Khi nào dùng
 
-- Ghi biên bản họp giao ban UBND xã hằng tuần/tháng (Chủ tịch chủ trì).
+- Ghi biên bản họp giao ban cơ quan hằng tuần/tháng (người đứng đầu cơ quan chủ trì).
 - Ghi biên bản họp chuyên đề (giải phóng mặt bằng, phòng chống thiên tai, thu ngân sách...).
-- Ghi biên bản hội nghị sơ kết, tổng kết, triển khai nhiệm vụ của UBND xã.
+- Ghi biên bản hội nghị sơ kết, tổng kết, triển khai nhiệm vụ của cơ quan.
 - Ghi biên bản họp giải quyết đơn thư, vụ việc phức tạp có nhiều thành phần tham dự.
-- Ghi biên bản họp liên tịch giữa UBND xã với các đoàn thể, thôn/tổ dân phố.
+- Ghi biên bản họp liên tịch giữa cơ quan với các đoàn thể, thôn/tổ dân phố.
 
 ## Đầu vào (Input)
 
@@ -35,7 +34,7 @@ description: "Ghi biên bản họp giao ban, họp chuyên đề, hội nghị 
 
 - Làm gì: Lập mẫu biên bản với đầy đủ các mục cố định (tên cuộc họp, thời gian, địa điểm, chủ trì, thư ký, thành phần dự kiến) để chỉ việc ghi diễn biến trong lúc họp.
 - Dùng input: `ten_cuoc_hop`, `thoi_gian`, `dia_diem`, `chu_tri`, `thu_ky`, `thanh_phan`.
-- Vai trò: Công chức Văn phòng HĐND&UBND chuẩn bị mẫu, AI hỗ trợ tạo mẫu biên bản đúng thể thức, điền sẵn thông tin cố định (⏱ 10 phút).
+- Vai trò: Công chức Văn phòng chuẩn bị mẫu, AI hỗ trợ tạo mẫu biên bản đúng thể thức, điền sẵn thông tin cố định (⏱ 10 phút).
 - Lưu ý nghiệp vụ: Ghi đúng chức danh người chủ trì và thư ký; thành phần tham dự ghi đầy đủ họ tên, chức vụ — đây là căn cứ xác định tính hợp lệ của cuộc họp.
 - → Kết quả bước: Mẫu biên bản đã điền sẵn thông tin cố định, sẵn sàng ghi chép.
 
@@ -43,7 +42,7 @@ description: "Ghi biên bản họp giao ban, họp chuyên đề, hội nghị 
 
 - Làm gì: Ghi lại trung thực, đầy đủ diễn biến: nội dung báo cáo, ý kiến phát biểu của từng thành phần (ghi rõ ai nói, ý chính), các vấn đề còn ý kiến khác nhau.
 - Dùng input: `noi_dung_thao_luan`.
-- Vai trò: Thư ký cuộc họp (công chức Văn phòng HĐND&UBND) ghi chép trực tiếp; AI hỗ trợ sắp xếp lại ghi chép thô thành các ý rõ ràng, gắn đúng người phát biểu (⏱ 15 phút sau họp).
+- Vai trò: Thư ký cuộc họp (công chức Văn phòng) ghi chép trực tiếp; AI hỗ trợ sắp xếp lại ghi chép thô thành các ý rõ ràng, gắn đúng người phát biểu (⏱ 15 phút sau họp).
 - Lưu ý nghiệp vụ: Ghi đúng ý người phát biểu, không thêm bớt, không suy diễn; các ý kiến khác nhau phải được ghi đầy đủ, không lược bỏ ý kiến thiểu số.
 - → Kết quả bước: Bản ghi diễn biến đầy đủ, trung thực, có gắn tên người phát biểu.
 
@@ -51,7 +50,7 @@ description: "Ghi biên bản họp giao ban, họp chuyên đề, hội nghị 
 
 - Làm gì: Trích kết luận, chỉ đạo của người chủ trì; lập bảng phân công: nội dung việc – đơn vị/cá nhân đầu mối – đơn vị phối hợp – thời hạn hoàn thành.
 - Dùng input: `ket_luan`.
-- Vai trò: Công chức Văn phòng HĐND&UBND tổng hợp, AI hỗ trợ trích kết luận thành bảng phân công rõ đầu mối và thời hạn, kiểm tra không sót việc đã được kết luận (⏱ 15 phút).
+- Vai trò: Công chức Văn phòng tổng hợp, AI hỗ trợ trích kết luận thành bảng phân công rõ đầu mối và thời hạn, kiểm tra không sót việc đã được kết luận (⏱ 15 phút).
 - Lưu ý nghiệp vụ: Mỗi kết luận phải có đầu mối chịu trách nhiệm và thời hạn cụ thể; không ghi kết luận chung chung không kiểm tra được.
 - → Kết quả bước: Phần kết luận biên bản + bảng phân công nhiệm vụ rõ đầu mối, thời hạn.
 
@@ -59,7 +58,7 @@ description: "Ghi biên bản họp giao ban, họp chuyên đề, hội nghị 
 
 - Làm gì: Đọc lại dự thảo biên bản ngay tại cuộc họp để các thành phần thống nhất nội dung (đặc biệt phần kết luận); ghép các phần thành biên bản hoàn chỉnh đúng thể thức; in trình thư ký ký, người chủ trì ký duyệt; phát hành đến các thành phần liên quan, lưu hồ sơ.
 - Dùng input: `thu_ky`, `chu_tri`, `tai_lieu_kem_theo`.
-- Vai trò: Công chức Văn phòng HĐND&UBND hoàn thiện, AI hỗ trợ rà soát thể thức và tính đầy đủ các phần bắt buộc (⏱ 10 phút); thư ký và chủ trì ký tay (hoặc ký số).
+- Vai trò: Công chức Văn phòng hoàn thiện, AI hỗ trợ rà soát thể thức và tính đầy đủ các phần bắt buộc (⏱ 10 phút); thư ký và chủ trì ký tay (hoặc ký số).
 - Lưu ý nghiệp vụ: Biên bản phải có chữ ký của thư ký và người chủ trì mới có giá trị; phát hành chậm nhất 02 ngày làm việc sau cuộc họp (trừ trường hợp đặc biệt).
 - → Kết quả bước: Biên bản họp đã ký, đã phát hành, lưu hồ sơ đầy đủ.
 
@@ -184,7 +183,7 @@ Thứ tự các phần bắt buộc của biên bản họp, đúng thể thức
 
 ## 8. Human gate
 
-- Thư ký cuộc họp (công chức Văn phòng HĐND&UBND) ghi và ký xác nhận nội dung diễn biến → người chủ trì cuộc họp đọc lại, ký duyệt biên bản → phát hành.
+- Thư ký cuộc họp (công chức Văn phòng) ghi và ký xác nhận nội dung diễn biến → người chủ trì cuộc họp đọc lại, ký duyệt biên bản → phát hành.
 - Trường hợp biên bản ghi kết luận chỉ đạo quan trọng (phân công nhiệm vụ lớn, liên quan nhiều đơn vị): Chánh Văn phòng kiểm tra lại trước khi chủ trì ký.
 
 ## 9. Giới hạn

@@ -5,12 +5,10 @@ description: "Đánh giá tác động của chính sách (kinh tế, xã hội,
 
 # Skill: Đánh giá tác động chính sách
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
-
 ## 2. Khi nào dùng
-- Chuẩn bị hồ sơ đề nghị xây dựng nghị quyết của HĐND tỉnh, quyết định của UBND tỉnh có chứa chính sách mới.
+- Chuẩn bị hồ sơ đề nghị xây dựng nghị quyết của HĐND cùng cấp, quyết định của UBND cùng cấp có chứa chính sách mới.
 - Cơ quan chủ trì cần so sánh các phương án chính sách để kiến nghị phương án tối ưu.
-- Sở Tư pháp yêu cầu bổ sung báo cáo đánh giá tác động trong quá trình thẩm định.
+- Cơ quan tư pháp yêu cầu bổ sung báo cáo đánh giá tác động trong quá trình thẩm định.
 
 ## 3. Đầu vào (Input)
 | Trường | Mô tả | Bắt buộc |
@@ -49,14 +47,14 @@ description: "Đánh giá tác động của chính sách (kinh tế, xã hội,
 **Bước 4. So sánh và kiến nghị phương án**
 - Làm gì: So sánh các phương án theo tiêu chí mục tiêu, chi phí – lợi ích, tính khả thi; kiến nghị phương án lựa chọn kèm lý do.
 - Dùng input: Ma trận đánh giá tác động Bước 3.
-- Vai trò: Trưởng phòng chuyên môn thuộc Sở rà soát; AI hỗ trợ lập bảng so sánh tổng hợp ⏱ 1 ngày (ước tính) làm việc
+- Vai trò: Trưởng phòng chuyên môn thuộc cơ quan chuyên môn rà soát; AI hỗ trợ lập bảng so sánh tổng hợp ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Kiến nghị phải dựa trên bằng chứng đánh giá, không theo ý chí chủ quan.
 - → Kết quả bước: Bảng so sánh và kiến nghị phương án chính sách.
 
 **Bước 5. Lập báo cáo đánh giá tác động**
 - Làm gì: Soạn báo cáo đánh giá tác động (RIA) đưa vào hồ sơ đề nghị xây dựng VBQPPL.
 - Dùng input: Kết quả các bước 1–4.
-- Vai trò: Chuyên viên soạn; Trưởng phòng kiểm tra; Giám đốc Sở ký duyệt; AI hỗ trợ soạn thảo theo khung chuẩn ⏱ 1 ngày (ước tính) làm việc
+- Vai trò: Chuyên viên soạn; Trưởng phòng kiểm tra; người đứng đầu cơ quan chuyên môn ký duyệt; AI hỗ trợ soạn thảo theo khung chuẩn ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Báo cáo là thành phần bắt buộc của hồ sơ; phải trung thực về hạn chế của đánh giá.
 - → Kết quả bước: Báo cáo đánh giá tác động chính sách.
 
@@ -107,7 +105,7 @@ Khung báo cáo đánh giá tác động chính sách, đúng thể thức NĐ 3
 - [ ] Nêu rõ giả định khi ước tính định lượng.
 - [ ] Bảng so sánh có tiêu chí rõ ràng, kiến nghị có cơ sở.
 - [ ] Báo cáo đúng khung cấu trúc chuẩn.
-- [ ] Đã qua kiểm tra của Trưởng phòng và ký duyệt của Giám đốc Sở.
+- [ ] Đã qua kiểm tra của Trưởng phòng và ký duyệt của người đứng đầu cơ quan chuyên môn.
 
 ## 7. Ví dụ mô phỏng
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
@@ -130,9 +128,9 @@ Khung báo cáo đánh giá tác động chính sách, đúng thể thức NĐ 3
 > IV. Kiến nghị: lựa chọn Phương án 1 vì ...
 
 ## 8. Human gate
-- Trưởng phòng chuyên môn thuộc Sở: kiểm tra ma trận đánh giá và kiến nghị phương án (Bước 4).
-- Giám đốc Sở: ký duyệt báo cáo đánh giá tác động (Bước 5).
-- Sở Tư pháp: xem xét báo cáo trong quá trình thẩm định hồ sơ đề nghị xây dựng VBQPPL.
+- Trưởng phòng chuyên môn: kiểm tra ma trận đánh giá và kiến nghị phương án (Bước 4).
+- Người đứng đầu cơ quan chuyên môn: ký duyệt báo cáo đánh giá tác động (Bước 5).
+- Cơ quan tư pháp: xem xét báo cáo trong quá trình thẩm định hồ sơ đề nghị xây dựng VBQPPL.
 
 ## 9. Giới hạn
 - AI không thay con người quyết định lựa chọn phương án chính sách.

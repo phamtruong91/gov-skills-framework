@@ -5,11 +5,9 @@ description: "Tổ chức tiếp công dân định kỳ và đột xuất; lậ
 
 # Skill: Tổ chức tiếp công dân
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
-
 ## Khi nào dùng
 
-- Chuẩn bị lịch tiếp công dân định kỳ hằng tuần/tháng của Chủ tịch UBND xã và công khai tại trụ sở.
+- Chuẩn bị lịch tiếp công dân định kỳ hằng tuần/tháng của người đứng đầu cơ quan và công khai tại trụ sở.
 - Tổ chức tiếp công dân đột xuất khi phát sinh vụ việc phức tạp, đông người hoặc vượt cấp.
 - Lập biên bản buổi tiếp công dân làm căn cứ theo dõi, xử lý và trả lời công dân.
 - Cập nhật sổ theo dõi tiếp công dân; rà soát vụ việc đã tiếp nhưng chưa được giải quyết dứt điểm.
@@ -22,7 +20,7 @@ description: "Tổ chức tiếp công dân định kỳ và đột xuất; lậ
 | `hinh_thuc_tiep` | Định kỳ / Đột xuất | Có |
 | `ngay_gio_tiep` | Ngày, giờ, buổi tiếp dự kiến | Có |
 | `dia_diem` | Phòng tiếp công dân hoặc địa điểm khác | Có |
-| `nguoi_chu_tri` | Chủ tịch / Phó Chủ tịch UBND xã | Có |
+| `nguoi_chu_tri` | Người đứng đầu / cấp phó của người đứng đầu cơ quan | Có |
 | `thanh_phan_tham_du` | Cán bộ, công chức, đại diện đơn vị liên quan | Có |
 | `nguoi_duoc_tiep` | Họ tên, địa chỉ, giấy tờ tùy thân của công dân | Có |
 | `noi_dung_vu_viec` | Tóm tắt nội dung công dân trình bày hoặc dự kiến trình bày | Có |
@@ -33,9 +31,9 @@ description: "Tổ chức tiếp công dân định kỳ và đột xuất; lậ
 
 **Bước 1. Lập và công khai lịch tiếp định kỳ**
 
-- Làm gì: Dự thảo lịch tiếp công dân định kỳ của Chủ tịch UBND xã (ngày cố định trong tuần hoặc tháng), trình ký ban hành, niêm yết tại trụ sở UBND xã và thông báo trên hệ thống thông tin cơ sở.
+- Làm gì: Dự thảo lịch tiếp công dân định kỳ của người đứng đầu cơ quan (ngày cố định trong tuần hoặc tháng), trình ký ban hành, niêm yết tại trụ sở cơ quan và thông báo trên hệ thống thông tin cơ sở.
 - Dùng input: `hinh_thuc_tiep`, `ngay_gio_tiep`, `dia_diem`, `nguoi_chu_tri`.
-- Vai trò: Công chức Văn phòng HĐND&UBND soạn lịch (AI hỗ trợ soạn thảo thông báo lịch, kiểm tra trùng với lịch họp, lịch công tác của lãnh đạo); Chánh Văn phòng kiểm tra; Chủ tịch UBND xã duyệt. ⏱ 0,5 ngày (ước tính) làm việc.
+- Vai trò: Công chức Văn phòng soạn lịch (AI hỗ trợ soạn thảo thông báo lịch, kiểm tra trùng với lịch họp, lịch công tác của lãnh đạo); Chánh Văn phòng kiểm tra; người đứng đầu cơ quan duyệt. ⏱ 0,5 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Lịch tiếp phải cố định, công khai để người dân biết; bố trí khung giờ hợp lý, tránh trùng lịch công tác của người chủ trì. Trường hợp tiếp đột xuất (`hinh_thuc_tiep` = đột xuất): bỏ qua bước lập lịch, vào thẳng Bước 2.
 - → Kết quả bước: Thông báo lịch tiếp công dân định kỳ đã ký duyệt và đã niêm yết.
 
@@ -43,7 +41,7 @@ description: "Tổ chức tiếp công dân định kỳ và đột xuất; lậ
 
 - Làm gì: Ghi nhận đăng ký tiếp (trực tiếp, điện thoại); tổng hợp danh sách người đăng ký; thu thập trước nội dung vụ việc và hồ sơ liên quan; chuẩn bị phòng tiếp, sổ ghi chép, biên bản mẫu.
 - Dùng input: `nguoi_duoc_tiep`, `noi_dung_vu_viec`, `ho_so_kem_theo`, `lich_su_tiep_truoc`.
-- Vai trò: Công chức Văn phòng HĐND&UBND tiếp nhận và chuẩn bị (AI hỗ trợ tổng hợp danh sách đăng ký, tóm tắt nội dung vụ việc từ đơn thư kèm theo, tra cứu lịch sử tiếp trước của cùng vụ việc). ⏱ 0,5–1 ngày (ước tính) trước buổi tiếp.
+- Vai trò: Công chức Văn phòng tiếp nhận và chuẩn bị (AI hỗ trợ tổng hợp danh sách đăng ký, tóm tắt nội dung vụ việc từ đơn thư kèm theo, tra cứu lịch sử tiếp trước của cùng vụ việc). ⏱ 0,5–1 ngày (ước tính) trước buổi tiếp.
 - Lưu ý nghiệp vụ: Ưu tiên người cao tuổi, người khuyết tật; trường hợp đông người cùng vụ việc thì hướng dẫn cử đại diện; vụ việc đã có kết quả giải quyết cuối cùng thì giải thích, không tiếp lại cùng nội dung.
 - → Kết quả bước: Danh sách người đăng ký tiếp kèm tóm tắt nội dung từng vụ việc.
 
@@ -51,7 +49,7 @@ description: "Tổ chức tiếp công dân định kỳ và đột xuất; lậ
 
 - Làm gì: Đón tiếp, kiểm tra giấy tờ tùy thân của công dân; điều hành buổi tiếp theo trình tự; ghi chép đầy đủ diễn biến: nội dung công dân trình bày, ý kiến của người chủ trì và các thành phần tham dự.
 - Dùng input: `nguoi_duoc_tiep`, `noi_dung_vu_viec`, `thanh_phan_tham_du`.
-- Vai trò: `nguoi_chu_tri` (Chủ tịch/Phó Chủ tịch UBND xã) điều hành buổi tiếp; công chức Văn phòng ghi chép trực tiếp (AI hỗ trợ chuyển ghi âm thành văn bản nháp để đối chiếu — nội dung chính thức vẫn do công chức xác nhận). ⏱ ~theo thời lượng buổi tiếp thực tế (ước tính).
+- Vai trò: `nguoi_chu_tri` (người đứng đầu/cấp phó của người đứng đầu cơ quan) điều hành buổi tiếp; công chức Văn phòng ghi chép trực tiếp (AI hỗ trợ chuyển ghi âm thành văn bản nháp để đối chiếu — nội dung chính thức vẫn do công chức xác nhận). ⏱ ~theo thời lượng buổi tiếp thực tế (ước tính).
 - Lưu ý nghiệp vụ: Giữ thái độ đúng mực, lắng nghe đầy đủ; không hứa hẹn, cam kết vượt thẩm quyền; ghi chép trung thực, khách quan, không thêm bớt ý của công dân.
 - → Kết quả bước: Bản ghi chép nháp diễn biến buổi tiếp.
 
@@ -67,7 +65,7 @@ description: "Tổ chức tiếp công dân định kỳ và đột xuất; lậ
 
 - Làm gì: Chuyển nội dung kết luận cho phòng/ban/công chức liên quan xử lý; ghi vào sổ theo dõi tiếp công dân (mã số vụ việc, nội dung, đơn vị xử lý, thời hạn); đặt lịch kiểm tra tiến độ.
 - Dùng input: `noi_dung_vu_viec`, kết luận buổi tiếp (từ biên bản).
-- Vai trò: Chánh Văn phòng đề xuất phân công (AI hỗ trợ gợi ý đầu mối xử lý theo lĩnh vực, lập phiếu theo dõi có thời hạn); Chủ tịch UBND xã phê duyệt phân công. ⏱ 0,5 ngày (ước tính) làm việc.
+- Vai trò: Chánh Văn phòng đề xuất phân công (AI hỗ trợ gợi ý đầu mối xử lý theo lĩnh vực, lập phiếu theo dõi có thời hạn); người đứng đầu cơ quan phê duyệt phân công. ⏱ 0,5 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Vụ việc thuộc thẩm quyền cấp trên thì chuyển theo quy định và thông báo cho công dân biết nơi chuyển; không để vụ việc "treo" không có đầu mối xử lý.
 - → Kết quả bước: Phiếu phân công xử lý + dòng ghi trong sổ theo dõi tiếp công dân.
 
@@ -75,7 +73,7 @@ description: "Tổ chức tiếp công dân định kỳ và đột xuất; lậ
 
 - Làm gì: Soạn thông báo kết luận buổi tiếp gửi công dân và đơn vị liên quan; khi có kết quả xử lý, thông báo cho công dân; lưu toàn bộ hồ sơ buổi tiếp theo quy định lưu trữ.
 - Dùng input: Kết luận buổi tiếp, `nguoi_duoc_tiep`.
-- Vai trò: Công chức Văn phòng soạn thông báo (AI hỗ trợ soạn thảo); Chánh Văn phòng kiểm tra; Chủ tịch UBND xã ký. ⏱ 1 ngày (ước tính) làm việc.
+- Vai trò: Công chức Văn phòng soạn thông báo (AI hỗ trợ soạn thảo); Chánh Văn phòng kiểm tra; người đứng đầu cơ quan ký. ⏱ 1 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Thông báo phải nêu rõ nội dung kết luận, đơn vị xử lý, thời hạn trả lời; hồ sơ lưu đầy đủ để tra cứu khi công dân đến tiếp lại cùng vụ việc.
 - → Kết quả bước: Thông báo kết luận buổi tiếp đã phát hành; hồ sơ buổi tiếp được lưu trữ hoàn chỉnh.
 
@@ -180,8 +178,8 @@ NGƯỜI CHỦ TRÌ · NGƯỜI GHI BIÊN BẢN · NGƯỜI ĐƯỢC TIẾP
 
 ## 8. Human gate
 
-- Công chức Văn phòng HĐND&UBND soạn thảo (lịch tiếp, biên bản, thông báo) → Chánh Văn phòng kiểm tra nội dung và thể thức → Chủ tịch UBND xã ký duyệt trước khi ban hành.
-- Sổ theo dõi tiếp công dân do Chánh Văn phòng xác nhận định kỳ hằng tháng; Chủ tịch UBND xã kiểm tra đột xuất khi cần.
+- Công chức Văn phòng soạn thảo (lịch tiếp, biên bản, thông báo) → Chánh Văn phòng kiểm tra nội dung và thể thức → người đứng đầu cơ quan ký duyệt trước khi ban hành.
+- Sổ theo dõi tiếp công dân do Chánh Văn phòng xác nhận định kỳ hằng tháng; người đứng đầu cơ quan kiểm tra đột xuất khi cần.
 
 ## 9. Giới hạn
 

@@ -5,15 +5,14 @@ description: "Soạn báo cáo định kỳ (tháng, quý, năm), báo cáo đ�
 
 # Skill: Soạn báo cáo
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
 
 ## Khi nào dùng
 
-- Lập báo cáo tình hình kinh tế – xã hội tháng, quý, 6 tháng, năm của UBND xã A gửi cấp trên.
-- Soạn báo cáo đột xuất khi có yêu cầu của UBND tỉnh, sở, ngành (thiên tai, dịch bệnh, vụ việc phát sinh).
+- Lập báo cáo tình hình kinh tế – xã hội tháng, quý, 6 tháng, năm của cơ quan A gửi cấp trên.
+- Soạn báo cáo đột xuất khi có yêu cầu của cấp trên, cơ quan chuyên môn (thiên tai, dịch bệnh, vụ việc phát sinh).
 - Soạn báo cáo chuyên đề theo lĩnh vực (nông nghiệp, xây dựng, an sinh xã hội, cải cách hành chính...).
 - Tổng hợp báo cáo gửi Đảng ủy xã phục vụ họp Ban Thường vụ, hội nghị sơ kết, tổng kết.
-- Soạn báo cáo kết quả thực hiện nghị quyết, kết luận của HĐND xã, của cấp trên.
+- Soạn báo cáo kết quả thực hiện nghị quyết, kết luận của HĐND cùng cấp, của cấp trên.
 
 ## Đầu vào (Input)
 
@@ -35,7 +34,7 @@ description: "Soạn báo cáo định kỳ (tháng, quý, năm), báo cáo đ�
 
 - Làm gì: Xác định loại báo cáo, kỳ báo cáo, đơn vị nhận và yêu cầu cụ thể của văn bản chỉ đạo (nếu báo cáo đột xuất/chuyên đề thì ghi rõ nội dung được yêu cầu).
 - Dùng input: `loai_bao_cao`, `ky_bao_cao`, `noi_nhan`.
-- Vai trò: Công chức Văn phòng HĐND&UBND tiếp nhận yêu cầu, AI hỗ trợ tóm tắt yêu cầu thành 3–5 gạch đầu dòng cần trả lời (⏱ 5 phút).
+- Vai trò: Công chức Văn phòng tiếp nhận yêu cầu, AI hỗ trợ tóm tắt yêu cầu thành 3–5 gạch đầu dòng cần trả lời (⏱ 5 phút).
 - Lưu ý nghiệp vụ: Báo cáo gửi cấp trên phải bám đúng đề cương/yêu cầu của văn bản chỉ đạo; không tự ý bỏ mục được yêu cầu.
 - → Kết quả bước: Phiếu yêu cầu báo cáo ghi rõ loại, kỳ, nơi nhận, các nội dung bắt buộc phải có.
 
@@ -43,7 +42,7 @@ description: "Soạn báo cáo định kỳ (tháng, quý, năm), báo cáo đ�
 
 - Làm gì: Gửi đề nghị cung cấp số liệu đến Phòng Kinh tế, Phòng Văn hóa – Xã hội, Trung tâm PVHCC theo lĩnh vực; đối chiếu số liệu kỳ này với kỳ trước để phát hiện số liệu bất thường.
 - Dùng input: `so_lieu_linh_vuc`, `so_lieu_ky_truoc`.
-- Vai trò: Công chức Văn phòng HĐND&UBND làm đầu mối thu thập, AI hỗ trợ lập bảng tổng hợp số liệu và đánh dấu các số liệu chênh lệch bất thường cần xác minh lại (⏱ 20 phút).
+- Vai trò: Công chức Văn phòng làm đầu mối thu thập, AI hỗ trợ lập bảng tổng hợp số liệu và đánh dấu các số liệu chênh lệch bất thường cần xác minh lại (⏱ 20 phút).
 - Lưu ý nghiệp vụ: Số liệu phải có nguồn gốc rõ ràng (đơn vị cung cấp, thời điểm chốt số liệu); số liệu chênh lệch quá lớn so với kỳ trước phải yêu cầu đơn vị giải trình trước khi đưa vào báo cáo.
 - → Kết quả bước: Bảng tổng hợp số liệu các lĩnh vực đã được xác minh, có cột so sánh kỳ trước.
 
@@ -51,7 +50,7 @@ description: "Soạn báo cáo định kỳ (tháng, quý, năm), báo cáo đ�
 
 - Làm gì: Dựng đề cương theo cấu trúc chuẩn (kết quả – đánh giá – phương hướng – kiến nghị), sau đó viết dự thảo đầy đủ, đưa số liệu vào đúng mục, diễn đạt trang trọng, khách quan.
 - Dùng input: `loai_bao_cao`, `ky_bao_cao`, `so_lieu_linh_vuc`, `ton_tai_han_che`, `nhiem_vu_tiep_theo`, `kien_nghi`.
-- Vai trò: Công chức Văn phòng HĐND&UBND soạn thảo, AI hỗ trợ viết dự thảo hoàn chỉnh từ đề cương và số liệu, kiểm tra tính nhất quán giữa số liệu trong văn bản và bảng tổng hợp (⏱ 40 phút).
+- Vai trò: Công chức Văn phòng soạn thảo, AI hỗ trợ viết dự thảo hoàn chỉnh từ đề cương và số liệu, kiểm tra tính nhất quán giữa số liệu trong văn bản và bảng tổng hợp (⏱ 40 phút).
 - Lưu ý nghiệp vụ: Không bịa số liệu; phần đánh giá phải phản ánh đúng tồn tại, không tô hồng; kiến nghị phải cụ thể, có địa chỉ (kiến nghị ai, việc gì).
 - → Kết quả bước: Dự thảo báo cáo đầy đủ nội dung, số liệu khớp với bảng tổng hợp.
 
@@ -59,15 +58,15 @@ description: "Soạn báo cáo định kỳ (tháng, quý, năm), báo cáo đ�
 
 - Làm gì: Kiểm tra thể thức dự thảo theo 9 yếu tố của NĐ 30/2020/NĐ-CP (quốc hiệu – tiêu ngữ; tên cơ quan; số, ký hiệu; địa danh và thời gian; tên loại và trích yếu; nội dung; chức vụ, họ tên, chữ ký; dấu; nơi nhận).
 - Dùng input: Dự thảo báo cáo từ Bước 3.
-- Vai trò: Công chức Văn phòng HĐND&UBND rà soát, AI hỗ trợ chạy checklist thể thức và liệt kê lỗi cần sửa (⏱ 10 phút).
-- Lưu ý nghiệp vụ: Số văn bản lấy theo sổ đăng ký văn bản đi của Văn phòng; ký hiệu loại văn bản "BC-UBND"; người ký là Chủ tịch UBND xã (hoặc Phó Chủ tịch được ủy quyền).
+- Vai trò: Công chức Văn phòng rà soát, AI hỗ trợ chạy checklist thể thức và liệt kê lỗi cần sửa (⏱ 10 phút).
+- Lưu ý nghiệp vụ: Số văn bản lấy theo sổ đăng ký văn bản đi của Văn phòng; ký hiệu loại văn bản "BC-UBND"; người ký là người đứng đầu cơ quan (hoặc cấp phó được ủy quyền).
 - → Kết quả bước: Dự thảo báo cáo đã sửa sạch lỗi thể thức.
 
 **Bước 5. Trình duyệt và phát hành**
 
-- Làm gì: Lập phiếu trình ký kèm dự thảo báo cáo; trình Chánh Văn phòng kiểm tra, sau đó trình Chủ tịch UBND xã ký duyệt; phát hành văn bản đến nơi nhận, lưu hồ sơ.
+- Làm gì: Lập phiếu trình ký kèm dự thảo báo cáo; trình Chánh Văn phòng kiểm tra, sau đó trình người đứng đầu cơ quan ký duyệt; phát hành văn bản đến nơi nhận, lưu hồ sơ.
 - Dùng input: `nguoi_ky`, `noi_nhan`.
-- Vai trò: Chánh Văn phòng HĐND&UBND kiểm tra nội dung và thể thức lần cuối (⏱ 15 phút); Chủ tịch UBND xã ký duyệt; công chức văn thư phát hành và lưu hồ sơ; AI hỗ trợ: kiểm tra thể thức lần cuối, đối chiếu nơi nhận đầy đủ.
+- Vai trò: Chánh Văn phòng kiểm tra nội dung và thể thức lần cuối (⏱ 15 phút); người đứng đầu cơ quan ký duyệt; công chức văn thư phát hành và lưu hồ sơ; AI hỗ trợ: kiểm tra thể thức lần cuối, đối chiếu nơi nhận đầy đủ.
 - Lưu ý nghiệp vụ: Chỉ phát hành sau khi có chữ ký của người có thẩm quyền; nơi nhận phải bao gồm đầy đủ các đơn vị theo quy định và đơn vị được yêu cầu.
 - → Kết quả bước: Báo cáo chính thức đã ký, đã phát hành, hồ sơ lưu trữ đầy đủ.
 
@@ -92,7 +91,7 @@ flowchart TD
 
 ### Cấu trúc output chuẩn
 
-Thứ tự các phần bắt buộc của một báo cáo của UBND xã:
+Thứ tự các phần bắt buộc của một báo cáo:
 
 1. **Quốc hiệu – tiêu ngữ**: "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM" / "Độc lập – Tự do – Hạnh phúc" (căn giữa, chữ in hoa/in thường theo thể thức).
 2. **Tên cơ quan ban hành**: "ỦY BAN NHÂN DÂN / XÃ A" (bên trái).
@@ -117,7 +116,7 @@ Thứ tự các phần bắt buộc của một báo cáo của UBND xã:
 5. Phần đánh giá nêu được tồn tại, hạn chế và nguyên nhân, không tô hồng.
 6. Kiến nghị cụ thể, có địa chỉ (gửi ai, việc gì).
 7. Số, ký hiệu văn bản đúng sổ đăng ký văn bản đi; người ký đúng thẩm quyền.
-8. Đã qua đủ các nấc human gate (Chánh Văn phòng kiểm tra, Chủ tịch ký duyệt).
+8. Đã qua đủ các nấc human gate (Chánh Văn phòng kiểm tra, người đứng đầu cơ quan ký duyệt).
 9. Nơi nhận đầy đủ, đã phát hành và lưu hồ sơ đúng quy định.
 
 ## 7. Ví dụ mô phỏng
@@ -182,12 +181,12 @@ Thứ tự các phần bắt buộc của một báo cáo của UBND xã:
 
 ## 8. Human gate
 
-- Công chức Văn phòng HĐND&UBND soạn dự thảo → Chánh Văn phòng HĐND&UBND kiểm tra nội dung, số liệu, thể thức → Chủ tịch UBND xã ký duyệt → văn thư phát hành.
-- Báo cáo gửi cấp tỉnh: Chủ tịch UBND xã duyệt và ký; không ủy quyền ký báo cáo định kỳ quan trọng (báo cáo năm, báo cáo chuyên đề lớn).
+- Công chức Văn phòng soạn dự thảo → Chánh Văn phòng kiểm tra nội dung, số liệu, thể thức → người đứng đầu cơ quan ký duyệt → văn thư phát hành.
+- Báo cáo gửi cấp tỉnh: người đứng đầu cơ quan duyệt và ký; không ủy quyền ký báo cáo định kỳ quan trọng (báo cáo năm, báo cáo chuyên đề lớn).
 
 ## 9. Giới hạn
 
-- AI KHÔNG tự quyết định nội dung đánh giá, kiến nghị thay lãnh đạo UBND xã.
+- AI KHÔNG tự quyết định nội dung đánh giá, kiến nghị thay lãnh đạo cơ quan.
 - AI KHÔNG tự ký, tự phát hành báo cáo; chỉ chuẩn bị dự thảo.
 - AI KHÔNG bịa số liệu, không tự suy diễn số liệu khi input thiếu — phải yêu cầu bổ sung.
 - AI KHÔNG trích dẫn văn bản pháp lý không có trong input hoặc không được xác thực; không dùng văn bản đã hết hiệu lực (vd: NĐ 45/2025/NĐ-CP đã bị thay thế bởi NĐ 150/2025/NĐ-CP).
@@ -196,7 +195,7 @@ Thứ tự các phần bắt buộc của một báo cáo của UBND xã:
 ## 10. Căn cứ & lưu ý
 
 - NĐ 30/2020/NĐ-CP về công tác văn thư (thể thức văn bản hành chính: áp dụng cho toàn bộ cấu trúc báo cáo).
-- NĐ 150/2025/NĐ-CP (hiệu lực 16/6/2025): tổ chức cơ quan chuyên môn thuộc UBND cấp xã — Văn phòng HĐND và UBND, Phòng Kinh tế, Phòng Văn hóa – Xã hội, Trung tâm Phục vụ hành chính công; là đầu mối cung cấp số liệu báo cáo.
+- NĐ 150/2025/NĐ-CP (hiệu lực 16/6/2025): tổ chức cơ quan chuyên môn thuộc UBND cấp xã — Văn phòng HĐND và UBND, Phòng Kinh tế, Phòng Văn hóa – Xã hội, bộ phận một cửa; là đầu mối cung cấp số liệu báo cáo.
 - NĐ 370/2025/NĐ-CP (hiệu lực 01/01/2026): sửa đổi, bổ sung NĐ 150/2025/NĐ-CP — xã tự quyết định thành lập phòng chuyên môn; khi xã tổ chức khác khung chuẩn, tra bảng mapping lĩnh vực → đầu mối.
 - Các nghị định trong chuỗi 120–152/2025/NĐ-CP: phân định thẩm quyền, phân cấp, phân quyền giữa cấp tỉnh và cấp xã theo từng lĩnh vực — dùng làm căn cứ xác định nội dung báo cáo thuộc thẩm quyền cấp xã.
 - Chế độ báo cáo định kỳ của từng lĩnh vực: thực hiện theo quy định pháp luật về chế độ báo cáo của ngành, lĩnh vực đó và yêu cầu cụ thể của văn bản chỉ đạo (không tự gắn số hiệu văn bản khi chưa xác thực).

@@ -1,15 +1,13 @@
 ---
 name: tham-dinh-du-thao-qppl
-description: "Thẩm định dự thảo văn bản quy phạm pháp luật của HĐND, UBND cấp tỉnh trước khi trình ban hành."
+description: "Thẩm định dự thảo văn bản quy phạm pháp luật của HĐND, UBND các cấp trước khi trình ban hành."
 ---
 
 # Skill: Thẩm định dự thảo văn bản QPPL
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
-
 ## 2. Khi nào dùng
-- Sở, ban, ngành chủ trì soạn thảo nghị quyết của HĐND tỉnh hoặc quyết định của UBND tỉnh gửi hồ sơ đề nghị thẩm định.
-- UBND tỉnh giao Sở Tư pháp thẩm định dự thảo trước khi trình kỳ họp HĐND hoặc phiên họp UBND.
+- Cơ quan, đơn vị chủ trì soạn thảo nghị quyết của HĐND cùng cấp hoặc quyết định của UBND cùng cấp gửi hồ sơ đề nghị thẩm định.
+- UBND cùng cấp giao cơ quan tư pháp thẩm định dự thảo trước khi trình kỳ họp HĐND hoặc phiên họp UBND.
 - Rà soát lại dự thảo sau khi tiếp thu ý kiến góp ý, trước khi trình ký ban hành.
 
 ## 3. Đầu vào (Input)
@@ -29,12 +27,12 @@ description: "Thẩm định dự thảo văn bản quy phạm pháp luật củ
 **Bước 1. Kiểm tra hồ sơ đề nghị thẩm định**
 - Làm gì: Tiếp nhận hồ sơ; đối chiếu thành phần hồ sơ theo quy định (tờ trình, dự thảo, báo cáo đánh giá tác động, bảng tổng hợp góp ý); yêu cầu bổ sung nếu thiếu.
 - Dùng input: `to_trinh_du_thao`, `du_thao_van_ban`, `bang_tong_hop_gop_y`, `bao_cao_danh_gia_td`.
-- Vai trò: Chuyên viên Phòng Xây dựng và kiểm tra văn bản QPPL (Sở Tư pháp) kiểm tra; AI hỗ trợ lập checklist thành phần hồ sơ, đối chiếu nhanh ⏱ 0,5 ngày (ước tính) làm việc.
+- Vai trò: Chuyên viên phụ trách thẩm định văn bản QPPL (cơ quan tư pháp) kiểm tra; AI hỗ trợ lập checklist thành phần hồ sơ, đối chiếu nhanh ⏱ 0,5 ngày (ước tính) làm việc.
 - Lưu ý nghiệp vụ: Không thẩm định khi hồ sơ thiếu tờ trình hoặc dự thảo; thời hạn thẩm định tính từ ngày nhận đủ hồ sơ hợp lệ.
 - → Kết quả bước: Biên bản tiếp nhận / văn bản yêu cầu bổ sung hồ sơ.
 
 **Bước 2. Nghiên cứu tính hợp hiến, hợp pháp, thống nhất**
-- Làm gì: Đối chiếu từng điều khoản dự thảo với Hiến pháp, luật, nghị quyết của Quốc hội, văn bản của cơ quan nhà nước cấp trên; kiểm tra thẩm quyền ban hành của HĐND/UBND tỉnh và trình tự, thủ tục.
+- Làm gì: Đối chiếu từng điều khoản dự thảo với Hiến pháp, luật, nghị quyết của Quốc hội, văn bản của cơ quan nhà nước cấp trên; kiểm tra thẩm quyền ban hành của HĐND/UBND cùng cấp và trình tự, thủ tục.
 - Dùng input: `du_thao_van_ban`, `can_cu_phap_ly`.
 - Vai trò: Chuyên viên nghiên cứu; AI hỗ trợ tra cứu văn bản liên quan, lập bảng đối chiếu điều khoản ⏱ 3 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Phát hiện nội dung trái/vượt thẩm quyền, mâu thuẫn với văn bản cấp trên; ghi rõ căn cứ pháp lý của từng nhận xét; không thẩm định thay nội dung chính sách thuộc trách nhiệm cơ quan chủ trì.
@@ -50,14 +48,14 @@ description: "Thẩm định dự thảo văn bản quy phạm pháp luật củ
 **Bước 4. Lập báo cáo thẩm định**
 - Làm gì: Tổng hợp kết quả các bước thành báo cáo thẩm định: nhận xét chung, nhận xét cụ thể, kết luận (đủ điều kiện trình / cần chỉnh sửa, bổ sung / chưa đủ điều kiện).
 - Dùng input: Kết quả Bước 2, Bước 3, `ten_du_thao` (tên dự thảo ghi trên báo cáo thẩm định), `co_quan_chu_tri` (cơ quan nhận báo cáo thẩm định).
-- Vai trò: Trưởng phòng Xây dựng và kiểm tra văn bản QPPL kiểm tra; AI hỗ trợ soạn thảo báo cáo theo khung chuẩn ⏱ 1 ngày (ước tính) làm việc
+- Vai trò: Lãnh đạo đơn vị đầu mối thẩm định kiểm tra; AI hỗ trợ soạn thảo báo cáo theo khung chuẩn ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Kết luận thẩm định phải rõ ràng, có cơ sở; kiến nghị sửa đổi phải cụ thể đến từng điều, khoản, điểm.
 - → Kết quả bước: Dự thảo báo cáo thẩm định.
 
 **Bước 5. Ký ban hành và theo dõi tiếp thu**
-- Làm gì: Trình Giám đốc Sở Tư pháp ký báo cáo thẩm định; gửi cơ quan chủ trì và UBND tỉnh; theo dõi việc tiếp thu, giải trình.
+- Làm gì: Trình người đứng đầu cơ quan tư pháp ký báo cáo thẩm định; gửi cơ quan chủ trì và UBND cùng cấp; theo dõi việc tiếp thu, giải trình.
 - Dùng input: Dự thảo báo cáo thẩm định, `thoi_han_tham_dinh`.
-- Vai trò: Giám đốc Sở Tư pháp ký; chuyên viên theo dõi tiếp thu; AI hỗ trợ lập bảng theo dõi tiếp thu/ giải trình ⏱ 0,5 ngày (ước tính) làm việc
+- Vai trò: Người đứng đầu cơ quan tư pháp ký; chuyên viên theo dõi tiếp thu; AI hỗ trợ lập bảng theo dõi tiếp thu/ giải trình ⏱ 0,5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Báo cáo thẩm định là căn cứ bắt buộc trước khi trình ban hành; cơ quan chủ trì phải tiếp thu hoặc giải trình bằng văn bản các ý kiến thẩm định.
 - → Kết quả bước: Báo cáo thẩm định đã ký, đã gửi; bảng theo dõi tiếp thu.
 
@@ -80,7 +78,7 @@ flowchart TD
 - Bảng theo dõi tiếp thu, giải trình ý kiến thẩm định.
 
 ### Cấu trúc output chuẩn
-Khung báo cáo thẩm định (Sở Tư pháp), đúng thể thức NĐ 30/2020/NĐ-CP:
+Khung báo cáo thẩm định (cơ quan tư pháp), đúng thể thức NĐ 30/2020/NĐ-CP:
 1. Quốc hiệu "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM" – Tiêu ngữ "Độc lập – Tự do – Hạnh phúc".
 2. Số, ký hiệu văn bản; địa danh, ngày tháng năm; tên báo cáo: "BÁO CÁO thẩm định dự thảo ...".
 3. Cơ quan nhận báo cáo: UBND tỉnh A (cơ quan chủ trì soạn thảo...).
@@ -109,7 +107,7 @@ Khung báo cáo thẩm định (Sở Tư pháp), đúng thể thức NĐ 30/2020
 - [ ] Kiến nghị sửa đổi cụ thể đến từng điều, khoản, điểm.
 - [ ] Kết luận thẩm định rõ ràng, dứt khoát.
 - [ ] Đúng thể thức văn bản hành chính theo NĐ 30/2020/NĐ-CP.
-- [ ] Ban hành trong thời hạn; đã gửi cơ quan chủ trì và UBND tỉnh.
+- [ ] Ban hành trong thời hạn; đã gửi cơ quan chủ trì và UBND cùng cấp.
 - [ ] Có bảng theo dõi tiếp thu, giải trình.
 
 ## 7. Ví dụ mô phỏng
@@ -147,11 +145,11 @@ Khung báo cáo thẩm định (Sở Tư pháp), đúng thể thức NĐ 30/2020
 
 ## 8. Human gate
 - Trưởng phòng Xây dựng và kiểm tra văn bản QPPL: kiểm tra dự thảo báo cáo thẩm định (Bước 4).
-- Giám đốc Sở Tư pháp: ký ban hành báo cáo thẩm định (Bước 5).
-- UBND tỉnh: xem xét kết luận thẩm định trước khi quyết định trình ban hành.
+- Người đứng đầu cơ quan tư pháp: ký ban hành báo cáo thẩm định (Bước 5).
+- UBND cùng cấp: xem xét kết luận thẩm định trước khi quyết định trình ban hành.
 
 ## 9. Giới hạn
-- AI không thay Sở Tư pháp đưa ra kết luận thẩm định cuối cùng; không tự ban hành báo cáo thẩm định.
+- AI không thay cơ quan tư pháp đưa ra kết luận thẩm định cuối cùng; không tự ban hành báo cáo thẩm định.
 - AI không đánh giá tính đúng đắn của chủ trương chính sách thuộc thẩm quyền cơ quan chủ trì và cấp có thẩm quyền.
 - Không viện dẫn văn bản hết hiệu lực; không bịa căn cứ pháp lý.
 - Không bỏ qua bước kiểm tra hồ sơ để "thẩm định nhanh".

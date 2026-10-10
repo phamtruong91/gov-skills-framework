@@ -5,11 +5,9 @@ description: "Soạn đề án chính sách mới trình cấp có thẩm quyề
 
 # Skill: Soạn đề án chính sách
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
-
 ## 2. Khi nào dùng
-- UBND tỉnh giao sở, ngành xây dựng đề án chính sách mới (hỗ trợ doanh nghiệp, an sinh xã hội, phát triển ngành...).
-- Chuẩn bị hồ sơ trình HĐND tỉnh ban hành nghị quyết về chính sách.
+- UBND cùng cấp giao cơ quan, đơn vị xây dựng đề án chính sách mới (hỗ trợ doanh nghiệp, an sinh xã hội, phát triển ngành...).
+- Chuẩn bị hồ sơ trình HĐND cùng cấp ban hành nghị quyết về chính sách.
 - Sơ kết, tổng kết để đề xuất điều chỉnh, bổ sung chính sách hiện hành.
 
 ## 3. Đầu vào (Input)
@@ -30,7 +28,7 @@ description: "Soạn đề án chính sách mới trình cấp có thẩm quyề
 - Làm gì: Thu thập số liệu thực trạng, phân tích vấn đề cần giải quyết; xác định mục tiêu tổng quát và mục tiêu cụ thể, có chỉ tiêu đo được.
 - Dùng input: `su_can_thiet`, `muc_tieu`, `ten_de_an`, `co_quan_chu_tri`.
 - Vai trò: Chuyên viên nghiên cứu; AI hỗ trợ hệ thống hóa số liệu, gợi ý khung mục tiêu ⏱ 2 ngày (ước tính) làm việc.
-- Lưu ý nghiệp vụ: Sự cần thiết phải gắn với chủ trương của Đảng, quy hoạch, kế hoạch phát triển của tỉnh; mục tiêu phải đo được.
+- Lưu ý nghiệp vụ: Sự cần thiết phải gắn với chủ trương của Đảng, quy hoạch, kế hoạch phát triển của địa phương; mục tiêu phải đo được.
 - → Kết quả bước: Bản phân tích sự cần thiết và mục tiêu đề án.
 
 **Bước 2. Thiết kế nội dung chính sách**
@@ -43,22 +41,22 @@ description: "Soạn đề án chính sách mới trình cấp có thẩm quyề
 **Bước 3. Tính toán nguồn lực và lộ trình**
 - Làm gì: Dự toán kinh phí thực hiện theo năm; xác định nguồn ngân sách; lập lộ trình, tiến độ thực hiện theo giai đoạn.
 - Dùng input: `nguon_luc`, `lo_trinh`, `noi_dung_chinh_sach`.
-- Vai trò: Chuyên viên phối hợp Sở Tài chính tỉnh A thẩm tra khả năng cân đối ngân sách; AI hỗ trợ lập bảng dự toán ⏱ 2 ngày (ước tính) làm việc
+- Vai trò: Chuyên viên phối hợp cơ quan tài chính cùng cấp thẩm tra khả năng cân đối ngân sách; AI hỗ trợ lập bảng dự toán ⏱ 2 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Dự toán phải có căn cứ tính; nguồn lực phải trong khả năng cân đối của ngân sách địa phương.
 - → Kết quả bước: Bảng dự toán kinh phí và lộ trình thực hiện.
 
 **Bước 4. Lấy ý kiến và hoàn thiện đề án**
-- Làm gì: Gửi lấy ý kiến các sở, ngành liên quan và đối tượng chịu tác động; tổng hợp, tiếp thu, giải trình; hoàn thiện đề án.
+- Làm gì: Gửi lấy ý kiến các cơ quan, đơn vị liên quan và đối tượng chịu tác động; tổng hợp, tiếp thu, giải trình; hoàn thiện đề án.
 - Dùng input: Dự thảo đề án (kết quả các Bước 1–3).
 - Vai trò: Chuyên viên tổng hợp; AI hỗ trợ lập bảng tổng hợp ý kiến góp ý ⏱ 5 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Lấy ý kiến phải thực chất, đủ thành phần liên quan; ý kiến không tiếp thu phải giải trình rõ lý do.
 - → Kết quả bước: Đề án hoàn thiện kèm bảng tổng hợp tiếp thu ý kiến.
 
 **Bước 5. Trình thẩm định và trình ban hành**
-- Làm gì: Trình Sở Tư pháp thẩm định (nếu ban hành VBQPPL); trình UBND tỉnh xem xét, trình HĐND tỉnh quyết nghị (nếu thuộc thẩm quyền HĐND).
+- Làm gì: Trình cơ quan tư pháp thẩm định (nếu ban hành VBQPPL); trình UBND cùng cấp xem xét, trình HĐND cùng cấp quyết nghị (nếu thuộc thẩm quyền HĐND).
 - Dùng input: Đề án hoàn thiện (kết quả Bước 4).
-- Vai trò: Giám đốc Sở ký tờ trình; AI hỗ trợ soạn tờ trình theo thể thức ⏱ 1 ngày (ước tính) làm việc
-- Lưu ý nghiệp vụ: Đúng thẩm quyền quyết định (HĐND/UBND tỉnh); hồ sơ trình đầy đủ theo quy định.
+- Vai trò: Người đứng đầu cơ quan chuyên môn ký tờ trình; AI hỗ trợ soạn tờ trình theo thể thức ⏱ 1 ngày (ước tính) làm việc
+- Lưu ý nghiệp vụ: Đúng thẩm quyền quyết định (HĐND/UBND cùng cấp); hồ sơ trình đầy đủ theo quy định.
 - → Kết quả bước: Tờ trình + đề án trình cấp có thẩm quyền.
 
 ## Luồng quy trình (Workflow)
@@ -79,7 +77,7 @@ flowchart TD
 - Bảng tổng hợp, tiếp thu ý kiến góp ý.
 
 ### Cấu trúc output chuẩn
-Khung đề án chính sách trình HĐND/UBND tỉnh:
+Khung đề án chính sách trình HĐND/UBND cùng cấp:
 1. Tờ trình (đúng thể thức NĐ 30/2020/NĐ-CP): Quốc hiệu "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM" – Tiêu ngữ "Độc lập – Tự do – Hạnh phúc"; tên cơ quan ban hành; số, ký hiệu; địa danh, ngày tháng năm; tên loại + trích yếu; nội dung (sự cần thiết, mục đích, nội dung chính, kiến nghị); nơi nhận; chữ ký người có thẩm quyền.
 2. Đề án:
    - Phần I: Sự cần thiết ban hành chính sách.
@@ -99,9 +97,9 @@ Khung đề án chính sách trình HĐND/UBND tỉnh:
 - [ ] Nội dung chính sách đầy đủ: đối tượng, điều kiện, mức, trình tự, trách nhiệm.
 - [ ] Dự toán có căn cứ tính, nguồn lực trong khả năng cân đối ngân sách.
 - [ ] Đã lấy ý kiến đầy đủ thành phần; tiếp thu/giải trình rõ ràng.
-- [ ] Đúng thẩm quyền quyết định của HĐND/UBND tỉnh.
+- [ ] Đúng thẩm quyền quyết định của HĐND/UBND cùng cấp.
 - [ ] Đúng thể thức văn bản theo NĐ 30/2020/NĐ-CP.
-- [ ] Đã qua thẩm định của Sở Tư pháp (nếu ban hành VBQPPL).
+- [ ] Đã qua thẩm định của cơ quan tư pháp (nếu ban hành VBQPPL).
 
 ## 7. Ví dụ mô phỏng
 *Dữ liệu dưới đây là giả lập 100% phục vụ minh họa.*
@@ -126,10 +124,10 @@ Khung đề án chính sách trình HĐND/UBND tỉnh:
 > **ĐỀ ÁN** (kèm theo): gồm 7 phần theo cấu trúc chuẩn.
 
 ## 8. Human gate
-- Trưởng phòng chuyên môn thuộc Sở: kiểm tra nội dung đề án (Bước 2–3).
-- Giám đốc Sở: ký tờ trình đề án (Bước 5).
-- Sở Tư pháp: thẩm định (nếu ban hành VBQPPL).
-- UBND tỉnh / HĐND tỉnh: xem xét, quyết định.
+- Trưởng phòng chuyên môn: kiểm tra nội dung đề án (Bước 2–3).
+- Người đứng đầu cơ quan chuyên môn: ký tờ trình đề án (Bước 5).
+- Cơ quan tư pháp: thẩm định (nếu ban hành VBQPPL).
+- UBND cùng cấp / HĐND cùng cấp: xem xét, quyết định.
 
 ## 9. Giới hạn
 - AI không thay lãnh đạo quyết định nội dung chính sách.

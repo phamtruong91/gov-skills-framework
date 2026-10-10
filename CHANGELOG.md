@@ -1,5 +1,15 @@
 # Nhật ký thay đổi
 
+## v1.0.2 — 10/10/2026 — Tham số hóa skill Tầng 1 dùng chung mọi cấp
+
+Theo yêu cầu: viết lại 20 skill Tầng 1 bằng chức danh/đơn vị chung, dùng được mọi cấp hành chính (xã/phường, tỉnh, trung ương).
+
+### Thay đổi
+- `bao-cao-ktxh-tinh` → đổi tên thành `bao-cao-ktxh-dinh-ky`, viết lại nội dung chung (cơ quan tài chính/văn phòng UBND cùng cấp, UBND/HĐND cùng cấp).
+- 19 skill còn lại: "Chủ tịch UBND xã" → "người đứng đầu cơ quan"; "Chánh Văn phòng HĐND&UBND" → "Chánh Văn phòng"; "Giám đốc Sở" → "người đứng đầu cơ quan chuyên môn"; "UBND/HĐND tỉnh" → "UBND/HĐND cùng cấp"; "Trung tâm Phục vụ hành chính công" → "bộ phận một cửa"; "Sở Tư pháp/Tài chính" → "cơ quan tư pháp/tài chính".
+- Mục "7. Ví dụ mô phỏng", khối chữ ký mẫu, ký hiệu văn bản mẫu và căn cứ pháp lý giữ nguyên tên cụ thể để minh họa.
+- 6 skill `tw-*` giữ nguyên đặc thù trung ương (đã ghi rõ phạm vi áp dụng).
+
 ## v1.0.1 — 10/10/2026 — Rà soát chi tiết input/quy trình/output
 
 Đợt rà soát chi tiết toàn bộ 315 skill theo yêu cầu: kiểm tra tự động 100% + rà soát ngữ nghĩa mẫu 86 skill (26 Tầng 1, 60 mẫu 3 cấp).

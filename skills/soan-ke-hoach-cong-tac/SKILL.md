@@ -5,12 +5,11 @@ description: "Lập kế hoạch công tác tuần/tháng/quý/năm của đơn 
 
 # Skill: Lập kế hoạch công tác
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
 
 ## Khi nào dùng
 
-- Lập kế hoạch công tác tuần/tháng của UBND xã (phân công nhiệm vụ cho các phòng, đơn vị).
-- Lập kế hoạch công tác quý/năm của từng phòng chuyên môn (Văn phòng HĐND&UBND, Phòng Kinh tế, Phòng Văn hóa – Xã hội).
+- Lập kế hoạch công tác tuần/tháng của cơ quan (phân công nhiệm vụ cho các phòng, đơn vị).
+- Lập kế hoạch công tác quý/năm của từng phòng chuyên môn (Văn phòng, Phòng Kinh tế, Phòng Văn hóa – Xã hội).
 - Lập kế hoạch công tác của Trung tâm Phục vụ hành chính công (tiếp nhận, giải quyết TTHC).
 - Lập kế hoạch triển khai nhiệm vụ đột xuất, chuyên đề (phòng chống thiên tai, tổng điều tra, chiến dịch...).
 - Rà soát, điều chỉnh kế hoạch khi có chỉ đạo mới của cấp trên hoặc phát sinh nhiệm vụ.
@@ -33,8 +32,8 @@ description: "Lập kế hoạch công tác tuần/tháng/quý/năm của đơn 
 
 - Làm gì: Liệt kê các căn cứ lập kế hoạch (nghị quyết của Đảng ủy/HĐND, chỉ đạo của UBND tỉnh, kết quả kỳ trước); xác định 3–5 mục tiêu trọng tâm của kỳ kế hoạch.
 - Dùng input: `can_cu`, `muc_tieu`, `ky_ke_hoach`, `don_vi`.
-- Vai trò: Công chức phụ trách (Văn phòng HĐND&UBND hoặc phòng chuyên môn) xác định căn cứ, AI hỗ trợ tóm tắt căn cứ và đề xuất mục tiêu trọng tâm bám sát chỉ đạo cấp trên (⏱ 15 phút).
-- Lưu ý nghiệp vụ: Kế hoạch của phòng phải bám kế hoạch chung của UBND xã; kế hoạch của UBND xã phải bám chỉ đạo của cấp trên. Căn cứ ghi rõ tên văn bản, không bịa số hiệu.
+- Vai trò: Công chức phụ trách (Văn phòng hoặc phòng chuyên môn) xác định căn cứ, AI hỗ trợ tóm tắt căn cứ và đề xuất mục tiêu trọng tâm bám sát chỉ đạo cấp trên (⏱ 15 phút).
+- Lưu ý nghiệp vụ: Kế hoạch của phòng phải bám kế hoạch chung của cơ quan; kế hoạch của cơ quan phải bám chỉ đạo của cấp trên. Căn cứ ghi rõ tên văn bản, không bịa số hiệu.
 - → Kết quả bước: Phần căn cứ và mục tiêu, yêu cầu của kế hoạch.
 
 **Bước 2. Liệt kê và sắp xếp nhiệm vụ theo thứ tự ưu tiên**
@@ -50,7 +49,7 @@ description: "Lập kế hoạch công tác tuần/tháng/quý/năm của đơn 
 - Làm gì: Viết dự thảo kế hoạch gồm: căn cứ; mục đích, yêu cầu; nội dung công việc (bảng nhiệm vụ); tổ chức thực hiện; theo đúng thể thức văn bản hành chính.
 - Dùng input: `don_vi`, `ky_ke_hoach`, `muc_tieu`, `nhiem_vu` (đã sắp xếp ở Bước 2), `can_cu`.
 - Vai trò: Công chức phụ trách soạn thảo, AI hỗ trợ viết dự thảo hoàn chỉnh, kiểm tra tính nhất quán giữa bảng nhiệm vụ và phần tổ chức thực hiện (⏱ 30 phút).
-- Lưu ý nghiệp vụ: Ký hiệu loại văn bản "KH-UBND" (kế hoạch của UBND xã) hoặc "KH-[tên phòng]" (kế hoạch của phòng); không bịa số hiệu văn bản căn cứ.
+- Lưu ý nghiệp vụ: Ký hiệu loại văn bản "KH-UBND" (kế hoạch của cơ quan) hoặc "KH-[tên phòng]" (kế hoạch của phòng); không bịa số hiệu văn bản căn cứ.
 - → Kết quả bước: Dự thảo kế hoạch đầy đủ nội dung, đúng thể thức.
 
 **Bước 4. Lấy ý kiến các đơn vị liên quan**
@@ -63,10 +62,10 @@ description: "Lập kế hoạch công tác tuần/tháng/quý/năm của đơn 
 
 **Bước 5. Trình ký duyệt và triển khai theo dõi**
 
-- Làm gì: Trình lãnh đạo ký duyệt (Chủ tịch UBND xã đối với kế hoạch của UBND xã; Trưởng phòng đối với kế hoạch của phòng); phát hành kế hoạch; lập bảng theo dõi tiến độ thực hiện.
+- Làm gì: Trình lãnh đạo ký duyệt (người đứng đầu cơ quan đối với kế hoạch của cơ quan; Trưởng phòng đối với kế hoạch của phòng); phát hành kế hoạch; lập bảng theo dõi tiến độ thực hiện.
 - Dùng input: `nguoi_ky`, `don_vi`.
 - Vai trò: Lãnh đạo đơn vị ký duyệt; công chức phụ trách phát hành và lập bảng theo dõi (AI hỗ trợ tạo bảng theo dõi từ bảng nhiệm vụ: nhiệm vụ – đầu mối – thời hạn – tình trạng) (⏱ 15 phút).
-- Lưu ý nghiệp vụ: Kế hoạch tuần/tháng của UBND xã nên ban hành trước kỳ kế hoạch ít nhất 02 ngày làm việc; bảng theo dõi được cập nhật trong các cuộc họp giao ban.
+- Lưu ý nghiệp vụ: Kế hoạch tuần/tháng của cơ quan nên ban hành trước kỳ kế hoạch ít nhất 02 ngày làm việc; bảng theo dõi được cập nhật trong các cuộc họp giao ban.
 - → Kết quả bước: Kế hoạch đã ký, đã phát hành + bảng theo dõi tiến độ.
 
 ## Luồng quy trình (Workflow)
@@ -177,7 +176,7 @@ Thứ tự các phần bắt buộc của kế hoạch công tác:
 
 ## 8. Human gate
 
-- Công chức phụ trách soạn dự thảo → Trưởng phòng (đối với kế hoạch của phòng) hoặc Chánh Văn phòng HĐND&UBND (đối với kế hoạch của UBND xã) kiểm tra → Chủ tịch UBND xã (hoặc Trưởng phòng) ký duyệt → phát hành.
+- Công chức phụ trách soạn dự thảo → Trưởng phòng (đối với kế hoạch của phòng) hoặc Chánh Văn phòng (đối với kế hoạch của cơ quan) kiểm tra → người đứng đầu cơ quan (hoặc Trưởng phòng) ký duyệt → phát hành.
 - Kế hoạch có phân công nhiều đơn vị: phải lấy ý kiến các đơn vị liên quan trước khi trình ký.
 
 ## 9. Giới hạn
@@ -186,7 +185,7 @@ Thứ tự các phần bắt buộc của kế hoạch công tác:
 - AI KHÔNG tự ký, tự phát hành kế hoạch.
 - AI KHÔNG bịa căn cứ pháp lý, số hiệu văn bản; căn cứ nào chưa xác thực thì ghi tên văn bản, không gắn số hiệu.
 - AI KHÔNG áp đặt thời hạn, đầu mối mà đơn vị liên quan chưa xác nhận khả năng thực hiện.
-- Kế hoạch của phòng chuyên môn không được trái với kế hoạch chung của UBND xã — AI phải cảnh báo khi phát hiện mâu thuẫn.
+- Kế hoạch của phòng chuyên môn không được trái với kế hoạch chung của cơ quan — AI phải cảnh báo khi phát hiện mâu thuẫn.
 
 ## 10. Căn cứ & lưu ý
 

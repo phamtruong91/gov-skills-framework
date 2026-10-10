@@ -5,12 +5,10 @@ description: "Số hóa hồ sơ, tài liệu giấy và tổ chức lưu trữ 
 
 # Skill: Số hóa, lưu trữ hồ sơ
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
-
 ## Khi nào dùng
 
-- Triển khai số hóa hồ sơ, tài liệu giấy đang lưu tại Văn phòng HĐND&UBND, các phòng, Trung tâm PVHCC.
-- Xây dựng hoặc chuẩn hóa quy tắc đặt tên file, cây thư mục lưu trữ dùng chung toàn xã.
+- Triển khai số hóa hồ sơ, tài liệu giấy đang lưu tại Văn phòng, các phòng, bộ phận một cửa.
+- Xây dựng hoặc chuẩn hóa quy tắc đặt tên file, cây thư mục lưu trữ dùng chung toàn cơ quan.
 - Tổ chức lưu trữ hồ sơ điện tử, thay thế dần việc tra cứu hồ sơ giấy.
 - Tra cứu, khai thác, cung cấp bản sao hồ sơ lưu trữ cho cá nhân, tổ chức có yêu cầu hợp lệ.
 - Rà soát an toàn kho dữ liệu: phân quyền truy cập, sao lưu dự phòng, nhật ký tra cứu.
@@ -21,7 +19,7 @@ description: "Số hóa hồ sơ, tài liệu giấy và tổ chức lưu trữ 
 |--------|-------|----------|
 | `danh_muc_ho_so_so_hoa` | Liệt kê nhóm hồ sơ, loại tài liệu, số lượng ước tính cần số hóa | Có |
 | `thoi_gian_thuc_hien` | Kế hoạch đợt số hóa (bắt đầu, kết thúc) | Có |
-| `thiet_bi_phan_mem` | Máy quét, phần mềm quản lý tài liệu hiện có của xã | Không |
+| `thiet_bi_phan_mem` | Máy quét, phần mềm quản lý tài liệu hiện có của cơ quan | Không |
 | `quy_uoc_dat_ten` | Quy tắc đặt tên file/thư mục (nếu chưa có, AI đề xuất dự thảo) | Không |
 | `vi_tri_luu_tru` | Máy chủ hoặc thư mục dùng chung lưu trữ hồ sơ điện tử | Có |
 | `phan_quyen_truy_cap` | Danh sách ai được xem/sửa từng nhóm hồ sơ | Có |
@@ -48,10 +46,10 @@ description: "Số hóa hồ sơ, tài liệu giấy và tổ chức lưu trữ 
 
 **Bước 3. Đặt tên file và nhập thông tin mô tả**
 
-- Làm gì: Đặt tên file theo quy ước thống nhất toàn xã (VD: [Mã loại]-[Số hiệu văn bản]-[Ngày]-[Trích yếu rút gọn]); nhập thông tin mô tả tối thiểu cho mỗi hồ sơ: số hiệu, ngày văn bản, tên loại, trích yếu, đơn vị ban hành/lưu giữ.
+- Làm gì: Đặt tên file theo quy ước thống nhất toàn cơ quan (VD: [Mã loại]-[Số hiệu văn bản]-[Ngày]-[Trích yếu rút gọn]); nhập thông tin mô tả tối thiểu cho mỗi hồ sơ: số hiệu, ngày văn bản, tên loại, trích yếu, đơn vị ban hành/lưu giữ.
 - Dùng input: `quy_uoc_dat_ten`, file quét (bước 2).
 - Vai trò: Công chức văn thư đặt tên và nhập liệu (AI hỗ trợ đề xuất tên file từ nội dung trích yếu, kiểm tra tên trùng lặp trong kho lưu trữ). ⏱ 5 phút (ước tính)/hồ sơ.
-- Lưu ý nghiệp vụ: `quy_uoc_dat_ten` (có dấu hay không dấu, ký tự phân cách) phải thống nhất toàn xã và được phê duyệt; tuyệt đối không đặt tên chung chung kiểu "scan001.pdf".
+- Lưu ý nghiệp vụ: `quy_uoc_dat_ten` (có dấu hay không dấu, ký tự phân cách) phải thống nhất toàn cơ quan và được phê duyệt; tuyệt đối không đặt tên chung chung kiểu "scan001.pdf".
 - → Kết quả bước: File đã đặt tên đúng quy ước, có đầy đủ thông tin mô tả.
 
 **Bước 4. Kiểm tra chất lượng và nghiệm thu đợt quét**
@@ -170,8 +168,8 @@ TRƯỞNG ĐOÀN · THÀNH VIÊN
 
 ## 8. Human gate
 
-- Công chức văn thư – lưu trữ thực hiện quét, đặt tên, nhập liệu → Chánh Văn phòng HĐND&UBND nghiệm thu chất lượng, phê duyệt quy ước đặt tên và danh sách phân quyền.
-- Kế hoạch số hóa đợt lớn, quy chế khai thác kho lưu trữ (nếu ban hành) do Chủ tịch UBND xã phê duyệt.
+- Công chức văn thư – lưu trữ thực hiện quét, đặt tên, nhập liệu → Chánh Văn phòng nghiệm thu chất lượng, phê duyệt quy ước đặt tên và danh sách phân quyền.
+- Kế hoạch số hóa đợt lớn, quy chế khai thác kho lưu trữ (nếu ban hành) do người đứng đầu cơ quan phê duyệt.
 
 ## 9. Giới hạn
 

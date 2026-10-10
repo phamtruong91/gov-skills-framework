@@ -5,10 +5,8 @@ description: "Lập kế hoạch, tiến hành thanh tra chuyên ngành; ban hà
 
 # Skill: Thanh tra chuyên ngành (mẫu chung)
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
-
 ## 2. Khi nào dùng
-- Lập kế hoạch thanh tra hằng năm của sở, ngành, Thanh tra tỉnh, Thanh tra bộ.
+- Lập kế hoạch thanh tra hằng năm của cơ quan chuyên môn, cơ quan thanh tra cùng cấp, Thanh tra bộ.
 - Tiến hành cuộc thanh tra chuyên ngành theo kế hoạch hoặc thanh tra đột xuất khi có dấu hiệu vi phạm.
 - Ban hành kết luận thanh tra và theo dõi, đôn đốc thực hiện kết luận, kiến nghị.
 
@@ -28,14 +26,14 @@ description: "Lập kế hoạch, tiến hành thanh tra chuyên ngành; ban hà
 **Bước 1. Lập và phê duyệt kế hoạch thanh tra**
 - Làm gì: Xây dựng kế hoạch thanh tra năm (hoặc kế hoạch cuộc thanh tra đột xuất): đối tượng, nội dung, thời gian, lực lượng; trình người có thẩm quyền phê duyệt.
 - Dùng input: `ten_cuoc_thanh_tra`, `doi_tuong_thanh_tra`, `noi_dung_thanh_tra`.
-- Vai trò: Chánh Thanh tra sở / Chánh Thanh tra tỉnh chủ trì; AI hỗ trợ lập kế hoạch theo khung, tránh trùng lắp với kế hoạch của cơ quan khác ⏱ 2 ngày (ước tính) làm việc
+- Vai trò: Chánh Thanh tra cùng cấp chủ trì; AI hỗ trợ lập kế hoạch theo khung, tránh trùng lắp với kế hoạch của cơ quan khác ⏱ 2 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Kế hoạch phải tránh thanh tra trùng, chồng chéo; thanh tra đột xuất phải có căn cứ (dấu hiệu vi phạm, chỉ đạo của cấp trên, đơn tố cáo có cơ sở).
 - → Kết quả bước: Kế hoạch thanh tra đã phê duyệt.
 
 **Bước 2. Ban hành quyết định thanh tra, công bố quyết định**
 - Làm gì: Soạn quyết định thanh tra (căn cứ, đối tượng, nội dung, thời kỳ, đoàn thanh tra, thời gian); công bố quyết định tại đối tượng thanh tra.
 - Dùng input: `doan_thanh_tra`, `thoi_gian_tien_hanh`, `can_cu_phap_ly`.
-- Vai trò: Người ra quyết định thanh tra ký (Giám đốc Sở / Chánh Thanh tra tỉnh / Chủ tịch UBND tỉnh theo thẩm quyền); AI hỗ trợ soạn quyết định đúng thể thức ⏱ 1 ngày (ước tính) làm việc
+- Vai trò: Người ra quyết định thanh tra ký (người đứng đầu cơ quan chuyên môn / Chánh Thanh tra cùng cấp / người đứng đầu UBND cùng cấp theo thẩm quyền); AI hỗ trợ soạn quyết định đúng thể thức ⏱ 1 ngày (ước tính) làm việc
 - Lưu ý nghiệp vụ: Quyết định phải đúng thẩm quyền, đúng trình tự; công bố công khai tại đối tượng thanh tra.
 - → Kết quả bước: Quyết định thanh tra + biên bản công bố.
 
@@ -138,7 +136,7 @@ Khung kết luận thanh tra, đúng thể thức NĐ 30/2020/NĐ-CP:
 > 4. Kiến nghị: ...
 
 ## 8. Human gate
-- Người ra quyết định thanh tra (Giám đốc Sở / Chánh Thanh tra tỉnh / Chủ tịch UBND tỉnh): phê duyệt kế hoạch, ký quyết định và kết luận thanh tra.
+- Người ra quyết định thanh tra (người đứng đầu cơ quan chuyên môn / Chánh Thanh tra cùng cấp / người đứng đầu UBND cùng cấp): phê duyệt kế hoạch, ký quyết định và kết luận thanh tra.
 - Trưởng đoàn thanh tra: chịu trách nhiệm về tính chính xác của báo cáo kết quả.
 
 ## 9. Giới hạn

@@ -5,12 +5,11 @@ description: "Soạn tờ trình xin chủ trương, phê duyệt của cấp c�
 
 # Skill: Soạn tờ trình
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
 
 ## Khi nào dùng
 
 - Soạn tờ trình Đảng ủy xã xin chủ trương về các vấn đề quan trọng (dự án đầu tư công, sắp xếp tổ chức, công tác cán bộ...).
-- Soạn tờ trình HĐND xã xin phê duyệt kế hoạch phát triển kinh tế – xã hội, dự toán ngân sách, chương trình giám sát.
+- Soạn tờ trình HĐND cùng cấp xin phê duyệt kế hoạch phát triển kinh tế – xã hội, dự toán ngân sách, chương trình giám sát.
 - Soạn tờ trình UBND cấp tỉnh (qua sở chuyên ngành) xin phê duyệt, xin ý kiến đối với nội dung vượt thẩm quyền của xã.
 - Soạn tờ trình xin chủ trương sử dụng ngân sách, nguồn lực cho nhiệm vụ phát sinh ngoài kế hoạch.
 - Soạn tờ trình đề nghị cấp trên ban hành văn bản hướng dẫn, giải quyết vướng mắc trong thực thi nhiệm vụ.
@@ -36,7 +35,7 @@ description: "Soạn tờ trình xin chủ trương, phê duyệt của cấp c�
 
 **Bước 1. Xác định cấp trình và thẩm quyền quyết định**
 
-- Làm gì: Đọc `cap_trinh`, `noi_dung_de_nghi` để xác định đúng cấp có thẩm quyền quyết định nội dung xin trình (Đảng ủy xã cho chủ trương, HĐND xã cho kế hoạch/ngân sách, UBND cấp tỉnh cho nội dung vượt thẩm quyền xã); đối chiếu phân cấp, phân quyền hiện hành.
+- Làm gì: Đọc `cap_trinh`, `noi_dung_de_nghi` để xác định đúng cấp có thẩm quyền quyết định nội dung xin trình (Đảng ủy xã cho chủ trương, HĐND cùng cấp cho kế hoạch/ngân sách, UBND cấp tỉnh cho nội dung vượt thẩm quyền xã); đối chiếu phân cấp, phân quyền hiện hành.
 - Dùng input: `cap_trinh`, `noi_dung_de_nghi`.
 - Vai trò: Lãnh đạo đơn vị soạn thảo xác định; AI hỗ trợ đối chiếu thẩm quyền theo chuỗi 28 NĐ 120–152/2025/NĐ-CP và đề xuất cấp trình đúng ⏱ ~10 phút (ước tính).
 - Lưu ý nghiệp vụ: Trình sai cấp là lỗi nghiêm trọng — phải xác định đúng trước khi soạn. Nội dung thuộc thẩm quyền quyết định của HĐND phải trình HĐND, không trình Đảng ủy thay thế.
@@ -71,7 +70,7 @@ description: "Soạn tờ trình xin chủ trương, phê duyệt của cấp c�
 - Làm gì: Dựng khung thể thức đầy đủ: quốc hiệu–tiêu ngữ; tên cơ quan ban hành; số, ký hiệu "..../TTr-UBND"; địa danh, ngày tháng năm; tên loại "TỜ TRÌNH" và trích yếu; nội dung; nơi nhận; chữ ký người ký.
 - Dùng input: Dự thảo nội dung đã tiếp thu (Bước 4), `don_vi_soan_thao`, `nguoi_ky_du_kien`, `noi_nhan`, `ngay_ban_hanh`, `cap_trinh`.
 - Vai trò: Công chức văn thư/văn phòng thực hiện; AI hỗ trợ: kiểm tra đầy đủ thành phần thể thức và vị trí các khối ⏱ ~10 phút (ước tính).
-- Lưu ý nghiệp vụ: Dòng "Kính gửi:" ghi đúng tên cấp trình (ví dụ: "Kính gửi: Đảng ủy xã A", "Kính gửi: Hội đồng nhân dân xã A", "Kính gửi: Ủy ban nhân dân tỉnh A"). Tờ trình của UBND xã do Chủ tịch UBND xã ký ("TM. ỦY BAN NHÂN DÂN" – "CHỦ TỊCH").
+- Lưu ý nghiệp vụ: Dòng "Kính gửi:" ghi đúng tên cấp trình (ví dụ: "Kính gửi: Đảng ủy xã A", "Kính gửi: HĐND cùng cấp", "Kính gửi: Ủy ban nhân dân tỉnh A"). Tờ trình của cơ quan do người đứng đầu cơ quan ký ("TM. ỦY BAN NHÂN DÂN" – "CHỦ TỊCH").
 - → Kết quả bước: Bản dự thảo tờ trình đúng thể thức, sẵn sàng trình.
 
 **Bước 6. Trình ký và gửi**
@@ -132,7 +131,7 @@ Khung cố định của một tờ trình, các phần bắt buộc theo đúng
 7. Kiến nghị rõ ràng: đề nghị cấp trình xem xét, quyết định/phê duyệt nội dung gì.
 8. Ý kiến các phòng liên quan (nếu có) được tổng hợp đầy đủ, kể cả ý kiến trái chiều.
 9. Không bịa số liệu, căn cứ pháp lý; số liệu là số tròn, có nguồn rõ ràng.
-10. Đã qua human gate: Chánh Văn phòng kiểm tra thể thức, Chủ tịch UBND xã duyệt nội dung và ký trước khi gửi.
+10. Đã qua human gate: Chánh Văn phòng kiểm tra thể thức, người đứng đầu cơ quan duyệt nội dung và ký trước khi gửi.
 
 ## 7. Ví dụ mô phỏng
 
@@ -196,9 +195,9 @@ Nguyễn Văn A
 
 - **Công chức phòng chuyên môn** → soạn dự thảo, chịu trách nhiệm về nội dung, số liệu, căn cứ pháp lý.
 - **Trưởng phòng chuyên môn** → kiểm tra tính đúng đắn nghiệp vụ, sự cần thiết của nội dung trình.
-- **Chánh Văn phòng HĐND&UBND** → kiểm tra thể thức, tính thống nhất với các văn bản liên quan.
-- **Chủ tịch UBND xã** → duyệt nội dung, ký ban hành tờ trình.
-- Tờ trình chỉ được gửi đi sau khi Chủ tịch UBND xã ký; nội dung xin chủ trương quan trọng nên báo cáo tập thể lãnh đạo UBND xã trước khi trình.
+- **Chánh Văn phòng** → kiểm tra thể thức, tính thống nhất với các văn bản liên quan.
+- **người đứng đầu cơ quan** → duyệt nội dung, ký ban hành tờ trình.
+- Tờ trình chỉ được gửi đi sau khi người đứng đầu cơ quan ký; nội dung xin chủ trương quan trọng nên báo cáo tập thể lãnh đạo cơ quan trước khi trình.
 
 ## 9. Giới hạn
 

@@ -5,7 +5,6 @@ description: "Lập phiếu trình kèm dự thảo văn bản trình lãnh đ�
 
 # Skill: Phiếu trình ký duyệt
 
-> **Ghi chú áp dụng đa cấp:** Skill dùng chung cho mọi cấp hành chính. Các chức danh, đơn vị nêu trong quy trình (ví dụ: "Chủ tịch UBND xã", "Chánh Văn phòng", "Sở Tài chính") được viết theo mẫu minh họa — khi áp dụng ở cấp khác, thay bằng chức danh/đơn vị tương ứng của cấp đó (cấp tỉnh: Chủ tịch UBND tỉnh, Giám đốc Sở; cấp trung ương: Bộ trưởng, Vụ trưởng/Cục trưởng).
 
 ## Khi nào dùng
 
@@ -35,10 +34,10 @@ description: "Lập phiếu trình kèm dự thảo văn bản trình lãnh đ�
 
 **Bước 1. Xác định lãnh đạo có thẩm quyền phê duyệt**
 
-- Làm gì: Đọc `van_ban_trinh`, `de_xuat_don_vi` để xác định nội dung thuộc lĩnh vực phụ trách của Chủ tịch hay Phó Chủ tịch UBND xã (theo phân công của UBND xã); kiểm tra nội dung có cần báo cáo tập thể lãnh đạo không.
+- Làm gì: Đọc `van_ban_trinh`, `de_xuat_don_vi` để xác định nội dung thuộc lĩnh vực phụ trách của người đứng đầu cơ quan hay cấp phó (theo phân công của cơ quan); kiểm tra nội dung có cần báo cáo tập thể lãnh đạo không.
 - Dùng input: `van_ban_trinh`, `de_xuat_don_vi`, `lanh_dao_phe_duyet`.
-- Vai trò: Trưởng phòng/đơn vị soạn thảo xác định; AI hỗ trợ đối chiếu với phân công phụ trách của lãnh đạo UBND xã ⏱ ~5 phút (ước tính).
-- Lưu ý nghiệp vụ: Trình đúng người phụ trách lĩnh vực; nội dung quan trọng (chủ trương lớn, kinh phí lớn) phải báo cáo tập thể lãnh đạo UBND xã trước khi trình ký cá nhân.
+- Vai trò: Trưởng phòng/đơn vị soạn thảo xác định; AI hỗ trợ đối chiếu với phân công phụ trách của lãnh đạo cơ quan ⏱ ~5 phút (ước tính).
+- Lưu ý nghiệp vụ: Trình đúng người phụ trách lĩnh vực; nội dung quan trọng (chủ trương lớn, kinh phí lớn) phải báo cáo tập thể lãnh đạo cơ quan trước khi trình ký cá nhân.
 - → Kết quả bước: Xác định đúng lãnh đạo trình ký.
 
 **Bước 2. Thu thập ý kiến các phòng liên quan**
@@ -69,7 +68,7 @@ description: "Lập phiếu trình kèm dự thảo văn bản trình lãnh đ�
 
 - Làm gì: Người trình (`nguoi_trinh`) trình trực tiếp hoặc qua Văn phòng; lãnh đạo xem xét, cho ý kiến (đồng ý ký / sửa nội dung / không đồng ý); ghi nhận đầy đủ ý kiến chỉ đạo của lãnh đạo vào phiếu trình; chuyển lại đơn vị soạn thảo hoàn thiện (nếu có sửa).
 - Dùng input: `nguoi_trinh`, `lanh_dao_phe_duyet`, `ngay_trinh`.
-- Vai trò: Người trình (Trưởng phòng/công chức) trình bày ngắn gọn (⏱ 3–5 phút); Chánh Văn phòng HĐND&UBND theo dõi, đôn đốc; Chủ tịch/Phó Chủ tịch UBND xã cho ý kiến, ký duyệt (⏱ 10–15 phút); AI hỗ trợ: tổng hợp đầy đủ hồ sơ trình ký, nhắc các nội dung chờ ý kiến — tổng ước tính 20 phút (chưa tính thời gian chờ).
+- Vai trò: Người trình (Trưởng phòng/công chức) trình bày ngắn gọn (⏱ 3–5 phút); Chánh Văn phòng theo dõi, đôn đốc; người đứng đầu cơ quan hoặc cấp phó cho ý kiến, ký duyệt (⏱ 10–15 phút); AI hỗ trợ: tổng hợp đầy đủ hồ sơ trình ký, nhắc các nội dung chờ ý kiến — tổng ước tính 20 phút (chưa tính thời gian chờ).
 - Lưu ý nghiệp vụ: Mọi ý kiến chỉ đạo của lãnh đạo (kể cả chỉ đạo miệng) phải được ghi lại đầy đủ, chính xác vào phiếu trình. Nếu lãnh đạo yêu cầu sửa nội dung, đơn vị soạn thảo phải sửa và trình lại, không tự ý phát hành bản chưa được duyệt.
 - → Kết quả bước: Phiếu trình có ý kiến phê duyệt/ký duyệt của lãnh đạo; văn bản được ký ban hành hoặc trả lại để hoàn thiện.
 
@@ -189,8 +188,8 @@ Nguyễn Văn A
 
 - **Công chức soạn thảo (người trình)** → soạn phiếu trình, chịu trách nhiệm về tính trung thực của tóm tắt và ý kiến các phòng.
 - **Trưởng phòng/đơn vị soạn thảo** → kiểm tra, ký nháy xác nhận trước khi trình.
-- **Chánh Văn phòng HĐND&UBND** → kiểm tra thể thức, tính đầy đủ hồ sơ; cho ý kiến vào phiếu trình; theo dõi, đôn đốc việc trình ký.
-- **Chủ tịch / Phó Chủ tịch UBND xã** → xem xét, cho ý kiến phê duyệt, ký duyệt văn bản trình.
+- **Chánh Văn phòng** → kiểm tra thể thức, tính đầy đủ hồ sơ; cho ý kiến vào phiếu trình; theo dõi, đôn đốc việc trình ký.
+- **người đứng đầu cơ quan / cấp phó** → xem xét, cho ý kiến phê duyệt, ký duyệt văn bản trình.
 - Văn bản chỉ được ban hành sau khi lãnh đạo ký duyệt trên phiếu trình (hoặc ký trực tiếp vào văn bản).
 
 ## 9. Giới hạn
